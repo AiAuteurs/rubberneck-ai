@@ -63,10 +63,11 @@
   }
 
   /* TICKER */
-  .ticker { background: var(--red); padding: 0.9rem 0; overflow: hidden; }
-  .ticker-track { display: flex; gap: 3rem; width: max-content; animation: tick 28s linear infinite; }
+  .ticker { background: #111; padding: 0.75rem 0; overflow: hidden; border-top: 1px solid #1e1e1e; border-bottom: 1px solid #1e1e1e; }
+  .ticker-track { display: flex; gap: 2.5rem; width: max-content; animation: tick 32s linear infinite; }
   @keyframes tick { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-  .ticker-item { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; letter-spacing: 0.18em; color: var(--white); white-space: nowrap; flex-shrink: 0; }
+  .ticker-item { font-family: 'Bebas Neue', sans-serif; font-size: 0.85rem; letter-spacing: 0.25em; color: rgba(255,255,255,0.65); white-space: nowrap; flex-shrink: 0; }
+  .ticker-item.dot { color: var(--red); font-size: 0.6rem; }
 
   /* WHAT — NAVY */
   .sec-navy { background: var(--navy); padding: 7rem 3rem; }
@@ -84,11 +85,12 @@
     margin-top: 2rem; border: 1px solid rgba(255,255,255,0.08);
   }
   .spec-item {
-    background: var(--navy); padding: 1.4rem 1.5rem;
+    background: rgba(255,255,255,0.03); padding: 1.2rem 1.5rem; border-radius: 0;
   }
-  .spec-label { font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 0.4rem; }
-  .spec-value { font-size: 0.9rem; font-weight: 400; color: var(--white); line-height: 1.5; }
-  .spec-value span { color: var(--red); }
+  .spec-label { font-size: 0.58rem; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 0.5rem; }
+  .spec-value { font-size: 0.82rem; font-weight: 400; color: var(--white); line-height: 1.6; letter-spacing: 0.04em; white-space: nowrap; }
+  .spec-value small { display: block; font-size: 0.68rem; color: rgba(255,255,255,0.35); margin-top: 0.3rem; white-space: normal; letter-spacing: 0.02em; }
+  
 
   /* WHO — BLACK */
   .sec-black-who { background: var(--black); padding: 7rem 3rem; border-top: 1px solid #111; }
@@ -212,26 +214,26 @@
 <section class="hero">
   <h1>RUBBER<br>NECK<span>.</span>AI</h1>
   <p class="hero-tagline">People will stare. You're welcome.</p>
-  <p class="hero-meta"><span>The World's Premier AI Video Studio</span><span>First Cut · 48hrs After Brief</span><span>Every Format. Every Platform.</span></p>
+  <p class="hero-meta"><span>AI Video Made To Be Stared At</span><span>First Cut · 48hrs After Brief</span></p>
 </section>
 
 <!-- TICKER -->
 <div class="ticker">
   <div class="ticker-track">
-    <span class="ticker-item">AI VIDEO SPOTS</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">FIRST CUT 48HRS AFTER APPROVED BRIEF</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">:06 · :15 · :30 · :60</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">16×9 · 9×16 · 1:1</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">THE WORLD'S PREMIER AI VIDEO STUDIO</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">2 ROUNDS OF REVISIONS</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">YOUR CONCEPT OR OURS</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">AI VIDEO SPOTS</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">FIRST CUT 48HRS AFTER APPROVED BRIEF</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">:06 · :15 · :30 · :60</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">16×9 · 9×16 · 1:1</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">THE WORLD'S PREMIER AI VIDEO STUDIO</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">2 ROUNDS OF REVISIONS</span><span class="ticker-item">✦</span>
-    <span class="ticker-item">YOUR CONCEPT OR OURS</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">AI VIDEO SPOTS</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">FIRST CUT 48HRS AFTER APPROVED BRIEF</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">:06 · :15 · :30 · :60</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">16×9 · 9×16 · 1:1</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">AI VIDEO MADE TO BE STARED AT</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">2 ROUNDS OF REVISIONS</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">YOUR CONCEPT OR OURS</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">AI VIDEO SPOTS</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">FIRST CUT 48HRS AFTER APPROVED BRIEF</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">:06 · :15 · :30 · :60</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">16×9 · 9×16 · 1:1</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">AI VIDEO MADE TO BE STARED AT</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">2 ROUNDS OF REVISIONS</span><span class="ticker-item dot">●</span>
+    <span class="ticker-item">YOUR CONCEPT OR OURS</span><span class="ticker-item dot">●</span>
   </div>
 </div>
 
@@ -239,28 +241,29 @@
 <section class="sec-navy">
   <span class="label" style="color:rgba(255,255,255,0.3)">What We Do</span>
   <div class="two-col">
-    <h2 class="big-h" style="color:var(--white)">AI SPOTS BUILT TO STOP THE SCROLL. EVERY PLATFORM. EVERY FORMAT.</h2>
+    <h2 class="big-h" style="color:var(--white)">AI SPOTS BUILT TO STOP THE SCROLL.</h2>
     <div class="body-copy">
-      <p><strong>Bring us your concept and we'll run with it.</strong> Or bring us nothing and we'll concept for you. Either way, you send us your logo and any assets that must appear in the spot — we handle everything else.</p>
-      <p>Your first cut lands in 48 hours. Two rounds of revisions included. Delivered in every aspect ratio you need, ready to run the moment it hits your inbox.</p>
-      <p><strong>No bloated production timelines. No agency markup. Just work that makes people look.</strong></p>
+      <p><strong>Bring us your concept and we'll run with it.</strong> Need us to concept from scratch? We do that too — quoted as a separate line item. Either way, you send us your logo and any mandatory brand assets.</p>
+      <p>Your first cut lands in 48 hours after brief approval. Two rounds of revisions included. <strong>No bloated timelines. No agency markup. Just work that makes people look.</strong></p>
+    </div>
+  </div>
 
-      <div class="specs-grid">
+      <div class="specs-grid" style="grid-template-columns: repeat(4,1fr); margin-top:2.5rem;">
         <div class="spec-item">
           <div class="spec-label">Spot Lengths</div>
-          <div class="spec-value"><span>:06 · :15 · :30 · :60</span><br>and everything in between</div>
+          <div class="spec-value">:06 · :15 · :30 · :60<small>Custom lengths on request</small></div>
         </div>
         <div class="spec-item">
           <div class="spec-label">Delivery Formats</div>
-          <div class="spec-value">16×9 · 9×16 · 1:1<br>All your social needs covered</div>
+          <div class="spec-value">16×9 · 9×16 · 1:1<small>Additional formats quoted</small></div>
         </div>
         <div class="spec-item">
           <div class="spec-label">Concept</div>
-          <div class="spec-value">We concept for you<br>or execute yours</div>
+          <div class="spec-value">Bring yours — we execute.<small>Concepting available, quoted separately</small></div>
         </div>
         <div class="spec-item">
           <div class="spec-label">What You Provide</div>
-          <div class="spec-value">Your logo + any mandatory brand assets. We do the rest.</div>
+          <div class="spec-value">Logo + mandatory assets.<small>We handle everything else</small></div>
         </div>
       </div>
     </div>
@@ -284,8 +287,6 @@
         <strong>Michael Matassa</strong>
         20+ Year Creative Video Editor · Award-Winning AI Filmmaker · Founder, Rubberneck.ai
       </div>
-    </div>
-  </div>
 </section>
 
 <!-- STATS — CREAM -->
@@ -319,7 +320,7 @@
           This is a one-time founding offer. When these 10 spots are gone, they're gone.
         </div>
         <ul class="included-list">
-          <li>We concept for you — or execute your idea</li>
+          <li>You bring the concept — or we develop one for you at an additional quoted rate</li>
           <li>You provide logo and mandatory brand assets</li>
           <li>First cut delivered 48 hours after approved brief</li>
           <li>2 rounds of revisions included</li>
@@ -396,6 +397,55 @@
       <p class="step-title">Delivery</p>
       <p class="step-desc">First cut 48 hours after approved brief. Two rounds of revisions included. Every format — 16×9, 9×16, 1:1 — delivered and ready to run.</p>
     </div>
+  </div>
+</section>
+
+
+<!-- FAQ — CREAM -->
+<section style="background:var(--cream); padding:7rem 3rem;">
+  <span class="label" style="color:var(--red)">FAQ</span>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:0; max-width:1100px;">
+
+    <div style="padding:2rem 2.5rem 2rem 0; border-bottom:1px solid rgba(0,0,0,0.1); border-right:1px solid rgba(0,0,0,0.1);">
+      <p style="font-family:'Bebas Neue',sans-serif; font-size:1.1rem; letter-spacing:0.05em; color:var(--black); margin-bottom:0.75rem;">How does the process work?</p>
+      <p style="font-size:0.88rem; color:#444; line-height:1.8; font-weight:300;">Submit your spot, name your price, share your concept. We review it personally and come back to you within 24 hours. If we're aligned, you pay 50% upfront and we get to work. First cut in 48 hours after brief approval.</p>
+    </div>
+
+    <div style="padding:2rem 0 2rem 2.5rem; border-bottom:1px solid rgba(0,0,0,0.1);">
+      <p style="font-family:'Bebas Neue',sans-serif; font-size:1.1rem; letter-spacing:0.05em; color:var(--black); margin-bottom:0.75rem;">What do I need to provide?</p>
+      <p style="font-size:0.88rem; color:#444; line-height:1.8; font-weight:300;">Your logo, any mandatory brand assets, and your brief. If you have a concept, bring it. If not, we can develop one — quoted separately. The more you give us, the better the first cut.</p>
+    </div>
+
+    <div style="padding:2rem 2.5rem 2rem 0; border-bottom:1px solid rgba(0,0,0,0.1); border-right:1px solid rgba(0,0,0,0.1);">
+      <p style="font-family:'Bebas Neue',sans-serif; font-size:1.1rem; letter-spacing:0.05em; color:var(--black); margin-bottom:0.75rem;">What does "48 hours" actually mean?</p>
+      <p style="font-size:0.88rem; color:#444; line-height:1.8; font-weight:300;">48 hours from the moment your brief is approved — not from when you submit. We align on the direction first, then the clock starts. No surprises, no moving goalposts.</p>
+    </div>
+
+    <div style="padding:2rem 0 2rem 2.5rem; border-bottom:1px solid rgba(0,0,0,0.1);">
+      <p style="font-family:'Bebas Neue',sans-serif; font-size:1.1rem; letter-spacing:0.05em; color:var(--black); margin-bottom:0.75rem;">How do revisions work?</p>
+      <p style="font-size:0.88rem; color:#444; line-height:1.8; font-weight:300;">Two rounds included in every project. A revision round is one consolidated set of feedback in a single communication. Round three and beyond are quoted before we begin. No open-ended revision loops.</p>
+    </div>
+
+    <div style="padding:2rem 2.5rem 2rem 0; border-bottom:1px solid rgba(0,0,0,0.1); border-right:1px solid rgba(0,0,0,0.1);">
+      <p style="font-family:'Bebas Neue',sans-serif; font-size:1.1rem; letter-spacing:0.05em; color:var(--black); margin-bottom:0.75rem;">What formats do you deliver?</p>
+      <p style="font-size:0.88rem; color:#444; line-height:1.8; font-weight:300;">16×9, 9×16, and 1:1 are included as standard. That covers broadcast, Instagram, TikTok, and YouTube. Additional formats or custom aspect ratios are available and quoted separately.</p>
+    </div>
+
+    <div style="padding:2rem 0 2rem 2.5rem; border-bottom:1px solid rgba(0,0,0,0.1);">
+      <p style="font-family:'Bebas Neue',sans-serif; font-size:1.1rem; letter-spacing:0.05em; color:var(--black); margin-bottom:0.75rem;">Can I cancel after we start?</p>
+      <p style="font-size:0.88rem; color:#444; line-height:1.8; font-weight:300;">Once production begins, cancellation is not permitted and the upfront payment is non-refundable. We invest real creative resources from brief approval. If you need to pause before we start, contact us immediately.</p>
+    </div>
+
+    <div style="padding:2rem 2.5rem 2rem 0; border-right:1px solid rgba(0,0,0,0.1);">
+      <p style="font-family:'Bebas Neue',sans-serif; font-size:1.1rem; letter-spacing:0.05em; color:var(--black); margin-bottom:0.75rem;">What's the founding member offer?</p>
+      <p style="font-size:0.88rem; color:#444; line-height:1.8; font-weight:300;">The first 10 clients name their own price. We review every submission — if we can make it work at your number we will, if not we'll come back with a counter. Either way, let's make something great. In exchange, founding members provide a testimonial we can use on the site.</p>
+    </div>
+
+    <div style="padding:2rem 0 2rem 2.5rem;">
+      <p style="font-family:'Bebas Neue',sans-serif; font-size:1.1rem; letter-spacing:0.05em; color:var(--black); margin-bottom:0.75rem;">Do you work with any brand?</p>
+      <p style="font-size:0.88rem; color:#444; line-height:1.8; font-weight:300;">We're selective. We take on work we believe in and brands we think we can genuinely help. Submitting a spot is an application, not a purchase order. We'll tell you honestly if we're the right fit.</p>
+    </div>
+
   </div>
 </section>
 
