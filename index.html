@@ -63,17 +63,17 @@
   .hero .vp-controls { display: none !important; }
   .hero-content { position: relative; z-index: 2; }
   .unmute-btn {
-    position: absolute; bottom: 2.5rem; right: 3rem;
-    z-index: 10; background: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.25);
+    position: fixed; bottom: 2rem; right: 2rem;
+    z-index: 999; background: rgba(8,8,8,0.85);
+    border: 1px solid rgba(255,255,255,0.2);
     color: var(--white); font-family: 'Epilogue', sans-serif;
-    font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase;
+    font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase;
     padding: 0.6rem 1rem; cursor: pointer;
     display: flex; align-items: center; gap: 0.5rem;
     transition: background 0.2s, border-color 0.2s;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(8px);
   }
-  .unmute-btn:hover { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.5); }
+  .unmute-btn:hover { background: var(--red); border-color: var(--red); }
   .unmute-btn svg { width: 14px; height: 14px; fill: var(--white); }
   .hero h1 {
     font-family: 'Bebas Neue', sans-serif;
@@ -520,14 +520,14 @@
   <p class="cta-sub">10 founding spots · First come, first in</p>
   <div>
     <a href="#offer" class="btn btn-w">Name Your Spot</a>
-    <a href="/cdn-cgi/l/email-protection#2048454c4c4f605255424245524e45434b0e4149" class="btn btn-o">Ask Us Anything</a>
+    <a href="#offer" class="btn btn-o">Ask Us Anything</a>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
   <span class="footer-logo">RUBBERNECK<span style="color:#C8001A">.</span>AI</span>
-  <span class="footer-note">Global AI Studio &nbsp;·&nbsp; <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4b232e2727240b393e29292e39252e2820652a22">[email&#160;protected]</a> &nbsp;·&nbsp; <a href="terms.html" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms</a> &nbsp;·&nbsp; <a href="privacy.html" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy</a></span>
+  <span class="footer-note">Global AI Studio &nbsp;·&nbsp; hello [at] rubberneck.ai &nbsp;·&nbsp; <a href="terms.html" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms</a> &nbsp;·&nbsp; <a href="privacy.html" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy</a></span>
 </footer>
 
 <script>
@@ -543,6 +543,7 @@
       alert('Please fill in your name, email, investment, and concept before submitting.');
       return;
     }
+
     if (parseInt(price) < 2500) {
       alert('Please enter a valid investment amount.');
       document.getElementById('f-price').focus();
@@ -570,58 +571,16 @@
       alert('Something went wrong. Email us at hello@rubberneck.ai');
     }
   }
-</script><script>
-  async function handleSubmit() {
-    const name    = document.getElementById('f-name').value.trim();
-    const brand   = document.getElementById('f-brand').value.trim();
-    const email   = document.getElementById('f-email').value.trim();
-    const price   = document.getElementById('f-price').value.trim();
-    const concept = document.getElementById('f-concept').value.trim();
-    const btn     = document.querySelector('.submit-btn');
 
-    if (!name || !email || !price || !concept) {
-      alert('Please fill in your name, email, investment, and concept before submitting.');
-      return;
-    }
-    if (parseInt(price) < 2500) {
-      alert('Please enter a valid investment amount.');
-      document.getElementById('f-price').focus();
-      return;
-    }
-
-    btn.textContent = 'Sending...';
-    btn.disabled = true;
-
-    try {
-      const res = await fetch('https://formspree.io/f/xzdkojqd', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify({ name, brand, email, investment: '$' + price, concept, note: 'Agreed to provide testimonial upon delivery.' })
-      });
-      if (res.ok) {
-        btn.textContent = "Nice. Now go tell someone you did something smart.";
-        btn.style.background = '#5DBE7A';
-        btn.style.color = '#080808';
-        ['f-name','f-brand','f-email','f-price','f-concept'].forEach(id => document.getElementById(id).value = '');
-      } else { throw new Error(); }
-    } catch(e) {
-      btn.textContent = 'Submit Your Spot';
-      btn.disabled = false;
-      alert('Something went wrong. Email us at hello@rubberneck.ai');
-    }
+  var isMuted = true;
+  function toggleMute() {
+    var iframe = document.querySelector('.hero-video iframe');
+    var label = document.getElementById('muteLabel');
+    isMuted = !isMuted;
+    var base = 'https://player.vimeo.com/video/1180833879?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&background=1&controls=0&title=0&byline=0&portrait=0';
+    iframe.src = base + (isMuted ? '&muted=1' : '&muted=0');
+    label.textContent = isMuted ? 'Unmute' : 'Mute';
   }
-</script><script>
-  function handleSubmit() {
-    const name    = document.getElementById('f-name').value.trim();
-    const brand   = document.getElementById('f-brand').value.trim();
-    const email   = document.getElementById('f-email').value.trim();
-    const price   = document.getElementById('f-price').value.trim();
-    const concept = document.getElementById('f-concept').value.trim();
-
-    if (!name || !email || !price || !concept) {
-      alert('Please fill in your name, email, investment, and concept before submitting.');
-      return;
-    }
-
-    if (parseInt(price) < 2500) {
-      alert('Please enter a valid investment amoun
+</script>
+</body>
+</html>
