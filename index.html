@@ -335,6 +335,7 @@
         btn.textContent = 'Got it. We\'ll be in touch.';
         btn.style.background = '#5DBE7A';
         btn.style.color = '#080808';
+        document.getElementById('askPhone').style.display = 'block';
       } else { throw new Error(); }
     } catch(e) {
       btn.textContent = 'Send It →';
@@ -672,9 +673,10 @@
         body: JSON.stringify({ name, email, message, type: 'General Inquiry' })
       });
       if (res.ok) {
-        btn.textContent = 'Got it. We'll be in touch. Need us right away? Text us at 415.205.0868.';
+        btn.textContent = 'Got it. We\'ll be in touch.';
         btn.style.background = '#5DBE7A';
         btn.style.color = '#080808';
+        document.getElementById('askPhone').style.display = 'block';
       } else { throw new Error(); }
     } catch(e) {
       btn.textContent = 'Send It →';
@@ -712,6 +714,7 @@
       <textarea id="q-message" placeholder="What's on your mind?" style="width:100%;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.15);color:#fff;font-family:'Epilogue',sans-serif;font-size:0.9rem;font-weight:300;padding:0.85rem 1rem;outline:none;border-radius:0;resize:vertical;min-height:120px;"></textarea>
     </div>
     <button class="modal-btn" id="askBtn" onclick="submitQuestion()">Send It →</button>
+    <p id="askPhone" style="display:none;margin-top:1rem;text-align:center;font-family:'Epilogue',sans-serif;font-size:0.85rem;color:rgba(255,255,255,0.6);">Need us right away? Text us at <strong style="color:#fff;">415.205.0868</strong></p>
   </div>
 </div>
 </body>
