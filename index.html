@@ -412,10 +412,90 @@
 <!-- FOOTER -->
 <footer>
   <span class="footer-logo">RUBBERNECK<span style="color:#C8001A">.</span>AI</span>
-  <span class="footer-note">Global AI Studio &nbsp;·&nbsp; hello@rubberneck.ai &nbsp;·&nbsp; <a href="terms.html" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms</a> &nbsp;·&nbsp; <a href="privacy.html" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy</a></span>
+  <span class="footer-note">Global AI Studio &nbsp;·&nbsp; <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4b232e2727240b393e29292e39252e2820652a22">[email&#160;protected]</a> &nbsp;·&nbsp; <a href="terms.html" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms</a> &nbsp;·&nbsp; <a href="privacy.html" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy</a></span>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
+  async function handleSubmit() {
+    const name    = document.getElementById('f-name').value.trim();
+    const brand   = document.getElementById('f-brand').value.trim();
+    const email   = document.getElementById('f-email').value.trim();
+    const price   = document.getElementById('f-price').value.trim();
+    const concept = document.getElementById('f-concept').value.trim();
+    const btn     = document.querySelector('.submit-btn');
+
+    if (!name || !email || !price || !concept) {
+      alert('Please fill in your name, email, investment, and concept before submitting.');
+      return;
+    }
+    if (parseInt(price) < 2500) {
+      alert('Please enter a valid investment amount.');
+      document.getElementById('f-price').focus();
+      return;
+    }
+
+    btn.textContent = 'Sending...';
+    btn.disabled = true;
+
+    try {
+      const res = await fetch('https://formspree.io/f/xzdkojqd', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ name, brand, email, investment: '$' + price, concept, note: 'Agreed to provide testimonial upon delivery.' })
+      });
+      if (res.ok) {
+        btn.textContent = "Spot Submitted — We'll be in touch within 24 hours";
+        btn.style.background = '#5DBE7A';
+        btn.style.color = '#080808';
+        ['f-name','f-brand','f-email','f-price','f-concept'].forEach(id => document.getElementById(id).value = '');
+      } else { throw new Error(); }
+    } catch(e) {
+      btn.textContent = 'Submit Your Spot';
+      btn.disabled = false;
+      alert('Something went wrong. Email us at hello@rubberneck.ai');
+    }
+  }
+</script><script>
+  async function handleSubmit() {
+    const name    = document.getElementById('f-name').value.trim();
+    const brand   = document.getElementById('f-brand').value.trim();
+    const email   = document.getElementById('f-email').value.trim();
+    const price   = document.getElementById('f-price').value.trim();
+    const concept = document.getElementById('f-concept').value.trim();
+    const btn     = document.querySelector('.submit-btn');
+
+    if (!name || !email || !price || !concept) {
+      alert('Please fill in your name, email, investment, and concept before submitting.');
+      return;
+    }
+    if (parseInt(price) < 2500) {
+      alert('Please enter a valid investment amount.');
+      document.getElementById('f-price').focus();
+      return;
+    }
+
+    btn.textContent = 'Sending...';
+    btn.disabled = true;
+
+    try {
+      const res = await fetch('https://formspree.io/f/xzdkojqd', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ name, brand, email, investment: '$' + price, concept, note: 'Agreed to provide testimonial upon delivery.' })
+      });
+      if (res.ok) {
+        btn.textContent = "Spot Submitted — We'll be in touch within 24 hours";
+        btn.style.background = '#5DBE7A';
+        btn.style.color = '#080808';
+        ['f-name','f-brand','f-email','f-price','f-concept'].forEach(id => document.getElementById(id).value = '');
+      } else { throw new Error(); }
+    } catch(e) {
+      btn.textContent = 'Submit Your Spot';
+      btn.disabled = false;
+      alert('Something went wrong. Email us at hello@rubberneck.ai');
+    }
+  }
+</script><script>
   function handleSubmit() {
     const name    = document.getElementById('f-name').value.trim();
     const brand   = document.getElementById('f-brand').value.trim();
@@ -429,11 +509,4 @@
     }
 
     if (parseInt(price) < 2500) {
-      alert('Please enter a valid investment amount.');
-      document.getElementById('f-price').focus();
-      return;
-    }
-
-    const subject = encodeURIComponent('Rubberneck.ai — Founding Spot Submission');
-    const body = encodeURIComponent(
-      `Name: ${name}\nBrand: $
+      alert('Please enter a valid investment amoun
