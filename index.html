@@ -34,7 +34,7 @@
   .hero {
     position: relative; min-height: 100vh;
     display: flex; flex-direction: column; justify-content: flex-end;
-    padding: 2rem 3rem 5rem; overflow: hidden;
+    padding: 2rem 3rem 8rem; overflow: hidden;
     background: var(--black);
   }
   .hero-video {
@@ -53,9 +53,14 @@
   }
   .hero-overlay {
     position: absolute; inset: 0;
-    background: rgba(0,0,0,0.55);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.85) 100%);
     z-index: 1;
   }
+  .hero-video * { pointer-events: none; }
+  .hero video,
+  .hero iframe ~ div,
+  .hero .vp-title,
+  .hero .vp-controls { display: none !important; }
   .hero-content { position: relative; z-index: 2; }
   .hero h1 {
     font-family: 'Bebas Neue', sans-serif;
