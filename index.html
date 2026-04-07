@@ -52,7 +52,7 @@
   .hero-meta {
     display: flex; flex-wrap: nowrap; align-items: center; gap: 0;
     margin-top: 1.2rem; font-size: 0.68rem; letter-spacing: 0.22em;
-    text-transform: uppercase; color: var(--red);
+    text-transform: uppercase; color: rgba(255,255,255,0.35);
     animation: fadeUp 0.9s 0.3s ease both;
     white-space: nowrap;
   }
@@ -206,15 +206,19 @@
 <body>
 
 <nav>
-  <a href="#" class="nav-logo">RUBBERNECK<span style="color:var(--red)">.</span>AI</a>
+  <div style="display:flex; flex-direction:column; gap:0.15rem;">
+    <a href="#" class="nav-logo">RUBBERNECK<span style="color:var(--red)">.</span>AI</a>
+    <p style="font-family:'Bebas Neue',sans-serif; font-size:0.7rem; letter-spacing:0.2em; color:var(--red); text-transform:uppercase;">AI Video Made To Be Stared At</p>
+  </div>
   <a href="#offer" class="nav-cta">Limited: 10 Member Spots</a>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
   <h1>RUBBER<br>NECK<span>.</span>AI</h1>
+  <p style="font-family:'Bebas Neue',sans-serif; font-size:clamp(1.2rem,2.5vw,2rem); letter-spacing:0.18em; color:var(--red); margin-top:-2.2rem; margin-bottom:2.5rem; animation: fadeUp 0.9s 0.12s ease both;">AI Video Made To Be Stared At</p>
   <p class="hero-tagline">People will stare. You're welcome.</p>
-  <p class="hero-meta"><span>AI Video Made To Be Stared At</span><span>First Cut · 48hrs After Brief</span></p>
+  <p class="hero-meta"><span>First Cut · 48hrs After Brief</span></p>
 </section>
 
 <!-- TICKER -->
@@ -224,14 +228,14 @@
     <span class="ticker-item">FIRST CUT 48HRS AFTER APPROVED BRIEF</span><span class="ticker-item dot">●</span>
     <span class="ticker-item">:06 · :15 · :30 · :60</span><span class="ticker-item dot">●</span>
     <span class="ticker-item">16×9 · 9×16 · 1:1</span><span class="ticker-item dot">●</span>
-    <span class="ticker-item">AI VIDEO MADE TO BE STARED AT</span><span class="ticker-item dot">●</span>
+    
     <span class="ticker-item">2 ROUNDS OF REVISIONS</span><span class="ticker-item dot">●</span>
     <span class="ticker-item">YOUR CONCEPT OR OURS</span><span class="ticker-item dot">●</span>
     <span class="ticker-item">AI VIDEO SPOTS</span><span class="ticker-item dot">●</span>
     <span class="ticker-item">FIRST CUT 48HRS AFTER APPROVED BRIEF</span><span class="ticker-item dot">●</span>
     <span class="ticker-item">:06 · :15 · :30 · :60</span><span class="ticker-item dot">●</span>
     <span class="ticker-item">16×9 · 9×16 · 1:1</span><span class="ticker-item dot">●</span>
-    <span class="ticker-item">AI VIDEO MADE TO BE STARED AT</span><span class="ticker-item dot">●</span>
+    
     <span class="ticker-item">2 ROUNDS OF REVISIONS</span><span class="ticker-item dot">●</span>
     <span class="ticker-item">YOUR CONCEPT OR OURS</span><span class="ticker-item dot">●</span>
   </div>
