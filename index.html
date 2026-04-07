@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RUBBERNECK.AI — AI Video Spots</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --black: #080808;
+    --white: #ffffff;
+    --red: #C8001A;
+    --cream: #F2EBD9;
+    --navy: #0D1B2A;
+    --forest: #0A2818;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Epilogue', sans-serif; overflow-x: hidden; }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 1.5rem 3rem;
+    background: var(--black); border-bottom: 1px solid #111;
+  }
+  .nav-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; letter-spacing: 0.12em; color: var(--white); text-decoration: none; }
+  .nav-cta { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--white); background: var(--red); padding: 0.65rem 1.6rem; text-decoration: none; transition: background 0.2s, color 0.2s; animation: pulse 2.5s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.75; } }
+  .nav-cta:hover { background: #a30015; color: var(--white); animation: none; opacity: 1; }
+
+  /* HERO */
+  .hero {
+    background: var(--black); min-height: 100vh;
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 2rem 3rem 5rem;
+  }
+  .hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(5.5rem, 15vw, 15rem);
+    line-height: 0.88; letter-spacing: -0.01em; color: var(--white);
+    margin-bottom: 2.5rem;
+    animation: fadeUp 0.9s ease both;
+  }
+  .hero h1 span { color: var(--red); }
+  .hero-tagline {
+    font-size: clamp(1.1rem, 2.2vw, 1.7rem); font-weight: 300;
+    color: var(--white); max-width: 620px; line-height: 1.5;
+    animation: fadeUp 0.9s 0.15s ease both;
+  }
+  .hero-meta {
+    display: flex; flex-wrap: nowrap; align-items: center; gap: 0;
+    margin-top: 1.2rem; font-size: 0.68rem; letter-spacing: 0.22em;
+    text-transform: uppercase; color: var(--red);
+    animation: fadeUp 0.9s 0.3s ease both;
+    white-space: nowrap;
+  }
+  .hero-meta span + span::before {
+    content: '·';
+    margin: 0 1rem;
+    opacity: 0.4;
+  }
+
+  /* TICKER */
+  .ticker { background: var(--red); padding: 0.9rem 0; overflow: hidden; }
+  .ticker-track { display: flex; gap: 3rem; width: max-content; animation: tick 28s linear infinite; }
+  @keyframes tick { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .ticker-item { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; letter-spacing: 0.18em; color: var(--white); white-space: nowrap; flex-shrink: 0; }
+
+  /* WHAT — NAVY */
+  .sec-navy { background: var(--navy); padding: 7rem 3rem; }
+  .label { display: block; font-size: 0.65rem; font-weight: 500; letter-spacing: 0.38em; text-transform: uppercase; margin-bottom: 2.5rem; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+  .big-h { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3rem, 5.5vw, 5rem); line-height: 1; letter-spacing: 0.02em; }
+  .body-copy { font-size: 1rem; line-height: 1.85; font-weight: 300; color: var(--white); }
+  .body-copy p { margin-bottom: 1.4rem; }
+  .body-copy strong { font-weight: 500; }
+
+  /* SPECS GRID */
+  .specs-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 1px; background: rgba(255,255,255,0.08);
+    margin-top: 2rem; border: 1px solid rgba(255,255,255,0.08);
+  }
+  .spec-item {
+    background: var(--navy); padding: 1.4rem 1.5rem;
+  }
+  .spec-label { font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 0.4rem; }
+  .spec-value { font-size: 0.9rem; font-weight: 400; color: var(--white); line-height: 1.5; }
+  .spec-value span { color: var(--red); }
+
+  /* WHO — BLACK */
+  .sec-black-who { background: var(--black); padding: 7rem 3rem; border-top: 1px solid #111; }
+  .who-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+  .who-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    line-height: 1; color: var(--white); letter-spacing: 0.02em;
+    margin-bottom: 2rem;
+  }
+  .who-title span { color: var(--red); }
+  .who-body { font-size: 1rem; font-weight: 300; line-height: 1.85; color: rgba(255,255,255,0.85); }
+  .who-body p { margin-bottom: 1.4rem; }
+  .who-body strong { font-weight: 500; color: var(--white); }
+  .who-credit {
+    margin-top: 2.5rem; padding: 1.5rem;
+    border-left: 3px solid var(--red);
+    font-size: 0.85rem; font-weight: 300; color: rgba(255,255,255,0.55);
+    line-height: 1.7;
+  }
+  .who-credit strong { color: var(--white); font-weight: 500; display: block; margin-bottom: 0.3rem; font-size: 1rem; }
+
+  /* STATS — CREAM */
+  .sec-cream { background: var(--cream); padding: 0; }
+  .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
+  .stat { padding: 5rem 3rem; border-right: 1px solid rgba(0,0,0,0.1); }
+  .stat:last-child { border-right: none; }
+  .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: clamp(4rem, 8vw, 7rem); line-height: 1; color: var(--black); }
+  .stat-num sup { font-size: 0.38em; vertical-align: top; margin-top: 0.4em; display: inline-block; color: var(--red); }
+  .stat-label { font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; color: #444; margin-top: 0.8rem; line-height: 1.7; }
+
+  /* OFFER — FOREST */
+  .sec-forest { background: var(--forest); padding: 7rem 3rem; }
+  .offer-grid { display: grid; grid-template-columns: 1fr 1.3fr; border: 1px solid rgba(255,255,255,0.1); }
+  .offer-left { padding: 4rem; border-right: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; }
+  .offer-headline { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3.8rem, 7.5vw, 7rem); line-height: 1; color: var(--white); letter-spacing: 0.02em; }
+  .offer-headline span { color: #5DBE7A; }
+  .offer-story { margin-top: 2.5rem; font-size: 0.9rem; font-weight: 300; line-height: 1.85; color: rgba(255,255,255,0.65); border-top: 1px solid rgba(255,255,255,0.08); padding-top: 2rem; }
+  .offer-story strong { color: var(--white); font-weight: 500; }
+  .included-list { list-style: none; margin-top: 2rem; }
+  .included-list li { font-size: 0.82rem; color: rgba(255,255,255,0.75); padding: 0.6rem 0; border-bottom: 1px solid rgba(255,255,255,0.06); display: flex; align-items: center; gap: 0.8rem; font-weight: 300; }
+  .included-list li::before { content: ''; width: 4px; height: 4px; background: #5DBE7A; border-radius: 50%; flex-shrink: 0; }
+
+  /* FORM */
+  .offer-right { padding: 4rem; display: flex; flex-direction: column; }
+  .form-heading { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 0.06em; color: var(--white); margin-bottom: 0.5rem; }
+  .form-sub { font-size: 0.78rem; color: rgba(255,255,255,0.4); letter-spacing: 0.08em; margin-bottom: 2rem; line-height: 1.6; }
+  .counter-row { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; padding: 0.9rem 1.2rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); }
+  .counter-n { font-family: 'Bebas Neue', sans-serif; font-size: 2.5rem; color: #5DBE7A; line-height: 1; }
+  .counter-t { font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.3); line-height: 1.6; }
+  .field { margin-bottom: 1.1rem; }
+  .field label { display: block; font-size: 0.62rem; font-weight: 500; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 0.45rem; }
+  .field input, .field textarea {
+    width: 100%; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1);
+    color: var(--white); font-family: 'Epilogue', sans-serif; font-size: 0.9rem; font-weight: 300;
+    padding: 0.85rem 1rem; outline: none; transition: border-color 0.2s;
+    -webkit-appearance: none; border-radius: 0;
+  }
+  .field input:focus, .field textarea:focus { border-color: rgba(255,255,255,0.35); }
+  .field input::placeholder, .field textarea::placeholder { color: rgba(255,255,255,0.45); }
+  .field textarea { resize: vertical; min-height: 110px; }
+  .price-wrap { position: relative; }
+  .price-wrap span { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: rgba(255,255,255,0.3); font-size: 0.9rem; }
+  .price-wrap input { padding-left: 1.8rem; }
+  .testimonial-note { font-size: 0.72rem; font-weight: 300; color: rgba(255,255,255,0.35); line-height: 1.7; margin-top: 0.5rem; margin-bottom: 1.5rem; padding: 1rem; border: 1px solid rgba(255,255,255,0.06); background: rgba(255,255,255,0.02); }
+  .testimonial-note strong { color: rgba(255,255,255,0.6); font-weight: 400; }
+  .submit-btn { width: 100%; background: var(--white); color: var(--black); font-family: 'Epilogue', sans-serif; font-size: 0.78rem; font-weight: 500; letter-spacing: 0.25em; text-transform: uppercase; padding: 1.1rem; border: none; cursor: pointer; transition: background 0.2s, color 0.2s; }
+  .submit-btn:hover { background: #5DBE7A; color: var(--black); }
+
+  /* HOW — BLACK */
+  .sec-black { background: var(--black); padding: 7rem 3rem; }
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid #1a1a1a; margin-top: 3rem; }
+  .step { padding: 2.5rem 2rem; border-right: 1px solid #1a1a1a; }
+  .step:last-child { border-right: none; }
+  .step-n { font-family: 'Bebas Neue', sans-serif; font-size: 5rem; color: #1a1a1a; line-height: 1; margin-bottom: 1.5rem; }
+  .step-title { font-size: 0.72rem; font-weight: 500; letter-spacing: 0.25em; text-transform: uppercase; color: var(--white); margin-bottom: 0.8rem; }
+  .step-desc { font-size: 0.85rem; color: rgba(255,255,255,0.5); line-height: 1.75; font-weight: 300; }
+
+  /* CTA — RED */
+  .sec-red { background: var(--red); padding: 8rem 3rem; text-align: center; }
+  .cta-h { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3.5rem, 9vw, 8rem); line-height: 0.95; color: var(--white); margin-bottom: 1.5rem; }
+  .cta-sub { font-size: 0.8rem; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(255,255,255,0.65); margin-bottom: 3.5rem; }
+  .btn { font-family: 'Epilogue', sans-serif; font-size: 0.78rem; font-weight: 500; letter-spacing: 0.25em; text-transform: uppercase; padding: 1.1rem 3.5rem; text-decoration: none; display: inline-block; transition: all 0.2s; }
+  .btn-w { background: var(--white); color: var(--red); }
+  .btn-w:hover { background: var(--black); color: var(--white); }
+  .btn-o { background: transparent; color: var(--white); border: 1px solid rgba(255,255,255,0.35); margin-left: 1rem; }
+  .btn-o:hover { border-color: var(--white); }
+
+  footer { background: var(--black); padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #111; }
+  .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 0.15em; color: #ffffff; }
+  .footer-note { font-size: 0.68rem; letter-spacing: 0.18em; color: rgba(255,255,255,0.5); text-transform: uppercase; }
+
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.5rem; }
+    .sec-navy, .sec-black-who, .sec-forest, .sec-black { padding: 4rem 1.5rem; }
+    .sec-red { padding: 5rem 1.5rem; }
+    .two-col, .who-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+    .specs-grid { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: 1fr; }
+    .stat { border-right: none; border-bottom: 1px solid rgba(0,0,0,0.1); padding: 3rem 1.5rem; }
+    .offer-grid { grid-template-columns: 1fr; }
+    .offer-left { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 2.5rem 1.5rem; }
+    .offer-right { padding: 2.5rem 1.5rem; }
+    .steps { grid-template-columns: 1fr 1fr; }
+    .step { border-right: none; border-bottom: 1px solid #1a1a1a; }
+    .btn-o { margin-left: 0; margin-top: 1rem; display: block; }
+    .footer-note { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-logo">RUBBERNECK<span style="color:var(--red)">.</span>AI</a>
+  <a href="#offer" class="nav-cta">Limited: 10 Member Spots</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>RUBBER<br>NECK<span>.</span>AI</h1>
+  <p class="hero-tagline">People will stare. You're welcome.</p>
+  <p class="hero-meta"><span>Global AI Studio</span><span>First Cut · 48hrs After Brief</span><span>Every Format. Every Platform.</span></p>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-track">
+    <span class="ticker-item">AI VIDEO SPOTS</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">FIRST CUT 48HRS AFTER APPROVED BRIEF</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">:06 · :15 · :30 · :60</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">16×9 · 9×16 · 1:1</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">GLOBAL TEAM OF CREATORS</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">2 ROUNDS OF REVISIONS</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">YOUR CONCEPT OR OURS</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">AI VIDEO SPOTS</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">FIRST CUT 48HRS AFTER APPROVED BRIEF</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">:06 · :15 · :30 · :60</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">16×9 · 9×16 · 1:1</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">GLOBAL TEAM OF CREATORS</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">2 ROUNDS OF REVISIONS</span><span class="ticker-item">✦</span>
+    <span class="ticker-item">YOUR CONCEPT OR OURS</span><span class="ticker-item">✦</span>
+  </div>
+</div>
+
+<!-- WHAT — NAVY -->
+<section class="sec-navy">
+  <span class="label" style="color:rgba(255,255,255,0.3)">What We Do</span>
+  <div class="two-col">
+    <h2 class="big-h" style="color:var(--white)">AI SPOTS BUILT TO STOP THE SCROLL. EVERY PLATFORM. EVERY FORMAT.</h2>
+    <div class="body-copy">
+      <p><strong>Bring us your concept and we'll run with it.</strong> Or bring us nothing and we'll concept for you. Either way, you send us your logo and any assets that must appear in the spot — we handle everything else.</p>
+      <p>Your first cut lands in 48 hours. Two rounds of revisions included. Delivered in every aspect ratio you need, ready to run the moment it hits your inbox.</p>
+      <p><strong>No bloated production timelines. No agency markup. Just work that makes people look.</strong></p>
+
+      <div class="specs-grid">
+        <div class="spec-item">
+          <div class="spec-label">Spot Lengths</div>
+          <div class="spec-value"><span>:06 · :15 · :30 · :60</span><br>and everything in between</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-label">Delivery Formats</div>
+          <div class="spec-value">16×9 · 9×16 · 1:1<br>All your social needs covered</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-label">Concept</div>
+          <div class="spec-value">We concept for you<br>or execute yours</div>
+        </div>
+        <div class="spec-item">
+          <div class="spec-label">What You Provide</div>
+          <div class="spec-value">Your logo + any mandatory brand assets. We do the rest.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO — BLACK -->
+<section class="sec-black-who">
+  <span class="label" style="color:var(--red)">Who's Behind It</span>
+  <div class="who-grid">
+    <div>
+      <h2 class="who-title">HELMED BY A <span>20+ YEAR</span> WORLD RENOWNED CREATIVE</h2>
+    </div>
+    <div>
+      <div class="who-body">
+        <p>Rubberneck.ai is built on a global team of creators — and at the center of it is someone who has spent over two decades shaping how the world watches video.</p>
+        <p><strong>Michael Matassa</strong> is a world-renowned creative video editor and award-winning AI filmmaker. His eye, his instincts, and his obsession with what makes people stop and watch are baked into every frame we deliver.</p>
+        <p>This isn't AI doing the work alone. This is decades of hard-won creative judgment, amplified by the most advanced AI production tools on the planet.</p>
+      </div>
+      <div class="who-credit">
+        <strong>Michael Matassa</strong>
+        20+ Year Creative Video Editor · Award-Winning AI Filmmaker · Founder, Rubberneck.ai
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS — CREAM -->
+<section class="sec-cream">
+  <div class="stats-grid">
+    <div class="stat">
+      <div class="stat-num">48<sup>hrs</sup></div>
+      <p class="stat-label">First cut delivered 48 hours<br>after your brief is approved.</p>
+    </div>
+    <div class="stat">
+      <div class="stat-num">2</div>
+      <p class="stat-label">Rounds of revisions.<br>Included. Always.</p>
+    </div>
+    <div class="stat">
+      <div class="stat-num">24<sup>/7</sup></div>
+      <p class="stat-label">Global team.<br>Always on.</p>
+    </div>
+  </div>
+</section>
+
+<!-- OFFER — FOREST -->
+<section class="sec-forest" id="offer">
+  <span class="label" style="color:rgba(255,255,255,0.3)">Founding Client Offer — First 10 Only</span>
+  <div class="offer-grid">
+    <div class="offer-left">
+      <div>
+        <div class="offer-headline">Name<br>Your<br><span>Spot.</span></div>
+        <div class="offer-story">
+          <strong>We're opening 10 spots to founding clients who believe in what we're building.</strong><br><br>
+          Tell us your concept, your brand, and what you want to invest. We'll tell you if we're the right fit. No pressure, no sales call — just honest creative work between people who take this seriously.<br><br>
+          This is a one-time founding offer. When these 10 spots are gone, they're gone.
+        </div>
+        <ul class="included-list">
+          <li>We concept for you — or execute your idea</li>
+          <li>You provide logo and mandatory brand assets</li>
+          <li>First cut delivered 48 hours after approved brief</li>
+          <li>2 rounds of revisions included</li>
+          <li>:06, :15, :30, or :60 — your choice</li>
+          <li>16×9, 9×16, 1:1 — all formats delivered</li>
+          <li>Human creative direction on every frame</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="offer-right">
+      <div class="counter-row">
+        <div class="counter-n">7</div>
+        <div class="counter-t">of 10 founding<br>spots remaining</div>
+      </div>
+
+      <div class="form-heading">Submit Your Spot</div>
+      <p class="form-sub">Your email, your concept, and what you want to invest.<br>We'll respond within 24 hours.</p>
+
+      <div class="field">
+        <label>Your Name</label>
+        <input type="text" id="f-name" placeholder="Jane Smith" />
+      </div>
+      <div class="field">
+        <label>Brand / Company</label>
+        <input type="text" id="f-brand" placeholder="Acme Co." />
+      </div>
+      <div class="field">
+        <label>Email</label>
+        <input type="email" id="f-email" placeholder="you@yourbrand.com" />
+      </div>
+      <div class="field">
+        <label>Your Investment</label>
+        <div class="price-wrap">
+          <span>$</span>
+          <input type="number" id="f-price" placeholder="Your offer" min="2500" />
+        </div>
+      </div>
+      <div class="field">
+        <label>Your Concept</label>
+        <textarea id="f-concept" placeholder="Tell us about your brand and what you want to make. Have a concept? Share it. No concept yet? Tell us about the brand and we'll develop one."></textarea>
+      </div>
+
+      <div class="testimonial-note">
+        <strong>One ask:</strong> Founding clients agree to provide an honest testimonial we can share on our site after delivery. That's the trade — your story helps the next brand find us.
+      </div>
+
+      <button class="submit-btn" onclick="handleSubmit()">Submit Your Spot →</button>
+    </div>
+  </div>
+</section>
+
+<!-- HOW — BLACK -->
+<section class="sec-black">
+  <span class="label" style="color:var(--red)">How It Works</span>
+  <div class="steps">
+    <div class="step">
+      <div class="step-n">01</div>
+      <p class="step-title">Submit</p>
+      <p class="step-desc">Name your spot. Share your concept — or ask us to build one. Tell us what you want to invest. We respond within 24 hours.</p>
+    </div>
+    <div class="step">
+      <div class="step-n">02</div>
+      <p class="step-title">Brief</p>
+      <p class="step-desc">Send us your logo and any mandatory brand assets. We align on the concept, spot length, and formats before a single frame is made.</p>
+    </div>
+    <div class="step">
+      <div class="step-n">03</div>
+      <p class="step-title">Production</p>
+      <p class="step-desc">Our global team gets to work. Human creative direction on every frame. No templates. No shortcuts. Your first cut lands 48 hours after brief approval.</p>
+    </div>
+    <div class="step">
+      <div class="step-n">04</div>
+      <p class="step-title">Delivery</p>
+      <p class="step-desc">First cut 48 hours after approved brief. Two rounds of revisions included. Every format — 16×9, 9×16, 1:1 — delivered and ready to run.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA — RED -->
+<section class="sec-red">
+  <h2 class="cta-h">READY TO MAKE<br>PEOPLE LOOK?</h2>
+  <p class="cta-sub">10 founding spots · First come, first in</p>
+  <div>
+    <a href="#offer" class="btn btn-w">Name Your Spot</a>
+    <a href="/cdn-cgi/l/email-protection#2048454c4c4f605255424245524e45434b0e4149" class="btn btn-o">Ask Us Anything</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-logo">RUBBERNECK<span style="color:#C8001A">.</span>AI</span>
+  <span class="footer-note">Global AI Studio &nbsp;·&nbsp; hello@rubberneck.ai &nbsp;·&nbsp; <a href="terms.html" style="color:rgba(255,255,255,0.4);text-decoration:none;">Terms</a> &nbsp;·&nbsp; <a href="privacy.html" style="color:rgba(255,255,255,0.4);text-decoration:none;">Privacy</a></span>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  function handleSubmit() {
+    const name    = document.getElementById('f-name').value.trim();
+    const brand   = document.getElementById('f-brand').value.trim();
+    const email   = document.getElementById('f-email').value.trim();
+    const price   = document.getElementById('f-price').value.trim();
+    const concept = document.getElementById('f-concept').value.trim();
+
+    if (!name || !email || !price || !concept) {
+      alert('Please fill in your name, email, investment, and concept before submitting.');
+      return;
+    }
+
+    if (parseInt(price) < 2500) {
+      alert('Please enter a valid investment amount.');
+      document.getElementById('f-price').focus();
+      return;
+    }
+
+    const subject = encodeURIComponent('Rubberneck.ai — Founding Spot Submission');
+    const body = encodeURIComponent(
+      `Name: ${name}\nBrand: $
