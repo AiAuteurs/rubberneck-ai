@@ -491,7 +491,7 @@
         <input type="email" id="f-email" placeholder="you@yourbrand.com" />
       </div>
       <div class="field">
-        <label>Your Investment</label>
+        <label>Your Budget</label>
         <div class="price-wrap">
           <span>$</span>
           <input type="number" id="f-price" placeholder="Your offer" min="2500" />
@@ -672,7 +672,7 @@
         body: JSON.stringify({ name, email, message, type: 'General Inquiry' })
       });
       if (res.ok) {
-        btn.textContent = 'Got it. We\'ll be in touch.';
+        btn.textContent = 'Got it. We'll be in touch. Need us right away? Text us at 415.205.0868.';
         btn.style.background = '#5DBE7A';
         btn.style.color = '#080808';
       } else { throw new Error(); }
