@@ -337,7 +337,7 @@
       </div>
 
       <div class="form-heading">Submit Your Spot</div>
-      <p class="form-sub">Your email, your concept, and what you want to invest.<br>We'll respond within 24 hours.</p>
+      <p class="form-sub">Your email, your concept, and what you want to invest.<br>Someone on our global team is always watching.</p>
 
       <div class="field">
         <label>Your Name</label>
@@ -444,7 +444,7 @@
         body: JSON.stringify({ name, brand, email, investment: '$' + price, concept, note: 'Agreed to provide testimonial upon delivery.' })
       });
       if (res.ok) {
-        btn.textContent = "Spot Submitted — We'll be in touch within 24 hours";
+        btn.textContent = "Nice. Now go tell someone you did something smart.";
         btn.style.background = '#5DBE7A';
         btn.style.color = '#080808';
         ['f-name','f-brand','f-email','f-price','f-concept'].forEach(id => document.getElementById(id).value = '');
@@ -484,7 +484,7 @@
         body: JSON.stringify({ name, brand, email, investment: '$' + price, concept, note: 'Agreed to provide testimonial upon delivery.' })
       });
       if (res.ok) {
-        btn.textContent = "Spot Submitted — We'll be in touch within 24 hours";
+        btn.textContent = "Nice. Now go tell someone you did something smart.";
         btn.style.background = '#5DBE7A';
         btn.style.color = '#080808';
         ['f-name','f-brand','f-email','f-price','f-concept'].forEach(id => document.getElementById(id).value = '');
