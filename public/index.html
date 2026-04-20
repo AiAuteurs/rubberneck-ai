@@ -480,6 +480,18 @@ document.getElementById('search-input').addEventListener('keydown', e => {
 });
 
 // Chicken
+function unlockSound() {
+  const s = document.getElementById('squeak');
+  s.play().then(() => {
+    s.pause();
+    s.currentTime = 0;
+    document.getElementById('unmute-btn').innerHTML = '🔊 RUBBER NECKER IS LIVE';
+    document.getElementById('unmute-btn').style.color = '#080808';
+    document.getElementById('unmute-btn').style.cursor = 'default';
+    document.getElementById('unmute-btn').onclick = null;
+  }).catch(() => {});
+}
+
 const chicken = document.getElementById('chicken');
 const squeak = document.getElementById('squeak');
 let hideTimer = null;
