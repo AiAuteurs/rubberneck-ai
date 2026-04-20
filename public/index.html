@@ -347,12 +347,11 @@ footer strong { color: #080808; }
 
 .chicken {
   position: fixed;
-  width: 80px;
+  width: 120px;
   pointer-events: none;
   z-index: 9999;
   display: none;
-  transform: scaleX(-1);
-  transition: left 0.1s ease, top 0.1s ease;
+  transition: left 0.15s ease, top 0.15s ease;
 }
 .chicken img { width: 100%; display: block; }
 .chicken.peek { display: block; }
@@ -489,8 +488,21 @@ document.querySelectorAll('a, button, .btn, .frame-click').forEach(el => {
   el.addEventListener('mouseenter', (e) => {
     chicken.classList.add('peek');
     const rect = el.getBoundingClientRect();
-    chicken.style.left = (rect.right + 10) + 'px';
-    chicken.style.top = (rect.top - 20) + 'px';
+    const cw = 120;
+    const ch = 120;
+    // Try to place to the right, flip if too close to edge
+    let x = rect.right + 8;
+    let flip = false;
+    if (x + cw > window.innerWidth - 10) {
+      x = rect.left - cw - 8;
+      flip = true;
+    }
+    let y = rect.top - 30;
+    if (y < 10) y = 10;
+    if (y + ch > window.innerHeight) y = window.innerHeight - ch - 10;
+    chicken.style.left = x + 'px';
+    chicken.style.top = y + 'px';
+    chicken.style.transform = flip ? 'none' : 'scaleX(-1)';
   });
   el.addEventListener('mouseleave', () => {
     chicken.classList.remove('peek');
