@@ -37,8 +37,8 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
 
 .date-stamp {
   font-family: 'Bebas Neue', cursive;
-  font-size: 1rem;
-  letter-spacing: 0.2em;
+  font-size: 1.3rem;
+  letter-spacing: 0.15em;
   color: #fff;
   white-space: nowrap;
 }
@@ -91,8 +91,8 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
 
 .issue-tag {
   font-family: 'Bebas Neue', cursive;
-  font-size: 0.9rem;
-  letter-spacing: 0.2em;
+  font-size: 1.3rem;
+  letter-spacing: 0.15em;
   color: #C8001A;
   margin-bottom: 1rem;
   display: block;
@@ -210,8 +210,8 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
 
 .cta-label {
   font-family: 'Bebas Neue', cursive;
-  font-size: 0.75rem;
-  letter-spacing: 0.25em;
+  font-size: 1.3rem;
+  letter-spacing: 0.15em;
   color: #C8001A;
   margin-bottom: 1rem;
   display: block;
@@ -351,13 +351,13 @@ footer strong { color: #080808; }
   pointer-events: none;
   z-index: 9999;
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  transform: translateY(30px) scale(0.8);
 }
 .chicken img { width: 100%; display: block; }
 .chicken.peek {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
 }
 
 @media (max-width: 768px) {
@@ -492,25 +492,24 @@ document.querySelectorAll('a, button, .btn, .frame-click').forEach(el => {
     let y = rect.bottom + 8;
     if (x + 100 > window.innerWidth) x = window.innerWidth - 110;
     if (x < 0) x = 0;
+    chicken.classList.remove('peek');
     chicken.style.left = x + 'px';
     chicken.style.top = y + 'px';
-    chicken.style.transform = 'translateY(20px)';
-    chicken.style.opacity = '0';
-    chicken.style.display = 'block';
 
     // Squeak and appear
     requestAnimationFrame(() => {
-      chicken.classList.add('peek');
-      squeak.currentTime = 0;
-      squeak.play().catch(() => {});
+      requestAnimationFrame(() => {
+        chicken.classList.add('peek');
+        squeak.currentTime = 0;
+        squeak.play().catch(() => {});
+      });
     });
 
-    // Leave town after 800ms
+    // Leave town after 900ms
     clearTimeout(hideTimer);
     hideTimer = setTimeout(() => {
       chicken.classList.remove('peek');
-      setTimeout(() => { chicken.style.display = 'none'; }, 200);
-    }, 800);
+    }, 900);
   });
 });
 
