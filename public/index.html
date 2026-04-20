@@ -345,13 +345,24 @@ footer {
 footer strong { color: #080808; }
 
 .chicken {
-  position: fixed; bottom: -130px; right: -20px;
-  width: 220px;
+  position: fixed;
+  bottom: -120px;
+  right: 1rem;
+  width: 100px;
+  height: 120px;
+  overflow: hidden;
   transition: bottom 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
-  pointer-events: none; z-index: 100;
+  pointer-events: none;
+  z-index: 100;
 }
-.chicken img { width: 100%; display: block; }
-.chicken.peek { bottom: -30px; }
+.chicken img {
+  width: 380px;
+  max-width: none;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.chicken.peek { bottom: 0; }
 
 @media (max-width: 768px) {
   .hero { grid-template-columns: 1fr; gap: 2.5rem; padding: 2rem 1.5rem; }
@@ -374,9 +385,8 @@ footer strong { color: #080808; }
 
 <div class="top-bar">
   <div class="date-stamp" id="date-stamp">⚡ <span>MONDAY, APRIL 20, 2026</span></div>
-  <form class="top-signup" action="https://formspree.io/f/xzdkojqd" method="POST">
-    <input type="hidden" name="_subject" value="New Rubberneck Signup">
-    <input type="email" name="email" placeholder="Drop your email. Get tomorrow's Rubberneck." required>
+  <form class="top-signup" action="https://app.kit.com/forms/9348057/subscriptions" method="POST" data-sv-form="9348057" data-uid="9348057">
+    <input type="email" name="email_address" placeholder="Drop your email. Get tomorrow's Rubberneck." required>
     <button type="submit">I'm In →</button>
   </form>
 </div>
@@ -389,7 +399,7 @@ footer strong { color: #080808; }
   <div class="hero-left">
     <span class="issue-tag">⚡ TODAY'S RUBBERNECK — ISSUE №001</span>
     <div class="featured-name">THE SITE THAT<br>KILLS EVERY<br>PAYWALL.<br>LEGALLY.</div>
-    <span class="featured-url">archivebuttons.com</span>
+    <span class="featured-url" style="color:#C8001A; font-weight:700; font-size:1rem; letter-spacing:0.05em;">archivebuttons.com</span>
 
     <div class="browser-wrap">
       <div class="browser-bar">
