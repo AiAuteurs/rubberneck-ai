@@ -347,14 +347,18 @@ footer strong { color: #080808; }
 
 .chicken {
   position: fixed;
-  width: 120px;
+  width: 100px;
   pointer-events: none;
   z-index: 9999;
-  display: none;
-  transition: left 0.15s ease, top 0.15s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 .chicken img { width: 100%; display: block; }
-.chicken.peek { display: block; }
+.chicken.peek {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 @media (max-width: 768px) {
   .hero { grid-template-columns: 1fr; gap: 2.5rem; padding: 2rem 1.5rem; }
@@ -477,12 +481,37 @@ document.getElementById('search-input').addEventListener('keydown', e => {
 
 // Chicken
 const chicken = document.getElementById('chicken');
+const squeak = document.getElementById('squeak');
+let hideTimer = null;
 
-document.addEventListener('mousemove', (e) => {
-  if (chicken.classList.contains('peek')) {
-    chicken.style.left = (e.clientX + 15) + 'px';
-    chicken.style.top = (e.clientY - 60) + 'px';
-  }
+document.querySelectorAll('a, button, .btn, .frame-click').forEach(el => {
+  el.addEventListener('mouseenter', () => {
+    // Position below the element
+    const rect = el.getBoundingClientRect();
+    let x = rect.left + (rect.width / 2) - 50;
+    let y = rect.bottom + 8;
+    if (x + 100 > window.innerWidth) x = window.innerWidth - 110;
+    if (x < 0) x = 0;
+    chicken.style.left = x + 'px';
+    chicken.style.top = y + 'px';
+    chicken.style.transform = 'translateY(20px)';
+    chicken.style.opacity = '0';
+    chicken.style.display = 'block';
+
+    // Squeak and appear
+    requestAnimationFrame(() => {
+      chicken.classList.add('peek');
+      squeak.currentTime = 0;
+      squeak.play().catch(() => {});
+    });
+
+    // Leave town after 800ms
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(() => {
+      chicken.classList.remove('peek');
+      setTimeout(() => { chicken.style.display = 'none'; }, 200);
+    }, 800);
+  });
 });
 
 document.querySelectorAll('a, button, .btn, .frame-click').forEach(el => {
