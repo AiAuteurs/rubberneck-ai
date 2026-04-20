@@ -347,16 +347,15 @@ footer strong { color: #080808; }
 
 .chicken {
   position: fixed;
-  right: -110px;
-  bottom: 40%;
-  width: 130px;
-  transition: right 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  width: 80px;
   pointer-events: none;
-  z-index: 100;
+  z-index: 9999;
+  display: none;
   transform: scaleX(-1);
+  transition: left 0.1s ease, top 0.1s ease;
 }
 .chicken img { width: 100%; display: block; }
-.chicken.peek { right: -10px; }
+.chicken.peek { display: block; }
 
 @media (max-width: 768px) {
   .hero { grid-template-columns: 1fr; gap: 2.5rem; padding: 2rem 1.5rem; }
@@ -478,9 +477,24 @@ document.getElementById('search-input').addEventListener('keydown', e => {
 
 // Chicken
 const chicken = document.getElementById('chicken');
-document.querySelectorAll('a, .btn, .frame-click, button').forEach(el => {
-  el.addEventListener('mouseenter', () => chicken.classList.add('peek'));
-  el.addEventListener('mouseleave', () => chicken.classList.remove('peek'));
+
+document.addEventListener('mousemove', (e) => {
+  if (chicken.classList.contains('peek')) {
+    chicken.style.left = (e.clientX + 15) + 'px';
+    chicken.style.top = (e.clientY - 60) + 'px';
+  }
+});
+
+document.querySelectorAll('a, button, .btn, .frame-click').forEach(el => {
+  el.addEventListener('mouseenter', (e) => {
+    chicken.classList.add('peek');
+    const rect = el.getBoundingClientRect();
+    chicken.style.left = (rect.right + 10) + 'px';
+    chicken.style.top = (rect.top - 20) + 'px';
+  });
+  el.addEventListener('mouseleave', () => {
+    chicken.classList.remove('peek');
+  });
 });
 </script>
 
