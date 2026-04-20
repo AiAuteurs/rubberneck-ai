@@ -5,10 +5,11 @@
 <link rel="icon" type="image/png" href="favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rubberneck.ai — You Won't Look Away</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&family=Epilogue:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
+body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; font-size: 18px; }
+* { min-font-size: 16px; }
 
 /* LOGO */
 .logo-wrap {
@@ -57,7 +58,7 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
   border: none;
   border-radius: 30px 0 0 30px;
   font-family: 'Epilogue', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   outline: none;
   background: #fff;
   color: #080808;
@@ -70,7 +71,7 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
   border: none;
   border-radius: 0 30px 30px 0;
   font-family: 'Bebas Neue', cursive;
-  font-size: 0.95rem;
+  font-size: 1rem;
   letter-spacing: 0.1em;
   cursor: pointer;
   white-space: nowrap;
@@ -90,9 +91,9 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
 }
 
 .issue-tag {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 1rem;
-  letter-spacing: 0.1em;
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
   color: #C8001A;
   margin-bottom: 1rem;
   display: block;
@@ -108,7 +109,7 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
 }
 
 .featured-url {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: #080808;
   letter-spacing: 0.08em;
   margin-bottom: 2rem;
@@ -138,7 +139,7 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
   border: 1px solid #ddd;
   border-radius: 3px;
   padding: 0.25rem 0.75rem;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: #080808;
   margin-left: 0.5rem;
 }
@@ -184,7 +185,7 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
 .hero-right { padding-top: 0.25rem; }
 .what-label {
   font-family: 'Bebas Neue', cursive;
-  font-size: 0.75rem;
+  font-size: 1rem;
   letter-spacing: 0.35em;
   color: #C8001A;
   margin-bottom: 0.75rem;
@@ -235,7 +236,7 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
   transform: translate(-3px,-3px);
   box-shadow: 5px 5px 0 #C8001A;
 }
-.disclosure { font-size: 0.78rem; color: #080808; font-style: italic; margin-top: 1.25rem; }
+.disclosure { font-size: 1rem; color: #080808; font-style: italic; margin-top: 1.25rem; }
 
 /* EMAIL SIGNUP */
 .signup-section {
@@ -288,7 +289,7 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
   transition: background 0.2s;
 }
 .signup-form button:hover { background: #fff; color: #080808; border-color: #fff; }
-.signup-note { font-size: 0.78rem; color: #080808; margin-top: 1rem; font-style: italic; }
+.signup-note { font-size: 1rem; color: #080808; margin-top: 1rem; font-style: italic; }
 
 .search-section {
   background: #f7f7f7;
@@ -302,8 +303,8 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
 }
 .search-label {
   font-family: 'Bebas Neue', cursive;
-  font-size: 0.85rem;
-  letter-spacing: 0.25em;
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
   color: #C8001A;
   margin-bottom: 1.25rem;
 }
@@ -337,12 +338,12 @@ body { background: #fff; color: #080808; font-family: 'Epilogue', sans-serif; }
   transition: all 0.2s;
 }
 .search-wrap button:hover { background: #C8001A; }
-.search-note { font-size: 0.85rem; color: #080808; margin-top: 1.25rem; font-style: italic; }
+.search-note { font-size: 1rem; color: #080808; margin-top: 1.25rem; font-style: italic; }
 
 footer {
   border-top: 1px solid #ebebeb;
   padding: 2.5rem 2rem; text-align: center;
-  font-size: 0.82rem; color: #080808;
+  font-size: 1rem; color: #080808;
 }
 footer strong { color: #080808; }
 
@@ -383,6 +384,7 @@ footer strong { color: #080808; }
 
 <div class="top-bar">
   <div class="date-stamp" id="date-stamp">⚡ <span>MONDAY, APRIL 20, 2026</span></div>
+  <button id="mute-btn" onclick="toggleMute()" style="background:none; border:none; cursor:pointer; font-family:'Bebas Neue',cursive; font-size:1rem; letter-spacing:0.1em; color:#fff; white-space:nowrap; padding:0 1rem;">🔊 MUTE</button>
   <form class="top-signup" action="https://app.kit.com/forms/9348057/subscriptions" method="POST" data-sv-form="9348057" data-uid="9348057">
     <input type="email" name="email_address" placeholder="Drop your email. Get tomorrow's Rubberneck." required>
     <button type="submit">I'm In →</button>
@@ -393,17 +395,11 @@ footer strong { color: #080808; }
 </div>
 
 
-<div style="text-align:center; padding:0.75rem; background:#fff;">
-  <button id="unmute-btn" onclick="unlockSound()" style="background:none; border:2px solid #C8001A; cursor:pointer; font-family:'Bebas Neue',cursive; font-size:1.1rem; letter-spacing:0.15em; color:#C8001A; padding:0.4rem 1.5rem; border-radius:30px;">
-    🔇 TAP TO UNMUTE RUBBER NECKER
-  </button>
-</div>
-
 <div class="hero">
   <div class="hero-left">
-    <span class="issue-tag">⚡ TODAY'S RUBBERNECK — ISSUE №001</span>
+    
     <div class="featured-name">THE SITE THAT<br>KILLS EVERY<br>PAYWALL.<br>LEGALLY.</div>
-    <span class="featured-url" style="color:#C8001A; font-weight:700; font-size:1.2rem; letter-spacing:0.05em;">archivebuttons.com</span>
+    <span class="featured-url" style="color:#C8001A; font-family:'Fredoka One',cursive; font-size:1.6rem; letter-spacing:0.02em; font-weight:400;">archivebuttons.com</span>
 
     <div class="browser-wrap">
       <div class="browser-bar">
@@ -422,7 +418,7 @@ footer strong { color: #080808; }
   </div>
 
   <div class="hero-right">
-    <div class="what-label">TODAY'S FIND</div>
+    
     <div class="headline">SOMEONE BROKE THE INTERNET'S MOST ANNOYING BUSINESS MODEL. ANONYMOUSLY.</div>
 
     <p class="commentary">
@@ -487,16 +483,10 @@ document.getElementById('search-input').addEventListener('keydown', e => {
 });
 
 // Chicken
-function unlockSound() {
-  const s = document.getElementById('squeak');
-  s.play().then(() => {
-    s.pause();
-    s.currentTime = 0;
-    document.getElementById('unmute-btn').innerHTML = '🔊 RUBBER NECKER IS LIVE';
-    document.getElementById('unmute-btn').style.color = '#080808';
-    document.getElementById('unmute-btn').style.cursor = 'default';
-    document.getElementById('unmute-btn').onclick = null;
-  }).catch(() => {});
+let muted = false;
+function toggleMute() {
+  muted = !muted;
+  document.getElementById('mute-btn').innerHTML = muted ? '🔇 UNMUTE' : '🔊 MUTE';
 }
 
 const chicken = document.getElementById('chicken');
