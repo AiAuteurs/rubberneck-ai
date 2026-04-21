@@ -150,7 +150,7 @@ a    { color: inherit; text-decoration: none; }
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 52vh;
+  min-height: 38vh;
   background: var(--white);
   overflow: hidden;
 }
