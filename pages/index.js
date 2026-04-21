@@ -45,31 +45,35 @@ function getTodayString() {
 function isValidEmail(e) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e) }
 
 // ─────────────────────────────────────────────────────────────
-// RUBBERNECK CHICKEN — always in DOM, class-toggled
+// RUBBERNECK CHICKEN — peeks in from screen edge near the click
 // ─────────────────────────────────────────────────────────────
 function RubberneckChicken({ pos, active }) {
-  const fromLeft = pos?.side === 'left'
+  if (!pos) return null
+  const fromLeft = pos.side === 'left'
+
   return (
     <img
       src="/assets/favicon.png"
       alt=""
       style={{
-        position:   'fixed',
-        zIndex:     9999,
+        position:      'fixed',
+        zIndex:        9999,
         pointerEvents: 'none',
-        width:      '70px',
-        height:     '70px',
-        objectFit:  'contain',
-        filter:     'drop-shadow(2px 4px 8px rgba(0,0,0,0.4))',
-        top:        pos ? pos.y - 35 : -200,
-        left:       pos && fromLeft  ? pos.x - 10  : 'auto',
-        right:      pos && !fromLeft ? `calc(100vw - ${pos.x + 10}px)` : 'auto',
-        transform:  fromLeft ? 'scaleX(1)' : 'scaleX(-1)',
-        opacity:    active ? 1 : 0,
-        transition: active
-          ? 'opacity 0.15s ease, top 0.2s ease'
-          : 'opacity 0.3s ease',
-        animation:  active ? `rubberneckBob 0.4s ease infinite alternate` : 'none',
+        width:         '80px',
+        height:        '80px',
+        objectFit:     'contain',
+        filter:        'drop-shadow(3px 4px 8px rgba(0,0,0,0.35))',
+        // Vertically centered near the click, horizontally at screen edge
+        top:           pos.y - 40,
+        // Peek in from left or right edge of screen
+        left:          fromLeft ? (active ? '0px' : '-80px') : 'auto',
+        right:         fromLeft ? 'auto' : (active ? '0px' : '-80px'),
+        // Flip to face inward
+        transform:     fromLeft ? 'scaleX(1)' : 'scaleX(-1)',
+        transition:    active
+          ? 'left 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), right 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.15s ease'
+          : 'left 0.35s ease-in, right 0.35s ease-in, opacity 0.25s ease',
+        opacity:       active ? 1 : 0,
       }}
     />
   )
@@ -150,7 +154,9 @@ export default function Home() {
 
     const x = e?.clientX ?? window.innerWidth / 2
     const y = e?.clientY ?? window.innerHeight / 2
-    const side = x < window.innerWidth / 2 ? 'right' : 'left'
+    // Click on left side → chicken peeks from LEFT edge (craning to see right)
+    // Click on right side → chicken peeks from RIGHT edge (craning to see left)
+    const side = x < window.innerWidth / 2 ? 'left' : 'right'
 
     if (timerRef.current) clearTimeout(timerRef.current)
     setChickPos({ x, y, side })
@@ -207,20 +213,12 @@ export default function Home() {
         </button>
 
         <div className="navbar__cta">
-          <input
-            className="navbar__email"
-            type="email"
+          <EmailForm
+            inputClass="navbar__email"
+            btnClass="navbar__submit"
             placeholder="Drop your email. Get tomorrow's Rubberneck."
-            aria-label="Email signup"
-            onKeyDown={e => {
-              if (e.key === 'Enter' && isValidEmail(e.target.value)) {
-                handleAnyClick(e)
-                console.log('Subscribe:', e.target.value)
-                e.target.value = ''
-              }
-            }}
+            onAnyClick={handleAnyClick}
           />
-          <button className="navbar__submit" onClick={handleAnyClick}>I'M IN →</button>
         </div>
       </header>
 
