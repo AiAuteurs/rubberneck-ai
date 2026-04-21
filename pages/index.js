@@ -48,36 +48,18 @@ function isValidEmail(e) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e) }
 // RUBBERNECK CHICKEN — peeks in from the side near the click
 // ─────────────────────────────────────────────────────────────
 function RubberneckChicken({ pos }) {
-  // pos: { x, y, side } — set when triggered, null when hidden
   if (!pos) return null
-
-  const fromLeft = pos.side === 'left'
-
   return (
-    <div
+    <img
+      src="/assets/favicon.png"
+      alt=""
+      className={`rubberneck rubberneck--from-${pos.side}`}
       style={{
-        position: 'fixed',
-        top: pos.y - 40,
-        left: fromLeft ? pos.x - 20 : 'auto',
-        right: fromLeft ? 'auto' : window.innerWidth - pos.x - 20,
-        zIndex: 9999,
-        pointerEvents: 'none',
-        animation: 'rubberneck 0.9s ease forwards',
-        transformOrigin: fromLeft ? 'left center' : 'right center',
+        top:  pos.y - 35,
+        left: pos.side === 'left' ? pos.x - 10 : 'auto',
+        right: pos.side === 'right' ? window.innerWidth - pos.x - 10 : 'auto',
       }}
-    >
-      <img
-        src="/assets/favicon.png"
-        alt=""
-        style={{
-          width: '60px',
-          height: '60px',
-          objectFit: 'contain',
-          transform: fromLeft ? 'scaleX(1)' : 'scaleX(-1)',
-          filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.3))',
-        }}
-      />
-    </div>
+    />
   )
 }
 
@@ -181,14 +163,6 @@ export default function Home() {
         <meta name="description" content="One jaw-dropping website, delivered daily. You won't look away." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/favicon.png" />
-        <style>{`
-          @keyframes rubberneck {
-            0%   { opacity: 0; transform: translateX(${chickPos?.side === 'left' ? '-60px' : '60px'}) scaleY(0.5); }
-            20%  { opacity: 1; transform: translateX(0px) scaleY(1); }
-            60%  { opacity: 1; transform: translateX(0px) scaleY(1); }
-            100% { opacity: 0; transform: translateX(${chickPos?.side === 'left' ? '-60px' : '60px'}) scaleY(0.5); }
-          }
-        `}</style>
       </Head>
 
       {/* Rubbernecking chicken — appears near any click */}
