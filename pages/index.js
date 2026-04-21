@@ -227,6 +227,23 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── HOW IT WORKS ── */}
+      <section className="how">
+        <h2 className="how__title">HOW THIS WORKS</h2>
+        <div className="how__steps">
+          {[
+            'Every morning, one website lands in your inbox. No listicles. No sponsored garbage.',
+            'Hand-picked by a human with too much time and zero tolerance for boring.',
+            'You click. You stare. You lose 45 minutes. You come back tomorrow.',
+          ].map((text, i) => (
+            <div key={i} className="how__step reveal">
+              <span className="how__num">0{i + 1}</span>
+              <p className="how__text">{text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* ── INTRO ── */}
       <section className="intro">
         <div className="intro__left">
@@ -282,23 +299,6 @@ export default function Home() {
             </a>
             <p className="pick__disclaimer"><em>If you click and buy something, we may get a cut. If it&apos;s boring, we don&apos;t feature it.</em></p>
           </div>
-        </div>
-      </section>
-
-      {/* ── HOW IT WORKS ── */}
-      <section className="how">
-        <h2 className="how__title">HOW THIS WORKS</h2>
-        <div className="how__steps">
-          {[
-            'Every morning, one website lands in your inbox. No listicles. No sponsored garbage.',
-            'Hand-picked by a human with too much time and zero tolerance for boring.',
-            'You click. You stare. You lose 45 minutes. You come back tomorrow.',
-          ].map((text, i) => (
-            <div key={i} className="how__step reveal">
-              <span className="how__num">0{i + 1}</span>
-              <p className="how__text">{text}</p>
-            </div>
-          ))}
         </div>
       </section>
 
