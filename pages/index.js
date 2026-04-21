@@ -45,12 +45,11 @@ function getTodayString() {
 function isValidEmail(e) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e) }
 
 // ─────────────────────────────────────────────────────────────
-// RUBBERNECK CHICKEN — peeks in from screen edge near the click
+// RUBBERNECK CHICKEN
 // ─────────────────────────────────────────────────────────────
 function RubberneckChicken({ pos, active }) {
   if (!pos) return null
   const fromLeft = pos.side === 'left'
-
   return (
     <img
       src="/assets/favicon.png"
@@ -63,12 +62,9 @@ function RubberneckChicken({ pos, active }) {
         height:        '80px',
         objectFit:     'contain',
         filter:        'drop-shadow(3px 4px 8px rgba(0,0,0,0.35))',
-        // Vertically centered near the click, horizontally at screen edge
         top:           pos.y - 40,
-        // Peek in from left or right edge of screen
         left:          fromLeft ? (active ? '0px' : '-80px') : 'auto',
         right:         fromLeft ? 'auto' : (active ? '0px' : '-80px'),
-        // Flip to face inward
         transform:     fromLeft ? 'scaleX(1)' : 'scaleX(-1)',
         transition:    active
           ? 'left 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), right 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.15s ease'
@@ -89,7 +85,6 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick, isNavbar }) 
   const handleSubmit = useCallback(async (e) => {
     if (onAnyClick) onAnyClick(e)
     if (!isValidEmail(value)) { setStatus('error'); return }
-
     setStatus('loading')
     try {
       const res = await fetch('/api/subscribe', {
@@ -107,22 +102,14 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick, isNavbar }) 
     }
   }, [value, onAnyClick])
 
-  // Show a full-width success banner instead of the form
   if (status === 'success') {
     return (
       <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: '0.5rem',
-        background: '#2a7a2a',
-        color: '#fff',
-        padding: '0.4rem 1rem',
-        borderRadius: '2px',
-        fontFamily: 'var(--font-cond)',
-        fontWeight: 700,
-        fontSize: '0.85rem',
-        letterSpacing: '0.08em',
-        whiteSpace: 'nowrap',
+        display: 'flex', alignItems: 'center', gap: '0.5rem',
+        background: '#2a7a2a', color: '#fff',
+        padding: '0.4rem 1rem', borderRadius: '2px',
+        fontFamily: 'var(--font-cond)', fontWeight: 700,
+        fontSize: '0.85rem', letterSpacing: '0.08em', whiteSpace: 'nowrap',
       }}>
         🐔 YOU&apos;RE IN! SEE YOU TOMORROW.
       </div>
@@ -145,11 +132,7 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick, isNavbar }) 
         disabled={status === 'loading'}
         style={status === 'error' ? { borderColor: 'var(--red)' } : {}}
       />
-      <button
-        className={btnClass}
-        onClick={handleSubmit}
-        disabled={status === 'loading'}
-      >
+      <button className={btnClass} onClick={handleSubmit} disabled={status === 'loading'}>
         {status === 'loading' ? '...' : "I'M IN →"}
       </button>
     </div>
@@ -160,11 +143,11 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick, isNavbar }) 
 // PAGE
 // ─────────────────────────────────────────────────────────────
 export default function Home() {
-  const squeakRef   = useRef(null)
-  const [muted,     setMuted]     = useState(false)
-  const [chickPos,  setChickPos]  = useState(null)
+  const squeakRef     = useRef(null)
+  const [muted,       setMuted]       = useState(false)
+  const [chickPos,    setChickPos]    = useState(null)
   const [chickActive, setChickActive] = useState(false)
-  const [subCount,  setSubCount]  = useState(null)
+  const [subCount,    setSubCount]    = useState(null)
   const timerRef = useRef(null)
 
   useEffect(() => {
@@ -172,7 +155,6 @@ export default function Home() {
     squeakRef.current.preload = 'auto'
   }, [])
 
-  // Fetch live subscriber count
   useEffect(() => {
     fetch('/api/subscribers')
       .then(r => r.json())
@@ -185,13 +167,9 @@ export default function Home() {
       squeakRef.current.currentTime = 0
       squeakRef.current.play().catch(() => {})
     }
-
     const x = e?.clientX ?? window.innerWidth / 2
     const y = e?.clientY ?? window.innerHeight / 2
-    // Click on left side → chicken peeks from LEFT edge (craning to see right)
-    // Click on right side → chicken peeks from RIGHT edge (craning to see left)
     const side = x < window.innerWidth / 2 ? 'left' : 'right'
-
     if (timerRef.current) clearTimeout(timerRef.current)
     setChickPos({ x, y, side })
     setChickActive(true)
@@ -203,7 +181,6 @@ export default function Home() {
     handleAnyClick(e)
   }
 
-  // Scroll reveal
   useEffect(() => {
     const els = document.querySelectorAll('.reveal')
     if (!('IntersectionObserver' in window)) {
@@ -231,27 +208,19 @@ export default function Home() {
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 
-      {/* Rubbernecking chicken — appears near any click */}
       <RubberneckChicken pos={chickPos} active={chickActive} />
 
       {/* ── NAVBAR ── */}
       <header className="navbar">
         <div className="navbar__date">{getTodayString()}</div>
-
-        <button
-          className="navbar__mute"
-          onClick={handleMuteToggle}
-          aria-label={muted ? 'Unmute' : 'Mute'}
-        >
+        <button className="navbar__mute" onClick={handleMuteToggle} aria-label={muted ? 'Unmute' : 'Mute'}>
           <span>{muted ? '🔇 UNMUTE' : '🔊 MUTE'}</span>
         </button>
-
         {subCount !== null && (
           <div className="navbar__counter">
             🐔 <span className="navbar__counter-num">{subCount.toLocaleString()}</span> RUBBERNECKERS
           </div>
         )}
-
         <div className="navbar__cta">
           <EmailForm
             inputClass="navbar__email"
@@ -263,8 +232,8 @@ export default function Home() {
         </div>
       </header>
 
-      {/* ── HERO ── */}
-      <section className="hero">
+      {/* ── HERO — yellow background ── */}
+      <section className="hero" style={{ background: 'var(--yellow)' }}>
         <div className="hero__lockup">
           <Image
             className="hero__logo"
@@ -332,13 +301,7 @@ export default function Home() {
                 <span className="pick__browser-dot pick__browser-dot--green" />
                 <span className="pick__browser-address">{TODAY.siteDisplay}</span>
               </div>
-              <a
-                href={TODAY.siteUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={handleAnyClick}
-                className="pick__screenshot-link"
-              >
+              <a href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer" onClick={handleAnyClick} className="pick__screenshot-link">
                 <img
                   className="pick__screenshot"
                   src={`https://api.microlink.io/?url=${encodeURIComponent(TODAY.siteUrl)}&screenshot=true&meta=false&embed=screenshot.url`}
@@ -369,7 +332,7 @@ export default function Home() {
         <section className="archive">
           <div className="archive__header">
             <h2 className="archive__title">PAST PICKS</h2>
-            <a className="archive__all" href="#">SEE ALL ISSUES →</a>
+            <a className="archive__all" href="/archive">SEE ALL ISSUES →</a>
           </div>
           <div className="archive__grid">
             {ARCHIVE.map((item) => (
@@ -412,8 +375,9 @@ export default function Home() {
       <footer className="footer">
         <span>© {new Date().getFullYear()} Rubberneck.ai</span>
         <span>Made with unhinged energy.</span>
-        <a href="#">Privacy</a>
-        <a href="#">Unsubscribe</a>
+        <a href="/faq">FAQ</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/unsubscribe">Unsubscribe</a>
       </footer>
     </>
   )
