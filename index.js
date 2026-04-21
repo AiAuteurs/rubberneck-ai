@@ -82,13 +82,25 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
   const [value,  setValue]  = useState('')
   const [status, setStatus] = useState('idle')
 
-  const handleSubmit = useCallback((e) => {
+  const handleSubmit = useCallback(async (e) => {
     if (onAnyClick) onAnyClick(e)
     if (!isValidEmail(value)) { setStatus('error'); return }
-    console.log('Subscribe:', value)
-    setStatus('success')
-    setValue('')
-    setTimeout(() => setStatus('idle'), 3500)
+
+    setStatus('loading')
+    try {
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: value }),
+      })
+      if (!res.ok) throw new Error('Failed')
+      setStatus('success')
+      setValue('')
+      setTimeout(() => setStatus('idle'), 4000)
+    } catch {
+      setStatus('error')
+      setTimeout(() => setStatus('idle'), 3000)
+    }
   }, [value, onAnyClick])
 
   return (
@@ -96,7 +108,7 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
       <input
         className={inputClass}
         type="email"
-        placeholder={status === 'error' ? 'Need a real email! 👀' : status === 'success' ? "✓ You're in!" : placeholder}
+        placeholder={status === 'error' ? 'Something went wrong — try again' : status === 'success' ? "✓ You're in!" : status === 'loading' ? 'Adding you...' : placeholder}
         value={value}
         onChange={e => { setValue(e.target.value); setStatus('idle') }}
         onKeyDown={e => { if (e.key === 'Enter') handleSubmit(e) }}
@@ -109,7 +121,7 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
         disabled={status === 'success'}
         style={status === 'success' ? { background: '#2a7a2a', borderColor: '#2a7a2a' } : {}}
       >
-        {status === 'success' ? "YOU'RE IN" : "I'M IN →"}
+        {status === 'success' ? "YOU'RE IN" : status === 'loading' ? '...' : "I'M IN →"}
       </button>
     </div>
   )
