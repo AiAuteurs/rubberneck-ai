@@ -1,13 +1,12 @@
 // pages/api/subscribers.js
-// Returns live subscriber count from Kit
+// Returns live subscriber count from Kit (ConvertKit v3 API)
 
 export default async function handler(req, res) {
-  // Cache for 5 minutes so we don't hammer Kit's API
   res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate')
 
   try {
     const response = await fetch(
-      'https://api.convertkit.com/v3/subscribers?api_secret=' + process.env.KIT_API_KEY,
+      'https://api.convertkit.com/v3/subscribers?api_secret=' + process.env.KIT_API_SECRET,
       { method: 'GET' }
     )
 
