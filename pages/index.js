@@ -164,11 +164,20 @@ export default function Home() {
   const [muted,     setMuted]     = useState(false)
   const [chickPos,  setChickPos]  = useState(null)
   const [chickActive, setChickActive] = useState(false)
+  const [subCount,  setSubCount]  = useState(null)
   const timerRef = useRef(null)
 
   useEffect(() => {
     squeakRef.current = new Audio('/assets/squeak.wav')
     squeakRef.current.preload = 'auto'
+  }, [])
+
+  // Fetch live subscriber count
+  useEffect(() => {
+    fetch('/api/subscribers')
+      .then(r => r.json())
+      .then(d => setSubCount(d.count))
+      .catch(() => {})
   }, [])
 
   const handleAnyClick = useCallback((e) => {
@@ -236,6 +245,12 @@ export default function Home() {
         >
           <span>{muted ? '🔇 UNMUTE' : '🔊 MUTE'}</span>
         </button>
+
+        {subCount !== null && (
+          <div className="navbar__counter">
+            🐔 <span className="navbar__counter-num">{subCount.toLocaleString()}</span> RUBBERNECKERS
+          </div>
+        )}
 
         <div className="navbar__cta">
           <EmailForm
