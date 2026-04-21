@@ -45,20 +45,31 @@ function getTodayString() {
 function isValidEmail(e) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e) }
 
 // ─────────────────────────────────────────────────────────────
-// RUBBERNECK CHICKEN — peeks in from the side near the click
+// RUBBERNECK CHICKEN — always in DOM, class-toggled
 // ─────────────────────────────────────────────────────────────
-function RubberneckChicken({ pos }) {
-  if (!pos) return null
-  const fromLeft = pos.side === 'left'
+function RubberneckChicken({ pos, active }) {
+  const fromLeft = pos?.side === 'left'
   return (
     <img
       src="/assets/favicon.png"
       alt=""
-      className={`rubberneck rubberneck--from-${pos.side}`}
       style={{
-        top:   pos.y - 35,
-        left:  fromLeft ? pos.x - 10 : 'auto',
-        right: fromLeft ? 'auto' : `calc(100vw - ${pos.x + 10}px)`,
+        position:   'fixed',
+        zIndex:     9999,
+        pointerEvents: 'none',
+        width:      '70px',
+        height:     '70px',
+        objectFit:  'contain',
+        filter:     'drop-shadow(2px 4px 8px rgba(0,0,0,0.4))',
+        top:        pos ? pos.y - 35 : -200,
+        left:       pos && fromLeft  ? pos.x - 10  : 'auto',
+        right:      pos && !fromLeft ? `calc(100vw - ${pos.x + 10}px)` : 'auto',
+        transform:  fromLeft ? 'scaleX(1)' : 'scaleX(-1)',
+        opacity:    active ? 1 : 0,
+        transition: active
+          ? 'opacity 0.15s ease, top 0.2s ease'
+          : 'opacity 0.3s ease',
+        animation:  active ? `rubberneckBob 0.4s ease infinite alternate` : 'none',
       }}
     />
   )
@@ -111,6 +122,8 @@ export default function Home() {
   const squeakRef   = useRef(null)
   const [muted,     setMuted]     = useState(false)
   const [chickPos,  setChickPos]  = useState(null)
+  const [chickActive, setChickActive] = useState(false)
+  const timerRef = useRef(null)
 
   useEffect(() => {
     squeakRef.current = new Audio('/assets/squeak.wav')
@@ -118,19 +131,19 @@ export default function Home() {
   }, [])
 
   const handleAnyClick = useCallback((e) => {
-    // Play squeak
     if (!muted && squeakRef.current) {
       squeakRef.current.currentTime = 0
       squeakRef.current.play().catch(() => {})
     }
 
-    // Figure out where the click happened, peek from opposite side
     const x = e?.clientX ?? window.innerWidth / 2
     const y = e?.clientY ?? window.innerHeight / 2
     const side = x < window.innerWidth / 2 ? 'right' : 'left'
 
+    if (timerRef.current) clearTimeout(timerRef.current)
     setChickPos({ x, y, side })
-    setTimeout(() => setChickPos(null), 950)
+    setChickActive(true)
+    timerRef.current = setTimeout(() => setChickActive(false), 900)
   }, [muted])
 
   const handleMuteToggle = (e) => {
@@ -167,7 +180,7 @@ export default function Home() {
       </Head>
 
       {/* Rubbernecking chicken — appears near any click */}
-      <RubberneckChicken pos={chickPos} />
+      <RubberneckChicken pos={chickPos} active={chickActive} />
 
       {/* ── NAVBAR ── */}
       <header className="navbar">
