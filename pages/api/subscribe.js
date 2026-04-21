@@ -1,6 +1,4 @@
 // pages/api/subscribe.js
-// Receives email from our form, sends it to Kit (ConvertKit)
-
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' })
@@ -14,21 +12,22 @@ export default async function handler(req, res) {
 
   try {
     const response = await fetch(
-      `https://api.kit.com/v4/forms/9351755/subscribers`,
+      `https://api.convertkit.com/v3/forms/9351755/subscribe`,
       {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'X-Kit-Api-Key': process.env.KIT_API_KEY,
-        },
-        body: JSON.stringify({ email_address: email }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          api_key: process.env.KIT_API_KEY,
+          email,
+        }),
       }
     )
 
+    const data = await response.json()
+    console.log('Kit response:', data)
+
     if (!response.ok) {
-      const err = await response.json()
-      console.error('Kit error:', err)
-      return res.status(500).json({ error: 'Subscription failed' })
+      return res.status(500).json({ error: 'Subscription failed', detail: data })
     }
 
     return res.status(200).json({ success: true })
