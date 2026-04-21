@@ -49,15 +49,16 @@ function isValidEmail(e) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e) }
 // ─────────────────────────────────────────────────────────────
 function RubberneckChicken({ pos }) {
   if (!pos) return null
+  const fromLeft = pos.side === 'left'
   return (
     <img
       src="/assets/favicon.png"
       alt=""
       className={`rubberneck rubberneck--from-${pos.side}`}
       style={{
-        top:  pos.y - 35,
-        left: pos.side === 'left' ? pos.x - 10 : 'auto',
-        right: pos.side === 'right' ? window.innerWidth - pos.x - 10 : 'auto',
+        top:   pos.y - 35,
+        left:  fromLeft ? pos.x - 10 : 'auto',
+        right: fromLeft ? 'auto' : `calc(100vw - ${pos.x + 10}px)`,
       }}
     />
   )
@@ -239,7 +240,19 @@ export default function Home() {
                 <span className="pick__browser-dot pick__browser-dot--green" />
                 <span className="pick__browser-address">{TODAY.siteDisplay}</span>
               </div>
-              <img className="pick__screenshot" src={TODAY.screenshot} alt={`Screenshot of ${TODAY.siteDisplay}`} />
+              <a
+                href={TODAY.siteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={handleAnyClick}
+                className="pick__screenshot-link"
+              >
+                <img
+                  className="pick__screenshot"
+                  src={`https://api.microlink.io/?url=${encodeURIComponent(TODAY.siteUrl)}&screenshot=true&meta=false&embed=screenshot.url`}
+                  alt={`Screenshot of ${TODAY.siteDisplay}`}
+                />
+              </a>
             </div>
           </div>
 
