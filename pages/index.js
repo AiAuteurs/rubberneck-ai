@@ -10,7 +10,7 @@ const TODAY = {
   headline:    'THE SITE THAT KILLS EVERY PAYWALL. LEGALLY.',
   siteUrl:     'https://archivebuttons.com',
   siteDisplay: 'archivebuttons.com',
-  screenshot:  '/assets/todays-pick.jpg',   // drop new file in public/assets/ each day
+  screenshot:  '/assets/todays-pick.jpg',
   body: [
     {
       text: "You click a link. You want to read the article. Instead you get a popup demanding your credit card, your email, your firstborn child, and a lifetime subscription to something you'll forget to cancel.",
@@ -32,17 +32,8 @@ const TODAY = {
   ],
 }
 
-// ─────────────────────────────────────────────────────────────
-// ARCHIVE — add an entry here each day after it runs
-// ─────────────────────────────────────────────────────────────
-const ARCHIVE = [
-  // { issue: 1, site: 'archivebuttons.com', thumb: '/assets/archive-01.jpg' },
-  // { issue: 2, site: 'example.com',        thumb: '/assets/archive-02.jpg' },
-]
+const ARCHIVE = []
 
-// ─────────────────────────────────────────────────────────────
-// HELPERS
-// ─────────────────────────────────────────────────────────────
 function getTodayString() {
   const d = new Date()
   const days   = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY']
@@ -54,38 +45,67 @@ function getTodayString() {
 function isValidEmail(e) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e) }
 
 // ─────────────────────────────────────────────────────────────
-// SUB-COMPONENTS
+// RUBBERNECK CHICKEN — peeks in from the side near the click
 // ─────────────────────────────────────────────────────────────
+function RubberneckChicken({ pos }) {
+  // pos: { x, y, side } — set when triggered, null when hidden
+  if (!pos) return null
 
-function EmailForm({ inputClass, btnClass, placeholder, onSubmit }) {
-  const [value,   setValue]   = useState('')
-  const [status,  setStatus]  = useState('idle')
+  const fromLeft = pos.side === 'left'
 
-  const handleSubmit = useCallback(async () => {
+  return (
+    <div
+      style={{
+        position: 'fixed',
+        top: pos.y - 40,
+        left: fromLeft ? pos.x - 20 : 'auto',
+        right: fromLeft ? 'auto' : window.innerWidth - pos.x - 20,
+        zIndex: 9999,
+        pointerEvents: 'none',
+        animation: 'rubberneck 0.9s ease forwards',
+        transformOrigin: fromLeft ? 'left center' : 'right center',
+      }}
+    >
+      <img
+        src="/assets/favicon.png"
+        alt=""
+        style={{
+          width: '60px',
+          height: '60px',
+          objectFit: 'contain',
+          transform: fromLeft ? 'scaleX(1)' : 'scaleX(-1)',
+          filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.3))',
+        }}
+      />
+    </div>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// EMAIL FORM
+// ─────────────────────────────────────────────────────────────
+function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
+  const [value,  setValue]  = useState('')
+  const [status, setStatus] = useState('idle')
+
+  const handleSubmit = useCallback((e) => {
+    if (onAnyClick) onAnyClick(e)
     if (!isValidEmail(value)) { setStatus('error'); return }
-    if (onSubmit) onSubmit()
     console.log('Subscribe:', value)
     setStatus('success')
     setValue('')
     setTimeout(() => setStatus('idle'), 3500)
-  }, [value, onSubmit])
-
-  const handleKey = (e) => { if (e.key === 'Enter') handleSubmit() }
-
-  const placeholderText =
-    status === 'error'   ? 'Need a real email! 👀' :
-    status === 'success' ? '✓ You\'re in!' :
-    placeholder
+  }, [value, onAnyClick])
 
   return (
     <div className="bottom-cta__form">
       <input
         className={inputClass}
         type="email"
-        placeholder={placeholderText}
+        placeholder={status === 'error' ? 'Need a real email! 👀' : status === 'success' ? "✓ You're in!" : placeholder}
         value={value}
         onChange={e => { setValue(e.target.value); setStatus('idle') }}
-        onKeyDown={handleKey}
+        onKeyDown={e => { if (e.key === 'Enter') handleSubmit(e) }}
         disabled={status === 'success'}
         style={status === 'error' ? { borderColor: 'var(--red)' } : {}}
       />
@@ -105,38 +125,37 @@ function EmailForm({ inputClass, btnClass, placeholder, onSubmit }) {
 // PAGE
 // ─────────────────────────────────────────────────────────────
 export default function Home() {
-  const squeakRef  = useRef(null)
-  const [emojiIdx,  setEmojiIdx]  = useState(0)
-  const [squeaking, setSqueaking] = useState(false)
+  const squeakRef   = useRef(null)
   const [muted,     setMuted]     = useState(false)
-  const EMOJIS = ['🐔', '🤩', '😱', '💥', '🐓', '👀']
+  const [chickPos,  setChickPos]  = useState(null)
 
-  // pre-load squeak audio
   useEffect(() => {
     squeakRef.current = new Audio('/assets/squeak.wav')
     squeakRef.current.preload = 'auto'
   }, [])
 
-  const playSqueak = useCallback(() => {
-    if (squeakRef.current && !muted) {
+  const handleAnyClick = useCallback((e) => {
+    // Play squeak
+    if (!muted && squeakRef.current) {
       squeakRef.current.currentTime = 0
       squeakRef.current.play().catch(() => {})
     }
+
+    // Figure out where the click happened, peek from opposite side
+    const x = e?.clientX ?? window.innerWidth / 2
+    const y = e?.clientY ?? window.innerHeight / 2
+    const side = x < window.innerWidth / 2 ? 'right' : 'left'
+
+    setChickPos({ x, y, side })
+    setTimeout(() => setChickPos(null), 950)
   }, [muted])
 
-  const handleSqueak = () => {
-    playSqueak()
-    setEmojiIdx(i => (i + 1) % EMOJIS.length)
-    setSqueaking(true)
-    setTimeout(() => setSqueaking(false), 300)
-  }
-
-  const handleMute = (e) => {
-    e.stopPropagation()
+  const handleMuteToggle = (e) => {
     setMuted(m => !m)
+    handleAnyClick(e)
   }
 
-  // scroll reveal
+  // Scroll reveal
   useEffect(() => {
     const els = document.querySelectorAll('.reveal')
     if (!('IntersectionObserver' in window)) {
@@ -162,34 +181,29 @@ export default function Home() {
         <meta name="description" content="One jaw-dropping website, delivered daily. You won't look away." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/favicon.png" />
+        <style>{`
+          @keyframes rubberneck {
+            0%   { opacity: 0; transform: translateX(${chickPos?.side === 'left' ? '-60px' : '60px'}) scaleY(0.5); }
+            20%  { opacity: 1; transform: translateX(0px) scaleY(1); }
+            60%  { opacity: 1; transform: translateX(0px) scaleY(1); }
+            100% { opacity: 0; transform: translateX(${chickPos?.side === 'left' ? '-60px' : '60px'}) scaleY(0.5); }
+          }
+        `}</style>
       </Head>
+
+      {/* Rubbernecking chicken — appears near any click */}
+      <RubberneckChicken pos={chickPos} />
 
       {/* ── NAVBAR ── */}
       <header className="navbar">
         <div className="navbar__date">{getTodayString()}</div>
 
         <button
-          className={`navbar__mute${squeaking ? ' squeaking' : ''}${muted ? ' muted' : ''}`}
-          onClick={handleSqueak}
-          aria-label={muted ? 'Unmute squeak' : 'Squeak!'}
-          title={muted ? 'Unmute' : 'Squeak!'}
+          className="navbar__mute"
+          onClick={handleMuteToggle}
+          aria-label={muted ? 'Unmute' : 'Mute'}
         >
-          <img src="/assets/favicon.png" alt="chicken" style={{ width: '18px', height: '18px', objectFit: 'contain', opacity: muted ? 0.4 : 1 }} />
-          <span>{muted ? 'MUTED' : 'SQUEAK'}</span>
-          <span
-            onClick={handleMute}
-            title={muted ? 'Unmute' : 'Mute'}
-            style={{
-              marginLeft: '6px',
-              fontSize: '0.65rem',
-              opacity: 0.6,
-              borderLeft: '1px solid rgba(255,255,255,0.3)',
-              paddingLeft: '6px',
-              letterSpacing: '0.05em',
-            }}
-          >
-            {muted ? '🔇' : '🔊'}
-          </span>
+          <span>{muted ? '🔇 UNMUTE' : '🔊 MUTE'}</span>
         </button>
 
         <div className="navbar__cta">
@@ -200,13 +214,13 @@ export default function Home() {
             aria-label="Email signup"
             onKeyDown={e => {
               if (e.key === 'Enter' && isValidEmail(e.target.value)) {
-                playSqueak()
+                handleAnyClick(e)
                 console.log('Subscribe:', e.target.value)
                 e.target.value = ''
               }
             }}
           />
-          <button className="navbar__submit" onClick={playSqueak}>I'M IN →</button>
+          <button className="navbar__submit" onClick={handleAnyClick}>I'M IN →</button>
         </div>
       </header>
 
@@ -228,36 +242,20 @@ export default function Home() {
       {/* ── INTRO ── */}
       <section className="intro">
         <div className="intro__left">
-          <h2 className="intro__headline">
-            THE SITE THAT<br />KILLS EVERY<br />PAYWALL.
-          </h2>
+          <h2 className="intro__headline">THE SITE THAT<br />KILLS EVERY<br />PAYWALL.</h2>
         </div>
         <div className="intro__right">
-          <p className="intro__kicker">
-            SOMEONE BROKE THE INTERNET&apos;S MOST ANNOYING BUSINESS MODEL. ANONYMOUSLY.
-          </p>
-          <p className="intro__body">
-            You click a link. You want to read the article. Instead you get a popup. A subscribe wall.
-            A cookie banner the size of a billboard. Rubberneck finds the wild corners of the web
-            where none of that exists — and drops one in your inbox every single day.
-          </p>
+          <p className="intro__kicker">SOMEONE BROKE THE INTERNET&apos;S MOST ANNOYING BUSINESS MODEL. ANONYMOUSLY.</p>
+          <p className="intro__body">You click a link. You want to read the article. Instead you get a popup. A subscribe wall. A cookie banner the size of a billboard. Rubberneck finds the wild corners of the web where none of that exists — and drops one in your inbox every single day.</p>
         </div>
       </section>
 
       {/* ── TODAY'S PICK ── */}
-      {/*
-        TO UPDATE DAILY:
-        1. Edit the TODAY object at the top of this file
-        2. Drop a new screenshot into public/assets/todays-pick.jpg
-        That's it. Nothing else to touch.
-      */}
       <section className="pick">
         <div className="pick__inner">
-
-          {/* LEFT */}
           <div className="pick__left reveal">
             <h2 className="pick__headline">{TODAY.headline}</h2>
-            <a className="pick__url" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer">
+            <a className="pick__url" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer" onClick={handleAnyClick}>
               {TODAY.siteDisplay}
             </a>
             <div className="pick__browser">
@@ -267,38 +265,23 @@ export default function Home() {
                 <span className="pick__browser-dot pick__browser-dot--green" />
                 <span className="pick__browser-address">{TODAY.siteDisplay}</span>
               </div>
-              <img
-                className="pick__screenshot"
-                src={TODAY.screenshot}
-                alt={`Screenshot of ${TODAY.siteDisplay}`}
-              />
+              <img className="pick__screenshot" src={TODAY.screenshot} alt={`Screenshot of ${TODAY.siteDisplay}`} />
             </div>
           </div>
 
-          {/* RIGHT */}
           <div className="pick__right reveal">
             {TODAY.body.map((block, i) => (
-              <p
-                key={i}
-                className={`pick__body${block.italic ? ' pick__body--italic' : ''}`}
-                style={block.bold ? { fontWeight: 500 } : {}}
-              >
+              <p key={i} className={`pick__body${block.italic ? ' pick__body--italic' : ''}`} style={block.bold ? { fontWeight: 500 } : {}}>
                 {block.text}
               </p>
             ))}
-
             <hr className="pick__rule" />
             <p className="pick__ready">READY? HERE IT IS.</p>
-
-            <a className="pick__cta" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer">
+            <a className="pick__cta" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer" onClick={handleAnyClick}>
               GO THERE →
             </a>
-
-            <p className="pick__disclaimer">
-              <em>If you click and buy something, we may get a cut. If it&apos;s boring, we don&apos;t feature it.</em>
-            </p>
+            <p className="pick__disclaimer"><em>If you click and buy something, we may get a cut. If it&apos;s boring, we don&apos;t feature it.</em></p>
           </div>
-
         </div>
       </section>
 
@@ -358,7 +341,7 @@ export default function Home() {
             inputClass="bottom-cta__email"
             btnClass="bottom-cta__btn"
             placeholder="your@email.com"
-            onSubmit={playSqueak}
+            onAnyClick={handleAnyClick}
           />
         </div>
       </section>
