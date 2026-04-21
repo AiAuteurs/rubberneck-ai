@@ -82,7 +82,7 @@ function RubberneckChicken({ pos, active }) {
 // ─────────────────────────────────────────────────────────────
 // EMAIL FORM
 // ─────────────────────────────────────────────────────────────
-function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
+function EmailForm({ inputClass, btnClass, placeholder, onAnyClick, isNavbar }) {
   const [value,  setValue]  = useState('')
   const [status, setStatus] = useState('idle')
 
@@ -100,32 +100,57 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
       if (!res.ok) throw new Error('Failed')
       setStatus('success')
       setValue('')
-      setTimeout(() => setStatus('idle'), 4000)
+      setTimeout(() => setStatus('idle'), 5000)
     } catch {
       setStatus('error')
       setTimeout(() => setStatus('idle'), 3000)
     }
   }, [value, onAnyClick])
 
+  // Show a full-width success banner instead of the form
+  if (status === 'success') {
+    return (
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: '0.5rem',
+        background: '#2a7a2a',
+        color: '#fff',
+        padding: '0.4rem 1rem',
+        borderRadius: '2px',
+        fontFamily: 'var(--font-cond)',
+        fontWeight: 700,
+        fontSize: '0.85rem',
+        letterSpacing: '0.08em',
+        whiteSpace: 'nowrap',
+      }}>
+        🐔 YOU&apos;RE IN! SEE YOU TOMORROW.
+      </div>
+    )
+  }
+
   return (
-    <div className="bottom-cta__form">
+    <div style={{ display: 'flex' }}>
       <input
         className={inputClass}
         type="email"
-        placeholder={status === 'error' ? 'Something went wrong — try again' : status === 'success' ? "✓ You're in!" : status === 'loading' ? 'Adding you...' : placeholder}
+        placeholder={
+          status === 'error'   ? 'Need a real email! 👀' :
+          status === 'loading' ? 'Adding you...' :
+          placeholder
+        }
         value={value}
         onChange={e => { setValue(e.target.value); setStatus('idle') }}
         onKeyDown={e => { if (e.key === 'Enter') handleSubmit(e) }}
-        disabled={status === 'success'}
+        disabled={status === 'loading'}
         style={status === 'error' ? { borderColor: 'var(--red)' } : {}}
       />
       <button
         className={btnClass}
         onClick={handleSubmit}
-        disabled={status === 'success'}
-        style={status === 'success' ? { background: '#2a7a2a', borderColor: '#2a7a2a' } : {}}
+        disabled={status === 'loading'}
       >
-        {status === 'success' ? "YOU'RE IN" : status === 'loading' ? '...' : "I'M IN →"}
+        {status === 'loading' ? '...' : "I'M IN →"}
       </button>
     </div>
   )
@@ -218,6 +243,7 @@ export default function Home() {
             btnClass="navbar__submit"
             placeholder="Drop your email. Get tomorrow's Rubberneck."
             onAnyClick={handleAnyClick}
+            isNavbar={true}
           />
         </div>
       </header>
@@ -251,6 +277,17 @@ export default function Home() {
               <p className="how__text">{text}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* ── TAKING A NOSER ── */}
+      <section className="noser">
+        <div className="noser__inner">
+          <div className="noser__edition">
+            ISSUE #{TODAY.issueNumber} &nbsp;·&nbsp; {new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }).toUpperCase()}
+          </div>
+          <hr className="noser__rule" />
+          <h2 className="noser__headline">YOU'LL BE TAKING A NOSER WITH TODAY'S PREMIERE OF RUBBERNECK.AI</h2>
         </div>
       </section>
 

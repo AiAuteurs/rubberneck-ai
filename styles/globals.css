@@ -178,6 +178,45 @@ a    { color: inherit; text-decoration: none; }
   50%       { transform: scale(1.012); }
 }
 
+/* ── TAKING A NOSER ───────────────────────────────────── */
+.noser {
+  background: var(--black);
+  color: var(--white);
+  padding: clamp(2rem, 4vw, 3rem) var(--pad);
+  text-align: center;
+}
+
+.noser__inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+.noser__edition {
+  font-family: var(--font-cond);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  color: var(--yellow);
+  margin-bottom: 0.75rem;
+}
+
+.noser__rule {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  margin: 0 auto 1.2rem;
+  width: 100%;
+}
+
+.noser__headline {
+  font-family: var(--font-headline);
+  font-size: clamp(1.8rem, 4vw, 3.5rem);
+  line-height: 1.05;
+  color: var(--white);
+  letter-spacing: 0.02em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 /* ── INTRO ────────────────────────────────────────────── */
 .intro {
   display: grid;
@@ -403,7 +442,63 @@ a    { color: inherit; text-decoration: none; }
   line-height: 1.5;
 }
 
-/* ── HOW IT WORKS ─────────────────────────────────────── */
+/* ── TAKING A NOSER ───────────────────────────────────── */
+.noser {
+  background: var(--black);
+  color: var(--white);
+  padding: clamp(3rem, 6vw, 5rem) var(--pad);
+  text-align: center;
+}
+
+.noser__inner {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.noser__edition {
+  font-family: var(--font-cond);
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  color: var(--yellow);
+}
+
+.noser__rule {
+  border: none;
+  border-top: 1px solid rgba(245,197,24,0.3);
+  width: 100%;
+  margin: 0;
+}
+
+.noser__headline {
+  font-family: var(--font-headline);
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  line-height: 0.95;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin: 0;
+}
+
+.noser__sub {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: rgba(245,240,232,0.45);
+  margin: 0;
+}
+
+.noser__desc {
+  font-family: var(--font-cond);
+  font-weight: 700;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  color: var(--yellow);
+  letter-spacing: 0.05em;
+  margin: 0;
+}
 .how {
   background: var(--navy);
   color: var(--white);
