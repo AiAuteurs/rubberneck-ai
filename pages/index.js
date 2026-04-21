@@ -57,27 +57,18 @@ function isValidEmail(e) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e) }
 // SUB-COMPONENTS
 // ─────────────────────────────────────────────────────────────
 
-function EmailForm({ inputClass, btnClass, placeholder }) {
+function EmailForm({ inputClass, btnClass, placeholder, onSubmit }) {
   const [value,   setValue]   = useState('')
-  const [status,  setStatus]  = useState('idle') // idle | success | error
+  const [status,  setStatus]  = useState('idle')
 
   const handleSubmit = useCallback(async () => {
     if (!isValidEmail(value)) { setStatus('error'); return }
-
-    // ── Plug your email provider here ──────────────────────────
-    // e.g. Beehiiv, ConvertKit, Mailchimp API route
-    // await fetch('/api/subscribe', {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify({ email: value }),
-    // })
+    if (onSubmit) onSubmit()
     console.log('Subscribe:', value)
-    // ───────────────────────────────────────────────────────────
-
     setStatus('success')
     setValue('')
     setTimeout(() => setStatus('idle'), 3500)
-  }, [value])
+  }, [value, onSubmit])
 
   const handleKey = (e) => { if (e.key === 'Enter') handleSubmit() }
 
@@ -115,8 +106,9 @@ function EmailForm({ inputClass, btnClass, placeholder }) {
 // ─────────────────────────────────────────────────────────────
 export default function Home() {
   const squeakRef  = useRef(null)
-  const [emojiIdx, setEmojiIdx] = useState(0)
+  const [emojiIdx,  setEmojiIdx]  = useState(0)
   const [squeaking, setSqueaking] = useState(false)
+  const [muted,     setMuted]     = useState(false)
   const EMOJIS = ['🐔', '🤩', '😱', '💥', '🐓', '👀']
 
   // pre-load squeak audio
@@ -125,14 +117,23 @@ export default function Home() {
     squeakRef.current.preload = 'auto'
   }, [])
 
-  const handleSqueak = () => {
-    if (squeakRef.current) {
+  const playSqueak = useCallback(() => {
+    if (squeakRef.current && !muted) {
       squeakRef.current.currentTime = 0
       squeakRef.current.play().catch(() => {})
     }
+  }, [muted])
+
+  const handleSqueak = () => {
+    playSqueak()
     setEmojiIdx(i => (i + 1) % EMOJIS.length)
     setSqueaking(true)
     setTimeout(() => setSqueaking(false), 300)
+  }
+
+  const handleMute = (e) => {
+    e.stopPropagation()
+    setMuted(m => !m)
   }
 
   // scroll reveal
@@ -168,12 +169,27 @@ export default function Home() {
         <div className="navbar__date">{getTodayString()}</div>
 
         <button
-          className={`navbar__mute${squeaking ? ' squeaking' : ''}`}
+          className={`navbar__mute${squeaking ? ' squeaking' : ''}${muted ? ' muted' : ''}`}
           onClick={handleSqueak}
-          aria-label="Play squeak sound"
+          aria-label={muted ? 'Unmute squeak' : 'Squeak!'}
+          title={muted ? 'Unmute' : 'Squeak!'}
         >
-          <span>{EMOJIS[emojiIdx]}</span>
-          <span>SQUEAK</span>
+          <img src="/assets/favicon.png" alt="chicken" style={{ width: '18px', height: '18px', objectFit: 'contain', opacity: muted ? 0.4 : 1 }} />
+          <span>{muted ? 'MUTED' : 'SQUEAK'}</span>
+          <span
+            onClick={handleMute}
+            title={muted ? 'Unmute' : 'Mute'}
+            style={{
+              marginLeft: '6px',
+              fontSize: '0.65rem',
+              opacity: 0.6,
+              borderLeft: '1px solid rgba(255,255,255,0.3)',
+              paddingLeft: '6px',
+              letterSpacing: '0.05em',
+            }}
+          >
+            {muted ? '🔇' : '🔊'}
+          </span>
         </button>
 
         <div className="navbar__cta">
@@ -184,12 +200,13 @@ export default function Home() {
             aria-label="Email signup"
             onKeyDown={e => {
               if (e.key === 'Enter' && isValidEmail(e.target.value)) {
+                playSqueak()
                 console.log('Subscribe:', e.target.value)
                 e.target.value = ''
               }
             }}
           />
-          <button className="navbar__submit">I'M IN →</button>
+          <button className="navbar__submit" onClick={playSqueak}>I'M IN →</button>
         </div>
       </header>
 
@@ -341,6 +358,7 @@ export default function Home() {
             inputClass="bottom-cta__email"
             btnClass="bottom-cta__btn"
             placeholder="your@email.com"
+            onSubmit={playSqueak}
           />
         </div>
       </section>
