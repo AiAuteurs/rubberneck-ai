@@ -246,7 +246,7 @@ export default function Home() {
           <div className="pick__left reveal">
             <h2 className="pick__headline" style={{ color: 'var(--white)' }}>{TODAY.headline}</h2>
             <a className="pick__url" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer"
-              onClick={handleAnyClick} style={{ color: 'var(--red)' }}>
+              onClick={handleAnyClick} style={{ color: 'var(--yellow)' }}>
               {TODAY.siteDisplay}
             </a>
             <div className="pick__browser">
