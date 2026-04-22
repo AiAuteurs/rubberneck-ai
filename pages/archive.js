@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useState } from 'react'
+import Navbar from '../components/Navbar'
 import { getAllPastIssues } from '../data/issues'
 
 export async function getStaticProps() {
@@ -19,43 +20,7 @@ export default function ArchivePage({ issues }) {
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 
-      {/* NAVBAR — clean, no logo */}
-      <header style={{
-        background: '#0d0d0d',
-        borderBottom: '3px solid var(--yellow)',
-        padding: '0 1.5rem',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        height: '56px',
-        position: 'sticky',
-        top: 0,
-        zIndex: 100,
-      }}>
-        <span style={{
-          fontFamily: 'var(--font-cond)',
-          fontWeight: 700,
-          fontSize: '0.8rem',
-          letterSpacing: '0.15em',
-          color: 'rgba(255,255,255,0.7)',
-        }}>
-          RUBBERNECK.AI / ARCHIVE
-        </span>
-        <Link href="/" style={{
-          fontFamily: 'var(--font-cond)',
-          fontWeight: 700,
-          fontSize: '0.85rem',
-          letterSpacing: '0.1em',
-          color: 'var(--yellow)',
-          textDecoration: 'none',
-          border: '1px solid rgba(245,197,24,0.4)',
-          padding: '0.3rem 0.75rem',
-          borderRadius: '2px',
-          whiteSpace: 'nowrap',
-        }}>
-          ← TODAY'S PICK
-        </Link>
-      </header>
+      <Navbar showArchive={false} />
 
       {/* YELLOW HERO — logo + copy side by side */}
       <div style={{ background: 'var(--yellow)', padding: '3rem var(--pad)' }}>
