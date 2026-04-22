@@ -241,10 +241,10 @@ export default function Home() {
       </section>
 
       {/* ── TODAY'S PICK — yellow, screenshot card stays white ── */}
-      <section className="pick" style={{ background: 'var(--yellow)' }}>
+      <section className="pick" style={{ background: 'var(--navy)' }}>
         <div className="pick__inner">
           <div className="pick__left reveal">
-            <h2 className="pick__headline" style={{ color: 'var(--black)' }}>{TODAY.headline}</h2>
+            <h2 className="pick__headline" style={{ color: 'var(--white)' }}>{TODAY.headline}</h2>
             <a className="pick__url" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer"
               onClick={handleAnyClick} style={{ color: 'var(--red)' }}>
               {TODAY.siteDisplay}
@@ -271,7 +271,7 @@ export default function Home() {
             {TODAY.body.map((block, i) => (
               <p key={i}
                 className={`pick__body${block.italic ? ' pick__body--italic' : ''}`}
-                style={{ ...(block.bold ? { fontWeight: 500 } : {}), color: 'var(--navy)' }}>
+                style={{ ...(block.bold ? { fontWeight: 500 } : {}), color: 'rgba(245,240,232,0.85)' }}>
                 {block.text}
               </p>
             ))}
@@ -280,7 +280,7 @@ export default function Home() {
             <a className="pick__cta" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer" onClick={handleAnyClick}>
               GO THERE →
             </a>
-            <p className="pick__disclaimer" style={{ color: 'rgba(13,13,13,0.5)' }}>
+            <p className="pick__disclaimer" style={{ color: 'rgba(245,240,232,0.4)' }}>
               <em>If you click and buy something, we may earn a small cut. If it&apos;s boring, we don&apos;t feature it.</em>
             </p>
           </div>
