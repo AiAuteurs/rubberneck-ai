@@ -177,7 +177,7 @@ export default function Home() {
         <title>Rubberneck.ai — Websites That Grab You By The Eyeballs.</title>
         <meta name="description" content="One jaw-dropping website, delivered daily. You won't look away." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/assets/favicon.png" /><meta property="og:title" content="Rubberneck.ai — Websites That Grab You By The Eyeballs." /><meta property="og:description" content="One jaw-dropping site, every day. People will stare. You're welcome." /><meta property="og:image" content="https://rubberneck.ai/assets/og-image.jpg" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" /><meta property="og:url" content="https://rubberneck.ai" /><meta property="og:type" content="website" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="https://rubberneck.ai/assets/og-image.jpg" />
+        <link rel="icon" href="/assets/favicon.png" /><meta property="og:title" content="Rubberneck.ai — Websites That Grab You By The Eyeballs." /><meta property="og:description" content="One jaw-dropping site, every day. People will stare. You're welcome." /><meta property="og:image" content="https://rubberneck.ai/assets/og-image.png" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" /><meta property="og:url" content="https://rubberneck.ai" /><meta property="og:type" content="website" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="https://rubberneck.ai/assets/og-image.png" />
       </Head>
 
       <RubberneckChicken pos={chickPos} active={chickActive} />
