@@ -37,7 +37,7 @@ export default function ArchivePage({ issues }) {
           fontWeight: 700,
           fontSize: '0.8rem',
           letterSpacing: '0.15em',
-          color: '#555',
+          color: 'rgba(255,255,255,0.7)',
         }}>
           RUBBERNECK.AI / ARCHIVE
         </span>
@@ -67,12 +67,17 @@ export default function ArchivePage({ issues }) {
           gap: '2rem',
           alignItems: 'center',
         }}>
-          {/* Logo */}
+          {/* Logo — squeaks on hover */}
           <div>
             <img
               src="/assets/logo.png"
               alt="Rubberneck.ai"
-              style={{ width: '100%', maxWidth: '500px', height: 'auto', display: 'block' }}
+              style={{ width: '100%', maxWidth: '500px', height: 'auto', display: 'block', cursor: 'pointer' }}
+              onMouseEnter={() => {
+                const audio = new Audio('/assets/squeak.wav')
+                audio.currentTime = 0
+                audio.play().catch(() => {})
+              }}
             />
           </div>
 
