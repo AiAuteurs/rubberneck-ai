@@ -640,7 +640,7 @@ a    { color: inherit; text-decoration: none; }
 .archive__site {
   font-family: var(--font-cond);
   font-weight: 600;
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   color: var(--mid-gray);
 }
 
@@ -719,7 +719,7 @@ a    { color: inherit; text-decoration: none; }
 /* ── FOOTER ───────────────────────────────────────────── */
 .footer {
   background: var(--black);
-  color: rgba(245,240,232,0.4);
+  color: rgba(255,255,255,0.9);
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem 2rem;
@@ -727,10 +727,11 @@ a    { color: inherit; text-decoration: none; }
   justify-content: center;
   padding: 1.2rem var(--pad);
   font-family: var(--font-cond);
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   letter-spacing: 0.06em;
   border-top: 1px solid #222;
 }
+.footer a { color: rgba(255,255,255,0.9); }
 .footer a:hover { color: var(--yellow); }
 
 /* ── SCROLL REVEAL ────────────────────────────────────── */

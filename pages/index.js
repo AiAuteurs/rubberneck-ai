@@ -164,11 +164,26 @@ export default function Home() {
       <RubberneckChicken pos={chickPos} active={chickActive} />
 
       {/* NAVBAR */}
-      <header className="navbar">
+      <header className="navbar" style={{ gap: "0.75rem" }}>
         <div className="navbar__date">{getTodayString()}</div>
         <button className="navbar__mute" onClick={handleMuteToggle} aria-label={muted ? 'Unmute' : 'Mute'}>
           <span>{muted ? '🔇 UNMUTE' : '🔊 MUTE'}</span>
         </button>
+        <a href="/archive" style={{
+          fontFamily: 'var(--font-cond)',
+          fontWeight: 700,
+          fontSize: '0.85rem',
+          letterSpacing: '0.1em',
+          color: 'var(--yellow)',
+          border: '1px solid rgba(245,197,24,0.4)',
+          padding: '0.3rem 0.75rem',
+          borderRadius: '2px',
+          textDecoration: 'none',
+          whiteSpace: 'nowrap',
+          flexShrink: 0,
+        }}>
+          ARCHIVE
+        </a>
         {subCount !== null && (
           <div className="navbar__counter">
             🐔 <span className="navbar__counter-num">{subCount.toLocaleString()}</span> RUBBERNECKERS
