@@ -184,9 +184,6 @@ export default function Home() {
       {/* ── NAVBAR — no logo, hero below IS the logo ── */}
       <header className="navbar">
         <div className="navbar__date">{getTodayString()}</div>
-        <button className="navbar__mute" onClick={handleMuteToggle} aria-label={muted ? 'Unmute' : 'Mute'}>
-          <span>{muted ? '🔇 UNMUTE' : '🔊 MUTE'}</span>
-        </button>
         <a href="/archive" style={{
           fontFamily: 'var(--font-cond)', fontWeight: 700, fontSize: '0.85rem',
           letterSpacing: '0.1em', color: 'var(--yellow)',
@@ -195,6 +192,9 @@ export default function Home() {
         }}>
           ARCHIVE
         </a>
+        <button className="navbar__mute" onClick={handleMuteToggle} aria-label={muted ? 'Unmute' : 'Mute'}>
+          <span>{muted ? '🔇 UNMUTE' : '🔊 MUTE'}</span>
+        </button>
         <div className="navbar__cta">
           {subCount !== null && subCount >= 100 && (
             <div style={{
@@ -246,7 +246,7 @@ export default function Home() {
           <div className="pick__left reveal">
             <h2 className="pick__headline" style={{ color: 'var(--white)' }}>{TODAY.headline}</h2>
             <a className="pick__url" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer"
-              onClick={handleAnyClick}>
+              onClick={handleAnyClick} style={{ color: 'var(--red)' }}>
               {TODAY.siteDisplay}
             </a>
             <div className="pick__browser">
