@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useRef, useState, useCallback } from 'react'
+import Navbar from '../Components/Navbar'
 
 // ─────────────────────────────────────────────────────────────────
 // DAILY CONTENT — update this each day
@@ -181,52 +182,7 @@ export default function Home() {
 
       <RubberneckChicken pos={chickPos} active={chickActive} />
 
-      {/* ── NAVBAR — no logo, hero below IS the logo ── */}
-      <header className="navbar">
-        <div className="navbar__date">{getTodayString()}</div>
-        <a href="/archive" style={{
-          fontFamily: 'var(--font-cond)', fontWeight: 700, fontSize: '0.85rem',
-          letterSpacing: '0.1em', color: 'var(--yellow)',
-          border: '1px solid rgba(245,197,24,0.4)', padding: '0.3rem 0.75rem',
-          borderRadius: '2px', textDecoration: 'none', whiteSpace: 'nowrap', flexShrink: 0,
-        }}>
-          ARCHIVE
-        </a>
-        <button className="navbar__mute" onClick={handleMuteToggle} aria-label={muted ? 'Unmute' : 'Mute'}>
-          <span>{muted ? '🔇 UNMUTE' : '🔊 MUTE'}</span>
-        </button>
-        <div className="navbar__cta">
-          {subCount !== null && subCount >= 100 && (
-            <div style={{
-              fontFamily: 'var(--font-headline)', fontSize: 'clamp(1rem, 2vw, 1.4rem)',
-              color: 'var(--yellow)', letterSpacing: '0.04em', whiteSpace: 'nowrap', flexShrink: 0,
-            }}>
-              🐔 {subCount.toLocaleString()} NOSY LEGENDS
-            </div>
-          )}
-          {subCount !== null && subCount < 100 && (
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', flexShrink: 0 }}>
-              <div style={{
-                fontFamily: 'var(--font-headline)', fontSize: 'clamp(0.9rem, 1.8vw, 1.3rem)',
-                color: 'var(--yellow)', letterSpacing: '0.04em', whiteSpace: 'nowrap', lineHeight: 1.1,
-              }}>
-                🐔 JOIN THE FOUNDING FLOCK
-              </div>
-              <div style={{
-                fontFamily: 'var(--font-cond)', fontSize: '0.65rem',
-                color: 'rgba(255,255,255,0.4)', letterSpacing: '0.1em', whiteSpace: 'nowrap',
-              }}>
-                BE EARLY. THIS THING IS JUST GETTING STARTED.
-              </div>
-            </div>
-          )}
-          <EmailForm
-            inputClass="navbar__email" btnClass="navbar__submit"
-            placeholder="Drop your email. Get tomorrow's Rubberneck."
-            onAnyClick={handleAnyClick}
-          />
-        </div>
-      </header>
+      <Navbar onSqueak={handleAnyClick} />
 
       {/* ── HERO — yellow ── */}
       <section className="hero" style={{ background: 'var(--yellow)' }}>
@@ -246,7 +202,7 @@ export default function Home() {
           <div className="pick__left reveal">
             <h2 className="pick__headline" style={{ color: 'var(--white)' }}>{TODAY.headline}</h2>
             <a className="pick__url" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer"
-              onClick={handleAnyClick} style={{ color: 'var(--red)' }}>
+              onClick={handleAnyClick}>
               {TODAY.siteDisplay}
             </a>
             <div className="pick__browser">
