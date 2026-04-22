@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 import { getAllPastIssues } from '../data/issues'
 
@@ -19,7 +20,7 @@ export default function ArchivePage({ issues }) {
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 
-      {/* NAVBAR */}
+      {/* NAVBAR — clean, no logo */}
       <header style={{
         background: '#0d0d0d',
         borderBottom: '3px solid var(--yellow)',
@@ -27,66 +28,95 @@ export default function ArchivePage({ issues }) {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        height: '64px',
+        height: '56px',
         position: 'sticky',
         top: 0,
         zIndex: 100,
       }}>
-        <Link href="/" style={{ textDecoration: 'none' }}>
-          <img src="/assets/logo.png" alt="Rubberneck.ai" style={{ height: '36px', display: 'block' }} />
-        </Link>
+        <span style={{
+          fontFamily: 'var(--font-cond)',
+          fontWeight: 700,
+          fontSize: '0.8rem',
+          letterSpacing: '0.15em',
+          color: '#555',
+        }}>
+          RUBBERNECK.AI / ARCHIVE
+        </span>
         <Link href="/" style={{
           fontFamily: 'var(--font-cond)',
           fontWeight: 700,
-          fontSize: '0.9rem',
+          fontSize: '0.85rem',
           letterSpacing: '0.1em',
           color: 'var(--yellow)',
           textDecoration: 'none',
           border: '1px solid rgba(245,197,24,0.4)',
           padding: '0.3rem 0.75rem',
           borderRadius: '2px',
+          whiteSpace: 'nowrap',
         }}>
           ← TODAY'S PICK
         </Link>
       </header>
 
-      {/* YELLOW HERO */}
-      <div style={{ background: 'var(--yellow)', padding: '3rem 1.5rem 2.5rem' }}>
-        <div style={{ maxWidth: '780px', margin: '0 auto' }}>
-          <div style={{
-            fontFamily: 'var(--font-cond)',
-            fontSize: '0.85rem',
-            color: '#333',
-            letterSpacing: '0.15em',
-            marginBottom: '0.5rem',
-          }}>
-            🐔 {issues.length} ISSUE{issues.length !== 1 ? 'S' : ''} AND COUNTING
+      {/* YELLOW HERO — logo + copy side by side */}
+      <div style={{ background: 'var(--yellow)', padding: '3rem var(--pad)' }}>
+        <div style={{
+          maxWidth: 'var(--max-w)',
+          margin: '0 auto',
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr',
+          gap: '2rem',
+          alignItems: 'center',
+        }}>
+          {/* Logo */}
+          <div>
+            <Image
+              src="/assets/logo.png"
+              alt="Rubberneck.ai"
+              width={600}
+              height={267}
+              priority
+              style={{ width: '100%', maxWidth: '500px', height: 'auto' }}
+            />
           </div>
-          <h1 style={{
-            fontFamily: 'var(--font-headline)',
-            fontSize: 'clamp(3rem, 8vw, 6rem)',
-            color: 'var(--black)',
-            letterSpacing: '0.02em',
-            lineHeight: 0.95,
-            margin: 0,
-          }}>
-            THE FULL<br />ARCHIVE.
-          </h1>
-          <p style={{
-            fontFamily: 'var(--font-body)',
-            fontSize: '1.1rem',
-            color: '#333',
-            marginTop: '1rem',
-            marginBottom: 0,
-          }}>
-            Every site we've rubbernecked. One per day. Zero filler.
-          </p>
+
+          {/* Copy */}
+          <div>
+            <div style={{
+              fontFamily: 'var(--font-cond)',
+              fontSize: '0.85rem',
+              color: '#555',
+              letterSpacing: '0.15em',
+              marginBottom: '0.75rem',
+            }}>
+              🐔 {issues.length} ISSUE{issues.length !== 1 ? 'S' : ''} AND COUNTING
+            </div>
+            <h1 style={{
+              fontFamily: 'var(--font-headline)',
+              fontSize: 'clamp(2.5rem, 5vw, 4.5rem)',
+              color: 'var(--black)',
+              lineHeight: 0.95,
+              margin: '0 0 1rem',
+              letterSpacing: '0.02em',
+            }}>
+              OH, SO YOU<br />JUST CAN'T<br />HELP YOURSELF<br />BEING NOSY, HUH?
+            </h1>
+            <p style={{
+              fontFamily: 'var(--font-body)',
+              fontSize: '1rem',
+              color: '#333',
+              lineHeight: 1.6,
+              margin: 0,
+            }}>
+              Every site we've ever rubbernecked. One per day. Zero filler. Go ahead — dig through them all.
+            </p>
+          </div>
         </div>
       </div>
 
       {/* ISSUE LIST */}
-      <main style={{ background: '#0d0d0d', minHeight: '60vh' }}>
-        <div style={{ maxWidth: '780px', margin: '0 auto', padding: '0 1.5rem 5rem' }}>
+      <main style={{ background: 'var(--navy)', minHeight: '60vh' }}>
+        <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto', padding: '0 var(--pad) 5rem' }}>
           {issues.length === 0 ? (
             <p style={{ fontFamily: 'var(--font-body)', color: '#555', padding: '3rem 0' }}>
               Just launched. Check back tomorrow.
@@ -95,7 +125,7 @@ export default function ArchivePage({ issues }) {
             <div>
               {issues.map((issue) => {
                 const formattedDate = new Date(issue.date + 'T00:00:00').toLocaleDateString(
-                  'en-US', { month: 'short', day: 'numeric', year: 'numeric' }
+                  'en-US', { weekday: 'short', month: 'short', day: 'numeric' }
                 )
                 const isHovered = hovered === issue.id
                 return (
@@ -106,58 +136,70 @@ export default function ArchivePage({ issues }) {
                     onMouseLeave={() => setHovered(null)}
                     style={{
                       display: 'grid',
-                      gridTemplateColumns: '4rem 1fr auto',
+                      gridTemplateColumns: '5rem 1fr auto',
                       alignItems: 'center',
                       gap: '1.5rem',
-                      padding: '1.5rem 1rem',
-                      borderBottom: '1px solid #1a1a1a',
+                      padding: '1.75rem 1rem',
+                      borderBottom: '1px solid rgba(255,255,255,0.06)',
                       textDecoration: 'none',
-                      background: isHovered ? '#111' : 'transparent',
-                      transition: 'background 0.15s',
+                      background: isHovered ? 'rgba(245,197,24,0.06)' : 'transparent',
+                      borderLeft: isHovered ? '3px solid var(--yellow)' : '3px solid transparent',
+                      transition: 'all 0.15s',
                       marginLeft: '-1rem',
                       marginRight: '-1rem',
                     }}
                   >
+                    {/* Issue number */}
                     <span style={{
                       fontFamily: 'var(--font-headline)',
-                      fontSize: '2rem',
-                      color: isHovered ? 'var(--yellow)' : '#2a2a2a',
-                      letterSpacing: '0.02em',
+                      fontSize: '2.5rem',
+                      color: isHovered ? 'var(--yellow)' : 'rgba(255,255,255,0.1)',
                       lineHeight: 1,
                       transition: 'color 0.15s',
+                      textAlign: 'center',
                     }}>
-                      #{issue.id}
+                      {issue.id}
                     </span>
 
+                    {/* Site info */}
                     <div>
                       <div style={{
                         fontFamily: 'var(--font-headline)',
-                        fontSize: 'clamp(1.2rem, 3vw, 1.6rem)',
+                        fontSize: 'clamp(1.3rem, 3vw, 1.8rem)',
                         color: isHovered ? 'var(--yellow)' : '#F5F5F0',
                         letterSpacing: '0.03em',
-                        lineHeight: 1.1,
-                        marginBottom: '0.3rem',
+                        lineHeight: 1.05,
+                        marginBottom: '0.35rem',
                         transition: 'color 0.15s',
                       }}>
                         {issue.site.name}
                       </div>
                       <div style={{
-                        fontFamily: 'var(--font-body)',
+                        fontFamily: 'var(--font-cond)',
                         fontSize: '0.9rem',
-                        color: '#555',
+                        color: 'rgba(245,240,232,0.4)',
+                        letterSpacing: '0.03em',
                         lineHeight: 1.4,
                       }}>
-                        {issue.headline}
+                        {issue.site.vibe}
                       </div>
                     </div>
 
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.4rem', flexShrink: 0 }}>
+                    {/* Date + CTA */}
+                    <div style={{
+                      display: 'flex',
+                      flexDirection: 'column',
+                      alignItems: 'flex-end',
+                      gap: '0.5rem',
+                      flexShrink: 0,
+                    }}>
                       <span style={{
                         fontFamily: 'var(--font-cond)',
                         fontSize: '0.8rem',
-                        color: '#444',
+                        color: 'rgba(255,255,255,0.25)',
                         whiteSpace: 'nowrap',
                         letterSpacing: '0.05em',
+                        textTransform: 'uppercase',
                       }}>
                         {formattedDate}
                       </span>
@@ -166,10 +208,11 @@ export default function ArchivePage({ issues }) {
                         fontWeight: 700,
                         fontSize: '0.85rem',
                         color: isHovered ? 'var(--yellow)' : 'transparent',
-                        letterSpacing: '0.1em',
+                        letterSpacing: '0.12em',
                         transition: 'color 0.15s',
+                        whiteSpace: 'nowrap',
                       }}>
-                        READ →
+                        TAKE A NOSER →
                       </span>
                     </div>
                   </Link>
@@ -190,7 +233,7 @@ export default function ArchivePage({ issues }) {
         }}>
           DON'T MISS TOMORROW'S SITE.
         </div>
-        <p style={{ fontFamily: 'var(--font-body)', color: '#333', marginBottom: '1.25rem', fontSize: '1rem' }}>
+        <p style={{ fontFamily: 'var(--font-body)', color: '#333', marginBottom: '1.25rem' }}>
           Free. One email. Unsubscribe whenever.
         </p>
         <form onSubmit={async (e) => {
