@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { getAllPastIssues } from '../data/issues'
-import Navbar from '../components/Navbar'
+import Navbar from '../Components/Navbar'
 
 export async function getStaticProps() {
   const issues = getAllPastIssues()
