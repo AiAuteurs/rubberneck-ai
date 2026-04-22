@@ -67,6 +67,7 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
       if (!res.ok) throw new Error('Failed')
       setStatus('success')
       setValue('')
+      if (onAnyClick) onAnyClick({ clientX: window.innerWidth / 2, clientY: 60 })
       setTimeout(() => setStatus('idle'), 5000)
     } catch {
       setStatus('error')
@@ -185,44 +186,51 @@ export default function Home() {
           ARCHIVE
         </a>
         <div className="navbar__cta">
-          {subCount !== null && subCount >= 100 && (
-            <div style={{
-              fontFamily: 'var(--font-headline)',
-              fontSize: 'clamp(1rem, 2vw, 1.4rem)',
-              color: 'var(--yellow)',
-              letterSpacing: '0.04em',
-              whiteSpace: 'nowrap',
-              flexShrink: 0,
-            }}>
-              🐔 {subCount.toLocaleString()} NOSY LEGENDS
-            </div>
-          )}
-          {subCount !== null && subCount < 100 && (
-            <div style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'flex-end',
-              flexShrink: 0,
-            }}>
-              <div style={{
-                fontFamily: 'var(--font-headline)',
-                fontSize: 'clamp(0.9rem, 1.8vw, 1.3rem)',
-                color: 'var(--yellow)',
-                letterSpacing: '0.04em',
-                whiteSpace: 'nowrap',
-                lineHeight: 1.1,
-              }}>
-                🐔 JOIN THE FOUNDING FLOCK
-              </div>
-              <div style={{
-                fontFamily: 'var(--font-cond)',
-                fontSize: '0.65rem',
-                color: 'rgba(255,255,255,0.4)',
-                letterSpacing: '0.1em',
-                whiteSpace: 'nowrap',
-              }}>
-                BE EARLY. THIS THING IS JUST GETTING STARTED.
-              </div>
+          {subCount !== null && (
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.15rem' }}>
+              {subCount >= 100 ? (
+                <>
+                  <div style={{
+                    fontFamily: 'var(--font-headline)',
+                    fontSize: 'clamp(1.1rem, 2.5vw, 1.6rem)',
+                    color: 'var(--yellow)',
+                    letterSpacing: '0.04em',
+                    lineHeight: 1,
+                    whiteSpace: 'nowrap',
+                  }}>
+                    🐔 {subCount.toLocaleString()} NOSY LEGENDS
+                  </div>
+                  <div style={{
+                    fontFamily: 'var(--font-cond)',
+                    fontSize: '0.7rem',
+                    color: 'rgba(255,255,255,0.4)',
+                    letterSpacing: '0.12em',
+                  }}>
+                    AND GROWING DAILY
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div style={{
+                    fontFamily: 'var(--font-headline)',
+                    fontSize: 'clamp(1rem, 2.5vw, 1.5rem)',
+                    color: 'var(--yellow)',
+                    letterSpacing: '0.04em',
+                    lineHeight: 1,
+                    whiteSpace: 'nowrap',
+                  }}>
+                    🐔 JOIN THE FOUNDING FLOCK
+                  </div>
+                  <div style={{
+                    fontFamily: 'var(--font-cond)',
+                    fontSize: '0.7rem',
+                    color: 'rgba(255,255,255,0.4)',
+                    letterSpacing: '0.12em',
+                  }}>
+                    BE EARLY. THIS THING IS JUST GETTING STARTED.
+                  </div>
+                </>
+              )}
             </div>
           )}
           <EmailForm
@@ -269,18 +277,18 @@ export default function Home() {
             ISSUE #{TODAY.issueNumber} &nbsp;·&nbsp; {new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }).toUpperCase()}
           </div>
           <hr className="noser__rule" />
-          <h2 className="noser__headline">YOU'LL BE TAKING A NOSER WITH TODAY'S PREMIERE OF RUBBERNECK.AI</h2>
+          <h2 className="noser__headline">YOU'LL BE TAKING A NOSER WITH TODAY'S PICK.</h2>
         </div>
       </section>
 
       {/* INTRO */}
       <section className="intro">
         <div className="intro__left">
-          <h2 className="intro__headline">THE SITE THAT<br />KILLS EVERY<br />PAYWALL.</h2>
+          <h2 className="intro__headline">EVERY GAME<br />YOU LOVED<br />AS A KID.</h2>
         </div>
         <div className="intro__right">
-          <p className="intro__kicker">SOMEONE BROKE THE INTERNET&apos;S MOST ANNOYING BUSINESS MODEL. ANONYMOUSLY.</p>
-          <p className="intro__body">You click a link. You want to read the article. Instead you get a popup. A subscribe wall. A cookie banner the size of a billboard. Rubberneck finds the wild corners of the web where none of that exists — and drops one in your inbox every single day.</p>
+          <p className="intro__kicker">NES. SNES. N64. PLAYSTATION. ARCADE. 2,000+ GAMES. NO DOWNLOAD. NO ACCOUNT. NO EXCUSES.</p>
+          <p className="intro__body">Classic Game Zone runs every retro game you remember — free, in your browser, right now. No subscription. No install. Just click and play like it's 1994 and you have nowhere to be.</p>
         </div>
       </section>
 
