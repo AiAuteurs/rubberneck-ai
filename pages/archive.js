@@ -140,44 +140,43 @@ export default function ArchivePage({ issues }) {
                       alignItems: 'center',
                       gap: '1.5rem',
                       padding: '1.75rem 1rem',
-                      borderBottom: '1px solid rgba(255,255,255,0.06)',
+                      borderBottom: '1px solid rgba(255,255,255,0.08)',
                       textDecoration: 'none',
-                      background: isHovered ? 'rgba(245,197,24,0.06)' : 'transparent',
-                      borderLeft: isHovered ? '3px solid var(--yellow)' : '3px solid transparent',
+                      background: isHovered ? 'rgba(245,197,24,0.08)' : 'transparent',
+                      borderLeft: isHovered ? '4px solid var(--yellow)' : '4px solid transparent',
                       transition: 'all 0.15s',
                       marginLeft: '-1rem',
                       marginRight: '-1rem',
+                      cursor: 'pointer',
                     }}
                   >
-                    {/* Issue number */}
+                    {/* Issue number — always yellow */}
                     <span style={{
                       fontFamily: 'var(--font-headline)',
                       fontSize: '2.5rem',
-                      color: isHovered ? 'var(--yellow)' : 'rgba(255,255,255,0.1)',
+                      color: 'var(--yellow)',
                       lineHeight: 1,
-                      transition: 'color 0.15s',
                       textAlign: 'center',
                     }}>
                       {issue.id}
                     </span>
 
-                    {/* Site info */}
+                    {/* Site info — always bright */}
                     <div>
                       <div style={{
                         fontFamily: 'var(--font-headline)',
                         fontSize: 'clamp(1.3rem, 3vw, 1.8rem)',
-                        color: isHovered ? 'var(--yellow)' : '#F5F5F0',
+                        color: '#F5F5F0',
                         letterSpacing: '0.03em',
                         lineHeight: 1.05,
                         marginBottom: '0.35rem',
-                        transition: 'color 0.15s',
                       }}>
                         {issue.site.name}
                       </div>
                       <div style={{
                         fontFamily: 'var(--font-cond)',
-                        fontSize: '0.9rem',
-                        color: 'rgba(245,240,232,0.4)',
+                        fontSize: '0.95rem',
+                        color: 'rgba(245,240,232,0.65)',
                         letterSpacing: '0.03em',
                         lineHeight: 1.4,
                       }}>
@@ -185,7 +184,7 @@ export default function ArchivePage({ issues }) {
                       </div>
                     </div>
 
-                    {/* Date + CTA */}
+                    {/* Date + CTA — always visible */}
                     <div style={{
                       display: 'flex',
                       flexDirection: 'column',
@@ -196,7 +195,7 @@ export default function ArchivePage({ issues }) {
                       <span style={{
                         fontFamily: 'var(--font-cond)',
                         fontSize: '0.8rem',
-                        color: 'rgba(255,255,255,0.25)',
+                        color: 'rgba(255,255,255,0.4)',
                         whiteSpace: 'nowrap',
                         letterSpacing: '0.05em',
                         textTransform: 'uppercase',
@@ -207,7 +206,7 @@ export default function ArchivePage({ issues }) {
                         fontFamily: 'var(--font-cond)',
                         fontWeight: 700,
                         fontSize: '0.85rem',
-                        color: isHovered ? 'var(--yellow)' : 'transparent',
+                        color: isHovered ? 'var(--yellow)' : 'rgba(245,197,24,0.5)',
                         letterSpacing: '0.12em',
                         transition: 'color 0.15s',
                         whiteSpace: 'nowrap',
