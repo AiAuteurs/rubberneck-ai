@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { getAllPastIssues } from '../data/issues'
+import Navbar from '../components/Navbar'
 
 export async function getStaticProps() {
   const issues = getAllPastIssues()
@@ -202,44 +203,7 @@ export default function ArchivePage({ issues }) {
         }} />
       )}
 
-      {/* NAVBAR */}
-      <header style={{
-        background: '#0d0d0d', borderBottom: '3px solid var(--yellow)',
-        padding: '0 1.5rem', display: 'flex', alignItems: 'center',
-        justifyContent: 'space-between', height: '64px',
-        position: 'sticky', top: 0, zIndex: 100, gap: '1rem',
-      }}>
-        <Link href="/" onClick={squeak} style={{
-          fontFamily: 'var(--font-cond)', fontWeight: 700, fontSize: '0.85rem',
-          letterSpacing: '0.1em', color: 'var(--yellow)', textDecoration: 'none',
-          whiteSpace: 'nowrap', flexShrink: 0,
-        }}>
-          TODAY&apos;S PICK
-        </Link>
-        <div style={{
-          fontFamily: 'var(--font-cond)', fontWeight: 700, fontSize: '0.75rem',
-          letterSpacing: '0.15em', color: 'rgba(255,255,255,0.25)', textAlign: 'center', flex: 1,
-        }}>
-          RUBBERNECK.AI
-        </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
-          <button onClick={(e) => { setMuted(m => !m); squeak(e) }} style={{
-            background: 'transparent', border: '1px solid rgba(255,255,255,0.2)',
-            color: 'rgba(255,255,255,0.6)', fontFamily: 'var(--font-cond)',
-            fontWeight: 600, fontSize: '0.75rem', letterSpacing: '0.1em',
-            padding: '0.3rem 0.65rem', borderRadius: '2px', cursor: 'pointer', whiteSpace: 'nowrap',
-          }}>
-            {muted ? '🔇 UNMUTE' : '🔊 MUTE'}
-          </button>
-          <span style={{
-            fontFamily: 'var(--font-cond)', fontWeight: 700, fontSize: '0.85rem',
-            letterSpacing: '0.1em', color: 'var(--yellow)',
-            border: '1px solid rgba(245,197,24,0.4)', padding: '0.3rem 0.75rem', borderRadius: '2px',
-          }}>
-            ARCHIVE
-          </span>
-        </div>
-      </header>
+      <Navbar onSqueak={squeak} />
 
       {/* YELLOW HERO */}
       <div style={{ background: 'var(--yellow)', padding: '3rem var(--pad)' }}>

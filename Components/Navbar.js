@@ -1,12 +1,13 @@
 // components/Navbar.js
-// Shared navbar used on every page
-// Props: showArchive (bool) — shows ARCHIVE link on right when true
-//        showTodaysPick (bool) — shows TODAY'S PICK link on right when true
+// ONE navbar. Same layout on every page. Never touch again.
+// LEFT: TODAY'S PICK → /
+// CENTER: RUBBERNECK.AI (dim)
+// RIGHT: MUTE · ARCHIVE
 
 import Link from 'next/link'
 import { useEffect, useRef, useState, useCallback } from 'react'
 
-export default function Navbar({ showArchive = false, showTodaysPick = false }) {
+export default function Navbar({ onSqueak }) {
   const squeakRef = useRef(null)
   const [muted, setMuted] = useState(false)
 
@@ -15,16 +16,16 @@ export default function Navbar({ showArchive = false, showTodaysPick = false }) 
     squeakRef.current.preload = 'auto'
   }, [])
 
-  const squeak = useCallback(() => {
+  const playSqueak = useCallback(() => {
     if (!muted && squeakRef.current) {
       squeakRef.current.currentTime = 0
       squeakRef.current.play().catch(() => {})
     }
-  }, [muted])
+    if (onSqueak) onSqueak()
+  }, [muted, onSqueak])
 
   const handleMute = () => {
     setMuted(m => !m)
-    squeak()
   }
 
   return (
@@ -34,7 +35,6 @@ export default function Navbar({ showArchive = false, showTodaysPick = false }) 
       padding: '0 1.5rem',
       display: 'flex',
       alignItems: 'center',
-      justifyContent: 'space-between',
       height: '64px',
       position: 'sticky',
       top: 0,
@@ -42,8 +42,8 @@ export default function Navbar({ showArchive = false, showTodaysPick = false }) 
       gap: '1rem',
     }}>
 
-      {/* LEFT — text link home, no image */}
-      <Link href="/" style={{
+      {/* LEFT */}
+      <Link href="/" onClick={playSqueak} style={{
         fontFamily: 'var(--font-cond)',
         fontWeight: 700,
         fontSize: '0.85rem',
@@ -62,14 +62,14 @@ export default function Navbar({ showArchive = false, showTodaysPick = false }) 
         fontWeight: 700,
         fontSize: '0.75rem',
         letterSpacing: '0.15em',
-        color: 'rgba(255,255,255,0.3)',
+        color: 'rgba(255,255,255,0.25)',
         textAlign: 'center',
         flex: 1,
       }}>
         RUBBERNECK.AI
       </div>
 
-      {/* RIGHT — Mute + Archive */}
+      {/* RIGHT — always: MUTE then ARCHIVE */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
         <button
           onClick={handleMute}
@@ -86,27 +86,24 @@ export default function Navbar({ showArchive = false, showTodaysPick = false }) 
             cursor: 'pointer',
             whiteSpace: 'nowrap',
           }}
-          aria-label={muted ? 'Unmute' : 'Mute'}
         >
           {muted ? '🔇 UNMUTE' : '🔊 MUTE'}
         </button>
 
-        {showArchive && (
-          <Link href="/archive" style={{
-            fontFamily: 'var(--font-cond)',
-            fontWeight: 700,
-            fontSize: '0.85rem',
-            letterSpacing: '0.1em',
-            color: 'var(--yellow)',
-            textDecoration: 'none',
-            border: '1px solid rgba(245,197,24,0.4)',
-            padding: '0.3rem 0.75rem',
-            borderRadius: '2px',
-            whiteSpace: 'nowrap',
-          }}>
-            ARCHIVE
-          </Link>
-        )}
+        <Link href="/archive" style={{
+          fontFamily: 'var(--font-cond)',
+          fontWeight: 700,
+          fontSize: '0.85rem',
+          letterSpacing: '0.1em',
+          color: 'var(--yellow)',
+          textDecoration: 'none',
+          border: '1px solid rgba(245,197,24,0.4)',
+          padding: '0.3rem 0.75rem',
+          borderRadius: '2px',
+          whiteSpace: 'nowrap',
+        }}>
+          ARCHIVE
+        </Link>
       </div>
     </header>
   )

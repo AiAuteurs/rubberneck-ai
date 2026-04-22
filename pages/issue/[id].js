@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import { getIssueById, getAllPastIssues } from '../../data/issues'
+import Navbar from '../../components/Navbar'
 
 export async function getStaticPaths() {
   const past = getAllPastIssues()
@@ -71,31 +72,7 @@ export default function IssuePage({ issue, maxId }) {
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 
-      {/* NAV */}
-      <header style={{
-        background: '#0d0d0d', borderBottom: '3px solid var(--yellow)',
-        padding: '0 1.5rem', display: 'flex', alignItems: 'center',
-        justifyContent: 'space-between', height: '64px',
-        position: 'sticky', top: 0, zIndex: 100,
-      }}>
-        <Link href="/" style={{ textDecoration: 'none' }}>
-          <img src="/assets/logo.png" alt="Rubberneck.ai" style={{ height: '36px' }} />
-        </Link>
-        <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
-          <Link href="/archive" style={{
-            fontFamily: 'var(--font-cond)', fontSize: '0.9rem',
-            letterSpacing: '0.1em', color: 'var(--yellow)', textDecoration: 'none',
-          }}>
-            ARCHIVE
-          </Link>
-          <button onClick={() => setMuted(!muted)} style={{
-            background: 'none', border: 'none', cursor: 'pointer',
-            color: muted ? '#555' : 'var(--yellow)', fontSize: '1.1rem',
-          }}>
-            {muted ? '🔇' : '🔊'}
-          </button>
-        </div>
-      </header>
+      <Navbar />
 
       {/* ISSUE HEADER */}
       <div style={{ background: '#0d0d0d', borderBottom: '1px solid #1a1a1a' }}>
