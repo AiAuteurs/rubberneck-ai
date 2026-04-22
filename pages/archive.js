@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 import { useState } from 'react'
 import { getAllPastIssues } from '../data/issues'
 
@@ -70,13 +69,10 @@ export default function ArchivePage({ issues }) {
         }}>
           {/* Logo */}
           <div>
-            <Image
+            <img
               src="/assets/logo.png"
               alt="Rubberneck.ai"
-              width={600}
-              height={267}
-              priority
-              style={{ width: '100%', maxWidth: '500px', height: 'auto' }}
+              style={{ width: '100%', maxWidth: '500px', height: 'auto', display: 'block' }}
             />
           </div>
 
@@ -84,12 +80,13 @@ export default function ArchivePage({ issues }) {
           <div>
             <div style={{
               fontFamily: 'var(--font-cond)',
+              fontWeight: 700,
               fontSize: '0.85rem',
-              color: '#555',
+              color: '#333',
               letterSpacing: '0.15em',
               marginBottom: '0.75rem',
             }}>
-              🐔 {issues.length} ISSUE{issues.length !== 1 ? 'S' : ''} AND COUNTING
+              {issues.length} ISSUE{issues.length !== 1 ? 'S' : ''} AND COUNTING
             </div>
             <h1 style={{
               fontFamily: 'var(--font-headline)',
