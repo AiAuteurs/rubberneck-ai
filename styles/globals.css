@@ -440,7 +440,7 @@ a    { color: inherit; text-decoration: none; }
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: 0.12em;
-  color: var(--red);
+  color: var(--yellow);
   margin: 0;
 }
 
@@ -590,7 +590,7 @@ a    { color: inherit; text-decoration: none; }
   font-weight: 700;
   font-size: 0.85rem;
   letter-spacing: 0.1em;
-  color: var(--red);
+  color: var(--yellow);
   border-bottom: 1.5px solid var(--red);
   padding-bottom: 1px;
   transition: opacity 0.2s;
@@ -636,7 +636,7 @@ a    { color: inherit; text-decoration: none; }
   font-weight: 700;
   font-size: 0.75rem;
   letter-spacing: 0.1em;
-  color: var(--red);
+  color: var(--yellow);
 }
 
 .archive__site {
@@ -700,7 +700,7 @@ a    { color: inherit; text-decoration: none; }
   transition: border-color 0.2s;
 }
 .bottom-cta__email::placeholder { color: #999; }
-.bottom-cta__email:focus { border-color: var(--red); }
+.bottom-cta__email:focus { border-color: var(--yellow); }
 
 .bottom-cta__btn {
   background: var(--black);
@@ -716,7 +716,7 @@ a    { color: inherit; text-decoration: none; }
   white-space: nowrap;
   transition: background 0.2s, border-color 0.2s;
 }
-.bottom-cta__btn:hover { background: var(--red); border-color: var(--red); }
+.bottom-cta__btn:hover { background: var(--red); border-color: var(--yellow); }
 
 /* ── FOOTER ───────────────────────────────────────────── */
 .footer {
