@@ -65,11 +65,12 @@ Go lose an afternoon. You've earned it.`,
     editors_note: "No affiliate — pure editorial.",
   },
 
+
   "2026-04-23": {
     id: 3,
     date: "2026-04-23",
     slug: "radio-garden",
-    headline: "Every Radio Station On Earth. Live. On A Spinning Globe. Right Now.",
+    headline: "EVERY RADIO STATION ON EARTH. LIVE. ON A SPINNING GLOBE. RIGHT NOW.",
     subheadline: "Spin the globe. Click a green dot. Suddenly you're listening to jazz in Lagos or a talk show in Greenland. It's witchcraft.",
     site: {
       name: "Radio Garden",
@@ -99,6 +100,41 @@ Go spin the globe. You'll be there for an hour.`,
   "2026-04-24": {
     id: 4,
     date: "2026-04-24",
+    slug: "vocal-remover",
+    headline: "REMOVE THE VOCALS FROM ANY SONG. FREE. IN 10 SECONDS.",
+    subheadline: "Upload any track. AI strips the vocals out and hands you the karaoke version and the isolated acapella. No account. No watermark. No catch.",
+    site: {
+      name: "Vocal Remover",
+      url: "https://vocalremover.org",
+      screenshot: null,
+      category: "Music / Tools",
+      vibe: "The music studio trick everyone should know about",
+    },
+    body: `You know that song you love but can't stand the singer?
+
+Or the backing track you wanted to practice over? Or the acapella you needed for a remix, a reel, a project, a stupid idea that turned into a great idea?
+
+VocalRemover.org does one thing: you upload a song, and in about 10 seconds, AI separates the vocals from the music. You get two files — the karaoke version with just the instruments, and the isolated vocals with just the voice.
+
+Free. No account. No watermark. No subscription. No asking for your credit card.
+
+The technology behind this used to cost thousands of dollars in professional software. It was a studio trick. A music production secret. Something you needed expensive gear and expertise to do.
+
+Now it's a website anyone can use in 10 seconds.
+
+The use cases are endless. Learn an instrument by playing along to a clean backing track. Create karaoke versions of any song ever made. Pull the vocal for a sample. Practice harmonies. Get the acapella of a song that was never officially released.
+
+Or just upload your ex's favorite song and remove their voice from it entirely.
+
+The internet built something useful today. Go use it.`,
+    affiliate_links: [],
+    tags: ["music", "tools", "free", "AI", "audio"],
+    editors_note: "Michael uses this. Personal recommendation.",
+  },
+
+  "2026-04-25": {
+    id: 5,
+    date: "2026-04-25",
     slug: "futureme",
     headline: "Write A Letter To Yourself. Seal It. Receive It In 10 Years.",
     subheadline: "FutureMe delivers emails to your future self on any date you choose. People have been using it since 2002. The letters are devastating.",
@@ -129,9 +165,9 @@ That's the feature.`,
     editors_note: "This one generates replies and shares.",
   },
 
-  "2026-04-25": {
-    id: 5,
-    date: "2026-04-25",
+  "2026-04-26": {
+    id: 6,
+    date: "2026-04-26",
     slug: "neal-fun",
     headline: "One Guy Built The Most Addictive Corner Of The Internet. Nobody Knows Why.",
     subheadline: "Neal.fun is a collection of interactive experiments that will eat your entire afternoon. Spend Bill Gates' money. Launch an asteroid. Play the Password Game.",
@@ -162,9 +198,9 @@ Start with The Password Game. You won't finish it. That's fine. Nothing matters.
     editors_note: "Will get shared.",
   },
 
-  "2026-04-26": {
-    id: 6,
-    date: "2026-04-26",
+  "2026-04-27": {
+    id: 7,
+    date: "2026-04-27",
     slug: "pointer-pointer",
     headline: "Move Your Mouse. It Finds A Photo Of Someone Pointing Directly At It.",
     subheadline: "Every cursor position returns a different photo of a real human pointing at exactly where your mouse is. How. Why. Who.",
@@ -199,9 +235,9 @@ Go move your cursor right now and stop asking questions.`,
     editors_note: "Perfect Friday energy.",
   },
 
-  "2026-04-27": {
-    id: 7,
-    date: "2026-04-27",
+  "2026-04-28": {
+    id: 8,
+    date: "2026-04-28",
     slug: "window-swap",
     headline: "Strangers Around The World Left Their Windows Open. Go Look.",
     subheadline: "WindowSwap shows you a random window view, filmed by a real person, from somewhere on Earth. Rain in Seoul. Pigeons in Rome. Silence in New Zealand.",
@@ -232,9 +268,9 @@ This is the internet at its most human. No algorithm. No engagement bait. Just p
     editors_note: "Sunday energy. Slow, beautiful, emotional.",
   },
 
-  "2026-04-28": {
-    id: 8,
-    date: "2026-04-28",
+  "2026-04-29": {
+    id: 9,
+    date: "2026-04-29",
     slug: "this-person-does-not-exist",
     headline: "This Face Is Not Real. Refresh The Page. Neither Is That One.",
     subheadline: "Every face on thispersondoesnotexist.com is AI-generated. Every single one. None of these people exist. All of them are eerily, disturbingly perfect.",
@@ -269,9 +305,9 @@ Go look at some people who don't exist.`,
     editors_note: "Always blows people's minds.",
   },
 
-  "2026-04-29": {
-    id: 9,
-    date: "2026-04-29",
+  "2026-04-30": {
+    id: 10,
+    date: "2026-04-30",
     slug: "wiby-search",
     headline: "A Search Engine That Only Shows You The Old Internet.",
     subheadline: "Wiby.me indexes only small, human-made websites — the kind that existed before SEO ate everything. Hit 'surprise me' and fall through a time portal.",
