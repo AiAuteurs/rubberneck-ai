@@ -27,6 +27,13 @@ export default function Unsubscribe() {
 
       {/* MAIN */}
       <main style={{
+        background: '#0d0d0d',
+        minHeight: '70vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}>
+      <div style={{
         maxWidth: '560px',
         margin: '5rem auto',
         padding: '0 1.5rem',
@@ -96,6 +103,7 @@ export default function Unsubscribe() {
         }}>
           ACTUALLY, TAKE ME BACK →
         </Link>
+      </div>
       </main>
 
       {/* FOOTER */}

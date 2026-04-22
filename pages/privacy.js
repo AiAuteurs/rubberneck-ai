@@ -66,6 +66,10 @@ export default function Privacy() {
 
       {/* CONTENT */}
       <main style={{
+        background: '#0d0d0d',
+        minHeight: '60vh',
+      }}>
+      <div style={{
         maxWidth: '720px',
         margin: '0 auto',
         padding: '3rem 1.5rem 5rem',
@@ -125,6 +129,7 @@ export default function Privacy() {
           <p>Questions? Something weird going on? Find us on X at <a href="https://x.com/rubberneckai" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--yellow)' }}>@rubberneckai</a>.</p>
         </Section>
 
+      </div>
       </main>
 
       {/* FOOTER */}

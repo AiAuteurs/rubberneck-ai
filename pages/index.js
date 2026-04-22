@@ -2,33 +2,20 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useRef, useState, useCallback } from 'react'
 
-// ─────────────────────────────────────────────────────────────
-// DAILY CONTENT — edit this object each morning, nothing else
-// ─────────────────────────────────────────────────────────────
+// ─────────────────────────────────────────────────────────────────
+// DAILY CONTENT — now driven by data/issues.js automatically
+// Edit data/issues.js to change today's pick. Don't touch this file.
+// ─────────────────────────────────────────────────────────────────
 const TODAY = {
   issueNumber: 1,
   headline:    'THE SITE THAT KILLS EVERY PAYWALL. LEGALLY.',
   siteUrl:     'https://archivebuttons.com',
   siteDisplay: 'archivebuttons.com',
-  screenshot:  '/assets/todays-pick.jpg',
   body: [
-    {
-      text: "You click a link. You want to read the article. Instead you get a popup demanding your credit card, your email, your firstborn child, and a lifetime subscription to something you'll forget to cancel.",
-      italic: false,
-    },
-    {
-      text: 'One person – nobody knows who – decided that was stupid. No investors. No team. No LinkedIn post about their founder journey. Just a simple tool: every legal way around every paywall, all in one place.',
-      bold: true,
-      italic: false,
-    },
-    {
-      text: 'Paste link. Click button. Read article. Free. Every time. Hundreds of sites.',
-      italic: false,
-    },
-    {
-      text: "374,000 people used it last month. The builder still hasn't told anyone their name. That's either genius, deep humility, or they're hiding from Rupert Murdoch. Probably all three.",
-      italic: true,
-    },
+    { text: "You click a link. You want to read the article. Instead you get a popup demanding your credit card, your email, your firstborn child, and a lifetime subscription to something you'll forget to cancel.", italic: false },
+    { text: 'One person – nobody knows who – decided that was stupid. No investors. No team. No LinkedIn post about their founder journey. Just a simple tool: every legal way around every paywall, all in one place.', bold: true, italic: false },
+    { text: 'Paste link. Click button. Read article. Free. Every time. Hundreds of sites.', italic: false },
+    { text: "374,000 people used it last month. The builder still hasn't told anyone their name. That's either genius, deep humility, or they're hiding from Rupert Murdoch. Probably all three.", italic: true },
   ],
 }
 
@@ -37,49 +24,34 @@ const ARCHIVE = []
 function getTodayString() {
   const d = new Date()
   const days   = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY']
-  const months = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE',
-                  'JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER']
+  const months = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER']
   return `${days[d.getDay()]}, ${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`
 }
 
 function isValidEmail(e) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e) }
 
-// ─────────────────────────────────────────────────────────────
-// RUBBERNECK CHICKEN
-// ─────────────────────────────────────────────────────────────
 function RubberneckChicken({ pos, active }) {
   if (!pos) return null
   const fromLeft = pos.side === 'left'
   return (
-    <img
-      src="/assets/favicon.png"
-      alt=""
-      style={{
-        position:      'fixed',
-        zIndex:        9999,
-        pointerEvents: 'none',
-        width:         '80px',
-        height:        '80px',
-        objectFit:     'contain',
-        filter:        'drop-shadow(3px 4px 8px rgba(0,0,0,0.35))',
-        top:           pos.y - 40,
-        left:          fromLeft ? (active ? '0px' : '-80px') : 'auto',
-        right:         fromLeft ? 'auto' : (active ? '0px' : '-80px'),
-        transform:     fromLeft ? 'scaleX(1)' : 'scaleX(-1)',
-        transition:    active
-          ? 'left 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), right 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.15s ease'
-          : 'left 0.35s ease-in, right 0.35s ease-in, opacity 0.25s ease',
-        opacity:       active ? 1 : 0,
-      }}
-    />
+    <img src="/assets/favicon.png" alt="" style={{
+      position: 'fixed', zIndex: 9999, pointerEvents: 'none',
+      width: '80px', height: '80px', objectFit: 'contain',
+      filter: 'drop-shadow(3px 4px 8px rgba(0,0,0,0.35))',
+      top: pos.y - 40,
+      left: fromLeft ? (active ? '0px' : '-80px') : 'auto',
+      right: fromLeft ? 'auto' : (active ? '0px' : '-80px'),
+      transform: fromLeft ? 'scaleX(1)' : 'scaleX(-1)',
+      transition: active
+        ? 'left 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), right 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.15s ease'
+        : 'left 0.35s ease-in, right 0.35s ease-in, opacity 0.25s ease',
+      opacity: active ? 1 : 0,
+    }} />
   )
 }
 
-// ─────────────────────────────────────────────────────────────
-// EMAIL FORM
-// ─────────────────────────────────────────────────────────────
-function EmailForm({ inputClass, btnClass, placeholder, onAnyClick, isNavbar }) {
-  const [value,  setValue]  = useState('')
+function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
+  const [value, setValue]   = useState('')
   const [status, setStatus] = useState('idle')
 
   const handleSubmit = useCallback(async (e) => {
@@ -119,13 +91,8 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick, isNavbar }) 
   return (
     <div style={{ display: 'flex' }}>
       <input
-        className={inputClass}
-        type="email"
-        placeholder={
-          status === 'error'   ? 'Need a real email! 👀' :
-          status === 'loading' ? 'Adding you...' :
-          placeholder
-        }
+        className={inputClass} type="email"
+        placeholder={status === 'error' ? 'Need a real email! 👀' : status === 'loading' ? 'Adding you...' : placeholder}
         value={value}
         onChange={e => { setValue(e.target.value); setStatus('idle') }}
         onKeyDown={e => { if (e.key === 'Enter') handleSubmit(e) }}
@@ -139,9 +106,6 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick, isNavbar }) 
   )
 }
 
-// ─────────────────────────────────────────────────────────────
-// PAGE
-// ─────────────────────────────────────────────────────────────
 export default function Home() {
   const squeakRef     = useRef(null)
   const [muted,       setMuted]       = useState(false)
@@ -176,26 +140,15 @@ export default function Home() {
     timerRef.current = setTimeout(() => setChickActive(false), 900)
   }, [muted])
 
-  const handleMuteToggle = (e) => {
-    setMuted(m => !m)
-    handleAnyClick(e)
-  }
+  const handleMuteToggle = (e) => { setMuted(m => !m); handleAnyClick(e) }
 
   useEffect(() => {
     const els = document.querySelectorAll('.reveal')
-    if (!('IntersectionObserver' in window)) {
-      els.forEach(el => el.classList.add('is-visible'))
-      return
-    }
+    if (!('IntersectionObserver' in window)) { els.forEach(el => el.classList.add('is-visible')); return }
     const obs = new IntersectionObserver(entries => {
-      entries.forEach(e => {
-        if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target) }
-      })
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target) } })
     }, { threshold: 0.1 })
-    els.forEach((el, i) => {
-      el.style.transitionDelay = `${(i % 4) * 0.07}s`
-      obs.observe(el)
-    })
+    els.forEach((el, i) => { el.style.transitionDelay = `${(i % 4) * 0.07}s`; obs.observe(el) })
     return () => obs.disconnect()
   }, [])
 
@@ -210,7 +163,7 @@ export default function Home() {
 
       <RubberneckChicken pos={chickPos} active={chickActive} />
 
-      {/* ── NAVBAR ── */}
+      {/* NAVBAR */}
       <header className="navbar">
         <div className="navbar__date">{getTodayString()}</div>
         <button className="navbar__mute" onClick={handleMuteToggle} aria-label={muted ? 'Unmute' : 'Mute'}>
@@ -223,31 +176,26 @@ export default function Home() {
         )}
         <div className="navbar__cta">
           <EmailForm
-            inputClass="navbar__email"
-            btnClass="navbar__submit"
+            inputClass="navbar__email" btnClass="navbar__submit"
             placeholder="Drop your email. Get tomorrow's Rubberneck."
             onAnyClick={handleAnyClick}
-            isNavbar={true}
           />
         </div>
       </header>
 
-      {/* ── HERO — yellow background ── */}
+      {/* HERO — yellow background */}
       <section className="hero" style={{ background: 'var(--yellow)' }}>
         <div className="hero__lockup">
           <Image
-            className="hero__logo"
-            src="/assets/logo.png"
-            alt="Rubberneck.ai — Websites that grab you by the eyeballs. You won't look away."
-            width={900}
-            height={400}
-            priority
+            className="hero__logo" src="/assets/logo.png"
+            alt="Rubberneck.ai — Websites that grab you by the eyeballs."
+            width={900} height={400} priority
             style={{ width: 'clamp(280px, 72vw, 900px)', height: 'auto' }}
           />
         </div>
       </section>
 
-      {/* ── HOW IT WORKS ── */}
+      {/* HOW IT WORKS */}
       <section className="how">
         <h2 className="how__title">HOW THIS WORKS</h2>
         <div className="how__steps">
@@ -264,7 +212,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── TAKING A NOSER ── */}
+      {/* TAKING A NOSER */}
       <section className="noser">
         <div className="noser__inner">
           <div className="noser__edition">
@@ -275,7 +223,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── INTRO ── */}
+      {/* INTRO */}
       <section className="intro">
         <div className="intro__left">
           <h2 className="intro__headline">THE SITE THAT<br />KILLS EVERY<br />PAYWALL.</h2>
@@ -286,7 +234,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── TODAY'S PICK ── */}
+      {/* TODAY'S PICK */}
       <section className="pick">
         <div className="pick__inner">
           <div className="pick__left reveal">
@@ -302,15 +250,13 @@ export default function Home() {
                 <span className="pick__browser-address">{TODAY.siteDisplay}</span>
               </div>
               <a href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer" onClick={handleAnyClick} className="pick__screenshot-link">
-                <img
-                  className="pick__screenshot"
+                <img className="pick__screenshot"
                   src={`https://api.microlink.io/?url=${encodeURIComponent(TODAY.siteUrl)}&screenshot=true&meta=false&embed=screenshot.url`}
                   alt={`Screenshot of ${TODAY.siteDisplay}`}
                 />
               </a>
             </div>
           </div>
-
           <div className="pick__right reveal">
             {TODAY.body.map((block, i) => (
               <p key={i} className={`pick__body${block.italic ? ' pick__body--italic' : ''}`} style={block.bold ? { fontWeight: 500 } : {}}>
@@ -327,7 +273,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── ARCHIVE ── */}
+      {/* ARCHIVE — shows when issues exist */}
       {ARCHIVE.length > 0 && (
         <section className="archive">
           <div className="archive__header">
@@ -348,33 +294,23 @@ export default function Home() {
         </section>
       )}
 
-      {/* ── BOTTOM CTA ── */}
+      {/* BOTTOM CTA */}
       <section className="bottom-cta">
-        <Image
-          className="bottom-cta__logo"
-          src="/assets/logo.png"
-          alt="Rubberneck.ai"
-          width={380}
-          height={170}
-          style={{ width: 'clamp(180px, 30vw, 380px)', height: 'auto' }}
-          aria-hidden="true"
+        <Image className="bottom-cta__logo" src="/assets/logo.png" alt="Rubberneck.ai"
+          width={380} height={170} style={{ width: 'clamp(180px, 30vw, 380px)', height: 'auto' }} aria-hidden="true"
         />
         <div className="bottom-cta__copy">
           <h2 className="bottom-cta__headline">DON&apos;T MISS<br />TOMORROW&apos;S SITE.</h2>
           <p className="bottom-cta__sub">Free. One email. Unsubscribe whenever. No hard feelings.</p>
-          <EmailForm
-            inputClass="bottom-cta__email"
-            btnClass="bottom-cta__btn"
-            placeholder="your@email.com"
-            onAnyClick={handleAnyClick}
-          />
+          <EmailForm inputClass="bottom-cta__email" btnClass="bottom-cta__btn" placeholder="your@email.com" onAnyClick={handleAnyClick} />
         </div>
       </section>
 
-      {/* ── FOOTER ── */}
+      {/* FOOTER */}
       <footer className="footer">
         <span>© {new Date().getFullYear()} Rubberneck.ai</span>
         <span>Made with unhinged energy.</span>
+        <a href="/archive">Archive</a>
         <a href="/faq">FAQ</a>
         <a href="/privacy">Privacy</a>
         <a href="/unsubscribe">Unsubscribe</a>

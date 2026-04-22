@@ -54,8 +54,9 @@ function FAQItem({ q, a }) {
   return (
     <div
       style={{
-        borderBottom: '2px solid #1a1a1a',
+        borderBottom: '2px solid #222',
         cursor: 'pointer',
+        background: '#0d0d0d',
       }}
       onClick={() => setOpen(o => !o)}
     >
@@ -167,6 +168,10 @@ export default function FAQ() {
 
       {/* FAQ LIST */}
       <main style={{
+        background: '#0d0d0d',
+        minHeight: '60vh',
+      }}>
+      <div style={{
         maxWidth: '720px',
         margin: '0 auto',
         padding: '2.5rem 1.5rem 5rem',
@@ -220,6 +225,7 @@ export default function FAQ() {
             @RUBBERNECKAI ON X →
           </a>
         </div>
+      </div>
       </main>
 
       {/* FOOTER */}
