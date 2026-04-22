@@ -123,12 +123,14 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
 }
 
 export default function Home() {
-  const squeakRef     = useRef(null)
-  const [muted,       setMuted]       = useState(false)
-  const [chickPos,    setChickPos]    = useState(null)
-  const [chickActive, setChickActive] = useState(false)
-  const [subCount,    setSubCount]    = useState(null)
-  const timerRef = useRef(null)
+  const squeakRef       = useRef(null)
+  const [muted,         setMuted]         = useState(false)
+  const [chickPos,      setChickPos]      = useState(null)
+  const [chickActive,   setChickActive]   = useState(false)
+  const [logoHonking,   setLogoHonking]   = useState(false)
+  const [subCount,      setSubCount]      = useState(null)
+  const timerRef    = useRef(null)
+  const honkTimerRef = useRef(null)
 
   useEffect(() => {
     squeakRef.current = new Audio('/assets/squeak.wav')
@@ -156,6 +158,18 @@ export default function Home() {
     timerRef.current = setTimeout(() => setChickActive(false), 900)
   }, [muted])
 
+  // Logo click: squeak + bulge animation, then stay on page (already home)
+  const handleLogoClick = useCallback((e) => {
+    e.preventDefault()
+    if (!muted && squeakRef.current) {
+      squeakRef.current.currentTime = 0
+      squeakRef.current.play().catch(() => {})
+    }
+    if (honkTimerRef.current) clearTimeout(honkTimerRef.current)
+    setLogoHonking(true)
+    honkTimerRef.current = setTimeout(() => setLogoHonking(false), 750)
+  }, [muted])
+
   const handleMuteToggle = (e) => { setMuted(m => !m); handleAnyClick(e) }
 
   useEffect(() => {
@@ -177,16 +191,76 @@ export default function Home() {
         <meta name="description" content="One jaw-dropping website, delivered daily. You won't look away." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/favicon.png" />
+        <style>{`
+          @keyframes rn-bulge {
+            0%   { transform: scale(1) rotate(0deg); filter: brightness(1); }
+            15%  { transform: scale(1.25) rotate(-4deg); filter: brightness(1.2) saturate(1.5); }
+            35%  { transform: scale(1.35) rotate(3deg);  filter: brightness(1.3) saturate(1.7); }
+            55%  { transform: scale(1.28) rotate(-2deg); filter: brightness(1.2) saturate(1.5); }
+            75%  { transform: scale(1.12) rotate(1deg);  filter: brightness(1.1); }
+            100% { transform: scale(1) rotate(0deg);     filter: brightness(1); }
+          }
+          @keyframes rn-shake {
+            0%,100% { transform: translateX(0); }
+            15%     { transform: translateX(-5px) rotate(-2deg); }
+            30%     { transform: translateX(6px)  rotate(2deg); }
+            50%     { transform: translateX(-4px) rotate(-1deg); }
+            70%     { transform: translateX(4px)  rotate(1deg); }
+            85%     { transform: translateX(-2px); }
+          }
+          .rn-logo-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            flex-shrink: 0;
+            cursor: pointer;
+          }
+          .rn-logo-link.honking .rn-logo-img {
+            animation: rn-bulge 0.75s cubic-bezier(0.36, 0.07, 0.19, 0.97) forwards;
+            transform-origin: 30% 40%;
+          }
+          .rn-logo-link.honking {
+            animation: rn-shake 0.65s ease-in-out;
+          }
+          .rn-logo-link:not(.honking):hover .rn-logo-img {
+            transform: scale(1.08);
+            filter: brightness(1.1) saturate(1.2);
+            transition: transform 0.15s ease, filter 0.15s ease;
+          }
+          .rn-logo-img {
+            height: 44px;
+            width: auto;
+            object-fit: contain;
+            display: block;
+            transition: transform 0.15s ease, filter 0.15s ease;
+          }
+        `}</style>
       </Head>
 
       <RubberneckChicken pos={chickPos} active={chickActive} />
 
       {/* ── NAVBAR ── */}
       <header className="navbar">
+        {/* Logo — left anchor */}
+        <a
+          href="/"
+          onClick={handleLogoClick}
+          className={`rn-logo-link${logoHonking ? ' honking' : ''}`}
+          aria-label="Rubberneck home"
+        >
+          <img
+            className="rn-logo-img"
+            src="/assets/logo-chicken.png"
+            alt="Rubberneck.ai"
+          />
+        </a>
+
         <div className="navbar__date">{getTodayString()}</div>
+
         <button className="navbar__mute" onClick={handleMuteToggle} aria-label={muted ? 'Unmute' : 'Mute'}>
           <span>{muted ? '🔇 UNMUTE' : '🔊 MUTE'}</span>
         </button>
+
         <a href="/archive" style={{
           fontFamily: 'var(--font-cond)', fontWeight: 700, fontSize: '0.85rem',
           letterSpacing: '0.1em', color: 'var(--yellow)',
@@ -195,6 +269,7 @@ export default function Home() {
         }}>
           ARCHIVE
         </a>
+
         <div className="navbar__cta">
           {subCount !== null && subCount >= 100 && (
             <div style={{
@@ -240,7 +315,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── TODAY'S PICK — yellow, screenshot card stays white ── */}
+      {/* ── TODAY'S PICK ── */}
       <section className="pick" style={{ background: 'var(--navy)' }}>
         <div className="pick__inner">
           <div className="pick__left reveal">
