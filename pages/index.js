@@ -96,7 +96,7 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
         fontFamily: 'var(--font-cond)', fontWeight: 700,
         fontSize: '0.85rem', letterSpacing: '0.08em', whiteSpace: 'nowrap',
       }}>
-        <img src='/assets/favicon.png' alt='' style={{height:'1.1em',width:'auto',verticalAlign:'middle',marginRight:'0.3em'}} />YOU&apos;RE IN! SEE YOU TOMORROW.
+        🐔 YOU&apos;RE IN! SEE YOU TOMORROW.
       </div>
     )
   }
@@ -201,7 +201,7 @@ export default function Home() {
               fontFamily: 'var(--font-headline)', fontSize: 'clamp(1rem, 2vw, 1.4rem)',
               color: 'var(--yellow)', letterSpacing: '0.04em', whiteSpace: 'nowrap', flexShrink: 0,
             }}>
-              <img src='/assets/favicon.png' alt='' style={{height:'1.1em',width:'auto',verticalAlign:'middle',marginRight:'0.3em'}} />{subCount.toLocaleString()} NOSY LEGENDS
+              🐔 {subCount.toLocaleString()} NOSY LEGENDS
             </div>
           )}
           {subCount !== null && subCount < 100 && (
@@ -210,7 +210,7 @@ export default function Home() {
                 fontFamily: 'var(--font-headline)', fontSize: 'clamp(0.9rem, 1.8vw, 1.3rem)',
                 color: 'var(--yellow)', letterSpacing: '0.04em', whiteSpace: 'nowrap', lineHeight: 1.1,
               }}>
-                <img src='/assets/favicon.png' alt='' style={{height:'1.1em',width:'auto',verticalAlign:'middle',marginRight:'0.3em'}} />JOIN THE FOUNDING FLOCK
+                🐔 JOIN THE FOUNDING FLOCK
               </div>
               <div style={{
                 fontFamily: 'var(--font-cond)', fontSize: '0.65rem',
@@ -246,7 +246,7 @@ export default function Home() {
           <div className="pick__left reveal">
             <h2 className="pick__headline" style={{ color: 'var(--white)' }}>{TODAY.headline}</h2>
             <a className="pick__url" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer"
-              onClick={handleAnyClick} style={{ color: 'var(--red)' }}>
+              onClick={handleAnyClick}>
               {TODAY.siteDisplay}
             </a>
             <div className="pick__browser">
