@@ -7,15 +7,15 @@ import { useEffect, useRef, useState, useCallback } from 'react'
 // Edit data/issues.js to change today's pick. Don't touch this file.
 // ─────────────────────────────────────────────────────────────────
 const TODAY = {
-  issueNumber: 1,
-  headline:    'THE SITE THAT KILLS EVERY PAYWALL. LEGALLY.',
-  siteUrl:     'https://archivebuttons.com',
-  siteDisplay: 'archivebuttons.com',
+  issueNumber: 2,
+  headline:    'EVERY GAME YOU LOVED AS A KID. FREE. IN YOUR BROWSER. RIGHT NOW.',
+  siteUrl:     'https://classicgamezone.com',
+  siteDisplay: 'classicgamezone.com',
   body: [
-    { text: "You click a link. You want to read the article. Instead you get a popup demanding your credit card, your email, your firstborn child, and a lifetime subscription to something you'll forget to cancel.", italic: false },
-    { text: 'One person – nobody knows who – decided that was stupid. No investors. No team. No LinkedIn post about their founder journey. Just a simple tool: every legal way around every paywall, all in one place.', bold: true, italic: false },
-    { text: 'Paste link. Click button. Read article. Free. Every time. Hundreds of sites.', italic: false },
-    { text: "374,000 people used it last month. The builder still hasn't told anyone their name. That's either genius, deep humility, or they're hiding from Rupert Murdoch. Probably all three.", italic: true },
+    { text: "You remember the exact moment. The cartridge. The startup sound. The way the controller felt. Super Mario Bros. Contra. Zelda. Street Fighter. Metal Slug. Games you played until your thumbs went numb and your mom yelled at you three times to come to dinner.", italic: false },
+    { text: "They're all here. Free. In your browser. Right now. Classic Game Zone has over 2,000 retro games — NES, SNES, Nintendo 64, PlayStation, Game Boy, Sega Genesis, Arcade, and more. No download. No account. No $70 subscription.", bold: true, italic: false },
+    { text: "Pokémon Emerald. Ocarina of Time. Castlevania. Contra. Metal Slug. Every console you ever owned and a few you couldn't afford.", italic: false },
+    { text: "This is the internet doing exactly what it was supposed to do — preserving something wonderful and giving it to everyone for free. Go lose an afternoon. You've earned it.", italic: true },
   ],
 }
 
@@ -185,51 +185,44 @@ export default function Home() {
           ARCHIVE
         </a>
         <div className="navbar__cta">
-          {subCount !== null && (
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.15rem' }}>
-              {subCount >= 100 ? (
-                <>
-                  <div style={{
-                    fontFamily: 'var(--font-headline)',
-                    fontSize: 'clamp(1.1rem, 2.5vw, 1.6rem)',
-                    color: 'var(--yellow)',
-                    letterSpacing: '0.04em',
-                    lineHeight: 1,
-                    whiteSpace: 'nowrap',
-                  }}>
-                    🐔 {subCount.toLocaleString()} NOSY LEGENDS
-                  </div>
-                  <div style={{
-                    fontFamily: 'var(--font-cond)',
-                    fontSize: '0.7rem',
-                    color: 'rgba(255,255,255,0.4)',
-                    letterSpacing: '0.12em',
-                  }}>
-                    AND GROWING DAILY
-                  </div>
-                </>
-              ) : (
-                <>
-                  <div style={{
-                    fontFamily: 'var(--font-headline)',
-                    fontSize: 'clamp(1rem, 2.5vw, 1.5rem)',
-                    color: 'var(--yellow)',
-                    letterSpacing: '0.04em',
-                    lineHeight: 1,
-                    whiteSpace: 'nowrap',
-                  }}>
-                    🐔 JOIN THE FOUNDING FLOCK
-                  </div>
-                  <div style={{
-                    fontFamily: 'var(--font-cond)',
-                    fontSize: '0.7rem',
-                    color: 'rgba(255,255,255,0.4)',
-                    letterSpacing: '0.12em',
-                  }}>
-                    BE EARLY. THIS THING IS JUST GETTING STARTED.
-                  </div>
-                </>
-              )}
+          {subCount !== null && subCount >= 100 && (
+            <div style={{
+              fontFamily: 'var(--font-headline)',
+              fontSize: 'clamp(1rem, 2vw, 1.4rem)',
+              color: 'var(--yellow)',
+              letterSpacing: '0.04em',
+              whiteSpace: 'nowrap',
+              flexShrink: 0,
+            }}>
+              🐔 {subCount.toLocaleString()} NOSY LEGENDS
+            </div>
+          )}
+          {subCount !== null && subCount < 100 && (
+            <div style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-end',
+              flexShrink: 0,
+            }}>
+              <div style={{
+                fontFamily: 'var(--font-headline)',
+                fontSize: 'clamp(0.9rem, 1.8vw, 1.3rem)',
+                color: 'var(--yellow)',
+                letterSpacing: '0.04em',
+                whiteSpace: 'nowrap',
+                lineHeight: 1.1,
+              }}>
+                🐔 JOIN THE FOUNDING FLOCK
+              </div>
+              <div style={{
+                fontFamily: 'var(--font-cond)',
+                fontSize: '0.65rem',
+                color: 'rgba(255,255,255,0.4)',
+                letterSpacing: '0.1em',
+                whiteSpace: 'nowrap',
+              }}>
+                BE EARLY. THIS THING IS JUST GETTING STARTED.
+              </div>
             </div>
           )}
           <EmailForm
