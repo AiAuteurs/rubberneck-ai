@@ -265,7 +265,7 @@ export default function ArchivePage({ issues }) {
             }}>
               OH, SO YOU<br />JUST CAN&apos;T<br />HELP YOURSELF<br />BEING NOSY, HUH?
             </h1>
-            <p style={{ fontFamily: 'var(--font-body)', fontSize: '1rem', color: '#333', lineHeight: 1.6, margin: 0 }}>
+            <p style={{ fontFamily: 'var(--font-body)', fontSize: '1rem', color: '#333', lineHeight: 1.6, margin: 0, maxWidth: '420px' }}>
               Every site we&apos;ve ever rubbernecked. One per day. Zero filler. Go ahead — dig through them all.
             </p>
           </div>
