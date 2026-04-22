@@ -292,10 +292,9 @@ a    { color: inherit; text-decoration: none; }
 
 /* ── TODAY'S PICK ─────────────────────────────────────── */
 .pick {
-  max-width: var(--max-w);
-  margin: 0 auto;
+  width: 100%;
   padding: clamp(2.5rem, 5vw, 4rem) var(--pad);
-  border-bottom: 3px solid var(--black);
+  border-bottom: none;
 }
 
 .pick__inner {
