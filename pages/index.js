@@ -184,12 +184,54 @@ export default function Home() {
         }}>
           ARCHIVE
         </a>
-        {subCount !== null && (
-          <div className="navbar__counter">
-            🐔 <span className="navbar__counter-num">{subCount.toLocaleString()}</span> RUBBERNECKERS
-          </div>
-        )}
         <div className="navbar__cta">
+          {subCount !== null && (
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.15rem' }}>
+              {subCount >= 100 ? (
+                <>
+                  <div style={{
+                    fontFamily: 'var(--font-headline)',
+                    fontSize: 'clamp(1.1rem, 2.5vw, 1.6rem)',
+                    color: 'var(--yellow)',
+                    letterSpacing: '0.04em',
+                    lineHeight: 1,
+                    whiteSpace: 'nowrap',
+                  }}>
+                    🐔 {subCount.toLocaleString()} NOSY LEGENDS
+                  </div>
+                  <div style={{
+                    fontFamily: 'var(--font-cond)',
+                    fontSize: '0.7rem',
+                    color: 'rgba(255,255,255,0.4)',
+                    letterSpacing: '0.12em',
+                  }}>
+                    AND GROWING DAILY
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div style={{
+                    fontFamily: 'var(--font-headline)',
+                    fontSize: 'clamp(1rem, 2.5vw, 1.5rem)',
+                    color: 'var(--yellow)',
+                    letterSpacing: '0.04em',
+                    lineHeight: 1,
+                    whiteSpace: 'nowrap',
+                  }}>
+                    🐔 JOIN THE FOUNDING FLOCK
+                  </div>
+                  <div style={{
+                    fontFamily: 'var(--font-cond)',
+                    fontSize: '0.7rem',
+                    color: 'rgba(255,255,255,0.4)',
+                    letterSpacing: '0.12em',
+                  }}>
+                    BE EARLY. THIS THING IS JUST GETTING STARTED.
+                  </div>
+                </>
+              )}
+            </div>
+          )}
           <EmailForm
             inputClass="navbar__email" btnClass="navbar__submit"
             placeholder="Drop your email. Get tomorrow's Rubberneck."
