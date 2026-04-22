@@ -14,10 +14,14 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const issue = getIssueById(params.id)
   if (!issue) return { notFound: true }
-  return { props: { issue }, revalidate: 3600 }
+
+  const allIssues = getAllPastIssues()
+  const maxId = allIssues.length > 0 ? Math.max(...allIssues.map(i => i.id)) : issue.id
+
+  return { props: { issue, maxId }, revalidate: 3600 }
 }
 
-export default function IssuePage({ issue }) {
+export default function IssuePage({ issue, maxId }) {
   const audioRef = useRef(null)
   const [muted, setMuted] = useState(false)
   const [squeaked, setSqueaked] = useState(false)
@@ -53,6 +57,9 @@ export default function IssuePage({ issue }) {
     'en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
   )
 
+  const hasPrev = issue.id > 1
+  const hasNext = issue.id < maxId
+
   return (
     <>
       <Head>
@@ -66,27 +73,18 @@ export default function IssuePage({ issue }) {
 
       {/* NAV */}
       <header style={{
-        background: '#0d0d0d',
-        borderBottom: '3px solid var(--yellow)',
-        padding: '0 1.5rem',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        height: '64px',
-        position: 'sticky',
-        top: 0,
-        zIndex: 100,
+        background: '#0d0d0d', borderBottom: '3px solid var(--yellow)',
+        padding: '0 1.5rem', display: 'flex', alignItems: 'center',
+        justifyContent: 'space-between', height: '64px',
+        position: 'sticky', top: 0, zIndex: 100,
       }}>
         <Link href="/" style={{ textDecoration: 'none' }}>
           <img src="/assets/logo.png" alt="Rubberneck.ai" style={{ height: '36px' }} />
         </Link>
         <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
           <Link href="/archive" style={{
-            fontFamily: 'var(--font-cond)',
-            fontSize: '0.9rem',
-            letterSpacing: '0.1em',
-            color: 'var(--yellow)',
-            textDecoration: 'none',
+            fontFamily: 'var(--font-cond)', fontSize: '0.9rem',
+            letterSpacing: '0.1em', color: 'var(--yellow)', textDecoration: 'none',
           }}>
             ARCHIVE
           </Link>
@@ -103,44 +101,29 @@ export default function IssuePage({ issue }) {
       <div style={{ background: '#0d0d0d', borderBottom: '1px solid #1a1a1a' }}>
         <div style={{ maxWidth: '780px', margin: '0 auto', padding: '3rem 1.5rem 2rem' }}>
           <div style={{
-            fontFamily: 'var(--font-cond)',
-            fontSize: '0.8rem',
-            color: 'var(--yellow)',
-            letterSpacing: '0.15em',
-            marginBottom: '0.75rem',
+            fontFamily: 'var(--font-cond)', fontSize: '0.8rem', color: 'var(--yellow)',
+            letterSpacing: '0.15em', marginBottom: '0.75rem',
           }}>
             ISSUE #{issue.id} — {formattedDate.toUpperCase()}
           </div>
           <h1 style={{
-            fontFamily: 'var(--font-headline)',
-            fontSize: 'clamp(2rem, 5vw, 3.5rem)',
-            color: '#F5F5F0',
-            lineHeight: 1.05,
-            marginBottom: '1rem',
+            fontFamily: 'var(--font-headline)', fontSize: 'clamp(2rem, 5vw, 3.5rem)',
+            color: '#F5F5F0', lineHeight: 1.05, marginBottom: '1rem',
           }}>
             {issue.headline}
           </h1>
           <p style={{
-            fontFamily: 'var(--font-body)',
-            fontSize: '1.1rem',
-            color: '#888',
-            lineHeight: 1.5,
-            marginBottom: '1.5rem',
+            fontFamily: 'var(--font-body)', fontSize: '1.1rem',
+            color: '#888', lineHeight: 1.5, marginBottom: '1.5rem',
           }}>
             {issue.subheadline}
           </p>
           <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
             {issue.tags.map((tag) => (
               <span key={tag} style={{
-                background: '#1a1a1a',
-                color: '#666',
-                fontFamily: 'var(--font-cond)',
-                fontSize: '0.75rem',
-                padding: '0.25rem 0.75rem',
-                borderRadius: '999px',
-                border: '1px solid #333',
-                letterSpacing: '0.05em',
-                textTransform: 'uppercase',
+                background: '#1a1a1a', color: '#666', fontFamily: 'var(--font-cond)',
+                fontSize: '0.75rem', padding: '0.25rem 0.75rem', borderRadius: '999px',
+                border: '1px solid #333', letterSpacing: '0.05em', textTransform: 'uppercase',
               }}>
                 {tag}
               </span>
@@ -155,11 +138,8 @@ export default function IssuePage({ issue }) {
 
           {/* SITE CARD */}
           <div style={{
-            border: '2px solid var(--yellow)',
-            borderRadius: '6px',
-            overflow: 'hidden',
-            marginBottom: '2.5rem',
-            background: '#111',
+            border: '2px solid var(--yellow)', borderRadius: '6px',
+            overflow: 'hidden', marginBottom: '2.5rem', background: '#111',
           }}>
             <div style={{ position: 'relative', width: '100%', paddingTop: '52.5%', background: '#0a0a0a' }}>
               <img
@@ -170,12 +150,8 @@ export default function IssuePage({ issue }) {
               />
             </div>
             <div style={{
-              padding: '1.25rem 1.5rem',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              flexWrap: 'wrap',
-              gap: '1rem',
+              padding: '1.25rem 1.5rem', display: 'flex', alignItems: 'center',
+              justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem',
             }}>
               <div>
                 <div style={{ fontFamily: 'var(--font-headline)', fontSize: '1.4rem', color: '#F5F5F0' }}>
@@ -186,21 +162,12 @@ export default function IssuePage({ issue }) {
                 </div>
               </div>
               <a
-                href={issue.site.url}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={issue.site.url} target="_blank" rel="noopener noreferrer"
                 onClick={squeak}
                 style={{
-                  background: 'var(--yellow)',
-                  color: '#080808',
-                  fontFamily: 'var(--font-cond)',
-                  fontWeight: 700,
-                  fontSize: '1rem',
-                  letterSpacing: '0.1em',
-                  padding: '0.6rem 1.5rem',
-                  borderRadius: '3px',
-                  textDecoration: 'none',
-                  whiteSpace: 'nowrap',
+                  background: 'var(--yellow)', color: '#080808', fontFamily: 'var(--font-cond)',
+                  fontWeight: 700, fontSize: '1rem', letterSpacing: '0.1em',
+                  padding: '0.6rem 1.5rem', borderRadius: '3px', textDecoration: 'none', whiteSpace: 'nowrap',
                 }}
               >
                 {squeaked ? '🐔 GOING THERE →' : 'GO THERE →'}
@@ -210,11 +177,8 @@ export default function IssuePage({ issue }) {
 
           {/* BODY */}
           <article style={{
-            fontFamily: 'var(--font-body)',
-            fontSize: '1.1rem',
-            lineHeight: 1.8,
-            color: '#bbb',
-            marginBottom: '2.5rem',
+            fontFamily: 'var(--font-body)', fontSize: '1.1rem',
+            lineHeight: 1.8, color: '#bbb', marginBottom: '2.5rem',
           }}>
             {renderBody(issue.body)}
           </article>
@@ -223,11 +187,8 @@ export default function IssuePage({ issue }) {
           {issue.affiliate_links.length > 0 && (
             <div style={{ borderTop: '1px solid #1a1a1a', paddingTop: '1.5rem', marginBottom: '2.5rem' }}>
               <div style={{
-                fontFamily: 'var(--font-cond)',
-                fontSize: '0.8rem',
-                color: 'var(--yellow)',
-                letterSpacing: '0.15em',
-                marginBottom: '0.75rem',
+                fontFamily: 'var(--font-cond)', fontSize: '0.8rem', color: 'var(--yellow)',
+                letterSpacing: '0.15em', marginBottom: '0.75rem',
               }}>
                 🔗 USEFUL LINKS
               </div>
@@ -243,11 +204,8 @@ export default function IssuePage({ issue }) {
 
           {/* EMAIL SIGNUP */}
           <div style={{
-            background: 'var(--yellow)',
-            borderRadius: '6px',
-            padding: '2rem',
-            textAlign: 'center',
-            marginBottom: '2.5rem',
+            background: 'var(--yellow)', borderRadius: '6px',
+            padding: '2rem', textAlign: 'center', marginBottom: '2.5rem',
           }}>
             <div style={{ fontFamily: 'var(--font-headline)', fontSize: '1.75rem', color: '#080808', marginBottom: '0.5rem' }}>
               ONE JAW-DROPPING SITE. EVERY MORNING.
@@ -273,29 +231,41 @@ export default function IssuePage({ issue }) {
                 fontFamily: 'var(--font-body)', fontSize: '1rem', width: '260px',
               }} />
               <button type="submit" style={{
-                background: '#080808', color: 'var(--yellow)',
-                fontFamily: 'var(--font-cond)', fontWeight: 700,
-                fontSize: '1rem', letterSpacing: '0.1em',
+                background: '#080808', color: 'var(--yellow)', fontFamily: 'var(--font-cond)',
+                fontWeight: 700, fontSize: '1rem', letterSpacing: '0.1em',
                 padding: '0.65rem 1.5rem', border: 'none', borderRadius: '3px', cursor: 'pointer',
               }}>
-                I'M NOSY
+                I&apos;M NOSY
               </button>
             </form>
           </div>
 
-          {/* PREV / NEXT */}
+          {/* PREV / NEXT — only show if the issue actually exists */}
           <div style={{ display: 'flex', justifyContent: 'space-between', borderTop: '1px solid #1a1a1a', paddingTop: '1.5rem' }}>
-            {issue.id > 1 ? (
-              <Link href={`/issue/${issue.id - 1}`} style={{ fontFamily: 'var(--font-cond)', color: 'var(--yellow)', letterSpacing: '0.1em', textDecoration: 'none' }}>
+            {hasPrev ? (
+              <Link href={`/issue/${issue.id - 1}`} style={{
+                fontFamily: 'var(--font-cond)', color: 'var(--yellow)',
+                letterSpacing: '0.1em', textDecoration: 'none',
+              }}>
                 ← ISSUE #{issue.id - 1}
               </Link>
             ) : <span />}
-            <Link href="/archive" style={{ fontFamily: 'var(--font-body)', color: '#555', textDecoration: 'underline', fontSize: '0.9rem' }}>
+
+            <Link href="/archive" style={{
+              fontFamily: 'var(--font-body)', color: '#555',
+              textDecoration: 'underline', fontSize: '0.9rem',
+            }}>
               All Issues
             </Link>
-            <Link href={`/issue/${issue.id + 1}`} style={{ fontFamily: 'var(--font-cond)', color: 'var(--yellow)', letterSpacing: '0.1em', textDecoration: 'none' }}>
-              ISSUE #{issue.id + 1} →
-            </Link>
+
+            {hasNext ? (
+              <Link href={`/issue/${issue.id + 1}`} style={{
+                fontFamily: 'var(--font-cond)', color: 'var(--yellow)',
+                letterSpacing: '0.1em', textDecoration: 'none',
+              }}>
+                ISSUE #{issue.id + 1} →
+              </Link>
+            ) : <span />}
           </div>
         </div>
       </main>
