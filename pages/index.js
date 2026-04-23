@@ -100,6 +100,7 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
 function renderBody(bodyText) {
   if (!bodyText) return null
   return bodyText.trim().split(/\n\n+/).map((para, i) => {
+    // Parse **bold** and *italic* inline
     const parts = []
     let key = 0
     const pattern = /(\*\*(.+?)\*\*|\*(.+?)\*)/g
@@ -239,7 +240,7 @@ export default function Home() {
                 {issue?.site?.url && (
                   <img
                     className="pick__screenshot"
-                    src={issue?.site?.screenshot || `https://api.microlink.io/?url=${encodeURIComponent(issue.site.url)}&screenshot=true&meta=false&embed=screenshot.url`}
+                    src={`https://api.microlink.io/?url=${encodeURIComponent(issue.site.url)}&screenshot=true&meta=false&embed=screenshot.url`}
                     alt={`Screenshot of ${issue.site.name}`}
                   />
                 )}
