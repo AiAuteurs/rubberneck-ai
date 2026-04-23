@@ -121,22 +121,22 @@ function renderBody(bodyText) {
   })
 }
 
-export default function Home() {
+export async function getServerSideProps() {
+  const { issue, isLatest } = getTodaysIssue()
+  return {
+    props: { initialIssue: issue, initialIsLatest: isLatest },
+  }
+}
+
+export default function Home({ initialIssue, initialIsLatest }) {
   const squeakRef     = useRef(null)
   const [muted,       setMuted]       = useState(false)
   const [chickPos,    setChickPos]    = useState(null)
   const [chickActive, setChickActive] = useState(false)
   const [subCount,    setSubCount]    = useState(null)
-  const [issue,       setIssue]       = useState(null)
-  const [isLatest,    setIsLatest]    = useState(true)
+  const [issue,       setIssue]       = useState(initialIssue)
+  const [isLatest,    setIsLatest]    = useState(initialIsLatest)
   const timerRef = useRef(null)
-
-  // ── CLIENT-SIDE DATE CHECK — runs in browser, not at build time ──
-  useEffect(() => {
-    const { issue: todaysIssue, isLatest: latest } = getTodaysIssue()
-    setIssue(todaysIssue)
-    setIsLatest(latest)
-  }, [])
 
   useEffect(() => {
     squeakRef.current = new Audio('/assets/squeak.wav')
