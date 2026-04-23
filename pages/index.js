@@ -240,7 +240,7 @@ export default function Home() {
                 {issue?.site?.url && (
                   <img
                     className="pick__screenshot"
-                    src={`https://api.microlink.io/?url=${encodeURIComponent(issue.site.url)}&screenshot=true&meta=false&embed=screenshot.url`}
+                    src={issue?.site?.screenshot || `https://api.microlink.io/?url=${encodeURIComponent(issue.site.url)}&screenshot=true&meta=false&embed=screenshot.url`}
                     alt={`Screenshot of ${issue.site.name}`}
                   />
                 )}
