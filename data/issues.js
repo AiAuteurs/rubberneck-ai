@@ -351,7 +351,7 @@ function getAdjustedDateStr() {
   const estOffsetMs = -4 * 60 * 60000; // EST = UTC-5
   const estTime = new Date(utcMs + estOffsetMs);
   // Subtract 6 hours so 6am EST = start of "today"
-  const adjustedTime = new Date(estTime.getTime() - 6 * 60 * 60000);
+  const adjustedTime = new Date(estTime.getTime());
   return adjustedTime.toISOString().split("T")[0];
 }
 
