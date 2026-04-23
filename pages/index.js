@@ -1,4 +1,9 @@
-import Head from 'next/head'
+#!/usr/bin/env python3
+import os
+
+target = "/Users/michaelmatassa/Documents/GitHub/rubberneck-ai/pages/index.js"
+
+content = r"""import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useRef, useState, useCallback } from 'react'
 import Navbar from '../Components/Navbar'
@@ -100,7 +105,6 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
 function renderBody(bodyText) {
   if (!bodyText) return null
   return bodyText.trim().split(/\n\n+/).map((para, i) => {
-    // Parse **bold** and *italic* inline
     const parts = []
     let key = 0
     const pattern = /(\*\*(.+?)\*\*|\*(.+?)\*)/g
@@ -292,3 +296,9 @@ export default function Home() {
     </>
   )
 }
+"""
+
+with open(target, 'w') as f:
+    f.write(content)
+
+print(f"✅ Written to {target}")
