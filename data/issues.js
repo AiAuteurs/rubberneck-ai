@@ -201,38 +201,30 @@ Start with The Password Game. You won't finish it. That's fine. Nothing matters.
   "2026-04-27": {
     id: 7,
     date: "2026-04-27",
-    slug: "pointer-pointer",
-    headline: "Move Your Mouse. It Finds A Photo Of Someone Pointing Directly At It.",
-    subheadline: "Every cursor position returns a different photo of a real human pointing at exactly where your mouse is. How. Why. Who.",
+    slug: "spencers-gifts",
+    headline: "THE STORE YOUR MOM DIDN'T WANT YOU IN. IT'S ALL ONLINE NOW.",
+    subheadline: "Fake vomit. Blacklight posters. Things that vibrate. Spencer's never changed and that's exactly the point.",
     site: {
-      name: "Pointer Pointer",
-      url: "https://pointerpointer.com",
+      name: "Spencer's",
+      url: "https://www.spencersonline.com",
       screenshot: null,
-      category: "Weird / Art",
-      vibe: "Someone spent real time on this and we are all better for it",
+      category: "Shopping",
+      vibe: "The mall store that raised a generation of weirdos",
     },
-    body: `Move your mouse.
+    body: `You know the smell. Incense, novelty rubber, and the faint whiff of rebellion. The black lights. The airbrushed wolves. The wall of things that made you giggle nervously at age 14.
 
-Stop.
+Spencer's has been selling the stuff your parents disapproved of since 1947. Gag gifts. Party supplies. Pop culture merch. Stuff that has absolutely no business existing — and yet here we are, still buying it decades later.
 
-Wait two seconds.
+**They've got over 15,000 products online now.** Whoopee cushions. Fake parking tickets. Things shaped like other things. Drinking games your college self would have wept over. Halloween costumes that haven't been approved by anyone's HR department.
 
-A photograph of a human being appears on screen — a real person, in a real photo — pointing directly at your cursor. Not approximately. Not nearby. *Exactly* at your cursor.
+Here's the thing nobody talks about: Spencer's is genuinely good at what it does. Nobody goes there looking for dignity and nobody leaves disappointed. It's the rare store that has always known exactly what it is.
 
-Move it somewhere else. Another photo. Another person. Pointing right at it.
+Your weird uncle shops here. Your coworker who brings gag gifts to the office party shops here. The person who still owns a lava lamp — definitely shops here.
 
-This is Pointer Pointer. It has one feature. That feature is perfect.
-
-The Dutch design studio CLEVER°FRANKE built this in 2012 as an art project. They collected thousands of photos of people pointing at things and built a system that matches cursor coordinates to the correct image. Someone did this on purpose. Someone thought about it, planned it, executed it, and put it on the internet.
-
-There is no point. There is no deeper meaning. There is no call to action.
-
-There is just a photograph of a stranger pointing directly at wherever you left your mouse.
-
-Go move your cursor right now and stop asking questions.`,
+Go find something ridiculous. You know you want to.`,
     affiliate_links: [],
-    tags: ["weird", "art", "interactive", "free"],
-    editors_note: "Perfect Friday energy.",
+    tags: ["shopping", "gifts", "novelty", "fun"],
+    editors_note: "First affiliate issue. Replace url with Ascend affiliate link before going live.",
   },
 
   "2026-04-28": {
@@ -351,7 +343,7 @@ function getAdjustedDateStr() {
   const estOffsetMs = -4 * 60 * 60000; // EST = UTC-5
   const estTime = new Date(utcMs + estOffsetMs);
   // Subtract 6 hours so 6am EST = start of "today"
-  const adjustedTime = new Date(estTime.getTime());
+  const adjustedTime = new Date(estTime.getTime() - 6 * 60 * 60000);
   return adjustedTime.toISOString().split("T")[0];
 }
 
