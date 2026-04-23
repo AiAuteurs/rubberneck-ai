@@ -2,36 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useRef, useState, useCallback } from 'react'
 import Navbar from '../Components/Navbar'
-
-// ─────────────────────────────────────────────────────────────────
-// DAILY CONTENT — update this each day
-// ─────────────────────────────────────────────────────────────────
-const TODAY = {
-  issueNumber: 2,
-  headline:    'EVERY GAME YOU LOVED AS A KID. FREE. IN YOUR BROWSER. RIGHT NOW.',
-  siteUrl:     'https://classicgamezone.com',
-  siteDisplay: 'classicgamezone.com',
-  body: [
-    {
-      text: "You remember the exact moment. The cartridge. The startup sound. The way the controller felt. Super Mario Bros. Contra. Zelda. Street Fighter. Metal Slug. Games you played until your thumbs went numb and your mom yelled at you three times to come to dinner.",
-      italic: false,
-    },
-    {
-      text: "They're all here. Free. In your browser. Right now. Classic Game Zone has over 2,000 retro games — NES, SNES, Nintendo 64, PlayStation, Game Boy, Sega Genesis, Arcade, and more. No download. No account. No $70 subscription.",
-      bold: true, italic: false,
-    },
-    {
-      text: "Pokémon Emerald. Ocarina of Time. Castlevania. Contra. Metal Slug. Every console you ever owned and a few you couldn't afford.",
-      italic: false,
-    },
-    {
-      text: "This is the internet doing exactly what it was supposed to do — preserving something wonderful and giving it to everyone for free. Go lose an afternoon. You've earned it.",
-      italic: true,
-    },
-  ],
-}
-
-const ARCHIVE = []
+import { getTodaysIssue } from '../data/issues'
 
 function getTodayString() {
   const d = new Date()
@@ -123,13 +94,49 @@ function EmailForm({ inputClass, btnClass, placeholder, onAnyClick }) {
   )
 }
 
+// ─────────────────────────────────────────────────────────────────
+// Render markdown-lite body: **bold**, *italic*, newlines → <p>s
+// ─────────────────────────────────────────────────────────────────
+function renderBody(bodyText) {
+  if (!bodyText) return null
+  return bodyText.trim().split(/\n\n+/).map((para, i) => {
+    // Parse **bold** and *italic* inline
+    const parts = []
+    let key = 0
+    const pattern = /(\*\*(.+?)\*\*|\*(.+?)\*)/g
+    let lastIndex = 0
+    let match
+    while ((match = pattern.exec(para)) !== null) {
+      if (match.index > lastIndex) parts.push(<span key={key++}>{para.slice(lastIndex, match.index)}</span>)
+      if (match[2]) parts.push(<strong key={key++}>{match[2]}</strong>)
+      else if (match[3]) parts.push(<em key={key++}>{match[3]}</em>)
+      lastIndex = match.index + match[0].length
+    }
+    if (lastIndex < para.length) parts.push(<span key={key++}>{para.slice(lastIndex)}</span>)
+    return (
+      <p key={i} className="pick__body" style={{ color: 'rgba(245,240,232,0.85)' }}>
+        {parts}
+      </p>
+    )
+  })
+}
+
 export default function Home() {
   const squeakRef     = useRef(null)
   const [muted,       setMuted]       = useState(false)
   const [chickPos,    setChickPos]    = useState(null)
   const [chickActive, setChickActive] = useState(false)
   const [subCount,    setSubCount]    = useState(null)
+  const [issue,       setIssue]       = useState(null)
+  const [isLatest,    setIsLatest]    = useState(true)
   const timerRef = useRef(null)
+
+  // ── CLIENT-SIDE DATE CHECK — runs in browser, not at build time ──
+  useEffect(() => {
+    const { issue: todaysIssue, isLatest: latest } = getTodaysIssue()
+    setIssue(todaysIssue)
+    setIsLatest(latest)
+  }, [])
 
   useEffect(() => {
     squeakRef.current = new Audio('/assets/squeak.wav')
@@ -196,44 +203,56 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── STALE BANNER — shown when today has no scheduled issue ── */}
+      {!isLatest && issue && (
+        <div style={{
+          background: 'var(--red)', color: '#fff',
+          textAlign: 'center', padding: '0.55rem 1rem',
+          fontFamily: 'var(--font-cond)', fontSize: '0.8rem',
+          letterSpacing: '0.1em',
+        }}>
+          🐔 TODAY&apos;S ISSUE IS LOADING — SHOWING ISSUE #{issue.id} FOR NOW
+        </div>
+      )}
+
       {/* ── TODAY'S PICK ── */}
       <section className="pick" style={{ background: 'var(--navy)' }}>
         <div className="pick__inner">
           <div className="pick__left reveal">
-            <h2 className="pick__headline" style={{ color: 'var(--white)' }}>{TODAY.headline}</h2>
-            <a className="pick__url" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer"
+            <h2 className="pick__headline" style={{ color: 'var(--white)' }}>
+              {issue ? issue.headline : '\u00A0'}
+            </h2>
+            <a className="pick__url" href={issue?.site?.url ?? '#'} target="_blank" rel="noopener noreferrer"
               onClick={handleAnyClick}>
-              {TODAY.siteDisplay}
+              {issue?.site?.url?.replace(/^https?:\/\//, '') ?? ''}
             </a>
             <div className="pick__browser">
               <div className="pick__browser-bar">
                 <span className="pick__browser-dot pick__browser-dot--red" />
                 <span className="pick__browser-dot pick__browser-dot--yellow" />
                 <span className="pick__browser-dot pick__browser-dot--green" />
-                <span className="pick__browser-address">{TODAY.siteDisplay}</span>
+                <span className="pick__browser-address">
+                  {issue?.site?.url?.replace(/^https?:\/\//, '') ?? ''}
+                </span>
               </div>
-              <a href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer"
+              <a href={issue?.site?.url ?? '#'} target="_blank" rel="noopener noreferrer"
                 onClick={handleAnyClick} className="pick__screenshot-link">
-                <img
-                  className="pick__screenshot"
-                  src={`https://api.microlink.io/?url=${encodeURIComponent(TODAY.siteUrl)}&screenshot=true&meta=false&embed=screenshot.url`}
-                  alt={`Screenshot of ${TODAY.siteDisplay}`}
-                />
+                {issue?.site?.url && (
+                  <img
+                    className="pick__screenshot"
+                    src={`https://api.microlink.io/?url=${encodeURIComponent(issue.site.url)}&screenshot=true&meta=false&embed=screenshot.url`}
+                    alt={`Screenshot of ${issue.site.name}`}
+                  />
+                )}
               </a>
             </div>
           </div>
 
           <div className="pick__right reveal">
-            {TODAY.body.map((block, i) => (
-              <p key={i}
-                className={`pick__body${block.italic ? ' pick__body--italic' : ''}`}
-                style={{ ...(block.bold ? { fontWeight: 500 } : {}), color: 'rgba(245,240,232,0.85)' }}>
-                {block.text}
-              </p>
-            ))}
+            {issue ? renderBody(issue.body) : null}
             <hr className="pick__rule" />
             <p className="pick__ready" style={{ color: 'var(--red)' }}>READY? HERE IT IS.</p>
-            <a className="pick__cta" href={TODAY.siteUrl} target="_blank" rel="noopener noreferrer" onClick={handleAnyClick}>
+            <a className="pick__cta" href={issue?.site?.url ?? '#'} target="_blank" rel="noopener noreferrer" onClick={handleAnyClick}>
               GO THERE →
             </a>
             <p className="pick__disclaimer" style={{ color: 'rgba(245,240,232,0.4)' }}>
