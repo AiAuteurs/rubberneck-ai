@@ -75,6 +75,7 @@ Go lose an afternoon. You've earned it.`,
     site: {
       name: "Radio Garden",
       url: "https://radio.garden",
+      screenshot: "/assets/issues/radio-garden.jpg",
       screenshot: null,
       category: "Music / Travel",
       vibe: "Google Earth but for radio and your soul",
