@@ -348,7 +348,7 @@ Hit surprise me five times. You will find something that makes you feel somethin
 function getAdjustedDateStr() {
   const now = new Date();
   const utcMs = now.getTime() + now.getTimezoneOffset() * 60000;
-  const estOffsetMs = -5 * 60 * 60000; // EST = UTC-5
+  const estOffsetMs = -4 * 60 * 60000; // EST = UTC-5
   const estTime = new Date(utcMs + estOffsetMs);
   // Subtract 6 hours so 6am EST = start of "today"
   const adjustedTime = new Date(estTime.getTime() - 6 * 60 * 60000);
