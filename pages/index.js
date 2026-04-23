@@ -1,9 +1,4 @@
-#!/usr/bin/env python3
-import os
-
-target = "/Users/michaelmatassa/Documents/GitHub/rubberneck-ai/pages/index.js"
-
-content = r"""import Head from 'next/head'
+import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useRef, useState, useCallback } from 'react'
 import Navbar from '../Components/Navbar'
@@ -296,9 +291,3 @@ export default function Home() {
     </>
   )
 }
-"""
-
-with open(target, 'w') as f:
-    f.write(content)
-
-print(f"✅ Written to {target}")
