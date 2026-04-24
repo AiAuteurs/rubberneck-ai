@@ -35,13 +35,14 @@ function SignupStrip({ onSqueak, muted }) {
         padding: '0 2rem',
         display: 'flex',
         alignItems: 'center',
-        height: '90px',
+        height: '100px',
+        overflow: 'visible',
         gap: '1.25rem',
         overflow: 'visible',
       }}>
         <img src='/assets/chicken.png' alt='' style={{
-          width: '100px',
-          height: '110px',
+          width: '120px',
+          height: '130px',
           objectFit: 'contain',
           objectPosition: 'bottom',
           filter: 'drop-shadow(0 4px 14px rgba(0,0,0,0.5))',
