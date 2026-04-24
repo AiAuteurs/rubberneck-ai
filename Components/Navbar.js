@@ -141,7 +141,7 @@ export default function Navbar({ onSqueak }) {
             letterSpacing: '0.15em',
             color: 'var(--yellow)',
             whiteSpace: 'nowrap',
-          }}>\U0001f413 JOIN THE FOUNDING FLOCK</span>
+          }}>🐔 JOIN THE FOUNDING FLOCK</span>
           <span style={{
             fontFamily: 'var(--font-body)',
             fontSize: '0.6rem',
@@ -168,7 +168,7 @@ export default function Navbar({ onSqueak }) {
             whiteSpace: 'nowrap',
           }}
         >
-          {muted ? '\U0001f507 UNMUTE' : '\U0001f50a MUTE'}
+          {muted ? '🔇 UNMUTE' : '🔊 MUTE'}
         </button>
 
         <Link href="/archive" style={{
