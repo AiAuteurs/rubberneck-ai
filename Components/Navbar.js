@@ -57,17 +57,7 @@ export default function Navbar({ onSqueak }) {
       </Link>
 
       {/* CENTER */}
-      <div style={{
-        fontFamily: 'var(--font-cond)',
-        fontWeight: 700,
-        fontSize: '0.75rem',
-        letterSpacing: '0.15em',
-        color: 'rgba(255,255,255,0.25)',
-        textAlign: 'center',
-        flex: 1,
-      }}>
-        RUBBERNECK.AI
-      </div>
+      <div style={{ flex: 1 }} />
 
       {/* RIGHT — always: MUTE then ARCHIVE */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
