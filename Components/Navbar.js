@@ -5,11 +5,12 @@
 import Link from 'next/link'
 import { useEffect, useRef, useState, useCallback } from 'react'
 
-function NavbarEmailForm() {
+function NavbarEmailForm({ onSqueak }) {
   const [value, setValue] = useState('')
   const [status, setStatus] = useState('idle')
 
   const handleSubmit = useCallback(async () => {
+    if (onSqueak) onSqueak()
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
     if (!emailRegex.test(value)) { setStatus('error'); return }
     setStatus('loading')
@@ -27,14 +28,14 @@ function NavbarEmailForm() {
       setStatus('error')
       setTimeout(() => setStatus('idle'), 3000)
     }
-  }, [value])
+  }, [value, onSqueak])
 
   if (status === 'success') {
     return (
       <div style={{
         fontFamily: 'var(--font-cond)', fontWeight: 700,
         fontSize: '0.75rem', letterSpacing: '0.08em',
-        color: '#2a7a2a', whiteSpace: 'nowrap',
+        color: '#2a7a2a', whiteSpace: 'nowrap', marginTop: '0.25rem',
       }}>
         🐔 YOU&apos;RE IN!
       </div>
@@ -49,6 +50,7 @@ function NavbarEmailForm() {
         value={value}
         onChange={e => { setValue(e.target.value); setStatus('idle') }}
         onKeyDown={e => { if (e.key === 'Enter') handleSubmit() }}
+        onClick={() => { if (onSqueak) onSqueak() }}
         disabled={status === 'loading'}
         style={{
           fontFamily: 'var(--font-body)',
@@ -58,7 +60,7 @@ function NavbarEmailForm() {
           border: status === 'error' ? '1px solid var(--red)' : '1px solid rgba(255,255,255,0.2)',
           color: '#fff',
           outline: 'none',
-          width: '180px',
+          width: '170px',
         }}
       />
       <button
@@ -77,7 +79,7 @@ function NavbarEmailForm() {
           whiteSpace: 'nowrap',
         }}
       >
-        {status === 'loading' ? '...' : "I'M IN \u2192"}
+        {status === 'loading' ? '...' : "I'M IN →"}
       </button>
     </div>
   )
@@ -109,7 +111,7 @@ export default function Navbar({ onSqueak }) {
       padding: '0 1.5rem',
       display: 'flex',
       alignItems: 'center',
-      height: '64px',
+      height: '80px',
       position: 'sticky',
       top: 0,
       zIndex: 100,
@@ -149,7 +151,7 @@ export default function Navbar({ onSqueak }) {
             letterSpacing: '0.04em',
             whiteSpace: 'nowrap',
           }}>BE EARLY. THIS THING IS JUST GETTING STARTED.</span>
-          <NavbarEmailForm />
+          <NavbarEmailForm onSqueak={playSqueak} />
         </div>
 
         <button
