@@ -5,12 +5,12 @@
 import Link from 'next/link'
 import { useEffect, useRef, useState, useCallback } from 'react'
 
-function NavbarEmailForm({ onSqueak }) {
+function NavbarEmailForm({ onSqueak, muted }) {
   const [value, setValue] = useState('')
   const [status, setStatus] = useState('idle')
 
   const handleSubmit = useCallback(async () => {
-    if (onSqueak) onSqueak()
+    if (!muted && onSqueak) onSqueak()
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
     if (!emailRegex.test(value)) { setStatus('error'); return }
     setStatus('loading')
@@ -50,7 +50,7 @@ function NavbarEmailForm({ onSqueak }) {
         value={value}
         onChange={e => { setValue(e.target.value); setStatus('idle') }}
         onKeyDown={e => { if (e.key === 'Enter') handleSubmit() }}
-        onClick={() => { if (onSqueak) onSqueak() }}
+        onClick={() => { if (!muted && onSqueak) onSqueak() }}
         disabled={status === 'loading'}
         style={{
           fontFamily: 'var(--font-body)',
@@ -102,7 +102,19 @@ export default function Navbar({ onSqueak }) {
     if (onSqueak) onSqueak()
   }, [muted, onSqueak])
 
-  const handleMute = () => { setMuted(m => !m) }
+  const handleMute = () => {
+    setMuted(m => {
+      if (m) {
+        // unmuting — play squeak
+        if (squeakRef.current) {
+          squeakRef.current.currentTime = 0
+          squeakRef.current.play().catch(() => {})
+        }
+      }
+      return !m
+    })
+    if (onSqueak) onSqueak()
+  }
 
   return (
     <header style={{
@@ -135,23 +147,28 @@ export default function Navbar({ onSqueak }) {
 
       <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
 
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-          <span style={{
-            fontFamily: 'var(--font-cond)',
-            fontWeight: 700,
-            fontSize: '0.7rem',
-            letterSpacing: '0.15em',
-            color: 'var(--yellow)',
-            whiteSpace: 'nowrap',
-          }}>🐓 JOIN THE FOUNDING FLOCK</span>
-          <span style={{
-            fontFamily: 'var(--font-body)',
-            fontSize: '0.6rem',
-            color: 'rgba(255,255,255,0.4)',
-            letterSpacing: '0.04em',
-            whiteSpace: 'nowrap',
-          }}>BE EARLY. THIS THING IS JUST GETTING STARTED.</span>
-          <NavbarEmailForm onSqueak={playSqueak} />
+        {/* HORIZONTAL SIGNUP — chicken + text + input + button all in one row */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+          <img src="/assets/chicken.png" alt="" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <span style={{
+              fontFamily: 'var(--font-cond)',
+              fontWeight: 700,
+              fontSize: '0.65rem',
+              letterSpacing: '0.15em',
+              color: 'var(--yellow)',
+              whiteSpace: 'nowrap',
+              lineHeight: 1.2,
+            }}>JOIN THE FOUNDING FLOCK</span>
+            <span style={{
+              fontFamily: 'var(--font-body)',
+              fontSize: '0.55rem',
+              color: 'rgba(255,255,255,0.4)',
+              whiteSpace: 'nowrap',
+              lineHeight: 1.2,
+            }}>BE EARLY. THIS THING IS JUST GETTING STARTED.</span>
+          </div>
+          <NavbarEmailForm onSqueak={playSqueak} muted={muted} />
         </div>
 
         <button
