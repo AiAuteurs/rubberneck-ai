@@ -76,6 +76,17 @@ export default function IssuePage({ issue, maxId }) {
 
       <Navbar />
 
+      {/* HERO LOGO — same as homepage */}
+      <section style={{ background: 'var(--yellow)', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '2.5rem 1.5rem' }}>
+        <a href='/' style={{ display: 'block' }}>
+          <img
+            src='/assets/logo.png'
+            alt='Rubberneck.ai — Websites that grab you by the eyeballs. You won\'t look away.'
+            style={{ width: 'clamp(220px, 55vw, 700px)', height: 'auto' }}
+          />
+        </a>
+      </section>
+
       {/* ISSUE HEADER */}
       <div style={{ background: '#0d0d0d', borderBottom: '1px solid #1a1a1a' }}>
         <div style={{ maxWidth: '780px', margin: '0 auto', padding: '3rem 1.5rem 2rem' }}>
