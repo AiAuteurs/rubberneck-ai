@@ -1,19 +1,21 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
-import { getIssueById, getAllPastIssues } from '../../data/issues'
+import { getIssueById, getIssueBySlug, getAllPastIssues } from '../../data/issues'
 import Navbar from '../../Components/Navbar'
 
 export async function getStaticPaths() {
   const past = getAllPastIssues()
-  return {
-    paths: past.map((issue) => ({ params: { id: String(issue.id) } })),
-    fallback: 'blocking',
-  }
+  const paths = []
+  past.forEach((issue) => {
+    paths.push({ params: { id: String(issue.id) } })
+    if (issue.slug) paths.push({ params: { id: issue.slug } })
+  })
+  return { paths, fallback: 'blocking' }
 }
 
 export async function getStaticProps({ params }) {
-  const issue = getIssueById(params.id)
+  const issue = isNaN(params.id) ? getIssueBySlug(params.id) : getIssueById(params.id)
   if (!issue) return { notFound: true }
 
   const allIssues = getAllPastIssues()
