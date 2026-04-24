@@ -32,22 +32,23 @@ function SignupStrip({ onSqueak, muted }) {
       <style>{`.nb-input::placeholder { color: rgba(255,255,255,0.75); }`}</style>
       <div style={{
         background: 'var(--red)',
-        padding: '0 2rem',
+        padding: '0 2rem 0 150px',
         display: 'flex',
         alignItems: 'center',
-        height: '100px',
-        overflow: 'visible',
+        height: '90px',
+        position: 'relative',
         gap: '1.25rem',
-        overflow: 'visible',
       }}>
         <img src='/assets/chicken.png' alt='' style={{
-          width: '120px',
-          height: '130px',
+          position: 'absolute',
+          left: '0.75rem',
+          bottom: 0,
+          width: '140px',
+          height: '155px',
           objectFit: 'contain',
           objectPosition: 'bottom',
           filter: 'drop-shadow(0 4px 14px rgba(0,0,0,0.5))',
-          flexShrink: 0,
-          marginBottom: '-18px',
+          zIndex: 10,
         }} />
 
         <div style={{ flexShrink: 0 }}>
@@ -69,6 +70,8 @@ function SignupStrip({ onSqueak, muted }) {
             textTransform: 'uppercase',
           }}>BE EARLY. THIS THING IS JUST GETTING STARTED.</div>
         </div>
+
+        <div style={{ flex: 1 }} />
 
         <div style={{ width: '1px', height: '40px', background: 'rgba(255,255,255,0.25)', flexShrink: 0 }} />
 
@@ -99,7 +102,7 @@ function SignupStrip({ onSqueak, muted }) {
                 border: 'none',
                 color: '#fff',
                 outline: 'none',
-                width: '270px',
+                width: '320px',
               }}
             />
             <button
