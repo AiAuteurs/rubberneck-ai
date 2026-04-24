@@ -35,96 +35,90 @@ function SignupStrip({ onSqueak, muted }) {
         padding: '0 2rem',
         display: 'flex',
         alignItems: 'center',
-        height: '72px',
-        gap: '0',
+        height: '90px',
+        gap: '1.25rem',
+        overflow: 'visible',
       }}>
-        {/* CHICKEN — bleeds into strip */}
-        <img src='/assets/chicken.png' alt=''
-          style={{
-            width: '80px',
-            height: '80px',
-            objectFit: 'contain',
-            marginRight: '1rem',
-            filter: 'drop-shadow(0 4px 12px rgba(0,0,0,0.5))',
-            position: 'relative',
-            top: '-4px',
-          }} />
+        <img src='/assets/chicken.png' alt='' style={{
+          width: '100px',
+          height: '110px',
+          objectFit: 'contain',
+          objectPosition: 'bottom',
+          filter: 'drop-shadow(0 4px 14px rgba(0,0,0,0.5))',
+          flexShrink: 0,
+          marginBottom: '-18px',
+        }} />
 
-        {/* TEXT + FORM as one block */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', flex: 1 }}>
-          <div style={{ flexShrink: 0 }}>
-            <div style={{
-              fontFamily: 'var(--font-cond)',
-              fontWeight: 700,
-              fontSize: '1.05rem',
-              letterSpacing: '0.18em',
-              color: '#fff',
-              lineHeight: 1,
-              textTransform: 'uppercase',
-            }}>JOIN THE FOUNDING FLOCK</div>
-            <div style={{
-              fontFamily: 'var(--font-body)',
-              fontSize: '0.6rem',
-              color: 'rgba(255,255,255,0.8)',
-              letterSpacing: '0.08em',
-              marginTop: '0.2rem',
-              textTransform: 'uppercase',
-            }}>BE EARLY. THIS THING IS JUST GETTING STARTED.</div>
-          </div>
-
-          {/* DIVIDER */}
-          <div style={{ width: '1px', height: '36px', background: 'rgba(255,255,255,0.25)', flexShrink: 0 }} />
-
-          {/* FORM */}
-          {status === 'success' ? (
-            <div style={{
-              fontFamily: 'var(--font-cond)',
-              fontWeight: 700,
-              fontSize: '0.85rem',
-              color: '#fff',
-              letterSpacing: '0.1em',
-            }}>YOU&apos;RE IN! SEE YOU TOMORROW. 🐔</div>
-          ) : (
-            <div style={{ display: 'flex' }}>
-              <input
-                className='nb-input'
-                type='email'
-                placeholder={status === 'error' ? 'Need a real email!' : 'Drop your email, you nosey bird.'}
-                value={value}
-                onChange={e => { setValue(e.target.value); setStatus('idle') }}
-                onKeyDown={e => { if (e.key === 'Enter') handleSubmit() }}
-                onClick={() => { if (!muted && onSqueak) onSqueak() }}
-                disabled={status === 'loading'}
-                style={{
-                  fontFamily: 'var(--font-body)',
-                  fontSize: '0.8rem',
-                  padding: '0.6rem 1rem',
-                  background: '#0d0d18',
-                  border: 'none',
-                  color: '#fff',
-                  outline: 'none',
-                  width: '260px',
-                }}
-              />
-              <button
-                onClick={handleSubmit}
-                disabled={status === 'loading'}
-                style={{
-                  fontFamily: 'var(--font-cond)',
-                  fontWeight: 800,
-                  fontSize: '0.82rem',
-                  letterSpacing: '0.14em',
-                  padding: '0.6rem 1.4rem',
-                  background: 'var(--yellow)',
-                  color: 'var(--black)',
-                  border: 'none',
-                  cursor: 'pointer',
-                  whiteSpace: 'nowrap',
-                }}
-              >{status === 'loading' ? '...' : "I'M IN \u2192"}</button>
-            </div>
-          )}
+        <div style={{ flexShrink: 0 }}>
+          <div style={{
+            fontFamily: 'var(--font-cond)',
+            fontWeight: 700,
+            fontSize: '1.15rem',
+            letterSpacing: '0.18em',
+            color: '#fff',
+            lineHeight: 1,
+            textTransform: 'uppercase',
+          }}>JOIN THE FOUNDING FLOCK</div>
+          <div style={{
+            fontFamily: 'var(--font-body)',
+            fontSize: '0.62rem',
+            color: 'rgba(255,255,255,0.8)',
+            letterSpacing: '0.08em',
+            marginTop: '0.25rem',
+            textTransform: 'uppercase',
+          }}>BE EARLY. THIS THING IS JUST GETTING STARTED.</div>
         </div>
+
+        <div style={{ width: '1px', height: '40px', background: 'rgba(255,255,255,0.25)', flexShrink: 0 }} />
+
+        {status === 'success' ? (
+          <div style={{
+            fontFamily: 'var(--font-cond)',
+            fontWeight: 700,
+            fontSize: '0.9rem',
+            color: '#fff',
+            letterSpacing: '0.1em',
+          }}>YOU&apos;RE IN! SEE YOU TOMORROW. 🐔</div>
+        ) : (
+          <div style={{ display: 'flex' }}>
+            <input
+              className='nb-input'
+              type='email'
+              placeholder={status === 'error' ? 'Need a real email!' : 'Drop your email, you nosey bird.'}
+              value={value}
+              onChange={e => { setValue(e.target.value); setStatus('idle') }}
+              onKeyDown={e => { if (e.key === 'Enter') handleSubmit() }}
+              onClick={() => { if (!muted && onSqueak) onSqueak() }}
+              disabled={status === 'loading'}
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: '0.82rem',
+                padding: '0.65rem 1rem',
+                background: '#0d0d18',
+                border: 'none',
+                color: '#fff',
+                outline: 'none',
+                width: '270px',
+              }}
+            />
+            <button
+              onClick={handleSubmit}
+              disabled={status === 'loading'}
+              style={{
+                fontFamily: 'var(--font-cond)',
+                fontWeight: 800,
+                fontSize: '0.82rem',
+                letterSpacing: '0.14em',
+                padding: '0.65rem 1.5rem',
+                background: 'var(--yellow)',
+                color: 'var(--black)',
+                border: 'none',
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+              }}
+            >{status === 'loading' ? '...' : "I'M IN \u2192"}</button>
+          </div>
+        )}
       </div>
     </>
   )
