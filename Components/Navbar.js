@@ -37,7 +37,7 @@ function NavbarEmailForm({ onSqueak }) {
         fontSize: '0.75rem', letterSpacing: '0.08em',
         color: '#2a7a2a', whiteSpace: 'nowrap', marginTop: '0.25rem',
       }}>
-        🐔 YOU&apos;RE IN!
+        🐓 YOU&apos;RE IN!
       </div>
     )
   }
@@ -143,7 +143,7 @@ export default function Navbar({ onSqueak }) {
             letterSpacing: '0.15em',
             color: 'var(--yellow)',
             whiteSpace: 'nowrap',
-          }}>🐔 JOIN THE FOUNDING FLOCK</span>
+          }}>🐓 JOIN THE FOUNDING FLOCK</span>
           <span style={{
             fontFamily: 'var(--font-body)',
             fontSize: '0.6rem',
