@@ -81,7 +81,7 @@ export default function IssuePage({ issue, maxId }) {
         <a href='/' style={{ display: 'block' }}>
           <img
             src='/assets/logo.png'
-            alt='Rubberneck.ai — Websites that grab you by the eyeballs. You won\'t look away.'
+            alt="Rubberneck.ai — Websites that grab you by the eyeballs. You won't look away."
             style={{ width: 'clamp(220px, 55vw, 700px)', height: 'auto' }}
           />
         </a>
