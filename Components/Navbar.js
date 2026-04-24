@@ -28,81 +28,88 @@ function SignupStrip({ onSqueak, muted }) {
   }, [value, onSqueak, muted])
 
   return (
-    <div style={{
-      background: 'var(--red)',
-      padding: '1rem 2rem',
-      display: 'flex',
-      alignItems: 'center',
-      gap: '1.5rem',
-    }}>
-      <img src='/assets/chicken.png' alt=''
-        style={{ width: '52px', height: '52px', objectFit: 'contain' }} />
-      <div style={{ flex: 1 }}>
-        <div style={{
-          fontFamily: 'var(--font-cond)',
-          fontWeight: 700,
-          fontSize: '1rem',
-          letterSpacing: '0.18em',
-          color: '#fff',
-          lineHeight: 1.1,
-        }}>JOIN THE FOUNDING FLOCK</div>
-        <div style={{
-          fontFamily: 'var(--font-body)',
-          fontSize: '0.65rem',
-          color: '#fff',
-          letterSpacing: '0.08em',
-          marginTop: '0.15rem',
-        }}>BE EARLY. THIS THING IS JUST GETTING STARTED.</div>
-      </div>
-      {status === 'success' ? (
-        <div style={{
-          fontFamily: 'var(--font-cond)',
-          fontWeight: 700,
-          fontSize: '0.85rem',
-          color: '#fff',
-          letterSpacing: '0.1em',
-          flexShrink: 0,
-        }}>YOU&apos;RE IN! SEE YOU TOMORROW. 🐔</div>
-      ) : (
-        <div style={{ display: 'flex', flexShrink: 0 }}>
-          <input
-            type='email'
-            placeholder={status === 'error' ? 'Need a real email!' : 'Drop your email, you nosey bird.'}
-            value={value}
-            onChange={e => { setValue(e.target.value); setStatus('idle') }}
-            onKeyDown={e => { if (e.key === 'Enter') handleSubmit() }}
-            onClick={() => { if (!muted && onSqueak) onSqueak() }}
-            disabled={status === 'loading'}
-            style={{
-              fontFamily: 'var(--font-body)',
-              fontSize: '0.8rem',
-              padding: '0.55rem 0.9rem',
-              background: 'rgba(255,255,255,0.15)',
-              border: status === 'error' ? '1px solid #fff' : '1px solid rgba(255,255,255,0.5)',
-              color: '#fff',
-              outline: 'none',
-              width: '240px',
-            }}
-          />
-          <button
-            onClick={handleSubmit}
-            disabled={status === 'loading'}
-            style={{
-              fontFamily: 'var(--font-cond)',
-              fontWeight: 700,
-              fontSize: '0.78rem',
-              letterSpacing: '0.12em',
-              padding: '0.55rem 1.2rem',
-              background: 'var(--yellow)',
-              color: 'var(--black)',
-              border: 'none',
-              cursor: 'pointer',
-              whiteSpace: 'nowrap',
-            }}
-          >{status === 'loading' ? '...' : "I'M IN →"}</button>
+    <>
+      <style>{`.nb-input::placeholder { color: rgba(255,255,255,0.7); }`}</style>
+      <div style={{
+        background: 'var(--red)',
+        padding: '0.9rem 2rem',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '1.5rem',
+      }}>
+        <img src='/assets/chicken.png' alt=''
+          style={{ width: '64px', height: '64px', objectFit: 'contain', filter: 'drop-shadow(0 3px 10px rgba(0,0,0,0.5))' }} />
+        <div style={{ flex: 1 }}>
+          <div style={{
+            fontFamily: 'var(--font-cond)',
+            fontWeight: 700,
+            fontSize: '1.15rem',
+            letterSpacing: '0.2em',
+            color: '#fff',
+            lineHeight: 1.1,
+            textTransform: 'uppercase',
+          }}>JOIN THE FOUNDING FLOCK</div>
+          <div style={{
+            fontFamily: 'var(--font-body)',
+            fontSize: '0.65rem',
+            color: 'rgba(255,255,255,0.85)',
+            letterSpacing: '0.08em',
+            marginTop: '0.2rem',
+            textTransform: 'uppercase',
+          }}>BE EARLY. THIS THING IS JUST GETTING STARTED.</div>
         </div>
-      )}
-    </div>
+        {status === 'success' ? (
+          <div style={{
+            fontFamily: 'var(--font-cond)',
+            fontWeight: 700,
+            fontSize: '0.85rem',
+            color: '#fff',
+            letterSpacing: '0.1em',
+            flexShrink: 0,
+          }}>YOU&apos;RE IN! SEE YOU TOMORROW.</div>
+        ) : (
+          <div style={{ display: 'flex', flexShrink: 0 }}>
+            <input
+              className='nb-input'
+              type='email'
+              placeholder={status === 'error' ? 'Need a real email!' : 'Drop your email, you nosey bird.'}
+              value={value}
+              onChange={e => { setValue(e.target.value); setStatus('idle') }}
+              onKeyDown={e => { if (e.key === 'Enter') handleSubmit() }}
+              onClick={() => { if (!muted && onSqueak) onSqueak() }}
+              disabled={status === 'loading'}
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: '0.8rem',
+                padding: '0.6rem 1rem',
+                background: '#0d0d18',
+                border: 'none',
+                color: '#fff',
+                outline: 'none',
+                width: '250px',
+              }}
+            />
+            <button
+              onClick={handleSubmit}
+              disabled={status === 'loading'}
+              style={{
+                fontFamily: 'var(--font-cond)',
+                fontWeight: 800,
+                fontSize: '0.78rem',
+                letterSpacing: '0.14em',
+                padding: '0.6rem 1.4rem',
+                background: 'var(--yellow)',
+                color: 'var(--black)',
+                border: 'none',
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+                textTransform: 'uppercase',
+              }}
+            >{status === 'loading' ? '...' : "I'M IN \u2192"}</button>
+          </div>
+        )}
+      </div>
+    </>
   )
 }
 
@@ -174,7 +181,7 @@ export default function Navbar({ onSqueak }) {
             borderRadius: '2px',
             cursor: 'pointer',
             whiteSpace: 'nowrap',
-          }}>{muted ? '🔇 UNMUTE' : '🔊 MUTE'}</button>
+          }}>{muted ? '\ud83d\udd07 UNMUTE' : '\ud83d\udd0a MUTE'}</button>
 
           <Link href='/archive' style={{
             fontFamily: 'var(--font-cond)',
