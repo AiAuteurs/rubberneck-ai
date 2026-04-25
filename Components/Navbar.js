@@ -29,16 +29,23 @@ function SignupStrip({ onSqueak, muted }) {
 
   return (
     <>
-      <style>{`.nb-input::placeholder { color: rgba(255,255,255,0.75); }`}</style>
-      <div style={{
-        background: 'var(--red)',
-        padding: '0 2rem 0 150px',
-        display: 'flex',
-        alignItems: 'center',
-        height: '90px',
-        position: 'relative',
-        gap: '1.25rem',
-      }}>
+      <style>{`
+        .nb-input::placeholder { color: rgba(255,255,255,0.75); }
+        .signup-strip { display: flex; align-items: center; background: var(--red); padding: 0 2rem 0 150px; height: 90px; position: relative; overflow: visible; z-index: 99; gap: 1.25rem; }
+        .signup-form { display: flex; flex-shrink: 0; }
+        .signup-spacer { flex: 1; }
+        .signup-divider { width: 1px; height: 40px; background: rgba(255,255,255,0.25); flex-shrink: 0; }
+        @media (max-width: 768px) {
+          .signup-strip { flex-direction: column; height: auto; padding: 1rem 1rem 1rem 1rem; align-items: flex-start; gap: 0.5rem; }
+          .signup-spacer { display: none; }
+          .signup-divider { display: none; }
+          .signup-strip img { position: static !important; width: 48px !important; height: 48px !important; margin-bottom: 0 !important; }
+          .signup-strip > div:first-of-type { padding-left: 0; }
+          .signup-form { width: 100%; }
+          .nb-input { width: 100% !important; flex: 1; }
+        }
+      `}</style>
+      <div className='signup-strip'>
         <img src='/assets/chicken.png' alt='' style={{
           position: 'absolute',
           left: '0.75rem',
@@ -48,7 +55,7 @@ function SignupStrip({ onSqueak, muted }) {
           objectFit: 'contain',
           objectPosition: 'bottom',
           filter: 'drop-shadow(0 4px 14px rgba(0,0,0,0.5))',
-          zIndex: 10,
+          zIndex: 110,
         }} />
 
         <div style={{ flexShrink: 0 }}>
@@ -71,9 +78,8 @@ function SignupStrip({ onSqueak, muted }) {
           }}>BE EARLY. THIS THING IS JUST GETTING STARTED.</div>
         </div>
 
-        <div style={{ flex: 1 }} />
-
-        <div style={{ width: '1px', height: '40px', background: 'rgba(255,255,255,0.25)', flexShrink: 0 }} />
+        <div className='signup-spacer' />
+        <div className='signup-divider' />
 
         {status === 'success' ? (
           <div style={{
@@ -84,7 +90,7 @@ function SignupStrip({ onSqueak, muted }) {
             letterSpacing: '0.1em',
           }}>YOU&apos;RE IN! SEE YOU TOMORROW. 🐔</div>
         ) : (
-          <div style={{ display: 'flex' }}>
+          <div className='signup-form'>
             <input
               className='nb-input'
               type='email'
