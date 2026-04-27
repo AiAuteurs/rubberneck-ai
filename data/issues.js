@@ -201,30 +201,32 @@ Start with The Password Game. You won't finish it. That's fine. Nothing matters.
   "2026-04-27": {
     id: 7,
     date: "2026-04-27",
-    slug: "spencers-gifts",
-    headline: "THE STORE YOUR MOM DIDN'T WANT YOU IN. IT'S ALL ONLINE NOW.",
-    subheadline: "Fake vomit. Blacklight posters. Things that vibrate. Spencer's never changed and that's exactly the point.",
+    slug: "myinstants",
+    headline: "A GIANT WALL OF BUTTONS. EVERY BUTTON PLAYS A SOUND EFFECT. GO.",
+    subheadline: "Sad trombone. Airhorn. Evil laugh. Price is Right losing music. Dramatic chipmunk. Thousands of them. One click. Instant chaos.",
     site: {
-      name: "Spencer's",
-      url: "https://www.spencersonline.com",
+      name: "MyInstants",
+      url: "https://www.myinstants.com",
       screenshot: null,
-      category: "Shopping",
-      vibe: "The mall store that raised a generation of weirdos",
+      category: "Audio / Fun",
+      vibe: "The internet's greatest soundboard",
     },
-    body: `You know the smell. Incense, novelty rubber, and the faint whiff of rebellion. The black lights. The airbrushed wolves. The wall of things that made you giggle nervously at age 14.
+    body: `You open the site. There's a wall of buttons.
 
-Spencer's has been selling the stuff your parents disapproved of since 1947. Gag gifts. Party supplies. Pop culture merch. Stuff that has absolutely no business existing — and yet here we are, still buying it decades later.
+Every single button plays a sound effect. Instantly. No loading. No signup. No ads. Just you and a browser and the power to destroy any conversation in under a second.
 
-**They've got over 15,000 products online now.** Whoopee cushions. Fake parking tickets. Things shaped like other things. Drinking games your college self would have wept over. Halloween costumes that haven't been approved by anyone's HR department.
+Sad trombone. Airhorn. Crickets. Evil laugh. Applause. The Price is Right losing sound. Dramatic chipmunk. Windows XP startup. The Inception horn. Thousands of them. Organized by category, searchable, and completely free.
 
-Here's the thing nobody talks about: Spencer's is genuinely good at what it does. Nobody goes there looking for dignity and nobody leaves disappointed. It's the rare store that has always known exactly what it is.
+**People use this in meetings.** People use this on phone calls. People use this to respond to group chats instead of typing words like an animal.
 
-Your weird uncle shops here. Your coworker who brings gag gifts to the office party shops here. The person who still owns a lava lamp — definitely shops here.
+Someone submitted the exact sound your ex made when they said "I think we should talk." It's in there somewhere.
 
-Go find something ridiculous. You know you want to.`,
+You can submit your own sounds too. The collection is enormous and growing. Somebody built this in 2012 and it's still running because the internet never stops needing a well-timed airhorn.
+
+Go find the sad trombone. You'll be there for an hour.`,
     affiliate_links: [],
-    tags: ["shopping", "gifts", "novelty", "fun"],
-    editors_note: "First affiliate issue. Replace url with Ascend affiliate link before going live.",
+    tags: ["audio", "fun", "free", "interactive", "weird"],
+    editors_note: "Monday energy. Chaotic, shareable, zero barrier to entry.",
   },
 
   "2026-04-28": {
