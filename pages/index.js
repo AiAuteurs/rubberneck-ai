@@ -271,8 +271,8 @@ export default function Home({ initialIssue, initialIsLatest }) {
           aria-hidden="true"
         />
         <div className="bottom-cta__copy">
-          <h2 className="bottom-cta__headline">DON&apos;T MISS<br />TOMORROW&apos;S SITE.</h2>
-          <p className="bottom-cta__sub">Free. One email. Unsubscribe whenever. No hard feelings.</p>
+          <h2 className="bottom-cta__headline">GET TOMORROW&apos;S<br />JAW-DROPPER.</h2>
+          <p className="bottom-cta__sub">One site. Every day. Free. In your inbox. No garbage. Unsubscribe whenever.</p>
           <EmailForm
             inputClass="bottom-cta__email" btnClass="bottom-cta__btn"
             placeholder="your@email.com" onAnyClick={handleAnyClick}

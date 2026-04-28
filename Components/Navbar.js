@@ -67,7 +67,7 @@ function SignupStrip({ onSqueak, muted }) {
             color: '#fff',
             lineHeight: 1,
             textTransform: 'uppercase',
-          }}>JOIN THE FOUNDING FLOCK</div>
+          }}>GET TOMORROW'S PICK IN YOUR INBOX.</div>
           <div style={{
             fontFamily: 'var(--font-body)',
             fontSize: '0.62rem',
@@ -75,7 +75,7 @@ function SignupStrip({ onSqueak, muted }) {
             letterSpacing: '0.08em',
             marginTop: '0.25rem',
             textTransform: 'uppercase',
-          }}>BE EARLY. THIS THING IS JUST GETTING STARTED.</div>
+          }}>FREE. ONE EMAIL. NO GARBAGE. UNSUBSCRIBE ANYTIME.</div>
         </div>
 
         <div className='signup-spacer' />
