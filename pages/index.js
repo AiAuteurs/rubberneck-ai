@@ -218,7 +218,8 @@ export default function Home({ initialIssue, initialIsLatest }) {
       {/* ── TODAY'S PICK ── */}
       <section className="pick" style={{ background: 'var(--navy)' }}>
         <div className="pick__inner">
-          <div className="pick__left reveal">
+          {/* HEADLINE — spans full width above both columns on mobile */}
+          <div className="pick__header">
             <h2 className="pick__headline" style={{ color: 'var(--white)' }}>
               {issue ? issue.headline : '\u00A0'}
             </h2>
@@ -226,6 +227,9 @@ export default function Home({ initialIssue, initialIsLatest }) {
               onClick={handleAnyClick}>
               {issue?.site?.url?.replace(/^https?:\/\//, '') ?? ''}
             </a>
+          </div>
+
+          <div className="pick__left reveal">
             <div className="pick__browser">
               <div className="pick__browser-bar">
                 <span className="pick__browser-dot pick__browser-dot--red" />
