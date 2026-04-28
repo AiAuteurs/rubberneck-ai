@@ -753,6 +753,8 @@ a    { color: inherit; text-decoration: none; }
   .intro__left    { border-right: none; border-bottom: 3px solid var(--black); padding-right: 0; padding-bottom: 2rem; }
   .intro__right   { padding-left: 0; padding-top: 2rem; }
   .pick__inner    { grid-template-columns: 1fr; }
+  .pick__left     { order: 2; }
+  .pick__right    { order: 1; }
   .how__steps     { grid-template-columns: 1fr; }
   .archive__grid  { grid-template-columns: repeat(2, 1fr); }
   .navbar__date   { display: none; }

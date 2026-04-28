@@ -260,6 +260,63 @@ export default function IssuePage({ issue, maxId }) {
         </div>
       </main>
 
+      {/* ── COME BACK CTA ── */}
+      <section style={{
+        background: 'var(--navy)',
+        borderTop: '3px solid var(--yellow)',
+        padding: '3rem 2rem',
+        textAlign: 'center',
+      }}>
+        <p style={{
+          fontFamily: 'var(--font-cond)',
+          fontSize: '0.8rem',
+          letterSpacing: '0.18em',
+          color: 'var(--yellow)',
+          marginBottom: '0.75rem',
+          textTransform: 'uppercase',
+        }}>🐔 YOU THINK THIS IS THE ONLY ONE?</p>
+        <h2 style={{
+          fontFamily: 'var(--font-headline)',
+          fontSize: 'clamp(1.8rem, 4vw, 3rem)',
+          color: '#fff',
+          lineHeight: 1,
+          marginBottom: '1rem',
+        }}>THERE ARE HIDDEN GEMS<br />YOU HAVEN'T SEEN YET.</h2>
+        <p style={{
+          fontFamily: 'var(--font-body)',
+          fontSize: '1rem',
+          color: 'rgba(255,255,255,0.6)',
+          marginBottom: '2rem',
+          maxWidth: '500px',
+          margin: '0 auto 2rem',
+        }}>A new jaw-dropper every day. Go dig through the archive — there's something in there that will wreck you.</p>
+        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+          <Link href="/archive" style={{
+            fontFamily: 'var(--font-cond)',
+            fontWeight: 700,
+            fontSize: '0.9rem',
+            letterSpacing: '0.14em',
+            padding: '0.85rem 2rem',
+            background: 'var(--yellow)',
+            color: 'var(--black)',
+            textDecoration: 'none',
+            whiteSpace: 'nowrap',
+          }}>BROWSE THE ARCHIVE →</Link>
+          <Link href="/" style={{
+            fontFamily: 'var(--font-cond)',
+            fontWeight: 700,
+            fontSize: '0.9rem',
+            letterSpacing: '0.14em',
+            padding: '0.85rem 2rem',
+            background: 'transparent',
+            color: 'var(--yellow)',
+            textDecoration: 'none',
+            border: '1px solid rgba(245,197,24,0.4)',
+            whiteSpace: 'nowrap',
+          }}>TODAY'S PICK →</Link>
+        </div>
+      </section>
+
       <footer className="footer">
         <span>© {new Date().getFullYear()} Rubberneck.ai</span>
         <Link href="/archive">Archive</Link>
