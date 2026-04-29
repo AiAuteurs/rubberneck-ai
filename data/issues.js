@@ -294,41 +294,6 @@ Go find your reaction clip. You'll be there for an hour.`,
     tags: ["video", "memes", "reactions", "free", "fun"],
     editors_note: "Wednesday energy. Highly shareable, instantly useful.",
   },
-    id: 9,
-    date: "2026-04-29",
-    slug: "this-person-does-not-exist",
-    headline: "This Face Is Not Real. Refresh The Page. Neither Is That One.",
-    subheadline: "Every face on thispersondoesnotexist.com is AI-generated. Every single one. None of these people exist. All of them are eerily, disturbingly perfect.",
-    site: {
-      name: "This Person Does Not Exist",
-      url: "https://thispersondoesnotexist.com",
-      screenshot: null,
-      category: "AI / Mind-bending",
-      vibe: "The moment you realize the matrix is real",
-    },
-    body: `Refresh the page.
-
-A face appears. Hyper-realistic. Perfectly lit. A real-looking human being staring back at you.
-
-This person does not exist.
-
-Refresh again. Another face. Also not real. Also never born. Also completely convincing.
-
-Phillip Wang, an Uber engineer, built this in 2019 using NVIDIA's StyleGAN — a neural network trained on millions of real human faces. Every time you load the page, the AI generates a brand new human face that has never existed before and will never exist again.
-
-Look closely. The ears sometimes blur. Backgrounds occasionally glitch. A stray tooth, an asymmetric eyebrow, a collar that dissolves into noise. The tells are subtle. The result is still deeply unsettling.
-
-These faces are used everywhere now — fake social media profiles, stock photo replacements, AI avatars. You've probably seen one and thought it was real.
-
-You can't stop refreshing it. Every face is a person who never was. Every refresh is someone new who doesn't exist.
-
-It's the most quietly disturbing website on the internet and most people have still never seen it.
-
-Go look at some people who don't exist.`,
-    affiliate_links: [],
-    tags: ["AI", "mind-bending", "technology", "free", "weird"],
-    editors_note: "Always blows people's minds.",
-  },
 
   "2026-04-30": {
     id: 10,
