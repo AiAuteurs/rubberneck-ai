@@ -255,6 +255,32 @@ export default function Home({ initialIssue, initialIsLatest }) {
           <div className="pick__right reveal">
             {issue ? renderBody(issue.body) : null}
             <hr className="pick__rule" />
+
+            {/* ARCHIVE NUDGE */}
+            <a href="/archive" style={{
+              display: 'flex', alignItems: 'center', gap: '0.75rem',
+              background: 'rgba(245,197,24,0.08)', border: '1px solid rgba(245,197,24,0.2)',
+              borderRadius: '4px', padding: '0.75rem 1rem',
+              textDecoration: 'none', marginBottom: '1.5rem',
+              transition: 'background 0.2s',
+            }}
+            onMouseEnter={e => e.currentTarget.style.background = 'rgba(245,197,24,0.15)'}
+            onMouseLeave={e => e.currentTarget.style.background = 'rgba(245,197,24,0.08)'}
+            onClick={handleAnyClick}
+            >
+              <span style={{ fontSize: '1.6rem', lineHeight: 1 }}>🐔</span>
+              <div>
+                <div style={{
+                  fontFamily: 'var(--font-cond)', fontSize: '0.75rem',
+                  letterSpacing: '0.15em', color: 'var(--yellow)', marginBottom: '0.2rem',
+                }}>PSST — BEFORE YOU GO</div>
+                <div style={{
+                  fontFamily: 'var(--font-body)', fontSize: '0.9rem',
+                  color: 'rgba(245,240,232,0.7)', lineHeight: 1.3,
+                }}>Other people have already seen these. Just saying. <span style={{ color: 'var(--yellow)', textDecoration: 'underline' }}>Go check out the archive →</span></div>
+              </div>
+            </a>
+
             <p className="pick__ready" style={{ color: 'var(--red)' }}>READY? HERE IT IS.</p>
             <a className="pick__cta" href={issue?.site?.url ?? '#'} target="_blank" rel="noopener noreferrer" onClick={handleAnyClick}>
               GO THERE →
