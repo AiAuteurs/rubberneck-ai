@@ -255,7 +255,19 @@ export default function Home({ initialIssue, initialIsLatest }) {
           <div className="pick__right reveal">
             {issue ? renderBody(issue.body) : null}
             <hr className="pick__rule" />
-            <p className="pick__ready" style={{ color: 'var(--red)' }}>READY? HERE IT IS.</p>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.75rem', marginBottom: '0.5rem' }}>
+              <p className="pick__ready" style={{ color: 'var(--red)', margin: 0 }}>READY? HERE IT IS.</p>
+              <a href="/archive" onClick={handleAnyClick} style={{
+                display: 'flex', alignItems: 'center', gap: '0.5rem',
+                textDecoration: 'none', opacity: 0.85,
+              }}>
+                <img src="/assets/favicon.png" alt="" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
+                <span style={{
+                  fontFamily: 'var(--font-body)', fontSize: '0.82rem', fontStyle: 'italic',
+                  color: 'rgba(245,240,232,0.55)',
+                }}>oh, one more thing before you go — word on the street is you missed past Rubbernecks and you&apos;re falling behind. <span style={{ color: 'var(--yellow)', textDecoration: 'underline', fontStyle: 'normal' }}>The archive.</span></span>
+              </a>
+            </div>
             <a className="pick__cta" href={issue?.site?.url ?? '#'} target="_blank" rel="noopener noreferrer" onClick={handleAnyClick}>
               GO THERE →
             </a>
@@ -263,30 +275,6 @@ export default function Home({ initialIssue, initialIsLatest }) {
               <em>If you click and buy something, we may earn a small cut. If it&apos;s boring, we don&apos;t feature it.</em>
             </p>
 
-            {/* ARCHIVE NUDGE — after GO THERE */}
-            <a href="/archive" style={{
-              display: 'flex', alignItems: 'center', gap: '0.85rem',
-              background: 'rgba(245,197,24,0.06)', border: '1px solid rgba(245,197,24,0.18)',
-              borderRadius: '4px', padding: '0.85rem 1rem',
-              textDecoration: 'none', marginTop: '1.5rem',
-              transition: 'background 0.2s',
-            }}
-            onMouseEnter={e => e.currentTarget.style.background = 'rgba(245,197,24,0.13)'}
-            onMouseLeave={e => e.currentTarget.style.background = 'rgba(245,197,24,0.06)'}
-            onClick={handleAnyClick}
-            >
-              <img src="/assets/favicon.png" alt="" style={{ width: '36px', height: '36px', objectFit: 'contain', flexShrink: 0 }} />
-              <div>
-                <div style={{
-                  fontFamily: 'var(--font-cond)', fontSize: '0.72rem',
-                  letterSpacing: '0.15em', color: 'var(--yellow)', marginBottom: '0.2rem',
-                }}>DON&apos;T FALL BEHIND</div>
-                <div style={{
-                  fontFamily: 'var(--font-body)', fontSize: '0.88rem',
-                  color: 'rgba(245,240,232,0.65)', lineHeight: 1.35,
-                }}>Other nosy people are lapping you. <span style={{ color: 'var(--yellow)', textDecoration: 'underline' }}>Check the archive →</span></div>
-              </div>
-            </a>
           </div>
         </div>
       </section>
