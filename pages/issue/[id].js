@@ -151,17 +151,25 @@ export default function IssuePage({ issue, maxId }) {
                   {issue.site.vibe}
                 </div>
               </div>
-              <a
-                href={issue.site.url} target="_blank" rel="noopener noreferrer"
-                onClick={squeak}
-                style={{
-                  background: 'var(--yellow)', color: '#080808', fontFamily: 'var(--font-cond)',
-                  fontWeight: 700, fontSize: '1rem', letterSpacing: '0.1em',
-                  padding: '0.6rem 1.5rem', borderRadius: '3px', textDecoration: 'none', whiteSpace: 'nowrap',
-                }}
-              >
-                {squeaked ? '🐔 GOING THERE →' : 'GO THERE →'}
-              </a>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.5rem' }}>
+                <a
+                  href={issue.site.url} target="_blank" rel="noopener noreferrer"
+                  onClick={squeak}
+                  style={{
+                    background: 'var(--yellow)', color: '#080808', fontFamily: 'var(--font-cond)',
+                    fontWeight: 700, fontSize: '1rem', letterSpacing: '0.1em',
+                    padding: '0.6rem 1.5rem', borderRadius: '3px', textDecoration: 'none', whiteSpace: 'nowrap',
+                  }}
+                >
+                  {squeaked ? '🐔 GOING THERE →' : 'GO THERE →'}
+                </a>
+                <a href="/archive" style={{
+                  fontFamily: 'var(--font-body)', fontSize: '0.78rem',
+                  color: '#555', textDecoration: 'none', letterSpacing: '0.03em',
+                }}>
+                  Missed some? <span style={{ color: 'var(--yellow)', textDecoration: 'underline' }}>Browse the archive →</span>
+                </a>
+              </div>
             </div>
           </div>
 
