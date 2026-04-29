@@ -265,6 +265,37 @@ This is the internet at its most human. No algorithm. No engagement bait. Just p
   "2026-04-29": {
     id: 9,
     date: "2026-04-29",
+    slug: "vlipsy",
+    headline: "EVERY VIDEO MEME EVER MADE. SEARCHABLE. DOWNLOADABLE. FREE.",
+    subheadline: "Side eye cat. Bruh. Curb Your Enthusiasm theme. Dramatic chipmunk. They're all here. Search any emotion, any moment, any reaction. Vlipsy has it.",
+    site: {
+      name: "Vlipsy",
+      url: "https://vlipsy.com",
+      screenshot: null,
+      category: "Video / Memes",
+      vibe: "The internet's greatest reaction clip library",
+    },
+    body: `You need to express something in a group chat. Words are not enough. A gif is not enough. You need the exact four seconds of video that says what no human language can.
+
+Vlipsy has it.
+
+Side eye cat. Bruh. The Curb Your Enthusiasm theme playing over your life choices. Shocked Pikachu. DJ Khaled saying "Another One." The dramatic chipmunk. Laughing hysterically. Complete shock. Crushing realization.
+
+**Every video meme. Every reaction clip. Every iconic moment.** Searchable by keyword, emotion, show, or vibe. Downloadable. Free. No watermark.
+
+Someone in your life just made a terrible decision. You could type "wow." You could also send them four seconds of The Office's "No God Please No."
+
+One of those is funnier. You know which one.
+
+The Curb Your Enthusiasm theme alone is worth the visit. It makes everything sadder and somehow more dignified at the same time.
+
+Go find your reaction clip. You'll be there for an hour.`,
+    affiliate_links: [],
+    tags: ["video", "memes", "reactions", "free", "fun"],
+    editors_note: "Wednesday energy. Highly shareable, instantly useful.",
+  },
+    id: 9,
+    date: "2026-04-29",
     slug: "this-person-does-not-exist",
     headline: "This Face Is Not Real. Refresh The Page. Neither Is That One.",
     subheadline: "Every face on thispersondoesnotexist.com is AI-generated. Every single one. None of these people exist. All of them are eerily, disturbingly perfect.",
@@ -332,6 +363,167 @@ Hit surprise me five times. You will find something that makes you feel somethin
     editors_note: "Full circle StumbleUpon moment. Perfect week closer.",
   },
 
+  "2026-05-01": {
+    id: 11,
+    date: "2026-05-01",
+    slug: "pond5",
+    headline: "THE WORLD'S LARGEST STOCK VIDEO LIBRARY. AND IT'S ACTUALLY GOOD.",
+    subheadline: "Over 40 million clips. Every genre, every mood, every shot you've been looking for. HD footage, music, sound effects — all in one place.",
+    site: {
+      name: "Pond5",
+      url: "https://www.pond5.com?ref=rubberneckai557",
+      screenshot: null,
+      category: "Video / Creative",
+      vibe: "The creative professional's secret weapon",
+    },
+    body: `You're making something. A video. A reel. A short film. A presentation that actually needs to not look like garbage.
+
+You need footage. Good footage. The kind that doesn't look like it was shot in 2009 by someone's cousin.
+
+Pond5 has 40 million clips. Forty million. Every genre, every mood, every location on earth. Aerial shots of cities at night. Slow motion waves. Timelapses of storms. People laughing in kitchens. Empty highways at dawn. Whatever you're making, it's in there.
+
+**They also have music, sound effects, motion graphics, and After Effects templates.** Everything a video creator needs in one place, without bouncing between six different sites.
+
+The search is genuinely excellent. Type what you're imagining and it shows you exactly that. Filter by resolution, frame rate, duration. Preview everything before you buy.
+
+Pond5 is owned by Shutterstock now but it still has the soul of an independent creator marketplace. Real videographers uploading real footage they actually went out and shot.
+
+If you make anything with video, this will change how you work.`,
+    affiliate_links: ["https://www.pond5.com?ref=rubberneckai557"],
+    tags: ["video", "stock", "creative", "filmmaking", "design"],
+    editors_note: "Affiliate link active. ref=rubberneckai557. 20% commission.",
+  },
+
+  "2026-05-02": {
+    id: 12,
+    date: "2026-05-02",
+    slug: "ifixit",
+    headline: "THEY BUILT A FREE REPAIR MANUAL FOR EVERYTHING YOU OWN.",
+    subheadline: "Your iPhone. Your laptop. Your dishwasher. Your camera. iFixit has step-by-step teardown guides for over 100,000 devices. Written by the people who actually fixed them.",
+    site: {
+      name: "iFixit",
+      url: "https://www.ifixit.com",
+      screenshot: null,
+      category: "DIY / Tech",
+      vibe: "Repair is noble",
+    },
+    body: `Your screen cracked. Your battery won't hold a charge. Your laptop sounds like a tiny helicopter.
+
+The manufacturer says: buy a new one.
+
+iFixit says: here are 47 photos and step-by-step instructions to fix it yourself in 45 minutes.
+
+iFixit has free repair guides for over 100,000 devices. Every iPhone ever made. Every MacBook. Gaming consoles. Cameras. Headphones. Kitchen appliances. If it can break, they've probably figured out how to fix it.
+
+**The guides are written by the people who actually took it apart.** Real photos. Real screwdriver sizes. Real warnings about the ribbon cable you'll definitely destroy if you're not careful.
+
+They also sell the tools and the parts. Genuine replacement batteries. New screens. Specialty screwdrivers for those stupid proprietary screws manufacturers use to keep you out.
+
+The whole thing is built on one radical idea: you own your stuff and you should be able to fix it. No planned obsolescence. No forced upgrades. No $300 repair bills for a $15 part.
+
+Their slogan is "Repair is noble." They mean it.
+
+Go look up whatever is currently broken in your life. There is a 90% chance it's in here.`,
+    affiliate_links: [],
+    tags: ["repair", "DIY", "tech", "free", "tools"],
+    editors_note: "Editorial. No affiliate yet — apply via Skimlinks when traffic grows.",
+  },
+
+  "2026-05-03": {
+    id: 13,
+    date: "2026-05-03",
+    slug: "sporcle",
+    headline: "NAME ALL 197 COUNTRIES IN 12 MINUTES. GO.",
+    subheadline: "Sporcle is the internet's greatest quiz site. User-generated trivia on everything. History, geography, pop culture, sports, music. You will lose hours. You will learn things. You will be worse at your job.",
+    site: {
+      name: "Sporcle",
+      url: "https://www.sporcle.com",
+      screenshot: null,
+      category: "Trivia / Games",
+      vibe: "The world's most dangerous procrastination tool",
+    },
+    body: `It starts innocently.
+
+You just want to see if you can name all 50 US states. You can. Mostly. You blanked on Delaware. You always blank on Delaware.
+
+Then you try the capitals. Then every country in Africa. Then every Oscar Best Picture winner since 1927. Then every #1 hit from 1985. Then every Premier League champion. Then it's 2am and you've learned more about the periodic table than you did in three years of high school chemistry.
+
+**Sporcle has over 700,000 quizzes.** Almost all of them made by regular people who thought "there should be a quiz for this." There is a quiz for everything. Every possible niche, obsession, and obscure corner of human knowledge.
+
+No ads that block the quiz. No sign-up wall. Just a text box, a timer, and the slow realization that you know considerably less than you thought you did.
+
+The competitive mode where you race other players is genuinely dangerous. You've been warned.
+
+Start with your favorite subject. Immediately humble yourself. Come back tomorrow.`,
+    affiliate_links: [],
+    tags: ["trivia", "games", "free", "fun", "learning"],
+    editors_note: "Saturday fun pick. Highly shareable. Tag a friend energy.",
+  },
+
+  "2026-05-04": {
+    id: 14,
+    date: "2026-05-04",
+    slug: "epidemic-sound",
+    headline: "THE MUSIC LIBRARY THAT EVERY CREATOR YOU LOVE IS SECRETLY USING.",
+    subheadline: "35 million tracks. Every genre. Fully licensed for YouTube, Instagram, TikTok, podcasts, film. No copyright strikes. No takedowns. No drama. Just music that actually fits.",
+    site: {
+      name: "Epidemic Sound",
+      url: "https://www.epidemicsound.com",
+      screenshot: null,
+      category: "Music / Creative",
+      vibe: "The professional creator's secret weapon",
+    },
+    body: `You made something great.
+
+The video is tight. The edit is clean. The pacing is perfect. You upload it to YouTube and six hours later you get an email: copyright claim. Your video is muted. Or monetized by someone else. Or blocked in 47 countries.
+
+This is why Epidemic Sound exists.
+
+**35 million tracks.** Every genre imaginable. Cinematic scores, lo-fi beats, driving indie rock, ambient soundscapes, hip-hop, jazz, electronic, folk. All of it fully licensed. Upload it anywhere — YouTube, Instagram, TikTok, podcasts, films, ads — and you will never get a strike.
+
+The search is genuinely extraordinary. Filter by mood, energy, tempo, instruments. Find the exact feeling you're looking for. Preview full tracks before you commit. Download and use immediately.
+
+The biggest YouTubers, the best documentary makers, the most viral Instagram creators — a huge proportion of them are quietly using Epidemic Sound. You've heard their music a thousand times and didn't know it.
+
+Try it free for 30 days. You will not go back to hunting royalty-free music on sketchy websites.`,
+    affiliate_links: [],
+    tags: ["music", "creative", "video", "podcasts", "licensing"],
+    editors_note: "Apply to Epidemic Sound affiliate via CJ Affiliate. Free trial converts well.",
+  },
+
+  "2026-05-05": {
+    id: 15,
+    date: "2026-05-05",
+    slug: "tequila-matchmaker",
+    headline: "A WEBSITE THAT KNOWS MORE ABOUT TEQUILA THAN YOUR ENTIRE FAMILY COMBINED.",
+    subheadline: "Tequila Matchmaker has rated and catalogued thousands of tequilas, matches you to your perfect bottle based on your taste profile, and will ruin cheap margaritas for you forever. Happy Cinco de Mayo.",
+    site: {
+      name: "Tequila Matchmaker",
+      url: "https://www.tequilamatchmaker.com",
+      screenshot: null,
+      category: "Food & Drink / Discovery",
+      vibe: "For people who take their tequila seriously",
+    },
+    body: `Today is Cinco de Mayo. You are going to drink tequila.
+
+The question is: are you going to drink the right tequila?
+
+Tequila Matchmaker is the world's largest consumer tequila database. Thousands of bottles, rated and catalogued by an army of obsessives who have dedicated embarrassing amounts of time to understanding exactly what makes one tequila different from another.
+
+**Rate five tequilas you've tried. The site figures out your flavor fingerprint.** Earthy? Fruity? Floral? Smoky? It then matches you to the bottles you'll love, from the ones you haven't tried yet.
+
+They also have a verified additive-free list — because yes, a huge number of tequilas contain additives to fake flavors and sweetness, and nobody talks about this. Tequila Matchmaker does.
+
+Every bottle has production details: the distillery, the agave source, the cooking method, the still type. This is not a casual website. These people are serious.
+
+You will learn more about tequila in 20 minutes on this site than you have in your entire life. Your next margarita will be better for it.
+
+Salud. 🌮`,
+    affiliate_links: [],
+    tags: ["tequila", "drinks", "food", "cinco de mayo", "discovery"],
+    editors_note: "Cinco de Mayo pick. Fun, festive, genuinely useful. No affiliate.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
@@ -385,3 +577,4 @@ export function getIssueBySlug(slug) {
 export function getIssueById(id) {
   return Object.values(issues).find((i) => i.id === Number(id)) || null;
 }
+
