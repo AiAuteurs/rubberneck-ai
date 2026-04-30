@@ -298,34 +298,36 @@ Go find your reaction clip. You'll be there for an hour.`,
   "2026-04-30": {
     id: 10,
     date: "2026-04-30",
-    slug: "wiby-search",
-    headline: "A Search Engine That Only Shows You The Old Internet.",
-    subheadline: "Wiby.me indexes only small, human-made websites — the kind that existed before SEO ate everything. Hit 'surprise me' and fall through a time portal.",
+    slug: "citywalki",
+    headline: "WALK THE STREETS OF 300 CITIES WITHOUT LEAVING YOUR CHAIR.",
+    subheadline: "Citywalki streams real walking tour videos from hundreds of cities around the world. Tokyo. Paris. Lagos. Havana. Kyoto. Pick a city, pick a mode — walking, driving, or flying — and just go.",
     site: {
-      name: "Wiby",
-      url: "https://wiby.me",
+      name: "Citywalki",
+      url: "https://www.citywalki.com",
       screenshot: null,
-      category: "Internet / Nostalgia",
-      vibe: "StumbleUpon's weird, wonderful cousin",
+      category: "Travel / Exploration",
+      vibe: "The world's greatest armchair travel experience",
     },
-    body: `The modern web is optimized to death.
+    body: `Pick a city. Any city.
 
-Every search result is an SEO-engineered content farm, a corporate blog post written by committee, or an AI-generated article designed to rank rather than say anything.
+Tokyo. Paris. Lagos. Havana. Kyoto. Istanbul. Buenos Aires. Reykjavik. There are over 300 of them.
 
-Wiby exists to find everything else.
+Now pick a mode. Walking. Driving. Flying.
 
-It's a search engine that deliberately indexes only small, human-made websites — the ones built by hobbyists, enthusiasts, and curious people who wanted to share something and had no interest in monetizing it. Personal sites. Niche blogs. Weird passion projects. The kind of pages that existed in the 90s and 2000s before Google's algorithm rewarded size over substance.
+Press play. You're there.
 
-There's a "surprise me" button. Click it.
+Citywalki streams real footage from streets around the world — actual humans who walked, drove, or flew over these cities and filmed it. No narration. No tourist commentary. No sponsored moments. Just the city, moving past you in real time, with ambient sound.
 
-You'll land on a page about someone's collection of vintage typewriters. Or a hand-coded site about the history of accordion music in Louisiana. Or a personal journal that hasn't been updated since 2007 but is still live, still there, still someone's real thoughts from a Tuesday afternoon seventeen years ago.
+**It's the closest thing to teleportation that currently exists.**
 
-This is the internet that got buried. Wiby digs it up.
+Stuck at your desk? Walk the streets of Kyoto. Can't sleep? Take a night drive through Tokyo. Need to escape for ten minutes? Fly over Santorini and feel considerably better about everything.
 
-Hit surprise me five times. You will find something that makes you feel something.`,
+Special thanks to our friend Craig for this one. Craig has excellent taste.
+
+Go pick a city you've never been to. You'll be somewhere else entirely in about thirty seconds.`,
     affiliate_links: [],
-    tags: ["internet", "nostalgia", "search", "free", "discovery"],
-    editors_note: "Full circle StumbleUpon moment. Perfect week closer.",
+    tags: ["travel", "exploration", "video", "free", "relaxing"],
+    editors_note: "Craig's pick. Brilliant. Window Swap energy but for streets.",
   },
 
   "2026-05-01": {
