@@ -430,32 +430,32 @@ Start with your favorite subject. Immediately humble yourself. Come back tomorro
   "2026-05-04": {
     id: 14,
     date: "2026-05-04",
-    slug: "epidemic-sound",
-    headline: "THE MUSIC LIBRARY THAT EVERY CREATOR YOU LOVE IS SECRETLY USING.",
-    subheadline: "35 million tracks. Every genre. Fully licensed for YouTube, Instagram, TikTok, podcasts, film. No copyright strikes. No takedowns. No drama. Just music that actually fits.",
+    slug: "vibesail",
+    headline: "SAIL THE OPEN OCEAN WITHOUT LEAVING YOUR CHAIR.",
+    subheadline: "VibeSail is a gorgeous 3D sailing simulator that runs in your browser. Real physics. Real wind. Real ocean. No download. No account. Just you and the sea.",
     site: {
-      name: "Epidemic Sound",
-      url: "https://www.epidemicsound.com",
+      name: "VibeSail",
+      url: "https://vibesail.com",
       screenshot: null,
-      category: "Music / Creative",
-      vibe: "The professional creator's secret weapon",
+      category: "Interactive / Simulation",
+      vibe: "The most peaceful thing you can do with a browser",
     },
-    body: `You made something great.
+    body: `You don't know how to sail. Doesn't matter.
 
-The video is tight. The edit is clean. The pacing is perfect. You upload it to YouTube and six hours later you get an email: copyright claim. Your video is muted. Or monetized by someone else. Or blocked in 47 countries.
+VibeSail puts you at the helm of a sailboat on a beautiful 3D ocean and lets you figure it out. The wind is real. The physics are real. The water catches the light. The boat heels when you tack. It feels like something that should cost money and require a download.
 
-This is why Epidemic Sound exists.
+It runs in your browser. Free. Right now.
 
-**35 million tracks.** Every genre imaginable. Cinematic scores, lo-fi beats, driving indie rock, ambient soundscapes, hip-hop, jazz, electronic, folk. All of it fully licensed. Upload it anywhere — YouTube, Instagram, TikTok, podcasts, films, ads — and you will never get a strike.
+There's something deeply satisfying about learning to read the wind indicators, trim your sails, and actually make progress across the water. It's the kind of thing you open for five minutes and look up forty minutes later.
 
-The search is genuinely extraordinary. Filter by mood, energy, tempo, instruments. Find the exact feeling you're looking for. Preview full tracks before you commit. Download and use immediately.
+No missions. No objectives. No leaderboard. Just you, the wind, and the open ocean.
 
-The biggest YouTubers, the best documentary makers, the most viral Instagram creators — a huge proportion of them are quietly using Epidemic Sound. You've heard their music a thousand times and didn't know it.
+The internet keeps building things nobody asked for that turn out to be exactly what you needed. VibeSail is one of those things.
 
-Try it free for 30 days. You will not go back to hunting royalty-free music on sketchy websites.`,
+Go sail somewhere. Anywhere. The wind is up.`,
     affiliate_links: [],
-    tags: ["music", "creative", "video", "podcasts", "licensing"],
-    editors_note: "Apply to Epidemic Sound affiliate via CJ Affiliate. Free trial converts well.",
+    tags: ["sailing", "simulation", "interactive", "free", "relaxing"],
+    editors_note: "Pure editorial. Stunning browser experience.",
   },
 
   "2026-05-05": {
