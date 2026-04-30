@@ -304,7 +304,7 @@ Go find your reaction clip. You'll be there for an hour.`,
     site: {
       name: "Citywalki",
       url: "https://www.citywalki.com",
-      screenshot: null,
+      screenshot: "/assets/issues/citywalki.png",
       category: "Travel / Exploration",
       vibe: "The world's greatest armchair travel experience",
     },
