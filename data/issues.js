@@ -339,7 +339,7 @@ Go pick a city you've never been to. You'll be somewhere else entirely in about 
     site: {
       name: "Pond5",
       url: "https://www.pond5.com?ref=rubberneckai557",
-      screenshot: null,
+      screenshot: "/assets/issues/pond5.png",
       category: "Video / Creative",
       vibe: "The creative professional's secret weapon",
     },
