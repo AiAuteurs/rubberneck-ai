@@ -333,6 +333,37 @@ Go pick a city you've never been to. You'll be somewhere else entirely in about 
   "2026-05-01": {
     id: 11,
     date: "2026-05-01",
+    slug: "ownersman",
+    headline: "YOUR CAR'S MANUAL IS ON THE INTERNET. FREE. RIGHT NOW.",
+    subheadline: "OwnersMan has free owner's manuals for every car ever made. Ford, Toyota, BMW, Tesla — every make, every model, every year. No dealership. No fee. Just the manual.",
+    site: {
+      name: "OwnersMan",
+      url: "https://ownersman.com",
+      screenshot: null,
+      category: "Automotive / Utility",
+      vibe: "The glove compartment you never have to dig through again",
+    },
+    body: `You bought a car. They gave you a manual the size of a phone book. You put it in the glove compartment. You have not opened it since.
+
+Now something is beeping. Or a light came on. Or you can't figure out how to turn off the seat warmer that somehow turned itself on at 2am.
+
+OwnersMan has the full owner's manual for your car, free, online, right now. Every make. Every model. Every year going back decades. Ford, Toyota, BMW, Mercedes, Tesla, Jeep, Chevy, Honda — all of them.
+
+**You can read it online or download it as a PDF.** No account. No fee. No calling the dealership and being put on hold for 45 minutes.
+
+They also include common problems and complaints for each model, so you can find out if that weird noise your car makes is a known issue or just your car being dramatic.
+
+The manual your car came with is probably in a glove box you haven't opened in three years. This one is here whenever you need it.
+
+Go look up your car. You'll find the answer to whatever has been annoying you for the last six months.`,
+    affiliate_links: [],
+    tags: ["automotive", "utility", "free", "cars", "tools"],
+    editors_note: "Pure editorial. Simple, useful, universally relatable.",
+  },
+
+  "2026-05-08": {
+    id: 18,
+    date: "2026-05-08",
     slug: "pond5",
     headline: "THE WORLD'S LARGEST STOCK VIDEO LIBRARY. AND IT'S ACTUALLY GOOD.",
     subheadline: "Over 40 million clips. Every genre, every mood, every shot you've been looking for. HD footage, music, sound effects — all in one place.",
