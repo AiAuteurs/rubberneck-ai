@@ -232,9 +232,7 @@ export default function Home({ initialIssue, initialIsLatest }) {
                 <span className="pick__browser-dot pick__browser-dot--red" />
                 <span className="pick__browser-dot pick__browser-dot--yellow" />
                 <span className="pick__browser-dot pick__browser-dot--green" />
-                <span className="pick__browser-address">
-                  {issue?.site?.url?.replace(/^https?:\/\//, '') ?? ''}
-                </span>
+
               </div>
               <a href={issue?.site?.url ?? '#'} target="_blank" rel="noopener noreferrer"
                 onClick={handleAnyClick} className="pick__screenshot-link">
