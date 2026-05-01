@@ -576,3 +576,7 @@ export function getIssueById(id) {
   return Object.values(issues).find((i) => i.id === Number(id)) || null;
 }
 
+
+export function getAllIssues() {
+  return Object.values(issues)
+}
