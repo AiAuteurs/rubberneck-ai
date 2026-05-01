@@ -436,7 +436,7 @@ Go look up whatever is currently broken in your life. There is a 90% chance it's
     site: {
       name: "Sporcle",
       url: "https://www.sporcle.com",
-      screenshot: null,
+      screenshot: "/assets/issues/sporcle.png",
       category: "Trivia / Games",
       vibe: "The world's most dangerous procrastination tool",
     },
