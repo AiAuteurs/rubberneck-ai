@@ -401,7 +401,7 @@ If you make anything with video, this will change how you work.`,
     site: {
       name: "iFixit",
       url: "https://www.ifixit.com",
-      screenshot: null,
+      screenshot: "/assets/issues/ifixit.png",
       category: "DIY / Tech",
       vibe: "Repair is noble",
     },
