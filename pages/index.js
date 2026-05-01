@@ -223,10 +223,7 @@ export default function Home({ initialIssue, initialIsLatest }) {
             <h2 className="pick__headline" style={{ color: 'var(--white)' }}>
               {issue ? issue.headline : '\u00A0'}
             </h2>
-            <a className="pick__url" href={issue?.site?.url ?? '#'} target="_blank" rel="noopener noreferrer"
-              onClick={handleAnyClick}>
-              {issue?.site?.url?.replace(/^https?:\/\//, '') ?? ''}
-            </a>
+
           </div>
 
           <div className="pick__left reveal">
