@@ -356,7 +356,7 @@ The search is genuinely excellent. Type what you're imagining and it shows you e
 Pond5 is owned by Shutterstock now but it still has the soul of an independent creator marketplace. Real videographers uploading real footage they actually went out and shot.
 
 If you make anything with video, this will change how you work.`,
-    affiliate_links: ["https://www.pond5.com?ref=rubberneckai557"],
+    affiliate_links: [],
     tags: ["video", "stock", "creative", "filmmaking", "design"],
     editors_note: "Affiliate link active. ref=rubberneckai557. 20% commission.",
   },
