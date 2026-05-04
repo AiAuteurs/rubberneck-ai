@@ -361,6 +361,74 @@ Go look up your car. You'll find the answer to whatever has been annoying you fo
     editors_note: "Pure editorial. Simple, useful, universally relatable.",
   },
 
+
+  "2026-05-06": {
+    id: 16,
+    date: "2026-05-06",
+    slug: "livesunset",
+    headline: "SOMEONE BUILT A WEBSITE THAT SHOWS YOU THE BEST SUNSET ON EARTH RIGHT NOW.",
+    subheadline: "LiveSunset finds live cameras around the world that are pointed at an actual sunset happening this second, ranks them with AI, and streams the best one to you. It's free. It's live. It's beautiful.",
+    site: {
+      name: "LiveSunset",
+      url: "https://www.livesunset.io",
+      screenshot: null,
+      category: "Nature / Live",
+      vibe: "The most beautiful thing happening on Earth right now",
+    },
+    body: `Somewhere on Earth, right now, the sun is setting.
+
+Not a photo. Not a time-lapse. Not a screensaver. A live camera, pointed west, streaming the actual sky as it happens.
+
+LiveSunset finds those cameras. It calculates where sunset is happening around the world at this exact moment, pulls live feeds from cameras in those locations, runs each one through AI to rank how good the sunset actually is, and streams the best one to you.
+
+You open the site and you're watching a real sunset. Canmore, Alberta. Tijuana. Mount Diablo. Jackson Hole. Santa Monica. Dozens of cameras across North America and beyond, all ranked in real time.
+
+**The AI scores each sunset from 1 to 5.** No feed. No sunset. OK. Nice. WOW. When the current sunset fades or the sky goes grey, it automatically switches to a better one.
+
+A guy built this during COVID because he couldn't go outside to watch the sunset. His friends helped. Now it streams beautiful skies to strangers 24 hours a day.
+
+There's ambient music if you want it. A vote button so you can tell the AI how the sky looks from your perspective. A presentation mode that automatically finds the best sunset every five minutes.
+
+It costs nothing. It asks for nothing. It just shows you the sky.
+
+Go watch a sunset. Wherever you are. Whatever time it is.`,
+    affiliate_links: [],
+    tags: ["nature", "live", "beautiful", "free", "calming"],
+    editors_note: "Built during COVID lockdown. Pure editorial. Extremely shareable.",
+  },
+
+  "2026-05-07": {
+    id: 17,
+    date: "2026-05-07",
+    slug: "stocksanalyzer",
+    headline: "TYPE IN ANY STOCK TICKER. AI TELLS YOU IF IT'S WORTH YOUR MONEY.",
+    subheadline: "StocksAnalyzer runs any stock through AI and gives you a plain-English verdict in 30 seconds. Health score, momentum, risk, buy/sell signal. Free. No account. No credit card.",
+    site: {
+      name: "StocksAnalyzer",
+      url: "https://www.stocksanalyzer.app",
+      screenshot: null,
+      category: "Finance / AI",
+      vibe: "The stock analyst you can't afford, now free",
+    },
+    body: `You own a stock. Or you're thinking about buying one. Or someone at a party mentioned a ticker and now you can't stop thinking about it.
+
+You could read the 10-K. You could watch three hours of YouTube. You could pay for a Bloomberg terminal like a person with a problem.
+
+Or you could go to StocksAnalyzer, type in the ticker, and have AI explain the whole thing to you in 30 seconds.
+
+**It gives you a health score, RSI, momentum reading, volatility risk, and a buy/sell/hold signal with a confidence percentage.** Not vibes. Not hype. Actual signals pulled from real data and run through an AI that has read more earnings reports than any human alive.
+
+Type in NVDA and it tells you: AI chip dominance, 122% growth, high valuation. BUY at 78% confidence. It also runs Monte Carlo price projections — thousands of simulated futures — so you can see where the stock might go, not just where it's been.
+
+It covers 180+ tickers. It takes 30 seconds. It costs nothing. No account. No credit card. No newsletter you'll unsubscribe from in three days.
+
+This is not financial advice. This is a very smart machine telling you what it sees in the numbers. What you do with that is your problem.
+
+Go look up whatever ticker has been living rent-free in your head.`,
+    affiliate_links: [],
+    tags: ["finance", "stocks", "AI", "free", "investing"],
+    editors_note: "Pure editorial. No affiliate. Extremely shareable — everyone has a stock they're wondering about.",
+  },
   "2026-05-08": {
     id: 18,
     date: "2026-05-08",
@@ -467,7 +535,7 @@ Start with your favorite subject. Immediately humble yourself. Come back tomorro
     site: {
       name: "VibeSail",
       url: "https://vibesail.com",
-      screenshot: null,
+      screenshot: "/assets/issues/vibesail.png",
       category: "Interactive / Simulation",
       vibe: "The most peaceful thing you can do with a browser",
     },
@@ -576,7 +644,3 @@ export function getIssueById(id) {
   return Object.values(issues).find((i) => i.id === Number(id)) || null;
 }
 
-
-export function getAllIssues() {
-  return Object.values(issues)
-}
