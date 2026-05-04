@@ -121,8 +121,16 @@ function renderBody(bodyText) {
   })
 }
 
-export async function getServerSideProps() {
+export async function getServerSideProps({ res }) {
   const { issue, isLatest } = getTodaysIssue()
+  if (issue?.slug) {
+    return {
+      redirect: {
+        destination: `/${issue.slug}`,
+        permanent: false,
+      },
+    }
+  }
   return {
     props: { initialIssue: issue, initialIsLatest: isLatest },
   }
