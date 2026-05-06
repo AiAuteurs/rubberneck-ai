@@ -371,7 +371,7 @@ Go look up your car. You'll find the answer to whatever has been annoying you fo
     site: {
       name: "LiveSunset",
       url: "https://www.livesunset.io",
-      screenshot: null,
+      screenshot: "/assets/issues/livesunset.png",
       category: "Nature / Live",
       vibe: "The most beautiful thing happening on Earth right now",
     },
