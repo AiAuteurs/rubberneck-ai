@@ -54,6 +54,16 @@ export default function SlugIssuePage({ issue, maxId }) {
     audioRef.current.preload = 'auto'
   }, [])
 
+  useEffect(() => {
+    const els = document.querySelectorAll('.reveal')
+    if (!('IntersectionObserver' in window)) { els.forEach(el => el.classList.add('is-visible')); return }
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target) } })
+    }, { threshold: 0.1 })
+    els.forEach((el, i) => { el.style.transitionDelay = `${(i % 4) * 0.07}s`; obs.observe(el) })
+    return () => obs.disconnect()
+  }, [])
+
   const handleClick = useCallback((e) => {
     if (!muted && audioRef.current) {
       audioRef.current.currentTime = 0
@@ -129,13 +139,12 @@ export default function SlugIssuePage({ issue, maxId }) {
                 <span className="pick__browser-dot pick__browser-dot--yellow" />
                 <span className="pick__browser-dot pick__browser-dot--green" />
               </div>
-              {issue.site.screenshot && (
-                <img
-                  className="pick__screenshot"
-                  src={issue.site.screenshot}
-                  alt={`Screenshot of ${issue.site.name}`}
-                />
-              )}
+              <img
+                className="pick__screenshot"
+                src={issue.site.screenshot || `https://api.microlink.io/?url=${encodeURIComponent(issue.site.url)}&screenshot=true&meta=false&embed=screenshot.url`}
+                alt={`Screenshot of ${issue.site.name}`}
+                onError={(e) => { e.target.style.display = 'none' }}
+              />
             </div>
           </div>
 
