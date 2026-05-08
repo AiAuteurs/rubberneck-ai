@@ -607,6 +607,217 @@ function getAdjustedDateStr() {
   return adjustedTime.toISOString().split("T")[0];
 }
 
+
+  "2026-05-09": {
+    id: 19,
+    date: "2026-05-09",
+    slug: "jobsuncle",
+    headline: "AN AI THAT FINDS JOBS YOU ACTUALLY WANT. NOT 10,000 ONES YOU DON'T.",
+    subheadline: "JobsUncle.ai uses AI to match you to real job openings based on what you actually want. No noise. No irrelevant listings. Just jobs that fit.",
+    site: {
+      name: "JobsUncle.ai",
+      url: "https://jobsuncle.ai",
+      screenshot: null,
+      category: "Jobs / AI",
+      vibe: "The job search that doesn't make you want to quit before you start",
+    },
+    body: `Job boards are broken.
+
+You type in what you want. They show you 10,000 things you don't want. Sponsored listings for jobs three states away. Roles that say "entry level" and require eight years of experience. Listings that haven't been updated since 2022.
+
+JobsUncle.ai works differently. Tell it what you're looking for — the role, the industry, the location, remote or not — and it uses AI to find real openings that actually match.
+
+**No spam. No noise. No black hole.** Just a clean list of jobs that fit what you told it you wanted.
+
+It searches across multiple job boards simultaneously, strips out the garbage, and surfaces the ones worth your time.
+
+If you're job hunting right now, or thinking about it, this will save you hours every week.
+
+Go tell it what you want. See what comes back.`,
+    affiliate_links: [],
+    tags: ["jobs", "AI", "career", "free", "search"],
+    editors_note: "Pure editorial. Extremely shareable with anyone job hunting.",
+  },
+
+  "2026-05-10": {
+    id: 20,
+    date: "2026-05-10",
+    slug: "findhelp",
+    headline: "THERE IS FREE HELP IN YOUR CITY. MOST PEOPLE DON'T KNOW IT EXISTS.",
+    subheadline: "Findhelp.org is a nationwide database of free and reduced-cost social services — food, housing, healthcare, childcare, legal aid. Search by zip code. Free. No account needed.",
+    site: {
+      name: "Findhelp.org",
+      url: "https://www.findhelp.org",
+      screenshot: null,
+      category: "Social Services / Utility",
+      vibe: "The safety net most people never knew was there",
+    },
+    body: `Someone you know needs help right now.
+
+Maybe it's you. Maybe it's a family member. Maybe it's a neighbor. Maybe it's someone at work who's too embarrassed to say anything.
+
+Findhelp.org is a database of over 500,000 free and reduced-cost programs across the United States. Food banks. Rental assistance. Free healthcare clinics. Childcare subsidies. Legal aid. Mental health services. Utility bill help. Job training.
+
+**You search by zip code.** It shows you everything available in your area, with contact info, eligibility requirements, and how to apply.
+
+It's built for social workers and case managers, but anyone can use it. No account. No fee. No judgment.
+
+This is one of those sites that most people don't know exists until they desperately need it. Now you know. Send it to someone who might need it today.
+
+Search your zip code. See what's there.`,
+    affiliate_links: [],
+    tags: ["social services", "free", "community", "help", "resources"],
+    editors_note: "Pure public good. Extremely shareable. No affiliate.",
+  },
+
+  "2026-05-11": {
+    id: 21,
+    date: "2026-05-11",
+    slug: "removebg",
+    headline: "REMOVE THE BACKGROUND FROM ANY PHOTO IN 5 SECONDS. FOR FREE.",
+    subheadline: "Remove.bg uses AI to cut out the background from any image instantly. Upload a photo, get a clean cutout. No Photoshop. No skills required. Free.",
+    site: {
+      name: "Remove.bg",
+      url: "https://www.remove.bg",
+      screenshot: null,
+      category: "AI / Design",
+      vibe: "The Photoshop skill you never had to learn",
+    },
+    body: `You have a photo. You need the background gone.
+
+In the old days, you opened Photoshop, spent 20 minutes with the magic wand tool, got frustrated, watched a tutorial, got more frustrated, and ended up with something that looked like it was cut out with safety scissors.
+
+Remove.bg does it in 5 seconds.
+
+Upload any photo. AI finds the subject, cuts it out perfectly — hair, fur, complex edges, all of it — and gives you a clean PNG with a transparent background. Ready to drop onto any design, any color, any surface.
+
+**It works on people, products, animals, cars, anything.** The results are genuinely impressive. Edge detail that would take a professional designer ten minutes, done automatically in seconds.
+
+Free for standard resolution downloads. Paid plans for high-res bulk processing if you need it for professional work.
+
+Go upload a photo. You'll be amazed what it does.`,
+    affiliate_links: [],
+    tags: ["AI", "design", "photos", "free", "tools"],
+    editors_note: "Affiliate program available at remove.bg/affiliate/info — 15% recurring. Sign up before this goes live.",
+  },
+
+  "2026-05-12": {
+    id: 22,
+    date: "2026-05-12",
+    slug: "geopins",
+    headline: "SOMEONE MAPPED EVERY INTERESTING PLACE ON EARTH. YOU'RE WELCOME.",
+    subheadline: "Geopins is a community-built map of hidden gems around the world — secret beaches, abandoned places, viewpoints, local spots that never make the tourist guides.",
+    site: {
+      name: "Geopins.info",
+      url: "https://www.geopins.info",
+      screenshot: null,
+      category: "Travel / Discovery",
+      vibe: "The travel guide written by people who actually go there",
+    },
+    body: `Every travel guide shows you the same 10 things.
+
+The Eiffel Tower. Times Square. The Hollywood sign. Places so overrun with tourists that you can barely see what made them worth visiting in the first place.
+
+Geopins is different. It's a community-built map of places that people actually discovered — and wanted to share. Secret beaches. Hidden waterfalls. Abandoned buildings with incredible architecture. Viewpoints that aren't on any tourist map. Local spots that the guidebooks never found.
+
+**Anyone can add a pin.** You drop a location, add a photo, write a description. The community votes the best ones up.
+
+Search anywhere in the world and see what's actually there. Not what the tourism board wants you to see. What real people found worth sharing.
+
+Going somewhere? Search it before you leave. You'll find things you never would have found otherwise.`,
+    affiliate_links: [],
+    tags: ["travel", "maps", "discovery", "hidden gems", "community"],
+    editors_note: "Pure editorial. Great for travel audiences.",
+  },
+
+  "2026-05-13": {
+    id: 23,
+    date: "2026-05-13",
+    slug: "annualcreditreport",
+    headline: "YOU ARE LEGALLY ENTITLED TO YOUR FREE CREDIT REPORT. MOST PEOPLE NEVER CLAIM IT.",
+    subheadline: "AnnualCreditReport.com is the only federally authorized site to get your free credit reports from all three bureaus — Equifax, Experian, TransUnion. Free. Weekly. No credit card.",
+    site: {
+      name: "AnnualCreditReport.com",
+      url: "https://www.annualcreditreport.com",
+      screenshot: null,
+      category: "Finance / Utility",
+      vibe: "The free financial checkup you keep putting off",
+    },
+    body: `You are legally entitled to a free copy of your credit report every week.
+
+Not once a year. Every week. That changed during COVID and it never changed back.
+
+Most people don't know this. Most people have never checked their credit report. Some people have errors on theirs that are costing them money on loans, credit cards, and insurance rates — errors they don't know exist.
+
+**AnnualCreditReport.com is the only site authorized by federal law to give you the real reports.** Not a score. Not a summary. The actual full credit reports from Equifax, Experian, and TransUnion — all three, every week, free.
+
+No credit card required. No subscription. No tricks. This is the real one, not one of the dozens of imposter sites designed to look like it.
+
+Go check yours. Right now. See what's in there. You might find something that surprises you.`,
+    affiliate_links: [],
+    tags: ["finance", "credit", "free", "personal finance", "utility"],
+    editors_note: "Pure public service. Massively shareable. Government mandated free service.",
+  },
+
+  "2026-05-14": {
+    id: 24,
+    date: "2026-05-14",
+    slug: "rhymeit",
+    headline: "THE RHYME FINDER THAT ACTUALLY FINDS RHYMES WORTH USING.",
+    subheadline: "RhymeIt finds perfect rhymes, near rhymes, and syllable matches for any word. Built for songwriters, poets, rappers, and anyone who has ever been stuck on a lyric at 2am.",
+    site: {
+      name: "RhymeIt.org",
+      url: "https://www.rhymeit.org",
+      screenshot: null,
+      category: "Writing / Creative",
+      vibe: "The tool every songwriter wishes they had found sooner",
+    },
+    body: `You have the perfect line. Except you need something that rhymes with "orange."
+
+RhymeIt doesn't judge you. It just finds the rhymes.
+
+Type in any word and it gives you perfect rhymes, near rhymes, syllable matches, and related words — organized by how many syllables they have, so you can match the rhythm of your line exactly.
+
+**It's built for songwriters, rappers, poets, and lyricists.** But it works for anyone who's ever been stuck trying to make something sound right.
+
+Unlike basic rhyme dictionaries, it finds rhymes that actually work in context — words you'd actually use, not just technical matches that sound forced.
+
+Free. No account. No ads. Just a clean tool that does one thing well.
+
+Go type in a word. See what comes back. You'll find something you didn't expect.`,
+    affiliate_links: [],
+    tags: ["writing", "music", "creative", "free", "tools"],
+    editors_note: "Pure editorial. Great for creative audiences.",
+  },
+
+  "2026-05-15": {
+    id: 25,
+    date: "2026-05-15",
+    slug: "reelgood",
+    headline: "STOP SPENDING 20 MINUTES DECIDING WHAT TO WATCH. THIS FIXES THAT.",
+    subheadline: "ReelGood searches every streaming service at once and tells you exactly where to watch anything. Netflix, Hulu, HBO, Disney+, Prime — all of them, one search.",
+    site: {
+      name: "ReelGood",
+      url: "https://www.reelgood.com",
+      screenshot: null,
+      category: "Entertainment / Utility",
+      vibe: "The remote control for every streaming service you own",
+    },
+    body: `You want to watch something. You open Netflix. Nothing. You open Hulu. Maybe. You open HBO. You forgot you had HBO. You open Prime. You get lost. Forty minutes later you're watching the same show you've already seen.
+
+ReelGood fixes this.
+
+Search for any movie or show and it immediately tells you which streaming services have it, whether it's included in your subscription or costs extra to rent, and what the ratings are across every major review site.
+
+**It also has a discovery mode** — filter by genre, mood, rating, and streaming service, and it shows you what's actually worth watching right now, across everything you already pay for.
+
+One search. Every platform. No more bouncing between apps.
+
+Free to use. Go search something you've been meaning to watch and find out exactly where it is.`,
+    affiliate_links: [],
+    tags: ["streaming", "entertainment", "utility", "free", "movies"],
+    editors_note: "Pure editorial. Universally relatable. Everyone has this problem.",
+  },
 export function getTodaysIssue() {
   const todayStr = getAdjustedDateStr();
   const sortedDates = Object.keys(issues).sort((a, b) => (a > b ? -1 : 1));
