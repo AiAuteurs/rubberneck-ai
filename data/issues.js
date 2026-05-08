@@ -590,24 +590,6 @@ Salud. 🌮`,
     editors_note: "Cinco de Mayo pick. Fun, festive, genuinely useful. No affiliate.",
   },
 
-};
-
-// ─────────────────────────────────────────────────────────────────
-// HELPERS
-// ─────────────────────────────────────────────────────────────────
-
-// Issues go live at 6am EST every morning
-function getAdjustedDateStr() {
-  const now = new Date();
-  const utcMs = now.getTime() + now.getTimezoneOffset() * 60000;
-  const estOffsetMs = -4 * 60 * 60000; // EST = UTC-5
-  const estTime = new Date(utcMs + estOffsetMs);
-  // Subtract 6 hours so 6am EST = start of "today"
-  const adjustedTime = new Date(estTime.getTime() - 6 * 60 * 60000);
-  return adjustedTime.toISOString().split("T")[0];
-}
-
-
   "2026-05-09": {
     id: 19,
     date: "2026-05-09",
@@ -818,6 +800,25 @@ Free to use. Go search something you've been meaning to watch and find out exact
     tags: ["streaming", "entertainment", "utility", "free", "movies"],
     editors_note: "Pure editorial. Universally relatable. Everyone has this problem.",
   },
+
+
+};
+
+// ─────────────────────────────────────────────────────────────────
+// HELPERS
+// ─────────────────────────────────────────────────────────────────
+
+// Issues go live at 6am EST every morning
+function getAdjustedDateStr() {
+  const now = new Date();
+  const utcMs = now.getTime() + now.getTimezoneOffset() * 60000;
+  const estOffsetMs = -4 * 60 * 60000; // EST = UTC-5
+  const estTime = new Date(utcMs + estOffsetMs);
+  // Subtract 6 hours so 6am EST = start of "today"
+  const adjustedTime = new Date(estTime.getTime() - 6 * 60 * 60000);
+  return adjustedTime.toISOString().split("T")[0];
+}
+
 export function getTodaysIssue() {
   const todayStr = getAdjustedDateStr();
   const sortedDates = Object.keys(issues).sort((a, b) => (a > b ? -1 : 1));
