@@ -603,19 +603,21 @@ Salud. 🌮`,
       category: "Jobs / AI",
       vibe: "The job search that doesn't make you want to quit before you start",
     },
-    body: `Job boards are broken.
+    body: `You found the job. Now comes the part that actually kills your chances.
 
-You type in what you want. They show you 10,000 things you don't want. Sponsored listings for jobs three states away. Roles that say "entry level" and require eight years of experience. Listings that haven't been updated since 2022.
+Your resume isn't tailored to this specific role. Your cover letter is generic. You have no idea if you'll make it past the ATS filter. And you definitely don't have a cold outreach DM ready for the hiring manager.
 
-JobsUncle.ai works differently. Tell it what you're looking for — the role, the industry, the location, remote or not — and it uses AI to find real openings that actually match.
+JobsUncle.ai fixes all of that in 60 seconds.
 
-**No spam. No noise. No black hole.** Just a clean list of jobs that fit what you told it you wanted.
+Paste in the job description. It rewrites your resume specifically for that role, optimized to beat the applicant tracking system. It scores your resume so you know exactly where you stand. It writes a cover letter that actually addresses what the job is asking for.
 
-It searches across multiple job boards simultaneously, strips out the garbage, and surfaces the ones worth your time.
+**Then it goes further.** Recruiter notes that help you prep for the screening call. A cold outreach DM you can send directly to the hiring manager on LinkedIn.
 
-If you're job hunting right now, or thinking about it, this will save you hours every week.
+Everything you need to apply properly — not just click submit and hope — done in one shot.
 
-Go tell it what you want. See what comes back.`,
+If you're job hunting right now, this is the unfair advantage everyone else doesn't know about.
+
+Paste in a job description. See what it builds for you.`,
     affiliate_links: [],
     tags: ["jobs", "AI", "career", "resume", "hiring"],
     editors_note: "Pure editorial. Extremely shareable with anyone job hunting.",
