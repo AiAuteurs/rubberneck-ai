@@ -594,8 +594,8 @@ Salud. 🌮`,
     id: 19,
     date: "2026-05-09",
     slug: "jobsuncle",
-    headline: "AN AI THAT FINDS JOBS YOU ACTUALLY WANT. NOT 10,000 ONES YOU DON'T.",
-    subheadline: "JobsUncle.ai uses AI to match you to real job openings based on what you actually want. No noise. No irrelevant listings. Just jobs that fit.",
+    headline: "THIS AI REWRITES YOUR RESUME FOR EVERY JOB IN 60 SECONDS. AND WRITES THE COVER LETTER TOO.",
+    subheadline: "Paste a job description. JobsUncle.ai rewrites your resume to beat the ATS, scores it, writes the cover letter, adds recruiter notes, and drafts your cold outreach DM. All in 60 seconds.",
     site: {
       name: "JobsUncle.ai",
       url: "https://jobsuncle.ai",
@@ -617,7 +617,7 @@ If you're job hunting right now, or thinking about it, this will save you hours 
 
 Go tell it what you want. See what comes back.`,
     affiliate_links: [],
-    tags: ["jobs", "AI", "career", "free", "search"],
+    tags: ["jobs", "AI", "career", "resume", "hiring"],
     editors_note: "Pure editorial. Extremely shareable with anyone job hunting.",
   },
 
