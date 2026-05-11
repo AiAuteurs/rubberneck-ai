@@ -723,7 +723,7 @@ Going somewhere? Search it before you leave. You'll find things you never would 
     site: {
       name: "AnnualCreditReport.com",
       url: "https://www.annualcreditreport.com",
-      screenshot: null,
+      screenshot: "/assets/issues/annualcreditreport.png",
       category: "Finance / Utility",
       vibe: "The free financial checkup you keep putting off",
     },
@@ -752,7 +752,7 @@ Go check yours. Right now. See what's in there. You might find something that su
     site: {
       name: "RhymeIt.org",
       url: "https://www.rhymeit.org",
-      screenshot: null,
+      screenshot: "/assets/issues/rhymeit.png",
       category: "Writing / Creative",
       vibe: "The tool every songwriter wishes they had found sooner",
     },
@@ -783,7 +783,7 @@ Go type in a word. See what comes back. You'll find something you didn't expect.
     site: {
       name: "ReelGood",
       url: "https://www.reelgood.com",
-      screenshot: null,
+      screenshot: "/assets/issues/reelgood.png",
       category: "Entertainment / Utility",
       vibe: "The remote control for every streaming service you own",
     },
