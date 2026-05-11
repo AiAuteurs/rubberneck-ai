@@ -694,7 +694,7 @@ Go upload a photo. You'll be amazed what it does.`,
     site: {
       name: "Geopins.info",
       url: "https://www.geopins.info",
-      screenshot: null,
+      screenshot: "/assets/issues/geopins.png",
       category: "Travel / Discovery",
       vibe: "The travel guide written by people who actually go there",
     },
