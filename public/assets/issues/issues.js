@@ -366,12 +366,12 @@ Go look up your car. You'll find the answer to whatever has been annoying you fo
     id: 16,
     date: "2026-05-06",
     slug: "livesunset",
-    headline: "THE BEST SUNSET ON EARTH. LIVE. RIGHT NOW.",
+    headline: "SOMEONE BUILT A WEBSITE THAT SHOWS YOU THE BEST SUNSET ON EARTH RIGHT NOW.",
     subheadline: "LiveSunset finds live cameras around the world that are pointed at an actual sunset happening this second, ranks them with AI, and streams the best one to you. It's free. It's live. It's beautiful.",
     site: {
       name: "LiveSunset",
       url: "https://www.livesunset.io",
-      screenshot: null,
+      screenshot: "/assets/issues/livesunset.png",
       category: "Nature / Live",
       vibe: "The most beautiful thing happening on Earth right now",
     },
@@ -406,7 +406,7 @@ Go watch a sunset. Wherever you are. Whatever time it is.`,
     site: {
       name: "StocksAnalyzer",
       url: "https://www.stocksanalyzer.app",
-      screenshot: null,
+      screenshot: "/assets/issues/stocksanalyzer.png",
       category: "Finance / AI",
       vibe: "The stock analyst you can't afford, now free",
     },
@@ -590,6 +590,346 @@ Salud. 🌮`,
     editors_note: "Cinco de Mayo pick. Fun, festive, genuinely useful. No affiliate.",
   },
 
+  "2026-05-09": {
+    id: 19,
+    date: "2026-05-09",
+    slug: "jobsuncle",
+    headline: "THIS AI REWRITES YOUR RESUME FOR EVERY JOB IN 60 SECONDS. AND WRITES THE COVER LETTER TOO.",
+    subheadline: "Paste a job description. JobsUncle.ai rewrites your resume to beat the ATS, scores it, writes the cover letter, adds recruiter notes, and drafts your cold outreach DM. All in 60 seconds.",
+    site: {
+      name: "JobsUncle.ai",
+      url: "https://jobsuncle.ai",
+      screenshot: null,
+      category: "Jobs / AI",
+      vibe: "The job search that doesn't make you want to quit before you start",
+    },
+    body: `You found the job. Now comes the part that actually kills your chances.
+
+Your resume isn't tailored to this specific role. Your cover letter is generic. You have no idea if you'll make it past the ATS filter. And you definitely don't have a cold outreach DM ready for the hiring manager.
+
+JobsUncle.ai fixes all of that in 60 seconds.
+
+Paste in the job description. It rewrites your resume specifically for that role, optimized to beat the applicant tracking system. It scores your resume so you know exactly where you stand. It writes a cover letter that actually addresses what the job is asking for.
+
+**Then it goes further.** Recruiter notes that help you prep for the screening call. A cold outreach DM you can send directly to the hiring manager on LinkedIn.
+
+Everything you need to apply properly — not just click submit and hope — done in one shot.
+
+If you're job hunting right now, this is the unfair advantage everyone else doesn't know about.
+
+Paste in a job description. See what it builds for you.`,
+    affiliate_links: [],
+    tags: ["jobs", "AI", "career", "resume", "hiring"],
+    editors_note: "Pure editorial. Extremely shareable with anyone job hunting.",
+  },
+
+  "2026-05-10": {
+    id: 20,
+    date: "2026-05-10",
+    slug: "findhelp",
+    headline: "THERE IS FREE HELP IN YOUR CITY. MOST PEOPLE DON'T KNOW IT EXISTS.",
+    subheadline: "Findhelp.org is a nationwide database of free and reduced-cost social services — food, housing, healthcare, childcare, legal aid. Search by zip code. Free. No account needed.",
+    site: {
+      name: "Findhelp.org",
+      url: "https://www.findhelp.org",
+      screenshot: "/assets/issues/findhelp.png",
+      category: "Social Services / Utility",
+      vibe: "The safety net most people never knew was there",
+    },
+    body: `Someone you know needs help right now.
+
+Maybe it's you. Maybe it's a family member. Maybe it's a neighbor. Maybe it's someone at work who's too embarrassed to say anything.
+
+Findhelp.org is a database of over 500,000 free and reduced-cost programs across the United States. Food banks. Rental assistance. Free healthcare clinics. Childcare subsidies. Legal aid. Mental health services. Utility bill help. Job training.
+
+**You search by zip code.** It shows you everything available in your area, with contact info, eligibility requirements, and how to apply.
+
+It's built for social workers and case managers, but anyone can use it. No account. No fee. No judgment.
+
+This is one of those sites that most people don't know exists until they desperately need it. Now you know. Send it to someone who might need it today.
+
+Search your zip code. See what's there.`,
+    affiliate_links: [],
+    tags: ["social services", "free", "community", "help", "resources"],
+    editors_note: "Pure public good. Extremely shareable. No affiliate.",
+  },
+
+  "2026-05-11": {
+    id: 21,
+    date: "2026-05-11",
+    slug: "removebg",
+    headline: "REMOVE THE BACKGROUND FROM ANY PHOTO IN 5 SECONDS. FOR FREE.",
+    subheadline: "Remove.bg uses AI to cut out the background from any image instantly. Upload a photo, get a clean cutout. No Photoshop. No skills required. Free.",
+    site: {
+      name: "Remove.bg",
+      url: "https://www.remove.bg",
+      screenshot: "/assets/issues/removebg.png",
+      category: "AI / Design",
+      vibe: "The Photoshop skill you never had to learn",
+    },
+    body: `You have a photo. You need the background gone.
+
+In the old days, you opened Photoshop, spent 20 minutes with the magic wand tool, got frustrated, watched a tutorial, got more frustrated, and ended up with something that looked like it was cut out with safety scissors.
+
+Remove.bg does it in 5 seconds.
+
+Upload any photo. AI finds the subject, cuts it out perfectly — hair, fur, complex edges, all of it — and gives you a clean PNG with a transparent background. Ready to drop onto any design, any color, any surface.
+
+**It works on people, products, animals, cars, anything.** The results are genuinely impressive. Edge detail that would take a professional designer ten minutes, done automatically in seconds.
+
+Free for standard resolution downloads. Paid plans for high-res bulk processing if you need it for professional work.
+
+Go upload a photo. You'll be amazed what it does.`,
+    affiliate_links: [],
+    tags: ["AI", "design", "photos", "free", "tools"],
+    editors_note: "Affiliate program available at remove.bg/affiliate/info — 15% recurring. Sign up before this goes live.",
+  },
+
+  "2026-05-12": {
+    id: 22,
+    date: "2026-05-12",
+    slug: "geopins",
+    headline: "SOMEONE MAPPED EVERY INTERESTING PLACE ON EARTH. YOU'RE WELCOME.",
+    subheadline: "Geopins is a community-built map of hidden gems around the world — secret beaches, abandoned places, viewpoints, local spots that never make the tourist guides.",
+    site: {
+      name: "Geopins.info",
+      url: "https://www.geopins.info",
+      screenshot: "/assets/issues/geopins.png",
+      category: "Travel / Discovery",
+      vibe: "The travel guide written by people who actually go there",
+    },
+    body: `Every travel guide shows you the same 10 things.
+
+The Eiffel Tower. Times Square. The Hollywood sign. Places so overrun with tourists that you can barely see what made them worth visiting in the first place.
+
+Geopins is different. It's a community-built map of places that people actually discovered — and wanted to share. Secret beaches. Hidden waterfalls. Abandoned buildings with incredible architecture. Viewpoints that aren't on any tourist map. Local spots that the guidebooks never found.
+
+**Anyone can add a pin.** You drop a location, add a photo, write a description. The community votes the best ones up.
+
+Search anywhere in the world and see what's actually there. Not what the tourism board wants you to see. What real people found worth sharing.
+
+Going somewhere? Search it before you leave. You'll find things you never would have found otherwise.`,
+    affiliate_links: [],
+    tags: ["travel", "maps", "discovery", "hidden gems", "community"],
+    editors_note: "Pure editorial. Great for travel audiences.",
+  },
+
+  "2026-05-13": {
+    id: 23,
+    date: "2026-05-13",
+    slug: "annualcreditreport",
+    headline: "YOU ARE LEGALLY ENTITLED TO YOUR FREE CREDIT REPORT. MOST PEOPLE NEVER CLAIM IT.",
+    subheadline: "AnnualCreditReport.com is the only federally authorized site to get your free credit reports from all three bureaus — Equifax, Experian, TransUnion. Free. Weekly. No credit card.",
+    site: {
+      name: "AnnualCreditReport.com",
+      url: "https://www.annualcreditreport.com",
+      screenshot: "/assets/issues/annualcreditreport.png",
+      category: "Finance / Utility",
+      vibe: "The free financial checkup you keep putting off",
+    },
+    body: `You are legally entitled to a free copy of your credit report every week.
+
+Not once a year. Every week. That changed during COVID and it never changed back.
+
+Most people don't know this. Most people have never checked their credit report. Some people have errors on theirs that are costing them money on loans, credit cards, and insurance rates — errors they don't know exist.
+
+**AnnualCreditReport.com is the only site authorized by federal law to give you the real reports.** Not a score. Not a summary. The actual full credit reports from Equifax, Experian, and TransUnion — all three, every week, free.
+
+No credit card required. No subscription. No tricks. This is the real one, not one of the dozens of imposter sites designed to look like it.
+
+Go check yours. Right now. See what's in there. You might find something that surprises you.`,
+    affiliate_links: [],
+    tags: ["finance", "credit", "free", "personal finance", "utility"],
+    editors_note: "Pure public service. Massively shareable. Government mandated free service.",
+  },
+
+  "2026-05-14": {
+    id: 24,
+    date: "2026-05-14",
+    slug: "rhymeit",
+    headline: "THE RHYME FINDER THAT ACTUALLY FINDS RHYMES WORTH USING.",
+    subheadline: "RhymeIt finds perfect rhymes, near rhymes, and syllable matches for any word. Built for songwriters, poets, rappers, and anyone who has ever been stuck on a lyric at 2am.",
+    site: {
+      name: "RhymeIt.org",
+      url: "https://www.rhymeit.org",
+      screenshot: "/assets/issues/rhymeit.png",
+      category: "Writing / Creative",
+      vibe: "The tool every songwriter wishes they had found sooner",
+    },
+    body: `You have the perfect line. Except you need something that rhymes with "orange."
+
+RhymeIt doesn't judge you. It just finds the rhymes.
+
+Type in any word and it gives you perfect rhymes, near rhymes, syllable matches, and related words — organized by how many syllables they have, so you can match the rhythm of your line exactly.
+
+**It's built for songwriters, rappers, poets, and lyricists.** But it works for anyone who's ever been stuck trying to make something sound right.
+
+Unlike basic rhyme dictionaries, it finds rhymes that actually work in context — words you'd actually use, not just technical matches that sound forced.
+
+Free. No account. No ads. Just a clean tool that does one thing well.
+
+Go type in a word. See what comes back. You'll find something you didn't expect.`,
+    affiliate_links: [],
+    tags: ["writing", "music", "creative", "free", "tools"],
+    editors_note: "Pure editorial. Great for creative audiences.",
+  },
+
+  "2026-05-15": {
+    id: 25,
+    date: "2026-05-15",
+    slug: "reelgood",
+    headline: "STOP SPENDING 20 MINUTES DECIDING WHAT TO WATCH. THIS FIXES THAT.",
+    subheadline: "ReelGood searches every streaming service at once and tells you exactly where to watch anything. Netflix, Hulu, HBO, Disney+, Prime — all of them, one search.",
+    site: {
+      name: "ReelGood",
+      url: "https://www.reelgood.com",
+      screenshot: "/assets/issues/reelgood.png",
+      category: "Entertainment / Utility",
+      vibe: "The remote control for every streaming service you own",
+    },
+    body: `You want to watch something. You open Netflix. Nothing. You open Hulu. Maybe. You open HBO. You forgot you had HBO. You open Prime. You get lost. Forty minutes later you're watching the same show you've already seen.
+
+ReelGood fixes this.
+
+Search for any movie or show and it immediately tells you which streaming services have it, whether it's included in your subscription or costs extra to rent, and what the ratings are across every major review site.
+
+**It also has a discovery mode** — filter by genre, mood, rating, and streaming service, and it shows you what's actually worth watching right now, across everything you already pay for.
+
+One search. Every platform. No more bouncing between apps.
+
+Free to use. Go search something you've been meaning to watch and find out exactly where it is.`,
+    affiliate_links: [],
+    tags: ["streaming", "entertainment", "utility", "free", "movies"],
+    editors_note: "Pure editorial. Universally relatable. Everyone has this problem.",
+  },
+
+
+  "2026-05-16": {
+    id: 26,
+    date: "2026-05-16",
+    slug: "butterfield",
+    headline: "YOU'RE NOT SUPPOSED TO BE HERE. BUT NOW THAT YOU ARE.",
+    subheadline: "Butterfield & Robinson has been designing luxury active travel for 60 years. Biking through Tuscany. Walking the Dordogne. Kayaking in Croatia. The trips you didn't know were possible.",
+    site: {
+      name: "Butterfield & Robinson",
+      url: "https://www.butterfield.com",
+      screenshot: "/assets/issues/butterfield.png",
+      category: "Travel / Luxury",
+      vibe: "The travel company that makes you feel like you broke in somewhere you weren't supposed to be",
+    },
+    body: `There are travel companies. And then there is Butterfield & Robinson.
+
+Most travel companies move you from airport to hotel to bus to landmark and back to airport. You see the thing. You take the photo. You go home.
+
+B&R does something completely different. They put you on a bike in Burgundy. They walk you through a souk in Morocco at dawn. They sit you at a farmhouse table in Portugal with the family that's been making wine there for four generations.
+
+**60 years of this.** 60 years of finding the routes nobody else knows, building relationships with guides and properties that can't be booked any other way, and engineering trips that feel less like tourism and more like you accidentally stumbled into someone's extraordinary life.
+
+Small group trips. Bespoke private trips. Self-guided adventures. All of them active — biking, walking, kayaking — because the best way to actually see a place is at 12 miles per hour, not 60.
+
+The website alone will wreck your afternoon. The destinations page reads like a bucket list someone actually completed.
+
+Go look. You're not supposed to be here — but now that you are, you might as well plan the trip of your life.`,
+    affiliate_links: [],
+    tags: ["travel", "luxury", "adventure", "biking", "bucket list"],
+    editors_note: "Pure editorial. No affiliate. Gorgeous site. Premium audience.",
+  },
+
+
+  "2026-05-17": {
+    id: 28,
+    date: "2026-05-17",
+    slug: "propqwiz",
+    headline: "GUESS THE PRICE OF REAL HOMES. YOU'RE WORSE AT THIS THAN YOU THINK.",
+    subheadline: "PropQwiz shows you real homes with real photos and real details. You guess the price. You find out how wrong you are. Daily live games, leaderboards, free to play.",
+    site: {
+      name: "PropQwiz",
+      url: "https://propqwiz.com",
+      screenshot: "/assets/issues/propqwiz.png",
+      category: "Games / Real Estate",
+      vibe: "The game that makes you realize you have no idea what houses cost",
+    },
+    body: `You think you know what houses cost. You don't.
+
+PropQwiz shows you a real home — real photos, real bedrooms, real bathrooms, real square footage, real location. Your job is to guess the price.
+
+You're going to be wrong. Embarrassingly wrong. That 4-bedroom colonial in South Lyon that you guessed $380,000? $619,000. That tiny bungalow you thought was worth $500,000? $287,000.
+
+**The game is genuinely addictive.** You earn points for accuracy, use points to get bonus hints, challenge other players from around the country, and track your position on the leaderboard.
+
+There are daily live games — new properties every day, everyone playing at the same time, competing for the top spot. Free to play on desktop, iOS, and Android.
+
+It's also quietly one of the best ways to actually understand what the housing market is doing right now. Not from a chart. From guessing wrong about a house in Michigan and then going down a rabbit hole of why it costs that much.
+
+Go play. You'll be humbled and hooked within three properties.`,
+    affiliate_links: [],
+    tags: ["games", "real estate", "free", "trivia", "daily"],
+    editors_note: "Pure editorial. Extremely shareable. Perfect for real estate audiences.",
+  },
+
+  "2026-05-18": {
+    id: 29,
+    date: "2026-05-18",
+    slug: "magnific",
+    headline: "THE AI CREATIVE PLATFORM THAT COCA-COLA AND OGILVY USE. NOW YOU CAN TOO.",
+    subheadline: "Magnific is the #1 ranked AI creative platform — generate images, shoot cinematic AI video, upscale footage, direct photoshoots, cast characters, stay on brand. Everything in one place.",
+    site: {
+      name: "Magnific",
+      url: "https://referral.magnific.com/mzTJeCV",
+      screenshot: "/assets/issues/magnific.png",
+      category: "AI / Creative",
+      vibe: "The creative studio that fits in your browser",
+    },
+    body: `The gap between what professional creative studios can produce and what everyone else can produce just got a lot smaller.
+
+Magnific is the AI creative platform that Coca-Cola, Ogilvy, R/GA and over a million other creatives, agencies, and enterprises are using right now. It was ranked the #1 AI creative platform by a16z — the most respected tech investment firm in the world.
+
+**Here's what it does:** Generate images. Shoot cinematic AI video. Upscale and enhance footage. Direct AI photoshoots. Cast characters. Build automated workflows. Stay on brand at scale.
+
+That last one is the big one for anyone working with clients or a team. You can lock in brand guidelines, visual styles, and character consistency — and produce at scale without everything looking like it came from a different AI every time.
+
+It's not a toy. It's a professional production platform that happens to be accessible to anyone, not just studios with eight-figure budgets.
+
+If you make anything visual — content, ads, films, social, branding — this is worth understanding right now, before everyone else does.
+
+Go see what it can do.`,
+    affiliate_links: [],
+    tags: ["AI", "creative", "video", "design", "professional"],
+    editors_note: "Affiliate link: https://referral.magnific.com/mzTJeCV — use this as the GO THERE URL.",
+  },
+  "2026-05-21": {
+    id: 27,
+    date: "2026-05-21",
+    slug: "slidescarnival",
+    headline: "FREE PRESENTATION TEMPLATES SO GOOD PEOPLE WILL THINK YOU HIRED A DESIGNER.",
+    subheadline: "SlidesCarnival has thousands of free PowerPoint and Google Slides templates. Professional, beautiful, actually free. No registration. No download limits. Just pick one and go.",
+    site: {
+      name: "SlidesCarnival",
+      url: "https://www.slidescarnival.com",
+      screenshot: null,
+      category: "Design / Productivity",
+      vibe: "The secret weapon of every great presenter who didn't hire a designer",
+    },
+    body: `You have a presentation due.
+
+Your current slide deck looks like it was made in 2003 by someone who just discovered WordArt. You don't have time to design something from scratch. You definitely don't have budget to hire a designer.
+
+SlidesCarnival has thousands of free templates that look like someone did hire a designer. Business decks. Pitch decks. Educational slides. Marketing presentations. Creative portfolios. All of them polished, all of them free, all of them available in both PowerPoint and Google Slides.
+
+**No registration. No account. No download limits.** Just find one you like and click download.
+
+They also filter by color, style, and use case — so you can find something that actually fits the mood of your presentation instead of just grabbing the first blue one you see.
+
+There's an AI presentation maker too, if you want to go from outline to finished deck in minutes.
+
+Your next presentation is going to look embarrassingly good compared to your last one.
+
+Go pick a template. Stop making ugly slides.`,
+    affiliate_links: [],
+    tags: ["design", "presentations", "free", "productivity", "templates"],
+    editors_note: "Pure editorial. Universally useful. Every professional needs this.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
@@ -606,6 +946,7 @@ function getAdjustedDateStr() {
   const adjustedTime = new Date(estTime.getTime() - 6 * 60 * 60000);
   return adjustedTime.toISOString().split("T")[0];
 }
+
 
 export function getTodaysIssue() {
   const todayStr = getAdjustedDateStr();
