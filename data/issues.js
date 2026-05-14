@@ -821,6 +821,132 @@ function getAdjustedDateStr() {
   return adjustedTime.toISOString().split("T")[0];
 }
 
+
+  "2026-05-16": {
+    id: 26,
+    date: "2026-05-16",
+    slug: "butterfield",
+    headline: "YOU'RE NOT SUPPOSED TO BE HERE. BUT NOW THAT YOU ARE.",
+    subheadline: "Butterfield & Robinson has been designing luxury active travel for 60 years. Biking through Tuscany. Walking the Dordogne. Kayaking in Croatia. The trips you didn't know were possible.",
+    site: {
+      name: "Butterfield & Robinson",
+      url: "https://www.butterfield.com",
+      screenshot: "/assets/issues/butterfield.png",
+      category: "Travel / Luxury",
+      vibe: "The travel company that makes you feel like you broke in somewhere you weren't supposed to be",
+    },
+    body: `There are travel companies. And then there is Butterfield & Robinson.
+
+Most travel companies move you from airport to hotel to bus to landmark and back to airport. You see the thing. You take the photo. You go home.
+
+B&R does something completely different. They put you on a bike in Burgundy. They walk you through a souk in Morocco at dawn. They sit you at a farmhouse table in Portugal with the family that's been making wine there for four generations.
+
+**60 years of this.** 60 years of finding the routes nobody else knows, building relationships with guides and properties that can't be booked any other way, and engineering trips that feel less like tourism and more like you accidentally stumbled into someone's extraordinary life.
+
+Small group trips. Bespoke private trips. Self-guided adventures. All of them active — biking, walking, kayaking — because the best way to actually see a place is at 12 miles per hour, not 60.
+
+The website alone will wreck your afternoon. The destinations page reads like a bucket list someone actually completed.
+
+Go look. You're not supposed to be here — but now that you are, you might as well plan the trip of your life.`,
+    affiliate_links: [],
+    tags: ["travel", "luxury", "adventure", "biking", "bucket list"],
+    editors_note: "Pure editorial. No affiliate. Gorgeous site. Premium audience.",
+  },
+
+
+  "2026-05-17": {
+    id: 28,
+    date: "2026-05-17",
+    slug: "propqwiz",
+    headline: "GUESS THE PRICE OF REAL HOMES. YOU'RE WORSE AT THIS THAN YOU THINK.",
+    subheadline: "PropQwiz shows you real homes with real photos and real details. You guess the price. You find out how wrong you are. Daily live games, leaderboards, free to play.",
+    site: {
+      name: "PropQwiz",
+      url: "https://propqwiz.com",
+      screenshot: "/assets/issues/propqwiz.png",
+      category: "Games / Real Estate",
+      vibe: "The game that makes you realize you have no idea what houses cost",
+    },
+    body: `You think you know what houses cost. You don't.
+
+PropQwiz shows you a real home — real photos, real bedrooms, real bathrooms, real square footage, real location. Your job is to guess the price.
+
+You're going to be wrong. Embarrassingly wrong. That 4-bedroom colonial in South Lyon that you guessed $380,000? $619,000. That tiny bungalow you thought was worth $500,000? $287,000.
+
+**The game is genuinely addictive.** You earn points for accuracy, use points to get bonus hints, challenge other players from around the country, and track your position on the leaderboard.
+
+There are daily live games — new properties every day, everyone playing at the same time, competing for the top spot. Free to play on desktop, iOS, and Android.
+
+It's also quietly one of the best ways to actually understand what the housing market is doing right now. Not from a chart. From guessing wrong about a house in Michigan and then going down a rabbit hole of why it costs that much.
+
+Go play. You'll be humbled and hooked within three properties.`,
+    affiliate_links: [],
+    tags: ["games", "real estate", "free", "trivia", "daily"],
+    editors_note: "Pure editorial. Extremely shareable. Perfect for real estate audiences.",
+  },
+
+  "2026-05-18": {
+    id: 29,
+    date: "2026-05-18",
+    slug: "magnific",
+    headline: "THE AI CREATIVE PLATFORM THAT COCA-COLA AND OGILVY USE. NOW YOU CAN TOO.",
+    subheadline: "Magnific is the #1 ranked AI creative platform — generate images, shoot cinematic AI video, upscale footage, direct photoshoots, cast characters, stay on brand. Everything in one place.",
+    site: {
+      name: "Magnific",
+      url: "https://referral.magnific.com/mzTJeCV",
+      screenshot: "/assets/issues/magnific.png",
+      category: "AI / Creative",
+      vibe: "The creative studio that fits in your browser",
+    },
+    body: `The gap between what professional creative studios can produce and what everyone else can produce just got a lot smaller.
+
+Magnific is the AI creative platform that Coca-Cola, Ogilvy, R/GA and over a million other creatives, agencies, and enterprises are using right now. It was ranked the #1 AI creative platform by a16z — the most respected tech investment firm in the world.
+
+**Here's what it does:** Generate images. Shoot cinematic AI video. Upscale and enhance footage. Direct AI photoshoots. Cast characters. Build automated workflows. Stay on brand at scale.
+
+That last one is the big one for anyone working with clients or a team. You can lock in brand guidelines, visual styles, and character consistency — and produce at scale without everything looking like it came from a different AI every time.
+
+It's not a toy. It's a professional production platform that happens to be accessible to anyone, not just studios with eight-figure budgets.
+
+If you make anything visual — content, ads, films, social, branding — this is worth understanding right now, before everyone else does.
+
+Go see what it can do.`,
+    affiliate_links: [],
+    tags: ["AI", "creative", "video", "design", "professional"],
+    editors_note: "Affiliate link: https://referral.magnific.com/mzTJeCV — use this as the GO THERE URL.",
+  },
+  "2026-05-21": {
+    id: 27,
+    date: "2026-05-21",
+    slug: "slidescarnival",
+    headline: "FREE PRESENTATION TEMPLATES SO GOOD PEOPLE WILL THINK YOU HIRED A DESIGNER.",
+    subheadline: "SlidesCarnival has thousands of free PowerPoint and Google Slides templates. Professional, beautiful, actually free. No registration. No download limits. Just pick one and go.",
+    site: {
+      name: "SlidesCarnival",
+      url: "https://www.slidescarnival.com",
+      screenshot: null,
+      category: "Design / Productivity",
+      vibe: "The secret weapon of every great presenter who didn't hire a designer",
+    },
+    body: `You have a presentation due.
+
+Your current slide deck looks like it was made in 2003 by someone who just discovered WordArt. You don't have time to design something from scratch. You definitely don't have budget to hire a designer.
+
+SlidesCarnival has thousands of free templates that look like someone did hire a designer. Business decks. Pitch decks. Educational slides. Marketing presentations. Creative portfolios. All of them polished, all of them free, all of them available in both PowerPoint and Google Slides.
+
+**No registration. No account. No download limits.** Just find one you like and click download.
+
+They also filter by color, style, and use case — so you can find something that actually fits the mood of your presentation instead of just grabbing the first blue one you see.
+
+There's an AI presentation maker too, if you want to go from outline to finished deck in minutes.
+
+Your next presentation is going to look embarrassingly good compared to your last one.
+
+Go pick a template. Stop making ugly slides.`,
+    affiliate_links: [],
+    tags: ["design", "presentations", "free", "productivity", "templates"],
+    editors_note: "Pure editorial. Universally useful. Every professional needs this.",
+  },
 export function getTodaysIssue() {
   const todayStr = getAdjustedDateStr();
   const sortedDates = Object.keys(issues).sort((a, b) => (a > b ? -1 : 1));
