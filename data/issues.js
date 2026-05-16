@@ -897,6 +897,68 @@ Go see what it can do.`,
     tags: ["AI", "creative", "video", "design", "professional"],
     editors_note: "Affiliate link: https://referral.magnific.com/mzTJeCV — use this as the GO THERE URL.",
   },
+  "2026-05-19": {
+    id: 30,
+    date: "2026-05-19",
+    slug: "musclewiki",
+    headline: "CLICK ANY MUSCLE ON A HUMAN BODY. GET EVERY EXERCISE THAT WORKS IT.",
+    subheadline: "MuscleWiki is an interactive body map with 2,000+ exercise videos. Click a muscle, filter by equipment, and get exactly what you need. Free. No account. No noise.",
+    site: {
+      name: "MuscleWiki",
+      url: "https://musclewiki.com",
+      screenshot: "/assets/issues/musclewiki.png",
+      category: "Health / Fitness",
+      vibe: "The fitness tool your gym teacher never had",
+    },
+    body: `You want to work your triceps. Or your glutes. Or that weird muscle under your shoulder blade that's been tight for three weeks.
+
+Most fitness apps make you scroll through hundreds of exercises hoping to stumble onto the right one. MuscleWiki flips that completely.
+
+You see a human body. You click the muscle you want to work. It instantly shows you every exercise that targets it — with video demos, step-by-step instructions, and filters for whatever equipment you actually have.
+
+**Dumbbells only? Filter it. No gym at all? Filter it. Beginner or advanced? Filter it.**
+
+The database covers 2,000+ exercises across every muscle group. Front of the body, back of the body, male or female model, beginner to advanced. There's also a workout generator if you want it to just build a routine for you.
+
+No sign-up. No subscription. No app to download. Just an absurdly well-organized tool that gives you exactly what you need.
+
+Go click a muscle. It's weirdly satisfying.`,
+    affiliate_links: [],
+    tags: ["fitness", "health", "free", "tools", "exercise"],
+    editors_note: "Pure editorial. Universally useful. Great visual hook.",
+  },
+
+  "2026-05-20": {
+    id: 31,
+    date: "2026-05-20",
+    slug: "temp-mail",
+    headline: "YOUR BURNER EMAIL ADDRESS, READY IN ZERO SECONDS.",
+    subheadline: "Every website wants your email. Most of them don't deserve it. Temp Mail generates a real, working disposable inbox instantly — no sign-up, no name, nothing. Inbox self-destructs when you're done.",
+    site: {
+      name: "Temp Mail",
+      url: "https://temp-mail.org",
+      screenshot: "/assets/issues/temp-mail.png",
+      category: "Utility / Privacy",
+      vibe: "The burner phone of email addresses",
+    },
+    body: `Every website wants your email address.
+
+The download that needs a sign-up. The article behind a registration wall. The free trial that requires an account. The store that will spam you forever in exchange for a 10% discount code.
+
+You want the thing. You do not want to give them your real email. You definitely do not want another newsletter you'll never unsubscribe from.
+
+Temp Mail generates a real, working email address in zero seconds. No sign-up. No name. No phone number. Just a live inbox, ready to receive messages right now.
+
+**Use it to grab the download. Verify the account. Get the coupon code.** When you're done, close the tab. The inbox disappears. Your real inbox stays clean.
+
+It works exactly like a real email address — it receives messages, confirmations, attachments, verification codes, all of it. It just doesn't exist in any permanent way and isn't attached to you at all.
+
+The internet has been trying to harvest your email since 1997. Now you have a polite way to say no.`,
+    affiliate_links: [],
+    tags: ["utility", "privacy", "free", "tools", "email"],
+    editors_note: "Pure editorial. Universally relatable. Everyone has had this problem.",
+  },
+
   "2026-05-21": {
     id: 27,
     date: "2026-05-21",
@@ -928,6 +990,39 @@ Go pick a template. Stop making ugly slides.`,
     affiliate_links: [],
     tags: ["design", "presentations", "free", "productivity", "templates"],
     editors_note: "Pure editorial. Universally useful. Every professional needs this.",
+  },
+
+  "2026-05-22": {
+    id: 32,
+    date: "2026-05-22",
+    slug: "my-90s-tv",
+    headline: "SOMEONE PUT THE ENTIRE 90S ON THE INTERNET.",
+    subheadline: "My 90s TV is a working retro television — CRT and all — that streams real 90s programming 24/7. Cartoons, commercials, game shows, soaps, trailers, sports. 45,000 channels. Hit power and fall in.",
+    site: {
+      name: "My 90s TV",
+      url: "https://90s.myretrotvs.com",
+      screenshot: "/assets/issues/my-90s-tv.png",
+      category: "Nostalgia / Entertainment",
+      vibe: "The rabbit hole you won't climb out of for an hour",
+    },
+    body: `Someone built a working CRT television in your browser.
+
+It streams real 90s programming. Right now. 24 hours a day.
+
+Click the power button. The TV flickers on. You're watching actual cartoons, actual commercials, actual game shows, actual soaps — all of it pulled from real 90s broadcasts, organized into 45,000 channels by genre.
+
+**Cartoons. Commercials. Game shows. Soaps. Sports. Trailers. Music videos. Talk shows.** Pick a category, or just leave it on random and see what the algorithm of 1994 serves you.
+
+The attention to detail is absurd. The interface is a CRT TV with working channel buttons, a volume dial, and that slight static flicker when you change the channel. The bottom of the screen scrolls the date and time like you're actually watching live TV from thirty years ago.
+
+There's also a 50s version. A 60s version. A 70s, 80s, and 2000s version. Each one its own rabbit hole.
+
+You opened this thinking you'd look for thirty seconds. You're going to be here for an hour watching a 1993 Surge commercial and feeling things you weren't expecting to feel.
+
+Go turn it on.`,
+    affiliate_links: [],
+    tags: ["nostalgia", "entertainment", "free", "90s", "retro"],
+    editors_note: "Pure editorial. Extremely shareable. Will get forwarded.",
   },
 
 };
