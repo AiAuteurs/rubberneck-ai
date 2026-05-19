@@ -1025,6 +1025,163 @@ Go turn it on.`,
     editors_note: "Pure editorial. Extremely shareable. Will get forwarded.",
   },
 
+  "2026-05-23": {
+    id: 33,
+    date: "2026-05-23",
+    slug: "1001-albums-generator",
+    headline: "ONE GREAT ALBUM. EVERY DAY. UNTIL YOU'VE HEARD THEM ALL.",
+    subheadline: "Someone took the book '1001 Albums You Must Hear Before You Die' and turned it into a daily challenge. One album assigned to you each morning. You listen, you rate it, you move on.",
+    site: {
+      name: "1001 Albums Generator",
+      url: "https://1001albumsgenerator.com",
+      screenshot: "/assets/issues/1001-albums-generator.png",
+      category: "Music / Discovery",
+      vibe: "The music education you never got in school",
+    },
+    body: `There is a book called *1001 Albums You Must Hear Before You Die*. A panel of music critics assembled the list — jazz, punk, soul, hip-hop, classical, krautrock, bossa nova, things you've never heard of and things you've heard a thousand times but never actually *listened* to.
+
+Someone turned it into a daily challenge.
+
+Sign up, and every morning you get assigned one album from the list. You listen. You rate it. You move on to the next one. No algorithm. No "based on what you already like." Just music history, one record at a time.
+
+**Some days it's The Beatles. Some days it's a German experimental electronic album from 1972 that changes how you think about sound.** Both count. Both are on the list.
+
+You can see your progress, read what other people think of each album, and track how your taste evolves over time. People who start this don't stop. The daily ritual becomes part of the routine — coffee, album, rating, done.
+
+At the current pace of one album a day, it takes about three years to finish. Most people say that's not a bug. That's the whole point.
+
+Start your list. See where it takes you.`,
+    affiliate_links: [],
+    tags: ["music", "discovery", "free", "challenge", "albums"],
+    editors_note: "Pure editorial. Built-in daily habit loop. Extremely shareable among music fans.",
+  },
+
+  "2026-05-24": {
+    id: 34,
+    date: "2026-05-24",
+    slug: "moises",
+    headline: "UPLOAD ANY SONG. PULL OUT JUST THE VOCALS. OR JUST THE DRUMS. OR JUST THE GUITAR.",
+    subheadline: "Moises uses AI to separate any song into individual stems — vocals, bass, drums, keys, all of it. Practice along, remix, transpose, slow down. The creative suite musicians didn't have until now.",
+    site: {
+      name: "Moises",
+      url: "https://moises.ai",
+      screenshot: "/assets/issues/moises.png",
+      category: "Music / AI Tools",
+      vibe: "What every musician has wanted since the invention of the record",
+    },
+    body: `You know that thing where you want to learn a guitar part but the vocals are in the way? Or you want to hear how the bass actually moves under a song you've listened to a hundred times? Or you're a singer who wants to practice with a backing track but can't find a karaoke version?
+
+Moises solves all of that.
+
+Upload any song — or paste a link — and Moises separates it into individual stems using AI. Vocals. Drums. Bass. Guitar. Keys. Each one isolated, each one adjustable. You can mute any layer, solo any layer, download any layer.
+
+**That's just the beginning.** Moises also does pitch shifting, tempo control, chord detection, and a smart metronome that syncs to any song. It can tell you the chords being played in real time as the song moves. It can slow a track down to 50% without changing the pitch so you can learn that solo note by note.
+
+Berklee College of Music uses it. Professional session musicians use it. But it's also just genuinely fun for anyone who's ever been curious what a song sounds like with the vocals stripped out.
+
+Freemium — the core tools are free, paid plans unlock unlimited uploads and higher quality exports starting around $3/month.
+
+Go pull apart a song you love. You will hear it differently forever.`,
+    affiliate_links: [],
+    tags: ["music", "AI", "tools", "musicians", "stems"],
+    editors_note: "Has affiliate program — apply at moises.ai. Great freemium hook.",
+  },
+
+  "2026-05-25": {
+    id: 35,
+    date: "2026-05-25",
+    slug: "film-dilemma",
+    headline: "CAN'T DECIDE WHAT TO WATCH? THIS SITE SOLVES IT.",
+    subheadline: "Film Dilemma is a searchable, browsable database of 33,000+ films built for people who actually care about movies. Browse by genre, decade, director, or just hit 'Surprise Me' and trust the algorithm.",
+    site: {
+      name: "Film Dilemma",
+      url: "https://filmdilemma.com",
+      screenshot: "/assets/issues/film-dilemma.png",
+      category: "Film / Discovery",
+      vibe: "For people who think about movies, not just watch them",
+    },
+    body: `The problem with Netflix isn't the content. It's the browsing. Thirty minutes of scrolling, nothing decided, vague guilt about how you spent your evening.
+
+Film Dilemma is built for people who want to actually find something.
+
+33,607 movies. 5,023 curated lists. 54,817 actors searchable by name. You can browse Cinephile Classics, filter by decade, dig into a specific director's whole catalog, or just hit "Surprise Me" and get a random recommendation with enough context to know if you're in.
+
+**The design is the thing.** Every film comes with its rating, runtime, year, genre tags, and placement across multiple ranked lists simultaneously — so you can see at a glance how serious a film is, how long it'll take, and where it lands in the canon. It's the difference between a streaming interface built to keep you browsing and a tool actually designed to help you choose.
+
+There's also a "Random List" button that drops you into a curated collection — Greatest Films of All Time, Best Horror of the 90s, Essential Sci-Fi — and lets you work through it methodically.
+
+Bookmark this. Use it every time someone asks "what should we watch tonight?"
+
+That question has a better answer now.`,
+    affiliate_links: [],
+    tags: ["film", "movies", "discovery", "free", "tools"],
+    editors_note: "Pure editorial. Solves a universal problem. Great for sharing.",
+  },
+
+  "2026-05-26": {
+    id: 36,
+    date: "2026-05-26",
+    slug: "kexp",
+    headline: "THE RADIO STATION THAT'S BEEN FINDING YOUR NEXT FAVORITE BAND SINCE 1972.",
+    subheadline: "KEXP is a nonprofit indie radio station out of Seattle that streams live 24/7, posts in-studio performances on YouTube, and sends a weekly New Music Tuesday email with hand-picked new releases from their DJs.",
+    site: {
+      name: "KEXP",
+      url: "https://www.kexp.org/new/",
+      screenshot: "/assets/issues/kexp.png",
+      category: "Music / Radio",
+      vibe: "The antidote to algorithm music",
+    },
+    body: `Before Spotify had algorithms, before YouTube had recommendations, before anyone had a "For You" feed, there was KEXP.
+
+A nonprofit radio station out of Seattle, broadcasting at 90.3 FM and streaming live online 24 hours a day. No playlists generated by a machine. No content optimized for engagement. Just DJs who have spent decades finding music that matters and putting it on the air.
+
+KEXP was the first station to play Nirvana. It has been championing independent artists from every genre — indie rock, hip-hop, Afrobeat, punk, ambient, Latin, world music — since 1972.
+
+**The New Music Tuesday newsletter is the best part.** Every week, KEXP's Music Directors send the same hand-picked new release recommendations they give to the DJs — the music they're actually adding to rotation — straight to your inbox. Quick, accessible reviews. Expanded context you won't find anywhere else. Real humans telling you why a song matters.
+
+Their YouTube channel has thousands of in-studio live performances — artists playing in the KEXP studio, stripped down, no production tricks. It's where you find out which artists can actually play.
+
+Subscribe to New Music Tuesday. Listen to the stream when you work. Let actual humans with actual taste tell you what's worth hearing.
+
+That's what radio was supposed to be.`,
+    affiliate_links: [],
+    tags: ["music", "radio", "discovery", "free", "newsletter"],
+    editors_note: "Pure editorial. Tuesday is on brand. Drives newsletter signups for them and trust for us.",
+  },
+
+  "2026-05-27": {
+    id: 37,
+    date: "2026-05-27",
+    slug: "songmeanings",
+    headline: "THE INTERNET HAS BEEN ARGUING ABOUT WHAT LYRICS MEAN FOR 25 YEARS. IT'S ALL HERE.",
+    subheadline: "SongMeanings is a community where people submit their interpretations of song lyrics — and debate them. Some entries are thoughtful. Some are unhinged. All of them are more interesting than the official explanation.",
+    site: {
+      name: "SongMeanings",
+      url: "https://songmeanings.com",
+      screenshot: "/assets/issues/songmeanings.png",
+      category: "Music / Community",
+      vibe: "Wikipedia if Wikipedia had feelings",
+    },
+    body: `Every song you've ever loved — someone on the internet has a theory about what it really means.
+
+SongMeanings has been collecting those theories since 2001. It's a community site where anyone can submit an interpretation of any song lyric, and anyone else can agree, disagree, or write a thousand-word rebuttal explaining exactly why they're wrong.
+
+**Some of it is genuinely illuminating.** People who speak the artist's native language. People who grew up in the same city. People who were going through the same thing the songwriter was going through and heard something in the words that wasn't obvious from the outside.
+
+Some of it is completely unhinged in the most entertaining way possible.
+
+The format is simple: lyrics on one side, interpretations on the other. You can search any song, any artist, any lyric fragment. You can submit your own reading. You can rate other people's interpretations. You can follow rabbit holes from one song to another for longer than you planned.
+
+It's what the comment section was supposed to be before the comment section became what it became. People who care about music, arguing passionately about art in complete sentences.
+
+Go look up a song you think you understand. Read what other people heard in it.
+
+You might not hear it the same way again.`,
+    affiliate_links: [],
+    tags: ["music", "lyrics", "community", "free", "discovery"],
+    editors_note: "Pure editorial. Extremely browsable. Great for music-heavy week.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
