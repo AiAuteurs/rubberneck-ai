@@ -1182,6 +1182,105 @@ You might not hear it the same way again.`,
     editors_note: "Pure editorial. Extremely browsable. Great for music-heavy week.",
   },
 
+  "2026-05-28": {
+    id: 38,
+    date: "2026-05-28",
+    slug: "design-arena",
+    headline: "WE GAVE EVERY AI THE SAME PROMPT. ONE OF THEM GAVE HER SIX ARMS.",
+    subheadline: "Design Arena puts every major AI model head to head with identical prompts and lets you vote on the results. Here's the prompt we think you should try first — and why it's more interesting than it looks.",
+    site: {
+      name: "Design Arena",
+      url: "https://www.designarena.ai",
+      screenshot: "/assets/issues/design-arena.png",
+      category: "AI / Design",
+      vibe: "The test that separates execution from understanding",
+    },
+    body: `There is a prompt we want you to try.
+
+**"Draw the Vitruvian Man — but make it a woman."**
+
+Da Vinci's Vitruvian Man wasn't just a drawing. It was a statement — that the human body is the geometric blueprint of the universe. That the proportions of a man map perfectly onto both a circle and a square, bridging the divine and the earthly. For 500 years, "man" was the universal measure of all things.
+
+Four words changes everything.
+
+Ask an AI to redraw it as a woman and you're not just changing the figure. You're asking a machine that has absorbed everything humanity has ever said about the body, about gender, about beauty, about proportion — to make a decision.
+
+Design Arena shows you two AI results side by side, anonymously. You vote for the better one. Then two more. Five rounds. At the end it tells you which models you preferred and how they rank across 2 million votes from 190 countries.
+
+**Some AIs changed the figure and kept the geometry intact. One of them gave her six arms and kept the male anatomy.**
+
+None of them gave the answer Da Vinci would have given. Which is: *why are you even asking?*
+
+Go try the prompt. Vote. Then try your own. See which AI actually thinks.`,
+    affiliate_links: [],
+    tags: ["AI", "design", "tools", "free", "creative"],
+    editors_note: "Pure editorial. Extremely shareable. Great conversation starter.",
+  },
+
+  "2026-05-29": {
+    id: 39,
+    date: "2026-05-29",
+    slug: "upstract",
+    headline: "THE ENTIRE INTERNET ON ONE PAGE.",
+    subheadline: "Upstract pulls the top stories from Reddit, Google News, Yahoo News, Imgur, Reuters, and dozens more into a single live feed. No algorithm. No personalization. Just everything happening right now, all at once.",
+    site: {
+      name: "Upstract",
+      url: "https://upstract.com",
+      screenshot: "/assets/issues/upstract.png",
+      category: "News / Aggregator",
+      vibe: "What the front page of the internet was supposed to be",
+    },
+    body: `Open Upstract and you'll see something you haven't seen in a while: the actual internet.
+
+Not your internet. Not a personalized feed curated by an algorithm that has spent years learning what keeps you clicking. The real internet — what everyone is actually reading, posting, sharing, and arguing about right now, all in one place.
+
+Reddit. Google News. Yahoo News. Imgur. Reuters. AP. Dozens of sources, all pulled into a single live grid. Every story updating in real time. No filter bubble. No engagement optimization. No sponsored content disguised as news.
+
+**Grid view, Briefing view, Wire view.** Switch between them depending on whether you want the visual chaos of everything at once or a cleaner chronological feed.
+
+It's the aggregator the early internet promised and never quite delivered. Before every platform decided it knew better than you what you should see next.
+
+Bookmark it. Check it in the morning instead of opening Twitter. See what the actual world is talking about before any algorithm gets to decide what you should care about.
+
+The whole thing. One page. Right now.`,
+    affiliate_links: [],
+    tags: ["news", "aggregator", "free", "internet", "tools"],
+    editors_note: "Pure editorial. Instantly impressive. Great visual hook.",
+  },
+
+  "2026-05-30": {
+    id: 40,
+    date: "2026-05-30",
+    slug: "electude",
+    headline: "FIX A CAR ENGINE IN YOUR BROWSER. NO GREASE REQUIRED.",
+    subheadline: "Electude is a fully functional car engine simulator used by vocational schools and auto tech programs worldwide. Diagnose real faults, use an oscilloscope, pull codes, replace components. Free. No download.",
+    site: {
+      name: "Electude Simulator",
+      url: "https://simulator.electude.com",
+      screenshot: "/assets/issues/electude.png",
+      category: "Education / Simulation",
+      vibe: "The mechanic training your shop teacher never had access to",
+    },
+    body: `You don't know how a car engine works. Most people don't. It's one of those things that runs your life and remains completely mysterious.
+
+Electude fixes that — and it does it in the most hands-on way possible.
+
+It's a fully functional engine management simulator running in your browser. Not a video. Not an explainer. An actual simulation — with a 3D engine you can interact with, real diagnostic tools, and real faults to diagnose and repair.
+
+**Use the oscilloscope. Read the sensor data. Disconnect components and see what happens. Pull codes from the diagnostic system. Trace the wiring. Find the fault. Fix it.**
+
+The simulator models a complete internal combustion engine with control modules, sensors, actuators, and a CAN network — the same technology in actual vehicles. Vocational schools and automotive programs use it to train real mechanics. Lincoln Tech built it into their curriculum.
+
+There are three difficulty levels — Basic, Advanced, and Specialist — and hundreds of pre-built fault scenarios. You can also just explore the engine freely with no fault loaded, which is genuinely the best way to understand how the whole system connects.
+
+The work order in our version listed the technician as "Rubberneckai." The car had a real VIN. It felt like a job.
+
+Go be a mechanic for twenty minutes. You'll never look at your dashboard warning light the same way again.`,
+    affiliate_links: [],
+    tags: ["education", "simulation", "free", "automotive", "tools"],
+    editors_note: "Pure editorial. Unique concept. Broad appeal — car owners, students, curious people.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
