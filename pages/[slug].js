@@ -87,9 +87,9 @@ export default function SlugIssuePage({ issue, maxId }) {
     <>
       <Head>
         <title>{issue.site.name} — Rubberneck.ai</title>
-        <meta name="description" content={issue.subheadline} />
+        <meta name="description" content={`${issue.subheadline} — Rubberneck.ai: Websites that grab you by the eyeballs. You won't look away.`} />
         <meta property="og:title" content={`${issue.headline} — Rubberneck.ai`} />
-        <meta property="og:description" content={issue.subheadline} />
+        <meta property="og:description" content={`${issue.subheadline} — Rubberneck.ai: Websites that grab you by the eyeballs. You won't look away.`} />
         <meta property="og:image" content={ogImage} />
         <meta property="og:url" content={`https://rubberneck.ai/${issue.slug}`} />
         <meta property="og:type" content="website" />
