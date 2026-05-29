@@ -1349,6 +1349,37 @@ Go search something. Start with your hometown.`,
     editors_note: "Pure editorial. Unique and instantly compelling. Great for creative professionals and curious people.",
   },
 
+  "2026-06-02": {
+    id: 43,
+    date: "2026-06-02",
+    slug: "resortpass",
+    headline: "YOU DON'T HAVE TO STAY AT THE HOTEL TO USE THE POOL.",
+    subheadline: "ResortPass lets you book day access to hotel pools, spas, and amenities at over 1,300 luxury resorts — Ritz-Carlton, Four Seasons, Westin, Fairmont — starting at $25. No overnight stay required.",
+    site: {
+      name: "ResortPass",
+      url: "https://www.resortpass.com",
+      screenshot: "/assets/issues/resortpass.png",
+      category: "Travel / Lifestyle",
+      vibe: "The loophole the hotels don't advertise",
+    },
+    body: `Here's something most people don't know: you don't have to be a hotel guest to use a hotel pool.
+
+The Ritz-Carlton has a pool. So does the Four Seasons. The Fairmont, the Westin, the Hyatt — all of them have pools, spas, fitness centers, and cabanas sitting mostly empty on weekday mornings, waiting for guests who never show up.
+
+ResortPass figured out you could just book those amenities directly. No overnight stay. No room. Just a day pass to use the hotel like a guest, leave when you're done, and go home.
+
+**Pools start at $25. Spa access runs higher.** But you're getting Ritz-Carlton amenities for a fraction of what a room costs. Towel service, loungers, the full resort experience — just not the room key.
+
+Over 1,300 hotels and resorts across 400 cities, Mexico, and the Caribbean are on the platform. You search by location and date, pick what you want, book it, and show up. The hotel treats you like any other guest.
+
+It works especially well in cities with business hotels that have great amenities and low weekend occupancy. They'd rather sell you a $40 pool pass than have the chairs sit empty.
+
+Summer is here. Go find the nicest pool in your city and book a Tuesday.`,
+    affiliate_links: [],
+    tags: ["travel", "lifestyle", "hotels", "summer", "pools"],
+    editors_note: "Has affiliate program via affiliates.resortpass.com — apply now. Perfect summer timing.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
