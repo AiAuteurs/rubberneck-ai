@@ -1281,6 +1281,74 @@ Go be a mechanic for twenty minutes. You'll never look at your dashboard warning
     editors_note: "Pure editorial. Unique concept. Broad appeal — car owners, students, curious people.",
   },
 
+  "2026-05-31": {
+    id: 41,
+    date: "2026-05-31",
+    slug: "want-my-mtv",
+    headline: "SOMEONE REBUILT MTV. THE REAL ONE. THE ONE THAT PLAYED MUSIC.",
+    subheadline: "Want My MTV streams 36,000+ classic music videos 24/7 — with period-correct ads, decade filters, MTV2, TRL, Unplugged, and a next button for when Kid Rock shows up. Free. No account.",
+    site: {
+      name: "Want My MTV",
+      url: "https://wantmymtv.vercel.app",
+      screenshot: "/assets/issues/mtv-rewind.png",
+      category: "Music / Nostalgia",
+      vibe: "MTV before it stopped being MTV",
+    },
+    body: `There was a moment — roughly 1981 to 2000 — when MTV was the most important channel on television.
+
+Not because of the reality shows. Not because of the awards show drama. Because it played music videos, back to back, all day, and it was the only place you could see them.
+
+Someone rebuilt it.
+
+Want My MTV streams over 36,000 classic music videos continuously, 24 hours a day. Pick your decade — 80s, 90s, 2000s. Pick your channel — MTV2, TRL, Headbanger's Ball, Unplugged, 120 Minutes. Hit play and get what you're given, the way television used to work.
+
+**The details are what make it.** Period-correct commercials drop in between videos. MTV station IDs from the right era play between sets. It doesn't just stream the videos — it recreates the experience of watching MTV at a specific moment in time.
+
+There's a Next button for when a video comes up you don't want to sit through. That's the only concession to the modern era. Everything else is intentionally out of your control, which turns out to be exactly what makes it work.
+
+Real talk: MTV shut down all its music video channels at the end of 2025. Said they were "closed." Someone on the internet responded by building this.
+
+That's the kind of thing the internet was supposed to be for.
+
+Go turn it on. Leave it running in the background. See what decade your muscle memory takes you back to.`,
+    affiliate_links: [],
+    tags: ["music", "nostalgia", "free", "MTV", "videos"],
+    editors_note: "Pure editorial. Pairs perfectly with My 90s TV. Extremely shareable. Will get forwarded.",
+  },
+
+  "2026-06-01": {
+    id: 42,
+    date: "2026-06-01",
+    slug: "freesound",
+    headline: "723,600 FREE SOUNDS. ALL SEARCHABLE. ALL DOWNLOADABLE. ALL REAL.",
+    subheadline: "Freesound is a community-built library of Creative Commons audio — field recordings, sound effects, instruments, ambience, oddities. Search any sound you can imagine. Someone has recorded it.",
+    site: {
+      name: "Freesound",
+      url: "https://freesound.org",
+      screenshot: "/assets/issues/freesound-org.png",
+      category: "Audio / Creative Tools",
+      vibe: "The world's sounds, all in one place",
+    },
+    body: `Someone recorded the sound of a syringe sucking in air. Someone else recorded an electric saw cutting bricks. Someone recorded their dog Telma eating kibble.
+
+All three are on Freesound right now, uploaded today, free to download and use for anything.
+
+Freesound is a collaborative library of 723,600 sounds — and counting. Built by a community of recordists, musicians, sound designers, filmmakers, game developers, and curious people who had a microphone and something interesting to point it at. Every sound is licensed Creative Commons, which means you can download and use them freely.
+
+**Search anything.** Rain on a tin roof. A 1967 Chevrolet engine turning over. Children laughing in a park in Portugal. An empty cathedral in Spain. A thunderstorm recorded in rural Japan. The specific sound of a wooden door creaking in a specific way. Someone has recorded it and uploaded it.
+
+There's a Random Sound of the Day on the homepage — you hear it first, then guess what it is before revealing the answer. That feature alone will cost you twenty minutes.
+
+The map feature shows you where every sound was recorded geographically. Click any point on earth and hear what it sounds like there.
+
+Nonprofit, community-run, free. One of the genuinely great corners of the internet that most people have never heard of.
+
+Go search something. Start with your hometown.`,
+    affiliate_links: [],
+    tags: ["audio", "sound", "creative", "free", "tools"],
+    editors_note: "Pure editorial. Unique and instantly compelling. Great for creative professionals and curious people.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
