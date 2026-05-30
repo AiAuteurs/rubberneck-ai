@@ -1,52 +1,58 @@
 // pages/api/subscribe.js
+// Sends new signups straight to Beehiiv (publication: Rubberneck.ai).
+// Requires two env vars in Vercel: BEEHIIV_API_KEY and BEEHIIV_PUBLICATION_ID
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const { email } = req.body
-
+  const { email } = req.body || {}
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    return res.status(400).json({ error: 'Valid email required' })
+    return res.status(400).json({ error: 'A valid email is required' })
+  }
+
+  const API_KEY = process.env.BEEHIIV_API_KEY
+  const PUB_ID = process.env.BEEHIIV_PUBLICATION_ID
+
+  if (!API_KEY || !PUB_ID) {
+    console.error('subscribe: missing BEEHIIV_API_KEY or BEEHIIV_PUBLICATION_ID')
+    return res.status(500).json({ error: 'Server not configured' })
   }
 
   try {
-    // 1. Add to Kit
-    const response = await fetch(
-      `https://api.convertkit.com/v3/forms/9351755/subscribe`,
+    const resp = await fetch(
+      `https://api.beehiiv.com/v2/publications/${PUB_ID}/subscriptions`,
       {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${API_KEY}`,
+        },
         body: JSON.stringify({
-          api_key: process.env.KIT_API_KEY,
           email,
+          reactivate_existing: true,   // re-subscribe someone who left
+          send_welcome_email: true,    // fire your Beehiiv welcome email
+          utm_source: 'rubberneck.ai',
+          referring_site: 'rubberneck.ai',
         }),
       }
     )
 
-    const data = await response.json()
-    console.log('Kit response:', data)
-
-    if (!response.ok) {
-      return res.status(500).json({ error: 'Subscription failed', detail: data })
+    if (resp.ok) {
+      return res.status(200).json({ ok: true })
     }
 
-    // 2. Fire notification to rubberneckai@gmail.com via Formspree
-    // Does not block or affect the signup if it fails
-    fetch('https://formspree.io/f/xzdkojqd', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        _subject: '🐔 New Rubberneck Subscriber!',
-        email: email,
-        message: `New subscriber just joined: ${email}`,
-      }),
-    }).catch(() => {}) // silent fail — never block the signup
-
-    return res.status(200).json({ success: true })
-
+    // Beehiiv returns 400 for things like "already subscribed" — treat that as
+    // a success for the user, but log everything so you can see real failures.
+    const detail = await resp.text()
+    console.error('subscribe: beehiiv responded', resp.status, detail)
+    if (resp.status === 400) {
+      return res.status(200).json({ ok: true, note: 'already_subscribed_or_validation' })
+    }
+    return res.status(502).json({ error: 'Upstream error' })
   } catch (err) {
-    console.error('Subscribe error:', err)
-    return res.status(500).json({ error: 'Server error' })
+    console.error('subscribe: request failed', err)
+    return res.status(500).json({ error: 'Subscribe failed' })
   }
 }
