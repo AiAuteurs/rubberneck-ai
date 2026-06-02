@@ -1380,6 +1380,235 @@ Summer is here. Go find the nicest pool in your city and book a Tuesday.`,
     editors_note: "Has affiliate program via affiliates.resortpass.com — apply now. Perfect summer timing.",
   },
 
+  "2026-06-03": {
+    id: 44,
+    date: "2026-06-03",
+    slug: "petfinder",
+    headline: "EVERY ADOPTABLE PET IN AMERICA. ONE SEARCH BOX.",
+    subheadline: "Petfinder has 315,000+ adoptable animals from 14,500 shelters and rescues — dogs, cats, rabbits, horses, reptiles, whatever you're looking for. Search by zip code. Free. No account.",
+    site: {
+      name: "Petfinder",
+      url: "https://www.petfinder.com",
+      screenshot: "/assets/issues/petfinder.png",
+      category: "Animals / Lifestyle",
+      vibe: "The shelter you didn't know was this close",
+    },
+    body: `There are right now, at this exact moment, more than 315,000 animals waiting to be adopted.
+
+They're in shelters. In foster homes. In rescues. Across 14,500 organizations in the United States, Canada, and Mexico. And every single one of them is on Petfinder, searchable by your zip code, right now.
+
+Type where you live. Filter by species, breed, age, size, and whether it's house-trained. Petfinder pulls every available animal near you from every shelter in the network — not just the big ones, not just the obvious ones.
+
+**Dogs. Cats. Rabbits. Birds. Horses. Reptiles. Small and furry things.** Someone near you has one that needs a home.
+
+The photos are what get you. Every profile has them. You start browsing just to look and then you're reading backstories and now you have a tab open with a three-legged dog named Biscuit from a rescue 12 miles away and you're trying to figure out if you're a dog person.
+
+You might be a dog person.
+
+Go find out.`,
+    affiliate_links: [],
+    tags: ["animals", "adoption", "pets", "free"],
+    editors_note: "Pure editorial. High emotional resonance. Great for shares.",
+  },
+
+  "2026-06-04": {
+    id: 45,
+    date: "2026-06-04",
+    slug: "unsplash",
+    headline: "8 MILLION GORGEOUS PHOTOS. EVERY ONE FREE.",
+    subheadline: "400,000 photographers donated their best work to Unsplash — 8 million high-resolution images, no attribution required, no license fees, no watermarks. Download anything. Use it for anything.",
+    site: {
+      name: "Unsplash",
+      url: "https://unsplash.com",
+      screenshot: "/assets/issues/unsplash.png",
+      category: "Photography / Creative Tools",
+      vibe: "The photo library the internet deserved",
+    },
+    body: `Stock photography used to cost hundreds of dollars per image.
+
+Then Unsplash happened.
+
+In 2013, a small Montreal startup couldn't afford stock photos for their website. So they shot their own and posted 10 of them on Tumblr, free to use, no strings attached. They went viral. 30,000 downloads in 24 hours.
+
+That Tumblr became Unsplash, which now has **8 million images** donated by 400,000 photographers from around the world. No attribution required. No watermarks. No license fees. No subscription. No catch.
+
+Download anything. Use it for anything. Commercial, personal, whatever. The community decided to give their work away, and the result is the best free photo library on the internet.
+
+The quality is the thing. These aren't the stiff, fake-smile, two-people-shaking-hands-in-front-of-a-laptop corporate stock photos. They're real photographs. Moody street scenes. Landscapes that look like paintings. Architecture. Food. People who look like people.
+
+Search by subject, mood, or color. Filter by orientation. The results are consistently beautiful.
+
+8 billion images have been downloaded from Unsplash. That means somewhere out there, 8 billion things exist with a photo from this collection in them.
+
+Go take something.`,
+    affiliate_links: [],
+    tags: ["photography", "creative", "free", "design", "tools"],
+    editors_note: "Pure editorial. Insanely useful. Will get bookmarked by creative people.",
+  },
+
+  "2026-06-05": {
+    id: 46,
+    date: "2026-06-05",
+    slug: "coppola-pool",
+    headline: "YOU CAN SWIM AT FRANCIS FORD COPPOLA'S WINERY.",
+    subheadline: "The Godfather built a winery in Sonoma. Then he added two pools with a swim-thru, private cabines, lounge chairs, and a poolside café. You can book a day there. From $325.",
+    site: {
+      name: "Francis Ford Coppola Winery — Pool",
+      url: "https://www.francisfordcoppolawinery.com/pool/",
+      screenshot: "/assets/issues/coppola-pool.png",
+      category: "Travel / Experiences",
+      vibe: "Leave the gun. Take the cabana.",
+    },
+    body: `Francis Ford Coppola won the Oscar for Best Director. He also has a pool you can swim in.
+
+Two of them, actually. Connected by a swim-thru, 3,600 square feet total, sitting in the middle of his winery in Geyserville in the heart of Sonoma wine country. Private cabines with showers and lounge chairs. A poolside café. Towel service. The works.
+
+You don't have to book a room. You don't have to stay the night. You book a cabine, show up, and spend the day at a luxury winery pool in wine country because it turns out that's just a thing you can do.
+
+**The cabines go for $325 on weekdays, $350 on weekends.** That gets you private space, four pool passes, showers, and the experience of swimming at the Godfather director's estate in wine country — which is not something you expected to be doing when you woke up today.
+
+The 2026 season is already open. Weekdays in wine country, away from the crowds, at a pool that looks like it was designed for a movie.
+
+It might have been.
+
+Book a Tuesday. Leave the gun. Take the towel.`,
+    affiliate_links: [],
+    tags: ["travel", "experiences", "california", "wine", "summer", "pools"],
+    editors_note: "Pure editorial. Cinematic angle plays perfectly. Summer timing is perfect.",
+  },
+
+  "2026-06-06": {
+    id: 47,
+    date: "2026-06-06",
+    slug: "atlas-obscura",
+    headline: "24,000 OF THE WORLD'S WEIRDEST PLACES. ALL REAL. ALL VISITABLE.",
+    subheadline: "Atlas Obscura is a guide to the hidden, strange, and wonderful places the world doesn't put on tourist maps — 24,000 of them, catalogued by a community of obsessives. Go find what the tour buses missed.",
+    site: {
+      name: "Atlas Obscura",
+      url: "https://www.atlasobscura.com",
+      screenshot: "/assets/issues/atlas-obscura.png",
+      category: "Travel / Discovery",
+      vibe: "The travel guide for people who find regular travel boring",
+    },
+    body: `The Eiffel Tower is fine. The Grand Canyon is great. You've seen the photos.
+
+Atlas Obscura is for everything else.
+
+It's a guide to the world's hidden, strange, and wonderful places — 24,000 of them, catalogued over the past decade by a community of curious people who went off the tourist maps and wrote down what they found.
+
+**What kinds of places?** A chapel built entirely from human bones in the Czech Republic. The world's largest collection of neon signs in Las Vegas. A door in New Jersey that opens to nothing, 30 feet above the ground. Catacombs beneath Paris that are illegal to enter. A lake in Tanzania where the alkalinity is so extreme it turns animals to stone. A town in Spain that exists entirely inside a cave.
+
+All real. All visitable. Most of them have nobody there when you show up.
+
+The site is searchable by location — pull up any city and find what the tour buses missed. There are trip planning features, a curated journal, and a community that has been adding places for years.
+
+Go search your city first.
+
+There's something strange there you've never heard of.`,
+    affiliate_links: [],
+    tags: ["travel", "discovery", "weird", "history", "exploration"],
+    editors_note: "Pure editorial. Extremely high shareability. This is what Rubberneck was built for.",
+  },
+
+  "2026-06-07": {
+    id: 48,
+    date: "2026-06-07",
+    slug: "citizen-dj",
+    headline: "THE LIBRARY OF CONGRESS BUILT YOU A BEAT MACHINE.",
+    subheadline: "Citizen DJ lets you sample thousands of public domain audio recordings from the Library of Congress — Edison cylinders, 1920s jazz, vaudeville acts, rare spoken word — right in your browser. Free. Legal. Genuinely strange.",
+    site: {
+      name: "Citizen DJ",
+      url: "https://citizen-dj.labs.loc.gov",
+      screenshot: "/assets/issues/citizen-dj.png",
+      category: "Music / Creative Tools",
+      vibe: "100 years of history, ready to sample",
+    },
+    body: `The Library of Congress has been collecting recordings since 1877.
+
+Cylinder recordings. 78 rpm discs. Field recordings from the 1930s. Vaudeville acts. Early jazz. Songs that were recorded before electricity, before radio, before the entire modern world existed. Sounds that most people don't know exist and have never heard.
+
+Someone built a beat machine out of all of it.
+
+Citizen DJ — built in collaboration with the Library of Congress — lets you explore those collections and sample them directly in your browser. Pick a collection. Browse the recordings. Hit any sample to loop it. Layer sounds on top of each other. Export what you make.
+
+**It's completely free. Everything is public domain. You can use what you create for anything.**
+
+There's something genuinely strange about making a beat out of a 1924 recording of a woman singing a folk song in rural Kentucky. Or sampling a cylinder recording from 1897. Or building something new out of the oldest sounds in America.
+
+That's the point. The Library of Congress has all of this sitting in a vault. Citizen DJ opens the vault and hands you turntables.
+
+Go make something from 100 years ago.`,
+    affiliate_links: [],
+    tags: ["music", "creative", "free", "history", "tools", "audio"],
+    editors_note: "Pure editorial. Genuinely unlike anything else on the internet. High creative appeal.",
+  },
+
+  "2026-06-08": {
+    id: 49,
+    date: "2026-06-08",
+    slug: "future-library",
+    headline: "100 YEARS OF UNPUBLISHED MANUSCRIPTS. LOCKED IN A NORWEGIAN FOREST.",
+    subheadline: "Since 2014, one writer a year has submitted a manuscript to Future Library — sealed, unread, unpublished. Margaret Atwood went first. In 2114, they'll all be released at once, printed on paper from 1,000 trees planted specifically for this moment. Nobody alive today will ever read them.",
+    site: {
+      name: "Future Library",
+      url: "https://www.futurelibrary.no",
+      screenshot: "/assets/issues/future-library.png",
+      category: "Art / Literature",
+      vibe: "The longest long game in the history of books",
+    },
+    body: `In 2014, an artist named Katie Paterson planted 1,000 trees in a forest outside Oslo.
+
+When those trees are harvested — in 2114 — they'll be turned into paper. That paper will be used to print 100 manuscripts. Those manuscripts are being written right now, one per year, by some of the most celebrated writers alive. And nobody will read any of them until the trees are ready.
+
+Not one word. Not a sentence. Not a summary.
+
+Margaret Atwood was the first, in 2014. She submitted a manuscript, sealed it, and said nothing about what was in it. David Mitchell. Karl Ove Knausgård. Han Kang. Every year, one more writer hands something to Future Library, walks away, and trusts that the world will still be reading in 100 years.
+
+**The manuscripts are kept in a specially designed room in the Oslo Public Library.** A silent room, built specifically for this purpose, climate controlled. The titles are public. The contents are not.
+
+Think about what this requires. Trust in the future. Trust that books will still matter. Trust that someone a century from now will open this room and find what was left for them.
+
+Nobody reading this will ever read those manuscripts.
+
+That's the whole point.`,
+    affiliate_links: [],
+    tags: ["art", "literature", "books", "future", "norway"],
+    editors_note: "One of the most extraordinary things on the internet. Will stop people in their tracks.",
+  },
+
+  "2026-06-09": {
+    id: 50,
+    date: "2026-06-09",
+    slug: "gnoosic",
+    headline: "TYPE 3 BANDS YOU LOVE. IT FINDS YOUR NEXT FAVORITE.",
+    subheadline: "Gnoosic is a music discovery tool built on collective human taste — not algorithms, not ad spend, not label deals. Three names in. One discovery out. Free. No account. Surprisingly good.",
+    site: {
+      name: "Gnoosic",
+      url: "https://www.gnoosic.com",
+      screenshot: "/assets/issues/gnoosic.png",
+      category: "Music / Discovery",
+      vibe: "The anti-Spotify",
+    },
+    body: `Spotify knows exactly what you listen to.
+
+It uses that data to recommend more of the same — nudged by label deals, promotional placements, and the financial incentive to keep you inside a bubble of familiar sounds. It's not trying to expand your taste. It's trying to keep you subscribed.
+
+Gnoosic doesn't know anything about you.
+
+You type three bands you love. It suggests one artist you've probably never heard of, based purely on the collective taste of the thousands of people who came before you and answered the same question. You say like, dislike, or never heard of them. It learns. It suggests another.
+
+**No account. No algorithm. No ad spend. No playlists. No data collection.** Just human taste, aggregated and handed back to you.
+
+The recommendations are genuinely surprising. Not "if you like The National you might like Bon Iver" obvious. It goes somewhere you wouldn't have gone yourself, which is the thing music discovery has always been supposed to do.
+
+The site looks like it was built in 2003. That's not an accident. It does one thing and does it well, and it has been doing it quietly for years while Spotify got complicated.
+
+Type three bands. See where it takes you.`,
+    affiliate_links: [],
+    tags: ["music", "discovery", "free", "algorithm-free"],
+    editors_note: "Pure editorial. Perfect counterpoint to algorithm-driven discovery. Very shareable.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
