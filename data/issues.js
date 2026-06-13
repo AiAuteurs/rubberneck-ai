@@ -1704,6 +1704,72 @@ Order a wheel. Figure out what you've been settling for.`,
     editors_note: "Pure editorial. Lifestyle/food pick. Great gift angle — corporate gift section on site too.",
   },
 
+  "2026-06-13": {
+    id: 54,
+    date: "2026-06-13",
+    slug: "future-timeline",
+    headline: "SOMEONE MAPPED OUT EVERYTHING THAT'S GOING TO HAPPEN. ALL THE WAY TO THE YEAR 9999.",
+    subheadline: "Future Timeline is a detailed, research-based timeline of future events — decade by decade, from right now through the 21st century, the 22nd, and deep into the far future. Climate, technology, medicine, geopolitics, and the eventual spread of humanity through the galaxy.",
+    site: {
+      name: "Future Timeline",
+      url: "https://www.futuretimeline.net",
+      screenshot: "/assets/issues/future-timeline.png",
+      category: "Science / Future",
+      vibe: "The most ambitious website on the internet",
+    },
+    body: `Someone sat down and mapped out everything that's going to happen.
+
+Not guessing. Not science fiction. Projections — built from current trends, climate modeling, Moore's Law, the latest medical research, and geopolitical analysis — assembled into a single scrollable timeline that runs from right now to the year 9999.
+
+The near future is sobering and fascinating in equal measure. Climate milestones. Technological thresholds. Medical breakthroughs with projected dates. AI development curves. Population peaks. The timeline moves decade by decade through the 21st century with the specificity of someone who has actually done the research.
+
+Then it keeps going.
+
+**The 22nd century** brings diverging paths for humans and transhumans. Eco-technic societies. The acceleration of space colonization. Things that sound like fiction but are presented as the logical extrapolation of trends already underway.
+
+**The far future** — and this is where the site becomes something else entirely — describes post-biological humanity spreading through the galaxy, transforming dead worlds into computational substrates. It goes to 3000. To 9999. Beyond.
+
+This isn't a doomsday site. It's not utopian either. It's a serious attempt to answer the question nobody wants to sit with for very long: what actually happens next?
+
+Clear your afternoon. Start at 2030 and see how far you get.`,
+    affiliate_links: [],
+    tags: ["science", "future", "technology", "climate", "humanity"],
+    editors_note: "Pure editorial. Pairs beautifully with Future Library (June 8). One of the most mind-expanding sites on the internet.",
+  },
+
+  "2026-06-14": {
+    id: 55,
+    date: "2026-06-14",
+    slug: "deflock",
+    headline: "EVERY CAMERA PHOTOGRAPHING YOUR LICENSE PLATE, MAPPED.",
+    subheadline: "DeFlock is a crowdsourced map of ALPR camera locations across the United States — the automated license plate readers that log your location, direction, and time of travel every time you drive past one. See where they all are. Route around them.",
+    site: {
+      name: "DeFlock Maps",
+      url: "https://maps.deflock.org/",
+      screenshot: "/assets/issues/deflock.png",
+      category: "Privacy / Tools",
+      vibe: "The surveillance you didn't know was watching",
+    },
+    body: `There are cameras positioned across America that photograph your license plate.
+
+Not occasionally. Constantly. Every time you drive past one, it logs your plate number, your location, the direction you were heading, and the exact time. That data goes into a database. Sometimes it's law enforcement. Sometimes it's private companies. Sometimes it's both.
+
+They're called ALPR cameras — Automated License Plate Readers. Most people have never heard of them. Most people drive past dozens of them every week.
+
+**DeFlock is a crowdsourced map that shows you where all of them are.** Community-reported, continuously updated, covering thousands of locations across the United States. Zoom into your city and see how many are on your daily commute. The answer is almost always more than you expected.
+
+There's also a route planner. Put in your origin and destination and DeFlock will calculate a path that avoids as many ALPR cameras as possible. Privacy-optimized routing, built on the same idea as traffic avoidance — except what you're avoiding is being logged.
+
+This isn't a conspiracy site. It's a practical privacy tool built by people who believe you have the right to know when you're being tracked.
+
+Open the map. Search your neighborhood.
+
+Then decide how you feel about what you find.`,
+    affiliate_links: [],
+    tags: ["privacy", "surveillance", "tools", "maps", "technology"],
+    editors_note: "Pure editorial. High curiosity and shareability. Will make people look up their own neighborhood immediately.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
