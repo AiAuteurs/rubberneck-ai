@@ -1770,6 +1770,39 @@ Then decide how you feel about what you find.`,
     editors_note: "Pure editorial. High curiosity and shareability. Will make people look up their own neighborhood immediately.",
   },
 
+  "2026-06-15": {
+    id: 56,
+    date: "2026-06-15",
+    slug: "andre-is-an-idiot",
+    headline: "HE SKIPPED HIS COLONOSCOPY. THEN HE MADE A MOVIE ABOUT IT.",
+    subheadline: "André Is an Idiot is an A24 documentary about André Ricciardi, who skipped a routine colonoscopy, got a terminal cancer diagnosis, and decided to film the whole thing. 97% on Rotten Tomatoes. The URL is real.",
+    site: {
+      name: "André Is an Idiot",
+      url: "https://www.andreisanidiot.com",
+      screenshot: "/assets/issues/andre-is-an-idiot.png",
+      category: "Film / Health",
+      vibe: "The most important movie you'll watch because of a URL",
+    },
+    body: `The URL alone should tell you everything.
+
+andreisanidiot.com.
+
+André Ricciardi skipped his colonoscopy. Then he got a terminal cancer diagnosis. Then, instead of keeping it private, he decided to make a documentary about it — about the diagnosis, about what came next, about being the kind of person who skips the thing the doctor told him to do and then has to live with what that means.
+
+The film is called *André Is an Idiot*. It premiered at Sundance in 2025. It's an A24 production. It has a 97% on Rotten Tomatoes. The critical consensus: "A public service announcement with a disarming sense of humor — it brings a light touch to a morbid topic and is all the more powerful for it."
+
+**Colorectal cancer is the second leading cause of cancer death in the United States.** It is also among the most preventable, with regular screenings starting at age 45. André knew this. He skipped the appointment anyway. He's not the only one.
+
+The film isn't a guilt trip. It's something stranger and more generous than that — a man who looked at the worst thing that happened to him and decided the most useful thing he could do was be honest about how it happened, and funny about it, so that someone else might not make the same call.
+
+Go to the site. Watch the trailer.
+
+Then schedule the appointment you've been putting off.`,
+    affiliate_links: [],
+    tags: ["film", "health", "documentary", "cancer", "a24"],
+    editors_note: "One of the best URLs on the internet. Powerful story. Will genuinely save lives if it gets people to schedule screenings.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
