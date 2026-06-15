@@ -1803,6 +1803,105 @@ Then schedule the appointment you've been putting off.`,
     editors_note: "One of the best URLs on the internet. Powerful story. Will genuinely save lives if it gets people to schedule screenings.",
   },
 
+  "2026-06-16": {
+    id: 57,
+    date: "2026-06-16",
+    slug: "pink-trombone",
+    headline: "SOMEONE PUT A HUMAN MOUTH IN YOUR BROWSER. YOU CONTROL IT.",
+    subheadline: "Pink Trombone is a real-time simulation of the human vocal tract. Move the tongue. Adjust the lips. Open the nasal passage. It generates the exact sound a human mouth would make in that position. Linguistics researchers use it. You will use it to make noises that haunt you.",
+    site: {
+      name: "Pink Trombone",
+      url: "https://imaginary.github.io/pink-trombone/",
+      screenshot: "/assets/issues/pink-trombone.png",
+      category: "Science / Interactive",
+      vibe: "Educational. Deeply unsettling. Cannot stop.",
+    },
+    body: `It's a mouth.
+
+In your browser. Fully operational. You control it.
+
+Pink Trombone is a real-time simulation of the human vocal tract, built by programmer and mathematician Neil Thapen. The pink blob on screen is a cross-section of a human mouth and throat — tongue, lips, velum, nasal cavity, the whole apparatus. Drag the tongue around and it changes position. Adjust the lip opening. Open or close the nasal passage. The simulation generates exactly the sound a human mouth would make in that configuration, in real time.
+
+**Linguistics researchers use this.** Speech pathologists use this. People studying how humans produce sound use this to understand why moving the tongue 3mm to the left turns an "ah" into an "oh."
+
+You will use it to make a sound like a sentient piece of meat trying to remember its own name.
+
+That's fine. That's what it's for. Thapen built it open source, put it on the internet, and named it Pink Trombone, which is either the most clinical or most unhinged name for a vocal tract simulator, depending on how you look at it.
+
+There is no goal. There is no score. You just move the tongue around and see what comes out.
+
+You will be here for longer than you think.`,
+    affiliate_links: [],
+    tags: ["science", "interactive", "weird", "audio", "free"],
+    editors_note: "Instant classic. Will be shared immediately by everyone who opens it. One of the most Rubberneck things on the internet.",
+  },
+
+  "2026-06-17": {
+    id: 58,
+    date: "2026-06-17",
+    slug: "babadum",
+    headline: "THE PRETTIEST VOCABULARY GAME ON THE INTERNET.",
+    subheadline: "Ba Ba Dum is a beautifully illustrated word game that teaches you 1,500 words across 21 languages through 5 different game types. No account. No streaks. No guilt owl. Just gorgeous flashcards and vocabulary games, free.",
+    site: {
+      name: "Ba Ba Dum",
+      url: "https://babadum.com/",
+      screenshot: "/assets/issues/babadum.png",
+      category: "Language / Games",
+      vibe: "The anti-Duolingo",
+    },
+    body: `Duolingo has a guilt owl. It sends you notifications. It tracks your streaks. It makes you feel bad when you miss a day.
+
+Ba Ba Dum has none of that.
+
+It's a vocabulary game — 1,500 words, 21 languages, 5 game types — wrapped in some of the most beautiful illustration work you'll find on the free internet. Every word comes with a hand-drawn image. Clean, colorful, the kind of visual design that makes you want to keep clicking just to see what comes next.
+
+**Pick a language.** Spanish, Japanese, Polish, Arabic, Hindi, Hebrew, and 15 more. **Pick a game.** Match the word to the image. Identify the sound. Choose the right picture from four options. Type what you hear. Each format drills the same vocabulary from a different angle, which is actually how retention works.
+
+No account required. No progress bar guilt-tripping you. No notifications. No streak to protect. You open it, you play, you learn some words, you close it. That's the whole deal.
+
+It won't replace immersion. It won't make you fluent. But it will teach you 1,500 words in a language you've always wanted to learn, for free, in one of the most pleasant interfaces on the web.
+
+Pick a language you've always wanted. Start with the first game.
+
+See how far you get before you realize you've been here for an hour.`,
+    affiliate_links: [],
+    tags: ["language", "learning", "games", "free", "design"],
+    editors_note: "Pure editorial. Beautiful design makes it instantly shareable. Broad audience appeal.",
+  },
+
+  "2026-06-18": {
+    id: 59,
+    date: "2026-06-18",
+    slug: "thisiswhyimbroke",
+    headline: "YOU DON'T NEED ANY OF THIS. YOU WILL WANT ALL OF IT.",
+    subheadline: "ThisIsWhyImBroke is a curated catalogue of the most wonderful, ridiculous, and completely unnecessary products on the internet — things you had no idea existed and immediately need. The name is a warning. You won't heed it.",
+    site: {
+      name: "This Is Why I'm Broke",
+      url: "https://www.thisiswhyimbroke.com/",
+      screenshot: "/assets/issues/thisiswhyimbroke.png",
+      category: "Shopping / Entertainment",
+      vibe: "Your bank account's worst enemy",
+    },
+    body: `The name is a warning.
+
+You will not heed it.
+
+ThisIsWhyImBroke is exactly what it sounds like — a curated catalog of the most wonderful, ridiculous, and completely unnecessary products the internet has to offer. A katana umbrella. A shark sleeping bag. A life-size Nicolas Cage cardboard cutout. A working periscope for your car. A giant hand-shaped back scratcher. Things that exist, that someone designed and manufactured, and that you absolutely did not know you needed until 30 seconds ago.
+
+**This is not Amazon.** There's no algorithm, no sponsored results, no "frequently bought together." It's a human-curated collection of genuinely bizarre and delightful products, updated constantly, organized by category — gadgets, outdoor, food, novelty, home, apparel — with a Random button if you just want to freefall into the catalog.
+
+Every product links out to where you can actually buy it. That's where the danger is. You go to browse and you end up explaining to your partner why you need a kayak attachment for your bicycle.
+
+There is a wishlist feature. Use it. It's the only thing standing between you and your savings account.
+
+The URL says everything. You have been warned.
+
+Go anyway.`,
+    affiliate_links: [],
+    tags: ["shopping", "gifts", "weird", "products", "entertainment"],
+    editors_note: "Pure editorial. Massive shareability. Check if there's an affiliate program — site links out to Amazon and others.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
