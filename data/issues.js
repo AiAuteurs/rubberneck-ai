@@ -1902,6 +1902,103 @@ Go anyway.`,
     editors_note: "Pure editorial. Massive shareability. Check if there's an affiliate program — site links out to Amazon and others.",
   },
 
+  "2026-06-19": {
+    id: 60,
+    date: "2026-06-19",
+    slug: "magic-eraser",
+    headline: "BRUSH OVER ANYTHING IN A PHOTO. IT DISAPPEARS.",
+    subheadline: "Magic Eraser uses AI to remove objects, people, text, or anything else from photos in seconds. Upload a photo, brush over what you want gone, download the result. Free. No account. No Photoshop.",
+    site: {
+      name: "Magic Eraser by Magic Studio",
+      url: "https://magicstudio.com/magiceraser/",
+      screenshot: "/assets/issues/magic-eraser.png",
+      category: "AI Tools / Photography",
+      vibe: "Photoshop's most useful trick, free in your browser",
+    },
+    body: `There's a stranger in the background of your perfect photo. A trash can in the corner. An ex. A power line cutting across an otherwise beautiful sky.
+
+Upload the photo. Brush over the thing you want gone. Click erase.
+
+It's gone.
+
+Magic Eraser uses AI to remove objects, people, text, blemishes, or anything else from a photo in seconds — and it fills in what was behind it so realistically that you'd never know something was there. No jagged edges, no blurred patch, no evidence. Just the photo without the thing you didn't want.
+
+**Free. No account required. No watermark. Unlimited use.** Supports JPG, PNG, AVIF, and WEBP. Works on any device with a browser.
+
+This is the thing people pay for Photoshop to do. Specifically the one feature — Content-Aware Fill — that makes photo editing feel like magic. Magic Eraser does exactly that, for free, in about ten seconds, without making you learn anything.
+
+Upload a photo you've been meaning to fix. The one where everything's perfect except for one thing. You know the one.
+
+It takes ten seconds. Go.`,
+    affiliate_links: [],
+    tags: ["ai", "photography", "tools", "free", "design"],
+    editors_note: "Instant utility. Everyone has a photo they want to fix. Will be used and shared immediately.",
+  },
+
+  "2026-06-20": {
+    id: 61,
+    date: "2026-06-20",
+    slug: "watermark-remover",
+    headline: "REMOVE ANY WATERMARK FROM ANY PHOTO. FREE. TAKES FIVE SECONDS.",
+    subheadline: "Watermark Remover uses AI to strip logos, stamps, and watermarks from images cleanly — no blurry patch, no trace. Upload, remove, download. Free, no account required.",
+    site: {
+      name: "Watermark Remover",
+      url: "https://www.watermarkremover.ai",
+      screenshot: "/assets/issues/watermark-remover.png",
+      category: "AI Tools / Photography",
+      vibe: "Clean images in five seconds flat",
+    },
+    body: `Watermarks are everywhere.
+
+The photo you took on your phone that an app stamped its logo on. The screenshot with a website's URL baked across the corner. The image you own but some tool decided to brand before letting you download it.
+
+Watermark Remover takes them off. All of them. Upload the image, let the AI find and remove the watermark, download the clean version. Five seconds. Free. No account.
+
+**The result is clean** — not the blurry, smudged patch you'd get from cloning it out manually, but a properly filled-in image that looks like the watermark was never there. The AI reconstructs what's underneath based on the surrounding pixels, which sounds impossible and mostly works.
+
+It handles logos, text stamps, date stamps, diagonal watermarks, semi-transparent overlays — the full range of things people use to brand images before you can use them.
+
+No subscription. No watermark added to your output (which would be ironic). No account required. Just upload and go.
+
+You have an image with something on it that shouldn't be there. Now you know what to do.`,
+    affiliate_links: [],
+    tags: ["ai", "photography", "tools", "free", "design"],
+    editors_note: "Pairs with Magic Eraser (June 19) — consider spacing these out if back-to-back feels repetitive.",
+  },
+
+  "2026-06-21": {
+    id: 62,
+    date: "2026-06-21",
+    slug: "kanopy",
+    headline: "YOU'RE PAYING FOR NETFLIX. YOUR LIBRARY CARD GETS YOU THIS FOR FREE.",
+    subheadline: "Kanopy is a free streaming service available through your public library — thousands of films, documentaries, and classics, including art house and foreign cinema you won't find anywhere else. No credit card. No subscription. Just a library card.",
+    site: {
+      name: "Kanopy",
+      url: "https://www.kanopy.com/",
+      screenshot: "/assets/issues/kanopy.png",
+      category: "Film / Entertainment",
+      vibe: "The streaming service you already pay for and didn't know it",
+    },
+    body: `You're paying for Netflix. Probably Hulu. Maybe Max, Disney+, and something else you forgot to cancel.
+
+You have a library card in your wallet that gets you a completely free streaming service with better films than any of them. You've had it the whole time.
+
+Kanopy is a streaming platform funded by public libraries — sign in with your library card, and you get access to thousands of films at no cost. No credit card. No free trial that converts to a subscription. No ads. Just films.
+
+**The catalog is extraordinary.** Criterion Collection films. Classic cinema. Independent and art house features. International films with subtitles. Award-winning documentaries. The kind of library that film schools use, because many of them do.
+
+You won't find the latest Marvel movie on Kanopy. That's not the point. You'll find *Tokyo Story*. *Bicycle Thieves*. *Moonlight*. *Grey Gardens*. Films that changed what movies can be, available free because a librarian somewhere decided that access to great cinema is part of what public libraries are for.
+
+Go to kanopy.com, type in your library system, sign in with your card.
+
+If your library participates — and most do — you've had a free Criterion streaming service in your pocket this whole time.
+
+Go find out what you've been missing.`,
+    affiliate_links: [],
+    tags: ["film", "streaming", "free", "library", "entertainment"],
+    editors_note: "Pure editorial. Broad appeal. Will genuinely surprise people who didn't know this existed. Great palette cleanser after the AI tools.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
