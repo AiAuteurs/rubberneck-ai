@@ -2034,6 +2034,39 @@ Paste something in. See what it does.`,
     editors_note: "Check for affiliate program. Strong professional appeal. Will resonate with anyone who makes presentations or writes docs.",
   },
 
+  "2026-06-23": {
+    id: 64,
+    date: "2026-06-23",
+    slug: "foodfinder",
+    headline: "EVERY FOOD PANTRY NEAR YOU. ONE ZIP CODE.",
+    subheadline: "FoodFinder is a searchable map of food pantries across America. Enter your zip code and it shows you every one nearby — address, hours, contact info, everything you need to walk in the door. Free. No account.",
+    site: {
+      name: "FoodFinder",
+      url: "https://foodfinder.us/",
+      screenshot: "/assets/issues/foodfinder.png",
+      category: "Community / Resources",
+      vibe: "The site that knows where the food is",
+    },
+    body: `Most people don't know where their local food pantry is.
+
+They know food pantries exist. They might know they're somewhere in their city or town. But if you needed one today — if a friend needed one, if a family member needed one — most people wouldn't know where to send them.
+
+FoodFinder fixes that.
+
+Type in a zip code. The map fills with every food pantry in the area — address, phone number, hours of operation, everything you need to walk in the door. No signup, no form to fill out, no proof of eligibility required just to look at the map.
+
+**The database covers thousands of locations across the United States.** Food banks, church pantries, community fridges, mutual aid distributions — if it's a place where someone can get food, FoodFinder tries to have it.
+
+This is the kind of site that exists quietly, does something genuinely important, and most people have never heard of. You probably don't need it today. Someone you know might. Someone in your neighborhood almost certainly does.
+
+Bookmark it. Share it.
+
+You might need it someday. Someone reading this already does.`,
+    affiliate_links: [],
+    tags: ["community", "food", "resources", "free", "social good"],
+    editors_note: "Pure editorial. Meaningful, shareable, important. Good contrast after the AI tools run.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
