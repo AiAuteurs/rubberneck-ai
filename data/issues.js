@@ -1999,6 +1999,41 @@ Go find out what you've been missing.`,
     editors_note: "Pure editorial. Broad appeal. Will genuinely surprise people who didn't know this existed. Great palette cleanser after the AI tools.",
   },
 
+  "2026-06-22": {
+    id: 63,
+    date: "2026-06-22",
+    slug: "napkin-ai",
+    headline: "PASTE ANY TEXT. IT TURNS IT INTO A DIAGRAM.",
+    subheadline: "Napkin AI transforms your text into visuals — flowcharts, infographics, mind maps, process diagrams, charts — automatically. No prompting, no design skills, no drawing. Paste your text, click generate, done. Free.",
+    site: {
+      name: "Napkin AI",
+      url: "https://www.napkin.ai",
+      screenshot: "/assets/issues/napkin-ai.png",
+      category: "AI Tools / Productivity",
+      vibe: "Your ideas, finally in a format people will actually understand",
+    },
+    body: `You have an idea. It makes perfect sense in your head.
+
+Then you try to explain it in a document and halfway through the third paragraph you realize nobody is going to read this, let alone understand it.
+
+Napkin fixes that.
+
+Paste your text into Napkin — a document, a paragraph, a bulleted list of ideas, anything — and it generates visuals directly from what you wrote. Flowcharts. Mind maps. Infographics. Process diagrams. Org charts. The kind of thing that makes a 500-word explanation obsolete in seconds.
+
+**No prompting required.** You don't have to tell it what kind of visual to make or describe what you want. It reads the text and figures it out. You pick the version that best matches what you had in mind and adjust from there.
+
+No design skills needed. No drawing. No wrestling with PowerPoint shapes for an hour. The whole point is that the work happens automatically so you can focus on the idea, not the diagram.
+
+Export as PPT, PNG, PDF, or SVG. Drop it into a presentation, a blog post, a Notion doc, a LinkedIn article. Works in 60+ languages.
+
+Free to start. The kind of tool where you paste something in just to see what it does and end up using it for everything.
+
+Paste something in. See what it does.`,
+    affiliate_links: [],
+    tags: ["ai", "productivity", "design", "tools", "free"],
+    editors_note: "Check for affiliate program. Strong professional appeal. Will resonate with anyone who makes presentations or writes docs.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
