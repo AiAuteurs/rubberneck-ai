@@ -2067,6 +2067,72 @@ You might need it someday. Someone reading this already does.`,
     editors_note: "Pure editorial. Meaningful, shareable, important. Good contrast after the AI tools run.",
   },
 
+  "2026-06-24": {
+    id: 66,
+    date: "2026-06-24",
+    slug: "top-class-actions",
+    headline: "COMPANIES HAVE BEEN SUED ON YOUR BEHALF. HERE'S YOUR MONEY.",
+    subheadline: "Top Class Actions tracks every open class action settlement in America — lawsuits against companies like Google, Toyota, Snapchat, TransUnion, and hundreds more where ordinary consumers can file a claim and get a check. Most people never know they're eligible.",
+    site: {
+      name: "Top Class Actions",
+      url: "https://topclassactions.com/",
+      screenshot: "/assets/issues/top-class-actions.png",
+      category: "Consumer / Legal",
+      vibe: "The money corporations owe you that you never collected",
+    },
+    body: `Corporations get sued all the time.
+
+Sometimes they settle. When they settle a class action, the money is supposed to go to the people they wronged — the customers who bought the defective product, used the misleading service, had their data breached, or got overcharged. Billions of dollars a year get set aside for ordinary consumers to claim.
+
+Most people never claim it. They don't know the lawsuit happened. They don't know they're eligible. The deadline passes and the money goes back or gets distributed among whoever did file.
+
+**Top Class Actions fixes that.**
+
+It tracks every open class action settlement in the country — lawsuits against companies like Google, Toyota, Snapchat, TransUnion, major food brands, pharmacies, banks, and hundreds more — and tells you exactly who's eligible, how much you can claim, and how to file before the deadline.
+
+Some payouts are small. Some are surprisingly large. The eligibility requirements are often broader than you'd expect — sometimes just owning a product, having an account, or living in a certain state during a certain time period is enough to qualify.
+
+There are settlements paying out right now. There are checks being mailed right now. There are deadlines coming up this month that you will miss if you don't go look.
+
+Go look.`,
+    affiliate_links: [],
+    tags: ["consumer", "legal", "money", "settlements", "free"],
+    editors_note: "Pure editorial. Massive universal appeal — everyone has bought something or used a service. Will be bookmarked and shared immediately.",
+  },
+
+  "2026-06-25": {
+    id: 65,
+    date: "2026-06-25",
+    slug: "seats-aero",
+    headline: "YOU HAVE AIRLINE MILES. HERE'S WHAT YOU CAN ACTUALLY DO WITH THEM.",
+    subheadline: "Seats.aero scans award availability across 20+ major airlines in real time — Singapore Airlines, Emirates, Lufthansa, ANA, United, and more — so you can find exactly which business class and first class seats you can book with your points right now.",
+    site: {
+      name: "Seats.aero",
+      url: "https://seats.aero",
+      screenshot: "/assets/issues/seats-aero.png",
+      category: "Travel / Tools",
+      vibe: "The tool travel hackers don't want you to know about",
+    },
+    body: `You have airline miles.
+
+They're sitting in a loyalty account you logged into once, maybe twice, and haven't thought about since. You know you have them. You assume you'll use them eventually. You have no idea what they're actually worth or how to find the seats that would take them.
+
+Seats.aero is the tool for that.
+
+It scans real-time award availability across 20+ major airlines — Singapore Airlines, Emirates, Lufthansa, ANA, United, Air Canada, Etihad, Virgin Atlantic, and more — and shows you exactly which flights have open seats that can be booked with points right now. Business class. First class. Lie-flat seats on long-haul routes. The redemptions that turn a modest pile of miles into an experience that would otherwise cost thousands of dollars.
+
+**You don't book through Seats.aero.** It just finds the seats. You take the information, go to the airline's website or call their rewards line, and book directly. The tool does the scanning so you don't have to check 20 different airline portals.
+
+Set alerts for specific routes and dates and it emails you when seats open up. Toronto to Paris in business class. Los Angeles to Tokyo in first. The specific seat you've been waiting for on the airline you want to fly.
+
+Free to search. Pro version — $10 a month — unlocks advanced filters, more alerts, and the full feature set. Worth it for anyone with points they're serious about using.
+
+Go find out what your miles are actually worth.`,
+    affiliate_links: [],
+    tags: ["travel", "flights", "points", "miles", "tools"],
+    editors_note: "Affiliate program on CJ Affiliate — apply now. Strong monetization potential from a highly engaged travel audience.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
