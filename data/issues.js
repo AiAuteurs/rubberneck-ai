@@ -2133,6 +2133,39 @@ Go find out what your miles are actually worth.`,
     editors_note: "Affiliate program on CJ Affiliate — apply now. Strong monetization potential from a highly engaged travel audience.",
   },
 
+  "2026-06-26": {
+    id: 67,
+    date: "2026-06-26",
+    slug: "clark",
+    headline: "THE CONSUMER EXPERT WHO'S ACTUALLY ON YOUR SIDE.",
+    subheadline: "Clark Howard has spent decades independently researching the best deals on everything — cell phone plans, credit cards, insurance, banking, travel — with no advertiser pulling his strings. Clark.com is the resource. No fluff, no paid placements, just the best options for your money.",
+    site: {
+      name: "Clark.com",
+      url: "https://clark.com/",
+      screenshot: "/assets/issues/clark.png",
+      category: "Consumer / Finance",
+      vibe: "What Consumer Reports wishes it was",
+    },
+    body: `Most consumer advice sites are just ads in disguise.
+
+The "best credit card" article that happens to feature the card with the highest referral fee. The "top phone plans" roundup that conveniently excludes the cheaper options that don't pay commissions. The "expert recommendation" that changes every time a new sponsor signs on.
+
+Clark Howard has been doing it differently for 35 years.
+
+He started as a radio consumer advocate, built a reputation on taking no advertiser money that would compromise his recommendations, and became one of the most trusted consumer voices in America. Clark.com is where all of it lives.
+
+**The site covers everything that costs you money.** Cell phone plans — he's been pushing readers toward cheaper carriers for years, and the guides are genuinely the best on the internet. Credit cards, with honest assessments of which fees are worth it and which are traps. Banking, with a consistent bias toward credit unions and high-yield accounts over big bank mediocrity. Insurance. Travel. Investing. All of it researched by people whose job is to find the best option, not the most profitable referral.
+
+The phone plan section alone could save most households $50-100 a month. The credit card guides will talk you out of annual fees you don't need to be paying.
+
+Bookmark it. Read it before you sign up for anything.
+
+Especially the phone plan section. Especially that.`,
+    affiliate_links: [],
+    tags: ["consumer", "finance", "money", "tools", "free"],
+    editors_note: "Pure editorial. Broad utility appeal. Will save readers real money. Check for affiliate program.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
