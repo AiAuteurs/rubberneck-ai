@@ -2166,6 +2166,37 @@ Especially the phone plan section. Especially that.`,
     editors_note: "Pure editorial. Broad utility appeal. Will save readers real money. Check for affiliate program.",
   },
 
+  "2026-06-27": {
+    id: 68,
+    date: "2026-06-27",
+    slug: "eatwith",
+    headline: "DINNER IN A PARISIAN HOME. COOKING CLASS IN TOKYO. BRUNCH WITH A MICHELIN CHEF.",
+    subheadline: "Eatwith is the world's largest platform for unique culinary experiences — dinner parties in private homes, cooking classes, food tours, and exclusive venues hosted by locals, MasterChefs, and Michelin-starred chefs in 100+ countries.",
+    site: {
+      name: "Eatwith",
+      url: "https://www.eatwith.com/",
+      screenshot: "/assets/issues/eatwith.png",
+      category: "Travel / Food",
+      vibe: "The dinner reservation you'll actually remember",
+    },
+    body: `Most restaurant meals are forgettable.
+
+You sit at a table, a server brings food, you pay and leave. Fine. Sometimes great. Almost never memorable.
+
+Eatwith is something different.
+
+It's a platform for culinary experiences hosted by locals — real people who open their homes, their kitchens, and their expertise to travelers and food lovers. A dinner party in a private apartment in Paris with a former restaurant chef. A pasta-making class in a Roman kitchen with a family that's been making the same recipe for four generations. A food tour through a Tokyo neighborhood with someone who's eaten at every stall. Brunch on a rooftop in Barcelona. A sake tasting in Kyoto. A cooking class in a Marrakech riad.
+
+**25,000+ hosts across 100 countries and 1,100+ destinations.** Every host is hand-selected. Experiences are rated 4.9 out of 5 by guests. The average price is around $100 per person — about what you'd spend at a nice restaurant, except this is a three-hour experience you'll be describing to people for years.
+
+This is what travel is supposed to feel like. Not a reservation at a place the guidebook told you about. An actual meal with an actual person who loves food and wants to share it.
+
+Find a city. Find an experience. Book it before someone else does.`,
+    affiliate_links: [],
+    tags: ["travel", "food", "experiences", "cooking", "lifestyle"],
+    editors_note: "AFFILIATE: 10% commission, $220 AOV (~$22/booking), 30-day cookie, via AWIN program ID 15528. One of the best affiliate opportunities in the lineup.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
