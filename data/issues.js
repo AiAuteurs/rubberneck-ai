@@ -2197,6 +2197,177 @@ Find a city. Find an experience. Book it before someone else does.`,
     editors_note: "AFFILIATE: 10% commission, $220 AOV (~$22/booking), 30-day cookie, via AWIN program ID 15528. One of the best affiliate opportunities in the lineup.",
   },
 
+  "2026-06-28": {
+    id: 69,
+    date: "2026-06-28",
+    slug: "oddball",
+    headline: "MOST SHOE STORES STOP AT SIZE 13. ODDBALL STARTS THERE.",
+    subheadline: "Oddball is the premier source for big shoes and socks for men — Nike, Vans, Adidas, New Balance, and more in sizes 14 through 20, in stock and ready to ship. If you've ever had to special-order shoes or come home empty-handed, this is the site.",
+    site: {
+      name: "Oddball",
+      url: "https://www.oddball.com/",
+      screenshot: "/assets/issues/oddball.png",
+      category: "Shopping / Apparel",
+      vibe: "The shoe store that actually has your size",
+    },
+    body: `If you wear a size 14 shoe, you already know.
+
+You walk into a store, find something you like, ask for your size, and watch the sales associate's face change. "We only go up to 13." Back to the internet. Special order. Eight-week wait. Limited selection. Ugly options. Pay extra.
+
+This is the life of a man with big feet, and it has been this way forever.
+
+Oddball exists specifically to fix it.
+
+It's a curated shop for men's shoes and socks in sizes 14 through 20 — not a sad corner of a big-box store with three options, but an actual curated selection of good brands. **Nike. Vans. Adidas. New Balance.** The shoes you actually want to wear, in the size you actually wear, in stock and ready to ship.
+
+The socks section exists because finding socks that fit is its own separate nightmare at that size. Oddball has those too.
+
+This isn't a site for most people. For the people it is for — the 1 in 50 men who wear a 15 or 16 or bigger — it's one of the most useful sites on the internet, and most of them have never heard of it.
+
+If you know someone with big feet, send this to them.
+
+They will be unreasonably grateful.`,
+    affiliate_links: [],
+    tags: ["shopping", "shoes", "apparel", "men", "niche"],
+    editors_note: "Niche but powerful — the readers who need this will love you forever. Check for affiliate program on their Shopify store.",
+  },
+
+  "2026-06-29": {
+    id: 70,
+    date: "2026-06-29",
+    slug: "omfgdogs",
+    headline: "IT'S JUST DOGS. RUNNING. FOREVER.",
+    subheadline: "OMFGDOGS is a website where dogs run across the screen. That's it. There's music. A counter tracks how long the dogs have been running. There is no point. That is the point.",
+    site: {
+      name: "OMFGDOGS",
+      url: "https://www.omfgdogs.com/",
+      screenshot: "/assets/issues/omfgdogs.png",
+      category: "Internet / Joy",
+      vibe: "The internet at its most pure",
+    },
+    body: `Sometimes the internet produces something that has no purpose, no business model, no lesson to learn, and no reason to exist.
+
+This is one of those things.
+
+OMFGDOGS is a website where dogs run across the screen. Animated dogs. All kinds. Running in the same direction, at different speeds, in a continuous loop, forever. There is music. There is a counter that tells you how long the dogs have been running since you opened the page.
+
+That is the entire website.
+
+No signup. No app. No newsletter. No content strategy. Just dogs, running, with music, for as long as you leave the tab open.
+
+**It has been on the internet for years.** In that time, the dogs have run for an unknowable number of cumulative hours across the screens of people who needed exactly this and didn't know it until they got here.
+
+At the bottom of the page, there are donation links to dog rescue charities. Because of course there are.
+
+You are going to open this, watch the dogs for longer than you expect, feel inexplicably better about everything, and close the tab.
+
+Then you're going to send it to someone.
+
+Go.`,
+    affiliate_links: [],
+    tags: ["internet", "weird", "fun", "dogs", "free"],
+    editors_note: "❌ No affiliate — pure editorial joy. Will be shared by everyone who opens it. Perfect palette cleanser.",
+  },
+
+  "2026-06-30": {
+    id: 71,
+    date: "2026-06-30",
+    slug: "whorepresents",
+    headline: "THE URL IS THE JOKE. THE SITE IS LEGITIMATELY USEFUL.",
+    subheadline: "WhoRepresents.com is a database used by Netflix, Disney, CAA, and WME to find contact information for celebrity agents, managers, lawyers, and publicists. It has also been cited as one of the most unfortunate domain names on the internet. Both things are true.",
+    site: {
+      name: "WhoRepresents.com",
+      url: "https://www.whorepresents.com/",
+      screenshot: "/assets/issues/whorepresents.png",
+      category: "Entertainment / Industry",
+      vibe: "The most important domain name typo in history",
+    },
+    body: `Read the URL again.
+
+Go ahead. Read it one more time. We'll wait.
+
+whorepresents.com
+
+The site is called WhoRepresents. As in "who represents" a given celebrity — which agent, which manager, which lawyer, which publicist. It has been on the internet since 2001. It is used by Netflix, Paramount, Disney, NBC Universal, CAA, WME, Condé Nast, the New York Times, Nike, Vera Wang, and UNICEF. It is, by all accounts, the premier database for finding the professional representatives of any artist, athlete, or entertainer on the planet.
+
+The people who built it did not notice the domain name problem for quite some time.
+
+**The actual site is genuinely impressive.** Three searchable databases — celebrity representatives, musicians, and athletes — with contact information for agents, managers, lawyers, and publicists. The kind of industry intelligence that used to require knowing someone. Subscriptions start at $12.99 a month.
+
+If you've ever wanted to know who represents your favorite actor, musician, or athlete — who to contact for a brand deal, a speaking engagement, an interview request, a licensing pitch — this is where you find out.
+
+The professionals who need this have been quietly using it for 25 years. The rest of us just found out it's called whorepresents.com.
+
+Both things can be true.`,
+    affiliate_links: [],
+    tags: ["entertainment", "industry", "celebrities", "tools", "humor"],
+    editors_note: "❌ No affiliate. URL is pure viral gold. Subscription service but the discovery value is the hook.",
+  },
+
+  "2026-07-01": {
+    id: 72,
+    date: "2026-07-01",
+    slug: "million-dollar-homepage",
+    headline: "IN 2005, A BROKE STUDENT SOLD 1 MILLION PIXELS FOR $1 EACH. IT WORKED.",
+    subheadline: "Alex Tew was 21, needed money for university, and had an idea that sounded completely stupid: divide a webpage into 1,000,000 pixels and sell each one for $1 as advertising space. He made $1,037,100. The site still exists exactly as he left it.",
+    site: {
+      name: "The Million Dollar Homepage",
+      url: "https://milliondollarhomepage.com/",
+      screenshot: "/assets/issues/million-dollar-homepage.png",
+      category: "Internet History",
+      vibe: "The dumbest idea that actually worked",
+    },
+    body: `In August 2005, a 21-year-old student named Alex Tew sat in his bedroom in Wiltshire, England, wondering how to pay for university.
+
+He had an idea. He would build a webpage — 1,000 pixels wide, 1,000 pixels tall — and sell every single pixel as advertising space, at $1 per pixel. Advertisers would buy blocks, upload a tiny image, and link it to their site. One million pixels. One million dollars. Simple.
+
+His friends thought it was stupid. The internet thought it was stupid. Then it went viral.
+
+**He sold all one million pixels.** The last 1,000 were auctioned on eBay and sold for $38,100. Total earnings: $1,037,100. Alex Tew paid for university, became briefly famous, and accidentally created one of the most-written-about internet moments of the 2000s.
+
+The website still exists. Right now, in 2026, you can go to milliondollarhomepage.com and see it exactly as it looked the day he sold the last pixel — a chaotic, beautiful, completely insane mosaic of tiny advertisements from 2005. Casino sites. Tech companies. Random personal blogs. Things that no longer exist. Things that still do.
+
+It's a time capsule. A museum. Proof that sometimes the dumbest idea is the right one.
+
+Go look at it. Zoom in. Find something that surprises you.
+
+There are a million of them.`,
+    affiliate_links: [],
+    tags: ["internet history", "weird", "entrepreneurship", "free"],
+    editors_note: "❌ No affiliate — pure internet history. One of the most iconic sites ever made. Everyone should see it.",
+  },
+
+  "2026-07-02": {
+    id: 73,
+    date: "2026-07-02",
+    slug: "batshit",
+    headline: "GIFTS SO WEIRD THEY'RE PERFECT.",
+    subheadline: "Batshit.com is a curated collection of the most gloriously unhinged gift ideas on the internet — sourced from Amazon, eBay, and Etsy by people who understand that the best gifts are the ones nobody saw coming. The domain name alone makes it Rubberneck.",
+    site: {
+      name: "Batshit.com",
+      url: "https://batshit.com/",
+      screenshot: "/assets/issues/batshit.png",
+      category: "Shopping / Gifts",
+      vibe: "For people who have everything except good taste",
+    },
+    body: `The tagline is "gifts for people who have everything except good taste."
+
+That tells you everything you need to know.
+
+Batshit.com is a curated collection of the most gloriously weird, funny, and completely unhinged gift ideas the internet has to offer — sourced from Amazon, eBay, and Etsy by people who have made it their mission to find the things that make you say "who would buy this" and then immediately buy it.
+
+**The domain is doing a lot of work here.** batshit.com. Someone registered that, pointed it at a gift curation site, and decided that was the right move. They were correct.
+
+The gifts themselves deliver. These aren't the mild novelty items you find at Spencer's. These are the products that exist in the outer reaches of e-commerce — the things that got funded on Kickstarter by 12 very specific people, the items that make you genuinely concerned about the person who designed them, the presents that turn a birthday party into a conversation that lasts the rest of the night.
+
+No account needed. No subscription. Just browse, find the thing that perfectly describes someone you know, and send it to them with no explanation.
+
+The best gifts never need an explanation.`,
+    affiliate_links: [],
+    tags: ["gifts", "shopping", "weird", "humor", "entertainment"],
+    editors_note: "❌ No affiliate — they're the Amazon affiliate, not the merchant. Mild overlap with ThisIsWhyImBroke (June 18) but domain name is distinct enough. URL does the heavy lifting.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
