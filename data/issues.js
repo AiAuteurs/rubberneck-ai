@@ -2368,6 +2368,169 @@ The best gifts never need an explanation.`,
     editors_note: "❌ No affiliate — they're the Amazon affiliate, not the merchant. Mild overlap with ThisIsWhyImBroke (June 18) but domain name is distinct enough. URL does the heavy lifting.",
   },
 
+  "2026-07-03": {
+    id: 74,
+    date: "2026-07-03",
+    slug: "secret-flix-codes",
+    headline: "NETFLIX HAS 331 HIDDEN CATEGORIES. HERE ARE ALL OF THEM.",
+    subheadline: "Netflix organizes its entire library into hundreds of secret genre categories you can't see from the homepage — Visually Striking Cult Movies, Critically Acclaimed Emotional Underdog Movies, Japanese Horror, and 328 more. SecretFlixCodes lists every one. Click any code, it opens that category directly in Netflix.",
+    site: {
+      name: "SecretFlixCodes",
+      url: "https://secretflixcodes.com",
+      screenshot: "/assets/issues/secret-flix-codes.png",
+      category: "Entertainment / Tools",
+      vibe: "The Netflix you didn't know you had",
+    },
+    body: `Netflix is hiding categories from you.
+
+Not maliciously. Just algorithmically. The homepage shows you what it thinks you want. Behind that, Netflix has organized its entire library into hundreds of specific genre categories — hyper-specific ones — that you can only access if you know the secret numeric code and type it directly into the URL.
+
+Critically Acclaimed Emotional Underdog Movies. Visually Striking Cult Horror. Japanese Crime Dramas. Romantic Independent Movies. Gritty Scandinavian Crime Thrillers. **331 of them.** Each one a different door into the Netflix library that the algorithm never showed you.
+
+SecretFlixCodes lists every single one. Filter by mood — Dark, Heartwarming, Mind-bending, Funny, Scary — and it shows you the relevant categories. Click any code and it opens that genre directly in your Netflix account, right now, no copy-pasting required.
+
+This is not a hack. Netflix built these categories intentionally. They just don't surface them on the homepage. They've been there the whole time.
+
+You've been letting Netflix decide what you watch for years.
+
+Now you have the codes.`,
+    affiliate_links: [],
+    tags: ["netflix", "streaming", "entertainment", "tools", "free"],
+    editors_note: "❌ No affiliate — Netflix shut their program down years ago. Pure editorial. Universal appeal — every Netflix subscriber will use this immediately.",
+  },
+
+  "2026-07-04": {
+    id: 75,
+    date: "2026-07-04",
+    slug: "open-library",
+    headline: "ONE PAGE FOR EVERY BOOK EVER PUBLISHED. FREE.",
+    subheadline: "Open Library is an Internet Archive project building toward a catalog of every book ever written — 3 million+ titles you can read, borrow, or discover right now. No library card required. No subscription. Just books.",
+    site: {
+      name: "Open Library",
+      url: "https://openlibrary.org",
+      screenshot: "/assets/issues/open-library.png",
+      category: "Books / Education",
+      vibe: "Every book ever written. Most of them free.",
+    },
+    body: `Someone decided to build a web page for every book ever published.
+
+Not a summary. Not a review. A full catalog entry for each one — and for millions of them, a free digital copy you can borrow and read right now, the same way you'd borrow a book from a library.
+
+Open Library is a project of the Internet Archive, the non-profit that's been archiving the internet since 1996. The mission is simple and staggering: one page for every book ever written. A universal library, on the internet, free and open to everyone.
+
+**3 million books are available to read or borrow right now.** Classic literature. Out-of-print titles. Academic texts. Books that disappeared from print decades ago and exist nowhere else online. You borrow a digital copy for two weeks, return it when you're done, and it goes back to the next person in line — exactly like a real library, because that's what this is.
+
+There's a barcode scanner for your phone if you want to look up a physical book you're holding. A "Random Book" button if you want to discover something new. Subject browsing, collections, reading lists.
+
+Everything a library has ever been, in one place, for free.
+
+Go find the book you've been meaning to read.`,
+    affiliate_links: [],
+    tags: ["books", "education", "free", "library", "internet archive"],
+    editors_note: "❌ No affiliate — Internet Archive nonprofit. Pairs well with Kanopy (June 21). Perfect for a quiet holiday reading day.",
+  },
+
+  "2026-07-05": {
+    id: 76,
+    date: "2026-07-05",
+    slug: "yarn",
+    headline: "TYPE ANY MOVIE QUOTE. IT FINDS THE EXACT CLIP.",
+    subheadline: "Yarn is a search engine for video clips — type any quote, line of dialogue, or lyric from any movie, TV show, or music video and it finds the exact moment, ready to watch or share. The Google for movie moments.",
+    site: {
+      name: "Yarn",
+      url: "https://yarn.co",
+      screenshot: "/assets/issues/yarn.png",
+      category: "Entertainment / Tools",
+      vibe: "Every movie moment ever, searchable in seconds",
+    },
+    body: `You know the scene. You can almost hear it. You just can't find it.
+
+Yarn fixes that.
+
+Type any line of dialogue — any quote from any movie, any lyric from any music video, any moment from any TV show — and Yarn finds the exact clip. Not the full video. Not a link to the episode. The specific three-second moment you're looking for, right there, ready to watch or share.
+
+"I'll be back." "You can't handle the truth." "We're gonna need a bigger boat." "That's what she said." Type it in. It's there.
+
+**The database covers thousands of movies, TV shows, and music videos** — classics, cult favorites, current series, deep cuts. The search is indexed by actual dialogue, which means it finds things Google can't. You're not searching titles or summaries. You're searching what people actually said.
+
+You can also search by emoji, which finds clips that match the vibe rather than the specific words. Try it. It works better than it has any right to.
+
+Clips are shareable directly from the site — text, social, wherever. No account needed. Free.
+
+Think of the quote that's been stuck in your head. The scene you've been trying to describe to someone. The line you could swear was from a specific movie but aren't totally sure about.
+
+Go find it.`,
+    affiliate_links: [],
+    tags: ["entertainment", "movies", "tv", "tools", "free"],
+    editors_note: "❌ No affiliate — free tool. Extremely shareable. Everyone has a quote they've been trying to track down.",
+  },
+
+  "2026-07-06": {
+    id: 77,
+    date: "2026-07-06",
+    slug: "missing-money",
+    headline: "THE GOVERNMENT IS HOLDING $58 BILLION IN UNCLAIMED MONEY. SOME OF IT MIGHT BE YOURS.",
+    subheadline: "MissingMoney.com is the official free search tool run by the National Association of Unclaimed Property Administrators. Type your name, select your state, and it searches every participating state's database for money owed to you — forgotten bank accounts, uncashed checks, old deposits, insurance payouts. Free. No account. No subscription.",
+    site: {
+      name: "MissingMoney.com",
+      url: "https://missingmoney.com",
+      screenshot: "/assets/issues/missing-money.png",
+      category: "Consumer / Finance",
+      vibe: "Money you forgot you had",
+    },
+    body: `The government is holding $58 billion in unclaimed money.
+
+It belongs to real people. It's sitting in state treasury accounts, waiting for someone to come claim it. Most people never do — not because they're not eligible, but because they don't know it's there.
+
+Where does it come from? Forgotten bank accounts. Uncashed paychecks. Old utility deposits you never got back. Life insurance payouts that never reached a beneficiary. Stocks and dividends from companies you invested in years ago. Security deposits. Tax refunds that got returned. When a company can't find you to return your money, they're required by law to hand it to the state, which holds it indefinitely until you claim it.
+
+**MissingMoney.com is the official government tool to find yours.** Run by NAUPA — the National Association of Unclaimed Property Administrators — it searches participating state databases simultaneously. Type your name, select your state, hit search. If there's a match anywhere in the country, it tells you and links you directly to that state's official claims process.
+
+It's completely free. No subscription. No BeenVerified. No finder's fee. Just your name and a search box.
+
+Also check **unclaimed.org** for states not on MissingMoney, and if you've lived in multiple states, search each one — your money is held in the state where the company was based, not where you lived.
+
+Type your name. It takes 30 seconds.
+
+There's a reasonable chance something comes back.`,
+    affiliate_links: [],
+    tags: ["money", "consumer", "finance", "free", "government"],
+    editors_note: "❌ No affiliate — government resource. Pairs well with Top Class Actions (June 24). Universal appeal — everyone should search their name.",
+  },
+
+  "2026-07-07": {
+    id: 78,
+    date: "2026-07-07",
+    slug: "winejobs",
+    headline: "YOU CAN GET PAID TO WORK AT A WINERY. HERE'S WHERE EVERY WINE JOB IN AMERICA IS POSTED.",
+    subheadline: "WineJobs.com is the wine industry's dedicated job board — 661 listings right now covering winemakers, cellar workers, vineyard managers, tasting room hosts, harvest interns, sales reps, and more. Duckhorn, Jackson Family Wines, Quintessa, Francis Ford Coppola Winery. All of it, one place.",
+    site: {
+      name: "WineJobs.com",
+      url: "https://www.winejobs.com",
+      screenshot: "/assets/issues/winejobs.png",
+      category: "Jobs / Wine",
+      vibe: "The career change you've been thinking about",
+    },
+    body: `Somewhere in wine country, a winery needs help.
+
+Right now, there are 661 open positions in the wine industry across the United States — and most people have no idea this job board exists.
+
+WineJobs.com is the wine industry's dedicated jobs site, run by Wine Business Monthly, the trade publication that covers the industry. Not LinkedIn. Not Indeed. A site built specifically for wine, with listings from the actual wineries — Duckhorn, Jackson Family Wines, Quintessa, Ponzi Vineyards, Francis Ford Coppola Winery, and hundreds more.
+
+**The range of jobs is bigger than you'd expect.** Winemakers and enologists. Cellar technicians. Vineyard managers and viticulturists. Tasting room hosts and estate ambassadors. Sales representatives. Finance and accounting. Marketing. General administration. If a winery needs someone for it, it's posted here.
+
+And then there's the **Harvest Help** section — seasonal positions that open every summer as wineries gear up for harvest. Some of them include housing. You show up to wine country, work the harvest season, live on or near the property, and leave with a skill set and a story.
+
+Most job boards feel the same. This one smells like oak and Cabernet.
+
+Go see what's open.
+
+**And if you decide to apply** — head back to our archives and pull up Issue #19: JobsUncle.ai. Paste the job description, upload your resume, and it tailors everything to match — ATS-ready resume and cover letter, ready to send. The two sites were made for each other.`,
+    affiliate_links: [],
+    tags: ["jobs", "wine", "career", "travel", "lifestyle"],
+    editors_note: "❌ No affiliate. Niche but highly aspirational — the dream of working in wine. Pairs with Coppola Pool (June 5) and Vivino (June 10). Harvest Help angle is especially shareable.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
