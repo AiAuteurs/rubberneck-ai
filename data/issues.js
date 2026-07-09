@@ -2531,6 +2531,200 @@ Go see what's open.
     editors_note: "❌ No affiliate. Niche but highly aspirational — the dream of working in wine. Pairs with Coppola Pool (June 5) and Vivino (June 10). Harvest Help angle is especially shareable.",
   },
 
+  "2026-07-08": {
+    id: 79,
+    date: "2026-07-08",
+    slug: "deepstash",
+    headline: "EVERY BOOK EVERYONE SAYS CHANGED THEIR LIFE. THE 5 IDEAS THAT ACTUALLY MATTER.",
+    subheadline: "Deepstash distills 5,000+ of the world's best nonfiction books into bite-sized key ideas — Atomic Habits, Sapiens, The Psychology of Money, Meditations, 48 Laws of Power, and thousands more. Two minutes per book. Free to start. Replace doomscrolling with something that actually sticks.",
+    site: {
+      name: "Deepstash",
+      url: "https://deepstash.com",
+      screenshot: "/assets/issues/deepstash.png",
+      category: "Books / Learning",
+      vibe: "The books you meant to read, without the guilt of not reading them",
+    },
+    body: `There are books you know you should read.
+
+Atomic Habits. Sapiens. The Psychology of Money. Thinking Fast and Slow. Meditations. The 48 Laws of Power. Books that everyone in your orbit has read and referenced for years. Books that have been sitting on your nightstand or your wish list, waiting.
+
+Deepstash has read them for you.
+
+Not summaries in the traditional sense — not a Wikipedia plot description. Deepstash extracts the specific ideas, mental models, and insights from 5,000+ books and distills them into individual cards you can read in two minutes. The actual points. The things worth knowing. Organized by topic, browsable by book, searchable by idea.
+
+**The library is staggering.** Philosophy. Productivity. Psychology. Business. Science. History. Finance. Every category is stacked with the books that shaped how serious people think — and the ideas are presented cleanly, without the padding that makes most nonfiction twice as long as it needs to be.
+
+Free to start. 10 million people are already using it. The #1 microlearning app worldwide.
+
+You've been doomscrolling the same four apps for years. The time you spend on your phone isn't the problem. What you're doing with it is.
+
+Open Deepstash instead. See what a better scroll feels like.`,
+    affiliate_links: [],
+    tags: ["books", "learning", "productivity", "free", "self-improvement"],
+    editors_note: "❌ No affiliate program found. Pure editorial. Broad appeal — everyone has books they meant to read. Pairs well with Open Library (July 4).",
+  },
+
+  "2026-07-09": {
+    id: 80,
+    date: "2026-07-09",
+    slug: "archive-magazines",
+    headline: "MILLIONS OF FREE MAGAZINES. EVERY ISSUE. GOING BACK DECADES.",
+    subheadline: "The Internet Archive's Magazine Rack has millions of fully digitized magazine issues — LIFE, Rolling Stone, National Geographic, TIME, Popular Mechanics, and thousands more — free to read in your browser, going back to the very first issues.",
+    site: {
+      name: "Internet Archive Magazine Rack",
+      url: "https://archive.org/details/magazines",
+      screenshot: "/assets/issues/archive-magazines.png",
+      category: "Media / History",
+      vibe: "Every magazine ever published, free in your browser",
+    },
+    body: `Every issue of LIFE magazine ever printed. Every Rolling Stone from 1967 onward. National Geographic going back to the 1800s. TIME. Popular Mechanics. MAD Magazine. Ebony. Vogue. Playboy. The Saturday Evening Post.
+
+All of it. Free. Right now. In your browser.
+
+The Internet Archive's Magazine Rack is one of the most staggering collections on the internet — millions of fully digitized magazine issues spanning over a century of publishing. You can read the issue of LIFE that covered the moon landing the week it happened. You can pull up a Rolling Stone from 1972 and read the original review of a record you've listened to a thousand times. You can find a Popular Mechanics from 1955 predicting what the year 2000 would look like.
+
+**No account required. No subscription. No paywall.** Click any magazine, click any issue, read it exactly as it was printed.
+
+The search is deep enough to find almost anything — browse by title, by date, by subject. The scans are high quality. The covers alone are worth an afternoon.
+
+This is what the Internet Archive does. It saves things. Everything it can find. So that anyone, anywhere, can go back and see what the world was reading on any given day in the last hundred years.
+
+Pick a year. Pick a magazine. Go back.`,
+    affiliate_links: [],
+    tags: ["magazines", "history", "media", "free", "internet archive"],
+    editors_note: "❌ No affiliate — Internet Archive nonprofit. Pairs perfectly with Open Library (July 4). Enormous rabbit hole potential — high time-on-site.",
+  },
+
+  "2026-07-10": {
+    id: 81,
+    date: "2026-07-10",
+    slug: "seatlink",
+    headline: "BEFORE YOUR NEXT FLIGHT, LOOK UP YOUR EXACT PLANE. THEN PICK A BETTER SEAT.",
+    subheadline: "SeatLink has seat maps, cabin layouts, and real flyer reviews for every major airline — legroom, recline, power ports, privacy, overhead bin access, proximity to lavatories. Find out which seat on your specific aircraft is actually the best before you book.",
+    site: {
+      name: "SeatLink",
+      url: "https://www.seatlink.com",
+      screenshot: "/assets/issues/seatlink.png",
+      category: "Travel / Tools",
+      vibe: "No bad seats. No bad trips.",
+    },
+    body: `You booked the flight. You picked a seat. You picked it the way everyone picks a seat — you grabbed a window, or an aisle, or whatever was still available, and you moved on.
+
+You could have done better.
+
+SeatLink has detailed seat maps and real flyer reviews for every major airline in the world. Not just which row has more legroom — though it has that. Which specific seat has a power outlet. Which ones have a window post that blocks the view. Which aisle seats have the tray table in the armrest, eliminating usable space. Which rows are near the galley or lavatory. Which seats in premium economy are actually premium and which are just dressed-up coach.
+
+**Search by airline, by specific aircraft type, or by flight number.** The results show you an interactive cabin map with color-coded seat ratings from actual flyers — green for good, yellow for caution, red for avoid. Click any seat to see exactly why it was rated the way it was.
+
+Every seat tells a story. The 34A that sounds fine until you realize the window doesn't line up with the row. The 12C that seems random until you see it's the bulkhead with double the legroom. The business class seat that looks flat-bed until you learn it doesn't fully recline to 180 degrees.
+
+Free. No account needed.
+
+You have a flight coming up. Go look up your seat before you check in.`,
+    affiliate_links: [],
+    tags: ["travel", "flights", "tools", "free", "airlines"],
+    editors_note: "❌ No affiliate — display ads only. Pairs perfectly with Seats.aero (June 25). Every flyer will use this immediately.",
+  },
+
+  "2026-07-11": {
+    id: 83,
+    date: "2026-07-11",
+    slug: "moneysavingexpert",
+    headline: "THE BRITISH BUILT THE MOST TRUSTED CONSUMER WEBSITE ON EARTH. IT'S BETTER THAN ANYTHING WE HAVE.",
+    subheadline: "MoneySavingExpert is Martin Lewis's UK consumer finance site — 16 million users, zero advertiser influence, covering credit cards, energy, travel, mortgages, insurance, shopping, and every financial decision a person makes. Americans built nothing like it. Worth knowing it exists.",
+    site: {
+      name: "MoneySavingExpert",
+      url: "https://www.moneysavingexpert.com",
+      screenshot: "/assets/issues/moneysavingexpert.png",
+      category: "Consumer / Finance",
+      vibe: "What consumer finance looks like when someone actually gives a damn",
+    },
+    body: `Martin Lewis was a financial journalist who got angry.
+
+He was angry that banks were designing products to confuse people. Angry that energy companies were overcharging on default tariffs. Angry that credit card companies buried the things that mattered in the small print. So in 2003, he built a website to fight back.
+
+MoneySavingExpert is now the UK's most visited consumer finance site — 16 million users, a primetime TV show, and a reputation so trusted that when Martin Lewis tells Britain to switch energy providers, millions of people actually do it.
+
+**Some of the content is UK-specific** — energy price caps, ISAs, council tax, British banks. But here's why Americans should go anyway:
+
+The approach is universal. MSE breaks down every financial product with a clarity and bluntness that US personal finance sites rarely manage. How credit card interest actually works. How insurance companies make money off renewal apathy. Why the "standard" rate is always the worst rate. How to negotiate a better deal on almost anything.
+
+Reading MSE as an American is like visiting a country that figured out something you haven't yet. The specific products are different. The consumer mindset — skeptical, informed, relentlessly practical — is worth importing.
+
+**The best sections for non-UK readers:** travel hacking, flight compensation rights, comparison shopping strategy, and the weekly email newsletter, which is a masterclass in consumer advocacy.
+
+Go see what a truly independent money site looks like.`,
+    affiliate_links: [],
+    tags: ["finance", "consumer", "UK", "money", "international"],
+    editors_note: "❌ No affiliate — they're the affiliate site. Strong editorial angle: Americans learning from the UK's best consumer resource. International audience play.",
+  },
+
+  "2026-07-12": {
+    id: 84,
+    date: "2026-07-12",
+    slug: "whatfontis",
+    headline: "YOU'VE SEEN A FONT YOU LOVE. NOW YOU CAN FIND OUT EXACTLY WHAT IT IS.",
+    subheadline: "WhatFontIs identifies any font from any image — upload a screenshot, photo, or logo and AI matches it against 1.2 million fonts in seconds. The font on that sign, that poster, that logo you've been obsessing over. Free, 5 searches per day.",
+    site: {
+      name: "WhatFontIs",
+      url: "https://www.whatfontis.com",
+      screenshot: "/assets/issues/whatfontis.png",
+      category: "Design / Tools",
+      vibe: "The answer to every 'what font is that?' you've ever had",
+    },
+    body: `You've seen a font you love.
+
+On a sign outside a restaurant. On a book cover. In a logo. In a movie title sequence. On a product you picked up and put back down. You took a photo of it — or you meant to — because you wanted to know what it was and you had no idea how to find out.
+
+WhatFontIs is how you find out.
+
+Upload any image with text in it. The AI analyzes the letterforms and matches them against a database of 1.2 million fonts — commercial and free, from every major foundry and thousands of independent type designers. It returns an exact match or up to 60 similar alternatives, with links to where you can download or buy them.
+
+**The database is the largest of any font identification tool on the internet.** More than three times the size of the next biggest competitor. If the font exists in digital form somewhere, there's a strong chance WhatFontIs knows it.
+
+Works on logos, signs, screenshots, book covers, posters, product packaging, menus, movie titles — anything with legible text in an image. There's also a Chrome extension that identifies fonts directly on any webpage you're looking at.
+
+Free for 5 searches per day. No account required to start.
+
+You've been wondering about that font for months. Go find out what it is.`,
+    affiliate_links: [],
+    tags: ["design", "fonts", "tools", "free", "creative"],
+    editors_note: "❌ No affiliate for WhatFontIs itself. ⚠️ Opportunity: apply to MyFonts affiliate on CJ Affiliate (10% commission) — results link to MyFonts for font purchases.",
+  },
+
+  "2026-07-15": {
+    id: 82,
+    date: "2026-07-15",
+    slug: "skipthedrive",
+    headline: "24,000 REMOTE JOBS. ONE SEARCH BOX. SKIP THE COMMUTE FOREVER.",
+    subheadline: "SkipTheDrive is a job board built exclusively for remote and work-from-home positions — 24,000+ listings from 2,400+ companies across tech, healthcare, finance, marketing, customer service, and more. Free for job seekers. No commute required.",
+    site: {
+      name: "SkipTheDrive",
+      url: "https://www.skipthedrive.com",
+      screenshot: "/assets/issues/skipthedrive.png",
+      category: "Jobs / Remote Work",
+      vibe: "The commute you never have to take",
+    },
+    body: `The commute is optional now.
+
+It took a pandemic to prove it, but the data is in — millions of jobs can be done from anywhere with a laptop and an internet connection. The problem is finding them. General job boards are full of listings where "remote" is buried in the fine print and means "remote on Tuesdays if your manager is in a good mood."
+
+SkipTheDrive is different. Every single listing is remote. That's the filter. That's the whole site.
+
+**24,000+ listings from 2,400+ companies** — tech, healthcare, finance, marketing, writing, customer service, project management, education, accounting. Entry-level to senior. Full-time, part-time, contract. All of it filtered for actual remote work, updated daily.
+
+Free for job seekers. No account required to search.
+
+One heads-up: when you click a listing, it takes you to the company's main website rather than the specific job page — you'll need to navigate to their careers section from there. Small friction, but worth knowing so you don't think the link is broken.
+
+The name said it all in 2013 when they launched. It still does.
+
+Go find the job you can do in your pajamas.`,
+    affiliate_links: [],
+    tags: ["jobs", "remote work", "career", "work from home", "free"],
+    editors_note: "❌ No affiliate. Slight proximity to WineJobs (July 7) — reordered to July 15 to give breathing room. UX flaw noted in copy so readers aren't surprised.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
