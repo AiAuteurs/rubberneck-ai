@@ -2692,6 +2692,76 @@ You've been wondering about that font for months. Go find out what it is.`,
     editors_note: "❌ No affiliate for WhatFontIs itself. ⚠️ Opportunity: apply to MyFonts affiliate on CJ Affiliate (10% commission) — results link to MyFonts for font purchases.",
   },
 
+  "2026-07-13": {
+    id: 85,
+    date: "2026-07-13",
+    slug: "futuretools",
+    headline: "AI IS MOVING FASTER THAN ANYONE CAN KEEP UP WITH. EXCEPT THIS GUY.",
+    subheadline: "FutureTools is Matt Wolfe's daily AI news and tool directory — 4,500+ tools tracked, the latest AI headlines updated throughout the day, and a community-ranked top 20 list of the best tools right now. 250,000+ subscribers read it every week. Free.",
+    site: {
+      name: "FutureTools",
+      url: "https://futuretools.io/",
+      screenshot: "/assets/issues/futuretools.png",
+      category: "AI / Technology",
+      vibe: "The one place to keep up with AI without losing your mind",
+    },
+    body: `AI is releasing something new every single day.
+
+New models. New tools. New capabilities. New companies. New controversies. New things that make last week's news feel ancient. Keeping up feels impossible — and it mostly is, unless you have someone whose entire job is to track it for you.
+
+Matt Wolfe is that someone.
+
+FutureTools is his daily AI hub — news, tools, commentary, and rankings, all in one place. The tool directory has 4,500+ AI products organized by category, updated constantly as new things launch. The news feed covers the biggest AI headlines throughout the day, with Matt's picks flagged so you know what actually matters. The top 20 list is voted on by the community, so it reflects what real people are finding useful — not what's getting the most press.
+
+**250,000+ people subscribe to the newsletter.** That list includes employees at Google, Apple, Microsoft, Meta, Anthropic, NVIDIA, and OpenAI. Not because they need to be told AI exists — because FutureTools is genuinely the most efficient way to stay current.
+
+New subscribers also get the AI Income Database free — 18+ documented ways people are making real money with AI right now, with the exact tools and playbooks for each one.
+
+If you've been meaning to get your head around AI but don't know where to start — or you've already started and you're just trying to stay current — this is the site.
+
+Free. No paywalls. No gimmicks.
+
+Go see what you've been missing.`,
+    affiliate_links: [],
+    tags: ["ai", "technology", "tools", "news", "free"],
+    editors_note: "❌ No affiliate — monetizes through featured tool placements. Timely, broad appeal. Every reader is curious about AI right now.",
+  },
+
+  "2026-07-14": {
+    id: 86,
+    date: "2026-07-14",
+    slug: "public-domain-movies",
+    headline: "CHARLIE CHAPLIN. BUSTER KEATON. CLASSIC NOIR. ALL FREE. NOBODY OWNS THEM ANYMORE.",
+    subheadline: "Public Domain Movies is a library of feature films, comedies, early horror, sci-fi, and cartoons that have entered the public domain — meaning their copyright has expired and they belong to everyone. Watch them free in your browser, no account, no subscription, no catch.",
+    site: {
+      name: "Public Domain Movies",
+      url: "https://publicdomainmovie.net/",
+      screenshot: "/assets/issues/public-domain-movies.png",
+      category: "Film / History",
+      vibe: "Cinema history, free forever",
+    },
+    body: `At some point, a copyright expires.
+
+The film that studios spent millions producing, that distributors fought over, that theater owners projected on screens across the country — eventually, legally, it belongs to everyone. Nobody can charge you to watch it. Nobody can take it down. It's yours, and mine, and everyone's.
+
+Public Domain Movies collects them.
+
+Charlie Chaplin films from the 1910s and 1920s, when he was the most famous person on earth. Buster Keaton's physical comedy — the stunts that still look impossible a hundred years later. Early horror from the 1930s. Classic noir from the 1940s. Cecil B. DeMille spectacles. Fatty Arbuckle shorts. The first science fiction films ever made.
+
+**All free. All playable in your browser right now.** Feature films, comedies, dramas, sci-fi, horror, cartoons — organized by genre, browsable without an account, watchable without a subscription.
+
+These aren't obscure or unwatchable. Some of them are extraordinary. Chaplin's work holds up completely. The early horror films — shot before anyone knew what horror films were supposed to look like — are genuinely strange and fascinating. The noir is as good as anything made since.
+
+They're free because time ran out on the copyright. They're here because someone decided that should mean something.
+
+Pick a genre. Find something from before you were born.
+
+Watch it tonight.`,
+    affiliate_links: [],
+    tags: ["film", "history", "free", "classic cinema", "entertainment"],
+    editors_note: "❌ No affiliate — ad-supported. Pairs with Kanopy (June 21). Great for film lovers and history buffs. Chaplin and Keaton are the lead hook.",
+  },
+
   "2026-07-15": {
     id: 82,
     date: "2026-07-15",
