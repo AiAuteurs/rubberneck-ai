@@ -2795,6 +2795,319 @@ Go find the job you can do in your pajamas.`,
     editors_note: "❌ No affiliate. Slight proximity to WineJobs (July 7) — reordered to July 15 to give breathing room. UX flaw noted in copy so readers aren't surprised.",
   },
 
+  "2026-07-16": {
+    id: 87,
+    date: "2026-07-16",
+    slug: "stasher",
+    headline: "THERE'S A SHOP AROUND THE CORNER THAT WILL HOLD YOUR BAGS FOR $2. YOU HAD NO IDEA.",
+    subheadline: "Stasher is a luggage storage network with 10,400+ drop-off locations in 1,190+ cities worldwide — shops, hotels, and venues that securely store your bags while you explore. Half the price of station lockers. Book online, drop off, come back later.",
+    site: {
+      name: "Stasher",
+      url: "https://stasher.com",
+      screenshot: "/assets/issues/stasher.png",
+      category: "Travel / Tools",
+      vibe: "Drop your bags. Not your plans.",
+    },
+    body: `You checked out of the hotel at noon. Your flight doesn't leave until 9pm. You have nine hours in a city and a suitcase you have to drag everywhere.
+
+Or you don't.
+
+Stasher is a network of 10,400+ luggage storage locations in 1,190+ cities worldwide — local shops, hotels, and venues that have agreed to securely store bags for travelers passing through. Book online, walk in, drop your bags, explore the city hands-free, come back when you're ready.
+
+**The price is what gets you.** Station lockers run $10-15 for a few hours. Stasher locations charge from around $1.90 a day — about the cost of a coffee, to not carry your luggage around Rome for nine hours.
+
+London has 643 Stasher locations. Paris has 306. Barcelona 229. New York 146. Tokyo, Sydney, Buenos Aires, Mexico City, Miami, Chicago — if it's a city you're visiting, there are probably Stasher spots near where you're spending your time.
+
+Every booking is backed by a guarantee. You check in, your bags are tagged, they're kept secure until you return. The whole thing takes about two minutes to book.
+
+**The problem Stasher solves is so obvious that it's embarrassing it wasn't solved sooner.** You're in a city. You have bags. You don't want to carry them. There are dozens of shops within walking distance who have empty space and would happily hold them for a small fee.
+
+Someone just needed to connect the two.
+
+Next trip, before you start dragging your suitcase around: stasher.com, drop your location, see what's nearby.`,
+    affiliate_links: [],
+    tags: ["travel", "luggage", "tools", "booking", "international"],
+    editors_note: "✅ AFFILIATE: 10% commission, instant approval, monthly payouts. Apply at partners.stasher.com — takes 1 minute. One of the best affiliate setups in the lineup.",
+  },
+
+  "2026-07-17": {
+    id: 88,
+    date: "2026-07-17",
+    slug: "emoji-supply",
+    headline: "YOU CAN COMBINE ANY TWO EMOJIS INTO ONE. MOST PEOPLE HAVE NO IDEA.",
+    subheadline: "Emoji Kitchen is a Google feature that mixes any two emojis into a single hybrid image — 🐸 + 😭 = a crying frog, 🍕 + 🐱 = a pizza cat. Emoji.supply lets you browse and download thousands of these combinations. Free, no account, endlessly weird.",
+    site: {
+      name: "Emoji Kitchen Browser — emoji.supply",
+      url: "https://emoji.supply",
+      screenshot: "/assets/issues/emoji-supply.png",
+      category: "Internet / Fun",
+      vibe: "The internet being exactly what it is",
+    },
+    body: `Google built something called Emoji Kitchen.
+
+The idea: take any two emojis, combine them, and generate a new hybrid image that is somehow both of them at once. A frog crying. A pizza cat. A ghost wearing sunglasses and also being a skull. A heart that is also a fire that is also somehow a face.
+
+There are thousands of these combinations — Google has been quietly adding them for years, and most people have absolutely no idea they exist.
+
+Emoji.supply is a browser for exploring all of them.
+
+Pick any emoji. See every other emoji it can be combined with. Click any combination and get the hybrid image, ready to download and use anywhere. Search by emoji, browse by category, fall into a rabbit hole of increasingly unhinged combinations you never knew you needed.
+
+**The images are usable anywhere** — messages, social posts, presentations, whatever. They're genuinely good-looking too, because Google put real design effort into them, which makes the whole thing even more absurd.
+
+There's also an emoji wallpaper maker if you want to cover your phone screen in a single emoji repeated infinitely, which is a choice people apparently make and we respect that.
+
+This is the internet at its most specifically itself.
+
+Go combine some things that should not be combined.`,
+    affiliate_links: [],
+    tags: ["emoji", "internet", "fun", "free", "design"],
+    editors_note: "❌ No affiliate — free tool. Light fun pick. Strong shareability — people will immediately go combine emojis and send screenshots to friends.",
+  },
+
+  "2026-07-18": {
+    id: 89,
+    date: "2026-07-18",
+    slug: "ganesha-garden",
+    headline: "A GOLDEN ELEPHANT GOD IN A SACRED GARDEN IN THAILAND. YOU WHISPER YOUR WISH TO HIS MICE.",
+    subheadline: "Ganesha Garden in Bang Lamung, Chonburi — near Pattaya — is a sacred pilgrimage site built around a towering golden Ganesha statue that was discovered hidden in an abandoned field. Open 24 hours. 60 cents to park. People come from across Thailand to whisper wishes to the gold and silver mice at his feet.",
+    site: {
+      name: "Ganesha Garden, Bang Lamung, Thailand",
+      url: "https://www.google.com/maps/place/3X29%2BGWW+Ganesha+Garden,+Unnamed+Road,+%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5+%E0%B8%95%E0%B8%B0%E0%B9%80%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B8%99+%E0%B9%80%E0%B8%95%E0%B8%B5%E0%B9%89%E0%B8%A2+20230+Takhian+Tia,+Bang+Lamung+District,+Chon+Buri+20230/@13.0513594,100.9698048,17z",
+      screenshot: "/assets/issues/ganesha-garden.png",
+      category: "Travel / Places",
+      vibe: "The sacred garden someone discovered in an abandoned field",
+    },
+    body: `This place wasn't supposed to exist.
+
+The land in Takhian Tia, a quiet subdistrict outside Pattaya in Chonburi Province, was abandoned. Overgrown. Forgotten. Then someone found a Ganesha statue hidden in the brush — a golden elephant-headed god, the Hindu deity of wisdom, beginnings, and the removal of obstacles — and people started coming.
+
+They came to pray. Then more people came. Then the land was cleared, the garden was built around the statue, and Ganesha Garden became one of the most quietly extraordinary spiritual sites in Thailand.
+
+**The statue stands about 12 feet tall**, golden in the Thai sun, flanked by silver and gold mice — Ganesha's vehicle and companion in Hindu tradition. The mice are the detail everyone remembers. You kneel beside them, cup your hands around their ears, and whisper what you're hoping for. Career, love, luck, health, a decision you can't make alone. The mice carry it.
+
+Bring flowers, incense, and fruit to offer. Everything you need is sold by vendors at the entrance. The parking fee is 20 baht — about 60 cents. The garden is open 24 hours, and locals say it's most peaceful late at night when the crowds thin and the lanterns are lit.
+
+Most visitors to Pattaya never hear about this place. They come for the beach, the nightlife, the chaos. Forty minutes from the city center, in a subdistrict most tourists never find on a map, there's a sacred garden where a golden god waits in the quiet.
+
+Go at night. Bring something to offer. Whisper what you need.`,
+    affiliate_links: [],
+    tags: ["travel", "thailand", "spiritual", "pattaya", "asia", "places"],
+    editors_note: "❌ No affiliate. First Rubberneck Travel / Places issue. SEO play: 'Ganesha Garden Pattaya' and 'Ganesha Garden Bang Lamung' are low-competition searches.",
+  },
+
+  "2026-07-19": {
+    id: 90,
+    date: "2026-07-19",
+    slug: "dogenality",
+    headline: "YOUR DOG HAS A PERSONALITY TYPE. THERE'S A QUIZ TO FIND OUT WHAT IT IS.",
+    subheadline: "Dogenality is a free dog personality assessment — a Myers-Briggs for your dog. Answer questions about how your dog behaves, reacts, and sees the world, and it tells you your dog's Dogenality type: what drives them, what stresses them, and how to train and connect with them based on who they actually are.",
+    site: {
+      name: "Dogenality",
+      url: "https://dogenality.com",
+      screenshot: "/assets/issues/dogenality.png",
+      category: "Pets / Tools",
+      vibe: "Finally understanding what's going on inside your dog's head",
+    },
+    body: `Your dog has been trying to tell you who they are for years.
+
+You've been guessing.
+
+Dogenality is a free personality assessment for dogs — built on dog behavioral psychology by certified behaviorist Angie Woods — that identifies your dog's core personality type. Their motivations. Their stress triggers. The way they process the world and the people in it.
+
+The quiz asks you about your dog's behavior in specific situations — how they react to strangers, other dogs, new environments, conflict, play, being alone. From your answers, it builds a picture of your dog's Dogenality: their fundamental psychological makeup, the lens through which they experience everything.
+
+**What you get back is surprisingly specific.** Not "your dog is friendly." The actual drives beneath the surface — what makes them anxious, what makes them confident, what kind of training works for their type and what backfires. The reason the same method that worked on your last dog doesn't work on this one.
+
+65% of American households have a dog. Most of them know their dog's name, their favorite treat, and whether they're a good or bad boy.
+
+Almost none of them know what type of mind lives behind those eyes.
+
+Free quiz. No account required. Takes about five minutes.
+
+Go find out who your dog actually is.`,
+    affiliate_links: [],
+    tags: ["dogs", "pets", "psychology", "quiz", "free"],
+    editors_note: "❌ No affiliate. Pure editorial. Every dog owner takes this immediately. Strong shareability — people will post their dog's results. Pairs with OMFGDOGS (June 29) for a fun double dog week in the archive.",
+  },
+
+  "2026-07-20": {
+    id: 91,
+    date: "2026-07-20",
+    slug: "fusion-360",
+    headline: "ENGINEERS PAY $680 A YEAR FOR THIS SOFTWARE. YOU CAN USE IT FREE.",
+    subheadline: "Autodesk Fusion 360 is the industry-standard 3D CAD, CAM, and design software used by product designers, engineers, architects, and makers worldwide. Free for personal and hobbyist use. The same tool professionals use to design products, prototypes, and parts — no subscription required for non-commercial projects.",
+    site: {
+      name: "Autodesk Fusion 360",
+      url: "https://www.autodesk.com/products/fusion-360/overview",
+      screenshot: "/assets/issues/fusion-360.png",
+      category: "Design / Tools",
+      vibe: "The thing in your head, finally in 3D",
+    },
+    body: `You have an idea for something.
+
+Maybe it's a product you've been sketching on paper. A part you need that doesn't exist. A prototype for something you want to manufacture. A piece of furniture, a custom bracket, a gadget, a thing. You know what it should look like. You have no idea how to build it in 3D.
+
+Fusion 360 is how you build it in 3D.
+
+It's Autodesk's professional 3D design platform — the tool used by product designers, mechanical engineers, architects, and makers to go from idea to manufacturable object. CAD modeling. CAM toolpaths. Stress simulation. PCB design. It's the full pipeline, in one piece of software, and it integrates directly with 3D printers, CNC machines, and manufacturing workflows.
+
+**The commercial license is $680 a year.** For personal and hobbyist projects — things you're designing for yourself, not for profit — it's free. Same software. Same features. No subscription required.
+
+The learning curve is real. This is professional-grade software and it takes time to learn. But the resources are everywhere — YouTube alone has thousands of hours of Fusion 360 tutorials, from complete beginner to advanced parametric design. The community is massive and helpful.
+
+**If you've ever had a product idea and didn't know how to turn it into something real** — this is the tool that bridges that gap. Design it in Fusion 360. Export a STEP file. Send it to a manufacturer. Hold the prototype in your hands.
+
+Free to start. Download, create an account, select personal use.
+
+Build the thing.`,
+    affiliate_links: [],
+    tags: ["design", "3d", "cad", "tools", "free", "maker"],
+    editors_note: "❌ No affiliate — Autodesk discontinued their program. Strong pick for makers, product people, and anyone with a product idea. Broad aspirational appeal.",
+  },
+
+  "2026-07-21": {
+    id: 92,
+    date: "2026-07-21",
+    slug: "adorable-living-spaces",
+    headline: "SOMEONE SEARCHES ZILLOW EVERY DAY FOR AFFORDABLE CABINS AND FARMHOUSES. THEN POSTS WHAT THEY FIND.",
+    subheadline: "Adorable Living Spaces runs a Deal of the Day series — searching Zillow daily for affordable cabins, hunting properties, rural homesteads, and farmhouses across America and writing up the best ones. A hunting cabin on 20 acres for $75,000. A farmhouse near the Blue Ridge Parkway for $91,000. A Tennessee mountain home for $89,900. Updated every day.",
+    site: {
+      name: "Adorable Living Spaces",
+      url: "https://adorablelivingspaces.com",
+      screenshot: "/assets/issues/adorable-living-spaces.png",
+      category: "Real Estate / Lifestyle",
+      vibe: "The Zillow rabbit hole, curated daily",
+    },
+    body: `Most people never find these properties.
+
+They search Zillow the normal way — their city, their price range, the familiar filters. They see what the algorithm surfaces. They scroll past the same overpriced listings and assume that's what's available.
+
+Adorable Living Spaces goes somewhere different.
+
+Every single day, they search Zillow for affordable cabins, hunting properties, rural homesteads, and farmhouses across America — the kind of properties that exist far from major cities, tucked into Appalachia and the Ozarks and the Tennessee hills and the Catskills, priced in ways that would be impossible anywhere near an urban area.
+
+Then they write them up.
+
+**A hunting cabin on 20 acres with a private pond and creek in the Arkansas Ozarks — $75,000.** A secluded farmhouse on 17 acres in East Tennessee with a workshop and creek access — $200,000. A farmhouse on 15 acres near the Blue Ridge Parkway in Virginia — $91,000. A mountain view home in Tennessee — $89,900.
+
+Real listings. Real prices. Real places you could actually buy.
+
+The blog has been running for years. There are over 3,900 posts. Every day there's something new — organized by state, searchable, and linked directly to the Zillow listing so you can see the photos and contact the agent.
+
+You've thought about it. The cabin somewhere quiet. The land. The life that looks different from the one you have.
+
+This is what's actually available right now.
+
+Go find out what you can afford.`,
+    affiliate_links: [],
+    tags: ["real estate", "cabins", "rural", "lifestyle", "zillow"],
+    editors_note: "❌ No affiliate. Pure editorial. Aspirational pick — pairs with Escape Artist (June 11). The prices alone will make people click. Updated daily so always fresh.",
+  },
+
+  "2026-07-22": {
+    id: 93,
+    date: "2026-07-22",
+    slug: "dupe",
+    headline: "THAT $6,500 COUCH YOU LOVE. DUPE.COM FINDS THE SAME LOOK FOR $580.",
+    subheadline: "Dupe.com is an AI-powered dupe finder for furniture, fashion, and beauty — upload any image or paste any product URL and it finds lookalike alternatives from thousands of stores at up to 90% less. 20 million+ shoppers already use it. The Eames Lounge Chair for $580 instead of $7,400 is not an exaggeration.",
+    site: {
+      name: "Dupe.com",
+      url: "https://dupe.com",
+      screenshot: "/assets/issues/dupe.png",
+      category: "Shopping / Tools",
+      vibe: "The look. Not the price.",
+    },
+    body: `You found it.
+
+The perfect couch. The chair you've been looking at for months. The bag that would complete every outfit. The lamp that would make the room. The piece that costs $6,500 and is sitting in your cart with a hesitant finger over the buy button.
+
+Before you click anything, go to Dupe.com.
+
+Dupe.com uses AI image recognition to find lookalike alternatives to any product — furniture, fashion, beauty, home goods — from thousands of stores, at a fraction of the price. Upload a photo, paste a product URL, or describe what you're looking for, and the AI identifies the design, matches it against its database, and returns a ranked list of similar items you can actually afford.
+
+**The Eames Lounge Chair costs $7,400.** Dupe.com found a nearly identical armchair for $580. That's 92% off. Not a closeout sale. Not a one-time deal. Just a different source for the same look.
+
+The same result plays out across categories. Designer bags at a tenth of the price. Furniture pieces that look like they came from the same designer for a fraction of the cost. Beauty products that perform identically to the prestige version.
+
+20 million people are already using Dupe.com. It's one of the fastest-growing shopping tools on the internet — TikTok, Pinterest, and design communities have driven most of that growth, because once someone finds a $150 version of a $1,200 side table, they tell everyone.
+
+Go find what you've been putting off buying.`,
+    affiliate_links: [],
+    tags: ["shopping", "furniture", "fashion", "ai", "tools", "savings"],
+    editors_note: "❌ No publisher affiliate program — Dupe.com earns affiliate commissions themselves. Pure editorial. Massive broad appeal — furniture and fashion buyers = almost everyone.",
+  },
+
+  "2026-07-23": {
+    id: 94,
+    date: "2026-07-23",
+    slug: "mrbill",
+    headline: "MR. BILL HAS BEEN GETTING DESTROYED SINCE 1976. HE'S STILL GOING.",
+    subheadline: "Mr. Bill — the small Play-Doh SNL character who spent the late 70s being squashed, dismembered, and annihilated by Sluggo — is still alive. Still making new episodes every Saturday on YouTube. The contact email is sluggo@mrbill.com. Everything tries to destroy Mr. Bill. Nothing has worked yet.",
+    site: {
+      name: "Mr. Bill",
+      url: "https://www.youtube.com/@MrBillChannel",
+      screenshot: "/assets/issues/mrbill.png",
+      category: "Internet / Culture",
+      vibe: "Oh noooo! (He's fine.)",
+    },
+    body: `In 1976, a man named Walter Williams sent a home movie to Saturday Night Live.
+
+It was a clay animation film about a small, naive Play-Doh figure named Mr. Bill — cheerful, good-natured, endlessly optimistic — and his encounters with Sluggo, a more aggressive lump of clay who existed primarily to ruin Mr. Bill's day. What followed was a series of elaborate, escalating disasters: Mr. Bill being flattened, stretched, torn apart, run over, exploded, dismembered, and destroyed in increasingly creative ways, all while screaming his signature cry — **"Oh noooo!"** — in a tiny, helpless voice.
+
+SNL aired the Mr. Bill sketches for five years. They became some of the most beloved segments in the show's history. Then, as these things do, they ended.
+
+Except Mr. Bill didn't.
+
+**Walter Williams kept going.** Mr. Bill appeared in commercials, in specials, in various formats across four decades. And now, in 2026, Mr. Bill has a weekly YouTube show — Mr. Bill's Saturday Night Matinee, airing every Saturday at 10:30 Central — with new episodes, new disasters, and Sluggo, still reliably terrible.
+
+The website is mrbill.com. It has animated GIFs. It is exactly what you'd expect from a website for a 50-year-old clay figure.
+
+The contact email is sluggo@mrbill.com.
+
+Everything has tried to destroy Mr. Bill. Fifty years of everything. None of it has worked.
+
+Go say hello. Oh noooo.`,
+    affiliate_links: [],
+    tags: ["internet", "culture", "nostalgia", "snl", "comedy", "free"],
+    editors_note: "❌ No affiliate. Pure internet/culture joy. Strong nostalgia hit for 40+ audience. Younger readers will discover Mr. Bill for the first time. sluggo@mrbill.com is worth the issue alone.",
+  },
+
+  "2026-07-24": {
+    id: 95,
+    date: "2026-07-24",
+    slug: "rare-newspapers",
+    headline: "YOU CAN OWN THE ACTUAL NEWSPAPER FROM THE DAY YOU WERE BORN.",
+    subheadline: "RareNewspapers.com has original, authentic newspapers from any date between 1900 and 2016 — not reprints, not facsimiles, the real thing. Pick any date, they ship the actual newspaper published that day. Birthday gifts, anniversary gifts, historic events. $55 and up. Run by Timothy Hughes since 1975.",
+    site: {
+      name: "Timothy Hughes Rare & Early Newspapers",
+      url: "https://www.rarenewspapers.com/gifts",
+      screenshot: "/assets/issues/rare-newspapers.png",
+      category: "Gifts / History",
+      vibe: "History you can hold in your hands",
+    },
+    body: `Somewhere in a warehouse in Williamsport, Pennsylvania, there is a newspaper from the day you were born.
+
+The actual paper. Original ink. The headlines that were running that morning. The ads, the sports scores, the weather forecast, the stories that mattered that specific day. Not a reprint. Not a digital archive. The physical newspaper that was printed, delivered, and read by someone the day you came into the world.
+
+Timothy Hughes has been collecting them since 1975.
+
+RareNewspapers.com is his archive — original newspapers from any date between 1900 and 2016, available to buy and own. Pick a date, any date, and they ship you the actual newspaper published on that day. Most issues are $55. Dates with significant headlines cost more, and they'll always contact you before proceeding if that's the case.
+
+**The birthday gift angle is the obvious one** — and it's genuinely one of the best gift ideas on the internet. The newspaper from the day your parents were born. The day your grandparents got married. The day your team won the championship. The day something happened that changed everything.
+
+But the "This Day Through History" feature might be even better. Pick any month and day — July 4th, your birthday, any date — and it shows you every newspaper from that date across every year in the archive. July 4th newspapers from 1920, 1944, 1969, 1991. The same date, across a century, showing you what the world was doing on that day throughout history.
+
+Gift certificates available too, $25-500, and they never expire.
+
+50 years in business. Every issue unconditionally guaranteed original.
+
+Go find the paper from your day.`,
+    affiliate_links: [],
+    tags: ["gifts", "history", "newspapers", "collectibles", "unique"],
+    editors_note: "❌ No affiliate for RareNewspapers.com itself. Pure editorial. Exceptional gift pick — will drive purchases. Strong holiday/birthday season potential. Note: Newspapers.com (separate digital service) has 20-25% affiliate on CJ if wanted for a different issue.",
+  },
+
 };
 
 // ─────────────────────────────────────────────────────────────────
