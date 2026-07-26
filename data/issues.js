@@ -3108,6 +3108,115 @@ Go find the paper from your day.`,
     editors_note: "❌ No affiliate for RareNewspapers.com itself. Pure editorial. Exceptional gift pick — will drive purchases. Strong holiday/birthday season potential. Note: Newspapers.com (separate digital service) has 20-25% affiliate on CJ if wanted for a different issue.",
   },
 
+  "2026-07-26": {
+    id: 97,
+    date: "2026-07-26",
+    slug: "harvard-pll",
+    headline: "HARVARD WILL TEACH YOU ANYTHING. FOR FREE.",
+    subheadline: "Harvard's online learning platform has hundreds of free courses — coding, business, writing, health, law, data science, AI. No application. No tuition. No catch. You learn at your own pace and get a certificate when you finish. This is the actual Harvard curriculum, taught by actual Harvard professors.",
+    site: {
+      name: "Harvard Online Learning",
+      url: "https://pll.harvard.edu/",
+      screenshot: "/assets/issues/harvard-pll.png",
+      category: "Education / Free",
+      vibe: "The world's best education, no debt required",
+    },
+    body: `Harvard has a $50 billion endowment. They used some of it to put their courses on the internet for free.
+
+You don't need to apply. You don't need SAT scores. You don't need to move to Cambridge or pay $80,000 a year. You just go to pll.harvard.edu, pick a course, and start learning. Today, if you want.
+
+There are hundreds of them. Python programming. Data science. Artificial intelligence. Business writing. Negotiation. Public health. Constitutional law. The science of happiness. How to build a startup. How financial markets work. How to think like a computer scientist.
+
+**The free tier gets you everything** — all the lectures, all the assignments, all the course materials. If you want a verified certificate with your name on it to put on your LinkedIn or resume, that costs money (usually $50–200 depending on the course). But the education itself? Free.
+
+CS50 is the one that gets mentioned most. It's Harvard's intro to computer science course — arguably the most famous intro programming course in the world. Hundreds of thousands of people have taken it online. It's genuinely hard and genuinely good. David Malan has been teaching it for decades and he's one of the best lecturers alive.
+
+But don't sleep on everything else. The writing courses are excellent. The health and medicine courses are legitimately useful. The data science track will make you more valuable at almost any job. The AI courses are current.
+
+This is not a collection of YouTube videos stapled together. These are real courses with real structure, real problem sets, and real professors who built their careers on this material.
+
+The only thing missing is the $300,000 in student loans.
+
+Go learn something.`,
+    affiliate_links: [],
+    tags: ["education", "free", "harvard", "online learning", "courses", "ai", "coding"],
+    editors_note: "❌ No affiliate. Pure editorial — Harvard doesn't have a referral program. Massive broad appeal: career changers, curious people, anyone who ever wanted to learn something real. CS50 alone is worth the issue. Strong evergreen pick.",
+  },
+
+  "2026-07-28": {
+    id: 99,
+    date: "2026-07-28",
+    slug: "flightradar24",
+    headline: "EVERY PLANE IN THE SKY. RIGHT NOW. YOU CAN WATCH THEM ALL.",
+    subheadline: "Flightradar24 shows you every commercial flight on earth in real time — the airline, the flight number, the altitude, the speed, where it came from, where it's going, and exactly when it lands. Free, no account required. Point it at the sky above your house and see what's up there.",
+    site: {
+      name: "Flightradar24",
+      url: "https://www.flightradar24.com/",
+      screenshot: "/assets/issues/flightradar24.png",
+      category: "Travel / Tools",
+      vibe: "Every plane in the sky, live",
+    },
+    body: `There are about 200,000 flights in the air on any given day.
+
+You can watch all of them.
+
+Flightradar24 is a live map of every commercial aircraft currently in the sky — updated in real time, every few seconds. Each little yellow plane icon is a real flight. Click on any one of them and you get the full story: the airline, the flight number, the aircraft type, the altitude, the speed, the departure airport, the destination, the scheduled arrival time, and a trail showing exactly where it's been.
+
+**The rabbit hole is immediate.** You open it once to check on a flight, and forty minutes later you're watching a cargo plane cross the Pacific and wondering what's in it. You're tracking a flight that's been in a holding pattern for twenty minutes and now you're invested. You're pointing it at the sky above your house and identifying the plane you just heard overhead.
+
+That last one is the hook that gets most people. You hear a plane. You open Flightradar24. You find it on the map. You watch it cross your neighborhood in real time. It feels like a superpower you didn't know existed.
+
+The data comes from a global network of ADS-B receivers — thousands of volunteer-operated antennas around the world that pick up signals broadcast by aircraft transponders. Flightradar24 aggregates all of it and puts it on a map anyone can access.
+
+Free version covers everything you need — live flight tracking, flight details, airport views, playback of recent flights. The paid tiers add more history, more data, and features for aviation nerds. You probably don't need them.
+
+It also works the other way: if someone you know is flying, you can track their specific flight in real time. Watch it take off. Watch it cruise. Watch it start its descent. Text them "gear down in 8 minutes" and wait for the reply.
+
+200,000 flights. Every day. All of them up there right now.
+
+Go look.`,
+    affiliate_links: [],
+    tags: ["travel", "flights", "free", "maps", "aviation", "real-time"],
+    editors_note: "❌ No affiliate program for Flightradar24. Pure editorial. Massive broad appeal — travelers, curious people, aviation nerds, anyone who's ever heard a plane overhead. Extremely high engagement pick — people share this one immediately.",
+  },
+
+  "2026-07-27": {
+    id: 98,
+    date: "2026-07-27",
+    slug: "wordle",
+    headline: "A GUY BUILT THIS FOR HIS GIRLFRIEND. THE NEW YORK TIMES PAID MILLIONS FOR IT.",
+    subheadline: "Wordle is a free daily word game — one five-letter word, six guesses, everyone on earth playing the same puzzle at the same time. No app, no account, no ads. Josh Wardle built it in 2021 as a gift. By January 2022, 300,000 people were playing it every day. The NYT bought it weeks later.",
+    site: {
+      name: "Wordle",
+      url: "https://www.nytimes.com/games/wordle/index.html",
+      screenshot: "/assets/issues/wordle.png",
+      category: "Games / Free",
+      vibe: "One word. Six guesses. Everyone's playing the same one.",
+    },
+    body: `Josh Wardle built a word game for his girlfriend.
+
+She liked word games. He wanted to make her something personal. So in 2021 he built Wordle — one five-letter word per day, six guesses, green tiles for right letter right place, yellow for right letter wrong place, gray for not in the word at all. He shared it with his family. Then a few friends. Then he put it on the internet.
+
+By October 2021, 90 people were playing it. By November, 300. By December, 2,000. By January 2, 2022, 300,000 people were playing it every single day.
+
+Three weeks later, the New York Times bought it for a price "in the low seven figures."
+
+**The thing that made it spread wasn't the game.** Plenty of word games exist. It was the sharing mechanic — those little colored squares you could paste into a tweet or a text without spoiling the answer. Wordle 196 4/6. A grid of colored boxes. Everyone immediately knew what it meant. It became the first thing millions of people sent each other every morning.
+
+There's still only one puzzle per day. Everyone on earth plays the same word. You can't binge it. You get your one shot and then you wait until tomorrow. That constraint — which would seem like a bug — turned out to be the feature. It made Wordle a shared daily ritual instead of a game you burn through and forget.
+
+No app required. No account. No ads chasing you around the internet. You go to the site, you play your word, you share your squares, you come back tomorrow.
+
+Josh Wardle has said he never intended to make money from it. He just wanted to make something his girlfriend would enjoy.
+
+She did. So did 300,000 other people.
+
+Go play today's word.`,
+    affiliate_links: [],
+    tags: ["games", "free", "wordle", "nyt", "word games", "daily"],
+    editors_note: "❌ No affiliate — NYT Games doesn't have a referral program for Wordle specifically. Pure editorial. Universal appeal — everyone knows Wordle, but most don't know the origin story. The girlfriend angle makes it a great read. Strong engagement pick.",
+  },
+
   "2026-07-25": {
     id: 96,
     date: "2026-07-25",
