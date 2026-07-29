@@ -3143,6 +3143,43 @@ Go learn something.`,
     editors_note: "❌ No affiliate. Pure editorial — Harvard doesn't have a referral program. Massive broad appeal: career changers, curious people, anyone who ever wanted to learn something real. CS50 alone is worth the issue. Strong evergreen pick.",
   },
 
+  "2026-07-29": {
+    id: 100,
+    date: "2026-07-29",
+    slug: "playphrase",
+    headline: "TYPE ANY PHRASE. WATCH EVERY MOVIE THAT EVER SAID IT.",
+    subheadline: "PlayPhrase.me is a search engine for movie and TV dialogue. Type any phrase — 'you had one job', 'I'll be back', 'we need to talk' — and it plays every scene from every film and show that says those exact words, back to back. It's the most addictive thing on the internet right now.",
+    site: {
+      name: "PlayPhrase.me",
+      url: "https://www.playphrase.me",
+      screenshot: "/assets/issues/playphrase.png",
+      category: "Entertainment / Movies",
+      vibe: "Every movie, every line, searchable",
+    },
+    body: `Type 'I have a bad feeling about this.'
+
+Go ahead. Type it into PlayPhrase.me.
+
+Every Star Wars movie that ever said it plays back to back. Han Solo. Luke. Leia. Obi-Wan. C-3PO. One after another. Forty years of the same line, in order, in about ninety seconds.
+
+That's what this site does. You type any phrase — any line, any expression, any quote you half-remember — and it searches a massive database of movies and TV shows and plays every scene that contains it. Not a list of titles. Not an IMDB page. The actual clips, playing automatically, one after another.
+
+**The rabbit hole opens immediately.** Type 'trust me' and watch a hundred different characters say it with a hundred different levels of sincerity. Type 'we need to talk' and watch every conversation that started badly. Type your own name and see which characters share it. Type 'this is fine' and let the internet do the rest.
+
+It works as a game. It works as a time machine. It works as a film studies tool if you want to get pretentious about it. Mostly it works as the thing you open at 11pm and close at 1am wondering where the time went.
+
+The database skews toward Hollywood blockbusters and popular TV, but it's deep — thousands of titles, millions of lines. The search is instant. The playback is seamless. Each clip is just long enough to get the context and then it cuts to the next one.
+
+There's no account. No subscription. No algorithm deciding what you see next. Just you, a text box, and every line of dialogue from forty years of film and television.
+
+Type something. Any phrase that's ever been stuck in your head.
+
+Someone said it on screen. Probably a lot of people did.`,
+    affiliate_links: [],
+    tags: ["movies", "tv", "entertainment", "free", "search", "dialogue", "film"],
+    editors_note: "❌ No affiliate. Pure editorial. Insane engagement pick — extremely shareable, everyone will immediately open it and start typing. High viral potential. Issue #100 — milestone pick, this one will get shared.",
+  },
+
   "2026-07-28": {
     id: 99,
     date: "2026-07-28",
