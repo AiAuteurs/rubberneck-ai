@@ -3143,6 +3143,76 @@ Go learn something.`,
     editors_note: "❌ No affiliate. Pure editorial — Harvard doesn't have a referral program. Massive broad appeal: career changers, curious people, anyone who ever wanted to learn something real. CS50 alone is worth the issue. Strong evergreen pick.",
   },
 
+  "2026-08-01": {
+    id: 103,
+    date: "2026-08-01",
+    slug: "copychar",
+    headline: "EVERY SPECIAL CHARACTER YOU'VE EVER NEEDED. ONE CLICK TO COPY.",
+    subheadline: "CopyChar is a free library of every special character, symbol, emoji, and typographic mark you've ever needed and couldn't find — em dashes, copyright symbols, arrows, currency signs, accented letters, mathematical symbols. Click it, it's copied. Paste it anywhere.",
+    site: {
+      name: "CopyChar",
+      url: "https://copychar.cc/",
+      screenshot: "/assets/issues/copychar.png",
+      category: "Tools / Productivity",
+      vibe: "Every character you can't type, one click away",
+    },
+    body: `You need an em dash. You know it exists. You cannot find it.
+
+You try a Google search. You get a Wikipedia article about punctuation. You try typing Option+Shift+Minus on your Mac and get something that might be right but you're not sure. You give up and use two hyphens like it's 1987.
+
+There's a better way.
+
+CopyChar is a clean, searchable library of every special character you've ever needed — organized by category, instantly copyable. Em dashes. En dashes. Ellipses. Copyright symbols. Trademark symbols. Registered symbols. Every currency sign on earth. Every arrow direction. Degree symbols. Fractions. Mathematical operators. Accented letters for every language. Dingbats. Checkmarks. Stars. Playing card suits. Snowflakes.
+
+**Click any character and it's on your clipboard.** No keyboard shortcut to memorize. No character map buried in your operating system. No alt codes. Just browse, find what you need, click it, paste it.
+
+The search works too. Type 'arrow' and every arrow variant appears. Type 'star' and you get stars. Type 'copyright' and you get ©, ℗, and every related symbol. Type 'euro' and every European currency mark shows up.
+
+It sounds like a small thing. It isn't. Once you know this exists you'll use it constantly — in emails, in documents, in social posts, in code comments, in design work, in anywhere you've ever typed and wanted a symbol you couldn't produce.
+
+The site is free. No account. No ads cluttering up the interface. Just characters, organized, waiting for you to need them.
+
+— is an em dash. You're welcome.`,
+    affiliate_links: [],
+    tags: ["tools", "productivity", "free", "writing", "design", "symbols", "characters"],
+    editors_note: "❌ No affiliate — free tool. Pure editorial. High utility, very shareable — the kind of thing people immediately send to their colleagues. Strong evergreen pick. Works for writers, designers, developers, anyone who types.",
+  },
+
+  "2026-07-31": {
+    id: 102,
+    date: "2026-07-31",
+    slug: "haveibeenpwned",
+    headline: "TYPE YOUR EMAIL. FIND OUT IF HACKERS ALREADY HAVE YOUR PASSWORD.",
+    subheadline: "Have I Been Pwned is a free tool that tells you if your email address or password has been exposed in a data breach. Over 14 billion accounts in the database. Type your email, find out in seconds. No account needed. Built by a security researcher who just wanted people to know.",
+    site: {
+      name: "Have I Been Pwned",
+      url: "https://haveibeenpwned.com/",
+      screenshot: "/assets/issues/haveibeenpwned.png",
+      category: "Security / Tools",
+      vibe: "Find out what hackers already know about you",
+    },
+    body: `Type your email address into this site.
+
+There's a decent chance it comes back with bad news.
+
+Have I Been Pwned is a free database of over 14 billion accounts that have been exposed in data breaches. Every time a company gets hacked and their user data leaks onto the internet — passwords, emails, phone numbers, home addresses — Troy Hunt adds it to the database. You type your email. It tells you if you're in there. Which breaches. What data was exposed. When it happened.
+
+**The list is longer than you think.** LinkedIn. Adobe. Dropbox. MySpace. Yahoo — twice. Canva. Dubsmash. 500px. Companies you use every day and companies you forgot existed. Hundreds of breaches, billions of records. The odds that your email appears in at least one of them are higher than most people want to admit.
+
+The site also has a password checker. You type a password — any password, even one you're currently using — and it tells you if that exact password has ever appeared in a breach. Not whether your account was hacked. Whether that password, as a string of characters, is sitting in a leaked database somewhere. If it is, it's in a hacker's dictionary. Change it today.
+
+Troy Hunt built this in 2013 as a side project. He's an Australian security researcher who kept seeing breach data circulate online and thought people deserved to know if their information was in it. He's been maintaining it ever since, mostly alone, mostly for free. The FBI and other law enforcement agencies now partner with him to add breach data he couldn't get otherwise.
+
+He made one rule: the site never stores what you search. Type your email, get your answer, nothing is logged.
+
+Go find out what's already out there.
+
+Then go change your passwords.`,
+    affiliate_links: [],
+    tags: ["security", "privacy", "free", "tools", "passwords", "hacking", "data breach"],
+    editors_note: "❌ No affiliate — free public service. Pure editorial. Extremely high utility — almost everyone will find their email in at least one breach. Very shareable ('oh god you need to check this'). Strong open rates on security/privacy picks.",
+  },
+
   "2026-07-30": {
     id: 101,
     date: "2026-07-30",
