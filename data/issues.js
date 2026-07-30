@@ -3143,6 +3143,41 @@ Go learn something.`,
     editors_note: "❌ No affiliate. Pure editorial — Harvard doesn't have a referral program. Massive broad appeal: career changers, curious people, anyone who ever wanted to learn something real. CS50 alone is worth the issue. Strong evergreen pick.",
   },
 
+  "2026-07-30": {
+    id: 101,
+    date: "2026-07-30",
+    slug: "airbnb-org",
+    headline: "AIRBNB HAS A SIDE YOU'VE NEVER SEEN. IT GIVES AWAY FREE HOUSING.",
+    subheadline: "Airbnb.org is the nonprofit arm of Airbnb — free, temporary housing for people displaced by disasters, refugees, asylum seekers, and frontline workers in a crisis. No booking fees. No nightly rates. Just hosts opening their homes to strangers who have nowhere else to go.",
+    site: {
+      name: "Airbnb.org",
+      url: "https://www.airbnb.org",
+      screenshot: "/assets/issues/airbnb-org.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "The other side of Airbnb",
+    },
+    body: `You know Airbnb. You've used it, or thought about it, or complained about the cleaning fees.
+
+You probably don't know about Airbnb.org.
+
+It's a separate nonprofit, fully funded by Airbnb, that provides free temporary housing to people in crisis. Disaster survivors. Refugees. Asylum seekers. Healthcare workers during a pandemic. Afghans evacuated in 2021. Ukrainians displaced in 2022. Anyone who woke up one day with nowhere to sleep and no way to pay for it.
+
+**The way it works is simple.** Airbnb hosts volunteer their spaces — same homes, same apartments, same guest rooms they'd normally rent out — and offer them for free through the org. Airbnb.org covers the costs. Guests pay nothing. Hosts give what they can, when they can, for as long as they're able.
+
+Since launching in 2020, Airbnb.org has provided free housing to over 100,000 people. After Hurricane Ian hit Florida, they activated within 48 hours. After the earthquake in Turkey, they coordinated housing across the region. After the wildfires in Maui, they were there before the news cycle moved on.
+
+It also runs a program specifically for refugees and asylum seekers — people in the middle of a legal process, often waiting months for a decision, needing stable housing while the paperwork grinds forward. Hosts can sign up to offer a room for weeks or months, not just nights.
+
+If you're an Airbnb host, you can add your space to the program. If you're not, you can donate. If you're neither, you can just know this exists — because most people don't.
+
+The cleaning fees stay on the other site.
+
+This one is different.`,
+    affiliate_links: [],
+    tags: ["nonprofit", "housing", "charity", "airbnb", "refugees", "disaster relief"],
+    editors_note: "❌ No affiliate — nonprofit, no referral program. Pure editorial. Strong emotional pick, very shareable. Good contrast with the 'Airbnb everyone knows.' Broad appeal — travelers, hosts, do-gooders, anyone who's heard of Airbnb.",
+  },
+
   "2026-07-29": {
     id: 100,
     date: "2026-07-29",
