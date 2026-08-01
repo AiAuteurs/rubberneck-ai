@@ -3143,6 +3143,72 @@ Go learn something.`,
     editors_note: "❌ No affiliate. Pure editorial — Harvard doesn't have a referral program. Massive broad appeal: career changers, curious people, anyone who ever wanted to learn something real. CS50 alone is worth the issue. Strong evergreen pick.",
   },
 
+  "2026-08-03": {
+    id: 105,
+    date: "2026-08-03",
+    slug: "123apps",
+    headline: "EVERY FILE TOOL YOU'VE EVER NEEDED. FREE. NO DOWNLOAD. NO ACCOUNT.",
+    subheadline: "123apps is a collection of free online tools for audio, video, PDF, and file conversion — trim a video, compress a PDF, convert an MP3, merge audio tracks, extract pages from a document. All browser-based. Nothing to install. No watermarks. No subscription. Just upload, do the thing, download.",
+    site: {
+      name: "123apps",
+      url: "https://123apps.com/",
+      screenshot: "/assets/issues/123apps.png",
+      category: "Tools / Productivity",
+      vibe: "Every file tool you need, free, right now",
+    },
+    body: `Someone sent you a video that's too long. You need the first 30 seconds.
+
+You don't have video editing software. You don't want to download video editing software. You definitely don't want to pay for video editing software to trim one clip.
+
+Go to 123apps. Upload the video. Trim it. Download it. Done in two minutes.
+
+123apps is a collection of free browser-based tools that handle almost every file task normal people actually need. Not professional post-production. Not enterprise document management. The stuff you need once a month and never have the right software for.
+
+**Audio tools:** trim an MP3, merge two audio files, convert between formats, change the pitch, remove vocals, record from your microphone, cut a ringtone. **Video tools:** trim, convert, compress, extract audio from a video, change the format, grab a still frame. **PDF tools:** merge PDFs, split a PDF, compress a PDF, convert Word to PDF, convert PDF to Word, rotate pages, extract images. **File conversion:** convert almost any format to almost any other format.
+
+All of it runs in your browser. You upload your file, the tool does the work on their servers, you download the result. Nothing installs on your computer. No account required. No watermark on the output. No "free trial" that stops working after one use.
+
+The tools aren't as powerful as professional software. They don't need to be. They're fast, they work, and they're there when you need them — which is usually when you don't have time to figure out anything else.
+
+Bookmark this one. You'll need it sooner than you think.`,
+    affiliate_links: [],
+    tags: ["tools", "productivity", "free", "pdf", "video", "audio", "conversion"],
+    editors_note: "❌ No affiliate. Pure editorial. Extremely high utility — solves real problems people hit constantly. Very shareable, strong bookmark behavior. One of those picks where people immediately open it and find three things they needed.",
+  },
+
+  "2026-08-02": {
+    id: 104,
+    date: "2026-08-02",
+    slug: "rome2rio",
+    headline: "HOW DO YOU GET FROM ANYWHERE TO ANYWHERE ON EARTH? THIS SITE KNOWS.",
+    subheadline: "Rome2rio is a global trip planner that tells you every possible way to get from any point A to any point B on earth — plane, train, bus, ferry, car, rideshare, or on foot. It finds routes most people would never think of, with real prices and times. Type two places. Watch the options appear.",
+    site: {
+      name: "Rome2rio",
+      url: "https://www.rome2rio.com/",
+      screenshot: "/assets/issues/rome2rio.png",
+      category: "Travel / Tools",
+      vibe: "Every way to get from here to there",
+    },
+    body: `You want to get from Lisbon to Morocco. You assume you fly.
+
+Type it into Rome2rio. Turns out there's a ferry. Takes about 35 minutes across the Strait of Gibraltar. Costs almost nothing. You didn't know that was an option because you've been booking flights your whole life and never thought to ask.
+
+That's what Rome2rio does. You type any two places on earth — cities, towns, airports, train stations, landmarks, addresses — and it shows you every single way to get between them. Every mode of transport. Every combination. With real estimated prices, real travel times, and links to book.
+
+**The routes it finds are the ones you'd never think of.** The overnight train that's cheaper than a flight and saves you a hotel night. The ferry that cuts through a border crossing you didn't know existed. The bus that goes direct when everyone told you there was no direct option. Rome2rio has indexed hundreds of thousands of routes across every transport network on earth and it surfaces all of them at once.
+
+It works for the obvious trips and the insane ones. New York to Los Angeles — sure, you know you fly, but it'll also show you the train (3 days, weirdly appealing), the bus (don't), and the drive (38 hours, it's your life). London to Tokyo — here are four routing options through different hubs with price comparisons. Your hometown to a national park two states over — here's the bus you didn't know existed.
+
+It's not a booking engine. It's a discovery engine. It shows you what's possible and then hands you off to book wherever makes sense.
+
+Before you assume you have to fly somewhere, check Rome2rio.
+
+There might be a ferry.`,
+    affiliate_links: [],
+    tags: ["travel", "tools", "free", "planning", "transport", "flights", "trains"],
+    editors_note: "❌ No affiliate for Rome2rio directly — they monetize through booking referrals on their end. Pure editorial. Strong travel audience pick — extremely useful, very shareable. The ferry example is the hook that makes people immediately open it.",
+  },
+
   "2026-08-01": {
     id: 103,
     date: "2026-08-01",
