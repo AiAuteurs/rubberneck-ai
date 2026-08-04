@@ -3143,6 +3143,105 @@ Go learn something.`,
     editors_note: "❌ No affiliate. Pure editorial — Harvard doesn't have a referral program. Massive broad appeal: career changers, curious people, anyone who ever wanted to learn something real. CS50 alone is worth the issue. Strong evergreen pick.",
   },
 
+  "2026-08-06": {
+    id: 108,
+    date: "2026-08-06",
+    slug: "rainbow-weather",
+    headline: "THE MOST ACCURATE RAIN FORECAST ON EARTH. MINUTE BY MINUTE. YOUR EXACT LOCATION.",
+    subheadline: "Rainbow Weather is an AI-powered weather app that predicts rain minute-by-minute for your precise location — not your zip code, your exact spot. Updated every 10 minutes, 1km resolution, ranked #1 most accurate short-term rain forecaster globally. Free to download. No more getting caught in the rain.",
+    site: {
+      name: "Rainbow Weather",
+      url: "https://rainbow.ai/",
+      screenshot: "/assets/issues/rainbow-weather.png",
+      category: "Tools / Weather",
+      vibe: "The weather app that's actually right",
+    },
+    body: `Your weather app said 20% chance of rain. You got drenched.
+
+This happens because most weather apps forecast for a zip code — an area that might cover dozens of square miles. The rain hit your block. The app was looking at your city.
+
+Rainbow Weather is different. It forecasts for your exact GPS coordinates, updated every 10 minutes, at 1 kilometer resolution. It tells you not just that rain is coming but when — to the minute. "Rain starting in 14 minutes. Lasting 23 minutes. Stopping at 4:47pm." That level of precision.
+
+**According to WeatherIndex.ai, Rainbow is currently the most accurate short-term precipitation forecaster on earth.** Not most popular. Most accurate. The ranking is based on independent verification of forecast data against actual measured rainfall across thousands of locations worldwide.
+
+The technology is AI-powered nowcasting — a forecasting method that combines real-time data from satellites, weather radars, and ground stations, then runs it through machine learning models trained on massive historical datasets. Traditional weather forecasting runs big atmospheric simulations on supercomputers every few hours. Rainbow runs continuous updates every 10 minutes specifically for precipitation, which is what actually ruins your day.
+
+The app is free. It works on iOS and Android. The live radar map on the website shows you the current precipitation picture anywhere on earth, updating in real time.
+
+You'll never fully trust your old weather app again after using this.
+
+Which is probably fine — your old weather app was wrong about the rain anyway.`,
+    affiliate_links: [],
+    tags: ["weather", "tools", "free", "ai", "app", "rain", "forecast"],
+    editors_note: "❌ No affiliate program. Pure editorial. High utility, very shareable — everyone has a bad weather app story. The 'most accurate on earth' claim is independently verified which gives it real credibility. Strong broad appeal pick.",
+  },
+
+  "2026-08-05": {
+    id: 107,
+    date: "2026-08-05",
+    slug: "peacecorps",
+    headline: "THE U.S. GOVERNMENT WILL SEND YOU ANYWHERE ON EARTH. FOR TWO YEARS. FOR FREE.",
+    subheadline: "The Peace Corps places Americans in communities around the world for 27 months — teaching, building infrastructure, supporting public health, working in agriculture and environmental conservation. Your flights, housing, food, and healthcare are covered. You get a living stipend. And when you come back, you're a different person.",
+    site: {
+      name: "Peace Corps",
+      url: "https://www.peacecorps.gov/",
+      screenshot: "/assets/issues/peacecorps.png",
+      category: "Travel / Life",
+      vibe: "Two years anywhere. Fully funded. Life-changing.",
+    },
+    body: `John F. Kennedy launched this in 1961 with a simple idea: send Americans abroad not as soldiers or diplomats, but as neighbors.
+
+Over 240,000 people have gone since then. They've worked in 143 countries. They've taught English in rural Thailand, built water systems in Senegal, supported health clinics in Peru, worked on climate resilience in Vanuatu, taught computer skills in Moldova. They came back speaking languages they didn't know existed and knowing things about the world that no classroom could have taught them.
+
+**Here's what the Peace Corps actually covers:** round-trip airfare to your country of service. Housing. A monthly living stipend sized to local costs — enough to live like your neighbors, not like a tourist. Full medical and dental coverage for the entire 27 months. Language training. And when you finish: $10,000 in transition funds, eligibility for a noncompetitive federal hiring status, and one year of deferred enrollment at most graduate programs.
+
+The application is competitive but not impossibly so. They're looking for skills — teaching, agriculture, public health, business development, engineering, environmental work — and they're looking for people who can adapt, connect, and stay. The average volunteer is in their late 20s but there's no upper age limit. The oldest volunteer in Peace Corps history was 86.
+
+You live with a host family during training. You learn the language. You get a site assignment. And then for two years, you are not a tourist. You are a neighbor.
+
+Most volunteers say it's the hardest thing they've ever done.
+
+Most volunteers say it's the best thing they've ever done.
+
+The application is open right now.`,
+    affiliate_links: [],
+    tags: ["travel", "life", "nonprofit", "government", "adventure", "volunteering", "international"],
+    editors_note: "❌ No affiliate — U.S. government program. Pure editorial. Broad appeal — young people figuring out their next move, career changers, anyone who's ever thought 'what if I just went somewhere.' Strong emotional pick, very shareable. Different from typical Rubberneck utility picks — aspirational.",
+  },
+
+  "2026-08-04": {
+    id: 106,
+    date: "2026-08-04",
+    slug: "spacelaunchschedule",
+    headline: "EVERY ROCKET LAUNCH ON EARTH. LIVE COUNTDOWNS. ALL OF THEM.",
+    subheadline: "Space Launch Schedule tracks every upcoming rocket launch on the planet — SpaceX, NASA, ESA, China, India, private companies you've never heard of. Live countdowns, launch locations, what's on the rocket, where it's going. Free, updated in real time, no account needed.",
+    site: {
+      name: "Space Launch Schedule",
+      url: "https://www.spacelaunchschedule.com/",
+      screenshot: "/assets/issues/spacelaunchschedule.png",
+      category: "Space / Science",
+      vibe: "Every rocket going up, right now and next",
+    },
+    body: `There are more rockets launching right now than at any point in human history.
+
+Most people have no idea.
+
+Space Launch Schedule tracks every orbital and suborbital launch attempt on earth — SpaceX Falcon 9s carrying Starlink satellites, NASA missions to the Moon, ESA launches from French Guiana, Chinese Long March rockets, Indian ISRO missions, private companies you've never heard of putting things into orbit for reasons that range from climate monitoring to space tourism to national security.
+
+**Each launch gets a full entry.** The rocket. The payload — what's actually on it and where it's going. The launch site. The window — the exact time range when liftoff can happen. A live countdown. And when it's over, a result: success, failure, or scrubbed and rescheduled.
+
+The pace is staggering once you start paying attention. SpaceX alone launches a Falcon 9 roughly every few days. There are weeks with five or six orbital launches across different countries and companies. The space industry in 2026 looks nothing like what most people picture when they think about rockets — it's not Apollo, it's a supply chain.
+
+You can filter by rocket, by agency, by launch site. You can set notifications for specific launches. You can look back at the launch history and see how the cadence has accelerated year over year.
+
+The next launch is probably sooner than you think. There might be one today.
+
+Go check.`,
+    affiliate_links: [],
+    tags: ["space", "science", "rockets", "spacex", "nasa", "free", "real-time"],
+    editors_note: "❌ No affiliate. Pure editorial. Strong curiosity pick — space content always performs well. The 'there might be one today' angle drives immediate clicks. Good for science fans, tech readers, and anyone who's ever watched a rocket launch and felt something.",
+  },
+
   "2026-08-03": {
     id: 105,
     date: "2026-08-03",
