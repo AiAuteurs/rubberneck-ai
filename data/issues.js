@@ -3143,6 +3143,39 @@ Go learn something.`,
     editors_note: "❌ No affiliate. Pure editorial — Harvard doesn't have a referral program. Massive broad appeal: career changers, curious people, anyone who ever wanted to learn something real. CS50 alone is worth the issue. Strong evergreen pick.",
   },
 
+  "2026-08-07": {
+    id: 109,
+    date: "2026-08-07",
+    slug: "brockovichdatacenter",
+    headline: "TYPE YOUR ZIP CODE. FIND OUT WHAT'S IN YOUR WATER.",
+    subheadline: "Erin Brockovich's environmental data center lets you search any U.S. zip code to see documented contamination in your area — toxic chemicals, polluted water sources, industrial sites, ongoing investigations. The data is real. The results are often alarming. Everyone should check their zip code.",
+    site: {
+      name: "Brockovich Data Center",
+      url: "https://www.brockovichdatacenter.com/",
+      screenshot: "/assets/issues/brockovichdatacenter.png",
+      category: "Tools / Environment",
+      vibe: "What's actually in your water",
+    },
+    body: `You know the name. Julia Roberts won an Oscar playing her.
+
+Erin Brockovich is the legal researcher who uncovered that Pacific Gas & Electric had been contaminating the drinking water in Hinkley, California with chromium-6 for decades — and that the company knew. The case settled for $333 million. The movie came out in 2000. Most people think the story ended there.
+
+It didn't. Brockovich has spent the last 25 years continuing to investigate environmental contamination across the United States. The data center is where she puts what she finds.
+
+**Type your zip code.** The site pulls documented contamination data for your area — toxic chemicals detected in local water sources, industrial polluters operating nearby, EPA superfund sites, ongoing investigations, and communities where residents have reported clusters of illness that may be linked to environmental exposure. The database pulls from EPA records, state environmental agencies, legal filings, and Brockovich's own ongoing investigations.
+
+The results vary wildly by location. Some zip codes come back clean. Others come back with lists that will make you want to read every entry. PFAS contamination. Heavy metals. Industrial solvents. Agricultural runoff. The kinds of things that end up in water supplies quietly, over years, before anyone with authority decides to look.
+
+This is not a scare site. It's a transparency site. The data exists in government databases — Brockovich's team has aggregated it and made it searchable by the people who actually live there.
+
+Hinkley wasn't unique. It was just the one that got a movie.
+
+Type your zip code.`,
+    affiliate_links: [],
+    tags: ["environment", "water", "health", "tools", "free", "contamination", "erin brockovich"],
+    editors_note: "❌ No affiliate — public interest site. Pure editorial. Extremely high engagement pick — almost everyone will immediately search their zip code and share the results. Strong emotional and utility hook. One of the most shareable picks in the calendar.",
+  },
+
   "2026-08-06": {
     id: 108,
     date: "2026-08-06",
