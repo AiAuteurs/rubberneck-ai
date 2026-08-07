@@ -3143,6 +3143,39 @@ Go learn something.`,
     editors_note: "❌ No affiliate. Pure editorial — Harvard doesn't have a referral program. Massive broad appeal: career changers, curious people, anyone who ever wanted to learn something real. CS50 alone is worth the issue. Strong evergreen pick.",
   },
 
+  "2026-08-08": {
+    id: 110,
+    date: "2026-08-08",
+    slug: "freewillastrology",
+    headline: "THE HOROSCOPE WRITER WHO REFUSES TO TELL YOU WHAT YOU WANT TO HEAR.",
+    subheadline: "Free Will Astrology is Rob Brezsny's weekly horoscope column — syndicated in over 100 alternative papers, read by millions, and unlike anything else in the genre. Part poetry, part philosophy, part provocation. He might quote Rumi, reference a obscure 14th century mystic, or dare you to do something that scares you. Always worth reading, even if you don't believe a word of it.",
+    site: {
+      name: "Free Will Astrology",
+      url: "https://freewillastrology.com/",
+      screenshot: "/assets/issues/freewillastrology.png",
+      category: "Culture / Weekly",
+      vibe: "The horoscope that treats you like an adult",
+    },
+    body: `Most horoscopes tell you that good things are coming if you stay open to them.
+
+Rob Brezsny's horoscopes tell you that you've been lying to yourself about something important, that the obstacle you keep avoiding is actually the door, and that the universe has a specific assignment for you this week whether you like it or not.
+
+Free Will Astrology has been running since 1990. It's syndicated in over 100 alternative newspapers. Millions of people read it every week. And it has almost nothing in common with the horoscope column in the back of a magazine.
+
+**Brezsny writes like a poet who got lost in a library and found his way out through astrology.** A single horoscope might open with a quote from a 13th century Sufi mystic, pivot to a meditation on the nature of desire, reference a specific piece of music you've never heard of, and end with a direct challenge: do this thing, say this truth, stop pretending you don't know what you want.
+
+He calls his approach "pronoia" — the opposite of paranoia. The idea that the universe is conspiring in your favor, not against you, and that your job is to notice it. His horoscopes are built on that framework: not predictions, but invitations. Not what will happen, but what you might choose to do with what's already happening.
+
+You don't have to believe in astrology to get something from this. People who actively disbelieve in it read Brezsny every week because the writing is that good and the questions he asks are that worth sitting with.
+
+Find your sign. Read this week's entry.
+
+Then sit with it for a minute.`,
+    affiliate_links: [],
+    tags: ["culture", "astrology", "writing", "weekly", "free", "philosophy"],
+    editors_note: "❌ No affiliate. Pure editorial. Strong cult following — people who know Brezsny are immediately excited, people who don't are immediately curious. Very shareable. Good palette cleanser between utility picks. Broad appeal — even skeptics enjoy the writing.",
+  },
+
   "2026-08-07": {
     id: 109,
     date: "2026-08-07",
