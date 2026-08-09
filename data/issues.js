@@ -3143,6 +3143,39 @@ Go learn something.`,
     editors_note: "❌ No affiliate. Pure editorial — Harvard doesn't have a referral program. Massive broad appeal: career changers, curious people, anyone who ever wanted to learn something real. CS50 alone is worth the issue. Strong evergreen pick.",
   },
 
+  "2026-08-09": {
+    id: 111,
+    date: "2026-08-09",
+    slug: "brandsoftheworld",
+    headline: "EVERY BRAND LOGO EVER MADE. FREE TO DOWNLOAD. IN PERFECT VECTOR FORMAT.",
+    subheadline: "Brands of the World is a free library of over 400,000 brand logos — every company, sports team, university, government agency, and organization you can think of, available as vector files you can download instantly. No account. No watermark. No licensing fee. Designers have used it for 20 years. Most people have never heard of it.",
+    site: {
+      name: "Brands of the World",
+      url: "https://www.brandsoftheworld.com/",
+      screenshot: "/assets/issues/brandsoftheworld.png",
+      category: "Design / Tools",
+      vibe: "Every logo ever made, free, perfect quality",
+    },
+    body: `You need the FedEx logo for a presentation. You Google it. You find a JPEG that's 200 pixels wide and looks terrible at any size larger than a thumbnail.
+
+There's a better way.
+
+Brands of the World has been running since 2001 and it contains over 400,000 brand logos in vector format — SVG and EPS files that scale to any size without losing quality. Postage stamp to billboard. The line stays crisp. The colors stay exact. The logo looks the way it's supposed to look.
+
+**The library is absurd in its breadth.** Fortune 500 companies. Local pizza chains. Every NFL, NBA, MLB, and NHL team. Every major university. Government agencies from dozens of countries. Airlines. Car brands. Fashion houses. Tech companies. Nonprofits. Political parties. Banks. Museums. Hospitals. If an organization has a logo and someone has uploaded it, it's here.
+
+Search for any brand and you'll typically find multiple versions — different colorways, different orientations, different file formats, different years. Some entries have the full brand guidelines document attached. Some have alternate marks and sub-brand logos. It goes deep.
+
+The files are uploaded by the design community — brand managers, agency designers, in-house teams who upload official files for public use. Quality varies but the top results are almost always the real thing.
+
+Designers have known about this site for two decades. It's the first place they go when a client sends a logo brief and the brand's own website only has a tiny PNG in the footer.
+
+Now you know too.`,
+    affiliate_links: [],
+    tags: ["design", "logos", "free", "tools", "branding", "vector", "download"],
+    editors_note: "❌ No affiliate. Pure editorial. High utility — anyone who's ever needed a logo for anything will immediately bookmark this. Strong shareable pick for designers, marketers, presenters, small business owners. 'Designers have known this for 20 years' angle drives the click.",
+  },
+
   "2026-08-08": {
     id: 110,
     date: "2026-08-08",
