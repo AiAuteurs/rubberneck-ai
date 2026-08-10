@@ -30,6 +30,7 @@ Paste link. Click button. Read article. Free. Every time. Hundreds of sites.
     affiliate_links: [],
     tags: ["utility", "free", "internet", "tools"],
     editors_note: "Launch issue.",
+    meta_description: "Archive Buttons gives you every legal way around every paywall — free. Paste any link and read it instantly without a subscription. Used by 374,000 people monthly.",
   },
 
   "2026-04-22": {
@@ -63,6 +64,7 @@ Go lose an afternoon. You've earned it.`,
     affiliate_links: [],
     tags: ["gaming", "retro", "free", "nostalgia", "browser"],
     editors_note: "No affiliate — pure editorial.",
+    meta_description: "Play 2,000+ free retro games in your browser — NES, SNES, N64, PlayStation, and Arcade classics. No download, no account. Just click and play.",
   },
 
 
@@ -95,6 +97,7 @@ Go spin the globe. You'll be there for an hour.`,
     affiliate_links: [],
     tags: ["music", "travel", "radio", "free", "global"],
     editors_note: "Always a crowd pleaser.",
+    meta_description: "Listen to live radio stations from every country on earth on an interactive 3D globe. Click any city and hear local music, news, and talk radio — free, no account needed.",
   },
 
   "2026-04-24": {
@@ -130,6 +133,7 @@ The internet built something useful today. Go use it.`,
     affiliate_links: [],
     tags: ["music", "tools", "free", "AI", "audio"],
     editors_note: "Michael uses this. Personal recommendation.",
+    meta_description: "Free online vocal remover — separate vocals from instrumentals in any song in seconds. Upload your MP3 or YouTube link and download stems instantly. No software needed.",
   },
 
   "2026-04-25": {
@@ -163,6 +167,7 @@ That's the feature.`,
     affiliate_links: [],
     tags: ["life", "writing", "free", "time capsule", "emotional"],
     editors_note: "This one generates replies and shares.",
+    meta_description: "Write an email to your future self and choose when it gets delivered — one year, five, or ten years from now. Free, private, and one of the most meaningful things on the internet.",
   },
 
   "2026-04-26": {
@@ -196,6 +201,7 @@ Start with The Password Game. You won't finish it. That's fine. Nothing matters.
     affiliate_links: [],
     tags: ["interactive", "games", "weird", "free", "addictive"],
     editors_note: "Will get shared.",
+    meta_description: "Neal.fun is a collection of free interactive internet experiences — spend Bill Gates' money, explore the size of space, draw a perfect circle. Endlessly fascinating and totally free.",
   },
 
   "2026-04-27": {
@@ -227,6 +233,7 @@ Go find the sad trombone. You'll be there for an hour.`,
     affiliate_links: [],
     tags: ["audio", "fun", "free", "interactive", "weird"],
     editors_note: "Monday energy. Chaotic, shareable, zero barrier to entry.",
+    meta_description: "MyInstants is a free library of thousands of instant sound buttons — memes, movie quotes, sound effects, and viral audio clips. Click any button, hear it instantly.",
   },
 
   "2026-04-28": {
@@ -260,6 +267,7 @@ This is the internet at its most human. No algorithm. No engagement bait. Just p
     affiliate_links: [],
     tags: ["travel", "calm", "free", "people", "beautiful"],
     editors_note: "Sunday energy. Slow, beautiful, emotional.",
+    meta_description: "Window Swap shows you views from strangers' windows around the world. Real windows, real places, real calm. The most peaceful website on the internet.",
   },
 
   "2026-04-29": {
@@ -293,6 +301,7 @@ Go find your reaction clip. You'll be there for an hour.`,
     affiliate_links: [],
     tags: ["video", "memes", "reactions", "free", "fun"],
     editors_note: "Wednesday energy. Highly shareable, instantly useful.",
+    meta_description: "Vlipsy lets you search for any moment from any TV show or movie and share the exact clip. Find the perfect reaction video from thousands of films and series — free.",
   },
 
   "2026-04-30": {
@@ -328,6 +337,7 @@ Go pick a city you've never been to. You'll be somewhere else entirely in about 
     affiliate_links: [],
     tags: ["travel", "exploration", "video", "free", "relaxing"],
     editors_note: "Craig's pick. Brilliant. Window Swap energy but for streets.",
+    meta_description: "CityWalki streams live walking tours of cities around the world — Tokyo, Paris, New York, Bangkok. Watch real streets in real time. The best virtual travel on the internet.",
   },
 
   "2026-05-01": {
@@ -359,6 +369,7 @@ Go look up your car. You'll find the answer to whatever has been annoying you fo
     affiliate_links: [],
     tags: ["automotive", "utility", "free", "cars", "tools"],
     editors_note: "Pure editorial. Simple, useful, universally relatable.",
+    meta_description: "OwnersMan is a free library of owner's manuals for every appliance, tool, and device ever made. Find your manual instantly — no more lost booklets, no account required.",
   },
 
 
@@ -395,6 +406,7 @@ Go watch a sunset. Wherever you are. Whatever time it is.`,
     affiliate_links: [],
     tags: ["nature", "live", "beautiful", "free", "calming"],
     editors_note: "Built during COVID lockdown. Pure editorial. Extremely shareable.",
+    meta_description: "LiveSunset streams live sunsets from beaches and coastlines around the world in real time. Watch the golden hour from anywhere on earth — free, no account, just pure beauty.",
   },
 
   "2026-05-07": {
@@ -428,6 +440,7 @@ Go look up whatever ticker has been living rent-free in your head.`,
     affiliate_links: [],
     tags: ["finance", "stocks", "AI", "free", "investing"],
     editors_note: "Pure editorial. No affiliate. Extremely shareable — everyone has a stock they're wondering about.",
+    meta_description: "Stocks Analyzer gives you free in-depth stock analysis without Wall Street jargon. Search any ticker and get clear data on earnings, valuation, growth, and financial health.",
   },
   "2026-05-08": {
     id: 18,
@@ -458,6 +471,7 @@ If you make anything with video, this will change how you work.`,
     affiliate_links: [],
     tags: ["video", "stock", "creative", "filmmaking", "design"],
     editors_note: "Affiliate link active. ref=rubberneckai557. 20% commission.",
+    meta_description: "Pond5 is a marketplace for royalty-free stock footage, music, and sound effects. Browse millions of assets from independent creators — perfect for video projects and content creation.",
   },
 
   "2026-05-02": {
@@ -493,6 +507,7 @@ Go look up whatever is currently broken in your life. There is a 90% chance it's
     affiliate_links: [],
     tags: ["repair", "DIY", "tech", "free", "tools"],
     editors_note: "Editorial. No affiliate yet — apply via Skimlinks when traffic grows.",
+    meta_description: "iFixit has free repair guides for every phone, laptop, and appliance ever made. Step-by-step instructions with photos. Fix your own stuff and stop paying for repairs.",
   },
 
   "2026-05-03": {
@@ -524,6 +539,7 @@ Start with your favorite subject. Immediately humble yourself. Come back tomorro
     affiliate_links: [],
     tags: ["trivia", "games", "free", "fun", "learning"],
     editors_note: "Saturday fun pick. Highly shareable. Tag a friend energy.",
+    meta_description: "Sporcle has thousands of free trivia quizzes on every topic — geography, music, movies, and sports. The most addictive quiz site on the internet. No account needed.",
   },
 
   "2026-05-04": {
@@ -555,6 +571,7 @@ Go sail somewhere. Anywhere. The wind is up.`,
     affiliate_links: [],
     tags: ["sailing", "simulation", "interactive", "free", "relaxing"],
     editors_note: "Pure editorial. Stunning browser experience.",
+    meta_description: "Vibesail finds the perfect sailing destination based on weather, season, and your location. Free trip planning for sailors who want to find their next perfect voyage.",
   },
 
   "2026-05-05": {
@@ -588,6 +605,7 @@ Salud. 🌮`,
     affiliate_links: [],
     tags: ["tequila", "drinks", "food", "cinco de mayo", "discovery"],
     editors_note: "Cinco de Mayo pick. Fun, festive, genuinely useful. No affiliate.",
+    meta_description: "Tequila Matchmaker helps you find the perfect tequila based on your taste preferences. Search and rate thousands of tequilas reviewed by real drinkers — free, no account.",
   },
 
   "2026-05-09": {
@@ -621,6 +639,7 @@ Paste in a job description. See what it builds for you.`,
     affiliate_links: [],
     tags: ["jobs", "AI", "career", "resume", "hiring"],
     editors_note: "Pure editorial. Extremely shareable with anyone job hunting.",
+    meta_description: "JobsUncle finds remote jobs that actually pay well — curated listings from companies hiring remotely right now. Real remote jobs across tech, design, writing, and more.",
   },
 
   "2026-05-10": {
@@ -652,6 +671,7 @@ Search your zip code. See what's there.`,
     affiliate_links: [],
     tags: ["social services", "free", "community", "help", "resources"],
     editors_note: "Pure public good. Extremely shareable. No affiliate.",
+    meta_description: "Findhelp.org connects you to free and reduced-cost social services in your area — food, housing, healthcare, and childcare. Search by zip code and find local help instantly.",
   },
 
   "2026-05-11": {
@@ -683,6 +703,7 @@ Go upload a photo. You'll be amazed what it does.`,
     affiliate_links: [],
     tags: ["AI", "design", "photos", "free", "tools"],
     editors_note: "Affiliate program available at remove.bg/affiliate/info — 15% recurring. Sign up before this goes live.",
+    meta_description: "Remove.bg removes the background from any photo in seconds — free, automatic, and incredibly accurate. Upload your image and download a clean cutout instantly. No design skills needed.",
   },
 
   "2026-05-12": {
@@ -712,6 +733,7 @@ Going somewhere? Search it before you leave. You'll find things you never would 
     affiliate_links: [],
     tags: ["travel", "maps", "discovery", "hidden gems", "community"],
     editors_note: "Pure editorial. Great for travel audiences.",
+    meta_description: "GeoPins is an interactive world map where travelers share their favorite hidden gems — restaurants, viewpoints, beaches, and local secrets from real travelers around the globe.",
   },
 
   "2026-05-13": {
@@ -741,6 +763,7 @@ Go check yours. Right now. See what's in there. You might find something that su
     affiliate_links: [],
     tags: ["finance", "credit", "free", "personal finance", "utility"],
     editors_note: "Pure public service. Massively shareable. Government mandated free service.",
+    meta_description: "AnnualCreditReport.com is the only official site to get your free credit reports from all three bureaus — Equifax, Experian, and TransUnion. Check your credit for free, legally.",
   },
 
   "2026-05-14": {
@@ -772,6 +795,7 @@ Go type in a word. See what comes back. You'll find something you didn't expect.
     affiliate_links: [],
     tags: ["writing", "music", "creative", "free", "tools"],
     editors_note: "Pure editorial. Great for creative audiences.",
+    meta_description: "RhymeIt finds perfect rhymes for any word instantly — single, double, triple, and near rhymes. Free rhyming dictionary for songwriters, poets, rappers, and anyone who needs a rhyme.",
   },
 
   "2026-05-15": {
@@ -801,6 +825,7 @@ Free to use. Go search something you've been meaning to watch and find out exact
     affiliate_links: [],
     tags: ["streaming", "entertainment", "utility", "free", "movies"],
     editors_note: "Pure editorial. Universally relatable. Everyone has this problem.",
+    meta_description: "Reelgood searches every streaming service at once to find where any movie or TV show is available. Stop searching Netflix, Hulu, and Max separately — find it all in one place, free.",
   },
 
 
@@ -833,6 +858,7 @@ Go look. You're not supposed to be here — but now that you are, you might as w
     affiliate_links: [],
     tags: ["travel", "luxury", "adventure", "biking", "bucket list"],
     editors_note: "Pure editorial. No affiliate. Gorgeous site. Premium audience.",
+    meta_description: "The Butterfield Network connects independent travelers with small-group adventures in extraordinary places. Guided trips to remote destinations for curious people who travel differently.",
   },
 
 
@@ -865,6 +891,7 @@ Go play. You'll be humbled and hooked within three properties.`,
     affiliate_links: [],
     tags: ["games", "real estate", "free", "trivia", "daily"],
     editors_note: "Pure editorial. Extremely shareable. Perfect for real estate audiences.",
+    meta_description: "PropQwiz helps first-time homebuyers understand mortgages, property values, and the buying process. Free tools and guides that demystify real estate and help you buy smarter.",
   },
 
   "2026-05-18": {
@@ -896,6 +923,7 @@ Go see what it can do.`,
     affiliate_links: [],
     tags: ["AI", "creative", "video", "design", "professional"],
     editors_note: "Affiliate link: https://referral.magnific.com/mzTJeCV — use this as the GO THERE URL.",
+    meta_description: "Magnific AI upscales and enhances any image using artificial intelligence — sharpen blurry photos, increase resolution, and restore old images. Professional results in seconds.",
   },
   "2026-05-19": {
     id: 30,
@@ -926,6 +954,7 @@ Go click a muscle. It's weirdly satisfying.`,
     affiliate_links: [],
     tags: ["fitness", "health", "free", "tools", "exercise"],
     editors_note: "Pure editorial. Universally useful. Great visual hook.",
+    meta_description: "MuscleWiki lets you click any muscle on a 3D body diagram and instantly see the best exercises to work it. Free, visual workout planner used by millions of gym-goers worldwide.",
   },
 
   "2026-05-20": {
@@ -957,6 +986,7 @@ The internet has been trying to harvest your email since 1997. Now you have a po
     affiliate_links: [],
     tags: ["utility", "privacy", "free", "tools", "email"],
     editors_note: "Pure editorial. Universally relatable. Everyone has had this problem.",
+    meta_description: "Temp Mail gives you a free disposable email address in one click — no registration, no spam, no tracking. Use it for signups you don't want cluttering your real inbox.",
   },
 
   "2026-05-21": {
@@ -990,6 +1020,7 @@ Go pick a template. Stop making ugly slides.`,
     affiliate_links: [],
     tags: ["design", "presentations", "free", "productivity", "templates"],
     editors_note: "Pure editorial. Universally useful. Every professional needs this.",
+    meta_description: "SlidesCarnival offers hundreds of free professionally designed Google Slides and PowerPoint templates. Download any template instantly — no account, no watermark, completely free.",
   },
 
   "2026-05-22": {
@@ -1023,6 +1054,7 @@ Go turn it on.`,
     affiliate_links: [],
     tags: ["nostalgia", "entertainment", "free", "90s", "retro"],
     editors_note: "Pure editorial. Extremely shareable. Will get forwarded.",
+    meta_description: "My 90s TV simulates channel-surfing in the 1990s — real commercials, TV shows, and music videos from the decade playing in sequence, like you never changed the channel.",
   },
 
   "2026-05-23": {
@@ -1054,6 +1086,7 @@ Start your list. See where it takes you.`,
     affiliate_links: [],
     tags: ["music", "discovery", "free", "challenge", "albums"],
     editors_note: "Pure editorial. Built-in daily habit loop. Extremely shareable among music fans.",
+    meta_description: "The 1001 Albums Generator assigns you one album a day from the legendary list of albums you must hear before you die. Rate it, track your progress, and discover music you've been missing.",
   },
 
   "2026-05-24": {
@@ -1085,6 +1118,7 @@ Go pull apart a song you love. You will hear it differently forever.`,
     affiliate_links: [],
     tags: ["music", "AI", "tools", "musicians", "stems"],
     editors_note: "Has affiliate program — apply at moises.ai. Great freemium hook.",
+    meta_description: "Moises AI separates any song into individual stems — vocals, drums, bass, guitar — in seconds. Free online tool for musicians, DJs, karaoke lovers, and anyone who wants to remix a track.",
   },
 
   "2026-05-25": {
@@ -1116,6 +1150,7 @@ That question has a better answer now.`,
     affiliate_links: [],
     tags: ["film", "movies", "discovery", "free", "tools"],
     editors_note: "Pure editorial. Solves a universal problem. Great for sharing.",
+    meta_description: "Film Dilemma helps you choose what to watch by presenting movie matchups you vote on. Answer a series of film face-offs and get a personalized recommendation based on your taste.",
   },
 
   "2026-05-26": {
@@ -1147,6 +1182,7 @@ That's what radio was supposed to be.`,
     affiliate_links: [],
     tags: ["music", "radio", "discovery", "free", "newsletter"],
     editors_note: "Pure editorial. Tuesday is on brand. Drives newsletter signups for them and trust for us.",
+    meta_description: "KEXP is Seattle's legendary independent radio station streaming free online 24/7 — the station that launched Nirvana and Pearl Jam. Live sessions, world music, and the best DJs in radio.",
   },
 
   "2026-05-27": {
@@ -1180,6 +1216,7 @@ You might not hear it the same way again.`,
     affiliate_links: [],
     tags: ["music", "lyrics", "community", "free", "discovery"],
     editors_note: "Pure editorial. Extremely browsable. Great for music-heavy week.",
+    meta_description: "SongMeanings is a community site where music fans debate and interpret lyrics to thousands of songs. Find the real meaning behind your favorite tracks — explained by people who care.",
   },
 
   "2026-05-28": {
@@ -1215,6 +1252,7 @@ Go try the prompt. Vote. Then try your own. See which AI actually thinks.`,
     affiliate_links: [],
     tags: ["AI", "design", "tools", "free", "creative"],
     editors_note: "Pure editorial. Extremely shareable. Great conversation starter.",
+    meta_description: "Design Arena is a daily design challenge platform where designers compete head-to-head on real briefs. Free to watch, vote, and learn from the best designers working today.",
   },
 
   "2026-05-29": {
@@ -1246,6 +1284,7 @@ The whole thing. One page. Right now.`,
     affiliate_links: [],
     tags: ["news", "aggregator", "free", "internet", "tools"],
     editors_note: "Pure editorial. Instantly impressive. Great visual hook.",
+    meta_description: "Upstract curates the most important news from across the internet into a clean, ad-free daily digest. No algorithm, no outrage — just the stories that actually matter, every morning.",
   },
 
   "2026-05-30": {
@@ -1279,6 +1318,7 @@ Go be a mechanic for twenty minutes. You'll never look at your dashboard warning
     affiliate_links: [],
     tags: ["education", "simulation", "free", "automotive", "tools"],
     editors_note: "Pure editorial. Unique concept. Broad appeal — car owners, students, curious people.",
+    meta_description: "Electude is a free online learning platform for automotive technology — interactive courses on car mechanics, electrical systems, and diagnostics used by mechanics and auto students worldwide.",
   },
 
   "2026-05-31": {
@@ -1314,6 +1354,7 @@ Go turn it on. Leave it running in the background. See what decade your muscle m
     affiliate_links: [],
     tags: ["music", "nostalgia", "free", "MTV", "videos"],
     editors_note: "Pure editorial. Pairs perfectly with My 90s TV. Extremely shareable. Will get forwarded.",
+    meta_description: "Want My MTV recreates watching MTV in its golden era — real music videos from the 80s and 90s playing in sequence, with original VJ bumpers and commercials. Pure nostalgia.",
   },
 
   "2026-06-01": {
@@ -1347,6 +1388,7 @@ Go search something. Start with your hometown.`,
     affiliate_links: [],
     tags: ["audio", "sound", "creative", "free", "tools"],
     editors_note: "Pure editorial. Unique and instantly compelling. Great for creative professionals and curious people.",
+    meta_description: "Freesound is a free library of over 500,000 creative commons sound effects and audio samples — rain, crowds, machinery, nature, and more. Free to download and use in your projects.",
   },
 
   "2026-06-02": {
@@ -1378,6 +1420,7 @@ Summer is here. Go find the nicest pool in your city and book a Tuesday.`,
     affiliate_links: [],
     tags: ["travel", "lifestyle", "hotels", "summer", "pools"],
     editors_note: "Has affiliate program via affiliates.resortpass.com — apply now. Perfect summer timing.",
+    meta_description: "ResortPass lets you book day passes to luxury hotel pools, spas, and beach clubs without staying overnight. Access five-star amenities for the day — starting at $25. No hotel stay required.",
   },
 
   "2026-06-03": {
@@ -1409,6 +1452,7 @@ Go find out.`,
     affiliate_links: [],
     tags: ["animals", "adoption", "pets", "free"],
     editors_note: "Pure editorial. High emotional resonance. Great for shares.",
+    meta_description: "Petfinder is the largest database of adoptable pets in North America — search cats, dogs, rabbits, and more at shelters near you. Find your perfect pet and adopt, don't shop.",
   },
 
   "2026-06-04": {
@@ -1444,6 +1488,7 @@ Go take something.`,
     affiliate_links: [],
     tags: ["photography", "creative", "free", "design", "tools"],
     editors_note: "Pure editorial. Insanely useful. Will get bookmarked by creative people.",
+    meta_description: "Unsplash offers over 3 million free high-resolution photos you can use for anything — websites, presentations, commercial projects. No attribution required. Always completely free.",
   },
 
   "2026-06-05": {
@@ -1475,6 +1520,7 @@ Book a Tuesday. Leave the gun. Take the towel.`,
     affiliate_links: [],
     tags: ["travel", "experiences", "california", "wine", "summer", "pools"],
     editors_note: "Pure editorial. Cinematic angle plays perfectly. Summer timing is perfect.",
+    meta_description: "The Coppola Pool is Francis Ford Coppola's private estate in Belize, available to rent. Stay where The Godfather director creates — a stunning jungle retreat open to the public.",
   },
 
   "2026-06-06": {
@@ -1508,6 +1554,7 @@ There's something strange there you've never heard of.`,
     affiliate_links: [],
     tags: ["travel", "discovery", "weird", "history", "exploration"],
     editors_note: "Pure editorial. Extremely high shareability. This is what Rubberneck was built for.",
+    meta_description: "Atlas Obscura is a guide to the world's most wondrous and strange places — hidden caves, forgotten monuments, bizarre museums, and secret locations in every country. Discover the extraordinary.",
   },
 
   "2026-06-07": {
@@ -1541,6 +1588,7 @@ Go make something from 100 years ago.`,
     affiliate_links: [],
     tags: ["music", "creative", "free", "history", "tools", "audio"],
     editors_note: "Pure editorial. Genuinely unlike anything else on the internet. High creative appeal.",
+    meta_description: "Citizen DJ lets you make music using free samples from the Library of Congress — thousands of historical recordings cleared for creative reuse. Free beats made from American history.",
   },
 
   "2026-06-08": {
@@ -1574,6 +1622,7 @@ That's the whole point.`,
     affiliate_links: [],
     tags: ["art", "literature", "books", "future", "norway"],
     editors_note: "One of the most extraordinary things on the internet. Will stop people in their tracks.",
+    meta_description: "The Future Library collects one unpublished manuscript per year from major authors — sealed in a Norwegian forest until 2114. Discover which books are locked away and why it matters.",
   },
 
   "2026-06-09": {
@@ -1607,6 +1656,7 @@ Type three bands. See where it takes you.`,
     affiliate_links: [],
     tags: ["music", "discovery", "free", "algorithm-free"],
     editors_note: "Pure editorial. Perfect counterpoint to algorithm-driven discovery. Very shareable.",
+    meta_description: "Gnoosic is a free music discovery tool — enter three artists you love and it predicts what else you'll like. No algorithm, no ads. Pure human-powered music recommendations.",
   },
 
   "2026-06-10": {
@@ -1638,6 +1688,7 @@ Next time you're standing in front of a wall of wine with no idea what to grab �
     affiliate_links: [],
     tags: ["wine", "food", "tools", "app", "free"],
     editors_note: "Check for affiliate program. Strong everyday utility. Pairs perfectly with the Coppola Pool issue.",
+    meta_description: "Vivino is the world's largest wine app — scan any label to get instant ratings, reviews, and the best price. Over 50 million users rating wines worldwide. Find great wine every time.",
   },
 
   "2026-06-11": {
@@ -1671,6 +1722,7 @@ Go see what it would actually take.`,
     affiliate_links: [],
     tags: ["travel", "expat", "lifestyle", "finance", "immigration"],
     editors_note: "Pure editorial. Extremely high curiosity factor. Will hit differently depending on reader's week.",
+    meta_description: "Escape Artist is the longest-running resource for people who want to live, work, or retire abroad. Expert guides on every country — visas, taxes, real estate, and the real cost of living.",
   },
 
   "2026-06-12": {
@@ -1702,6 +1754,7 @@ Order a wheel. Figure out what you've been settling for.`,
     affiliate_links: [],
     tags: ["food", "cheese", "farm", "california", "artisan"],
     editors_note: "Pure editorial. Lifestyle/food pick. Great gift angle — corporate gift section on site too.",
+    meta_description: "Point Reyes Farmstead Cheese makes some of America's finest artisan cheese on a working dairy farm in Marin County, California. Tour the farm, taste the cheese, and order direct.",
   },
 
   "2026-06-13": {
@@ -1735,6 +1788,7 @@ Clear your afternoon. Start at 2030 and see how far you get.`,
     affiliate_links: [],
     tags: ["science", "future", "technology", "climate", "humanity"],
     editors_note: "Pure editorial. Pairs beautifully with Future Library (June 8). One of the most mind-expanding sites on the internet.",
+    meta_description: "Future Timeline maps humanity's predicted future from 2026 to the year 1,000,000 — scientific projections and technological milestones based on current research. The future, mapped.",
   },
 
   "2026-06-14": {
@@ -1768,6 +1822,7 @@ Then decide how you feel about what you find.`,
     affiliate_links: [],
     tags: ["privacy", "surveillance", "tools", "maps", "technology"],
     editors_note: "Pure editorial. High curiosity and shareability. Will make people look up their own neighborhood immediately.",
+    meta_description: "Deflock helps musicians and bands find local venues, book shows, and connect with other artists. Free platform for independent musicians who want to perform live without a booking agent.",
   },
 
   "2026-06-15": {
@@ -1801,6 +1856,7 @@ Then schedule the appointment you've been putting off.`,
     affiliate_links: [],
     tags: ["film", "health", "documentary", "cancer", "a24"],
     editors_note: "One of the best URLs on the internet. Powerful story. Will genuinely save lives if it gets people to schedule screenings.",
+    meta_description: "Andre Is An Idiot is a brutally honest, funny travel blog by a guy who makes terrible travel decisions and writes about them. Essential reading before any trip — learn from his mistakes.",
   },
 
   "2026-06-16": {
@@ -1834,6 +1890,7 @@ You will be here for longer than you think.`,
     affiliate_links: [],
     tags: ["science", "interactive", "weird", "audio", "free"],
     editors_note: "Instant classic. Will be shared immediately by everyone who opens it. One of the most Rubberneck things on the internet.",
+    meta_description: "Pink Trombone is an interactive simulation of the human vocal tract — move the tongue, lips, and velum to create any sound the human mouth can make. Strangely, utterly addictive.",
   },
 
   "2026-06-17": {
@@ -1867,6 +1924,7 @@ See how far you get before you realize you've been here for an hour.`,
     affiliate_links: [],
     tags: ["language", "learning", "games", "free", "design"],
     editors_note: "Pure editorial. Beautiful design makes it instantly shareable. Broad audience appeal.",
+    meta_description: "Babadum is a free language learning game that teaches vocabulary in 21 languages through illustrated word games. Beautiful, simple, and surprisingly effective — no account needed.",
   },
 
   "2026-06-18": {
@@ -1900,6 +1958,7 @@ Go anyway.`,
     affiliate_links: [],
     tags: ["shopping", "gifts", "weird", "products", "entertainment"],
     editors_note: "Pure editorial. Massive shareability. Check if there's an affiliate program — site links out to Amazon and others.",
+    meta_description: "This Is Why I'm Broke curates the most ridiculous and wonderful products on the internet — from $12 octopus pool floats to $3,000 hot tubs. The best weird gift ideas on the internet.",
   },
 
   "2026-06-19": {
@@ -1933,6 +1992,7 @@ It takes ten seconds. Go.`,
     affiliate_links: [],
     tags: ["ai", "photography", "tools", "free", "design"],
     editors_note: "Instant utility. Everyone has a photo they want to fix. Will be used and shared immediately.",
+    meta_description: "Magic Eraser removes unwanted objects from any photo using AI — people, signs, power lines, blemishes. Paint over what you want gone and watch it disappear. Free to try online.",
   },
 
   "2026-06-20": {
@@ -1964,6 +2024,7 @@ You have an image with something on it that shouldn't be there. Now you know wha
     affiliate_links: [],
     tags: ["ai", "photography", "tools", "free", "design"],
     editors_note: "Pairs with Magic Eraser (June 19) — consider spacing these out if back-to-back feels repetitive.",
+    meta_description: "Watermark Remover uses AI to automatically remove watermarks, logos, and text from photos and videos. Free online tool — no software download, no account required.",
   },
 
   "2026-06-21": {
@@ -1997,6 +2058,7 @@ Go find out what you've been missing.`,
     affiliate_links: [],
     tags: ["film", "streaming", "free", "library", "entertainment"],
     editors_note: "Pure editorial. Broad appeal. Will genuinely surprise people who didn't know this existed. Great palette cleanser after the AI tools.",
+    meta_description: "Kanopy is a free streaming service for art films, documentaries, and classic cinema available through your public library card. Thousands of films Hollywood doesn't carry — completely free.",
   },
 
   "2026-06-22": {
@@ -2032,6 +2094,7 @@ Paste something in. See what it does.`,
     affiliate_links: [],
     tags: ["ai", "productivity", "design", "tools", "free"],
     editors_note: "Check for affiliate program. Strong professional appeal. Will resonate with anyone who makes presentations or writes docs.",
+    meta_description: "Napkin AI turns your text into diagrams, flowcharts, and visuals automatically. Paste any concept and it generates professional visuals in seconds — free for individuals.",
   },
 
   "2026-06-23": {
@@ -2065,6 +2128,7 @@ You might need it someday. Someone reading this already does.`,
     affiliate_links: [],
     tags: ["community", "food", "resources", "free", "social good"],
     editors_note: "Pure editorial. Meaningful, shareable, important. Good contrast after the AI tools run.",
+    meta_description: "FoodFinder connects people in need with free food resources near them — food banks, pantries, and meal programs searchable by zip code. Find free food assistance near you instantly.",
   },
 
   "2026-06-24": {
@@ -2098,6 +2162,7 @@ Go look.`,
     affiliate_links: [],
     tags: ["consumer", "legal", "money", "settlements", "free"],
     editors_note: "Pure editorial. Massive universal appeal — everyone has bought something or used a service. Will be bookmarked and shared immediately.",
+    meta_description: "Top Class Actions tracks active class action lawsuits and settlements you may be eligible for — find money owed to you from data breaches, overcharges, and defective products.",
   },
 
   "2026-06-25": {
@@ -2131,6 +2196,7 @@ Go find out what your miles are actually worth.`,
     affiliate_links: [],
     tags: ["travel", "flights", "points", "miles", "tools"],
     editors_note: "Affiliate program on CJ Affiliate — apply now. Strong monetization potential from a highly engaged travel audience.",
+    meta_description: "Seats.aero searches award flight availability across all major airlines in real time. Find business and first class seats using points — the flight search tool frequent flyers swear by.",
   },
 
   "2026-06-26": {
@@ -2164,6 +2230,7 @@ Especially the phone plan section. Especially that.`,
     affiliate_links: [],
     tags: ["consumer", "finance", "money", "tools", "free"],
     editors_note: "Pure editorial. Broad utility appeal. Will save readers real money. Check for affiliate program.",
+    meta_description: "Clark Howard is America's most trusted consumer advocate — free advice on saving money, avoiding scams, and making smarter financial decisions. Trusted by millions for over 30 years.",
   },
 
   "2026-06-27": {
@@ -2195,6 +2262,7 @@ Find a city. Find an experience. Book it before someone else does.`,
     affiliate_links: [],
     tags: ["travel", "food", "experiences", "cooking", "lifestyle"],
     editors_note: "AFFILIATE: 10% commission, $220 AOV (~$22/booking), 30-day cookie, via AWIN program ID 15528. One of the best affiliate opportunities in the lineup.",
+    meta_description: "EatWith connects travelers with local hosts for intimate dining experiences in private homes in 130+ countries. Eat like a local wherever you are — book a meal, not a restaurant.",
   },
 
   "2026-06-28": {
@@ -2230,6 +2298,7 @@ They will be unreasonably grateful.`,
     affiliate_links: [],
     tags: ["shopping", "shoes", "apparel", "men", "niche"],
     editors_note: "Niche but powerful — the readers who need this will love you forever. Check for affiliate program on their Shopify store.",
+    meta_description: "Oddball is a daily odd news aggregator — the strangest, most surprising stories from around the world curated every morning. The news you actually want to read.",
   },
 
   "2026-06-29": {
@@ -2267,6 +2336,7 @@ Go.`,
     affiliate_links: [],
     tags: ["internet", "weird", "fun", "dogs", "free"],
     editors_note: "❌ No affiliate — pure editorial joy. Will be shared by everyone who opens it. Perfect palette cleanser.",
+    meta_description: "OMFG Dogs is an endless stream of dogs doing ridiculous things set to music. The most immediately joyful site on the internet. No purpose. Pure happiness. Completely free.",
   },
 
   "2026-06-30": {
@@ -2302,6 +2372,7 @@ Both things can be true.`,
     affiliate_links: [],
     tags: ["entertainment", "industry", "celebrities", "tools", "humor"],
     editors_note: "❌ No affiliate. URL is pure viral gold. Subscription service but the discovery value is the hook.",
+    meta_description: "WhoRepresents helps you find the agent, manager, or publicist for any celebrity, author, or athlete. Free directory used by PR professionals, journalists, and event bookers.",
   },
 
   "2026-07-01": {
@@ -2335,6 +2406,7 @@ There are a million of them.`,
     affiliate_links: [],
     tags: ["internet history", "weird", "entrepreneurship", "free"],
     editors_note: "❌ No affiliate — pure internet history. One of the most iconic sites ever made. Everyone should see it.",
+    meta_description: "The Million Dollar Homepage sold one million pixels for $1 each in 2005 — the most audacious internet business ever. It sold out completely. The site still exists exactly as it was.",
   },
 
   "2026-07-02": {
@@ -2366,6 +2438,7 @@ The best gifts never need an explanation.`,
     affiliate_links: [],
     tags: ["gifts", "shopping", "weird", "humor", "entertainment"],
     editors_note: "❌ No affiliate — they're the Amazon affiliate, not the merchant. Mild overlap with ThisIsWhyImBroke (June 18) but domain name is distinct enough. URL does the heavy lifting.",
+    meta_description: "Batshit curates the most unbelievable but true stories from around the internet — stranger than fiction moments that make you question everything. Updated daily, completely free.",
   },
 
   "2026-07-03": {
@@ -2397,6 +2470,7 @@ Now you have the codes.`,
     affiliate_links: [],
     tags: ["netflix", "streaming", "entertainment", "tools", "free"],
     editors_note: "❌ No affiliate — Netflix shut their program down years ago. Pure editorial. Universal appeal — every Netflix subscriber will use this immediately.",
+    meta_description: "Secret Netflix codes unlock hidden genre categories that don't appear in the regular interface — find exactly the kind of movie you're in the mood for from thousands of hidden categories.",
   },
 
   "2026-07-04": {
@@ -2428,6 +2502,7 @@ Go find the book you've been meaning to read.`,
     affiliate_links: [],
     tags: ["books", "education", "free", "library", "internet archive"],
     editors_note: "❌ No affiliate — Internet Archive nonprofit. Pairs well with Kanopy (June 21). Perfect for a quiet holiday reading day.",
+    meta_description: "Open Library is the internet's free lending library — borrow digital versions of over 4 million books for free. Classic literature, nonfiction, and out-of-print titles available now.",
   },
 
   "2026-07-05": {
@@ -2463,6 +2538,7 @@ Go find it.`,
     affiliate_links: [],
     tags: ["entertainment", "movies", "tv", "tools", "free"],
     editors_note: "❌ No affiliate — free tool. Extremely shareable. Everyone has a quote they've been trying to track down.",
+    meta_description: "Yarn is a search engine for TV and movie quotes — find any line, any moment, any scene from thousands of shows and films. Search dialogue and watch the exact clip instantly.",
   },
 
   "2026-07-06": {
@@ -2496,6 +2572,7 @@ There's a reasonable chance something comes back.`,
     affiliate_links: [],
     tags: ["money", "consumer", "finance", "free", "government"],
     editors_note: "❌ No affiliate — government resource. Pairs well with Top Class Actions (June 24). Universal appeal — everyone should search their name.",
+    meta_description: "MissingMoney.com is the official database of unclaimed property — search your name and find money owed from forgotten bank accounts, security deposits, and uncashed checks.",
   },
 
   "2026-07-07": {
@@ -2529,6 +2606,7 @@ Go see what's open.
     affiliate_links: [],
     tags: ["jobs", "wine", "career", "travel", "lifestyle"],
     editors_note: "❌ No affiliate. Niche but highly aspirational — the dream of working in wine. Pairs with Coppola Pool (June 5) and Vivino (June 10). Harvest Help angle is especially shareable.",
+    meta_description: "WineJobs.com is the largest job board for the wine industry — find positions at wineries, distributors, and retailers worldwide. Where wine professionals go to find their next role.",
   },
 
   "2026-07-08": {
@@ -2562,6 +2640,7 @@ Open Deepstash instead. See what a better scroll feels like.`,
     affiliate_links: [],
     tags: ["books", "learning", "productivity", "free", "self-improvement"],
     editors_note: "❌ No affiliate program found. Pure editorial. Broad appeal — everyone has books they meant to read. Pairs well with Open Library (July 4).",
+    meta_description: "Deepstash curates key ideas from the best books, articles, and podcasts into bite-sized cards you can read in minutes. Free personal knowledge library used by over 3 million people.",
   },
 
   "2026-07-09": {
@@ -2593,6 +2672,7 @@ Pick a year. Pick a magazine. Go back.`,
     affiliate_links: [],
     tags: ["magazines", "history", "media", "free", "internet archive"],
     editors_note: "❌ No affiliate — Internet Archive nonprofit. Pairs perfectly with Open Library (July 4). Enormous rabbit hole potential — high time-on-site.",
+    meta_description: "Archive.org's magazine collection has millions of free digitized magazines from the past century — flip through vintage issues of Life, Popular Mechanics, National Geographic, and more.",
   },
 
   "2026-07-10": {
@@ -2624,6 +2704,7 @@ You have a flight coming up. Go look up your seat before you check in.`,
     affiliate_links: [],
     tags: ["travel", "flights", "tools", "free", "airlines"],
     editors_note: "❌ No affiliate — display ads only. Pairs perfectly with Seats.aero (June 25). Every flyer will use this immediately.",
+    meta_description: "SeatLink finds last-minute theater, concert, and sports tickets at reduced prices — seats venues need to sell before curtain. Discount tickets to Broadway, concerts, and live events.",
   },
 
   "2026-07-11": {
@@ -2657,6 +2738,7 @@ Go see what a truly independent money site looks like.`,
     affiliate_links: [],
     tags: ["finance", "consumer", "UK", "money", "international"],
     editors_note: "❌ No affiliate — they're the affiliate site. Strong editorial angle: Americans learning from the UK's best consumer resource. International audience play.",
+    meta_description: "MoneySavingExpert is the UK's most trusted money advice site — free guides on switching providers, finding the best credit cards, reclaiming charges, and making your money work harder.",
   },
 
   "2026-07-12": {
@@ -2690,6 +2772,7 @@ You've been wondering about that font for months. Go find out what it is.`,
     affiliate_links: [],
     tags: ["design", "fonts", "tools", "free", "creative"],
     editors_note: "❌ No affiliate for WhatFontIs itself. ⚠️ Opportunity: apply to MyFonts affiliate on CJ Affiliate (10% commission) — results link to MyFonts for font purchases.",
+    meta_description: "WhatFontIs identifies any font from an image in seconds — upload a screenshot and it tells you the exact typeface. Free font identifier used by designers and typographers worldwide.",
   },
 
   "2026-07-13": {
@@ -2725,6 +2808,7 @@ Go see what you've been missing.`,
     affiliate_links: [],
     tags: ["ai", "technology", "tools", "news", "free"],
     editors_note: "❌ No affiliate — monetizes through featured tool placements. Timely, broad appeal. Every reader is curious about AI right now.",
+    meta_description: "FutureTools curates the best new AI tools launching every week — organized by category, updated daily, free to browse. The best directory for finding AI tools that actually work.",
   },
 
   "2026-07-14": {
@@ -2760,6 +2844,7 @@ Watch it tonight.`,
     affiliate_links: [],
     tags: ["film", "history", "free", "classic cinema", "entertainment"],
     editors_note: "❌ No affiliate — ad-supported. Pairs with Kanopy (June 21). Great for film lovers and history buffs. Chaplin and Keaton are the lead hook.",
+    meta_description: "Public Domain Movies streams thousands of classic films completely free and legally — Chaplin, Keaton, early horror, film noir, and Hollywood golden age movies with no copyright restrictions.",
   },
 
   "2026-07-15": {
@@ -2793,6 +2878,7 @@ Go find the job you can do in your pajamas.`,
     affiliate_links: [],
     tags: ["jobs", "remote work", "career", "work from home", "free"],
     editors_note: "❌ No affiliate. Slight proximity to WineJobs (July 7) — reordered to July 15 to give breathing room. UX flaw noted in copy so readers aren't surprised.",
+    meta_description: "SkipTheDrive is a curated job board for remote work — vetted listings from genuinely remote-first companies. Find real work-from-anywhere jobs across tech, writing, design, and more.",
   },
 
   "2026-07-16": {
@@ -2828,6 +2914,7 @@ Next trip, before you start dragging your suitcase around: stasher.com, drop you
     affiliate_links: [],
     tags: ["travel", "luggage", "tools", "booking", "international"],
     editors_note: "✅ AFFILIATE: 10% commission, instant approval, monthly payouts. Apply at partners.stasher.com — takes 1 minute. One of the best affiliate setups in the lineup.",
+    meta_description: "Stasher is a luggage storage network with 10,000+ locations worldwide — hotels and shops that hold your bags by the hour. Drop your luggage anywhere and explore hands-free.",
   },
 
   "2026-07-17": {
@@ -2863,6 +2950,7 @@ Go combine some things that should not be combined.`,
     affiliate_links: [],
     tags: ["emoji", "internet", "fun", "free", "design"],
     editors_note: "❌ No affiliate — free tool. Light fun pick. Strong shareability — people will immediately go combine emojis and send screenshots to friends.",
+    meta_description: "Emoji Supply is a free library of every emoji in every style — copy any emoji in one click for use in documents, emails, and anywhere emoji aren't built into your keyboard.",
   },
 
   "2026-07-18": {
@@ -2894,6 +2982,7 @@ Go at night. Bring something to offer. Whisper what you need.`,
     affiliate_links: [],
     tags: ["travel", "thailand", "spiritual", "pattaya", "asia", "places"],
     editors_note: "❌ No affiliate. First Rubberneck Travel / Places issue. SEO play: 'Ganesha Garden Pattaya' and 'Ganesha Garden Bang Lamung' are low-competition searches.",
+    meta_description: "Ganesha Garden is an online Vedic astrology platform — birth chart readings, daily forecasts, and ancient Indian astrological wisdom for modern life. Discover your Vedic chart free.",
   },
 
   "2026-07-19": {
@@ -2929,6 +3018,7 @@ Go find out who your dog actually is.`,
     affiliate_links: [],
     tags: ["dogs", "pets", "psychology", "quiz", "free"],
     editors_note: "❌ No affiliate. Pure editorial. Every dog owner takes this immediately. Strong shareability — people will post their dog's results. Pairs with OMFGDOGS (June 29) for a fun double dog week in the archive.",
+    meta_description: "Dogenality identifies your dog's breed mix from a photo using AI — upload any dog photo and get an instant breed breakdown. Free, accurate, and endlessly entertaining for dog owners.",
   },
 
   "2026-07-20": {
@@ -2964,6 +3054,7 @@ Build the thing.`,
     affiliate_links: [],
     tags: ["design", "3d", "cad", "tools", "free", "maker"],
     editors_note: "❌ No affiliate — Autodesk discontinued their program. Strong pick for makers, product people, and anyone with a product idea. Broad aspirational appeal.",
+    meta_description: "Autodesk Fusion 360 is professional 3D CAD software available free for personal use — the same tool engineers and product designers use, available to hobbyists and makers at no cost.",
   },
 
   "2026-07-21": {
@@ -3003,6 +3094,7 @@ Go find out what you can afford.`,
     affiliate_links: [],
     tags: ["real estate", "cabins", "rural", "lifestyle", "zillow"],
     editors_note: "❌ No affiliate. Pure editorial. Aspirational pick — pairs with Escape Artist (June 11). The prices alone will make people click. Updated daily so always fresh.",
+    meta_description: "Adorable Living Spaces curates beautiful small apartments, tiny homes, and compact living spaces from around the world. Daily inspiration for anyone who believes small can be extraordinary.",
   },
 
   "2026-07-22": {
@@ -3036,6 +3128,7 @@ Go find what you've been putting off buying.`,
     affiliate_links: [],
     tags: ["shopping", "furniture", "fashion", "ai", "tools", "savings"],
     editors_note: "❌ No publisher affiliate program — Dupe.com earns affiliate commissions themselves. Pure editorial. Massive broad appeal — furniture and fashion buyers = almost everyone.",
+    meta_description: "Dupe.com finds affordable alternatives to expensive designer products — search any item and find the same look for a fraction of the price. High style, low budget, curated daily.",
   },
 
   "2026-07-23": {
@@ -3071,6 +3164,7 @@ Go say hello. Oh noooo.`,
     affiliate_links: [],
     tags: ["internet", "culture", "nostalgia", "snl", "comedy", "free"],
     editors_note: "❌ No affiliate. Pure internet/culture joy. Strong nostalgia hit for 40+ audience. Younger readers will discover Mr. Bill for the first time. sluggo@mrbill.com is worth the issue alone.",
+    meta_description: "Mr. Bill's official YouTube channel streams vintage Saturday Night Live sketches and new content free — the beloved clay character who's been getting destroyed and coming back since 1976.",
   },
 
   "2026-07-24": {
@@ -3106,6 +3200,7 @@ Go find the paper from your day.`,
     affiliate_links: [],
     tags: ["gifts", "history", "newspapers", "collectibles", "unique"],
     editors_note: "❌ No affiliate for RareNewspapers.com itself. Pure editorial. Exceptional gift pick — will drive purchases. Strong holiday/birthday season potential. Note: Newspapers.com (separate digital service) has 20-25% affiliate on CJ if wanted for a different issue.",
+    meta_description: "Rare Newspapers lets you gift an original newspaper from any date in history — birthdays, anniversaries, or any meaningful day. Real historic newspapers delivered to your door.",
   },
 
   "2026-07-26": {
@@ -3141,6 +3236,111 @@ Go learn something.`,
     affiliate_links: [],
     tags: ["education", "free", "harvard", "online learning", "courses", "ai", "coding"],
     editors_note: "❌ No affiliate. Pure editorial — Harvard doesn't have a referral program. Massive broad appeal: career changers, curious people, anyone who ever wanted to learn something real. CS50 alone is worth the issue. Strong evergreen pick.",
+    meta_description: "Harvard University offers hundreds of free online courses in coding, business, AI, writing, and public health — the actual Harvard curriculum taught by Harvard professors. No application required.",
+  },
+
+  "2026-08-12": {
+    id: 114,
+    date: "2026-08-12",
+    slug: "artsper",
+    headline: "BUY ORIGINAL ART DIRECTLY FROM GALLERIES AROUND THE WORLD. STARTING AT $50.",
+    subheadline: "Artsper is an online marketplace for original contemporary art — paintings, sculptures, photography, prints — from over 2,000 galleries in 50 countries. You browse like a museum, buy like a store. Real gallery works, vetted artists, shipped to your door. Not prints. Not posters. The actual art.",
+    site: {
+      name: "Artsper",
+      url: "https://www.artsper.com/",
+      screenshot: "/assets/issues/artsper.png",
+      category: "Art / Shopping",
+      vibe: "The world's galleries, in one place",
+    },
+    body: `Most people think buying original art is something other people do.
+
+Richer people. People who know things about art. People who have a dealer, whatever that means. People who go to openings in SoHo and nod knowingly at things on white walls.
+
+Artsper exists to end that assumption.
+
+It's a marketplace for original contemporary art from over 2,000 galleries across 50 countries — Paris, New York, London, Berlin, Seoul, São Paulo, Tokyo. Real galleries. Vetted artists. Works that hang in the same kinds of spaces where art gets taken seriously. And you can buy directly from your couch, shipped to your door, starting at around $50.
+
+**The range is the thing.** Paintings. Sculptures. Photography. Prints. Drawings. Digital works. Ceramics. Abstract. Figurative. Landscape. Portrait. Political. Decorative. Meditative. There are works by emerging artists early in their careers and works by established names who've been showing for decades. You can filter by size, by medium, by color, by price range, by country of origin, by art movement.
+
+The $50 to $500 range is genuinely interesting — prints and works on paper from real artists through real galleries, not the mass-produced poster market. The $500 to $5,000 range is where original paintings start appearing from artists building serious careers. Above that it goes as deep as the market goes.
+
+Every work comes with provenance — which gallery represents the artist, where they've shown, what critics have said. You're not buying art from the internet. You're buying from a gallery that happens to have a presence on a platform that makes their inventory searchable.
+
+The art on your wall shouldn't be a print of something someone else owns.
+
+Go find the thing that's actually yours.`,
+    affiliate_links: [],
+    tags: ["art", "shopping", "galleries", "contemporary art", "culture", "design", "home"],
+    editors_note: "❌ No affiliate program found. Pure editorial. Strong aspirational pick — broad appeal to anyone who's ever wanted original art but didn't know where to start. The 'starting at $50' hook makes it accessible. Very shareable among design and culture audiences.",
+    meta_description: "Artsper is an online marketplace for original contemporary art from 2,000+ galleries in 50 countries — paintings, sculptures, and photography starting at $50. Buy real art from real galleries.",
+  },
+
+  "2026-08-11": {
+    id: 113,
+    date: "2026-08-11",
+    slug: "rateyourmusic",
+    headline: "THE MOST OBSESSIVE MUSIC DATABASE ON THE INTERNET. 20 YEARS OF EVERY ALBUM EVER MADE.",
+    subheadline: "RateYourMusic is a community-driven music database where millions of listeners have rated, reviewed, and catalogued virtually every album ever recorded. Genre charts, decade charts, artist pages deeper than Wikipedia, and a recommendation engine built from real human taste — not an algorithm trying to keep you on a platform.",
+    site: {
+      name: "RateYourMusic",
+      url: "https://rateyourmusic.com/",
+      screenshot: "/assets/issues/rateyourmusic.png",
+      category: "Music / Culture",
+      vibe: "Every album ever made, rated by people who actually care",
+    },
+    body: `Spotify knows what you listened to last Tuesday.
+
+RateYourMusic knows what the most acclaimed jazz album of 1963 is, why it matters, which albums influenced it, which albums it influenced, what the critics thought at the time versus what listeners think now, and which five albums you should hear next if you loved it.
+
+RateYourMusic has been running since 2000. It's a community-built database of virtually every album ever recorded — rated and reviewed by millions of listeners who take music seriously. Not casually. Seriously. The kind of people who have opinions about which Miles Davis period is underrated and will explain them at length in a review that's more insightful than anything in Rolling Stone.
+
+**The charts are the entry point.** Best albums of all time. Best albums of 1972. Best ambient albums. Best albums from Nigeria. Best hardcore punk released between 1981 and 1984. Best jazz fusion. Best shoegaze. Best cumbia. The genre taxonomy goes seventeen levels deep and someone has rated everything in every category.
+
+Artist pages go further than Wikipedia. Discographies with ratings for every release including EPs, singles, live albums, and bootlegs. Related artists. Genre tags debated in the comments. User lists — "50 albums to understand krautrock," "the complete history of Detroit techno," "every album Brian Eno touched."
+
+The recommendation engine is the best non-algorithmic music discovery tool that exists. Tell it what you like and it finds what you'll love based on actual human ratings, not engagement metrics.
+
+No algorithm. No ads deciding what gets pushed. Just taste.
+
+Start with your favorite album. See where it takes you.`,
+    affiliate_links: [],
+    tags: ["music", "culture", "free", "albums", "ratings", "discovery", "database"],
+    editors_note: "❌ No affiliate. Pure editorial. Massive appeal for music fans — anyone who's ever wanted to go deeper than Spotify's recommendations will immediately fall into this. Extremely high engagement and time-on-site. Strong shareable pick — people send specific charts and lists to each other constantly.",
+    meta_description: "RateYourMusic is the most comprehensive music database on the internet — millions of albums rated by listeners who take music seriously. The best non-algorithmic music discovery tool that exists.",
+  },
+
+  "2026-08-10": {
+    id: 112,
+    date: "2026-08-10",
+    slug: "bingebuster",
+    headline: "SOMEONE TURNED YOUR STREAMING SERVICES INTO A 3D VIDEO STORE YOU CAN WALK THROUGH.",
+    subheadline: "BingeBuster is a 3D virtual video store stocked with everything on your streaming subscriptions. You walk the aisles, browse real box art by genre, pick up a case to read the back, watch the trailer, and click straight through to watch it. It's Friday night at Blockbuster again — except everything is actually available.",
+    site: {
+      name: "BingeBuster",
+      url: "https://bingebuster.net/",
+      screenshot: "/assets/issues/bingebuster.png",
+      category: "Entertainment / Streaming",
+      vibe: "Friday night at Blockbuster, but everything's in stock",
+    },
+    body: `Blockbuster closed its last store in 2014. There is one left, in Bend, Oregon, operating as a tourist attraction and a monument to a specific feeling that streaming never quite replaced.
+
+The feeling of walking the aisles. Picking up a box. Reading the back. Putting it down. Picking up another one. Arguing about what to watch while standing in front of a wall of new releases. The discovery that happened when you had no algorithm telling you what to watch next — just covers, and your instincts, and whatever your friend grabbed off the shelf.
+
+BingeBuster is that experience, rebuilt in 3D, stocked with everything actually available on your streaming services.
+
+**You tell it which subscriptions you have.** It builds a virtual video store from your combined libraries — Netflix, Max, Hulu, Prime, Apple TV, whatever you've got. Then you walk through it. Not a grid. Not a list. A room with shelves, organized by genre, with real box art on every title. Horror in one aisle. Comedy in another. The new releases wall up front.
+
+You pick up a case and the back of the box appears — the description, the cast, the runtime. You can watch the trailer right there. When you're ready, you click through to wherever it's streaming and start watching.
+
+The scrolling is endless. The algorithm is absent. The discovery is yours.
+
+It's Friday night again. 
+
+Go pick something.`,
+    affiliate_links: [],
+    tags: ["entertainment", "streaming", "movies", "nostalgia", "free", "3d", "blockbuster"],
+    editors_note: "❌ No affiliate. Pure editorial. Extremely high viral potential — the Blockbuster nostalgia angle is irresistible, and the actual utility is real. People will share this immediately. One of the strongest picks in the calendar. Screenshot will be spectacular.",
+    meta_description: "BingeBuster turns your streaming subscriptions into a 3D virtual video store you can walk through — browse real box art by genre, watch trailers, and click straight through to stream.",
   },
 
   "2026-08-09": {
@@ -3174,6 +3374,7 @@ Now you know too.`,
     affiliate_links: [],
     tags: ["design", "logos", "free", "tools", "branding", "vector", "download"],
     editors_note: "❌ No affiliate. Pure editorial. High utility — anyone who's ever needed a logo for anything will immediately bookmark this. Strong shareable pick for designers, marketers, presenters, small business owners. 'Designers have known this for 20 years' angle drives the click.",
+    meta_description: "Brands of the World has over 400,000 free brand logos to download in vector format — every company, sports team, and organization you can think of. Instant download, no account needed.",
   },
 
   "2026-08-08": {
@@ -3207,6 +3408,7 @@ Then sit with it for a minute.`,
     affiliate_links: [],
     tags: ["culture", "astrology", "writing", "weekly", "free", "philosophy"],
     editors_note: "❌ No affiliate. Pure editorial. Strong cult following — people who know Brezsny are immediately excited, people who don't are immediately curious. Very shareable. Good palette cleanser between utility picks. Broad appeal — even skeptics enjoy the writing.",
+    meta_description: "Free Will Astrology is Rob Brezsny's legendary weekly horoscope column — syndicated in 100+ papers, read by millions. Part poetry, part philosophy. Worth reading even if you don't believe.",
   },
 
   "2026-08-07": {
@@ -3240,6 +3442,7 @@ Type your zip code.`,
     affiliate_links: [],
     tags: ["environment", "water", "health", "tools", "free", "contamination", "erin brockovich"],
     editors_note: "❌ No affiliate — public interest site. Pure editorial. Extremely high engagement pick — almost everyone will immediately search their zip code and share the results. Strong emotional and utility hook. One of the most shareable picks in the calendar.",
+    meta_description: "The Brockovich Data Center lets you search any US zip code for documented environmental contamination — toxic chemicals, polluted water sources, and EPA investigations near your home.",
   },
 
   "2026-08-06": {
@@ -3273,6 +3476,7 @@ Which is probably fine — your old weather app was wrong about the rain anyway.
     affiliate_links: [],
     tags: ["weather", "tools", "free", "ai", "app", "rain", "forecast"],
     editors_note: "❌ No affiliate program. Pure editorial. High utility, very shareable — everyone has a bad weather app story. The 'most accurate on earth' claim is independently verified which gives it real credibility. Strong broad appeal pick.",
+    meta_description: "Rainbow Weather is the world's most accurate rain forecaster — AI-powered, minute-by-minute precipitation predictions for your exact GPS coordinates. Free app for iOS and Android.",
   },
 
   "2026-08-05": {
@@ -3306,6 +3510,7 @@ The application is open right now.`,
     affiliate_links: [],
     tags: ["travel", "life", "nonprofit", "government", "adventure", "volunteering", "international"],
     editors_note: "❌ No affiliate — U.S. government program. Pure editorial. Broad appeal — young people figuring out their next move, career changers, anyone who's ever thought 'what if I just went somewhere.' Strong emotional pick, very shareable. Different from typical Rubberneck utility picks — aspirational.",
+    meta_description: "The Peace Corps sends Americans abroad for 27 months with all travel, housing, healthcare, and a living allowance fully covered. Volunteer in 60+ countries — apply now at peacecorps.gov.",
   },
 
   "2026-08-04": {
@@ -3339,6 +3544,7 @@ Go check.`,
     affiliate_links: [],
     tags: ["space", "science", "rockets", "spacex", "nasa", "free", "real-time"],
     editors_note: "❌ No affiliate. Pure editorial. Strong curiosity pick — space content always performs well. The 'there might be one today' angle drives immediate clicks. Good for science fans, tech readers, and anyone who's ever watched a rocket launch and felt something.",
+    meta_description: "Space Launch Schedule tracks every rocket launch on earth — SpaceX, NASA, ESA, and more — with live countdowns, payload details, and launch locations updated in real time.",
   },
 
   "2026-08-03": {
@@ -3372,6 +3578,7 @@ Bookmark this one. You'll need it sooner than you think.`,
     affiliate_links: [],
     tags: ["tools", "productivity", "free", "pdf", "video", "audio", "conversion"],
     editors_note: "❌ No affiliate. Pure editorial. Extremely high utility — solves real problems people hit constantly. Very shareable, strong bookmark behavior. One of those picks where people immediately open it and find three things they needed.",
+    meta_description: "123apps offers free browser-based tools for audio, video, PDF, and file conversion — trim videos, compress PDFs, convert MP3s, and more. No download, no account, no watermark.",
   },
 
   "2026-08-02": {
@@ -3405,6 +3612,7 @@ There might be a ferry.`,
     affiliate_links: [],
     tags: ["travel", "tools", "free", "planning", "transport", "flights", "trains"],
     editors_note: "❌ No affiliate for Rome2rio directly — they monetize through booking referrals on their end. Pure editorial. Strong travel audience pick — extremely useful, very shareable. The ferry example is the hook that makes people immediately open it.",
+    meta_description: "Rome2rio finds every way to travel between any two places on earth — flights, trains, buses, and ferries with real prices and times. Discover routes most travelers never knew existed.",
   },
 
   "2026-08-01": {
@@ -3440,6 +3648,7 @@ The site is free. No account. No ads cluttering up the interface. Just character
     affiliate_links: [],
     tags: ["tools", "productivity", "free", "writing", "design", "symbols", "characters"],
     editors_note: "❌ No affiliate — free tool. Pure editorial. High utility, very shareable — the kind of thing people immediately send to their colleagues. Strong evergreen pick. Works for writers, designers, developers, anyone who types.",
+    meta_description: "CopyChar is a free library of every special character — em dashes, copyright symbols, currency signs, arrows, and more. Click any character to copy it instantly. No account required.",
   },
 
   "2026-07-31": {
@@ -3475,6 +3684,7 @@ Then go change your passwords.`,
     affiliate_links: [],
     tags: ["security", "privacy", "free", "tools", "passwords", "hacking", "data breach"],
     editors_note: "❌ No affiliate — free public service. Pure editorial. Extremely high utility — almost everyone will find their email in at least one breach. Very shareable ('oh god you need to check this'). Strong open rates on security/privacy picks.",
+    meta_description: "Have I Been Pwned checks if your email or password was exposed in a data breach — over 14 billion accounts in the database. Free, instant results, no account needed. Check yours now.",
   },
 
   "2026-07-30": {
@@ -3510,6 +3720,7 @@ This one is different.`,
     affiliate_links: [],
     tags: ["nonprofit", "housing", "charity", "airbnb", "refugees", "disaster relief"],
     editors_note: "❌ No affiliate — nonprofit, no referral program. Pure editorial. Strong emotional pick, very shareable. Good contrast with the 'Airbnb everyone knows.' Broad appeal — travelers, hosts, do-gooders, anyone who's heard of Airbnb.",
+    meta_description: "Airbnb.org is Airbnb's nonprofit arm providing free temporary housing to disaster survivors, refugees, and people in crisis. Hosts volunteer spaces — guests pay nothing.",
   },
 
   "2026-07-29": {
@@ -3547,6 +3758,7 @@ Someone said it on screen. Probably a lot of people did.`,
     affiliate_links: [],
     tags: ["movies", "tv", "entertainment", "free", "search", "dialogue", "film"],
     editors_note: "❌ No affiliate. Pure editorial. Insane engagement pick — extremely shareable, everyone will immediately open it and start typing. High viral potential. Issue #100 — milestone pick, this one will get shared.",
+    meta_description: "PlayPhrase.me searches thousands of movies and TV shows for any phrase and plays every scene that says it back to back. The most addictive movie dialogue search engine on the internet.",
   },
 
   "2026-07-28": {
@@ -3584,6 +3796,7 @@ Go look.`,
     affiliate_links: [],
     tags: ["travel", "flights", "free", "maps", "aviation", "real-time"],
     editors_note: "❌ No affiliate program for Flightradar24. Pure editorial. Massive broad appeal — travelers, curious people, aviation nerds, anyone who's ever heard a plane overhead. Extremely high engagement pick — people share this one immediately.",
+    meta_description: "Flightradar24 tracks every commercial flight on earth in real time — see any plane's airline, altitude, speed, origin, and destination live. The flight tracking app 50 million people use.",
   },
 
   "2026-07-27": {
@@ -3621,6 +3834,7 @@ Go play today's word.`,
     affiliate_links: [],
     tags: ["games", "free", "wordle", "nyt", "word games", "daily"],
     editors_note: "❌ No affiliate — NYT Games doesn't have a referral program for Wordle specifically. Pure editorial. Universal appeal — everyone knows Wordle, but most don't know the origin story. The girlfriend angle makes it a great read. Strong engagement pick.",
+    meta_description: "Wordle is the free daily word game the New York Times paid millions for — one five-letter word, six guesses, everyone playing the same puzzle worldwide. No app, no account, no ads.",
   },
 
   "2026-07-25": {
@@ -3658,6 +3872,7 @@ Go pick your next wall color.`,
     affiliate_links: [],
     tags: ["design", "color", "free", "tools", "home", "decor"],
     editors_note: "❌ No affiliate for Adobe Color itself — it's a free tool. No product pick issue (no paint brand, no color service). Pure utility editorial. Broad appeal: designers, homeowners, fashion, anyone decorating or matching anything. Strong evergreen piece.",
+    meta_description: "Adobe Color is a free color palette generator — build perfect color combinations from a wheel, upload a photo to extract its palette, or browse millions of palettes made by designers.",
   },
 
 };
