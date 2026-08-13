@@ -3239,6 +3239,186 @@ Go learn something.`,
     meta_description: "Harvard University offers hundreds of free online courses in coding, business, AI, writing, and public health — the actual Harvard curriculum taught by Harvard professors. No application required.",
   },
 
+  "2026-08-30": {
+    id: 131,
+    date: "2026-08-30",
+    slug: "mixboard",
+    headline: "GOOGLE BUILT AN AI MOOD BOARD. TYPE A PROMPT. WATCH A VISUAL WORLD APPEAR.",
+    subheadline: "Mixboard is a free AI-powered concept board from Google Labs — type any idea and it generates a full visual mood board on an infinite canvas. Home decor, event themes, product concepts, creative projects. Powered by Google's Nano Banana image model. Free, no design skills needed.",
+    site: {
+      name: "Mixboard by Google Labs",
+      url: "https://mixboard.google.com/projects",
+      screenshot: "/assets/issues/mixboard.png",
+      category: "AI / Design",
+      vibe: "Pinterest, but the AI builds the board for you",
+    },
+    body: `Pinterest requires you to already know what you're looking for.
+
+You search, you scroll, you pin things that match a vision you've already half-formed. It's great for collecting. It doesn't help you think.
+
+Mixboard works differently. You open a blank canvas, type what you're thinking about — "cozy modern living room with warm lighting" or "bohemian wedding in the desert" or "rebrand a coffee shop that feels like a record store" — and it generates a full visual mood board from scratch. Images, colors, compositions, all matched to your prompt, all editable, all on an infinite canvas you can keep expanding.
+
+**The editing is the part that makes it different.** Once your board exists, you interact with it in plain language. "Make this image brighter." "Combine these two styles." "Add something that feels more industrial." The AI handles the changes visually, using Google's Nano Banana image model — the same technology powering Google's most advanced image editing capabilities.
+
+You can also start from your own photos. Upload images you already have and ask Mixboard to remix them, extend them, or generate new visuals that match their aesthetic.
+
+The use cases are wider than they look at first. Interior designers roughing out a client concept. Event planners building a theme. Entrepreneurs visualizing a brand. Writers building a visual reference for a story. Anyone who thinks better with images than with words.
+
+It's free. It's in public beta. It requires a Google account.
+
+Type something you've been trying to picture.
+
+Watch it appear.`,
+    affiliate_links: [],
+    tags: ["ai", "design", "free", "google", "mood board", "creative", "visual"],
+    meta_description: "Mixboard is a free AI mood board tool from Google Labs — type any prompt and it generates a full visual concept board instantly. Powered by Google's Nano Banana image model. Free public beta.",
+    editors_note: "❌ No affiliate. US only currently. Requires Google account. Spaced intentionally from Pomelli (Aug 14) to avoid back-to-back Google picks. Strong creative audience pick — designers, planners, makers, anyone who thinks visually.",
+  },
+
+  "2026-08-16": {
+    id: 119,
+    date: "2026-08-16",
+    slug: "10minutemail",
+    headline: "A FAKE EMAIL ADDRESS. READY IN ONE SECOND. GONE IN TEN MINUTES.",
+    subheadline: "10 Minute Mail gives you a real, working email address that self-destructs in exactly 10 minutes. Use it for any signup you don't trust, any form that demands your email, any site you'll never visit again. No account, no registration, no spam following you home. Open the site. Your address is already there.",
+    site: {
+      name: "10 Minute Mail",
+      url: "https://10minutemail.com/",
+      screenshot: "/assets/issues/10minutemail.png",
+      category: "Tools / Privacy",
+      vibe: "A burner email. Ten minutes. No trace.",
+    },
+    body: `The site wants your email address. You know what happens next.
+
+You'll get the thing you came for — the PDF, the discount code, the free trial — and then for the next three years you'll get emails you never wanted from a company you visited once. You'll unsubscribe. They'll add you to a different list. You'll unsubscribe again. They'll sell your address to someone else.
+
+Or you could just use 10 Minute Mail.
+
+Open the site. Your temporary email address is already there — no setup, no account, no password. It's a real, working email address. Emails sent to it appear on the page in real time. You can receive the confirmation email, click the verification link, get your thing, and walk away.
+
+**Ten minutes later, the address is gone.** Anything sent to it after that goes nowhere. Your real inbox stays clean. The company has an email that no longer exists. The spam goes nowhere.
+
+You can extend the timer if you need more time — add another 10 minutes with one click, as many times as you need. When you're done, just close the tab. There's nothing to delete, nothing to cancel, nothing to manage.
+
+The use cases are everywhere once you start thinking about them. Free WiFi that requires an email. A news site that wants registration to read one article. A software trial that demands sign-up. A contest entry form. Any website that treats your email address as the price of admission for something that should just be free.
+
+Your real email address is worth protecting.
+
+This one costs nothing and lasts exactly as long as you need it.`,
+    affiliate_links: [],
+    tags: ["privacy", "tools", "free", "email", "spam", "security", "disposable"],
+    meta_description: "10 Minute Mail gives you a free disposable email address that self-destructs in 10 minutes — no signup, no account. Use it for any form you don't trust and keep your real inbox spam-free.",
+    editors_note: "⚠️ Note: similar to Temp Mail (#30). Different brand, more widely known, stronger name recognition. Angle differentiated toward spam protection rather than just anonymity. Worth running.",
+  },
+
+  "2026-08-15": {
+    id: 118,
+    date: "2026-08-15",
+    slug: "stowaway",
+    headline: "PICK ANY PLANE OVER YOUR HOUSE RIGHT NOW. STOW AWAY IN ITS WINDOW SEAT.",
+    subheadline: "Stowaway shows you every aircraft and satellite passing over your exact location in real time — then lets you ride along from the window. Real terrain, real weather, real light, real altitude. Click any plane in the sky above you and see exactly what the passengers are seeing right now.",
+    site: {
+      name: "Stowaway",
+      url: "https://stowaway.live/",
+      screenshot: "/assets/issues/stowaway.png",
+      category: "Travel / Interactive",
+      vibe: "Ride along with anything in the sky",
+    },
+    body: `There are planes over your house right now.
+
+Not metaphorically. Literally. At any given moment, somewhere between two and twenty commercial flights are passing within visible range above wherever you're sitting. You can't see most of them. You've never thought about the people in them.
+
+Stowaway fixes that.
+
+Open it and it pulls your location. It renders the actual sky above you — your weather, your time of day, the correct sun angle, the moon if it's up — and overlays every aircraft and satellite currently passing overhead. Real flights. Real orbits. This minute, this second.
+
+**Click any one of them and you stow away.** The camera places you in the window seat. You see what they see — the actual terrain below rendered in 3D, the actual cloud cover, the actual light at their altitude. A flight at 36,000 feet over the Rockies looks like 36,000 feet over the Rockies. A satellite pass looks like what a satellite pass looks like from inside.
+
+It's built on real-time flight data and physically accurate sky rendering — the same sun position, the same atmospheric scattering, the same shadows you'd see if you were actually on board. When the flight crosses a mountain range, the mountains are there. When it crosses open ocean, the ocean stretches out.
+
+You can also pick satellites. The ISS passes overhead roughly every 90 minutes. If it's up there right now, you can stow away on it and see your neighborhood from 250 miles up.
+
+Every plane is a seat with nobody in it.
+
+Go take one.`,
+    affiliate_links: [],
+    tags: ["travel", "interactive", "free", "planes", "satellites", "real-time", "space"],
+    meta_description: "Stowaway lets you pick any plane or satellite passing over your location right now and ride along from the window seat — real terrain, real weather, real altitude rendered live. Free, no account needed.",
+    editors_note: "❌ No affiliate. Pure editorial. Enormous wow factor — this is the kind of site people share immediately and obsessively. Flightradar24 was #99, this is a completely different and more immersive experience. One of the strongest picks in the calendar.",
+  },
+
+  "2026-08-14": {
+    id: 116,
+    date: "2026-08-14",
+    slug: "pomelli",
+    headline: "GOOGLE BUILT A FREE AI MARKETING TOOL. GIVE IT YOUR WEBSITE. IT FIGURES OUT THE REST.",
+    subheadline: "Pomelli is a free AI marketing tool from Google Labs and DeepMind — give it your website URL and it analyzes your brand, builds a 'Business DNA' profile from your colors, fonts, tone, and images, then generates complete social media campaigns ready to post. No agency. No designer. No brief. Just your URL.",
+    site: {
+      name: "Pomelli by Google Labs",
+      url: "https://labs.google.com/pomelli/about/",
+      screenshot: "/assets/issues/pomelli.png",
+      category: "AI / Tools",
+      vibe: "Your entire marketing department, for free",
+    },
+    body: `Most small businesses have a marketing problem that isn't a budget problem.
+
+It's a time problem. A consistency problem. A "we know what we do but we don't know how to say it in a way that makes people care" problem.
+
+Pomelli is Google's attempt to solve that. It's a free AI marketing tool built by Google Labs in partnership with DeepMind, currently in public beta. You give it your website URL. That's the entire setup.
+
+**From your URL, it builds what it calls your "Business DNA."** It scans your site — the copy, the images, the color palette, the fonts, the tone — and constructs a brand profile automatically. No uploading a logo kit. No filling out a brand questionnaire. No explaining yourself to a tool that doesn't know you. It reads what you've already published and infers who you are from that.
+
+Then it generates campaign ideas and actual content assets — social media posts, captions, ad visuals — all matched to your brand identity. The outputs are editable. You take what works, adjust what doesn't, and post it.
+
+The gap it fills is real. Most AI content tools generate generic output that sounds like it was written for everyone and therefore resonates with no one. Pomelli's bet is that anchoring to your actual existing brand — the one you've already built, even imperfectly — produces output that sounds like you instead of sounding like a template.
+
+It's free while it's in beta. Available in the US, Canada, Australia, and New Zealand. Several hundred image and video generations included before any limits kick in.
+
+Go give it your URL.
+
+See what Google thinks your brand is.`,
+    affiliate_links: [],
+    tags: ["ai", "marketing", "free", "google", "tools", "small business", "social media"],
+    meta_description: "Pomelli is a free AI marketing tool from Google Labs — give it your website URL and it builds your brand profile and generates social media campaigns automatically. Free in public beta.",
+    editors_note: "⚠️ Product pick flag — this is a Google product. However it's a free experimental tool from Google Labs, not a paid product, so it's editorial territory similar to Adobe Color or Harvard. No affiliate. Strong pick for the small business and marketing audience.",
+  },
+
+  "2026-08-13": {
+    id: 115,
+    date: "2026-08-13",
+    slug: "dogdog",
+    headline: "EVERY TIME YOU SEARCH THE WEB, THIS SITE FEEDS A SHELTER DOG.",
+    subheadline: "DogDog is a free search engine that donates half its profits to animal shelters and rescues every time you use it. Works just like Google. Costs nothing to switch. Has donated over $7 million to shelters so far. You were going to search anyway.",
+    site: {
+      name: "DogDog",
+      url: "https://www.dogdog.org/",
+      screenshot: "/assets/issues/dogdog.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "Search the web. Feed a dog.",
+    },
+    body: `You're going to search the web today. Probably a dozen times. You're going to use Google, or whatever you use, and it's going to make money off your searches, and none of it goes anywhere interesting.
+
+Here's an alternative.
+
+DogDog is a search engine. It works. The results are good — powered by the same underlying technology as major search engines. You type your query, you get your results, it takes about the same two seconds it always takes.
+
+The difference is what happens with the money. DogDog donates half its advertising revenue to animal shelters and rescue organizations. Every search. Every time. No extra step, no donation button, no fundraising campaign. You search, a shelter gets funded.
+
+**They've donated over $7 million so far** — to hundreds of shelters and rescues across the country. Fort Worth Abandoned Animal Alliance. North Shore Animal League. Happy Tails Animal Rescue. Rescue Coop. Muddy Paws Rescue. The list goes on for pages. These are real organizations getting real money from people doing nothing more than searching for pizza restaurants and flight prices.
+
+Every 20 searches equals one meal for a shelter dog. You can track your impact on the site — how many meals your searches have funded, which rescue you're supporting, how the collective total is growing.
+
+It takes about 90 seconds to install the browser extension and make it your default search. That's the entire commitment. No monthly donation. No remembering to give. Just use the internet the way you already use it, pointed slightly differently.
+
+You were going to search anyway.
+
+Might as well feed a dog while you do it.`,
+    affiliate_links: [],
+    tags: ["nonprofit", "dogs", "free", "search", "charity", "animals", "shelter"],
+    meta_description: "DogDog is a free search engine that donates half its profits to animal shelters every time you search — over $7 million donated so far. Switch in 90 seconds. Feed a shelter dog every time you search the web.",
+    editors_note: "❌ No affiliate. Pure editorial. Enormous broad appeal — dog people, charity-minded readers, anyone who's ever adopted a pet. Extremely shareable. The '20 searches = 1 meal' mechanic is a brilliant engagement hook. One of the strongest feel-good picks in the calendar.",
+  },
+
   "2026-08-12": {
     id: 114,
     date: "2026-08-12",
