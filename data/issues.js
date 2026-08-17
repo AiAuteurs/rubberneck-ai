@@ -3275,6 +3275,258 @@ Watch it appear.`,
     editors_note: "❌ No affiliate. US only currently. Requires Google account. Spaced intentionally from Pomelli (Aug 14) to avoid back-to-back Google picks. Strong creative audience pick — designers, planners, makers, anyone who thinks visually.",
   },
 
+  "2026-08-23": {
+    id: 126,
+    date: "2026-08-23",
+    slug: "historichouses",
+    headline: "BRITAIN HAS 1,600 PRIVATELY OWNED CASTLES AND MANOR HOUSES. THIS SITE OPENS THEM ALL TO YOU.",
+    subheadline: "Historic Houses is the association of independently owned historic houses, castles, and gardens across Britain — from Glamis Castle to Castle Howard to hundreds of hidden manor houses most people have never heard of. Browse them all, plan visits, book private owner-guided tours, or get a membership that gives you free entry to hundreds of them.",
+    site: {
+      name: "Historic Houses",
+      url: "https://www.historichouses.org/",
+      screenshot: "/assets/issues/historichouses.png",
+      category: "Travel / History",
+      vibe: "Every castle and manor house in Britain, open to you",
+    },
+    body: `There are 1,600 independently owned historic houses, castles, and gardens across Britain.
+
+Not National Trust properties. Not English Heritage sites managed by the government. Privately owned — meaning someone's family actually lives in them, or has lived in them for centuries, and has decided to open the doors.
+
+Historic Houses is their association. And their website is the most extraordinary travel database hiding in plain sight.
+
+**Browse by region, by type, by what you want to do.** Castles in Scotland. Walled gardens in Wales. Palladian manor houses in the English countryside. Houses where you can stay overnight in a four-poster bed that someone's great-great-grandmother slept in. Houses where you can book a private tour guided by the actual owner — the person whose family has owned the place since 1650, who will take you through rooms that aren't on any public tour and tell you things that aren't in any guidebook.
+
+Glamis Castle — where Macbeth is set, where the late Queen Mother grew up. Castle Howard — the Yorkshire palace used in Brideshead Revisited. Althorp — where Princess Diana is buried. These are the headline names. But the magic of the site is the 1,597 others: the moated medieval manor in Suffolk that most people drive past without knowing it's there, the Jacobean house in Derbyshire with a garden that's been continuously cultivated since 1622.
+
+Membership costs £71 a year and gets you free entry to hundreds of participating properties, a quarterly magazine, and exclusive access to owner-guided tours that sell out months in advance.
+
+You don't need the membership to browse. The site is free. Start there.
+
+Britain has been building things worth looking at for about a thousand years.
+
+This is where they all are.`,
+    affiliate_links: [],
+    tags: ["travel", "history", "uk", "castles", "heritage", "britain", "gardens"],
+    meta_description: "Historic Houses is the directory of 1,600 independently owned castles, manor houses, and gardens across Britain — browse, plan visits, book private tours, or get free entry with membership.",
+    editors_note: "❌ No affiliate program. Pure editorial. Strong travel audience pick — anyone planning a UK trip, anyone obsessed with British history, anyone who's ever watched Downton Abbey and wanted to actually go. Broad aspirational appeal. Screenshot will be spectacular.",
+  },
+
+  "2026-08-22": {
+    id: 125,
+    date: "2026-08-22",
+    slug: "haveibeenflocked",
+    headline: "TYPE YOUR LICENSE PLATE. FIND OUT IF POLICE HAVE BEEN SEARCHING FOR YOUR CAR.",
+    subheadline: "Have I Been Flocked lets you check if your license plate has been searched in the Flock Safety surveillance camera system — the AI-powered cameras deployed by thousands of police departments and HOAs across America. The data comes from public FOIA requests. Type your plate. Find out who's been looking.",
+    site: {
+      name: "Have I Been Flocked",
+      url: "https://haveibeenflocked.com/",
+      screenshot: "/assets/issues/haveibeenflocked.png",
+      category: "Privacy / Tools",
+      vibe: "Find out if police cameras have been tracking your car",
+    },
+    body: `There are cameras watching your car right now.
+
+Flock Safety makes AI-powered license plate reader cameras deployed by thousands of police departments, HOAs, and private communities across the United States. Every time your car drives past one, it logs your plate, your location, your direction of travel, and a photo. That data is searchable by any law enforcement agency with access to the Flock network — which, depending on your area, could be dozens of departments sharing a regional database.
+
+Most people have no idea how many of these cameras exist or how often their plates are being run.
+
+Have I Been Flocked gives you a way to find out.
+
+**Type your license plate number.** The site runs it through a series of audit logs obtained via Freedom of Information Act requests from agencies that use Flock cameras. The results don't show where your car was spotted or what the cameras returned — they show which agencies searched your plate in the Flock system, and when. Who was looking for your car. How many times. From which departments.
+
+For most people the results will be routine — a hit or two from local traffic enforcement. For some people the results will be surprising. Multiple agencies. Repeated searches. Departments in different jurisdictions. Searches with no obvious explanation.
+
+The data is public record. Flock's own audit logs are subject to FOIA. This site just makes them searchable by the people those searches were about.
+
+You have a right to know if someone is looking for your car.
+
+Now you can check.`,
+    affiliate_links: [],
+    tags: ["privacy", "surveillance", "police", "free", "tools", "license plate", "flock"],
+    meta_description: "Have I Been Flocked lets you check if your license plate has been searched in the Flock Safety police surveillance camera system using FOIA data. Type your plate and find out instantly.",
+    editors_note: "❌ No affiliate. Pure editorial. Extremely high engagement — everyone will immediately search their plate. Strong civil liberties/privacy angle. Very shareable. One of the most alarming and important picks in the calendar.",
+  },
+
+  "2026-08-21": {
+    id: 124,
+    date: "2026-08-21",
+    slug: "meme-com",
+    headline: "EVERY MEME EVER MADE. WHERE IT CAME FROM. WHY IT WENT VIRAL. ALL OF IT.",
+    subheadline: "Meme.com is a living archive of internet meme culture — every meme, ranked, with its full origin story, when it peaked, how it spread, and what it meant. Harambe. Distracted Boyfriend. Nyan Cat. Doge. All of them, documented like history, because they are history.",
+    site: {
+      name: "Meme.com",
+      url: "https://meme.com/",
+      screenshot: "/assets/issues/meme-com.png",
+      category: "Culture / Internet",
+      vibe: "The internet's memory, organized",
+    },
+    body: `Harambe was a 17-year-old western lowland gorilla shot at the Cincinnati Zoo on May 28, 2016, after a three-year-old boy fell into his enclosure.
+
+Within weeks, "Dicks Out for Harambe" was trending globally. Harambe got more write-in votes than Jill Stein in some counties in the 2016 US election. His name appeared in over a million tweets a day at the peak.
+
+None of this makes sense unless you were there. And even if you were there, you probably couldn't explain it.
+
+Meme.com can.
+
+It's a living archive of internet meme culture — every major meme catalogued with its full origin story, a timeline of when it spread and where, a rating of how culturally significant it became, and analysis of why it worked. Not just the obvious ones. The deep cuts too. The regional ones. The niche ones. The ones that peaked on 4chan in 2008 and the ones that took off on TikTok last Tuesday.
+
+**The ranking system is the hook.** Every meme gets a classification — Classic, Active, Semi-Active, Dead — and a cultural ranking. You can browse by era, by type, by how viral they went. The top memes read like a timeline of the internet itself. Nyan Cat (2011). Distracted Boyfriend (2017). This Is Fine (2016). Among Us (2020). Each one a snapshot of what the world was laughing at, worrying about, or trying to process through humor at that exact moment.
+
+There's also a game — vote on which new memes you think will become classics, compete with other users, earn rewards when your picks win. The crowd predicts meme culture in real time.
+
+The internet has a history. Most of it lives in screenshots and dead links.
+
+Meme.com is the museum.`,
+    affiliate_links: [],
+    tags: ["culture", "internet", "memes", "history", "free", "humor", "social media"],
+    meta_description: "Meme.com is a living archive of internet meme culture — every meme ranked and documented with its full origin story, timeline, and cultural significance. The internet's memory, organized.",
+    editors_note: "❌ No affiliate. Pure editorial. Enormous broad appeal — anyone who's been on the internet for more than five years has a meme they remember and will immediately search. Very shareable. The 'internet history as museum' angle elevates it beyond a meme site.",
+  },
+
+  "2026-08-20": {
+    id: 123,
+    date: "2026-08-20",
+    slug: "cal-com",
+    headline: "CALENDLY CHARGES $10 A MONTH. THIS DOES THE SAME THING FOR FREE.",
+    subheadline: "Cal.com is a free, open-source scheduling tool — send anyone a link, they pick a time that works, it lands on your calendar automatically. No back-and-forth emails. No 'when are you free?' No subscription required. Used by over 50,000 teams worldwide including Apple, Shopify, and Vercel.",
+    site: {
+      name: "Cal.com",
+      url: "https://cal.com/",
+      screenshot: "/assets/issues/cal-com.png",
+      category: "Tools / Productivity",
+      vibe: "Scheduling without the back-and-forth",
+    },
+    body: `You need to schedule a meeting with someone. You send an email. They reply with three times that don't work. You reply with four more. One of those works but actually you have something else. Two weeks later you're on the call.
+
+There's a better way. There's been a better way for years. Most people pay $10 a month for it.
+
+Cal.com is the same thing for free.
+
+You connect your calendar. You set your availability. You get a link — cal.com/yourname — that you send to anyone who wants to meet with you. They see your open slots, pick one, and it lands directly on both your calendars with a confirmation email and optional video call link. No back-and-forth. No scheduling assistant. No "does Thursday at 3 work?"
+
+**It's completely free for individuals.** Unlimited event types, unlimited bookings, unlimited calendar connections. Google Calendar, Outlook, Apple Calendar, iCloud — all supported. Zoom, Google Meet, Microsoft Teams — all integrated for automatic video links. Buffer time between meetings, minimum notice requirements, maximum bookings per day — all configurable.
+
+Cal.com is open source, which means no vendor lock-in and no sudden price increases. The code is public on GitHub. If you're technical you can self-host it entirely. If you're not, the hosted version is free.
+
+Over 50,000 teams use it — including Apple, Shopify, and Vercel. It handles millions of bookings. The infrastructure is solid.
+
+Calendly built a $3 billion business solving this problem. Cal.com solved it and made it free.
+
+Go get your link.`,
+    affiliate_links: [],
+    tags: ["productivity", "scheduling", "free", "tools", "calendar", "meetings", "open source"],
+    meta_description: "Cal.com is a free open-source scheduling tool — send a link, people pick a time, it lands on your calendar automatically. Free alternative to Calendly used by 50,000+ teams worldwide.",
+    editors_note: "❌ No affiliate. Pure editorial. Enormous broad appeal — anyone who schedules meetings, freelancers, small businesses, teams. The 'Calendly charges $10, this is free' angle is the hook. Very shareable among professionals.",
+  },
+
+  "2026-08-19": {
+    id: 122,
+    date: "2026-08-19",
+    slug: "geofs",
+    headline: "A FREE FLIGHT SIMULATOR. EVERY AIRPORT ON EARTH. NO DOWNLOAD. JUST FLY.",
+    subheadline: "GeoFS is a free browser-based flight simulator built on real global satellite imagery — every airport, every landmark, every inch of earth rendered from space. Pick any of 30+ aircraft, choose any location on the planet, and fly. Real weather, real commercial traffic overhead, massively multiplayer. No install. No account. Just open it and go.",
+    site: {
+      name: "GeoFS",
+      url: "https://www.geo-fs.com/",
+      screenshot: "/assets/issues/geofs.png",
+      category: "Flight / Free",
+      vibe: "Every airport on earth. Free. Right now.",
+    },
+    body: `Microsoft Flight Simulator costs $60 and requires a gaming PC.
+
+GeoFS costs nothing and runs in your browser tab.
+
+It's a free online flight simulator built on global satellite imagery — the entire surface of the earth, rendered from space, available to fly over right now. Pick your aircraft. Pick your location. Take off.
+
+**Thirty-plus aircraft** are available — from a Cessna 172 to a Boeing 777 to an Airbus A380 to a Concorde to, inexplicably, a Citroën 2CV. Each one handles differently. The physics engine models lift, drag, stall, and turbulence based on actual aerodynamics. The instruments are functional. The cockpits are rendered. You can actually learn basic flight mechanics from this.
+
+The world it flies over is the real one. Major landmarks are recognizable. Runways are positioned accurately — 40,000 of them. Weather is pulled from live data and applied to your location in real time. Real commercial air traffic, fed from ADS-B transponders, appears overhead as you fly. Other GeoFS pilots from around the world are visible too — it's multiplayer by default.
+
+Take off from LAX and fly south along the California coast. Depart Heathrow and cross the Channel to France. Take a helicopter over Manhattan. Fly the Concorde at Mach 2 across the Atlantic. Land on an aircraft carrier. Crash dramatically into the Swiss Alps and try again.
+
+No download. No account required to try. No credit card. No tutorial forcing you through fifteen menus before you can fly.
+
+Pick an aircraft. Choose a location.
+
+Take off.`,
+    affiliate_links: [],
+    tags: ["flight", "simulator", "free", "games", "travel", "aviation", "browser"],
+    meta_description: "GeoFS is a free browser-based flight simulator with real global satellite imagery, 30+ aircraft, real weather, and 40,000 airports worldwide. No download, no account — just open it and fly.",
+    editors_note: "❌ No affiliate. Pure editorial. Massive broad appeal — aviation fans, gamers, curious people, anyone who's ever wanted to fly. The 'no download, just open it' angle removes all friction. Strong engagement pick — people lose hours to this.",
+  },
+
+  "2026-08-18": {
+    id: 121,
+    date: "2026-08-18",
+    slug: "tosdr",
+    headline: "NOBODY READS THE TERMS OF SERVICE. THIS SITE READS THEM FOR YOU.",
+    subheadline: "Terms of Service; Didn't Read grades the terms of service and privacy policies of major websites from A to F — and tells you exactly what you agreed to. They can sell your data. They can delete your account without notice. They own your content. You clicked 'I Accept' without knowing any of it.",
+    site: {
+      name: "Terms of Service; Didn't Read",
+      url: "https://tosdr.org/en",
+      screenshot: "/assets/issues/tosdr.png",
+      category: "Privacy / Tools",
+      vibe: "What you actually agreed to",
+    },
+    body: `You have agreed to terms of service that you have never read.
+
+Everyone has. It's not a character flaw — the average terms of service document takes 72 minutes to read in full. If you read every privacy policy and terms of service for every service you use in a year, it would take approximately 76 work days. Nobody does this. Companies know nobody does this. The terms exist to be agreed to, not read.
+
+Terms of Service; Didn't Read reads them anyway.
+
+A volunteer community of lawyers, researchers, and privacy advocates has gone through the terms and privacy policies of hundreds of major websites — Google, Facebook, Twitter, Amazon, Spotify, Airbnb, Uber, Netflix, TikTok, Reddit, and hundreds more — and extracted every clause that actually matters. Each one is rated and explained in plain English. The site then gives the service an overall grade from A to F.
+
+**What they find is often alarming.** Some services reserve the right to sell your personal data to third parties. Some can terminate your account at any time for any reason without notice or refund. Some claim ownership or broad licensing rights over content you upload. Some share your data with governments without requiring a court order. Some track you across the web even after you log out. Most people have agreed to all of this without knowing it.
+
+The grades are honest. Google gets a D. Facebook gets an E. Apple gets a C. DuckDuckGo gets a B. Wikipedia gets an A. The ratings reflect what the documents actually say, not what the companies say about themselves.
+
+You've already clicked "I Accept" on most of these.
+
+At least now you can know what you agreed to.`,
+    affiliate_links: [],
+    tags: ["privacy", "tools", "free", "terms of service", "security", "data", "consumer rights"],
+    meta_description: "Terms of Service; Didn't Read grades major websites' terms of service from A to F and explains in plain English what you actually agreed to. Search any site and find out what rights you signed away.",
+    editors_note: "❌ No affiliate. Pure editorial. Extremely shareable — everyone immediately searches their most-used apps and is horrified. Strong privacy audience pick with broad crossover appeal. The '76 work days' stat is the hook.",
+  },
+
+  "2026-08-17": {
+    id: 120,
+    date: "2026-08-17",
+    slug: "kosmi",
+    headline: "WATCH NETFLIX WITH ANYONE ON EARTH. PERFECTLY SYNCED. FREE. NO DOWNLOAD.",
+    subheadline: "Kosmi is a free virtual hangout platform — host a watch party with Netflix, YouTube, or any streaming service perfectly synced with friends anywhere in the world. Built-in video chat, retro games, screen sharing, and customizable rooms. No download. No signup. Just send a link.",
+    site: {
+      name: "Kosmi",
+      url: "https://kosmi.io/",
+      screenshot: "/assets/issues/kosmi.png",
+      category: "Entertainment / Social",
+      vibe: "Movie night with anyone, anywhere, free",
+    },
+    body: `Someone you love lives far away.
+
+You want to watch a movie together. You try to count down on the phone — "3, 2, 1, press play" — and thirty seconds in you're already out of sync and someone's asking the other to pause. It's fine. It's just not the same as being in the same room.
+
+Kosmi is the same room.
+
+It's a free browser-based platform that lets you create a virtual room — a virtual living room, drive-in, game room, coffee shop, whatever you want — and invite anyone with a link. No download. No account required to join. They click the link and they're in.
+
+**The watch party is perfectly synced.** When you play, they play. When you pause, they pause. When you scrub to a different part, they follow. Netflix, YouTube, and other streaming services all work. Built-in video and voice chat means you're watching together, not just watching simultaneously and texting each other reactions.
+
+But it's not just movies. Kosmi has retro game emulators built in — NES, SNES, PlayStation — so you can play classic games together in the browser. There's poker. Cards Against Humanity. Shared browsing. Screen sharing. File sharing. It's less a watch party tool and more a full virtual hangout platform that happens to do watch parties exceptionally well.
+
+The rooms are customizable and persistent. You can set up a standing movie night room with your college friends across three time zones and it's there every week when you need it.
+
+Backed by Techstars, Mozilla, and Comcast. Covered by TechCrunch and Engadget. Completely free.
+
+Long-distance relationships, friend groups spread across the country, remote teams who want to actually hang out — this is for all of them.
+
+Send someone the link tonight.`,
+    affiliate_links: [],
+    tags: ["entertainment", "social", "free", "watch party", "movies", "games", "long distance"],
+    meta_description: "Kosmi is a free watch party platform — watch Netflix or YouTube perfectly synced with friends anywhere, with built-in video chat and retro games. No download, no signup. Just send a link.",
+    editors_note: "❌ No affiliate. Pure editorial. Enormous broad appeal — long-distance couples, friend groups, remote teams, families. Very shareable pick. The 'no download, just send a link' mechanic removes all friction. Strong engagement pick.",
+  },
+
   "2026-08-16": {
     id: 119,
     date: "2026-08-16",
