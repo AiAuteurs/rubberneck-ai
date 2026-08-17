@@ -3275,6 +3275,42 @@ Watch it appear.`,
     editors_note: "❌ No affiliate. US only currently. Requires Google account. Spaced intentionally from Pomelli (Aug 14) to avoid back-to-back Google picks. Strong creative audience pick — designers, planners, makers, anyone who thinks visually.",
   },
 
+  "2026-08-24": {
+    id: 127,
+    date: "2026-08-24",
+    slug: "hackernews",
+    headline: "THE INTERNET'S SMARTEST FRONT PAGE. NO ADS. NO ALGORITHM. JUST WHAT'S ACTUALLY INTERESTING.",
+    subheadline: "Hacker News is a link aggregator run by Y Combinator where the most interesting stories in tech, science, startups, and ideas get voted to the top by a community of engineers, founders, and researchers. No clickbait. No outrage. No engagement optimization. Just the links that smart people think are worth your time.",
+    site: {
+      name: "Hacker News",
+      url: "https://news.ycombinator.com/",
+      screenshot: "/assets/issues/hackernews.png",
+      category: "News / Tech",
+      vibe: "The internet curated by people who actually know things",
+    },
+    body: `The website looks like it was designed in 1997. That's intentional.
+
+No images. No thumbnails. No autoplay videos. No infinite scroll. No push notifications. No dark patterns trying to keep you on the page longer than you want to be. Just a numbered list of links, the domain they come from, how many points they have, and how many comments.
+
+That's it. That's the whole site.
+
+Hacker News is run by Y Combinator — the startup accelerator behind Airbnb, Dropbox, Stripe, Reddit, and hundreds of other companies you use every day. They built it in 2007 as a place for the tech community to share interesting things. Nearly 20 years later it's still the most reliably interesting front page on the internet.
+
+**The community is the product.** The links that make the front page are voted there by hundreds of thousands of engineers, founders, researchers, designers, and scientists who use the site daily. The voting isn't gameable the way Reddit is. The community has an extremely low tolerance for sensationalism, and a submission gets flagged and killed if the title is misleading or the content is shallow. What survives is genuinely good.
+
+The comments are often better than the articles. A story about a new programming language will get comments from people who built competing languages. A medical research paper will draw responses from the actual researchers. A history piece will surface someone who was there. It's the one corner of the internet where comment sections are worth reading.
+
+The search bar at the top searches 20 years of submissions and discussions — one of the most underrated research tools on the internet.
+
+No account needed to read. Free forever.
+
+Go see what smart people are talking about today.`,
+    affiliate_links: [],
+    tags: ["news", "tech", "free", "startups", "science", "community", "links"],
+    meta_description: "Hacker News is Y Combinator's link aggregator — the internet's smartest front page with no ads, no algorithm, and no clickbait. Just the most interesting stories in tech, science, and ideas.",
+    editors_note: "❌ No affiliate. Pure editorial. Enormous broad appeal — tech people already know it, everyone else should. The 'looks like 1997, that's intentional' angle is the hook. Strong evergreen pick. Note: rubberneckai account just created on HN — good timing.",
+  },
+
   "2026-08-23": {
     id: 126,
     date: "2026-08-23",
