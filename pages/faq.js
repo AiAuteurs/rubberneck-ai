@@ -25,7 +25,7 @@ const FAQS = [
   },
   {
     q: "Who picks the sites?",
-    a: "A human. Michael. He lives in Bangkok, has been on the internet since the dial-up era, and has a genuinely alarming number of browser tabs open at any given moment. The chicken is the mascot. Michael does the work.",
+    a: "A human. Michael Matassa. He lives in Bangkok, has been on the internet since the dial-up era, and has a genuinely alarming number of browser tabs open at any given moment. Michael is an AI filmmaker and digital creator who built Rubberneck.ai to share the extraordinary corners of the internet he keeps finding. The chicken is the mascot. Michael does the work.",
   },
   {
     q: "Do you get paid to feature sites?",
@@ -108,7 +108,8 @@ export default function FAQ() {
     <>
       <Head>
         <title>FAQ — Rubberneck.ai</title>
-        <meta name="description" content="Every dumb question answered. Mostly." />
+        <meta name="description" content="Rubberneck.ai FAQ — the daily newsletter featuring extraordinary websites you didn't know existed, created by Michael Matassa. Free, one email per day, no algorithm." />
+        <meta property="fb:app_id" content="2161573901462001" />
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 

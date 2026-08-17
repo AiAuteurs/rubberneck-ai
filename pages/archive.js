@@ -47,6 +47,8 @@ export default function ArchivePage({ issues }) {
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://rubberneck.ai/assets/og-image.jpg" />
+        <meta property="fb:app_id" content="2161573901462001" />
+        <meta name="keywords" content="best free websites, cool websites you did not know existed, hidden websites, interesting websites, websites that will blow your mind, free tools online, useful websites, amazing websites, websites like this, daily website newsletter" />
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 

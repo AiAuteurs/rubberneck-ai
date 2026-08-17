@@ -95,6 +95,7 @@ export default function SlugIssuePage({ issue, maxId }) {
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImage} />
+        <meta property="fb:app_id" content="2161573901462001" />
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 

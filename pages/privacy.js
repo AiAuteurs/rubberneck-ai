@@ -7,6 +7,7 @@ export default function Privacy() {
       <Head>
         <title>Privacy Policy — Rubberneck.ai</title>
         <meta name="description" content="The boring legal stuff. Written like a human." />
+        <meta property="fb:app_id" content="2161573901462001" />
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 

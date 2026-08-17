@@ -7,6 +7,7 @@ export default function Unsubscribe() {
       <Head>
         <title>Unsubscribe — Rubberneck.ai</title>
         <meta name="description" content="We'll miss you. The chicken won't stop staring though." />
+        <meta property="fb:app_id" content="2161573901462001" />
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 
