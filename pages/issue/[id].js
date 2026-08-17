@@ -67,10 +67,16 @@ export default function IssuePage({ issue, maxId }) {
     <>
       <Head>
         <title>{issue.site.name} — Rubberneck.ai #{issue.id}</title>
-        <meta name="description" content={issue.subheadline} />
+        <meta name="description" content={issue.meta_description || issue.subheadline} />
         <meta property="og:title" content={`${issue.headline} — Rubberneck.ai`} />
-        <meta property="og:description" content={issue.subheadline} />
+        <meta property="og:description" content={issue.meta_description || issue.subheadline} />
+        <meta property="og:image" content={issue.site.screenshot ? `https://rubberneck.ai${issue.site.screenshot}` : 'https://rubberneck.ai/assets/og-image.jpg'} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:url" content={`https://rubberneck.ai/issue/${issue.id}`} />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content={issue.site.screenshot ? `https://rubberneck.ai${issue.site.screenshot}` : 'https://rubberneck.ai/assets/og-image.jpg'} />
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 

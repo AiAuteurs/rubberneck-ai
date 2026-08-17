@@ -38,8 +38,15 @@ export default function ArchivePage({ issues }) {
   return (
     <>
       <Head>
-        <title>Archive — Rubberneck.ai</title>
-        <meta name="description" content="Every jaw-dropping site we've ever found. One per day. Zero filler." />
+        <title>Archive — Every Issue of Rubberneck.ai</title>
+        <meta name="description" content="Browse every Rubberneck.ai issue — 120+ extraordinary websites, tools, and internet experiences discovered one per day. Free flight simulators, Harvard courses, hidden Netflix codes, and much more." />
+        <meta property="og:title" content="Archive — Every Issue of Rubberneck.ai" />
+        <meta property="og:description" content="Browse every Rubberneck.ai issue — 120+ extraordinary websites, tools, and internet experiences discovered one per day." />
+        <meta property="og:image" content="https://rubberneck.ai/assets/og-image.jpg" />
+        <meta property="og:url" content="https://rubberneck.ai/archive" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://rubberneck.ai/assets/og-image.jpg" />
         <link rel="icon" href="/assets/favicon.png" />
       </Head>
 
