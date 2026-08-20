@@ -3239,6 +3239,42 @@ Go learn something.`,
     meta_description: "Harvard University offers hundreds of free online courses in coding, business, AI, writing, and public health — the actual Harvard curriculum taught by Harvard professors. No application required.",
   },
 
+  "2026-09-15": {
+    id: 147,
+    date: "2026-09-15",
+    slug: "yc-jobs",
+    headline: "THE ONLY JOB BOARD WHERE EVERY COMPANY IS ACTUALLY FUNDED.",
+    subheadline: "Y Combinator's job board lists open positions at every active YC startup — Airbnb, Stripe, Dropbox, and hundreds of companies you haven't heard of yet but will. Every listing is a real job at a real funded company. No ghost listings. No recruiters. No spray-and-pray applications. Just startups that need people right now.",
+    site: {
+      name: "Y Combinator Jobs",
+      url: "https://www.ycombinator.com/jobs",
+      screenshot: "/assets/issues/yc-jobs.png",
+      category: "Jobs / Tech",
+      vibe: "Work at the next Airbnb before it's Airbnb",
+    },
+    body: `Y Combinator has funded over 4,000 companies since 2005.
+
+The combined valuation of YC companies is over $600 billion. Airbnb. Stripe. Dropbox. Coinbase. DoorDash. Reddit. Twitch. Instacart. Every one of them started as a small team that went through YC, raised money, and built something that changed how people live.
+
+The job board is where those companies — at every stage — post their open roles.
+
+**What makes it different from every other job board:** every company on it has been vetted, funded, and is actively building. No ghost listings from companies that froze hiring six months ago. No job posts from recruiters who don't actually have a role to fill. No applications into a void. These are real startups with real money that need real people.
+
+The listings span everything — engineering, design, product, sales, marketing, operations, finance. Remote and in-person. Seed stage and Series D. Companies you've heard of and companies that are six months old and about to become companies you'll hear of.
+
+The search filters are good. Filter by role, by remote, by company stage, by industry, by location. Set up alerts for new postings that match what you're looking for.
+
+The best time to join a startup is before most people have heard of it. The best startups are on this board.
+
+Some of them are hiring right now for roles that will define what the company becomes.
+
+Go look.`,
+    affiliate_links: [],
+    tags: ["jobs", "tech", "startups", "remote", "free", "hiring", "ycombinator"],
+    meta_description: "Y Combinator's job board lists open positions at every active YC-funded startup — real jobs at real funded companies including Airbnb, Stripe, Dropbox, and hundreds more. Free to browse.",
+    editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
+  },
+
   "2026-08-30": {
     id: 131,
     date: "2026-08-30",
@@ -3273,6 +3309,80 @@ Watch it appear.`,
     tags: ["ai", "design", "free", "google", "mood board", "creative", "visual"],
     meta_description: "Mixboard is a free AI mood board tool from Google Labs — type any prompt and it generates a full visual concept board instantly. Powered by Google's Nano Banana image model. Free public beta.",
     editors_note: "❌ No affiliate. US only currently. Requires Google account. Spaced intentionally from Pomelli (Aug 14) to avoid back-to-back Google picks. Strong creative audience pick — designers, planners, makers, anyone who thinks visually.",
+  },
+
+  "2026-08-26": {
+    id: 129,
+    date: "2026-08-26",
+    slug: "pongofund",
+    headline: "HUNGRY PEOPLE HAVE HUNGRY PETS. THIS NONPROFIT FEEDS BOTH.",
+    subheadline: "The Pongo Fund is Oregon's pet food bank — free, high-quality pet food for anyone who can't afford to feed their animal. Over 40 million meals served. 244,000 pets kept out of shelters. Because when people fall on hard times, their pets do too. If you can't find help locally, they can point you to a network that can.",
+    site: {
+      name: "The Pongo Fund",
+      url: "https://www.thepongofund.org/",
+      screenshot: "/assets/issues/pongofund.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "Nobody should have to give up their pet because they can't afford food",
+    },
+    body: `The number one reason pets get surrendered to shelters isn't behavior problems. It isn't allergies. It isn't moving somewhere that doesn't allow animals.
+
+It's money. People who love their pets and want to keep them can't afford to feed them. So they give them up. The pet goes to a shelter. The family loses the one companion that was helping them get through a hard time.
+
+The Pongo Fund was built to stop that from happening.
+
+It's Oregon's pet food bank — free, high-quality dog and cat food for anyone in honest need. No income verification. No judgment. You need food for your pet, they get you food for your pet. They've served over 40 million meals and helped more than 244,000 animals stay home with families who love them.
+
+**The network they've built is extraordinary.** Dozens of organizations rely on them — Oregon Food Bank, Oregon Humane Society, Oregon Department of Veterans Affairs, Meals on Wheels, Central City Concern, the Union Gospel Mission, and many more. When you're a senior on a fixed income, or a veteran, or homeless, or unemployed, and you're trying to hold on to the dog that's keeping you sane — Pongo Fund is who these organizations call.
+
+If you're not in Oregon, the site can still help. They maintain resources and referrals for pet food banks and assistance programs across the country. Search by your state and find what's available near you.
+
+And if you're in a position to give — they accept donations, food drives, and volunteers. Every dollar goes directly to food. The overhead is minimal. The impact is documented and real.
+
+Nobody should have to give up a pet because they ran out of money.
+
+That's the whole idea.`,
+    affiliate_links: [],
+    tags: ["nonprofit", "pets", "dogs", "cats", "free", "food bank", "charity", "oregon"],
+    meta_description: "The Pongo Fund is Oregon's pet food bank — free pet food for anyone who can't afford to feed their animal. Over 40 million meals served. 244,000 pets kept safe at home. Donate or find help near you.",
+    editors_note: "❌ No affiliate — nonprofit. Pure editorial. Enormous emotional resonance — dog and cat people will share this immediately. The 'hungry people have hungry pets' angle is devastating in the best way. Pairs well with the Petfinder issue. Strong Facebook performer.",
+  },
+
+  "2026-08-25": {
+    id: 128,
+    date: "2026-08-25",
+    slug: "211",
+    headline: "THERE IS A FREE HOTLINE THAT CONNECTS YOU TO HELP IN YOUR AREA. MOST PEOPLE DON'T KNOW IT EXISTS.",
+    subheadline: "211 is a free, confidential service available to everyone in the US and most of Canada — call or text 211 and a real person connects you to local help for food, housing, mental health, utilities, crisis support, and more. It's also searchable by zip code at 211.org. Over 20,000 resources in every community. One number.",
+    site: {
+      name: "211.org",
+      url: "https://211.org/",
+      screenshot: "/assets/issues/211.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "The number that connects you to help near you",
+    },
+    body: `Most people in crisis don't know where to start.
+
+They know they need help. They don't know who to call, which agency handles what, which programs they qualify for, or how to navigate a system that was never designed to be navigated easily.
+
+211 was built to solve that.
+
+It's a free, confidential helpline — call or text 211 from anywhere in the United States or most of Canada and a trained specialist answers. You tell them what you need. They search a database of local resources and connect you to programs in your area that can actually help. No wrong door. No getting bounced between agencies. One call.
+
+**The website works the same way.** Go to 211.org, enter your zip code, and search by category — food, housing, utilities, healthcare, mental health, childcare, legal aid, transportation, employment. The database has over 20,000 verified resources across every community in the country, updated regularly by local United Way chapters that operate the service.
+
+The range of what it covers is wider than most people realize. Emergency food pantries and free meal programs. Rental assistance and eviction prevention. Crisis counseling and suicide prevention. Utility shutoff help. Free tax preparation. Disability services. Domestic violence shelters. Immigration assistance. Senior care. Veteran services. After-school programs. Free legal aid.
+
+Not all of these programs advertise. Many of them exist specifically for people who need them but don't know to look. 211 is the lookup.
+
+It's operated by United Way and funded by a combination of government grants and private donations. The call is always free. The information is always confidential. There's no income threshold to use the service — it's for anyone who needs help finding help.
+
+211 has existed since 2000. Most people still don't know about it.
+
+Now you do. And now you can tell someone else.`,
+    affiliate_links: [],
+    tags: ["nonprofit", "free", "help", "community", "housing", "food", "crisis", "usa"],
+    meta_description: "211.org connects anyone in the US to free local help — food, housing, mental health, utilities, and crisis support. Call or text 211 or search by zip code. Free, confidential, always available.",
+    editors_note: "❌ No affiliate — nonprofit public service. Pure editorial. Enormous broad appeal — everyone knows someone who could use this. Extremely shareable. High emotional resonance. One of the most important picks in the calendar.",
   },
 
   "2026-08-24": {
