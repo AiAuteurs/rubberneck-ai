@@ -3239,6 +3239,44 @@ Go learn something.`,
     meta_description: "Harvard University offers hundreds of free online courses in coding, business, AI, writing, and public health — the actual Harvard curriculum taught by Harvard professors. No application required.",
   },
 
+  "2026-09-10": {
+    id: 132,
+    date: "2026-09-10",
+    slug: "feeding-pets-of-the-homeless",
+    headline: "THE NATIONAL NONPROFIT FEEDING PETS NOBODY ELSE WILL",
+    subheadline: "Feeding Pets of the Homeless is the first national nonprofit built to feed and provide vet care for the pets of people experiencing homelessness. 2.7 million pounds of food distributed. $7 million in veterinary care. 30,000+ animals helped, coast to coast.",
+    site: {
+      name: "Feeding Pets of the Homeless",
+      url: "https://petsofthehomeless.org",
+      screenshot: "/assets/issues/feeding-pets-of-the-homeless.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "For a lot of people, the dog is the last thing keeping them steady",
+    },
+    body: `A companion animal is often the last relationship a person on the street hasn't lost.
+
+It doesn't judge them. It doesn't leave. In a life that's been stripped of almost everything stable, the dog or cat curled up next to them at night is frequently the one thing still working the way it's supposed to.
+
+Feeding Pets of the Homeless exists to make sure that bond never becomes a casualty of having nothing.
+
+Founded in 2008, it's the first national nonprofit built specifically around this problem — feeding and providing emergency veterinary care for the pets of people experiencing homelessness. Since founding, they've distributed more than **2.7 million pounds of pet food** and paid out over **$7 million in veterinary care** for more than 30,000 animals, through a network of donation sites, food banks, and partner veterinary hospitals spanning the country, with a handful of partners in Canada too.
+
+**The Pets for Life program does the harder, less visible work** — direct, door-to-door outreach to homeless individuals and encampments, meeting people where they are instead of waiting for them to find a resource center.
+
+They also stepped in during recent SNAP benefit disruptions with emergency funding, recognizing that when a household's own food budget collapses, the pet's bowl is usually the first thing to go empty.
+
+There's no income form to fill out and no judgment attached. If you're carrying everything you own and still making sure your dog eats first, this organization is built for you.
+
+If you're not the one who needs it — they run on donations, and every dollar goes toward food and veterinary care for animals whose people have nothing else to give them but love.
+
+Nobody should have to choose between staying warm and keeping their best friend fed.
+
+This is the organization making sure they don't have to.`,
+    affiliate_links: [],
+    tags: ["nonprofit", "pets", "homelessness", "dogs", "cats", "national", "charity"],
+    meta_description: "Feeding Pets of the Homeless is the national nonprofit providing free pet food and veterinary care to homeless pet owners across the US and Canada. 2.7 million pounds of food distributed since 2008.",
+    editors_note: "❌ No affiliate — nonprofit. Pure editorial. Spaced ~2 weeks from Pongo Fund (Aug 26) and clear of 211 (Aug 25) to avoid stacking nonprofit/pet picks too close together. National scope distinguishes it from Pongo Fund's Oregon-based angle. Strong Facebook/shareability pick.",
+  },
+
   "2026-09-15": {
     id: 147,
     date: "2026-09-15",
@@ -3309,6 +3347,44 @@ Watch it appear.`,
     tags: ["ai", "design", "free", "google", "mood board", "creative", "visual"],
     meta_description: "Mixboard is a free AI mood board tool from Google Labs — type any prompt and it generates a full visual concept board instantly. Powered by Google's Nano Banana image model. Free public beta.",
     editors_note: "❌ No affiliate. US only currently. Requires Google account. Spaced intentionally from Pomelli (Aug 14) to avoid back-to-back Google picks. Strong creative audience pick — designers, planners, makers, anyone who thinks visually.",
+  },
+
+  "2026-08-27": {
+    id: 130,
+    date: "2026-08-27",
+    slug: "supercook",
+    headline: "TYPE IN WHAT'S IN YOUR FRIDGE. IT TELLS YOU WHAT TO COOK.",
+    subheadline: "Supercook is a free recipe engine that works backwards from what you already have. List your ingredients — it searches thousands of recipes and shows you exactly what you can make right now. No grocery run. No wasted food. No 'what's for dinner' spiral.",
+    site: {
+      name: "Supercook",
+      url: "https://www.supercook.com/",
+      screenshot: "/assets/issues/supercook.png",
+      category: "Food / Tools",
+      vibe: "The anti-recipe-blog. Ingredients in, dinner out.",
+    },
+    body: `Every recipe site works the same broken way. You find something that looks good, then discover it needs an ingredient you don't have, then either drive to the store or give up and order takeout.
+
+Supercook flips the whole process.
+
+You type in what's already in your kitchen — chicken, rice, half an onion, a lonely bell pepper — and it searches its database for every recipe you can actually make with that. No shopping trip required. No scrolling past a life story before you get to the ingredient list.
+
+**The ingredient picker is the whole trick.** Start typing and it autocompletes from a list of thousands of items — produce, proteins, pantry staples, spices, dairy, whatever's rattling around your kitchen. Check off what you've got. The recipe list updates instantly, ranked by how many of your ingredients each one uses.
+
+You can also work in reverse — tell it what you're craving and it'll show you what else you'd need to make it happen.
+
+It filters for the real constraints too: vegetarian, vegan, gluten-free, dairy-free, and by cuisine. And it pulls from real recipe sites across the web, not some thin internal database — so you're not stuck with five bad recipes for chicken and rice.
+
+The whole point is reducing food waste and decision fatigue at the same time. That wilting spinach and the last two eggs aren't a problem anymore. They're just inputs.
+
+It's free. No account required to search, though creating one lets you save your pantry list so you're not re-typing it every time.
+
+Stop staring into the fridge wondering what to make.
+
+Tell it what's in there. Let it figure out the rest.`,
+    affiliate_links: [],
+    tags: ["food", "recipes", "free", "tools", "cooking", "utility"],
+    meta_description: "Supercook is a free recipe finder that works from what's already in your kitchen — list your ingredients and it shows you every recipe you can make right now. No shopping trip required.",
+    editors_note: "❌ No affiliate — free utility. No product pick issue (it's a recipe engine, not a product/brand). Broad appeal: anyone who cooks, budget-conscious households, food-waste-conscious readers. Strong practical evergreen pick.",
   },
 
   "2026-08-26": {
