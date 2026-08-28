@@ -3349,6 +3349,68 @@ Watch it appear.`,
     editors_note: "❌ No affiliate. US only currently. Requires Google account. Spaced intentionally from Pomelli (Aug 14) to avoid back-to-back Google picks. Strong creative audience pick — designers, planners, makers, anyone who thinks visually.",
   },
 
+  "2026-08-29": {
+    id: 134,
+    date: "2026-08-29",
+    slug: "liheap-search-tool",
+    headline: "THE GOVERNMENT TOOL THAT HELPS PAY YOUR ENERGY BILL",
+    subheadline: "LIHEAP is the federal program that helps low-income households cover heating and cooling costs — but it's run state by state, which makes it easy to miss. This search tool finds your local office in seconds.",
+    site: {
+      name: "LIHEAP Clearinghouse Office Search Tool",
+      url: "https://liheapch.acf.gov/search-tool",
+      screenshot: "/assets/issues/liheap-search-tool.png",
+      category: "Government / Resources",
+      vibe: "Boring name, real money, the kind of site nobody tells you exists",
+    },
+    body: `The Low Income Home Energy Assistance Program (LIHEAP) is federal money — but it's administered locally, state by state, county by county, sometimes tribe by tribe. There's no single national hotline. There's no one website that just tells you where to go. Which means a program built to help people who are already stretched thin ends up buried behind a maze of state agency websites nobody has the bandwidth to dig through.
+
+This tool exists to remove that maze.
+
+**Enter your state (or your tribe, if applicable) and it returns the actual office that handles LIHEAP applications near you** — contact information, not another layer of bureaucracy. No account, no lengthy form, no eligibility quiz standing between you and a phone number that can actually help.
+
+Eligibility varies by state and generally comes down to household size, income, and whether you're already receiving other benefits — but the only way to find out for sure is to talk to your local office, which is exactly what this tool gets you to, fast.
+
+It also links out to related help: rental assistance for energy costs, weatherization programs through the Department of Energy that can lower your bill long-term, and practical weatherizing tips if you're not eligible for direct assistance but still need to cut costs.
+
+Winter heating bills and summer cooling bills break budgets every year for households that qualify for help and simply never find out where to ask for it. This is where you ask.`,
+    affiliate_links: [],
+    tags: ["government", "utility", "energy", "assistance", "free", "resources"],
+    meta_description: "The LIHEAP Clearinghouse office search tool helps you find your local Low Income Home Energy Assistance Program office to apply for help with heating and cooling bills.",
+    editors_note: "❌ No affiliate — .gov tool. No product pick issue. Practical, high-utility pick similar in spirit to 211 (Aug 25) and the microchip lookup (Aug 28) — worth noting as a third utility/resource pick within a week if that pattern matters to you.",
+  },
+
+  "2026-08-28": {
+    id: 133,
+    date: "2026-08-28",
+    slug: "pet-microchip-lookup",
+    headline: "FOUND A LOST PET WITH A MICROCHIP? THIS TOOL TELLS YOU WHO TO CALL",
+    subheadline: "There's no single national database for pet microchips in the US — each manufacturer keeps its own. AAHA's Universal Pet Microchip Lookup searches them all at once and tells you exactly which registry to contact. It's the tool vets, shelters, and the ASPCA actually use.",
+    site: {
+      name: "AAHA Universal Pet Microchip Lookup",
+      url: "https://www.aaha.org/for-veterinary-professionals/microchip-registry-lookup-tool-aaha-find-your-pets-microchip-registry/",
+      screenshot: "/assets/issues/pet-microchip-lookup.png",
+      category: "Tools / Utility",
+      vibe: "Unglamorous, essential, exactly the kind of site you bookmark and forget until the day you need it",
+    },
+    body: `Here's a fact most pet owners don't find out until it's an emergency: there's no single, unified database of pet microchips in the United States. Every manufacturer runs its own registry — dozens of them — and a scanner at a shelter or vet's office can read the chip number, but it has no way of knowing which company's database actually holds the owner's contact information.
+
+That's the gap this tool closes.
+
+**Enter the 9-, 10-, or 15-digit microchip number and it checks every participating registry at once**, then returns a list of which companies might have the pet's registration on file — ordered by most recent update, so you start with the most likely match and work down.
+
+It's built and maintained by the American Animal Hospital Association, and it's the tool the industry has actually standardized around — it's been unanimously endorsed by the Coalition for Reuniting Pets and Families, whose members include the ASPCA, the Humane Society of the United States, AVMA, and the American Humane Association. When a shelter scans a lost dog, this is very likely the tool they're using.
+
+**One important thing it won't do:** hand you the owner's information directly. For privacy reasons, it only tells you which registry to call. You still have to work the phones. But that's a massive head start over guessing, and it's free.
+
+It also flags a real, ongoing issue in the pet recovery world — chip manufacturers occasionally go out of business (the page currently has a notice about one such closure), which can strand pet owners' contact info in a dead registry. If your pet was chipped years ago, it's worth running the number through this tool just to confirm the registry is still active.
+
+Bookmark it. You'll hope you never need it — and if you ever do, you'll be glad it took ten seconds to find.`,
+    affiliate_links: [],
+    tags: ["pets", "tools", "free", "utility", "lost-and-found", "veterinary"],
+    meta_description: "AAHA's Universal Pet Microchip Lookup tool searches every major U.S. pet microchip registry at once, telling you exactly which company to contact for a lost pet with a microchip.",
+    editors_note: "❌ No affiliate — free nonprofit-run utility. No product pick issue (public tool, not a brand). Pets-adjacent to Pongo Fund (Aug 26) but distinct use case (utility vs. charity), so kept as-is rather than pushed further out.",
+  },
+
   "2026-08-27": {
     id: 130,
     date: "2026-08-27",
