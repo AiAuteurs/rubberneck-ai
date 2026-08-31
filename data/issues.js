@@ -3313,6 +3313,36 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-08-31": {
+    id: 135,
+    date: "2026-08-31",
+    slug: "make-my-drive-fun",
+    headline: "TURN YOUR ROAD TRIP INTO A TRAIL OF WEIRD DETOURS",
+    subheadline: "Enter a start and destination and Make My Drive Fun plots the oddities, hidden gems, and worthwhile roadside stops hiding along your route — no more discovering the giant ball of twine after you've already driven past it.",
+    site: {
+      name: "Make My Drive Fun",
+      url: "https://makemydrivefun.com",
+      screenshot: "/assets/issues/make-my-drive-fun.png",
+      category: "Travel / Places",
+      vibe: "Every road trip has a strange thing just off the highway. This finds it for you.",
+    },
+    body: `The best part of a road trip is rarely the destination. It's the roadside dinosaur statue nobody warned you about, the world's largest ball of twine, the diner that's been serving the same pie recipe since 1962. The problem is finding those things before you've already driven past the exit.
+
+Make My Drive Fun solves that with a simple interface: type your start point and destination, and it plots a route, then marks the delightful detours hiding along the way — oddities, hidden gems, and worthwhile stops you'd never think to search for individually.
+
+**You can drag to reorder stops**, add extra destinations along the route, and rearrange the whole trip using simple move-up and move-down controls. It's built for the way people actually road-trip — not a rigid A-to-B route, but a loose plan that leaves room for "wait, we have to stop there."
+
+There are pre-built classic routes to try instantly — Seattle to Portland, Austin to Santa Fe, Nashville to Asheville — if you just want to see what it surfaces before planning your own trip.
+
+It's built by the same small indie toolmaker network (disco.cloud) behind other genuinely useful, no-nonsense web tools — file transfer app croc, clutter-free weather site wthrtxt, and a few others linked right on the homepage. Same ethos throughout: simple, fast, does one thing well.
+
+Next time you're staring down a six-hour drive, don't just white-knuckle the highway. Let it show you what's worth stopping for.`,
+    affiliate_links: [],
+    tags: ["travel", "road-trip", "free", "tools", "places"],
+    meta_description: "Make My Drive Fun plots quirky roadside detours, hidden gems, and worthwhile stops along any road trip route — just enter your start and destination.",
+    editors_note: "❌ No affiliate — free tool. No product pick issue. Travel / Places category per house rule. Fun, shareable pick, good change of pace after a run of nonprofit/utility picks.",
+  },
+
   "2026-08-30": {
     id: 131,
     date: "2026-08-30",
