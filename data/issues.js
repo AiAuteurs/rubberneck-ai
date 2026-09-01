@@ -3239,6 +3239,64 @@ Go learn something.`,
     meta_description: "Harvard University offers hundreds of free online courses in coding, business, AI, writing, and public health — the actual Harvard curriculum taught by Harvard professors. No application required.",
   },
 
+  "2026-09-02": {
+    id: 137,
+    date: "2026-09-02",
+    slug: "versus",
+    headline: "94,000 PRODUCTS. ONE PLACE TO SEE HOW THEY ACTUALLY STACK UP.",
+    subheadline: "Versus.com is a massive, impartial comparison database — phones, headphones, laptops, cameras, appliances, and more — built to answer one question: which one should you actually buy?",
+    site: {
+      name: "Versus",
+      url: "https://versus.com",
+      screenshot: "/assets/issues/versus.png",
+      category: "Tools / Utility",
+      vibe: "The anti-marketing-copy approach to buying anything with a spec sheet",
+    },
+    body: `Every product page on earth is written by someone trying to sell you that specific product. Versus exists to be the page nobody paid for.
+
+It's a comparison database spanning **94,000 products across 106 categories** — phones, earbuds, laptops, cameras, robot vacuums, CPU coolers, home speakers, drones, and plenty of categories you didn't know needed comparing. Pick any two products and it lays out the specs side by side, then calculates an overall "Versus score" so you're not left squinting at a table trying to weigh megapixels against battery life yourself.
+
+**The team behind it calls themselves an impartial group of technology enthusiasts**, and the site is structured to back that up — new product pages go up the moment something launches, head-to-head comparisons get built for anything people are actually cross-shopping (Instax Mini 13 vs Mini 12, Samsung Galaxy Buds 4 vs 4 Pro, WhatsApp vs Signal vs Telegram), and entire categories get their own hub for browsing every option at once.
+
+It's not just phones and laptops, either — there's real editorial mixed in. Explainers on what an NPU actually does, deep dives on whether your mouse is spying on you, breakdowns of Starlink vs Amazon's Leo vs TeraWave satellite internet. It's less a shopping site and more a reference desk for anyone trying to make sense of a category before spending money in it.
+
+If you've ever opened fifteen browser tabs trying to figure out which wireless earbuds are actually different from each other, this is the tab that replaces all fifteen.`,
+    affiliate_links: [],
+    tags: ["tech", "comparison", "tools", "free", "reference", "shopping"],
+    meta_description: "Versus.com is a free, impartial comparison database covering 94,000 products across 106 categories — compare specs side by side before you buy anything.",
+    editors_note: "❌ No affiliate confirmed yet — check before publishing if monetization matters to you (comparison/shopping sites often run affiliate links on outbound product links, worth a quick look at their footer/about page). Neutral comparison tool, not a single product push, so doesn't read as a 'product pick' in the promotional sense.",
+  },
+
+  "2026-09-03": {
+    id: 138,
+    date: "2026-09-03",
+    slug: "accountkiller",
+    headline: "SOME COMPANIES MAKE IT NEARLY IMPOSSIBLE TO DELETE YOUR ACCOUNT. THIS SITE FIXES THAT.",
+    subheadline: "AccountKiller has direct deletion links and step-by-step instructions for over 1,300 websites — because plenty of companies bury the option on purpose, and a few don't offer it at all.",
+    site: {
+      name: "AccountKiller",
+      url: "https://accountkiller.com",
+      screenshot: "/assets/issues/accountkiller.png",
+      category: "Tools / Utility",
+      vibe: "The internet's junk drawer, minus the junk — just the exit doors companies hid",
+    },
+    body: `Deleting an online account should be as easy as creating one. It almost never is.
+
+Companies bury the delete option seven menus deep, disguise it as "deactivate" instead of actually erasing your data, or simply don't offer it — forcing you to email support and hope someone eventually processes the request. It's not an accident. Every account you can't quite bring yourself to delete is a data point they keep.
+
+AccountKiller exists to strip that friction away. Search any company and it pulls up a direct guide: the exact link to hit, the exact steps to follow, written in plain language instead of buried in a help-center maze. Over **1,300 guides** and counting, covering everything from major platforms like Facebook down to niche forums and long-forgotten subscription services.
+
+**The blacklist is the sharpest part of the whole site.** Companies that make deletion genuinely difficult or outright impossible — like Skype, historically — get called out directly, so you know going in whether you're in for a five-minute fix or a fight. There's a whitelist too, for the companies that actually respect a clean exit.
+
+If a guide doesn't exist yet for a site you're trying to leave, you can submit it and the team will research and add it. And if you're stuck on something particularly stubborn, they'll personally help you kill the account — just tell them what you're trying to cancel.
+
+It's been cited by The Atlantic, NBC News, The New York Times, PCMag, USA Today, and Lifehacker for a reason: everyone eventually hits an account they can't figure out how to close. Now there's one place that already has.`,
+    affiliate_links: [],
+    tags: ["privacy", "tools", "free", "utility", "accounts", "data"],
+    meta_description: "AccountKiller has direct deletion links and instructions for over 1,300 websites, making it easy to close accounts companies deliberately make hard to delete.",
+    editors_note: "❌ No affiliate — free tool. No product pick issue. Fifth utility/free-tool pick in the past couple weeks (211, microchip lookup, LIHEAP, GetHuman, now this) — flagging per house rule; might be worth mixing in more Travel/Places or fun picks soon to balance the run.",
+  },
+
   "2026-09-10": {
     id: 132,
     date: "2026-09-10",
@@ -3311,6 +3369,36 @@ Go look.`,
     tags: ["jobs", "tech", "startups", "remote", "free", "hiring", "ycombinator"],
     meta_description: "Y Combinator's job board lists open positions at every active YC-funded startup — real jobs at real funded companies including Airbnb, Stripe, Dropbox, and hundreds more. Free to browse.",
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
+  },
+
+  "2026-09-01": {
+    id: 136,
+    date: "2026-09-01",
+    slug: "gethuman",
+    headline: "THE SITE THAT FINDS YOU A REAL HUMAN AT CUSTOMER SERVICE",
+    subheadline: "GetHuman has been mapping the fastest path through company phone menus since 2005 — and now it'll navigate the maze, wait on hold, or write the complaint email for you, for free.",
+    site: {
+      name: "GetHuman",
+      url: "https://gethuman.com",
+      screenshot: "/assets/issues/gethuman.png",
+      category: "Tools / Utility",
+      vibe: "The internet's answer to 'press 1 for more options, press 2 to hear these options again'",
+    },
+    body: `Every company builds the same maze on purpose. Layers of phone menus, chatbots trained to deflect, hold music engineered to outlast your patience. The goal isn't secret — a customer who gives up is cheaper than a customer who gets helped.
+
+GetHuman has spent since 2005 mapping a way through that maze. Type a company name and it pulls up their actual customer service phone number, the fastest known path to a live agent, and hand-researched tips for skipping the automated runaround — all written by a real editorial team, not scraped or AI-generated.
+
+**The free tools go further than just information.** GetHuman can call a company for you and either navigate the phone menu or wait on hold, then text or summarize what happened when a representative picks up. If a call center is busy or closed, it'll automatically reschedule and retry later, so you're not the one sitting there refreshing.
+
+For companies that don't offer live phone support at all, it can draft the email, tweet, or message to their customer service team on your behalf, using a few details you provide.
+
+It's ad-supported, which is how it stays free — no subscription, no paywall between you and getting your problem solved. And it covers more than corporations: government agencies are in there too, for the DMV-call kind of dread this tool was basically built to solve.
+
+Next time you're staring down "your call is important to us" for the fourth time, let this handle it instead.`,
+    affiliate_links: [],
+    tags: ["customer-service", "tools", "free", "utility", "phone"],
+    meta_description: "GetHuman finds the fastest path to a real customer service agent for any company, and can call, wait on hold, or write the complaint email for you — for free.",
+    editors_note: "❌ No affiliate — free, ad-supported tool. No product pick issue. Fourth utility/free-tool pick within about a week (211, microchip lookup, LIHEAP, now this) — flagging per house rule, though each solves a genuinely distinct problem.",
   },
 
   "2026-08-31": {
