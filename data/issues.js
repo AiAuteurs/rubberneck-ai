@@ -3297,6 +3297,68 @@ It's been cited by The Atlantic, NBC News, The New York Times, PCMag, USA Today,
     editors_note: "❌ No affiliate — free tool. No product pick issue. Fifth utility/free-tool pick in the past couple weeks (211, microchip lookup, LIHEAP, GetHuman, now this) — flagging per house rule; might be worth mixing in more Travel/Places or fun picks soon to balance the run.",
   },
 
+  "2026-09-04": {
+    id: 139,
+    date: "2026-09-04",
+    slug: "mac-bid",
+    headline: "DAILY AUCTIONS. $1 STARTING BIDS. REAL BRAND-NAME STUFF.",
+    subheadline: "Mac.bid runs thousands of live liquidation auctions every day — overstock, returns, and closeouts from real retailers, starting at a dollar. Win, then pick it up at one of 20+ physical warehouses across the country.",
+    site: {
+      name: "Mac.bid",
+      url: "https://www.mac.bid",
+      screenshot: "/assets/issues/mac-bid.png",
+      category: "Shopping / Deals",
+      vibe: "eBay's scrappier cousin, minus the shipping horror stories",
+    },
+    body: `Liquidation sites have a trust problem. Too many of them are drop-ship fronts dressed up as "warehouse deals," selling stuff that either doesn't exist or shows up nothing like the listing photo.
+
+Mac.bid solves that the boring, effective way: **physical pickup**. Win an auction and you collect the actual item from one of their 20+ real warehouse locations across the US. No wondering if the box is coming. No mystery freight carrier. You show up, you get your stuff.
+
+The auctions themselves are the fun part. **Every lot starts at $1**, covering electronics, furniture, appliances, tools, pet supplies, toys — genuine overstock, returns, and closeouts from actual retailers, not knockoffs. Auctions run continuously, with tens of thousands live on any given day, so there's always something ending soon if you like the adrenaline of a last-second bid.
+
+There's a Buyer's Club for early access to new listings, a rewards program that pays out credit as you bid and win, and even charity auctions where proceeds go to a cause instead of Mac.bid's bottom line.
+
+Three million-plus users and counting, and the site claims over **$1 billion saved** collectively — which tracks with the core pitch: real products, real discounts, real pickup, no games.
+
+If you've got a warehouse location nearby, this is the closest thing to a treasure hunt the internet has left.`,
+    affiliate_links: [],
+    tags: ["shopping", "deals", "auctions", "liquidation", "savings"],
+    meta_description: "Mac.bid runs daily $1-start liquidation auctions on electronics, furniture, and more — with real physical pickup locations across the US. 3M+ users, $1B saved.",
+    editors_note: "❌ No affiliate program found — mac.bid has a referral system that pays Mac Bucks (in-platform credit) rather than cash commission, so it doesn't fit the usual affiliate-application flow. Featured with no affiliate link for now; worth emailing them directly to ask about a publisher/media partnership given their scale.",
+  },
+
+  "2026-09-05": {
+    id: 140,
+    date: "2026-09-05",
+    slug: "the-true-size-of",
+    headline: "GREENLAND IS NOT AS BIG AS AFRICA. DRAG IT AND SEE.",
+    subheadline: "The True Size Of... lets you grab any country and drag it anywhere on the map — and watch it shrink or grow to reveal how badly the Mercator projection has been lying to you your whole life.",
+    site: {
+      name: "The True Size Of...",
+      url: "https://thetruesize.com",
+      screenshot: "/assets/issues/the-true-size-of.png",
+      category: "Education / Tools",
+      vibe: "Everything you learned from a classroom map poster was wrong, and this proves it in ten seconds",
+    },
+    body: `Every map you've ever looked at on a wall has been lying to you, and the lie has a name: the Mercator projection.
+
+Flattening a sphere onto a rectangle is mathematically impossible without some kind of distortion. Mercator's 16th-century solution kept angles accurate for sailors, but at a brutal cost — it massively inflates landmasses the farther they sit from the equator. The result is the map hanging in classrooms worldwide, where Greenland looks roughly the same size as Africa.
+
+**It isn't close.** Africa is about 11.6 million square miles. Greenland is about 0.8 million. Africa is nearly **14.5 times larger** — and most people go their whole lives never knowing it, because the map they grew up with told them otherwise.
+
+The True Size Of... makes that gap impossible to un-see. Drag any country, state, or province anywhere on the map, and it automatically resizes in real time to show its actual proportions at that latitude. Pull Greenland down over Africa and watch it shrink to a fraction of the size you thought it was. Drag Alaska down to the equator and see it collapse from "practically touching Florida" to a fairly modest landmass.
+
+There are built-in comparisons to jump straight to the classics — Greenland vs Africa, Russia vs Canada, Brazil vs Australia, Australia vs India — but the real fun is picking your own matchups and watching your mental map of the world quietly fall apart.
+
+Built by James Talmage and Damon Maneice, inspired by the well-known "True Size of Africa" infographic and, fittingly, an episode of The West Wing. It's become a staple in geography classrooms for exactly this reason — nothing teaches map projection distortion faster than dragging the distortion around yourself.
+
+Go break your own assumptions. It only takes one drag.`,
+    affiliate_links: [],
+    tags: ["education", "geography", "tools", "free", "maps", "interactive"],
+    meta_description: "The True Size Of... is a free interactive map tool that lets you drag countries around to reveal how the Mercator projection distorts their real size — Africa is 14.5x larger than Greenland.",
+    editors_note: "❌ No affiliate — free educational tool. No product pick issue. Strong shareability, mind-bending hook, great classroom/educator crossover appeal.",
+  },
+
   "2026-09-10": {
     id: 132,
     date: "2026-09-10",
