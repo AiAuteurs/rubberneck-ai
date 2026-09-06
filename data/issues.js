@@ -3359,6 +3359,66 @@ Go break your own assumptions. It only takes one drag.`,
     editors_note: "❌ No affiliate — free educational tool. No product pick issue. Strong shareability, mind-bending hook, great classroom/educator crossover appeal.",
   },
 
+  "2026-09-06": {
+    id: 141,
+    date: "2026-09-06",
+    slug: "bbc-sound-effects",
+    headline: "THE BBC OPENED ITS ENTIRE SOUND ARCHIVE. 33,000+ SOUNDS. FREE.",
+    subheadline: "A steam train from the 1950s. A thunderstorm over a countryside pub. The buzz of an old refrigerator. The BBC quietly gave away its entire sound effects library — real field recordings spanning nearly a century, free to download.",
+    site: {
+      name: "BBC Sound Effects Archive",
+      url: "https://sound-effects.bbcrewind.co.uk/",
+      screenshot: "/assets/issues/bbc-sound-effects.png",
+      category: "Tools / Resources",
+      vibe: "A century of listening in on the world, catalogued and searchable",
+    },
+    body: `For nearly 100 years, the BBC has been recording the world — not for you, but for itself. Field recordings, studio effects, ambient atmospheres, all captured for use in radio and television programs going back to the 1930s. Most of it sat locked in an internal archive, used by BBC producers and nobody else.
+
+Now it's public. Over **33,000 sound effects and field recordings**, free to search, stream, and download in WAV format.
+
+**This isn't a polished modern sound library.** It's raw and specific in a way stock sound effects never are — a real 1950s steam train, an actual thunderstorm rolling over a real countryside pub, the particular buzz of an old refrigerator that no synthesized version quite captures. Search by keyword — "airport," "rain," "typewriter," whatever you're after — and the archive returns recordings with detailed metadata: location, date, recording notes, sometimes the story behind the clip itself. It's also full of genuinely strange corners once you start browsing — decades of BBC recording engineers captured a lot more than birdsong.
+
+There's a mixer mode too, letting you layer, edit, and reorder clips into your own custom soundscapes — mashing up recordings across decades and continents into something that never existed until you built it.
+
+**Here's the part to spell out clearly, because it trips people up:** these sounds are BBC copyright, and the free license only covers **personal, educational, or research use**. That means you can listen, download, and experiment freely — but you cannot use these clips in anything commercial. That includes monetized YouTube videos, paid film or game projects, or any product you're selling. Commercial use requires a separate paid license through the BBC. If you're a hobbyist, student, or just curious, dig in freely. If you're building something you plan to sell, treat this as inspiration and license accordingly.
+
+A century of listening, now searchable in seconds.`,
+    affiliate_links: [],
+    tags: ["audio", "free", "archive", "bbc", "sound-effects", "education"],
+    meta_description: "The BBC Sound Effects Archive offers 33,000+ free downloadable field recordings and sound effects — free for personal, educational, and research use, but not for commercial projects.",
+    editors_note: "❌ No affiliate — free BBC archive. No product pick issue. IMPORTANT licensing note: free tier is personal/educational/research use only — commercial use (including monetized YouTube) requires a paid BBC license. Make sure this distinction is clear and prominent in the published issue.",
+  },
+
+  "2026-09-07": {
+    id: 142,
+    date: "2026-09-07",
+    slug: "bandcamp",
+    headline: "THE PLATFORM WHERE MUSICIANS ACTUALLY GET PAID",
+    subheadline: "Bandcamp lets artists sell music and merch directly to fans, keeping the large majority of every sale — no algorithm deciding who gets heard, no ad-supported streaming pennies. Just artists, fans, and a straightforward transaction.",
+    site: {
+      name: "Bandcamp",
+      url: "https://bandcamp.com/",
+      screenshot: "/assets/issues/bandcamp.png",
+      category: "Music / Marketplace",
+      vibe: "The record store that never closed, run by the artists themselves",
+    },
+    body: `Streaming pays fractions of a cent per play. An artist needs hundreds of thousands of streams to earn what a few dozen direct fans would hand them outright. Bandcamp exists because someone finally built the alternative: sell the music straight to the people who want it, and let the artist keep almost all of it.
+
+**Uploading is free**, and artists set their own prices — including "pay what you want," where fans can pay more than the asking price if they choose to. Bandcamp takes roughly 15% of sales, dropping to 10% once an artist crosses $5,000 in total sales, plus standard payment processing fees. Compare that to the pennies-per-thousand-streams math of major streaming platforms and the gap is enormous.
+
+Buyers get real ownership, not just access — download purchased music in the format of your choice, stream it unlimited times through the Bandcamp app, gift it to someone else, or just browse the storefronts of thousands of independent artists and labels across every genre imaginable.
+
+**"Bandcamp Fridays" are worth knowing about specifically** — periodic days where Bandcamp waives its own revenue cut entirely, meaning 100% of what you pay goes straight to the artist and label. It's become something of a tradition in the independent music community, and checking whether today happens to be one is worth doing before you buy.
+
+There's a real community layer too — listening parties for pre-orders, direct fan subscriptions for ongoing support, and profile pages artists fully control instead of one algorithmic feed deciding who gets discovered.
+
+If you've ever wanted to support a musician you love without a platform skimming most of it off the top, this is where that actually happens.`,
+    affiliate_links: [],
+    tags: ["music", "artists", "shopping", "independent", "marketplace"],
+    meta_description: "Bandcamp lets independent artists sell music and merch directly to fans, keeping the large majority of every sale — a real alternative to fractional streaming payouts.",
+    editors_note: "⚠️ Affiliate status unclear — one directory reports no active public cash affiliate program; a couple of third-party aggregator sites claim 5-10% commissions but look unverified/low-quality. Recommend contacting Bandcamp directly to confirm before assuming an affiliate link is available. Featured with no affiliate link for now.",
+  },
+
   "2026-09-10": {
     id: 132,
     date: "2026-09-10",
