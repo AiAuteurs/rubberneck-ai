@@ -388,9 +388,9 @@ a    { color: inherit; text-decoration: none; }
 .pick__screenshot {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 10;
   object-fit: cover;
-  object-position: center center;
+  object-position: center top;
   background: #fff;
   transition: transform 0.3s ease;
 }
