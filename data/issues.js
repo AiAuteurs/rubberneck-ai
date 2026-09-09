@@ -3419,6 +3419,34 @@ If you've ever wanted to support a musician you love without a platform skimming
     editors_note: "⚠️ Affiliate status unclear — one directory reports no active public cash affiliate program; a couple of third-party aggregator sites claim 5-10% commissions but look unverified/low-quality. Recommend contacting Bandcamp directly to confirm before assuming an affiliate link is available. Featured with no affiliate link for now.",
   },
 
+  "2026-09-08": {
+    id: 143,
+    date: "2026-09-08",
+    slug: "find-song-by-lyrics",
+    headline: "YOU KNOW LIKE THREE WORDS OF THE SONG. THIS FINDS IT ANYWAY.",
+    subheadline: "Chosic's lyrics search tool identifies a song from a fuzzy, half-remembered fragment — no artist name, no exact wording needed. Type what you've got, it finds the match, then lets you play it instantly.",
+    site: {
+      name: "Find Song By Lyrics — Chosic",
+      url: "https://www.chosic.com/find-song-by-lyrics/",
+      screenshot: "/assets/issues/find-song-by-lyrics.png",
+      category: "Tools / Utility",
+      vibe: "The cure for the 3am 'what IS that song' spiral",
+    },
+    body: `Everyone knows the feeling. A song is stuck in your head, you can only remember a fragment of it — maybe not even the right words — and Googling the mangled lyrics just returns nothing useful.
+
+Chosic's Find Song By Lyrics tool exists for exactly that moment. **Type in whatever partial lyrics you can remember**, even imperfectly, and it searches for the most likely matches. No artist name required. No need to have the wording exactly right.
+
+Once it surfaces candidates, you can click through to see full details on the song and artist, play it instantly via YouTube or Spotify, or jump straight to the full lyrics page to confirm you found the right one.
+
+**It doubles as a general lyrics search engine too** — type an artist name, a song title, or any lyric phrase, and it'll pull up matches the same way. So even if you're not chasing an earworm, it works as a quick lyrics lookup on its own.
+
+It's free, fast, and solves a genuinely universal problem — the next time a half-remembered chorus won't leave you alone, this is where you go instead of typing garbled lyrics into a search bar and getting nothing back.`,
+    affiliate_links: [],
+    tags: ["music", "tools", "free", "lyrics", "utility"],
+    meta_description: "Chosic's Find Song By Lyrics tool identifies a song from a partial, half-remembered lyric fragment — no artist name needed. Free, with instant YouTube/Spotify playback.",
+    editors_note: "❌ No affiliate — free tool. No product pick issue. Second music-adjacent pick this week (Bandcamp, Sep 7) — different use case (utility vs. marketplace) so kept close, but worth spacing music picks out more going forward if it becomes a pattern.",
+  },
+
   "2026-09-10": {
     id: 132,
     date: "2026-09-10",
