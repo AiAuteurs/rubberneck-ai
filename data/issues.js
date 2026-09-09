@@ -3447,6 +3447,38 @@ It's free, fast, and solves a genuinely universal problem — the next time a ha
     editors_note: "❌ No affiliate — free tool. No product pick issue. Second music-adjacent pick this week (Bandcamp, Sep 7) — different use case (utility vs. marketplace) so kept close, but worth spacing music picks out more going forward if it becomes a pattern.",
   },
 
+  "2026-09-09": {
+    id: 144,
+    date: "2026-09-09",
+    slug: "craigslist-nyc",
+    headline: "REMEMBER CRAIGSLIST? IT STILL WORKS. BETTER THAN YOU'D THINK.",
+    subheadline: "No algorithm. No sponsored listings. No feed deciding what you see. Just a plain, ugly, brutally functional classifieds page — and for NYC apartments, furniture, and gigs, it's still one of the best deals on the internet.",
+    site: {
+      name: "Craigslist New York",
+      url: "https://www.craigslist.org/area/newyork",
+      screenshot: "/assets/issues/craigslist-nyc.png",
+      category: "Tools / Utility",
+      vibe: "The internet before the internet got weird about engagement",
+    },
+    body: `Everyone remembers Craigslist. Almost nobody actually uses it anymore.
+
+Facebook Marketplace ate the casual sellers. Zillow and StreetEasy ate the apartment hunters. Most people's relationship with Craigslist these days is a vague memory of "missed connections" posts and a mild suspicion it's still around somewhere, unchanged, like a payphone nobody's removed.
+
+**It is still around. And for New York specifically, it's still genuinely useful** — arguably more useful than the algorithm-driven alternatives that replaced it in most people's habits.
+
+The whole site is still just a plain list of links. No engagement bait, no sponsored posts pushed above what you're actually looking for, no feed quietly deciding what you should see based on what keeps you scrolling. You search, you get results, chronologically or by relevance, and that's it.
+
+For **NYC apartments specifically**, it remains one of the last places landlords and brokers post no-fee listings directly, without the platform fees StreetEasy and Zillow tack onto both sides. Furniture and household goods move fast and cheap — people leaving the city dump entire apartments' worth of stuff for next to nothing, especially at the end of each month's lease cycle. The gigs section still has real freelance and day-labor work that never made it to LinkedIn or Indeed.
+
+It's not polished. It's not personalized. It occasionally still looks like it was built in 2003, because large parts of it were. But that's precisely why it still works — there's no algorithm standing between you and what's actually posted.
+
+If you wrote it off years ago, it might be worth one more look.`,
+    affiliate_links: [],
+    tags: ["classifieds", "new-york", "housing", "free", "tools", "nostalgia"],
+    meta_description: "Craigslist New York is still one of the best places for no-fee NYC apartments, cheap furniture, and real gig work — no algorithm, no sponsored listings, just a plain functional list.",
+    editors_note: "❌ No affiliate — free classifieds site. No product pick issue. Nostalgia/rediscovery angle ('remember this? it still works') rather than a novelty hook — worth leaning into that framing in social copy.",
+  },
+
   "2026-09-10": {
     id: 132,
     date: "2026-09-10",
