@@ -3517,6 +3517,36 @@ This is the organization making sure they don't have to.`,
     editors_note: "❌ No affiliate — nonprofit. Pure editorial. Spaced ~2 weeks from Pongo Fund (Aug 26) and clear of 211 (Aug 25) to avoid stacking nonprofit/pet picks too close together. National scope distinguishes it from Pongo Fund's Oregon-based angle. Strong Facebook/shareability pick.",
   },
 
+  "2026-09-11": {
+    id: 145,
+    date: "2026-09-11",
+    slug: "the-marginalian",
+    headline: "ONE WOMAN. TWO DECADES. NO ADS. NO ALGORITHM. NO AI.",
+    subheadline: "The Marginalian (formerly Brain Pickings) is Maria Popova's one-woman literary and philosophical archive — thousands of deeply researched essays on love, art, science, and meaning, running on reader donations alone since 2006.",
+    site: {
+      name: "The Marginalian",
+      url: "https://www.themarginalian.org/",
+      screenshot: "/assets/issues/the-marginalian.png",
+      category: "Reading / Ideas",
+      vibe: "The internet before optimization, still somehow thriving",
+    },
+    body: `Almost every corner of the internet has been optimized for something other than you — engagement, ad revenue, algorithmic reach. The Marginalian is one of the last major sites that simply refused.
+
+For nearly two decades, Maria Popova has run it entirely alone. No staff, no interns, no assistant. Just one person spending, by her own account, hundreds of hours and thousands of dollars a month keeping it alive — **free, ad-free, and explicitly AI-free**, sustained purely by reader donations.
+
+**What she's actually built is staggering in scope.** Over 1,600 pages of archives spanning philosophy, psychology, science, poetry, art history, and what the site simply calls "our search for meaning." A single essay might braid together a psychoanalyst on the paradox of wanting to change, Hannah Arendt on love and fear, and a centuries-old Japanese concept of empty space — all in service of one clear, considered thought, illustrated with rare vintage art.
+
+There's a "surprise me" button that pulls a random essay from the archive — worth using at least once, since two decades of material means most first-time visitors have barely scratched the surface. The Sunday newsletter delivers new essays; a separate midweek newsletter resurfaces one archival piece each week, chosen specifically to "uplift the heart, vivify the mind, and salve spirit."
+
+It's not a fast read. There's no listicle format, no SEO-bait headlines, no infinite scroll designed to keep you clicking. It's long-form, deliberate, and unapologetically dense — the opposite of everything the modern internet optimizes for, which is precisely why it's lasted this long and built the audience it has.
+
+If you've forgotten what a website built purely out of devotion to a subject looks like, this is it.`,
+    affiliate_links: [],
+    tags: ["reading", "philosophy", "art", "essays", "ad-free", "independent"],
+    meta_description: "The Marginalian is Maria Popova's ad-free, one-woman literary and philosophical archive — nearly two decades of deeply researched essays on meaning, art, love, and science.",
+    editors_note: "❌ No affiliate for Rubberneck — note that the site itself runs Bookshop.org/Amazon affiliate links on book mentions (disclosed on-site), which is just how Popova sustains it, not something to apply for separately. No product pick issue. Strong fit for readers who want something slower and deeper than the usual internet find.",
+  },
+
   "2026-09-15": {
     id: 147,
     date: "2026-09-15",
