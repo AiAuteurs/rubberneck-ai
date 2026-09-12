@@ -3547,6 +3547,68 @@ If you've forgotten what a website built purely out of devotion to a subject loo
     editors_note: "❌ No affiliate for Rubberneck — note that the site itself runs Bookshop.org/Amazon affiliate links on book mentions (disclosed on-site), which is just how Popova sustains it, not something to apply for separately. No product pick issue. Strong fit for readers who want something slower and deeper than the usual internet find.",
   },
 
+  "2026-09-12": {
+    id: 146,
+    date: "2026-09-12",
+    slug: "complaint-dot-com",
+    headline: "SUBMIT A COMPLAINT ABOUT ANYTHING. NO NAME REQUIRED. NO IDEA WHERE IT GOES.",
+    subheadline: "Complaint.com is a bare text box that's apparently sat untouched since the early internet — type your complaint, hit submit, and it vanishes into the void. Name, email, subject: all optional. Total anonymous catharsis, zero accountability.",
+    site: {
+      name: "Complaint.com",
+      url: "https://complaint.com",
+      screenshot: "/assets/issues/complaint-dot-com.png",
+      category: "Internet Oddities",
+      vibe: "A relic that's been promising 'a more interesting site here soon' for what appears to be decades",
+    },
+    body: `Somewhere on the internet, frozen in time, sits a website whose entire purpose is letting you complain about anything — and it has looked, by every appearance, exactly the same since sometime in the early web.
+
+**"Welcome to COMPLAINT.COM, the universal complaint site,"** it announces, in the plainest possible text. "Feel free to complain about anything whatsoever. Why? Because we care! Expect a more interesting site here soon."
+
+That "soon" has apparently been pending for a very, very long time.
+
+The form itself is almost defiantly minimal: an optional email address, an optional name, an optional subject line, and one required field — your complaint. That's it. **Every piece of identifying information is optional.** You can type out exactly what's bothering you, hit submit, and walk away having told absolutely nobody who you are.
+
+What actually happens to the complaint after that is genuinely unclear. There's no public complaint board to browse, no confirmation of where it's forwarded, no sense that any company or authority ever sees it. It may go to whoever still runs the site. It may go nowhere. The honest answer is nobody outside the site owner seems to know — and that mystery is sort of the whole charm.
+
+This isn't a utility in the way most Rubberneck picks are. It won't get your refund processed or your customer service ticket escalated. **It's pure, structureless catharsis** — a digital shout into a void that's been patiently listening since long before "user experience" was something anyone thought about.
+
+Got something you need to get off your chest? Nobody's watching. Nobody's tracking who you are. Go complain into the internet's oldest empty room.`,
+    affiliate_links: [],
+    tags: ["internet-oddities", "nostalgia", "weird", "free", "catharsis"],
+    meta_description: "Complaint.com is a bare-bones, decades-old website where you can submit an anonymous complaint about anything — no name or email required, and no clear idea where it goes.",
+    editors_note: "❌ No affiliate — free novelty site. No product pick issue. This is a fun/weird internet-culture pick, not a utility — framed honestly as catharsis rather than a functional complaint resolution tool, since it's genuinely unclear what happens to submissions.",
+  },
+
+  "2026-09-13": {
+    id: 148,
+    date: "2026-09-13",
+    slug: "movie-scene-map",
+    headline: "18,697 REAL PLACES WHERE YOUR FAVORITE FILMS WERE ACTUALLY SHOT",
+    subheadline: "Movie Scene Map plots real filming locations for over 10,000 films and TV series across 171 countries — plus the real places video games, anime, and manga are set in. Search a title to see where it was made, or a place to see what was made there.",
+    site: {
+      name: "Movie Scene Map",
+      url: "https://moviescenemap.com",
+      screenshot: "/assets/issues/movie-scene-map.png",
+      category: "Travel / Places",
+      vibe: "Turns every movie you've loved into a place you can actually visit",
+    },
+    body: `Every film gets shot somewhere real, even when the story pretends otherwise. That castle in Game of Thrones, the diner in Pulp Fiction, the highway in The Matrix — all of it exists on an actual map, and Movie Scene Map plots the whole thing.
+
+**18,697 real filming locations across 171 countries**, tied to 10,528 films and series, plus 2,153 video games, 408 anime, and 365 manga placed by where their stories are set rather than where they were filmed — since nothing is filmed inside a drawn or rendered world. Search a title to see everywhere it was shot, or search a place to see everything that's ever been filmed there.
+
+**The rigor behind it is what sets this apart.** The backbone is filming location statements sourced from Wikidata, joined to each place's coordinates, photo, and Wikipedia article. Weaker evidence — a location mentioned in a production's own Wikipedia article rather than a formal data statement — gets explicitly labeled "per Wikipedia" and never mixed in with the stronger sourcing. Nothing is scraped from listicles. Nothing is AI-generated.
+
+Browse by category — studios and sets, castles and palaces, landmarks, streets, landscapes — or dig into the "most filmed places on Earth" ranking (California alone has hosted over 2,000 productions). There's a dedicated page for the 150 most famous scenes ever filmed on location, and day-trip guides built around filming locations for 439 cities worldwide.
+
+It's entirely free — no account, no ads, no paywall — and the whole dataset is downloadable as GeoJSON or CSV under CC0 if you want to build something with it yourself.
+
+Next time a scene stops you mid-episode because the location looks too good to be fake, there's a real chance you can look up exactly where it is — and go stand there yourself.`,
+    affiliate_links: [],
+    tags: ["travel", "movies", "tv", "maps", "free", "tools"],
+    meta_description: "Movie Scene Map is a free interactive map of 18,697 real filming locations for films, TV series, video games, anime, and manga across 171 countries — sourced from Wikidata.",
+    editors_note: "❌ No affiliate — free, ad-free tool. No product pick issue. Travel / Places category per house rule. Strong shareability — great for film buffs and travelers both.",
+  },
+
   "2026-09-15": {
     id: 147,
     date: "2026-09-15",
