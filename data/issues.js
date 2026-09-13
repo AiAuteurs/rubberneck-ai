@@ -3609,6 +3609,36 @@ Next time a scene stops you mid-episode because the location looks too good to b
     editors_note: "❌ No affiliate — free, ad-free tool. No product pick issue. Travel / Places category per house rule. Strong shareability — great for film buffs and travelers both.",
   },
 
+  "2026-09-14": {
+    id: 149,
+    date: "2026-09-14",
+    slug: "explore-org",
+    headline: "LIVE BEAR CAMS. LIVE OCEAN CAMS. LIVE EVERYTHING. ALL FREE, ALL DAY.",
+    subheadline: "Explore.org runs the world's largest philanthropic live nature-cam network — bears, oceans, eagles, African wildlife, streaming continuously, alongside a full documentary film channel. No ads to sit through, just the world unfolding in real time.",
+    site: {
+      name: "Explore.org",
+      url: "https://explore.org",
+      screenshot: "/assets/issues/explore-org.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "The internet's version of a nature documentary that never stops filming",
+    },
+    body: `Somewhere right now, a brown bear is fishing for salmon in Alaska. Somewhere else, a colony of seabirds is going about its day on a cliffside. None of it is edited, narrated, or dramatized for you — it's just happening, live, and Explore.org is streaming it.
+
+**Explore.org calls itself the world's leading philanthropic live nature cam network**, and the scope backs that up — dedicated channels for bears, oceans, eagles, African wildlife, and more, each running its own continuous livestream. The famous ones (the Katmai brown bear cams, in particular) have built genuine devoted followings who check in during salmon runs the way other people check sports scores.
+
+Beyond the live cams, there's a full documentary film library and a "Snapshots" section pulling favorite live-cam moments into shareable highlights — a bear catching a fish mid-air, an eagle feeding its chicks, the kind of moment you'd otherwise need to get impossibly lucky to witness in person.
+
+**The mission is stated plainly on the site itself:** to champion the selfless acts of others, create a portal into the soul of humanity, and inspire lifelong learning. It's run as a nonprofit initiative (Explore Annenberg LLC), which explains why there's no aggressive ad load standing between you and the animals.
+
+There's something quietly restorative about it — no plot, no urgency, no algorithm trying to keep you doom-scrolling. Just the actual world, continuing on, whether you're watching or not.
+
+Open a tab. Leave it running. Check back whenever you need five minutes that don't belong to anything else.`,
+    affiliate_links: [],
+    tags: ["nature", "live-streams", "free", "wildlife", "nonprofit", "documentary"],
+    meta_description: "Explore.org is a free, philanthropic live nature-cam network streaming bears, oceans, eagles, and African wildlife continuously, alongside a full documentary film library.",
+    editors_note: "❌ No affiliate — nonprofit-run, ad-light. No product pick issue. Calming, restorative pick — good change of pace, pairs well thematically with past nonprofit/animal picks (Pongo Fund, Feeding Pets of the Homeless) without duplicating their angle.",
+  },
+
   "2026-09-15": {
     id: 147,
     date: "2026-09-15",
@@ -3643,6 +3673,36 @@ Go look.`,
     tags: ["jobs", "tech", "startups", "remote", "free", "hiring", "ycombinator"],
     meta_description: "Y Combinator's job board lists open positions at every active YC-funded startup — real jobs at real funded companies including Airbnb, Stripe, Dropbox, and hundreds more. Free to browse.",
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
+  },
+
+  "2026-09-16": {
+    id: 150,
+    date: "2026-09-16",
+    slug: "music-quizly",
+    headline: "GUESS THE SONG BEFORE YOUR FRIENDS DO. NO APP, NO SIGNUP.",
+    subheadline: "Music Quizly is a free real-time music guessing game — create a room, pull in any Spotify or Deezer playlist, and race to type the title and artist before the clip gives it away. 300K+ players, 120M+ songs.",
+    site: {
+      name: "Music Quizly",
+      url: "https://www.musicquizly.com/play",
+      screenshot: "/assets/issues/music-quizly.png",
+      category: "Games / Fun",
+      vibe: "The party game that runs entirely in a browser tab",
+    },
+    body: `Every friend group has that one person who can name a song within half a second of the beat dropping. Music Quizly turns that into an actual competition, in real time, with zero setup.
+
+Create a room, share the code or link, and up to 1,000 players can join from any device — no app install, no account required, playing from a browser tab in about ten seconds flat. Pick a curated playlist or search Spotify and Deezer directly for one of your own, or just paste a playlist URL straight in.
+
+**The scoring is sharper than a typical guessing game.** Title and artist score separately, both losing value the longer you take — but never dropping below 30% of full value, so a slow-but-correct guess still counts for something. Lock in an exact match on either half and that half stops dropping immediately. Solve both in a round and your streak grows for a capped bonus. Wrong guesses don't cost you anything, so there's no punishment for taking a shot.
+
+There are three ways to play: **Party Mode** for a full group guessing together, **Quiz Master** if you want to run the room live like a DJ picking the pace, or **Solo Challenge** if you just want to test yourself against the clips alone.
+
+**If you want something even quicker, there's a daily 0.1-second challenge** — three songs, starting with just a tenth of a second of audio, skip or guess wrong to hear a bit more. New set every day, no account needed.
+
+With over 120 million songs in reach through Spotify and Deezer integration, there's essentially no genre, era, or niche playlist this can't turn into a game.`,
+    affiliate_links: [],
+    tags: ["music", "games", "free", "multiplayer", "party-games"],
+    meta_description: "Music Quizly is a free real-time multiplayer music guessing game — create a room, use any Spotify or Deezer playlist, and race friends to guess the song. No app or signup required.",
+    editors_note: "❌ No affiliate — free, ad-supported (Playwire). No product pick issue. Fun/games category, good change of pace. Third music-adjacent pick this cycle (Bandcamp, Find Song By Lyrics) but distinct use case (party game vs. marketplace vs. lookup tool).",
   },
 
   "2026-09-01": {
