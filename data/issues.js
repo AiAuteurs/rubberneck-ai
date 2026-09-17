@@ -3675,6 +3675,36 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-09-17": {
+    id: 151,
+    date: "2026-09-17",
+    slug: "peter-max",
+    headline: "THE MAN WHO PAINTED THE '60S IN NEON DIED THIS WEEK. HIS ART IS STILL FOR SALE.",
+    subheadline: "Peter Max — the psychedelic pop artist whose rainbow-drenched posters of Dylan, the Beatles, and the Statue of Liberty defined an era — died this week at 88. His official studio site is still the place to see, and own, the work that visualized a generation.",
+    site: {
+      name: "Peter Max Studio",
+      url: "https://petermax.com",
+      screenshot: "/assets/issues/peter-max.png",
+      category: "Art / Culture",
+      vibe: "A eulogy you can actually hang on your wall",
+    },
+    body: `Peter Max died this week at 88, after a long battle with Alzheimer's. If you've never heard the name, you've still seen the work — color-saturated stars, sun rays, and rainbow-swirled faces that became visual shorthand for the entire Age of Aquarius.
+
+Born Peter Max Finkelstein in Berlin, his Jewish family fled Nazi Germany when he was an infant, eventually settling in Shanghai, where he spent his first decade living near a Buddhist monastery and a Sikh temple. That collision of cultures shaped everything he made once he reached New York and exploded onto the scene in the late 1960s — psychedelic, optimistic, unmistakably his.
+
+His subjects read like a cultural timeline: Bob Dylan, the Beatles, Mick Jagger, Barack Obama, Taylor Swift. He painted the Statue of Liberty repeatedly starting with the 1976 bicentennial, designed Grammy artwork six separate times, and had his work commissioned for two Super Bowls, a World Cup, and a World Series. His friend and longtime spokesperson described him simply: **"As much as the Beatles provided a soundtrack for that era, Peter visualized it."**
+
+**His official studio site is still live and still selling** — limited edition graphic prints, paintings, vintage works, each with a certificate of authenticity directly from the studio. Prices range from around $355 for smaller graphic prints up into the thousands for larger painted works. There's a full biography section, a running archive of museum exhibitions, and the vintage collection specifically for anyone chasing the iconic, era-defining pieces.
+
+It's rare that a website doubles as both a gallery and a living document of exactly how much one artist's eye shaped how an entire decade *looked*. This week, it also became something closer to a memorial.
+
+Go see the color he saw first.`,
+    affiliate_links: [],
+    tags: ["art", "culture", "obituary", "60s", "pop-art", "shopping"],
+    meta_description: "Peter Max, the psychedelic pop artist behind era-defining Beatles and Bob Dylan posters, died this week at 88. His official studio site still sells original and vintage prints.",
+    editors_note: "❌ No affiliate confirmed — small boutique art e-commerce (Shopify), real purchasable prints/paintings, not something to apply for through a formal affiliate program. Timely tribute pick given his death was confirmed this week (Sept 16, 2026). GeoGuessr pushed back to a later open date.",
+  },
+
   "2026-09-16": {
     id: 150,
     date: "2026-09-16",
