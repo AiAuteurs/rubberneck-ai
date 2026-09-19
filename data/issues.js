@@ -3675,6 +3675,36 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-09-22": {
+    id: 156,
+    date: "2026-09-22",
+    slug: "rijksmuseum",
+    headline: "A REMBRANDT, IN INSANE RESOLUTION, FREE TO DOWNLOAD. NO PERMISSION NEEDED.",
+    subheadline: "The Rijksmuseum in Amsterdam — home of Rembrandt, Vermeer, and Van Gogh — gives away ultra-high-resolution downloads of virtually its entire public-domain collection, free, no account required, no restrictions on what you do with it.",
+    site: {
+      name: "Rijksmuseum",
+      url: "https://www.rijksmuseum.nl/en",
+      screenshot: "/assets/issues/rijksmuseum.png",
+      category: "Art / Culture",
+      vibe: "800 years of Dutch masterpieces, and they just... hand them to you",
+    },
+    body: `Most museums treat their collection like a vault — look, but don't touch, don't copy, don't take anything with you. The Rijksmuseum decided to do the opposite.
+
+Home to **The Night Watch, The Milkmaid**, and one of the world's great collections of Dutch Golden Age painting, the Rijksmuseum in Amsterdam has digitized the vast majority of its public-domain works and made them available to download at **jaw-dropping resolution** — often enough to zoom into individual brushstrokes on a Rembrandt. No watermarks, no low-res teaser followed by a paywall, no account required to browse.
+
+**This is fundamentally different from most museum digitization efforts**, which tend to publish small preview images meant to drive ticket sales, not actual usable files. The Rijksmuseum's approach through their open collection effectively says: this art belongs to everyone, take what you want, use it however you like — in a design project, as a print, as a phone wallpaper, whatever.
+
+The collection spans 800 years of Dutch history well beyond just the household names — decorative arts, historical objects, photography, prints, and drawings sit alongside the paintings, all searchable and browsable with the same openness.
+
+For anyone who's ever wanted to actually study a masterpiece up close rather than squint at a museum wall from behind a rope line, this is as close as the internet gets to standing directly in front of it with a magnifying glass — except you get to keep the file.
+
+If you're ever in Amsterdam, the museum itself is obviously worth the visit. But you don't have to book a flight to own a piece of it.`,
+    affiliate_links: [],
+    tags: ["art", "culture", "free", "museum", "history", "netherlands"],
+    meta_description: "The Rijksmuseum in Amsterdam offers free, ultra-high-resolution downloads of its public-domain collection — including Rembrandt and Vermeer — with no restrictions on use.",
+    editors_note: "❌ No affiliate — public institution, free open-access collection. No product pick issue. Globally-sourced pick (Netherlands), continuing the push for more international representation in the archive.",
+  },
+
   "2026-09-21": {
     id: 155,
     date: "2026-09-21",
