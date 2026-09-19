@@ -3675,6 +3675,126 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-09-21": {
+    id: 155,
+    date: "2026-09-21",
+    slug: "tdf",
+    headline: "50% OFF BROADWAY. AND THEY'LL RENT YOU 100,000 COSTUMES.",
+    subheadline: "Theatre Development Fund is a 1968 nonprofit behind the famous TKTS discount booths, autism-friendly Broadway performances, and a 100,000-piece costume collection anyone can rent — not just theaters.",
+    site: {
+      name: "Theatre Development Fund (TDF)",
+      url: "https://www.tdf.org",
+      screenshot: "/assets/issues/tdf.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "The invisible machine making Broadway actually reachable",
+    },
+    body: `If you've ever seen the red steps in Times Square with a line wrapped around them, you've seen TDF's work without knowing it. Those are the TKTS booths — same-day discount tickets to Broadway and Off-Broadway shows, up to 50% off, run by a nonprofit that's been quietly making the performing arts affordable since **1968**.
+
+That's the part most people know. What most people don't know is how much further TDF actually goes.
+
+**TDF Membership** unlocks deep, ongoing discounts beyond the day-of TKTS booths — access to hundreds of productions at prices regular box offices never advertise. Broadway tickets through their programs can run as low as $53.50-$62.50, a fraction of standard pricing.
+
+**Their Accessibility Programs are the genuinely remarkable part.** TDF partners with autism consultants to adjust real Broadway productions — reducing jarring sounds, dimming spotlights that shine into the audience, softening technical elements — so kids and adults on the spectrum can experience live theater without sensory overload. They've run this program for over a decade, working directly with shows like Hadestown and Ragtime.
+
+**And then there's the costume collection**, which is where this stops sounding like a typical ticket discounter entirely. TDF has operated a costume rental program for more than 50 years, with over 100,000 pieces available at affordable rates — not exclusively for professional theaters, either. It's one of those "wait, I can just rent from THAT?" discoveries.
+
+Add in education programs bringing first-time theatergoers from NYC schools into real productions, and community initiatives built around the idea that live performance should be something everyone gets to experience, not just people who can afford full price — and TDF turns out to be one of the most quietly load-bearing nonprofits in New York theater.
+
+If Broadway's ever felt priced out of reach, this is the door in.`,
+    affiliate_links: [],
+    tags: ["nonprofit", "theater", "broadway", "accessibility", "new-york", "discounts"],
+    meta_description: "Theatre Development Fund (TDF) is a NYC nonprofit running the TKTS discount booths, autism-friendly Broadway performances, and a 100,000-piece costume rental collection.",
+    editors_note: "⚠️ TDF's own site discloses 'we may earn a commission when you use one of our links to make a purchase' — some affiliate relationship already exists on their end for ticket links, though not something Rubberneck applies for directly. No product pick issue — this is a nonprofit organization. NYC-specific but broad appeal given how well-known Broadway/TKTS is nationally.",
+  },
+
+  "2026-09-20": {
+    id: 154,
+    date: "2026-09-20",
+    slug: "windy",
+    headline: "ONE CZECH DEVELOPER BUILT THE MOST BEAUTIFUL WEATHER MAP ON EARTH",
+    subheadline: "Windy.com turns global weather into a living, flowing map — wind, rain, waves, hurricanes, jet streams, all animated in real time. Built in the Czech Republic, used by pilots, sailors, surfers, and storm-watchers worldwide.",
+    site: {
+      name: "Windy.com",
+      url: "https://www.windy.com",
+      screenshot: "/assets/issues/windy.png",
+      category: "Tools / Utility",
+      vibe: "Watching the actual atmosphere breathe, in real time, for free",
+    },
+    body: `Most weather apps give you a number and an icon. Windy gives you the entire moving atmosphere.
+
+Built by Windyty, SE, a Czech company, the site renders **50+ weather layers** — wind, rain, temperature, pressure, waves, hurricane tracks, ocean currents — as flowing, animated overlays on a live global map. Zoom into your neighborhood or pull back to watch a hurricane's spiral churn across an entire ocean basin, all rendered as continuous, hypnotic motion rather than static forecast tiles.
+
+**The forecast data comes from real meteorological models** — ECMWF, GFS, NAM, and NEMS among them — the same institutional-grade sources professional forecasters actually use. Layer in METAR, TAF, and NOTAM data for any airport on Earth, or SYNOP codes straight from weather stations and buoys, and this stops being a casual weather-check site and becomes something pilots, sailors, and paragliders genuinely plan around.
+
+That's who it was originally built for. Windy's core audience has always been the people whose day depends on getting wind and wave conditions exactly right — kitesurfers checking gust patterns, sailors plotting a crossing, pilots checking crosswinds before takeoff. But the same tool works just as well for anyone who's ever wanted to actually *see* a storm system forming instead of just being told one's coming.
+
+It's free to use, with the option to go Premium for extended forecast ranges and additional model access. No account required for the core experience — just open the map and watch the world's weather move.
+
+Pull up your location, zoom out slowly, and watch the wind patterns spiral across an entire continent. It's the closest thing to seeing the planet breathe.`,
+    affiliate_links: [],
+    tags: ["weather", "tools", "free", "maps", "aviation", "sailing"],
+    meta_description: "Windy.com is a free, real-time animated global weather map with 50+ layers — wind, rain, waves, hurricanes, and aviation data — built by a Czech weather company.",
+    editors_note: "❌ No affiliate — freemium (Premium tier for extended forecasts), core experience free with no account. No product pick issue. Globally-built pick (Czech Republic) — good geographic diversity beyond the usual US/UK sources.",
+  },
+
+  "2026-09-19": {
+    id: 153,
+    date: "2026-09-19",
+    slug: "geoguessr",
+    headline: "ONE PHOTO. NO LABELS. FIGURE OUT WHERE ON EARTH YOU ARE.",
+    subheadline: "GeoGuessr drops you into a random Google Street View with zero context — no map, no city name, nothing. You spin around, hunt for clues, and drop a pin. Get it wrong by 6,000 miles. Get it right by reading a road sign nobody else would've noticed.",
+    site: {
+      name: "GeoGuessr",
+      url: "https://www.geoguessr.com/",
+      screenshot: "/assets/issues/geoguessr.png",
+      category: "Games / Fun",
+      vibe: "The five-minute game that turns into a two-hour session every single time",
+    },
+    body: `You're standing on a dirt road. Eucalyptus trees. A power line running at a weird angle. No signs, no people, no context. Somewhere on Earth, this exact spot exists — and GeoGuessr wants to know if you can find it with nothing but your eyes.
+
+That's the entire game. **You're dropped into Google Street View at a completely random location, anywhere on the planet, and you have to guess where you are.** Spin around. Zoom in on a license plate. Notice the electrical outlets look European. Clock that the soil is red, so this is probably not Scandinavia. Then drop a pin on a world map and find out how close you got.
+
+The first round always feels impossible. By round three, you're a different person — someone who knows Kenyan power poles look different from Botswana's, who can spot a Mongolian dirt road at a glance, who has strong, unearned opinions about Chilean guardrails. It rewires how you look at the entire world, one humiliating wrong guess at a time.
+
+**The free Daily Challenge alone is enough to get hooked** — three locations, a global leaderboard, zero cost, zero account required. Want blood? **Duels** puts you head-to-head against a stranger in real time, both racing the clock on the same location. There are 1,000+ community-built maps too, if you want to specialize — famous landmarks, one specific country, or maps built entirely from the most brutally obscure back roads contributors could find.
+
+Fair warning: this is the kind of game where you say "one more round" and then it's an hour later and you've developed a genuine grudge against Russia's uniform birch trees.
+
+Go get humbled by a gas station.`,
+    affiliate_links: [],
+    tags: ["games", "geography", "free", "puzzle", "multiplayer"],
+    meta_description: "GeoGuessr drops you into random Google Street View locations worldwide with zero context, challenging you to guess exactly where you are. Free daily challenge, no account required.",
+    editors_note: "❌ No affiliate confirmed — freemium model (Pro subscription for extras), core Daily Challenge and Duels are free with no signup. No product pick issue. Distinct from citywalki (video walking tours) and geopins (hidden-gems map) already in the archive.",
+  },
+
+  "2026-09-18": {
+    id: 152,
+    date: "2026-09-18",
+    slug: "reserve-ps",
+    headline: "SKIP THE ENTIRE AIRPORT. A CAR DRIVES YOU STRAIGHT TO THE PLANE.",
+    subheadline: "PS (formerly The Private Suite) is a members-only private terminal that lets you fly commercial without ever setting foot in the actual airport — private TSA and Customs, a chauffeured car straight to your aircraft door, and a lounge that looks nothing like a gate area.",
+    site: {
+      name: "PS (ReservePS)",
+      url: "https://reserveps.com",
+      screenshot: "/assets/issues/reserve-ps.png",
+      category: "Travel / Places",
+      vibe: "The airport experience nobody tells you actually exists",
+    },
+    body: `Most people assume there are exactly two ways to fly: commercial, with all its lines and gate chaos, or private, at private-jet prices. PS exists in a strange, expensive third lane almost nobody knows about — a way to fly on a completely normal commercial airline ticket while never actually experiencing a public terminal.
+
+**Here's how it works:** you're chauffeured (often in a BMW) directly across the airfield to your commercial aircraft's door, skipping the terminal entirely. PS holds the only private partnership with both TSA and Customs and Border Protection, so security and immigration happen inside their own space — private screening, no lines, no crowds. In between, there's a lounge or private suite with chef-prepared food, a full bar, and spa services, depending on which tier you book.
+
+Currently operating at **LAX, Atlanta, Dallas Fort Worth, and Miami**, with Paris in the pipeline. It launched at LAX back in 2017 as "The Private Suite" and has since served nearly 250,000 passengers — reportedly popular enough with celebrities and ultra-frequent flyers that TPG (the private equity firm) backed it, and it's now being acquired by Groupe ADP, the company that runs the Paris airports.
+
+**The price tag matches the strangeness of the concept.** All Access Membership runs around $4,850 a year, on top of per-use fees each time you actually fly through it. Press coverage has been glowing — Forbes, CNN Travel, and Business Insider have all called it one of the most unique ways to travel — but it's worth noting the reception isn't universal. At least one longtime user on the FlyerTalk forums, after several bookings, said flatly it wasn't worth the price for them.
+
+This isn't a pick for most people's budgets. But as a "wait, this is a real thing you can book?" discovery, it's hard to beat — proof that somewhere between economy and a Gulfstream, there's a whole hidden lane most travelers never learn exists.`,
+    affiliate_links: [],
+    tags: ["travel", "luxury", "airports", "membership", "premium"],
+    meta_description: "PS (formerly The Private Suite) is a members-only private airport terminal letting commercial flyers skip security lines and public terminals entirely, with a chauffeured ride straight to their aircraft.",
+    editors_note: "⚠️ No public affiliate program found — high-end acquisition target (TPG-backed, being acquired by Groupe ADP), not a typical publisher affiliate setup. Worth emailing their Partnership Inquiries contact directly if monetization matters here. Mixed reception noted for balance: glowing press (Forbes, CNN, Business Insider) alongside at least one skeptical FlyerTalk review questioning value for the ~$4,850/year membership cost. Travel / Places category.",
+  },
+
   "2026-09-17": {
     id: 151,
     date: "2026-09-17",
