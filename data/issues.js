@@ -3675,6 +3675,68 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-09-24": {
+    id: 158,
+    date: "2026-09-24",
+    slug: "national-archives",
+    headline: "YOU CAN JUST... LOOK AT THE ACTUAL CONSTITUTION. IT'S ONLINE.",
+    subheadline: "The National Archives has digitized millions of original documents — the Declaration of Independence, the Constitution, presidential records, military files, and centuries of census data — free to search and view, no appointment needed.",
+    site: {
+      name: "National Archives (NARA)",
+      url: "https://www.archives.gov",
+      screenshot: "/assets/issues/national-archives.png",
+      category: "Government / Resources",
+      vibe: "History, unlocked, sitting quietly at a .gov address",
+    },
+    body: `There's a strange assumption most people carry that the actual founding documents of the country exist somewhere behind glass, accessible only if you fly to D.C. and wait in a line. They do exist behind glass — but they're also just online, high-resolution, free, for anyone.
+
+**The National Archives and Records Administration is the federal government's official record-keeper**, and its digitized holdings go far beyond the famous documents everyone already knows about. Yes, you can zoom into the actual **Declaration of Independence, the Constitution, and the Bill of Rights**. But the collection runs into the millions — presidential papers, treaties, military records, photographs, maps, and letters spanning the entire history of the country.
+
+**For genealogy research specifically, this is one of the best free resources that exists.** Census records stretching back over a century, immigration and naturalization records, military service and pension files — all searchable, all free, no subscription required (unlike most commercial genealogy sites that gate this exact kind of record behind a paywall).
+
+There's also a **FOIA request portal** if you're trying to obtain specific government records, presidential library archives for every administration, and educator resources built specifically for teaching directly from primary sources instead of textbook summaries.
+
+It's not flashy. It's a government website, and it looks like one. But underneath that plain interface sits an almost absurd amount of actual, primary, unfiltered history — the kind you'd otherwise need a research trip and an appointment to access.
+
+Go look at the real thing. It's been sitting there the whole time.`,
+    affiliate_links: [],
+    tags: ["government", "history", "genealogy", "free", "education", "archives"],
+    meta_description: "The National Archives (NARA) offers free online access to millions of digitized historical documents — the Declaration of Independence, the Constitution, census records, and more.",
+    editors_note: "❌ No affiliate — .gov resource. No product pick issue. Distinct from archive-buttons and archive-magazines already in the archive (different subjects entirely). Strong educational/genealogy crossover appeal.",
+  },
+
+  "2026-09-23": {
+    id: 157,
+    date: "2026-09-23",
+    slug: "woof",
+    headline: "IF SOMETHING HAPPENS TO YOU, WHO FEEDS YOUR DOG?",
+    subheadline: "Woof is a free app built around one uncomfortable question: if you're alone and something goes wrong, how long before anyone realizes your pet is home waiting? It checks in on you, then quietly works down a list of people you trust until someone steps in.",
+    site: {
+      name: "Woof",
+      url: "https://woofhelp.com",
+      screenshot: "/assets/issues/woof.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "The safety net nobody thinks to build until it's too late",
+    },
+    body: `Most pet owners have a plan for what happens if their pet gets sick. Almost nobody has a plan for what happens if *they* do, and there's no one else home to notice.
+
+That's the exact gap Woof was built to close. Founder Arsalan Khodabandelou has described the problem plainly: **"If something happened to me on an ordinary day, how long would my dogs be home alone before anyone knew?"**
+
+**Here's how it actually works now.** Woof checks in with you on a schedule you set — a notification, then a text if needed. One tap and your day continues, which is what happens almost every time. If you don't respond, Woof moves down your **Safety Network** — up to three people with the free tier, six with the paid tier — contacting them one at a time, in the order you chose, until someone accepts. Whoever says yes gets your complete **Woof Pet Record**: feeding schedule, medications and exact dosages, vaccination history, your vet's contact info, and how to get into your home if you've allowed it.
+
+**Worth being precise about what Woof does and doesn't do:** the software itself never calls 911, never dispatches emergency services, and never requests a wellness check automatically. If your entire Safety Network can't resolve a situation, the optional paid tier's "Full Support" has an actual Woof staff member review the case and decide what's appropriate — a human judgment call, not an automated trigger. (Note: Woof looked different when it appeared on Shark Tank in 2023, using a physical Bluetooth beacon with automatic 911 dispatch — the current app has moved to this check-in-based model instead.)
+
+There's also **Lost Pet Mode**, generating a shareable recovery page with a QR code if your pet ever actually goes missing, and a **Caregiver Pass** for sitters — a private link with exactly the care instructions they need, no app or account required on their end.
+
+**The core protection is free, permanently** — not a trial. One pet, the full safety ladder, the complete pet record, Lost Pet Mode, all included at no cost. Super Woof ($2.99/month or $29.99/year) adds coverage for up to 10 pets, automatic home/away detection, and the human Full Support tier.
+
+It's a quiet kind of insurance — you hope you never need it, and if you do, the difference is your dog getting fed on time instead of getting found three days later.`,
+    affiliate_links: [],
+    tags: ["pets", "safety", "free", "apps", "emergency-planning"],
+    meta_description: "Woof is a free pet safety app that checks in on you and, if you don't respond, contacts your trusted safety network with your pet's full care details — feeding, meds, and vet info.",
+    editors_note: "❌ No confirmed affiliate — a 'Woof Affiliate Program' exists on FlexOffers but belongs to an unrelated dog treats/products brand also named Woof, not this app. No product pick issue given the free core tier. Note: product has changed materially since its 2023 Shark Tank appearance (dropped physical beacon and automatic 911 dispatch in favor of the current check-in model) — worth double-checking current App Store reviews for reliability before publishing, since at least one review flagged execution concerns.",
+  },
+
   "2026-09-22": {
     id: 156,
     date: "2026-09-22",
