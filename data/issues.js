@@ -3675,6 +3675,66 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-09-26": {
+    id: 160,
+    date: "2026-09-26",
+    slug: "undue-medical-debt",
+    headline: "$10 DONATED. $1,000 IN MEDICAL DEBT ERASED. THAT'S THE ACTUAL MATH.",
+    subheadline: "Undue Medical Debt buys massive bundles of unpaid medical bills at steep discounts, then simply cancels them — no application, no catch, just a letter in the mail saying a debt you thought would follow you forever is gone. $49.6 billion relieved and counting.",
+    site: {
+      name: "Undue Medical Debt",
+      url: "https://unduemedicaldebt.org",
+      screenshot: "/assets/issues/undue-medical-debt.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "Debt relief that arrives as a surprise letter instead of a fight",
+    },
+    body: `Over 100 million people in the US are carrying medical debt right now, collectively owing more than $220 billion. Most of them assume there's no way out short of bankruptcy or decades of slowly chipping away at it. Undue Medical Debt exists to prove that assumption wrong, for as many people as donations allow.
+
+**The math is almost hard to believe: every $10 donated relieves roughly $1,000 of medical debt on average.** That ratio isn't a rounding error — it's how debt markets actually work. Unpaid medical bills get bundled and sold to collections agencies for pennies on the dollar. Undue buys those same bundles first, at that same steep discount, and instead of collecting, simply cancels the debt.
+
+**There's no application process for the people receiving relief.** Undue identifies qualifying debt — based on income thresholds and financial hardship — and sends a letter out of the blue informing someone their medical debt has been abolished. One recipient described it simply: *"The weight on my shoulders just lifted off."*
+
+The stories behind the numbers are the part that sticks. A grandmother choosing between a rare heart condition's hospital bills and basic necessities. A mother of a child with special needs, unable to also cover her own family's care. A young mother whose chronic kidney stones quietly bankrupted her through repeat ER visits. Each one had their debt wiped by a letter they didn't see coming.
+
+**Together, Undue has relieved $49.6 billion in medical debt to date**, and holds a 4-star rating from Charity Navigator for accountability and effectiveness. They're an official charity partner of both the TCS New York City Marathon and the ASICS Los Angeles Marathon, and they work directly with hospitals, health systems, and local governments to identify and erase debt at scale — while also pushing policy solutions aimed at the broken system that creates this debt in the first place.
+
+Ten dollars doesn't feel like much. Here, it's the difference between someone carrying a $1,000 weight indefinitely, or getting a letter that says it's over.`,
+    affiliate_links: [],
+    tags: ["nonprofit", "medical-debt", "healthcare", "charity", "donation"],
+    meta_description: "Undue Medical Debt buys and cancels medical debt at steep bulk discounts — every $10 donated relieves roughly $1,000 in debt. $49.6 billion relieved to date, 4-star Charity Navigator rating.",
+    editors_note: "❌ No affiliate — 501(c)(3) nonprofit, donation-based. No product pick issue. Charity Navigator 4-star rating and NPR/CBS Sunday Morning coverage add credibility. Strong emotional and practical hook — genuinely one of the more compelling nonprofit models featured.",
+  },
+
+  "2026-09-25": {
+    id: 159,
+    date: "2026-09-25",
+    slug: "downforeveryoneorjustme",
+    headline: "IS THE SITE DOWN, OR IS IT JUST YOU? THIS TELLS YOU IN SECONDS.",
+    subheadline: "Down For Everyone Or Just Me has spent 15 years answering one universal question — monitoring 500+ services from banks to games to streaming platforms, so you know instantly whether to keep refreshing or restart your router.",
+    site: {
+      name: "Down For Everyone Or Just Me",
+      url: "https://downforeveryoneorjustme.com",
+      screenshot: "/assets/issues/downforeveryoneorjustme.png",
+      category: "Tools / Utility",
+      vibe: "The internet's most reassuring second opinion",
+    },
+    body: `Something stops loading and the first instinct is always the same: is this me, or is this everyone? Down For Everyone Or Just Me exists purely to answer that, fast, for practically anything you can name.
+
+**It monitors over 500 services** — banks, streaming platforms, social media, ISPs, online games, payment apps, government sites, VPNs, crypto exchanges. Type in what's giving you trouble, or jump straight to its page for major services like Facebook, Steam, or your bank, and it tells you immediately whether the problem is widespread or isolated to you.
+
+The category list alone is a fascinating snapshot of what modern life actually runs on — everything from Xbox Live and Roblox down to the IRS, TreasuryDirect, and FAFSA, from Chase and Wells Fargo to Doordash and Chick-fil-A's ordering system. If it's a service enough people rely on daily, there's a decent chance it's being tracked.
+
+**It's been running for 15 years**, which in internet time makes it something close to an institution — a quiet, unglamorous utility that millions of people have hit during exactly the kind of moment that makes you irrationally angry at your own WiFi.
+
+There's also a free **"What Is My IP Address"** tool tucked in, and an API for developers who want historical downtime data for their own monitoring needs.
+
+Next time something won't load and you're three seconds from restarting your router for no reason, check here first. Ten seconds, and you'll actually know.`,
+    affiliate_links: [],
+    tags: ["tools", "free", "utility", "internet", "troubleshooting"],
+    meta_description: "Down For Everyone Or Just Me monitors 500+ websites and services, instantly telling you whether a site is down for everyone or just you. Free, 15 years running.",
+    editors_note: "⚠️ Site discloses some affiliate links (hosting recommendations via Siteground) in its footer — not something Rubberneck applies for, just noting it's present on their end. Core tool is free with no signup. No product pick issue.",
+  },
+
   "2026-09-24": {
     id: 158,
     date: "2026-09-24",
