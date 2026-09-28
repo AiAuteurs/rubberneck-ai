@@ -3675,6 +3675,70 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-09-28": {
+    id: 162,
+    date: "2026-09-28",
+    slug: "hubble-birthday",
+    headline: "TYPE IN YOUR BIRTHDAY. SEE WHAT HUBBLE WAS LOOKING AT THAT DAY.",
+    subheadline: "NASA's Hubble Space Telescope has been photographing the universe for decades, and it doesn't take days off. Enter any month and day and this free tool pulls five real Hubble images from that date.",
+    site: {
+      name: "What Did Hubble See on Your Birthday?",
+      url: "https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/",
+      screenshot: "/assets/issues/hubble-birthday.png",
+      category: "Science / Space",
+      vibe: "The most personal thing NASA has ever put on the internet",
+    },
+    body: `Somewhere out in orbit, a telescope was working on your birthday. It has worked on every birthday you've ever had.
+
+The Hubble Space Telescope explores the universe 24 hours a day, 7 days a week. That means that on any given date, it was pointed at something: a distant galaxy, a glowing nebula, a cluster of stars too far away to comprehend. NASA built a tool that lets you find out exactly what.
+
+**Here's all you do:** enter a month and day. That's it. No account, no year, no form. The tool returns five Hubble observations taken on that date, and you can share your favorite result straight to social media.
+
+The current version is an expanded edition of a tool NASA first launched in 2020. The original showed one image per day. This one shows five, so you get a much wider look at what the universe was doing on your date.
+
+**Don't just try yours.** NASA says it works for anniversaries, graduations, or any memorable occasion. Type in the day you got married, the day your kid was born, the day you lost someone. Every date has an answer.
+
+There's one honest catch, and NASA is upfront about it. Hubble sometimes needs to take exposures over multiple days to collect enough light from faraway objects. So one of your birthday images might also show up on a neighboring date. That's not a glitch. It's what it takes to photograph something billions of light years away.
+
+It takes about ten seconds. You'll walk away with a picture of something enormous and ancient that happened to be in view of a telescope on your day.`,
+    affiliate_links: [],
+    tags: ["space", "nasa", "hubble", "free", "science", "interactive", "shareable"],
+    meta_description: "Enter any month and day and see five real Hubble Space Telescope images taken on that date. NASA's free birthday tool works for anniversaries, graduations, and any special day.",
+    editors_note: "❌ No affiliate — free NASA tool. No product pick issue. Highly shareable: everyone has a birthday, and the tool has built-in social sharing. Screenshot tip: capture the results view with five images showing, not the empty entry form. Source page is on science.nasa.gov (the tool itself opens full screen from there). Copy sticks to what NASA's page states; I couldn't view the interactive results myself.",
+  },
+
+  "2026-09-27": {
+    id: 161,
+    date: "2026-09-27",
+    slug: "ians-shoelace-site",
+    headline: "YOU'VE BEEN TYING YOUR SHOES WRONG YOUR ENTIRE LIFE. THIS GUY HAS THE PROOF.",
+    subheadline: "Ian's Shoelace Site is the internet's #1 authority on shoelaces, built by one man in Melbourne over two decades. 100+ lacing methods, 25 knots, the world's fastest shoelace knot, and zero AI. Somehow, it's completely captivating.",
+    site: {
+      name: "Ian's Shoelace Site",
+      url: "https://www.fieggen.com/shoelace/index.htm",
+      screenshot: "/assets/issues/ians-shoelace-site.png",
+      category: "Internet Oddities",
+      vibe: "One man's twenty-year obsession, and the reason your laces keep coming undone",
+    },
+    body: `Somewhere in Melbourne, Australia, a man calling himself "Professor Shoelace" has spent more than twenty years building the most thorough shoelace resource on Earth. He is completely serious about it. It is completely wonderful.
+
+Ian Fieggen's site opens with a small declaration that feels almost radical now: **"This website has no AI content — it's all built with HI (Human Intelligence) plus HE (Human Effort)."** Made by one human, for all humans.
+
+**And the depth is staggering.** Over 100 step-by-step lacing tutorials, more than 2,800 photos of real shoes laced in every pattern imaginable, an interactive "Create-a-Lace" tool for designing your own, and a whole section on the construction of shoelaces themselves, including a braiding simulator and a length calculator so you never buy the wrong size again. Yes, there is a page about what the plastic tips on the ends are called. (They're aglets.)
+
+**The knots are the main event.** Ian catalogs 25 of them, including his own invention, the **Ian Knot**, which he calls the world's fastest way to tie a shoe. He also explains something most of us never learned: if your laces keep coming undone and sit crooked, you're probably tying a granny knot without knowing it. Check the "Granny Knot" page and prepare to feel personally called out.
+
+The visitor feedback is the best part. A man in Germany writes that after viewing the site, he finally learned to tie a good knot at age 60. A worker in Oregon says a bow variation stayed tied through a 14-hour shift in steel-toe boots. A reader in the U.S. says he used the secure knot for years without a single failure, adding that if you'd told him in 1958 a mate in Australia would show him a better way to tie his shoes, he wouldn't have believed it.
+
+**There's even a quiet victory tucked into the update log:** after twenty years of running Google ads to pay the bills, Ian removed them in June 2026, thanks to enough visitors supporting the site with donations.
+
+Somewhere on your feet right now is a knot you've never questioned. It might be time to.`,
+    affiliate_links: [],
+    tags: ["internet-oddities", "human-made", "how-to", "shoes", "australia", "independent"],
+    meta_description: "Ian's Shoelace Site is the internet's #1 resource on shoelaces — 100+ lacing methods, 25 knots including the world's fastest, all built by one human in Melbourne with no AI.",
+    editors_note: "❌ No affiliate for Rubberneck — the site lists shoelace-seller sponsors (Ironlace, Big Laces, Kicks, Mad Dog Laces) and accepts reader donations, which is how the author funds it. No product pick issue since the feature is the site itself. Australia-based (Melbourne) — another win for geographic diversity. Strong 'human-made, no AI' angle worth leaning into in social copy.",
+  },
+
   "2026-09-26": {
     id: 160,
     date: "2026-09-26",
