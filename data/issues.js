@@ -3675,6 +3675,66 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-09-30": {
+    id: 164,
+    date: "2026-09-30",
+    slug: "freerice",
+    headline: "GET A TRIVIA QUESTION RIGHT. THE UN DONATES RICE TO SOMEONE HUNGRY.",
+    subheadline: "Freerice is a free educational trivia game owned outright by the UN World Food Programme — every correct answer raises 10 grains of rice toward real hunger relief. Running since 2007, no catch, no ads to click through, just knowledge turned directly into food.",
+    site: {
+      name: "Freerice",
+      url: "https://freerice.com",
+      screenshot: "/assets/issues/freerice.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "The rare game where getting the answer wrong doesn't feel bad, and getting it right feels genuinely good",
+    },
+    body: `Most trivia games exist to burn a few minutes. Freerice exists to feed people, and it's been doing exactly that since 2007.
+
+**It's owned directly by the UN World Food Programme** — not sponsored by, not partnered with, actually owned and operated by the same organization delivering food assistance in crisis zones worldwide. The mechanic is dead simple: answer a trivia or vocabulary question correctly, and **10 grains of rice get raised** toward WFP's work fighting hunger. Get it wrong, and the game just adjusts difficulty and moves on — no penalty beyond a shrug.
+
+Questions span vocabulary, geography, science, and more, adapting to your skill level as you play, so it stays genuinely challenging rather than trivial. WFP frames the whole thing plainly: **"Learn, Play & Give Back."**
+
+The scale of the problem it's chipping away at is enormous — the site cites up to **757 million people worldwide** without enough food to eat. Freerice obviously isn't solving that alone, and it's honest about that; it's one small piece of a much larger fight, powered by ordinary people spending a few minutes answering questions instead of doom-scrolling.
+
+**Real institutions have backed it too** — Citi and Liberty Mutual are listed as supporters, and the site includes stories from nutritionists, students, and advocates working on food security around the world, not just corporate logos.
+
+If you've got five minutes you were going to spend on a word game anyway, this is the version where the app you're already using turns directly into someone getting fed.`,
+    affiliate_links: [],
+    tags: ["nonprofit", "trivia", "free", "hunger", "education", "un"],
+    meta_description: "Freerice is a free trivia game owned by the UN World Food Programme — every correct answer raises 10 grains of rice for real hunger relief. Running since 2007.",
+    editors_note: "❌ No affiliate — owned outright by a UN agency (WFP), donation-driven model, not a commercial program. No product pick issue. Mission-perfect fit given the newsletter's stated goal of making life better for humans and animals — strong candidate for a recurring callback or anniversary mention.",
+  },
+
+  "2026-09-29": {
+    id: 163,
+    date: "2026-09-29",
+    slug: "ztype",
+    headline: "TYPE THE WORD ON THE SPACESHIP BEFORE IT REACHES YOU.",
+    subheadline: "ZType is a browser typing game where enemy ships close in bearing random words, and typing them accurately is the only weapon you have. No download, no account, just your keyboard and increasingly fast incoming spaceships.",
+    site: {
+      name: "ZType",
+      url: "https://zty.pe",
+      screenshot: "/assets/issues/ztype.png",
+      category: "Games / Fun",
+      vibe: "Typing class, if typing class had lasers",
+    },
+    body: `Every enemy ship in ZType carries a word. Your only weapon is your keyboard. Type the word correctly, and it fires — letter by letter, in real time — destroying the ship right as you finish the last character. Miss a letter, and the ship keeps closing in.
+
+It's a deceptively simple idea executed with real polish: waves of ships drift in from the edges of the screen, each labeled with a random word of varying length, and you're typing as fast and as accurately as you can to clear them before they reach the center. Speed and accuracy both matter — a fumbled word means a ship gets dangerously close, and the game only gets faster from there.
+
+**Built by Dominic Szablewski** (phoboslab), a developer known for scrappy, well-crafted browser games and tools, ZType runs entirely in-browser — no download, no install, no account. Open the tab and you're playing within seconds.
+
+There's even an original soundtrack, released separately on Bandcamp, built specifically to match the game's tension as waves escalate.
+
+It's the rare "practice a real skill while having fun" game that doesn't feel like either a chore or empty entertainment — genuinely improves typing speed and accuracy while also being legitimately stressful in the good, arcade way. One bad round and you'll understand exactly which letters your fingers hesitate on.
+
+Open a tab, start typing, and find out how fast your fingers actually are under pressure.`,
+    affiliate_links: [],
+    tags: ["games", "typing", "free", "browser-games", "arcade"],
+    meta_description: "ZType is a free browser typing game where you defeat incoming spaceships by typing the words they carry before they reach you. No download or account required.",
+    editors_note: "❌ No affiliate — free browser game. No product pick issue. Fun, skill-building pick, good change of pace. Original soundtrack available separately on Bandcamp (already featured Sep 7) — nice small callback if you want to note it in social copy.",
+  },
+
   "2026-09-28": {
     id: 162,
     date: "2026-09-28",
