@@ -3675,6 +3675,34 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-10-01": {
+    id: 165,
+    date: "2026-10-01",
+    slug: "dig-this-club",
+    headline: "PICK A GENRE. GET A RANDOM RECORD NOBODY RECOMMENDED TO YOU.",
+    subheadline: "Dig This pulls real random releases from Discogs' massive music database, sorted by genre, with no algorithm trying to guess what you'll like. Built as a weekend project by a Philadelphia DJ, inspired by how actual crate-diggers find music.",
+    site: {
+      name: "Dig This",
+      url: "https://www.digthis.club",
+      screenshot: "/assets/issues/dig-this-club.png",
+      category: "Internet Oddities",
+      vibe: "The opposite of your algorithm, in the best possible way",
+    },
+    body: `Every streaming platform you use is trying to predict what you'll like based on what you already like. Dig This refuses to do that entirely, and that refusal is the whole point.
+
+**Open it and you're shown five random genres** — anything from Modern Classic to Musique Concrete to Speed Garage to Black Metal, pulled from Discogs' catalog of over 100 million records. Pick one, and the site hands you a genuinely random release within that style — pulled straight from real crate-digging data, not an algorithm's best guess at your taste. Click through to Discogs for the full release details, or search YouTube directly from the app to actually hear it.
+
+**It was built as a weekend project** by Philadelphia DJ and producer Doris Saturday, inspired by a Resident Advisor video of DJ CCL talking about the actual craft of digging for music — the patient, unpredictable process real diggers use to find records nobody's pointing them toward. Dig This essentially simulates that process in a browser tab: no curation, no "if you liked this" logic, just genuine randomness within a genre you choose.
+
+Refresh and you get five entirely new genres to explore. There's a history tab tracking what you've discovered, and the whole thing runs on Discogs' enormous, decades-deep cataloging of real releases — meaning what you find isn't manufactured content designed to keep you engaged, it's an actual record someone pressed, at some point, somewhere in the world.
+
+If your music discovery has started feeling like the same twenty artists recommended back to you in different orders, this is the reset button. Pick a genre you've never explored and see what turns up.`,
+    affiliate_links: [],
+    tags: ["music", "discovery", "free", "discogs", "internet-oddities", "indie"],
+    meta_description: "Dig This is a free music discovery tool that pulls random real releases from Discogs by genre, with no algorithm — built as a weekend project by a Philadelphia DJ.",
+    editors_note: "❌ No affiliate — free, built by an independent DJ/producer, powered by Discogs' public data. No product pick issue. Distinct from existing music picks: Bandcamp (marketplace), Find Song By Lyrics (lookup tool), Music Quizly (game) — this is pure algorithm-free discovery.",
+  },
+
   "2026-09-30": {
     id: 164,
     date: "2026-09-30",
