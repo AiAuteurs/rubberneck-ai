@@ -3675,6 +3675,36 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-10-02": {
+    id: 166,
+    date: "2026-10-02",
+    slug: "goodrx",
+    headline: "ONE SEARCH COULD CUT YOUR PRESCRIPTION PRICE BY 80%",
+    subheadline: "GoodRx compares real prescription prices across pharmacies near you and hands you a free coupon code — no insurance required, works even if you have insurance too, if the discount beats your copay. Americans have saved over $85 billion with it.",
+    site: {
+      name: "GoodRx",
+      url: "https://www.goodrx.com",
+      screenshot: "/assets/issues/goodrx.png",
+      category: "Tools / Utility",
+      vibe: "The $85 billion secret hiding behind a free search bar",
+    },
+    body: `Pharmacy pricing is one of the strangest, least transparent markets in everyday life. The same prescription can cost wildly different amounts at two pharmacies three blocks apart, and almost nobody checks before paying whatever the counter says.
+
+GoodRx exists to close that gap. **Search any prescription, enter your dosage and quantity, and it compares real prices across nearby pharmacies instantly.** Find a lower price, and GoodRx hands you a free coupon code to bring to the counter or use for online delivery — no account strictly required to search, no insurance needed to use it.
+
+**It's not just for the uninsured, either.** Sometimes a GoodRx coupon beats your actual insurance copay, especially on generics. The tool explicitly tells you to compare both and use whichever is cheaper — a small detail that's saved plenty of insured people money they assumed they weren't eligible to save.
+
+Since launching in 2011, GoodRx reports Americans have saved **over $85 billion** collectively on prescription costs. The company has since expanded into a GoodRx Care telehealth arm and a Companion membership (around $14.99/month) offering 250+ medications completely free and hundreds more under $10 — worth checking if you take any maintenance medications regularly, though the core price-comparison search stays free regardless.
+
+**Worth knowing going in:** the homepage has gotten noticeably more commercial over the years, with GLP-1 weight-loss subscriptions and sponsored pharma content now front and center. The core tool — search a drug, compare real prices, get a free coupon — is still exactly as useful as it's always been. Just expect some marketing noise around it.
+
+Before your next pharmacy run, run the search. The price you're expecting to pay and the price you could actually pay are sometimes very different numbers.`,
+    affiliate_links: [],
+    tags: ["health", "savings", "prescriptions", "free", "tools", "pharmacy"],
+    meta_description: "GoodRx compares prescription prices across pharmacies and provides free coupon codes — no insurance required. Americans have saved over $85 billion using it since 2011.",
+    editors_note: "⚠️ Affiliate status unconfirmed — several third-party affiliate directories list a 'GoodRx Partner Program,' but most show commission as literally 'Unknown' and look like generic scraped listings rather than verified programs; one source notes their program may be inactive specifically for the discount card product. Recommend contacting GoodRx directly to confirm before assuming a reliable affiliate link exists. Core price-comparison tool is genuinely free regardless. No product pick issue — this is a savings/comparison utility, not a single product push.",
+  },
+
   "2026-10-01": {
     id: 165,
     date: "2026-10-01",
