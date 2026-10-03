@@ -3675,6 +3675,36 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-10-03": {
+    id: 167,
+    date: "2026-10-03",
+    slug: "sonoma-wine-shop",
+    headline: "40 YEARS. ONE MAN'S TASTE. WINES YOU CAN'T FIND ANYWHERE ELSE.",
+    subheadline: "Sonoma Wine Shop has been hand-curating boutique, small-production wines from Sonoma, Napa, and Mendocino for 40 years. No algorithm, no warehouse club — just owner Bryan Cooper's four decades of relationships with winemakers most people never hear of.",
+    site: {
+      name: "Sonoma Wine Shop & La Bodega",
+      url: "https://www.sonomawineshop.com/club",
+      screenshot: "/assets/issues/sonoma-wine-shop.png",
+      category: "Food / Drink",
+      vibe: "A real person picking real wine for you, the way it used to work",
+    },
+    body: `Most wine clubs these days are run by algorithms, quizzes, or massive distributors shipping whatever's overstocked. Sonoma Wine Shop runs on something much simpler: one person's taste, built over four decades.
+
+Owner Bryan Cooper has been a passionate advocate of California wine since **1980**, and the shop itself has operated in Sebastopol for **40 years**. The wine club isn't sourced from a single winery or a warehouse deal — it pulls from **small, boutique producers across Sonoma, Napa, and Mendocino counties**, many of them personal relationships Cooper has built over decades in the business. A lot of what members receive is genuinely hard to find anywhere outside wine country.
+
+**It's a real, local community as much as a shipping club.** Around 2,000 members are Sonoma County locals who belong simply because they love what Cooper picks. Another roughly 2,500 members are out-of-state, having wine shipped directly because they can't get it any other way. Some members have stayed with the club for **over 15 years**.
+
+There's a Harvest View line exclusive to the shop, a rotating selection of featured wines, and the shop itself doubles as a small tasting destination — handmade pasta, a local cheese selection, and regular events, open to the public five days a week if you're ever actually in Sebastopol.
+
+**One honest note on signing up:** this isn't a modern one-click checkout. You fill out a form on the site, and the shop calls you directly to set up your membership and take payment over the phone. It's old-school, but it fits — this is a small, personal operation, not a tech company, and that's exactly the point.
+
+A genuine personal favorite behind this issue: this is where Rubberneck's own editor actually gets wine. Forty years of one person's good taste, still going.`,
+    affiliate_links: [],
+    tags: ["wine", "sonoma", "california", "subscription", "food-drink"],
+    meta_description: "Sonoma Wine Shop has curated boutique, small-production wine club shipments from Sonoma, Napa, and Mendocino for 40 years, hand-picked by owner Bryan Cooper.",
+    editors_note: "❤️ Personal pick — this is the editor's own wine club. No formal affiliate program found for a small family operation this size; featured with no affiliate link. Signup flow is phone-based (fill out form, they call for payment info), not an online checkout — described accurately in the copy rather than implying a modern instant signup.",
+  },
+
   "2026-10-02": {
     id: 166,
     date: "2026-10-02",
