@@ -3675,6 +3675,49 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-10-04": {
+    id: 168,
+    date: "2026-10-04",
+    slug: "car-care-kiosk",
+    headline: "PICK YOUR CAR. WATCH A FREE VIDEO. DON'T PAY THE SHOP $90 TO CHANGE A BULB.",
+    subheadline: "CarCareKiosk has made over 60,000 free how-to videos since 2010, each one matched to your exact make, model, and year. Burnt-out headlight, dead battery, flat tire, mystery warning light: someone already filmed how to fix it on a car like yours.",
+    site: {
+      name: "CarCareKiosk",
+      url: "https://www.carcarekiosk.com",
+      screenshot: "/assets/issues/car-care-kiosk.png",
+      category: "Tools / Utility",
+      vibe: "The friend who knows cars, minus the awkward favor",
+    },
+    body: `Most car repair videos have the same problem. The guy in the video is working on a different car than yours, so the bulb is in a different spot, the panel clips off differently, and you spend twenty minutes wondering if you're about to break something.
+
+CarCareKiosk fixes that by starting with your car. **You pick your make, model, and year first**, and only then does it show you the videos. Over **60,000 how-to videos**, produced since 2010, all free.
+
+**The list reads like a catalogue of things people pay a shop to do:**
+
+- Jump-start or replace a dead battery
+- Replace a headlight, brake light, turn signal, or fog light bulb
+- Change a flat tire, and check your tire pressure
+- Check and top off oil, coolant, brake fluid, and washer fluid
+- Find and replace a blown fuse, with separate videos for the engine and interior fuse boxes
+- Replace wiper blades and air filters
+- Figure out what a check engine light is trying to tell you
+- Pair your phone to the car's Bluetooth, set the clock, even open the hood
+
+**The range is wider than you'd expect.** It covers 57 makes, from Toyota, Ford, and Honda to Tesla, Porsche, Škoda, Saab, and Lada. The site also runs in English, Spanish, and French.
+
+The user comments are small and specific, and that's what makes them believable. One person cleaned their battery terminals and the car started. Another replaced a headlight and learned that low beams can fail while high beams keep working. Nobody is claiming it changed their life. They fixed one thing, for free, in a few minutes.
+
+There's also a Parts & Tools section for the moment you realize you don't know what the part you need is even called.
+
+None of this replaces a mechanic for the big jobs. But for the small ones, it's the difference between a quick fix in your driveway and a bill for something that took ten minutes.
+
+Pick your car. Watch the video. Keep the $90.`,
+    affiliate_links: [],
+    tags: ["cars", "diy", "how-to", "free", "tools", "video", "maintenance"],
+    meta_description: "CarCareKiosk offers 60,000+ free how-to videos for basic car maintenance, matched to your exact make, model, and year, from changing a bulb to jump-starting a battery.",
+    editors_note: "⚠️ Affiliate status unverified — the site has a Parts & Tools section and may carry affiliate links, but I did not confirm a program; ask them directly if monetization matters. Run by Flatsix, LLC, and the footer states it is not affiliated with any automaker. Core service is free with no signup. The '$90' in the headline is an illustrative figure, not a stat from the site. Utility-heavy stretch lately (GoodRx, GetHuman, AccountKiller), so consider a fun or weird pick next.",
+  },
+
   "2026-10-03": {
     id: 167,
     date: "2026-10-03",
