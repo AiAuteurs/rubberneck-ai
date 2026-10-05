@@ -3675,6 +3675,155 @@ Go look.`,
     editors_note: "❌ No affiliate. Pure editorial. Strong broad appeal — job seekers, career changers, anyone in tech. Natural companion to the Hacker News issue (#127, Aug 24). 'Work at the next Airbnb before it's Airbnb' is the hook.",
   },
 
+  "2026-10-06": {
+    id: 171,
+    date: "2026-10-06",
+    slug: "repair-cafe",
+    headline: "BRING THE BROKEN THING YOU WERE ABOUT TO THROW OUT. A VOLUNTEER FIXES IT WITH YOU.",
+    subheadline: "Repair Café is a worldwide network of free neighborhood meetups where volunteer fixers help you repair broken clothes, appliances, furniture, toys, and bikes instead of tossing them. It started on one Sunday in Amsterdam in 2009. Now there are meetups in dozens of countries.",
+    site: {
+      name: "Repair Café",
+      url: "https://www.repaircafe.org/en/",
+      screenshot: "/assets/issues/repair-cafe.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "The opposite of 'it's cheaper to just buy a new one'",
+    },
+    body: `Something stops working, you check how much a repair would cost, and you throw it out. Most of us have done it a dozen times. Repair Café is a movement built around not doing that.
+
+**It began with one Sunday afternoon in Amsterdam.** On 18 October 2009, dozens of neighbors turned up in the foyer of a theater where volunteer repair experts had laid out tools and materials. Founder Martine Postma had hit on a simple idea: low-key meeting places where neighbors repair broken things together, with specialists on hand to help. That first afternoon turned into a foundation, and the foundation turned into a movement.
+
+**Here's how it works.** Find a Repair Café near you on the site's "Visit" page. Bring something broken. At the café you'll find tools, materials, and volunteer repairers: electricians, seamstresses, carpenters, bicycle mechanics. You work on the repair *together*, not hand it over and walk away. The advice and help from the experts is free.
+
+It's a social thing, too. If you have nothing to repair, you can sit down with a cup of tea or coffee, lend a hand with someone else's repair, or page through the books on repairs and DIY at the reading table.
+
+**The reach is global.** Besides the Netherlands, there are Repair Cafés in Belgium, Germany, France, the United Kingdom, the United States, and dozens of other countries. The site says it has even reached India and Japan, and it runs in five languages. A news item on the site marks the world's 4,000th Repair Café, in Canada.
+
+**Can't get to one?** The site also has repair guides and tips for common fixes, including coffee makers, laptops, and furniture, plus a Linux Repair Café for people who want help with old computers. If you'd rather start one in your town, Repair Café International offers a digital starter kit for a voluntary one-off fee, and you can sign up as a volunteer fixer.
+
+**One honest note:** nothing is guaranteed to be fixable. The foundation says it can't tell you in advance whether a particular object can be mended, though it says most things stand a good chance. And each café is run by a local group, so check the listing for when and where it meets.
+
+The foundation is a nonprofit based in Amsterdam, and it asks for voluntary donations to keep going. Before you replace that broken thing, find out if there's a Repair Café near you.`,
+    affiliate_links: [],
+    tags: ["nonprofit", "repair", "sustainability", "community", "free", "netherlands", "global"],
+    meta_description: "Repair Café is a worldwide network of free neighborhood meetups where volunteers help you repair broken things instead of throwing them away. Started in Amsterdam in 2009.",
+    editors_note: "❌ No affiliate — nonprofit foundation (Amsterdam) funded by donations; no product pick issue. Non-US, global pick. I treated your pasted link as a go for Oct 6; easy to move or pull. Sourcing notes: the homepage's stats counters rendered as 0 (JavaScript), so the copy quotes no counts beyond a news-item headline about the 4,000th café; the first-café date and story (18 Oct 2009, Amsterdam) come from a secondary source, and sources disagree on the foundation's own founding year (2010 vs 2011), so the copy avoids it. The 'nonprofit' wording comes from a WD-40 press release describing the foundation. Optional timely hook: a news item on the homepage invites people to 'celebrate Repair Day together on 17 October' — I did not open it to confirm the year, so verify before using in social copy. Screenshot tip: the homepage hero ('Toss it? No way!') or the Visit page with its map.",
+  },
+
+  "2026-10-07": {
+    id: 172,
+    date: "2026-10-07",
+    slug: "open-food-facts",
+    headline: "SCAN THE BARCODE. SEE WHAT'S ACTUALLY IN THE FOOD. 100,000 VOLUNTEERS BUILT IT.",
+    subheadline: "Open Food Facts is a free, open database of food products, built by volunteers in more than 150 countries. Scan any barcode and get the ingredients, allergens, additives, and ratings for nutrition, processing, and environmental impact. People call it the Wikipedia of food.",
+    site: {
+      name: "Open Food Facts",
+      url: "https://world.openfoodfacts.org",
+      screenshot: "/assets/issues/open-food-facts.png",
+      category: "Food / Tools",
+      vibe: "The fine print on the back of the package, finally translated",
+    },
+    body: `Flip any food package over and you get a wall of tiny text: ingredients you can't pronounce, E-numbers, allergen warnings, codes nobody explains. Open Food Facts exists to translate all of it.
+
+**It's a free database that regular people built.** Open Food Facts is a non-profit association of volunteers, and its own site says **100,000+ contributors** have added **4 million+ products from 150 countries**. They did it with a phone app or just a camera, scanning barcodes and uploading pictures of products and their labels. Nobody paid them. The nickname that stuck is "the Wikipedia of food."
+
+**Here's how you use it.** Scan a barcode with the app, or type the number in by hand, and the product's page comes up. It helps you make sense of food additives, E-numbers, allergens, and traceability codes. And it gives each product three ratings, each from an outside research team:
+
+- **Nutri-Score (A to E):** nutritional quality, created by an independent French team led by Professor Hercberg.
+- **NOVA (1 to 4):** how processed the food is, with group 4 meaning ultra-processed, designed by an international team led by Professor Monteiro.
+- **Eco-Score:** the food's environmental impact.
+
+There's also a search form with dozens of criteria, so you can go the other way: describe what you want and find products that match.
+
+**If your product isn't in there, you add it.** That's the whole model. Snap photos of the front and the ingredients list, send them in, and the next person who scans that barcode gets an answer because you took a minute. It also covers more than groceries; the project handles cosmetics and pet food too.
+
+**The data is open to everyone.** Anyone can reuse it for any purpose, and it has powered more than 100 apps, including Yuka and FoodVisor, which are probably already on someone you know's phone.
+
+**Honest caveats:** it's crowd-sourced, so some products are missing and some have no Nutri-Score yet. And those ratings come from third-party research teams, so treat them as a useful signal, not a verdict on a food.
+
+Next time you're standing in a grocery aisle with a package in your hand, scan it before you decide.`,
+    affiliate_links: [],
+    tags: ["food", "nutrition", "free", "open-data", "nonprofit", "volunteers", "global"],
+    meta_description: "Open Food Facts is a free, open database of food products built by volunteers in 150+ countries. Scan a barcode to see ingredients, allergens, additives, Nutri-Score, NOVA, and Eco-Score.",
+    editors_note: "❌ No affiliate — non-profit association of volunteers; no product pick issue. Global, French-founded: I confirmed the France origin in an earlier search this chat, but this round's sources did not restate it, so the copy only says 'non-profit association of volunteers' and 'French team' for Nutri-Score. Counts (100,000+ contributors, 4M+ products, 150 countries) come from the project's own discover page; other sources show older, smaller numbers, so I used only the project's own. I did NOT include the earlier-found claim that it takes no food-industry money, because this round's sources did not confirm it — add only if you verify it. Caveats about missing products and missing Nutri-Scores are in the copy. I did not scan a product myself. Screenshot tip: capture a product page for a familiar cereal or snack so the three ratings show. Oct 8 is still open.",
+  },
+
+  "2026-10-09": {
+    id: 170,
+    date: "2026-10-09",
+    slug: "blacklight",
+    headline: "ENTER ANY WEBSITE. SEE EXACTLY WHO'S WATCHING YOU ON IT.",
+    subheadline: "Blacklight is a free privacy inspector from the newsroom The Markup. Type in a web address and it scans the site for trackers, session recorders, and keystroke logging, then shows you who gets your data. It takes about a minute.",
+    site: {
+      name: "Blacklight",
+      url: "https://themarkup.org/blacklight",
+      screenshot: "/assets/issues/blacklight.png",
+      category: "Tools / Utility",
+      vibe: "A flashlight for the part of the internet that watches you back",
+    },
+    body: `You can't see the trackers on a website. That's the entire design.
+
+The page looks the same whether it's quietly passing your visit to advertising companies or not. Same layout, same buttons, same friendly welcome. Blacklight exists to make the invisible part visible.
+
+**Here's how it works.** You enter the address of any website and press scan. Within **30 seconds to a minute**, Blacklight reports the specific user-tracking technologies it found on the site, and who's on the receiving end of your data. You can choose to run the scan from **Ohio, California, or Europe**, and as a mobile or a desktop visitor.
+
+**What it looks for:**
+
+- **Ad trackers:** is the site sending data about its visitors to advertising companies?
+- **Third-party cookies:** cookies that follow you around the web.
+- **Tracking that evades cookie blockers:** ways a site can identify your browser even when you've blocked cookies.
+- **Session-monitoring scripts:** code that records how you move through and interact with a page.
+- **Keystroke capturing:** whether a site logs text you type *before* you hit submit.
+- **Data sent to Facebook, TikTok, Twitter/X, and Google:** checked separately, by name.
+
+**It comes from journalists, not a software company.** Blacklight was built by The Markup, a newsroom that investigates how technology affects society and runs on reader donations. Surya Mattu led concept and development, and the tool launched in September 2020 alongside a reporting series on what these scans reveal. In October 2024, the team also released an open-source command-line version, Blacklight Query, for inspecting batches of websites at once.
+
+**Worth knowing:** a scan is a snapshot of what the tool detected during one visit, not a verdict on anyone's intentions. Some of what turns up is ordinary website analytics, and some of it is more invasive. The point is that now you can see it and decide for yourself.
+
+Try the sites you actually use: your bank, your pharmacy, your kid's school, the news site you read every morning. Then look at what came back.`,
+    affiliate_links: [],
+    tags: ["privacy", "tracking", "free", "tools", "security", "journalism"],
+    meta_description: "Blacklight is a free tool from The Markup that scans any website for trackers, session recording, and keystroke logging, and shows who receives your data. A scan takes about a minute.",
+    editors_note: "❌ No affiliate — free tool from The Markup, a donation-supported newsroom. No product pick issue. US-made. Spaced on Oct 9 on purpose: your archive already has privacy/security picks (VirusTotal Oct 5, AccountKiller Sep 3, Have I Been Flocked), so this keeps them from stacking up. Screenshot tip: capture a RESULTS page for a well-known site, not the empty entry form, since the results are the hook. I did not run a scan myself, so the copy sticks to what Blacklight's own page says. The 'snapshot, not a verdict' note is my own general caution, not a claim from The Markup. Oct 6, 7, and 8 are still open.",
+  },
+
+  "2026-10-05": {
+    id: 169,
+    date: "2026-10-05",
+    slug: "virustotal",
+    headline: "PASTE THE SUSPICIOUS LINK HERE. 70+ SECURITY TOOLS WILL CHECK IT BEFORE YOU CLICK.",
+    subheadline: "VirusTotal is a free service that runs any link or file past more than 70 antivirus engines and website blocklists at once. No account needed. It takes a few seconds, and it can save you from the one click you'd regret.",
+    site: {
+      name: "VirusTotal",
+      url: "https://www.virustotal.com/gui/home/url",
+      screenshot: "/assets/issues/virustotal.png",
+      category: "Tools / Utility",
+      vibe: "The second opinion you get before you click, not after",
+    },
+    body: `Everyone gets the text. The delivery that "couldn't be completed." The bank alert that needs you to verify something right now. The link is right there, and the only thing standing between you and a very bad afternoon is whether you click it.
+
+VirusTotal is the place to check first.
+
+**It started in Spain.** The Spanish security company Hispasec Sistemas launched it in 2004. Google bought it in 2012, and today it sits inside Google Security Operations. So the idea is Spanish, and the owner is American.
+
+**The idea is simple: ask many experts at once instead of trusting one.** Paste a suspicious link into the box and VirusTotal runs it past **more than 70 antivirus engines and website blocklist services** in a single check. You can do the same with a file, a domain, or an IP address. No account is needed for basic scans.
+
+**The results page shows you who flagged what.** Instead of one yes-or-no from one program, you see a tally of how many engines flagged the link as malicious, and which ones. That's what makes it useful for settling the question "is this thing actually bad, or is my antivirus just nervous?"
+
+A few things worth knowing before you use it:
+
+- **Don't upload anything private.** Files you submit become part of what the security community can see, so VirusTotal is for suspicious downloads, not your tax return.
+- **A clean result isn't a guarantee.** A scam link that went live an hour ago may not be flagged by anyone yet.
+- **One or two flags out of seventy can be a false alarm.** Look at who flagged it and how many did.
+
+The basic checks are free. Paid tiers exist for professionals who need deeper searching and private scanning, but you won't need those to paste a link and see what comes back.
+
+Next time a message asks you to click something urgently, paste it here first. It takes about ten seconds.`,
+    affiliate_links: [],
+    tags: ["security", "scams", "free", "tools", "phishing", "safety"],
+    meta_description: "VirusTotal is a free service that checks suspicious links and files against 70+ antivirus engines and website blocklists at once. No account needed. Created in Spain, now owned by Google.",
+    editors_note: "❌ No affiliate — free tool; paid tiers are aimed at security professionals. No product pick issue. Origin: Spanish company Hispasec Sistemas (2004), acquired by Google in 2012, now under Google Security Operations; the copy states both. Copy includes three honest caveats: files uploaded are shared with the security community (privacy), a clean result isn't a guarantee for brand-new scam links, and a few flags can be false alarms. The 'clean result isn't a guarantee' and false-alarm points are general security caution, not claims from VirusTotal's own pages. Linked to the URL-check tab since 'paste a link before you click' is the strongest hook; swap to virustotal.com if you'd rather land on the main page. I did not load the live interface, so the copy sticks to what the sources I found say.",
+  },
+
   "2026-10-04": {
     id: 168,
     date: "2026-10-04",
