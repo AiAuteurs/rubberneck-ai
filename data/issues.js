@@ -3747,9 +3747,9 @@ Next time you're standing in a grocery aisle with a package in your hand, scan i
     editors_note: "❌ No affiliate — non-profit association of volunteers; no product pick issue. Global, French-founded: I confirmed the France origin in an earlier search this chat, but this round's sources did not restate it, so the copy only says 'non-profit association of volunteers' and 'French team' for Nutri-Score. Counts (100,000+ contributors, 4M+ products, 150 countries) come from the project's own discover page; other sources show older, smaller numbers, so I used only the project's own. I did NOT include the earlier-found claim that it takes no food-industry money, because this round's sources did not confirm it — add only if you verify it. Caveats about missing products and missing Nutri-Scores are in the copy. I did not scan a product myself. Screenshot tip: capture a product page for a familiar cereal or snack so the three ratings show. Oct 8 is still open.",
   },
 
-  "2026-10-08": {
+  "2026-10-16": {
     id: 173,
-    date: "2026-10-08",
+    date: "2026-10-16",
     slug: "scouts-honour",
     headline: "GIVE YOUR DOG A MERIT BADGE FOR BEING A CERTIFIED SOCK THIEF.",
     subheadline: "Scout's Honour makes iron-on merit badges for pets, with 100+ designs that celebrate what your animal is actually like. Not 'Good Boy' in the abstract, but 'Been There Peed on That' and 'Big Stick Energy.' It's from Australia, and it ships to the US with duties included.",
@@ -3778,7 +3778,42 @@ Find the badge your pet earned.`,
     affiliate_links: [],
     tags: ["pets", "dogs", "shopping", "gifts", "australia", "quirky"],
     meta_description: "Scout's Honour sells iron-on merit badges for pets with 100+ designs like Sock Thief and Big Stick Energy. Australian-made, ships worldwide, with duties included for US and Canada.",
-    editors_note: "⚠️ No affiliate program listed on the site — footer offers only Wholesale, Find a Stockist, and Contact; email them through Contact to ask about one. Non-US pick (Australia: AUD prices, ships from Australia, Acknowledgment of Country footer). US/CAN customs and duties included at checkout is confirmed by the site banner (and your screenshot). Left out: a '£1 to a UK rescue per Rescue badge' donation line from a search snippet (unverified, possibly dated) and the press logos on the homepage (I did not open any articles). Prices are in AUD and the sale is temporary, so I described the sale only as 'running when I checked.' I drafted this for Oct 8 after you were evaluating it; easy to pull. Screenshot tip: homepage hero ('The original iron-on merit badges for pets') or the patch grid showing the names.",
+    editors_note: "⚠️ No affiliate program listed on the site — footer offers only Wholesale, Find a Stockist, and Contact; email them through Contact to ask about one. Non-US pick (Australia: AUD prices, ships from Australia, Acknowledgment of Country footer). US/CAN customs and duties included at checkout is confirmed by the site banner (and your screenshot). Left out: a '£1 to a UK rescue per Rescue badge' donation line from a search snippet (unverified, possibly dated) and the press logos on the homepage (I did not open any articles). Prices are in AUD and the sale is temporary, so I described the sale only as 'running when I checked.' Scheduled for Oct 16 (moved from Oct 8) so the shop has about a week to flag any corrections and, ideally, tell their own followers they're being featured. Screenshot tip: homepage hero ('The original iron-on merit badges for pets') or the patch grid showing the names.",
+  },
+
+  "2026-10-08": {
+    id: 174,
+    date: "2026-10-08",
+    slug: "a-soft-murmur",
+    headline: "TURN THE LOUD PERSON IN THE LIBRARY INTO A PLEASANT MURMUR.",
+    subheadline: "A Soft Murmur is a free ambient sound mixer: rain, thunder, waves, wind, a crackling fire, a coffee shop, a singing bowl. Blend them together, set a timer, and let the world's annoying noise disappear into the background.",
+    site: {
+      name: "A Soft Murmur",
+      url: "https://asoftmurmur.com/",
+      screenshot: "/assets/issues/a-soft-murmur.png",
+      category: "Tools / Utility",
+      vibe: "The quietest thing on the internet, and the one that works",
+    },
+    body: `Silence isn't always the answer to noise. Sometimes the answer is *better* noise.
+
+That's the whole idea behind A Soft Murmur, and it's built on a simple observation the site makes right on its homepage: some background sound distracts you, and some calms you. The steady whirr of a fan, rain against a window, a distant rumble of thunder when you're safe indoors. Same volume, completely different effect.
+
+**Here's how it works.** The site gives you **ten ambient sounds**: white noise, rain, thunder, waves, wind, fire, birds, crickets, a coffee shop, and a singing bowl. Each one has its own volume slider. Turn up the rain, add a little thunder, bring in a fire underneath, and you've built your own storm. There's a timer so it can fade out as you fall asleep or switch off after your work session, and you can save your mixes and share them. A setting called Meander drifts the volumes up and down on their own, so the mix feels organic instead of looped.
+
+**The best part is the advice the site gives for noise you can't escape**, and it's oddly specific:
+
+- **Someone won't stop talking while you study?** The Coffee Shop sound turns one distracting voice into part of a pleasant murmur.
+- **Music coming through the wall?** Mix a singing bowl with waves or wind.
+- **High-pitched noise bothering you?** Birds and crickets help cover it.
+- **Low rumbling?** Use thunder.
+
+It's the work of one independent developer, Gabriel, whose contact address is right on the site, and it's been around since at least 2016. The browser version is free. There are also phone apps, with a few free sounds and extras available as in-app purchases, plus a paid tier on the web with more sounds, according to one review.
+
+No ads in your face, no account to start, nothing to learn. Open it, drag a few sliders, and see how fast the room goes quiet.`,
+    affiliate_links: [],
+    tags: ["focus", "sleep", "ambient", "free", "tools", "relaxation", "independent"],
+    meta_description: "A Soft Murmur is a free ambient sound mixer with ten sounds like rain, thunder, waves, and a coffee shop. Mix them, set a timer, and drown out distracting noise to focus or sleep.",
+    editors_note: "⚠️ Affiliate not checked — browser version is free; mobile apps have in-app purchases (iOS developer listed as Sleepy Rabbit LLC). No product pick issue. The page rendered blank to my tool (JavaScript), so the copy comes from the site's own description, app-store listings, and reviews, not from the live interface — open it and check the ten sounds and the Meander/timer/mixes features before publishing. 'Since at least 2016' comes from a 2016 blog post listing it; I did not find a launch date. The paid web tier is mentioned only in one review and I could not confirm it, so the copy hedges it. Mood is calm, similar to Explore.org (Sep 14) but a different thing. Screenshot tip: capture the mixer with a few sliders raised so it shows a real mix.",
   },
 
   "2026-10-09": {
