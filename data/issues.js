@@ -3747,6 +3747,40 @@ Next time you're standing in a grocery aisle with a package in your hand, scan i
     editors_note: "❌ No affiliate — non-profit association of volunteers; no product pick issue. Global, French-founded: I confirmed the France origin in an earlier search this chat, but this round's sources did not restate it, so the copy only says 'non-profit association of volunteers' and 'French team' for Nutri-Score. Counts (100,000+ contributors, 4M+ products, 150 countries) come from the project's own discover page; other sources show older, smaller numbers, so I used only the project's own. I did NOT include the earlier-found claim that it takes no food-industry money, because this round's sources did not confirm it — add only if you verify it. Caveats about missing products and missing Nutri-Scores are in the copy. I did not scan a product myself. Screenshot tip: capture a product page for a familiar cereal or snack so the three ratings show. Oct 8 is still open.",
   },
 
+  "2026-10-08": {
+    id: 173,
+    date: "2026-10-08",
+    slug: "scouts-honour",
+    headline: "GIVE YOUR DOG A MERIT BADGE FOR BEING A CERTIFIED SOCK THIEF.",
+    subheadline: "Scout's Honour makes iron-on merit badges for pets, with 100+ designs that celebrate what your animal is actually like. Not 'Good Boy' in the abstract, but 'Been There Peed on That' and 'Big Stick Energy.' It's from Australia, and it ships to the US with duties included.",
+    site: {
+      name: "Scout's Honour",
+      url: "https://scoutshonour.net/",
+      screenshot: "/assets/issues/scouts-honour.png",
+      category: "Pets / Shopping",
+      vibe: "The Boy Scout sash, but for the creature who ate your sock",
+    },
+    body: `Every pet owner has a list of things their animal has earned recognition for. The sock stolen from the laundry pile. The stick that was clearly too big to carry. The squeak toy that was fully dismantled in under four minutes.
+
+Scout's Honour gives those achievements official status.
+
+**It's an Australian shop that sells iron-on merit badges for pets.** The site calls them "the original," and the idea is exactly what it sounds like: a small, embroidery-style patch that celebrates a specific personality trait, ready to iron onto a bandana, jacket, or harness. There are **100+ designs**, and the names are the whole joke: *Sock Thief. Been There Peed on That. Big Stick Energy. Sunshine Splooter. Will Sit For Snacks. Chief Yapper. Team Toe Beans. Belly Rub Club.* There's a Postman Patrol for the dog with strong opinions about deliveries, and a Puppy School Grad for the overachiever.
+
+**Here's how it works, in the site's own three steps:** pick a cotton pet bandana as the base, choose your patches, and iron them on. The shop says the patches are durable and machine washable, and there's a how-to page if you want the ironing steps. It also sells multipacks for people who can't narrow it down to one.
+
+**The scale is small and the details are charming.** The shop is named after the owner's dog, Scout, and the owner writes the blog. The latest posts include a collaboration with Carolina Pet Co., which runs Pendleton's pet range, on custom patch packs, and a Mother's Day pop-up for dog mums in Melbourne and Sydney.
+
+**Practical bits for readers outside Australia:** the patches list at A$11 each (a storewide sale was running when I checked), and there's free worldwide shipping on orders over A$150. A banner on the site says customs and duties are included at checkout for US and Canadian orders, so there are no surprise import fees at the door.
+
+It's the rare pet product that's more about the owner's sense of humor than the pet's needs, and that's the point. It makes a good gift for anyone whose dog already has a reputation.
+
+Find the badge your pet earned.`,
+    affiliate_links: [],
+    tags: ["pets", "dogs", "shopping", "gifts", "australia", "quirky"],
+    meta_description: "Scout's Honour sells iron-on merit badges for pets with 100+ designs like Sock Thief and Big Stick Energy. Australian-made, ships worldwide, with duties included for US and Canada.",
+    editors_note: "⚠️ No affiliate program listed on the site — footer offers only Wholesale, Find a Stockist, and Contact; email them through Contact to ask about one. Non-US pick (Australia: AUD prices, ships from Australia, Acknowledgment of Country footer). US/CAN customs and duties included at checkout is confirmed by the site banner (and your screenshot). Left out: a '£1 to a UK rescue per Rescue badge' donation line from a search snippet (unverified, possibly dated) and the press logos on the homepage (I did not open any articles). Prices are in AUD and the sale is temporary, so I described the sale only as 'running when I checked.' I drafted this for Oct 8 after you were evaluating it; easy to pull. Screenshot tip: homepage hero ('The original iron-on merit badges for pets') or the patch grid showing the names.",
+  },
+
   "2026-10-09": {
     id: 170,
     date: "2026-10-09",
