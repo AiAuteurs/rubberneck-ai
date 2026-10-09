@@ -3816,6 +3816,42 @@ No ads in your face, no account to start, nothing to learn. Open it, drag a few 
     editors_note: "⚠️ Affiliate not checked — browser version is free; mobile apps have in-app purchases (iOS developer listed as Sleepy Rabbit LLC). No product pick issue. The page rendered blank to my tool (JavaScript), so the copy comes from the site's own description, app-store listings, and reviews, not from the live interface — open it and check the ten sounds and the Meander/timer/mixes features before publishing. 'Since at least 2016' comes from a 2016 blog post listing it; I did not find a launch date. The paid web tier is mentioned only in one review and I could not confirm it, so the copy hedges it. Mood is calm, similar to Explore.org (Sep 14) but a different thing. Screenshot tip: capture the mixer with a few sliders raised so it shows a real mix.",
   },
 
+  "2026-10-10": {
+    id: 175,
+    date: "2026-10-10",
+    slug: "pawmometer",
+    headline: "IF YOU CAN'T HOLD YOUR HAND ON THE PAVEMENT, YOUR DOG CAN'T WALK ON IT.",
+    subheadline: "Pawmometer is a free site that reads the live weather where you are and tells you whether asphalt, concrete, sand, turf, and grass are safe for your dog's paws right now. It was built by a non-developer, with an AI assistant.",
+    site: {
+      name: "Pawmometer",
+      url: "https://pawmometer.com/",
+      screenshot: "/assets/issues/pawmometer.png",
+      category: "Tools / Utility",
+      vibe: "A thermometer for the part of your dog that actually touches the ground",
+    },
+    body: `Most of us check the weather before we leave the house. Almost nobody checks the temperature of the ground their dog is about to walk on, and the ground can be much hotter than the air.
+
+Pawmometer exists to close that gap.
+
+**Here's how it works.** Type in your city, or share your location, and the site reads current weather conditions and estimates surface temperatures for **asphalt, concrete, grass, artificial turf, sand, and dirt**. It ranks them from most to least dangerous and flags each one for your dog's paws: safe, caution, or avoid. It's free, and it takes a few seconds.
+
+**The site also teaches the oldest trick in the book, which needs no technology at all: the 7-second rule.** Press the back of your hand against the surface for seven seconds. If it's too hot for your hand, it's too hot for your dog's paws. One writeup of the site notes that asphalt can reach 140°F in direct sun when the air is 87°F, which is hot enough to burn skin.
+
+**The story behind it is a good one.** According to press coverage (Boing Boing, among others), the site was built by Gregory Paige, who isn't a software developer. By day, he's a product marketer at Circle, the company behind the USDC stablecoin. He made Pawmometer through "vibe coding": he described what he wanted to an AI assistant and let it write the software. (The site itself credits Canina, a dog-gear brand, as its maker.)
+
+**It cites its sources**, listing the American Kennel Club, Four Paws, Vets Now, a JAMA paper, and a few veterinary and university sources behind its estimates.
+
+**It's honest about its limits, too.** The site says plainly that these are general estimates, not veterinary advice. Real temperatures vary with shade, surface color, and humidity, and the tool assumes a healthy adult dog with normal paw pads. Dogs with injuries, thin or worn pads, or advanced age can be more sensitive than the thresholds suggest. That's why the hand test is the final word.
+
+It's most useful in summer or anywhere warm. But there's no reason to wait for the next heat wave to bookmark it.
+
+Check the ground before you clip on the leash.`,
+    affiliate_links: [],
+    tags: ["dogs", "pets", "safety", "free", "tools", "weather", "vibe-coding"],
+    meta_description: "Pawmometer is a free tool that uses live weather to estimate whether pavement, sand, turf, and grass are too hot for your dog's paws. Built by a non-developer using AI.",
+    editors_note: "❌ No affiliate for the tool — it's free. The site is credited 'Built with love by Canina' (canina.com, a dog-gear and apparel brand); I did not check whether Canina runs an affiliate program for its merchandise. Press coverage (Boing Boing, TrendWatching) credits Gregory Paige as the builder, so I could not tell how Paige and Canina connect; the copy credits both without explaining the link. I could not run the tool myself (it loads with JavaScript), so the copy describes it from its own page and the press, and makes no claim about accuracy. The '140°F asphalt at 87°F air' figure comes from the Boing Boing writeup, not from Pawmometer, and the copy attributes it that way. Seasonal: strongest in warm weather or warm climates. Screenshot tip: enter a warm city so the full surface list shows. This sits in a dog-heavy stretch of your archive (Petfinder, DogDog, Woof, microchip lookup), but it's a different use case.",
+  },
+
   "2026-10-09": {
     id: 170,
     date: "2026-10-09",
