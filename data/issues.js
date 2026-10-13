@@ -3852,6 +3852,163 @@ Check the ground before you clip on the leash.`,
     editors_note: "❌ No affiliate for the tool — it's free. The site is credited 'Built with love by Canina' (canina.com, a dog-gear and apparel brand); I did not check whether Canina runs an affiliate program for its merchandise. Press coverage (Boing Boing, TrendWatching) credits Gregory Paige as the builder, so I could not tell how Paige and Canina connect; the copy credits both without explaining the link. I could not run the tool myself (it loads with JavaScript), so the copy describes it from its own page and the press, and makes no claim about accuracy. The '140°F asphalt at 87°F air' figure comes from the Boing Boing writeup, not from Pawmometer, and the copy attributes it that way. Seasonal: strongest in warm weather or warm climates. Screenshot tip: enter a warm city so the full surface list shows. This sits in a dog-heavy stretch of your archive (Petfinder, DogDog, Woof, microchip lookup), but it's a different use case.",
   },
 
+  "2026-10-11": {
+    id: 176,
+    date: "2026-10-11",
+    slug: "vocalcut",
+    headline: "30+ FREE AUDIO TOOLS. THE SITE SAYS YOUR FILES NEVER LEAVE YOUR BROWSER.",
+    subheadline: "VocalCut is a free toolbox for working with sound: split a song into vocals and instruments, change the pitch, find the tempo, cut, join, convert, and more. Its pitch is that everything runs on your own device, with no uploads and no account.",
+    site: {
+      name: "VocalCut",
+      url: "https://vocalcut.com",
+      screenshot: "/assets/issues/vocalcut.png",
+      category: "Music / Tools",
+      vibe: "A whole audio workshop in one browser tab, with the door locked",
+    },
+    body: `Back in April, we featured a vocal remover: you upload a song, and it hands you the vocals and the instrumentals separately. It's a great trick. It also means your audio travels to someone else's server.
+
+VocalCut takes the same idea and makes a different promise. **The site says its tools run on your own device, so your audio is never uploaded, and you don't need an account.** (That's the site's own claim, and it's the whole pitch.)
+
+**And it isn't just one trick.** There are **more than 30 tools**, all free.
+
+**Splitting songs apart:**
+- **Vocal Remover:** separates a song into a vocal track and an instrumental track.
+- **Stem Splitter:** goes further, into four AI stems (vocals, drums, bass, and other), which you can solo, mute, and mix.
+- **Karaoke Maker:** fades the original vocal down to a guide and lets you shift the key to fit your voice.
+
+**Music-nerd tools:**
+- **BPM Finder:** works out a song's tempo automatically, or lets you tap along.
+- **Key Finder:** detects whether a track is in a major or minor key.
+- **Pitch Changer and Speed Changer:** change the key and the tempo independently, so you can slow a song down without changing its pitch, which helps for learning a part by ear.
+
+**Everyday fixes:**
+- **Audio Cutter and Joiner:** trim a song without re-encoding it, or merge several files into one.
+- **Converter:** switches between MP3, WAV, FLAC, OGG, M4A, AAC, and Opus.
+- **Video to Audio:** pulls the soundtrack out of a video file.
+- **Noise Reducer:** cleans background noise off a voice recording.
+- **Volume Normalizer:** sets loudness to a target for Spotify, YouTube, or Apple Music.
+
+**And a few just for fun:** 8D Audio, which makes a song circle your head in headphones, Slowed + Reverb, and an Audio Reverser for playing anything backwards.
+
+**One honest note:** separating a song doesn't change who owns it. Practicing, singing along, and learning a part are one thing. Posting or selling something made from someone else's recording can still require permission.
+
+It's free and shows ads, and I couldn't find who built it. If you've ever hesitated before uploading a file to a random website, this is built for you.`,
+    affiliate_links: [],
+    tags: ["music", "audio", "tools", "free", "privacy", "ai"],
+    meta_description: "VocalCut is a free toolbox of 30+ audio tools, including a vocal remover and stem splitter, that the site says run in your browser with no uploads and no account.",
+    editors_note: "❌ No affiliate — free, ad-supported (Google AdSense tag in the page code). I could not run the tools or confirm the privacy claim ('runs on your device, no uploads'); the copy attributes it to the site. I could not find who made it. The copy says 'more than 30 tools' (I counted 32 on the homepage; the 35 I mentioned earlier was loose). OVERLAP: your issue #4 (Apr 24) is Vocal Remover (vocalremover.org), your personal recommendation; the copy calls back to it ('back in April') and frames this as the on-device version. Moved to Oct 11 at the editor's request (I had suggested Oct 13 to keep more distance from A Soft Murmur on Oct 8) — your archive has a lot of music/audio picks lately (Bandcamp, Find Song By Lyrics, Music Quizly, Dig This, A Soft Murmur). The copyright note is general caution, not legal advice. Screenshot tip: the homepage tool grid or the Vocal Remover page.",
+  },
+
+  "2026-10-13": {
+    id: 178,
+    date: "2026-10-13",
+    slug: "massivemark",
+    headline: "STOP LOSING YOUR FORMATTING EVERY TIME YOU PASTE AN AI ANSWER INTO WORD.",
+    subheadline: "MassiveMark turns what ChatGPT, Claude, Gemini, and other chatbots write into clean, editable Word documents, PDFs, and web pages, with the tables, code, and math equations still intact.",
+    site: {
+      name: "MassiveMark Playground by BibCit",
+      url: "https://www.bibcit.com/en/massivemark",
+      screenshot: "/assets/issues/massivemark.png",
+      category: "Tools / Utility",
+      vibe: "The fix for the most annoying thing about copying an AI answer",
+    },
+    body: `You ask a chatbot for a report. It writes something good. You copy it, paste it into Word, and it falls apart. Headings turn into plain text with stray symbols. The table collapses into a pile of words. The math looks like a ransom note.
+
+Almost everyone who uses AI at work or school has hit this wall. MassiveMark is built to knock it down.
+
+**Here's the idea.** Chatbots write in Markdown, a plain-text style that uses symbols to mark headings, lists, and tables. When you copy and paste, Word doesn't always understand those symbols. MassiveMark takes the Markdown and rebuilds it as a proper document. You paste the content into the Playground, get a formatted preview, and export it as an **editable Word file (DOCX), a print-ready PDF, or HTML**.
+
+**What it says it preserves:** headings, lists, bold text, blockquotes, tables, code snippets with syntax highlighting, and **mathematical equations that stay editable inside Word**. That last one matters to students, researchers, and anyone who has watched a formula turn to gibberish on its way into a document.
+
+**A small tip from its own guides:** for some chatbots, including ChatGPT and Gemini, a normal copy doesn't capture the underlying Markdown. BibCit offers a browser extension with a "Copy Markdown" button for that, and its guides say to use it instead of Ctrl+C.
+
+**It's one tool in a bigger toolbox.** The same site converts images, PDFs, handwriting, and voice recordings into Word or Markdown, generates citations in APA, MLA, Chicago, and Harvard styles, and turns code into diagrams. It offers an API for developers and a WordPress plugin, and the site is available in 23 languages.
+
+**Before you try it, know the terms.** The guides say MassiveMark needs a free BibCit account and runs on a pay-as-you-go credit system, with a one-time batch of free credits when you verify your email (the site says they're worth $10). Check the current limits and prices on the site. BibCit is a young company, founded in 2023 and based in the United States, and nothing here is magic: if your chatbot answer is a mess, the document will be a tidy mess.
+
+If you've ever spent twenty minutes fixing a table after pasting it, this is the twenty minutes back.`,
+    affiliate_links: [],
+    tags: ["ai", "documents", "word", "markdown", "tools", "productivity", "students"],
+    meta_description: "MassiveMark by BibCit converts AI chatbot output into editable Word documents, PDFs, and HTML while preserving tables, code, and math equations. Free credits to start.",
+    editors_note: "⚠️ Affiliate not checked. Free to start but not free to use indefinitely: BibCit's own guides say a free account is required and conversions use pay-as-you-go credits, with one-time free credits on email verification (the guide says worth $10). Credit rates differ across BibCit pages (1 credit per MB in the guides, 1 credit per 10 KB on the API page), so the copy gives no rate. The live page showed 'Preparing guest session,' which hints at a guest mode, but the guides say an account is required — please check the current sign-up flow before publishing. BibCit is described as founded 2023 and US-based by Slashdot and SourceForge listings. I did not run a conversion myself. The page names Claude among supported chatbots; the copy doesn't promote any chatbot. Replaces Be My Eyes on Oct 13 at the editor's request. Screenshot tip: the Playground with sample content pasted in and the formatted preview showing.",
+  },
+
+  "2026-10-12": {
+    id: 179,
+    date: "2026-10-12",
+    slug: "wheelmap",
+    headline: "A FREE WORLD MAP OF PLACES YOU CAN ROLL INTO. BUILT IN BERLIN, FILLED IN BY EVERYONE.",
+    subheadline: "Wheelmap rates places for wheelchair access with a simple traffic light: green, orange, red. It's free, it covers the whole world through OpenStreetMap, and anyone can add or rate a place in a few taps.",
+    site: {
+      name: "Wheelmap",
+      url: "https://wheelmap.org",
+      screenshot: "/assets/issues/wheelmap.png",
+      category: "Accessibility / Do-Good",
+      vibe: "The information the café's photos leave out",
+    },
+    body: `A café can look perfect online. Warm lighting, great pastries, a lovely terrace. And three steps at the front door.
+
+For people who use a wheelchair or other mobility aid, that detail decides whether the trip is worth making. It's also the one detail restaurant photos almost never show. Wheelmap exists to fill that gap.
+
+**Here's how it works.** Search for a place, or browse the map, and each spot carries a traffic-light rating:
+
+- **Green:** step-free and fully accessible.
+- **Orange:** partially accessible.
+- **Red:** not accessible.
+- **Grey:** nobody has rated it yet.
+
+Toilets are rated separately, so you can find places with an accessible restroom, and users can upload photos of entrances.
+
+**It was built by a Berlin nonprofit and is based on OpenStreetMap.** Wheelmap is a project of Sozialhelden e.V., started in 2010 by a team around social entrepreneur Raúl Krauthausen. It sits on top of OpenStreetMap, the open, editable map of the world, which is why it works globally, and it covers 180 types of places, from cafés and libraries to swimming pools and doctor's offices. The site is available in more than 30 languages, free, on the web and as an app.
+
+**The scale comes from crowds.** By its own count, Wheelmap holds information on more than 3 million public places, with 300+ new entries added every day. That's because anyone can add a place and rate it in a few clicks, and the ratings show up on the map within minutes. All of the collected data is also available as a free open dataset.
+
+**One honest note:** a crowd-sourced map is only as good as the people who fill it in. Coverage varies by city and country, and a grey place means "unknown," not "inaccessible." For anything critical, it's worth calling ahead.
+
+**There's an easy way to make it better.** Next time you're somewhere, rate it. A few taps for you could save someone else a wasted trip.
+
+Check the door before you go.`,
+    affiliate_links: [],
+    tags: ["accessibility", "wheelchair", "maps", "free", "nonprofit", "germany", "openstreetmap"],
+    meta_description: "Wheelmap is a free, crowd-sourced world map that rates places for wheelchair accessibility with a traffic-light system. Built by the Berlin nonprofit Sozialhelden on OpenStreetMap.",
+    editors_note: "❌ No affiliate — free, nonprofit project (Sozialhelden e.V., Berlin). No product pick issue. German origin, global map. The counts (3+ million places, 300+ new entries a day, 33 languages) come from Wheelmap's own About page; other sources show older numbers (22 languages on Wikipedia, 32 in the FAQ), so the copy says 'more than 30 languages.' An older academic paper noted most listed places were in Germany, so the copy flags uneven coverage. The site's own pages use both 'orange' and 'yellow' for the middle rating; the copy uses orange. I did not test the live map. Screenshot tip: the map zoomed into a city, showing green, orange, and red markers.",
+  },
+
+  "2026-10-14": {
+    id: 177,
+    date: "2026-10-14",
+    slug: "museum-of-canadian-music",
+    headline: "THE WEB ADDRESS SAYS 'CITIZENFREAK.' BEHIND IT IS A MUSEUM OF A CENTURY OF CANADIAN MUSIC.",
+    subheadline: "The Museum of Canadian Music is a free online archive of Canadian recorded sound, built over many years by one man in Calgary. Browse by genre, region, or decade, and dig into rare records, artist stories, and Indigenous and regional collections you won't find anywhere else.",
+    site: {
+      name: "Museum of Canadian Music",
+      url: "https://citizenfreak.com/",
+      screenshot: "/assets/issues/museum-of-canadian-music.png",
+      category: "Music / Culture",
+      vibe: "A record collector's lifetime obsession, opened to everyone",
+    },
+    body: `Type "citizenfreak.com" into a browser and you might expect something strange. What you get is the Museum of Canadian Music, the deepest digital archive of Canadian recorded music you're likely to find.
+
+**It started as one person's passion project.** The museum was founded by Robert Williston of Calgary, who set out to preserve, document, and share Canada's recorded music history. By the museum's own count, the collection now holds **more than 140,000 physical Canadian music artifacts and about 1.15 million sound and image files**, and the website documents **over 6,000 Canadian artists across 76,000+ pages**. In 2026, the project became a federally incorporated not-for-profit, the CitizenFreak Canadian Music Society.
+
+**Here's why it's worth an hour of your evening.** There are no search boxes to fight with. You start by wandering:
+
+- **24 curated genre doors,** into more than 600 genre tags: Francophone, punk, folk, psych, jazz, hip-hop, disco, metal, prog, rockabilly, comedy, and more.
+- **Playlists by region and by decade,** from Alberta to Nunavut, from the Yorkville sound to a 1980s Toronto underground cassette project.
+- **Collections you won't find on a streaming app,** including Indigenous and Northern voices (Inuit throat singing and Cree songs among them), a Métis musical story, Women in Canadian Music, and Artistes Féminines Québécoises.
+- **Rankings made for arguing about:** the museum's Top 1000 Canadian albums and singles, a "Holy Grails" list, a "$1000 Record Club," the rarest Canadian records, and a gallery of the greatest Canadian album covers.
+
+**It's about the stories as much as the songs.** Alongside the recordings, the site brings together artist biographies, discographies, session histories, archival photographs, and recording credits, so a name on a record sleeve becomes a person with a history. There's a Featured Artist of the Week if you'd like someone to point you somewhere.
+
+The site describes itself as freely accessible to the public, and it has a Donate page for anyone who wants to help keep it going.
+
+Pick a genre you've never explored, or a province you've never visited, and let the archive take you somewhere.`,
+    affiliate_links: [],
+    tags: ["music", "canada", "archive", "history", "free", "nonprofit", "culture"],
+    meta_description: "The Museum of Canadian Music (citizenfreak.com) is a free online archive of Canadian recorded sound, with genre, regional, and Indigenous collections, rare records, and artist stories.",
+    editors_note: "❌ No affiliate — not-for-profit archive with a Donate page. No product pick issue. Tested by the editor (playback confirmed working). Collection numbers (140,000+ artifacts, ~1.15M files, 6,000+ artists, 76,000+ pages) are the museum's own, from its staff page and YouTube description. The site is inconsistent on its own start date (2005, 2007, and 2010 all appear), so the copy gives no founding year. 'Federally incorporated not-for-profit' and the 2026 date come from the museum's staff page. Canadian pick. Music/audio cluster: spaced Oct 14 away from VocalCut (Oct 11) and A Soft Murmur (Oct 8), and it's a different kind of pick (archive vs. tool). Screenshot tip: the homepage 'Explore by Genre' section, or a playlist page like Rarest Canadian Music.",
+  },
+
   "2026-10-09": {
     id: 170,
     date: "2026-10-09",
