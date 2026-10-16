@@ -3747,6 +3747,48 @@ Next time you're standing in a grocery aisle with a package in your hand, scan i
     editors_note: "❌ No affiliate — non-profit association of volunteers; no product pick issue. Global, French-founded: I confirmed the France origin in an earlier search this chat, but this round's sources did not restate it, so the copy only says 'non-profit association of volunteers' and 'French team' for Nutri-Score. Counts (100,000+ contributors, 4M+ products, 150 countries) come from the project's own discover page; other sources show older, smaller numbers, so I used only the project's own. I did NOT include the earlier-found claim that it takes no food-industry money, because this round's sources did not confirm it — add only if you verify it. Caveats about missing products and missing Nutri-Scores are in the copy. I did not scan a product myself. Screenshot tip: capture a product page for a familiar cereal or snack so the three ratings show. Oct 8 is still open.",
   },
 
+  "2026-10-15": {
+    id: 180,
+    date: "2026-10-15",
+    slug: "rx-inspector",
+    headline: "THE FDA WON'T TELL YOU WHERE YOUR GENERIC DRUG WAS MADE. PROPUBLICA SUED, THEN BUILT A TOOL THAT DOES.",
+    subheadline: "Rx Inspector from ProPublica lets you enter the name on your pill bottle and find the factory that made your generic prescription, plus what FDA inspectors found when they visited. It's free, and it's the first tool of its kind.",
+    site: {
+      name: "Rx Inspector (ProPublica)",
+      url: "https://projects.propublica.org/rx-inspector/",
+      screenshot: "/assets/issues/rx-inspector.png",
+      category: "Tools / Utility",
+      vibe: "The fine print on your pill bottle, finally answered",
+    },
+    body: `Pick up a prescription and read the label. It tells you the drug, the dose, the pharmacy, and often the name of a distributor or repackager. What it doesn't always tell you is where the pills were actually made.
+
+For about 90% of the prescriptions filled in the United States, which are generics, that's a real blind spot. And it's one the FDA has chosen to keep. The agency has told ProPublica it doesn't reveal where drugs are made on its inspection reports, to protect what it deems confidential commercial information.
+
+So ProPublica built the tool itself.
+
+**Here's how Rx Inspector works.** You enter the name of your generic drug and the company name printed on your label. If you have the National Drug Code from the package, you can use that instead. If more than one match comes up, you can narrow it down using the markings on the pill. Click the drug and you'll see the manufacturing facilities ProPublica has been able to connect to it. Click a facility and you'll see where it is, what other drugs it makes, and any FDA inspection information.
+
+**How they did it:** the team stitched together several scattered FDA databases, obtained documents from thousands of FDA inspections of generic drug factories since 2008, and at one point sued the FDA in federal court for factory locations, receiving a partial list. The tool is part of ProPublica's "Rx Roulette" series on the FDA's oversight of generic drugs.
+
+**The inspection results come with plain-English labels.** The outcomes range from "acceptable" and "some issues found, but no further FDA action" (which ProPublica says is very common) to warning letters, an "unacceptable" compliance finding, and the rare import alert, which means drugs from that factory were banned from entering the U.S.
+
+**Please read the cautions ProPublica builds in, because they matter more than the tool does:**
+
+- **A troubling report doesn't mean your pills are bad.** ProPublica doesn't give medical advice. Doctors and pharmacists say not to stop taking your medication; instead, talk to your health care provider about any concerns.
+- **The data isn't perfect.** It may be out of date, for example if one company bought another or moved production.
+- **It covers generic prescriptions only.** Brand-name and over-the-counter drugs aren't included.
+- **The maker can change.** Which manufacturer you get can depend on the pharmacy and what it has in stock, so a different pharmacy may fill your prescription with a different company's pills.
+- **You can report problems.** ProPublica points to the FDA's adverse event reporting system for drug-quality concerns, and wants to hear what readers find.
+
+It's free to use. ProPublica is an independent nonprofit newsroom, and Rx Inspector was published in December 2025.
+
+It won't tell you whether to worry. It will tell you something that was nearly impossible to find out before: where your medicine comes from.`,
+    affiliate_links: [],
+    tags: ["health", "prescriptions", "generic-drugs", "fda", "journalism", "free", "tools"],
+    meta_description: "ProPublica's Rx Inspector lets you look up the factory that made your generic prescription drug and see its FDA inspection history. Free, US prescriptions only.",
+    editors_note: "❌ No affiliate — free tool from ProPublica, an independent nonprofit newsroom (it has a Donate link). No product pick issue. US-focused: it uses FDA data and covers US generic prescriptions only; the copy says so. Health-sensitive: I kept ProPublica's own cautions prominent (no medical advice, don't stop taking medication, a bad inspection doesn't mean your pills are bad, data may be out of date) and added no medical advice of my own. 'About 90% of U.S. prescriptions are generics,' the FDA-won't-reveal quote, the lawsuit, and the 'Rx Roulette' series are all from ProPublica's own page. I did not run a search myself. Published December 2025. Pairs with GoodRx (Oct 2) but is a different use case. Screenshot tip: the homepage hero ('Look Up Where Your Generic Prescription Drugs Were Made') is the safest image; a results page would show a real company's inspection record, so if you use one, pick a neutral example and keep the 'doesn't mean your drug is compromised' line nearby.",
+  },
+
   "2026-10-16": {
     id: 173,
     date: "2026-10-16",
