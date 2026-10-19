@@ -3747,6 +3747,120 @@ Next time you're standing in a grocery aisle with a package in your hand, scan i
     editors_note: "❌ No affiliate — non-profit association of volunteers; no product pick issue. Global, French-founded: I confirmed the France origin in an earlier search this chat, but this round's sources did not restate it, so the copy only says 'non-profit association of volunteers' and 'French team' for Nutri-Score. Counts (100,000+ contributors, 4M+ products, 150 countries) come from the project's own discover page; other sources show older, smaller numbers, so I used only the project's own. I did NOT include the earlier-found claim that it takes no food-industry money, because this round's sources did not confirm it — add only if you verify it. Caveats about missing products and missing Nutri-Scores are in the copy. I did not scan a product myself. Screenshot tip: capture a product page for a familiar cereal or snack so the three ratings show. Oct 8 is still open.",
   },
 
+  "2026-10-19": {
+    id: 183,
+    date: "2026-10-19",
+    slug: "onezoom",
+    headline: "ALL KNOWN LIFE ON EARTH, ON ONE ZOOMABLE PAGE. START WITH YOURSELF.",
+    subheadline: "OneZoom is a free interactive tree of life that shows how more than 2.2 million species are related. Zoom from a human to a hummingbird to a mushroom, and watch the branches that connect them. It's built by a volunteer team and run by a UK charity.",
+    site: {
+      name: "OneZoom",
+      url: "https://www.onezoom.org/",
+      screenshot: "/assets/issues/onezoom.png",
+      category: "Science / Nature",
+      vibe: "The family tree of everything, and you can fall into it",
+    },
+    body: `Everyone has seen a tree of life diagram in a textbook. A few branches, a handful of animals, a lot of white space. It gives you the idea and nothing else.
+
+OneZoom gives you the whole thing.
+
+**Here's how it works.** The page is a single, zoomable tree. Each **leaf is a species**, and the **branches show how those species descended from common ancestors over billions of years**. The site says the tree currently holds **2,228,001 species and 105,511 images**. You zoom in and out the way you would on a map, and the tree reveals more detail as you go.
+
+**You don't have to know where to begin.** The home page suggests places to start: humans, elephants, owls, octopods, sharks, hummingbirds, chameleons, roses, water-lilies, mushroom-forming fungi, and even the grey wolf, which is shown alongside the domestic dog. Pick one, and the tree zooms there. From a human, you can zoom outward and watch the branches that lead to our relatives, then to our more distant ones.
+
+**If you'd rather be taken somewhere,** OneZoom has guided tours around the tree. The TreeTour feature arrived in version 4.0 in April 2024.
+
+**It's a charity project.** OneZoom is a registered non-profit in the UK, and the site says all its products are free. A volunteer team builds it. Over a thousand people have donated, and their names appear as sponsors on more than 1,700 leaves of the tree. You can sponsor a leaf yourself, and the site pitches that as a gift. There's even a "tr-eCard" for sending someone a greeting from the tree.
+
+**People have noticed.** The Guardian included it in a 2023 list of 50 of the weirdest, most wonderful corners of the web, and it has appeared as an interactive part of an exhibition at the Museum of Nature Hamburg. There's also material for classrooms and museum displays, and tools for developers, including a widget you can embed in your own pages.
+
+**One honest note:** the relationships on a tree this size reflect what scientists currently believe, and they get revised as research moves on.
+
+Zoom out far enough, and everything you can name turns out to be a relative. Pick your starting leaf.`,
+    affiliate_links: [],
+    tags: ["science", "nature", "evolution", "biology", "interactive", "charity", "education"],
+    meta_description: "OneZoom is a free interactive tree of life showing how more than 2 million species are related, on one zoomable page. Run by a UK charity and built by volunteers.",
+    editors_note: "❌ No affiliate — UK charity (the footer lists charity number 1163559), funded by donations and leaf sponsorships. The site says all its products are free. No product pick issue. Every number and fact comes from OneZoom's own homepage as of today: 2,228,001 species, 105,511 images, TreeTour in version 4.0 (April 2024), 1,036 donors, 1,712 sponsored leaves, the Guardian 50 weirdest-and-most-wonderful-websites mention (2023), the Hamburg museum exhibition (2022). I did not name its creators because the page I fetched doesn't; the copy says 'volunteer team,' which the site's own news says. The 'tree is revised as research moves on' line is my own general knowledge. I could not use the zoomable tree myself, so the copy describes it from its own pages. Nature/science stretch: Falling Fruit (Oct 17), Zooniverse (Oct 18), and this one are three nature or science picks in a row, so consider putting something else on the next few open days. Screenshot tip: a zoomed view where leaf photos show, for example the Frogs and toads or Hummingbirds start page.",
+  },
+
+  "2026-10-18": {
+    id: 182,
+    date: "2026-10-18",
+    slug: "zooniverse",
+    headline: "HELP REAL SCIENTISTS. NO DEGREE REQUIRED. IT ALL STARTED WITH PEOPLE SORTING GALAXIES.",
+    subheadline: "Zooniverse is the world's largest platform for people-powered research. You can help hunt for planets, identify animals in wildlife photos, or transcribe old handwritten documents, and your clicks go straight into real studies.",
+    site: {
+      name: "Zooniverse",
+      url: "https://www.zooniverse.org/",
+      screenshot: "/assets/issues/zooniverse.png",
+      category: "Science / Do-Good",
+      vibe: "A lab with the door open to anyone who wants to help",
+    },
+    body: `Modern science has a problem most of us would love to have: too much data. Telescopes, trail cameras, and archives produce far more images and records than any research team can go through alone. Computers help, but for plenty of jobs, human eyes are still better at spotting patterns.
+
+Zooniverse is built on that fact.
+
+**It started with galaxies.** In July 2007, an Oxford astronomer named Chris Lintott launched Galaxy Zoo, asking the public to look at telescope photos and sort galaxies into spirals, ellipticals, and mergers. The response was enormous. A conference paper reported more than 70,000 classifications an hour within the first 24 hours, and the original project went on to collect classifications from more than **180,000 volunteers on nearly one million galaxies**, leading to more than forty scientific papers.
+
+That success became a platform. Zooniverse is now run by a collaboration that includes the Adler Planetarium, the University of Oxford, and the University of Minnesota, and it calls itself the world's largest and most popular platform for people-powered research.
+
+**Here's what you can do.** Projects span the arts, biology, climate, history, language, literature, medicine, nature, physics, space, and the social sciences. You might search telescope data for planets around other stars, look through wildlife photos and name the animals you see, or transcribe handwritten historical documents. One transcription project reported that its volunteers matched the accuracy of experienced specialists.
+
+**You don't need any background.** The tasks come with tutorials, and many are simple enough for elementary and middle school students and families. The Snapshot Safari projects, which involve identifying animals in photos, are especially good for young children. Each image is looked at by many different people, and the agreement between them is how the results are checked. That's why one person's clicks matter.
+
+**And it's a real community.** Each project has a discussion board where volunteers talk directly with researchers, and some of the most interesting discoveries have come out of those conversations. Zooniverse projects have produced hundreds of peer-reviewed publications that credit their volunteers, and dozens of volunteers have been co-authors.
+
+Researchers can also build their own project using the platform's project builder.
+
+**A few honest notes:** the scale figures I found are a few years old (over 120 projects and more than two million registered volunteers as of 2020), so the real numbers are likely higher. Projects also finish when researchers have enough classifications, so pick one that's marked active.
+
+Pick a subject you're curious about, spend ten minutes, and your click becomes part of a study.`,
+    affiliate_links: [],
+    tags: ["science", "citizen-science", "volunteering", "space", "nature", "education"],
+    meta_description: "Zooniverse is the world's largest platform for people-powered research. Help classify galaxies, hunt for planets, identify wildlife, or transcribe documents. No experience needed.",
+    editors_note: "❌ No affiliate. I did not call it a nonprofit because I could not confirm its legal status; the home page lists Adler Planetarium, University of Minnesota, and University of Oxford as partners and has a Donate page. 'Free to take part' is well known but I did not see it stated on the page I fetched, so neither the copy, the meta description, nor the tags say 'free' about Zooniverse itself. Facts: Galaxy Zoo launch (July 2007), Chris Lintott, 180,000+ volunteers, nearly 1 million galaxies, 40+ papers come from the Galaxy Zoo authors page and a 2020 NSTA article; '70,000 classifications per hour' is from RocketSTEM (2014); '120+ projects, 2M+ volunteers' is from NSTA (2020), and Discover (about 2021) said 1.6 million, so the copy flags the numbers as a few years old; the 95% transcription accuracy is from Discover's AnnoTate mention; hundreds of publications is from NSTA. 'Projects finish when researchers have enough classifications' is my own general knowledge, not from the pages I fetched. I did not try a project myself. UK/US collaboration, global volunteers. Screenshot tip: the Projects page, or a Snapshot Safari or Galaxy Zoo classification screen.",
+  },
+
+  "2026-10-17": {
+    id: 181,
+    date: "2026-10-17",
+    slug: "falling-fruit",
+    headline: "THERE'S A FREE PEACH TREE ON YOUR STREET. THIS MAP KNOWS WHERE.",
+    subheadline: "Falling Fruit is a free, community-built map of nearly 2 million places where food grows in public, from fruit trees and berry bushes to herbs and mushrooms. It's run by a nonprofit, and anyone can add to it.",
+    site: {
+      name: "Falling Fruit",
+      url: "https://fallingfruit.org/",
+      screenshot: "/assets/issues/falling-fruit.png",
+      category: "Food / Do-Good",
+      vibe: "A treasure map for the free food you walk past every day",
+    },
+    body: `Somewhere on your walk to work, a mulberry tree is dropping fruit onto the sidewalk. Nobody's picking it. It will rot, and the birds and the bottom of your shoe will get it.
+
+Falling Fruit exists to turn that tree into a pin on a map.
+
+**It's a collaborative map of the urban harvest.** The site calls it a way to unite foragers, freegans, and foresters around the world, and the scale is big: **nearly 2 million locations and more than 4,000 types of edible plants and mushrooms**, including fruit trees, berries, nuts, and herbs. It also lists public water sources, beehives, and even dumpsters known for tossing out good food. Most spots are on public property, and some are on private land and are meant to be picked only with permission.
+
+**Anyone can add to it.** The map works like a wiki. Users drop pins for the plants they find, and a lot of the original data came from city and university tree inventories, the kind of records municipalities keep for park management. One early press story described a user in Boston who added over 50,000 locations on her own.
+
+**The origin story is small and local.** The map began in 2008 as Caleb Phillips' personal record of fruit trees around Boulder, Colorado. In 2013, he and Ethan Welty, a geographer and photographer he'd met through a food-rescue group, launched Falling Fruit as a global map. One photo from their early days shows Welty and a friend standing among 500 pounds of apples they'd picked from neighborhood trees in a couple of hours.
+
+**The big idea is bigger than free fruit.** Welty has described the project as a form of activism: a way to get people to see their cities as places that can feed them, and to push for "food forests," public spaces planted with edible trees as naturally as ordinary street trees. Billings, Montana, for example, has planted more than 120 fruit trees in its parks since 2018.
+
+Falling Fruit is a nonprofit with mostly volunteer staff, and it relies on donations. The code and the data are open.
+
+**A few honest notes before you go out with a bucket:**
+
+- **It's crowd-sourced.** The founders have said they can't verify every spot, so a pin isn't a guarantee that a tree is public or that fruit is ripe.
+- **Check the land.** Some listed spots may be private or off-limits, so look for signs, ask permission, and follow local rules.
+- **Only eat what you can identify with certainty.** This matters most with mushrooms.
+
+Open it, zoom in on your own street, and see what's been growing there all along.`,
+    affiliate_links: [],
+    tags: ["food", "foraging", "free", "nonprofit", "maps", "sustainability", "open-data"],
+    meta_description: "Falling Fruit is a free, open, community-built map of nearly 2 million places to forage for free food, from fruit trees to herbs, run by a nonprofit based in Boulder, Colorado.",
+    editors_note: "❌ No affiliate — nonprofit (501(c)(3), Boulder, Colorado; relies on donations; mostly volunteer-run). No product pick issue. The site renders blank without JavaScript, so I did not run the map; the copy comes from press coverage and the founders' own writing. Numbers (nearly 2 million locations, 4,000+ types) are from a Sentient Media article about 10 months old; one AI-written encyclopedia page gave exact counts and I did not use them. 'Countries' is left out of the copy: a co-founder's older Google blog post said 111 countries, but it is several years old. The food-safety line about only eating what you can identify is my own general caution, not from Falling Fruit, and the 'founders can't verify every spot' line comes from a 2013 NPR piece. The 'user in Boston with 50,000+ locations' detail is from an Atlas Obscura article. The apples photo detail (500 pounds, 2012) is from an NPR/Sentient photo caption. Screenshot tip: zoom into a city with lots of pins, such as Boulder or any big city park area, and keep the map legend visible.",
+  },
+
   "2026-10-15": {
     id: 180,
     date: "2026-10-15",
