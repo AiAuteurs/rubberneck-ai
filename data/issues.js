@@ -3747,6 +3747,121 @@ Next time you're standing in a grocery aisle with a package in your hand, scan i
     editors_note: "❌ No affiliate — non-profit association of volunteers; no product pick issue. Global, French-founded: I confirmed the France origin in an earlier search this chat, but this round's sources did not restate it, so the copy only says 'non-profit association of volunteers' and 'French team' for Nutri-Score. Counts (100,000+ contributors, 4M+ products, 150 countries) come from the project's own discover page; other sources show older, smaller numbers, so I used only the project's own. I did NOT include the earlier-found claim that it takes no food-industry money, because this round's sources did not confirm it — add only if you verify it. Caveats about missing products and missing Nutri-Scores are in the copy. I did not scan a product myself. Screenshot tip: capture a product page for a familiar cereal or snack so the three ratings show. Oct 8 is still open.",
   },
 
+  "2026-10-25": {
+    id: 189,
+    date: "2026-10-25",
+    slug: "pet-help-finder",
+    headline: "CAN'T AFFORD THE VET OR THE DOG FOOD? TYPE IN YOUR ZIP CODE.",
+    subheadline: "Pet Help Finder is a free, national locator of financially friendly vet care, pet food pantries, emergency boarding, and more, run by a nonprofit and partnered with 211. More than 6,600 resources are listed, and you search by ZIP code or by city and state.",
+    site: {
+      name: "Pet Help Finder",
+      url: "https://www.pethelpfinder.org/",
+      screenshot: "/assets/issues/pet-help-finder.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "The answer to 'I love my pet but I can't afford this'",
+    },
+    body: `Most people who love a pet have faced the moment: a vet bill that's more than the rent, or a month when the dog food doesn't fit in the budget. According to the Access to Veterinary Care Coalition at the University of Tennessee's veterinary school, one in four pet families report being unable to get needed veterinary care. The main barrier is money, with transportation, language, and fear of being judged also playing a role.
+
+Pet Help Finder is built to meet that moment.
+
+**Here's how it works.** Choose what you're looking for, then search by ZIP code or by city and state. The home page offers three main doors:
+
+- **Veterinary Services:** vets and clinics offering payment plans, discounts, and low-income programs, plus spay and neuter clinics and vaccines.
+- **Food Pantry & Supplies:** food pantries and other organizations offering free pet food and supplies, including programs for low-income families and seniors.
+- **Boarding & Services:** emergency boarding, pet care for seniors, groomers, transportation help, and behavior support.
+
+The locator pulls together private practices, nonprofits, funders, veterinary center chains, voucher programs, and grant programs on one platform, and many of the nonprofits listed offer free services.
+
+**It's run by a nonprofit and has a good origin story.** Pet Help Finder is powered by the Open Door Veterinary Collective, a national 501(c)(3) founded in 2020 to expand access to veterinary care. It launched in February 2023 with more than 1,500 providers listed. Its project lead, Heather Cammisa, has said the idea came out of research for Meals on Wheels America on homebound clients with pets, when it became clear there was no good way to connect families with accessible pet care.
+
+**It has grown.** The Open Door Veterinary Collective's own page reports **more than 6,668 resources listed** and **2.3 million visits in 2025**. It's a community care partner of 211, and resource pages from places like New York City's Office of Animal Welfare and Purdue's veterinary school point people to it. Providers can be listed for free.
+
+If you read our earlier pieces on 211 and on Feeding Pets of the Homeless, think of this as the pet-specific search that ties them together.
+
+**An honest note:** it's a directory, not a funder. Being listed doesn't mean a program has money or food in stock today, and eligibility and hours vary, so call before you go.
+
+If you've ever had to choose between a bill and your best friend, bookmark this before you need it.`,
+    affiliate_links: [],
+    tags: ["pets", "dogs", "cats", "vet-care", "pet-food", "nonprofit", "free", "assistance"],
+    meta_description: "Pet Help Finder is a free national locator, run by the nonprofit Open Door Veterinary Collective, for low-cost vet care, pet food pantries, boarding, and more. Search by ZIP code.",
+    editors_note: "❌ No affiliate — free service of Open Door Veterinary Collective, a national 501(c)(3) nonprofit. No product pick issue. NOTE: the editor was blocked by a Cloudflare page naming joinchorus.com; the site runs on the 'Chorus' platform, so the block comes from that platform, not from Pet Help Finder itself. I fetched /m/phf and could only read its text shell (it loads with JavaScript), so I did not see the live search. Facts come from Open Door's own pages (6,668 resources, 2.3M visits in 2025), a 211 blog post and GlobeNewswire release (launch Feb 2023, 1,500+ providers, project lead Heather Cammisa, Meals on Wheels research origin), the 211 partner page, and the site's own page text (the three categories). The one-in-four statistic is credited by the site to the Access to Veterinary Care Coalition (University of Tennessee). The NYC Office of Animal Welfare and Purdue mentions are from their own resource pages. One article says Humane World for Animals endorses it; I did not use that. The Feeding Pets of the Homeless and 211 callbacks refer to your Sep 10 and Aug 25 issues. Layout details (search by ZIP or city and state, the three category cards, and the hero line 'Find Financially Friendly Pet Resources — veterinary care, spay & neuter clinics, vaccines, pet supplies, pet food assistance, and more') come from the editor's screenshot of Open Door's own page, which shows a mockup of the site's home page; I have not seen the live site. That mockup is Open Door's own promotional image, so ask permission before using it as the preview, or take your own screenshot of the home page; try the direct URL https://www.pethelpfinder.org/m/phf. Open Door also has an overview video on YouTube. Also a better national resource than the Pongo Fund for your dog-owner social post.",
+  },
+
+  "2026-10-24": {
+    id: 188,
+    date: "2026-10-24",
+    slug: "too-good-to-go",
+    headline: "A SURPRISE BAG OF END-OF-DAY FOOD FOR HALF PRICE OR LESS. THE BAKERY KEEPS IT OUT OF THE BIN.",
+    subheadline: "Too Good To Go is a Danish-born app that connects you with shops, cafés, and restaurants selling their unsold food at a discount, in a Surprise Bag you pick up before closing. You never know exactly what's inside, which is the whole fun.",
+    site: {
+      name: "Too Good To Go",
+      url: "https://www.toogoodtogo.com/",
+      screenshot: "/assets/issues/too-good-to-go.png",
+      category: "Food / Do-Good",
+      vibe: "Dinner as a mystery, rescued from the bin",
+    },
+    body: `At closing time, every bakery, café, and grocery store has the same problem: perfectly good food that won't sell tomorrow. For most of history, a lot of it went in the trash.
+
+Too Good To Go was built to change where it ends up.
+
+**Here's how it works.** Businesses list their unsold food as a **Surprise Bag** at a deep discount. You open the app and see what's available near you, reserve and pay for a bag, then head to the shop at the set pickup time and swipe or show the app to collect it. The site says you can enjoy good things "at half the price or less." You'll usually know the category (bakery, meals, produce) but not the exact contents, and that mystery is a feature: businesses don't know what they'll have left at the end of the day.
+
+**It's no longer just food.** The app now lists everyday products too, like flowers, skincare, pet care, cleaning supplies, and décor. It also sells Too Good To Go Parcels, boxes of surplus items sent directly from manufacturers or wholesalers and delivered to your home.
+
+**It started in Copenhagen.** Too Good To Go was founded in Copenhagen in 2015, and the app launched in 2016. It now says it operates in about 20 countries across Europe, North America, and Asia Pacific, with **more than 100 million registered users and about 200,000 partner businesses.** An Axios report from May 2025 put the meals it has saved at over 450 million. Those totals are the company's own figures, and it publishes a "Food Waste Sources" page for the claims behind them.
+
+**The business side is simple.** Businesses pay a fee per bag sold plus an annual fee. In the U.S., Axios reported typical rates of about $1.79 per bag and $89 a year. The company also runs a "Look-Smell-Taste" date-label initiative with major brands, aimed at reducing household waste from confusing Best Before dates.
+
+**A few honest notes:**
+
+- **It's a for-profit company** that calls itself a social impact company.
+- **You can't pick what's inside the bag.** That's the deal. Treat it as a mix of ingredients, not a planned dinner.
+- **Pickup windows are strict.** One guide says that if you miss yours without contact, you forfeit the bag with no refund.
+- **Coverage varies by city.** In the U.S., the company said in fall 2025 that it was live in more than 30 cities, mostly large metro areas, and aimed to reach every U.S. city with more than a million residents by the end of that year. Smaller towns and rural areas may have no participating businesses at all, so open the app and check your own neighborhood.
+
+If you like a bargain, a surprise, and the feeling of keeping a good croissant out of a dumpster, this is your app.`,
+    affiliate_links: [],
+    tags: ["food", "food-waste", "app", "savings", "sustainability", "denmark", "global"],
+    meta_description: "Too Good To Go is a Danish-born app where you buy surprise bags of unsold food from local shops, cafés, and restaurants at a discount, keeping good food out of the bin.",
+    editors_note: "⚠️ No publisher affiliate program confirmed. One guide mentions a user referral bonus; I did not check for a publisher program, so ask them if monetization matters. It is a for-profit company that calls itself a 'social impact company'; the copy says both. Facts: the half-price-or-less claim, Surprise Bags, Parcels, and Look-Smell-Taste are from the company's own homepage (UK version); founding in Copenhagen in 2015 with an app launch in 2016 is from its history page. Numbers conflict: its history page says 150 million users and 200,000 partners, other recent pages say 120 million users and 180,000 to 200,000 partners and 20 or 21 countries, so the copy says 'more than 100 million' and 'about 200,000.' The 450 million meals figure and U.S. business fees ($1.79 per bag, $89 a year) are from Axios (May 2025). Other sources put typical savings at one-third of retail or 30 to 60% off, so the copy uses the site's own wording. The 'miss the pickup and forfeit the bag with no refund' point is from a Denmark guide, not the company page. The U.S. coverage line (30+ cities, aiming for every city over 1 million by end of 2025) comes from a September 2025 company press release as reported by PR Newswire, Progressive Grocer, and the Food Network, so it is about a year old; the 'smaller towns may have none' point is my inference from the metro-by-metro rollout, not a statement from the company. I did not use the app, and I did not confirm it operates in any particular city. Screenshot tip: the homepage hero or an app screen showing nearby Surprise Bags.",
+  },
+
+  "2026-10-23": {
+    id: 187,
+    date: "2026-10-23",
+    slug: "inaturalist",
+    headline: "POINT YOUR PHONE AT ANYTHING ALIVE. A GLOBAL COMMUNITY TELLS YOU WHAT IT IS. SCIENTISTS USE IT.",
+    subheadline: "iNaturalist is a free, nonprofit community where anyone can photograph a plant, animal, or fungus, get help identifying it, and add it to a living atlas of life on Earth. Its observations have helped rediscover lost species and find new ones.",
+    site: {
+      name: "iNaturalist",
+      url: "https://www.inaturalist.org/",
+      screenshot: "/assets/issues/inaturalist.png",
+      category: "Nature / Do-Good",
+      vibe: "Wondering what that bug is, except the answer ends up in a scientific database",
+    },
+    body: `Everyone has stood over a strange mushroom, a mystery bug, or an unfamiliar flower and wondered, "What is that?" Most of the time, we take a photo, forget about it, and never find out.
+
+iNaturalist turns that moment into something useful.
+
+**Here's how it works, in three steps.** First, you **observe**: open the app and photograph any wild plant, animal, fungus, or other organism, in your neighborhood or anywhere in the world. Second, you **identify**: the app suggests an identification instantly, and a global community of naturalists confirms or refines it. Third, you **contribute**: when the community agrees on an identification, the observation becomes "research grade" and enters the global scientific record as open data.
+
+**The scale is enormous.** The site's own stats say more than **300 million observations**, over **550,000 species** documented across the globe, **7,000+ scientific papers** citing iNaturalist data, and **500+ species discovered or rediscovered** by community scientists.
+
+**The stories are the best part.** A tourist in New Zealand spotted a Frosted Phoenix moth by accident, a species that hadn't been seen in decades and was once thought extinct. A woman walking in her neighborhood in Australia found a mantis that turned out to be new to science, and it was named *Inimia nat*, abbreviated "I. nat." In California, a group of local volunteers who met through iNaturalist worked together to protect migrating newts crossing a busy road.
+
+**You don't need to know anything.** The site says you don't need to know what you're looking at, and you can upload older photos as long as you know roughly when and where they were taken. The website works well on a desktop, the app is best for identifying things on the go, and there are dozens of language options. For children under 13, there's a separate app called Seek, which earns badges and joins challenges to observe species.
+
+**It's free and nonprofit.** iNaturalist describes itself as a nonprofit organization that supports science and conservation, funded by donations. Its software is open source, and it calls its community "the nicest place online," a phrase it takes from a local news headline.
+
+**Two honest notes:** an identification is a suggestion until the community agrees on it, and everything you post is public, open data. So think about what you share, especially exact locations of sensitive spots.
+
+Take one photo of something you can't name. That's all it takes to start.`,
+    affiliate_links: [],
+    tags: ["nature", "citizen-science", "identification", "biodiversity", "app", "nonprofit", "global"],
+    meta_description: "iNaturalist is a free, nonprofit community where anyone can photograph plants, animals, and fungi, get help identifying them, and contribute to real science. Over 300 million observations.",
+    editors_note: "❌ No affiliate — nonprofit (the site calls itself 'free, nonprofit, community-powered' and has Donate links). No product pick issue. Every number and story comes from iNaturalist's own homepage as fetched today: 300M+ observations, 550,000+ species, 7,000+ papers, 500+ species discovered or rediscovered, and the moth, mantis, and newt stories; the 'research grade' explanation, the Seek app, and the older-photos FAQ are also from the homepage. The '700,000+ downloads' figure on the page was ambiguous so I left it out. 'The nicest place online' is the site's own phrase, linked to an SFGate article. The note that everything is public comes from its FAQ ('all observations are open'); the caution about sensitive locations is my own general advice, not from iNaturalist. I did not use the app myself. CLUSTER: this is another nature/citizen-science pick (Falling Fruit, Zooniverse, OneZoom, BirdWeather, now this), with only OldMapsOnline and Missing Maps in between — consider putting something different on the next open days. Screenshot tip: the homepage hero ('Where your curiosity contributes to science'), or an observation page for a striking species.",
+  },
+
   "2026-10-22": {
     id: 186,
     date: "2026-10-22",
