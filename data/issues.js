@@ -3747,6 +3747,114 @@ Next time you're standing in a grocery aisle with a package in your hand, scan i
     editors_note: "❌ No affiliate — non-profit association of volunteers; no product pick issue. Global, French-founded: I confirmed the France origin in an earlier search this chat, but this round's sources did not restate it, so the copy only says 'non-profit association of volunteers' and 'French team' for Nutri-Score. Counts (100,000+ contributors, 4M+ products, 150 countries) come from the project's own discover page; other sources show older, smaller numbers, so I used only the project's own. I did NOT include the earlier-found claim that it takes no food-industry money, because this round's sources did not confirm it — add only if you verify it. Caveats about missing products and missing Nutri-Scores are in the copy. I did not scan a product myself. Screenshot tip: capture a product page for a familiar cereal or snack so the three ratings show. Oct 8 is still open.",
   },
 
+  "2026-10-22": {
+    id: 186,
+    date: "2026-10-22",
+    slug: "oldmapsonline",
+    headline: "TYPE IN YOUR TOWN. SEE WHAT IT LOOKED LIKE CENTURIES AGO, LAID RIGHT OVER TODAY'S MAP.",
+    subheadline: "OldMapsOnline is a free search portal that gathers historical maps from libraries and archives around the world into one place. Pick a year on the timeline, or overlay an old map on a modern one and watch a city's past appear underneath it.",
+    site: {
+      name: "OldMapsOnline",
+      url: "https://www.oldmapsonline.org/",
+      screenshot: "/assets/issues/oldmapsonline.png",
+      category: "History / Maps",
+      vibe: "A time machine that only needs a place name",
+    },
+    body: `The street you live on used to be something else. A field, a marsh, a rail yard, a river that someone later buried. The evidence exists. It's just sitting in library collections around the world, scanned and scattered, and almost nobody knows where to look.
+
+OldMapsOnline is the shortcut.
+
+**It's a single search portal for historical maps.** Instead of making you figure out which library holds which map, it pulls scanned maps from libraries, universities, and archives into one place. According to its own About page, it indexes **more than a million historical maps from over 70 partner institutions**. (Older write-ups cited around 500,000 maps from 50-plus institutions, so it has grown.) One of the best-known partners is the David Rumsey Map Collection from Stanford, which the site lists with more than 80,000 maps, many of them rare 18th and 19th century maps of North and South America.
+
+**Here's how it works.** Zoom and pan around a world map, or type in a place name, and you get a list of the old maps that cover it. A **timeline** lets you pick a year and watch the map update to show the political boundaries of that era. When you find a map you like, you can open it on the host institution's own site, or use the **Compare** tool to lay it on top of a modern map. That's the moment it gets addictive: you see exactly how a city's center grew, where a river used to run, and which streets are older than the buildings on them.
+
+**It was built by a small Swiss company with an academic partner.** Klokan Technologies of Switzerland created it in collaboration with the Great Britain Historical GIS Project at the University of Portsmouth. The project describes itself as having been improved and maintained since January 2013 by volunteers and the Klokan team in their free time, and it invites the community to help line up historical maps with modern geography. There are free mobile apps for iOS and Android too.
+
+**Honest notes:** not every map in the collection has been positioned on the modern map, and when overlays do work, the accuracy varies from map to map. Some maps are best viewed on the host library's own site. And while the web version is free, the iPhone app lists in-app purchases.
+
+Start with the place you know best. Then zoom out a few hundred years.`,
+    affiliate_links: [],
+    tags: ["history", "maps", "free", "libraries", "genealogy", "education", "global"],
+    meta_description: "OldMapsOnline is a free search portal for historical maps from libraries and archives worldwide, with a timeline and a tool for overlaying old maps on modern ones.",
+    editors_note: "❌ No affiliate found. Free portal run by Klokan Technologies GmbH (Switzerland); the iOS app lists in-app purchases. The homepage I fetched returned only a minimal page (the interactive map needs JavaScript), so the copy is built from the site's own About and Help pages, the App Store and Google Play listings, and a 2023 Digital Orientalist write-up; I did not use the map myself. Numbers conflict: the About page says 1M+ maps and 70+ partners, while older sources said about 500,000 maps and 50+ institutions; the copy uses the site's own figure and notes the older ones. The 'maintained by volunteers and Klokan in their free time since January 2013' line is the project's own statement as quoted by Digital Orientalist. The caveat that not every map is georeferenced and accuracy varies is also from that write-up. A history pick after the nature/science run (Falling Fruit, Zooniverse, OneZoom, Missing Maps, BirdWeather), but your archive has many map-based picks (Wheelmap, Missing Maps, Falling Fruit, True Size Of, Movie Scene Map), so it's worth not stacking another map next. Screenshot tip: an old map overlaid on a modern one for a recognizable city.",
+  },
+
+  "2026-10-21": {
+    id: 185,
+    date: "2026-10-21",
+    slug: "birdweather",
+    headline: "A LIVE MAP OF WHAT THE WORLD'S BACKYARDS SOUND LIKE RIGHT NOW. CLICK A SPOT, HEAR THE BIRDS.",
+    subheadline: "BirdWeather is a living library of bird sounds, built by citizen scientists with small listening stations that identify birds by their calls around the clock. You can explore the live map and hear what's being detected without buying anything.",
+    site: {
+      name: "BirdWeather",
+      url: "https://www.birdweather.com/",
+      screenshot: "/assets/issues/birdweather.png",
+      category: "Nature / Tech",
+      vibe: "Most of the birds near you are heard, not seen, and this is the site that hears them",
+    },
+    body: `Right now, in the trees outside your window, there are probably birds you've never noticed. You'll hear them without seeing them, and by the time you reach for your phone, they've gone quiet.
+
+BirdWeather doesn't blink, and it never goes quiet.
+
+**Here's the idea.** BirdWeather describes itself as a living library of bird vocalizations built by citizen scientists worldwide. People set up small listening stations, and every sound the stations pick up is sent to the cloud, where an AI called **BirdNET** identifies the species. BirdNET is a joint project of the Cornell Lab of Ornithology and Chemnitz University of Technology, and BirdWeather says it covers over 6,000 bird species. It also flags non-bird sounds like coyotes, dogs, frogs, and insects, and the site says it automatically removes any recording that contains human voices.
+
+**The free part is the best part.** You don't need a device to explore. The live map shows listening stations around the world, the home page lists recent top detections you can click to play, and there are free mobile apps for iOS and Android for listening to soundscapes. Open it, pick a place, and hear what a stranger's backyard sounds like at this moment.
+
+**If you want to build your own station,** the main device is the BirdWeather PUC, a palm-sized, weatherproof listener with dual microphones, GPS, and environmental sensors that runs on a one-button setup and connects to Wi-Fi. The site stresses there's no subscription, and the data is yours to download. There's also a Bat Edition that listens at ultrasonic frequencies, so you get "birds by day, bats by night." For tinkerers, BirdNET-PI is a do-it-yourself way to join, built on a Raspberry Pi.
+
+**The data is open and it's being used.** BirdWeather offers public APIs and a data explorer for researchers. Its press page highlights coverage of an August 2025 study of millions of audio recordings, which found that artificial light makes birds wake earlier and go to bed later. The Guardian's headline said urban birds settle down for sleep about 50 minutes later than their rural counterparts.
+
+**Who's behind it:** Scribe Labs, which describes itself as a small team of technologists, led by founder and CEO Tim Clark. It's a company, not a charity, and the PUC raised more than $130,000 on Kickstarter in 2023 against a $50,000 goal.
+
+**Honest notes:** the PUC isn't cheap (reviews and deal listings put it around $250 at various times, so check the shop for today's price). It records audio only, with no camera. AI identifications aren't perfect. And if you just want to identify birds, free alternatives like Cornell's Merlin app exist, which is exactly the comparison some reviewers make.
+
+You can spend an afternoon on the map and not spend a dollar. Click somewhere you've never been and listen.`,
+    affiliate_links: [],
+    tags: ["birds", "nature", "citizen-science", "ai", "sound", "maps", "tech"],
+    meta_description: "BirdWeather is a living library of bird sounds built by citizen scientists, with a live map to explore for free. Listening stations use the BirdNET AI to identify birds by sound.",
+    editors_note: "⚠️ Affiliate not found/not checked. The site has a free side (live map, top detections, mobile apps, open APIs, BirdNET-PI) and a paid side (PUC listening device; Bat Edition $499 on its page). I could not confirm the PUC's current price: the shop page I fetched showed none, and older sources said $249 or $259 (with a 20% code in Aug 2025), so the copy says 'around $250' and tells readers to check. The Bat Edition's species count conflicts between pages (92 on the homepage, 215 on the product page), so I left it out. The homepage live counters rendered as '...' (JavaScript), so no live counts are quoted. The light-pollution study is attributed to BirdWeather's own press section; I did not verify that its data came from BirdWeather. 'The Guardian headline: urban birds settle down about 50 minutes later' is from that headline, not the full article. Kickstarter figure ($130,051 vs. $50,000 goal) is from BackerKit. Ships to US and Canada; the Bat Edition has a separate non-US seller (Veldshop). I did not use a PUC myself. CLUSTER: this is the fifth nature/science/volunteer-style pick in six days (Falling Fruit, Zooniverse, OneZoom, Missing Maps, this) — consider putting something different on the next open days. Screenshot tip: the live map zoomed on a region, or the homepage hero.",
+  },
+
+  "2026-10-20": {
+    id: 184,
+    date: "2026-10-20",
+    slug: "missing-maps",
+    headline: "THE PLACES RESPONDERS CAN'T FIND ON A MAP? VOLUNTEERS ARE DRAWING THEM IN.",
+    subheadline: "Missing Maps lets anyone trace satellite images into OpenStreetMap so humanitarian groups can work in places that need better maps. It was started by the Red Cross, Médecins Sans Frontières, and the Humanitarian OpenStreetMap Team, and it needs no experience.",
+    site: {
+      name: "Missing Maps",
+      url: "https://missingmaps.org/",
+      screenshot: "/assets/issues/missing-maps.png",
+      category: "Humanitarian / Do-Good",
+      vibe: "Draw a rooftop at your kitchen table. Help a response team somewhere you've never been.",
+    },
+    body: `A good map feels like a small miracle most of us never think about. You look up a street and it's there. Now picture needing to plan a vaccination drive, an evacuation route, or a clinic's service area in a place where the map is mostly blank.
+
+Missing Maps exists to fill in those blanks, and it does it by asking ordinary people for an hour of their time.
+
+**It's an open, collaborative project** in which volunteers help map areas where humanitarian organizations are working with people who live at risk of disasters and crises. The idea is the site's three steps:
+
+1. **Remote mapping.** Volunteers anywhere in the world trace satellite imagery into **OpenStreetMap**, the open, volunteer-built map of the planet.
+2. **Field mapping.** Community volunteers on the ground add the local detail satellites can't see, like neighborhood names, street names, and evacuation centers.
+3. **Data usage.** Humanitarian organizations and local communities use those maps to plan risk reduction and disaster response.
+
+**You can start without experience.** The site's advice is that it doesn't take long to learn, and the best way in is a **mapathon**, an event where volunteers get training and map together. Mapathons are organized by groups and individuals all over the world, and the site keeps an events calendar. If no event fits your language or schedule, you can start anytime by choosing one of its mapping tools, MapSwipe or the HOT Tasking Manager, and picking a project that matches your skill level.
+
+**The scale is real.** According to the site's own stats, last updated October 18, 2026, the project has more than **189,000 contributors**, over **108 million edits**, more than **66 million buildings** edited, and about **1.2 million kilometers of roads** mapped.
+
+**Here's what it looks like in practice.** In 2026, after an Ebola outbreak was confirmed in the Democratic Republic of the Congo on May 18, the Humanitarian OpenStreetMap Team worked with local mappers and Médecins Sans Frontières and launched mapping projects from May 21. Elsewhere, in Kulob, Tajikistan, MSF teams combined remote sessions with local knowledge to draw neighborhood boundaries that had never been mapped before, for a tuberculosis screening project.
+
+**The founders are exactly who you'd hope for:** the American Red Cross, the British Red Cross, the Humanitarian OpenStreetMap Team, and Médecins Sans Frontières, joined by member groups that include the IFRC, the German, Canadian, Kenyan, and Spanish Red Cross societies, Map Kibera, and YouthMappers. The site is available in English, French, Czech, and Spanish.
+
+And if the name OpenStreetMap sounds familiar, it's the same open map underneath Wheelmap, which we featured on October 12.
+
+Mapping isn't glamorous. It's careful tracing, one rooftop and road at a time. But someone, somewhere, will use what you draw.`,
+    affiliate_links: [],
+    tags: ["humanitarian", "volunteering", "maps", "openstreetmap", "disaster-response", "free", "global"],
+    meta_description: "Missing Maps lets anyone trace satellite imagery into OpenStreetMap to help humanitarian groups work in places at risk of disasters and crises. Founded by the Red Cross, MSF, and HOT.",
+    editors_note: "❌ No affiliate — a collaborative humanitarian project, no products. Every fact comes from the Missing Maps homepage as fetched today: the three-step process, the mapathon advice, the stats (189K+ contributors, 108M+ edits, 66M+ building edits, 1.21M km of roads, from ohsomeNow Stats, last updated Oct 18, 2026), the founders and members, the languages, and two blog examples (the 2026 Ebola response in the DRC and the Kulob, Tajikistan tuberculosis project). The Ebola mention is kept strictly factual and attributed to HOT and MSF's mapping work. The Wheelmap callback is accurate: Wheelmap is built on OpenStreetMap (we confirmed that when drafting the Oct 12 issue). The line 'Mapping isn't glamorous' is my own framing. I did not try mapping myself, and I did not verify claims about how many lives the maps help. Cluster note: this is another volunteer-driven science/community pick (Falling Fruit Oct 17, Zooniverse Oct 18, OneZoom Oct 19, now this), so consider something different next. Screenshot tip: the homepage hero ('Mapping Together for Humanitarian Action') or the Current Projects page.",
+  },
+
   "2026-10-19": {
     id: 183,
     date: "2026-10-19",
