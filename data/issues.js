@@ -3747,6 +3747,50 @@ Next time you're standing in a grocery aisle with a package in your hand, scan i
     editors_note: "❌ No affiliate — non-profit association of volunteers; no product pick issue. Global, French-founded: I confirmed the France origin in an earlier search this chat, but this round's sources did not restate it, so the copy only says 'non-profit association of volunteers' and 'French team' for Nutri-Score. Counts (100,000+ contributors, 4M+ products, 150 countries) come from the project's own discover page; other sources show older, smaller numbers, so I used only the project's own. I did NOT include the earlier-found claim that it takes no food-industry money, because this round's sources did not confirm it — add only if you verify it. Caveats about missing products and missing Nutri-Scores are in the copy. I did not scan a product myself. Screenshot tip: capture a product page for a familiar cereal or snack so the three ratings show. Oct 8 is still open.",
   },
 
+  "2026-10-26": {
+    id: 190,
+    date: "2026-10-26",
+    slug: "paper-animators",
+    headline: "TURN A PHOTO INTO A TORN-PAPER ANIMATION IN SECONDS. FREE, NO WATERMARK, NO SIGN-UP.",
+    subheadline: "Paper Animators is a playground of 23 browser tools for paper cutouts, flying newspaper headlines, crumpled-paper reveals, and a paper plane that traces your route across a map. Pick one, make it yours, and export a clip for your next video.",
+    site: {
+      name: "Paper Animators",
+      url: "https://paperanimators.com/",
+      screenshot: "/assets/issues/paper-animators.png",
+      category: "Tools / Creative",
+      vibe: "The look that takes an afternoon in After Effects, done in the time it takes to upload a photo",
+    },
+    body: `If you've watched any video made in the last few years, you've seen the look: a person cut out of a photo with a rough white paper edge, a headline assembled from torn newspaper scraps, a little paper plane tracing a route across a map. It looks handmade. It usually takes a skilled editor hours of setup.
+
+Paper Animators puts that setup into a browser tab.
+
+**Here's how it works.** The site is a library of **23 customizable effects**. Pick one, drop in your own photo or words, adjust the colors, the paper, and the timing, and export a clip of up to 60 seconds, or just a still frame. There's no account, no watermark, and nothing to install.
+
+**A few of the effects, to give you a feel:**
+
+- **Paper Cutout Sticker:** turn a photo or a short video into a torn-edge paper sticker, with controls for the outline, shadow, and motion.
+- **Crumple Cutout Reveal:** a crushed ball of paper opens up in tactile stop-motion to reveal your cutout.
+- **Torn Headline Reveal:** nine interlocking newspaper fragments fly together to spell out a headline.
+- **Paper Flight:** a paper plane traces a great-circle route across a textured atlas with real country boundaries, and there are map variants for multi-stop journeys, radar pulses on a city, and global connections.
+- **Evidence Board:** photos, pinned notes, and connecting threads form an animated investigation.
+- **Text Match Cut:** one highlighted word stays perfectly in place while newspaper pages, typefaces, and creased paper change around it.
+- **Typewriter, Magnifying Glass, Magazine Letters:** more tactile effects built around type.
+
+**There's also a background remover:** add a photo or short video, remove the background, and save a transparent PNG, with no watermark and no sign-up. For editors, there's green-screen export, so you can drop an animation over your own footage in CapCut, Premiere Pro, or any editor.
+
+**Your files stay on your device, according to the site.** It says the photos and videos you choose are processed locally in your browser, and that the optional background removal uses downloadable models.
+
+**Who's behind it:** the About page describes an independent project built by a creator with five years of video editing and After Effects experience and two years working with AI products. It says it isn't affiliated with similarly named animation services.
+
+**A few honest notes:** it works best in current desktop Chrome or Edge, and performance depends on your hardware. You need permission for any images or text you add, even though the results are free to use in client projects. And the FAQ says "our current tools are free," which is a promise about now, not forever.
+
+If you've ever wanted your photos to look like they belong in a documentary, give it a few minutes.`,
+    affiliate_links: [],
+    tags: ["video", "animation", "design", "free", "tools", "creative", "no-signup"],
+    meta_description: "Paper Animators offers 23 free browser tools for paper cutout animation, torn headlines, map journeys, and typography. No sign-up, no watermark, and exports up to 60 seconds.",
+    editors_note: "❌ No affiliate — free tools from an independent creator (unnamed). The page says exports are free, watermark-free, and need no account, and that exports run up to 60 seconds; the FAQ wording 'our current tools are free' is quoted as a caution in the copy because it isn't a promise about the future. 'Processed on your device' is the site's own claim; I did not test it. I could not try the tools, so the effect descriptions come from the site's own directory and About page. The site has a Support page that I did not open (it may ask for donations). Creator is described only as having five years of video editing/After Effects experience and two years working with AI products. Screenshot tip: the homepage hero with the paper-edge portrait, or an effect page like the Crumple Cutout Reveal. A creative, visual change of pace after a run of helps-people and nature picks.",
+  },
+
   "2026-10-25": {
     id: 189,
     date: "2026-10-25",
