@@ -3747,6 +3747,160 @@ Next time you're standing in a grocery aisle with a package in your hand, scan i
     editors_note: "❌ No affiliate — non-profit association of volunteers; no product pick issue. Global, French-founded: I confirmed the France origin in an earlier search this chat, but this round's sources did not restate it, so the copy only says 'non-profit association of volunteers' and 'French team' for Nutri-Score. Counts (100,000+ contributors, 4M+ products, 150 countries) come from the project's own discover page; other sources show older, smaller numbers, so I used only the project's own. I did NOT include the earlier-found claim that it takes no food-industry money, because this round's sources did not confirm it — add only if you verify it. Caveats about missing products and missing Nutri-Scores are in the copy. I did not scan a product myself. Screenshot tip: capture a product page for a familiar cereal or snack so the three ratings show. Oct 8 is still open.",
   },
 
+  "2026-10-27": {
+    id: 192,
+    date: "2026-10-27",
+    slug: "cool-backgrounds",
+    headline: "FIVE TOOLS THAT TURN A BLANK SCREEN INTO A GORGEOUS BACKGROUND, IN SECONDS.",
+    subheadline: "Cool Backgrounds is a collection of generators for colorful triangles, glowing particle lines, smooth gradients, layered topography, and photos, so you can make a hero image, a social banner, or a wallpaper for your phone without touching design software.",
+    site: {
+      name: "Cool Backgrounds",
+      url: "https://coolbackgrounds.io/",
+      screenshot: "/assets/issues/cool-backgrounds.png",
+      category: "Tools / Creative",
+      vibe: "The shortcut to a good-looking image when you have nothing but a headline",
+    },
+    body: `You finish writing something you're proud of. Then you hit the hardest step: finding an image to put on top of it. A stock photo feels generic. A blank header feels unfinished. So the post sits in drafts.
+
+Cool Backgrounds is built for exactly that moment.
+
+**It's a set of tools that generate backgrounds, not a folder of stock photos.** The home page offers five, each with its own personality:
+
+- **Trianglify:** colorful abstract triangles.
+- **Particles:** precise technical lines.
+- **CSS Gradient:** happy, fresh color blends.
+- **Gradient Topography:** smooth layered shapes.
+- **Unsplash:** immersive, compelling photographs.
+
+You can also browse by color, with pages for white, blue, black, pink, red, green, purple, yellow, gold, orange, brown, and gray backgrounds. Once you've made something you like, the images work as a hero image for a blog or website, a profile banner for social media, or a desktop or phone wallpaper. The site's creator says he uses Gradient Topography, in black and dark gray, on his own iPhone.
+
+**The origin story is practical.** It started while the team behind it was building a gradient generator, CSS Gradient, and noticed how popular wallpapers and backgrounds were. What was missing, they decided, was a tool that let non-technical people use the new generation of JavaScript design libraries to make unique images of their own. The first spark came even earlier, when they needed a compelling image for a dry tutorial about HTML code. They generated one with a triangle library, and they say people still email them asking how they made it.
+
+**It credits its sources, which is a nice touch.** The site's colophon thanks the authors of the libraries doing the heavy lifting, including Quinn Rohlf of Trianglify.js and Marc Brüderlin of particles.js, along with the Codrops team, whose work inspired the Gradient Topography tool, and Unsplash.
+
+**It belongs to a small family of side projects.** Cool Backgrounds is part of a group of makers who describe their mission as building a better internet, one digital project at a time, along with tools like a word counter, a font generator called Fontcraft, and a Day of the Dead resource site.
+
+**A few honest notes:** this isn't an AI image generator. It wraps existing design libraries in friendly tools, and the site itself says so. The page doesn't spell out pricing or licensing, so for anything commercial, check each tool's terms and Unsplash's photo license. The site has been around since at least 2017, and it's available in English, Spanish, and Portuguese.
+
+Next time you need a header and have nothing, start here.`,
+    affiliate_links: [],
+    tags: ["design", "backgrounds", "wallpapers", "tools", "creative", "web", "blogging"],
+    meta_description: "Cool Backgrounds is a collection of tools for generating backgrounds from triangles, particles, gradients, topography, and photos, for blog headers, social banners, and wallpapers.",
+    editors_note: "⚠️ No affiliate checked, and the page states no pricing or licensing terms, so the copy never calls it 'free' and tells readers to check each tool's terms and Unsplash's license for commercial use. Everything in the copy comes from the site's own pages: the five tools, the color pages, the origin story, the colophon credits, the use cases, the side-project family, and the languages. The site's share text credits its design to @moeamaya, and its footer calls it 'a Visual project, a generative design tool'; I did not name a person in the copy. It is an older site (© 2017–2026). I did not try the tools. Screenshot tip: the homepage hero or a Trianglify or Gradient Topography result. A creative, visual change of pace after the helps-people run.",
+  },
+
+  "2026-10-30": {
+    id: 194,
+    date: "2026-10-30",
+    slug: "musicwander",
+    headline: "TYPE IN YOUR LAST.FM NAME. GET A RADIO THAT SKIPS THE HITS.",
+    subheadline: "MusicWander is a free discovery radio that reads your Last.fm listening history and steers you toward underground artists and hidden gems. No account, no ads, and the site says your data never leaves your browser.",
+    site: {
+      name: "MusicWander",
+      url: "https://musicwander.com/",
+      screenshot: "/assets/issues/musicwander.png",
+      category: "Music / Tools",
+      vibe: "A record-shop clerk who has read your entire listening diary",
+    },
+    body: `Streaming apps are very good at one thing: playing you more of what you already like. If you've ever felt like your recommendations are the same twenty artists in a different order, that's the machine working as designed.
+
+MusicWander is built to do the opposite.
+
+**It starts from your Last.fm history.** You type in your Last.fm username, and the site reads your top artists and tags from the past three to twelve months. (If you missed our piece on Last.fm two days ago, it's the long-running service that logs every song you play.) From there, MusicWander builds a queue that leans away from the charts. The about page describes it as **underground-first**: it favors niche artists and deep cuts, not whatever's viral.
+
+**How it works, per the site:** it models how your taste shifts over time, explores graphs of similar artists and overlapping tags, and generates a queue of **30-second previews**. You like or skip each one, and the queue adjusts. There are three modes (Discovery, Balanced, and Accessible) and a hidden-gems filter for underground-only picks.
+
+**It's a discovery tool, not a streaming service.** The previews are short on purpose, and when you find something you love, you can export your likes through Soundiiz or as a JSON file and sync them to Spotify or Apple Music.
+
+**The privacy pitch is simple.** The site says there are no accounts, no ads, and no tracking pixels, and that your data stays in your browser and never reaches its servers.
+
+**It's a one-person project.** MusicWander is an independent project by Guillaume Marical, built with plain JavaScript and small downloads, and it says plainly that it's not affiliated with Last.fm, Spotify, Apple Music, or iTunes.
+
+**A few honest notes:** it only works if you have Last.fm listening history to read, so it's best for people who already scrobble. The site's claims about "machine learning" and adaptive algorithms are its own, and I couldn't test how well the recommendations work. It's a free hobby-scale project, so don't expect the polish of a big service.
+
+If the algorithm has you stuck in a loop, give it a different teacher.`,
+    affiliate_links: [],
+    tags: ["music", "discovery", "lastfm", "free", "privacy", "indie", "tools"],
+    meta_description: "MusicWander is a free discovery radio that reads your Last.fm history and surfaces underground artists and hidden gems. No sign-up, and the site says your data stays in your browser.",
+    editors_note: "❌ No affiliate — a free independent project (the about page credits Guillaume Marical) that says it is not affiliated with Last.fm, Spotify, or Apple Music. Everything in the copy comes from the site's own home and about pages: Last.fm username input, 3 to 12 months of top artists and tags, underground-first bias, 30-second previews, three modes, hidden-gems filter, export via Soundiiz or JSON, and the no-accounts, no-ads, data-stays-in-your-browser claims. The 'machine learning' wording is the site's own and I did not test the recommendations. The 'two days ago' reference in the copy points to the Last.fm issue on Oct 28, so if you move either date, edit that sentence. Pairs with Last.fm (Oct 28). Part of a music/audio run (A Soft Murmur, VocalCut, Museum of Canadian Music, Last.fm). Screenshot tip: the home page with a Last.fm username typed in, or the queue once it's running.",
+  },
+
+  "2026-10-28": {
+    id: 193,
+    date: "2026-10-28",
+    slug: "lastfm",
+    headline: "THE SITE THAT HAS BEEN KEEPING A DIARY OF YOUR MUSIC SINCE 2002.",
+    subheadline: "Last.fm quietly logs every song you play, in Spotify and other apps, and turns it into charts, weekly reports, and recommendations. It also coined the word 'scrobble.' And in May 2026, after almost two decades under corporate owners, it became independent again.",
+    site: {
+      name: "Last.fm",
+      url: "https://www.last.fm/",
+      screenshot: "/assets/issues/lastfm.png",
+      category: "Music / Culture",
+      vibe: "A listening diary older than most streaming apps",
+    },
+    body: `What were you listening to in the spring of 2016? Most streaming apps can tell you what you played this week. Almost none can tell you what you loved a decade ago.
+
+Last.fm can.
+
+**It's a music tracking service that logs every song you play.** Each logged play is called a **scrobble**, a word Last.fm coined in 2002. Connect your music apps to a free Last.fm account, and every track you listen to gets recorded to your profile automatically, whichever app or device you used. Over time, those plays become a listening archive that belongs to you, not to any one streaming service. Some users have unbroken histories going back to 2005.
+
+**Here's how it works.** Spotify can be connected directly in Last.fm's settings, and every play then logs on its own. For other services, like Apple Music or YouTube Music, small helper apps and browser extensions do the logging. A play counts as a scrobble once a track longer than 30 seconds has played halfway or four minutes, whichever comes first.
+
+**What you get back:** charts of your top artists, albums, and tracks over any stretch from the last seven days to all time, weekly and yearly listening reports, and recommendations drawn from what similar listeners play. Profiles are public unless you change your privacy settings.
+
+**It doesn't play music.** Last.fm ended its own streaming radio in 2014, and today it tracks what you play elsewhere. It's a mirror, not a jukebox.
+
+**And it just had a big year.** According to Wikipedia and several recent write-ups, Last.fm was independent for its first few years, then owned by CBS and its successors, including Paramount, from 2007 until 2026. In May 2026, it announced it had become an independent company again.
+
+**A few honest notes:** you need a free account, your listening data lives on Last.fm's servers, and one guide lists a paid Pro plan at $4.99 a month for ad-free browsing, scrobble editing, and extra reports. The basics, scrobbling and charts, are free.
+
+In two days, we'll feature a free tool that takes your Last.fm history and builds you a radio of music you've never heard.
+
+If you've ever wanted a diary of everything you've loved to hear, you can start tonight, and your future self will thank you.`,
+    affiliate_links: [],
+    tags: ["music", "scrobbling", "streaming", "stats", "history", "independent", "free"],
+    meta_description: "Last.fm logs every song you play across apps and turns it into charts, reports, and recommendations. It coined 'scrobbling' in 2002 and became independent again in May 2026.",
+    editors_note: "⚠️ Affiliate not checked. Free account; one third-party guide (Music Profile Viewer) lists Last.fm Pro at $4.99 a month or $49.99 a year, which I did not verify on Last.fm itself, so the copy gives only the monthly price and attributes it to 'one guide.' I could not fetch last.fm directly (the fetch was blocked), so the copy comes from Wikipedia's Last.fm entry (ownership history: CBS 2007–2021, Paramount 2021–2026; independent again in May 2026), Last.fm's own Track My Music page, and several 2026 write-ups. 'Ended streaming radio in 2014' is from one guide. Scrobble rules (half the track or four minutes, over 30 seconds) are from guides and Last.fm's own material as quoted there. The copy says Last.fm coined 'scrobble' in 2002, per multiple sources. The line 'In two days, we'll feature…' points to MusicWander on Oct 30; if you move either date, edit it. I did not use the site. Part of a music/audio run. Screenshot tip: a public profile's charts page; use your own profile or a public one you're comfortable showing.",
+  },
+
+  "2026-10-29": {
+    id: 191,
+    date: "2026-10-29",
+    slug: "dollar-for",
+    headline: "YOUR HOSPITAL MAY BE LEGALLY REQUIRED TO FORGIVE YOUR BILL. THIS NONPROFIT HELPS YOU APPLY, FOR FREE.",
+    subheadline: "Dollar For helps people apply for hospital financial assistance, often called charity care, the little-advertised programs that can reduce or erase a bill based on income. Check if you qualify in minutes, and get help with the paperwork at no cost.",
+    site: {
+      name: "Dollar For",
+      url: "https://dollarfor.org/",
+      screenshot: "/assets/issues/dollar-for.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "The hospital's best-kept secret, with a human to walk you through it",
+    },
+    body: `The hospital bill arrives. It's thousands of dollars, and most people do what they've always done: they panic, then they pay what they can, or put it on a credit card.
+
+Almost nobody is told there's another option.
+
+**It's called charity care.** Hospital financial assistance, sometimes called charity care, is a program that reduces or eliminates a bill based on your income. Nonprofit hospitals are required by law to offer it, and many for-profit hospitals offer help too. Dollar For's site says that, on average, **a family of four earning less than $100,000 a year will qualify.** Many people with jobs and insurance are surprised to learn they can qualify for at least some relief.
+
+**The catch is that hospitals don't exactly advertise it.** Dollar For estimates that hospitals fail to distribute around $14 billion in financial assistance every year. Most eligible patients never apply, and many never learn the programs exist.
+
+**Here's how Dollar For helps.** It's a nonprofit, and its service is free. You start with a short bilingual screener, about six questions, that tells you quickly whether your bill might qualify. If it does, Dollar For helps you prepare and submit the application to your hospital, follows up, and can submit additional documents or help prepare an appeal if the hospital pushes back. If you'd rather do it yourself, there's also an online Financial Assistance Handbook with the tips and tools. The organization says it shares your information only with your hospital.
+
+**The origin is a good one.** Founder Jared Walker, based in Portland, Oregon, started out crowdfunding to help strangers pay medical bills. Then he discovered charity care: a law that already required hospitals to do much of what he was raising money for. He pivoted. A TikTok video he made in 2021 went viral, and patients across the country started asking for help.
+
+**The results are big.** In a recent interview, Walker said Dollar For had submitted more than 41,000 applications for patients and eliminated more than $135 million in medical debt, and a news report this month put the total since 2021 at $170 million. Individual results ranged widely, from about $500 to as much as $430,000. In one example from that report, a patient's bill dropped by $2,100, leaving her with $200 to pay.
+
+It's funded by donations and philanthropy. If you read our piece on Undue Medical Debt, which erases other people's old debt, think of this as the other half: help for the bill sitting on your own table right now.
+
+**Honest notes:** it's for hospital bills in the U.S., and approval is up to each hospital, so there's no guarantee. Results vary a lot. And this is general information, not legal or financial advice.
+
+Before you pay a hospital bill, run it through the screener first.`,
+    affiliate_links: [],
+    tags: ["medical-debt", "healthcare", "nonprofit", "free", "hospital-bills", "charity-care", "finance"],
+    meta_description: "Dollar For is a free nonprofit that helps people apply for hospital financial assistance (charity care), which can reduce or erase a bill based on income. Check eligibility in minutes.",
+    editors_note: "❌ No affiliate — free service of a nonprofit funded by donations and philanthropy. No product pick issue. US-only (hospital bills). Numbers conflict across sources: amounts eliminated range from $26M (2023) to $83M, $110M, $120M+, $135M+ and $170M; founding year is 2012 or 2015 depending on the source, with the charity-care pivot in 2021. The copy avoids a founding year, attributes '$135M+ and 41,000+ applications' to a founder interview (Morgridge Family Foundation, about five months old), and the '$170M since 2021', the $500 to $430,000 range, and the $2,100 example to a CBN News report from this month. 'On average, a family of 4 earning less than $100,000 will qualify' is from Dollar For's own homepage; the '$14 billion' is Dollar For's estimate as quoted by Morgridge; 'six-question bilingual screener' and 'shares data only with the patient's hospital' are from a HealthWell Foundation article. I did not use the screener myself. The nonprofit-hospital legal requirement is from the sources' description of IRS section 501(r); the copy states it as general information, not legal or financial advice. Callback to Undue Medical Debt (Sep 26), which never got the 'help for your own debt' angle you wanted. Screenshot tip: the homepage hero ('Get Relief from Hospital Bills').",
+  },
+
   "2026-10-26": {
     id: 190,
     date: "2026-10-26",
