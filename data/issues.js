@@ -3789,6 +3789,126 @@ Next time you need a header and have nothing, start here.`,
     editors_note: "⚠️ No affiliate checked, and the page states no pricing or licensing terms, so the copy never calls it 'free' and tells readers to check each tool's terms and Unsplash's license for commercial use. Everything in the copy comes from the site's own pages: the five tools, the color pages, the origin story, the colophon credits, the use cases, the side-project family, and the languages. The site's share text credits its design to @moeamaya, and its footer calls it 'a Visual project, a generative design tool'; I did not name a person in the copy. It is an older site (© 2017–2026). I did not try the tools. Screenshot tip: the homepage hero or a Trianglify or Gradient Topography result. A creative, visual change of pace after the helps-people run.",
   },
 
+  "2026-11-02": {
+    id: 197,
+    date: "2026-11-02",
+    slug: "drugs-pill-identifier",
+    headline: "FOUND A LOOSE PILL? TYPE IN THE LETTERS STAMPED ON IT AND FIND OUT WHAT IT IS.",
+    subheadline: "The Drugs.com Pill Identifier matches a pill by its imprint, color, and shape against a database of more than 32,000 images. It's also the quickest way to find out why your refill suddenly looks different.",
+    site: {
+      name: "Drugs.com Pill Identifier",
+      url: "https://www.drugs.com/imprints.php",
+      screenshot: "/assets/issues/drugs-pill-identifier.png",
+      category: "Health / Tools",
+      vibe: "A decoder ring for the tiny letters on every pill",
+    },
+    body: `Everyone has found one. A loose pill on the bathroom floor. A mystery tablet at the bottom of a purse. A parent's pill organizer where the colors don't match the label. Or the refill that arrived looking nothing like last month's, and now you're not sure it's the same medicine.
+
+That's what the Drugs.com Pill Identifier is for.
+
+**Here's how it works.** Look at the pill for letters or numbers stamped on it, called an imprint. Type them into the search box. The site's own tip is to **enter the imprint only first**, and add the color and shape afterward if too many results come up. You can also search by drug name or by NDC code, the product code on the package. The site says it holds **more than 32,000 images, updated daily**, and each result shows the drug name, its strength, and the manufacturer.
+
+**The refill that looks different is more common than you'd think.** Drugs.com notes that a white round pill from last month may now be pink with a different imprint, because pharmacies can switch manufacturers. It also cites findings that patients whose pills changed color or shape were more likely to stop taking their medication. The advice: check the color, shape, imprint, and directions on the label. If your medicine looks different, ask your pharmacist to confirm it's the right one.
+
+**What about a pill with no imprint?** Drugs.com says pills without an imprint may be vitamins, supplements, herbal products, or drugs made outside the US, and one of its articles notes that a pill without an imprint may not be an approved medicine. In the US, most prescription and over-the-counter pills are required to carry an imprint code.
+
+**Where the information comes from:** the site lists sources including Micromedex, Cerner Multum, and ASHP. Its database also includes historical data for many products that have been discontinued.
+
+**Please read this part:**
+
+- **It's for education, not medical advice.** The site says so itself.
+- **Never take a pill you can't identify.** If the pill doesn't match the database entry for its imprint, a pharmacist or a poison control center is the right call.
+- **Color and shape alone aren't reliable.** Different manufacturers make similar-looking pills, so start with the imprint.
+- **It focuses on US pills,** and no identifier covers everything.
+
+Drugs.com is a commercial site that also promotes its own discount card. If you read our pieces on GoodRx and ProPublica's Rx Inspector, think of this as the third tool in your pharmacy toolkit.
+
+Next time a pill turns up where it shouldn't be, read the tiny letters before you do anything else.`,
+    affiliate_links: [],
+    tags: ["health", "medication", "safety", "free", "tools", "pharmacy", "seniors"],
+    meta_description: "The Drugs.com Pill Identifier lets you identify a pill by its imprint, color, and shape, using a database of 32,000+ images. Free, for educational use. Mostly US pills.",
+    editors_note: "⚠️ Affiliate not checked. Drugs.com is a commercial site (it promotes its own discount card), and I did not confirm whether it runs ads or a publisher program. Health-sensitive: the copy repeats the site's own cautions (educational only, not medical advice) and general advice from guides (never take an unidentified pill, check with a pharmacist or poison control, color and shape alone are unreliable). The '32,000+ images, updated daily' and the data sources (Micromedex, Cerner Multum, ASHP) come from the Drugs.com Pill Identifier page; older Drugs.com pages say 10,000 images and a third-party guide says 11,500 medications, so the copy uses the site's current figure. The refill-looks-different point, the finding that patients whose pills changed were more likely to stop taking them, and the no-imprint explanation are from Drugs.com articles. The 'most US prescription and OTC pills must carry an imprint code' line is from a Drugs.com article whose wording was cut off in my search result, so I kept it general. Callback to GoodRx (Oct 2) and Rx Inspector (Oct 15). I did not use the tool. Screenshot tip: the Pill Identifier page with the imprint box; for an example, use a common over-the-counter pill, not a controlled substance.",
+  },
+
+  "2026-11-01": {
+    id: 196,
+    date: "2026-11-01",
+    slug: "brokercheck",
+    headline: "'FINANCIAL ADVISOR' IS JUST A JOB TITLE. THIS FREE SITE SHOWS WHAT'S ON THEIR RECORD.",
+    subheadline: "BrokerCheck is the free tool from the industry regulator FINRA that lets you look up any broker or brokerage firm before you hand over money. See their licenses, work history, customer complaints, and disciplinary actions in a few minutes.",
+    site: {
+      name: "BrokerCheck (FINRA)",
+      url: "https://brokercheck.finra.org/",
+      screenshot: "/assets/issues/brokercheck.png",
+      category: "Money / Consumer Protection",
+      vibe: "A background check you're allowed to run on the person managing your money",
+    },
+    body: `Here's something most people don't realize: "financial advisor" is a job title, not a license. FINRA, the regulator that supervises brokerage firms, lists it among the generic titles that can be used without holding any specific credential. Someone with real qualifications and someone with none can print the same words on a business card.
+
+So how do you tell them apart before you hand over your retirement savings?
+
+You look them up. It takes a few minutes, and it's free.
+
+**BrokerCheck is the lookup tool.** It's run by FINRA, and anyone can search it by a name or a firm. A report shows the person's registration status, the licenses and exams they hold, and up to **10 years of employment history**, including self-employment, military service, and unemployment, so gaps and frequent job changes show up plainly.
+
+**Then comes the part that matters: disclosures.** These can include customer disputes, regulatory actions, terminations from previous firms, and certain criminal matters and financial events, like bankruptcies. FINRA defines a customer dispute as a consumer-initiated complaint or arbitration alleging things like sales-practice violations, forgery, theft, or misappropriation of funds. If an advisor has one, the listing describes the nature of the dispute, the amount requested, and how it was resolved.
+
+**The warning signs, according to the guides,** include multiple customer disputes or settlements, regulatory sanctions, a termination after allegations, and frequent firm changes.
+
+**There's a second database you should check too.** BrokerCheck focuses on brokers and brokerage firms. If the person is an investment adviser, meaning someone paid for their advice and registered with the SEC or a state, the fuller record lives on the SEC's Investment Adviser Public Disclosure site (adviserinfo.sec.gov). The two databases link to each other, and many professionals are registered with both.
+
+**What BrokerCheck doesn't show:**
+
+- **Anyone who was never registered.** If a person doesn't appear, that's a question worth asking.
+- **The reason for a termination.** FINRA's rules keep that detail out of the public report.
+- **The quality of their advice,** or conflicts of interest tied to specific products.
+- **A guarantee.** FINRA has a process for expunging some customer-dispute information, so a clean record isn't proof of anything.
+
+This is general information, not financial or legal advice, and it's about the US system.
+
+A good advisor won't mind that you checked. Before you sign anything, take five minutes to look them up.`,
+    affiliate_links: [],
+    tags: ["finance", "investing", "consumer-protection", "free", "scams", "retirement", "regulator"],
+    meta_description: "BrokerCheck is FINRA's free tool for looking up any broker or brokerage firm: licenses, employment history, customer complaints, and disciplinary actions. US only.",
+    editors_note: "❌ No affiliate — a free public tool from a regulator, US only. No product pick issue. The BrokerCheck page loads with JavaScript, so I read only its title and description and built the copy from several guides: Money Crashers (about two weeks old; the 'financial advisor is a job title, not a license' point, which it attributes to FINRA), SmartAsset, Nasdaq, a financialadvsr.com guide (the FINRA definition of a customer dispute, the 10-year employment history including self-employment, military service, and unemployment, and the IAPD note), FedLaws (the reason for a termination being excluded from public reports, and the two databases), and bhseclaw.com (what BrokerCheck does not show). The 'expunge some customer-dispute information' point comes from a FINRA page title cited by one guide, so the copy states it only generally. The warning signs are attributed to 'the guides.' The BrokerCheck help line (800-289-9999) appears in one guide, so I left it out. I did not use the site. Not financial or legal advice. Screenshot tip: the home page search box; avoid showing a real person's report. Finance pick after a run of nonprofit and tool picks.",
+  },
+
+  "2026-10-31": {
+    id: 195,
+    date: "2026-10-31",
+    slug: "request-a-trader-joes",
+    headline: "TRADER JOE'S HAS A BURIED FORM WHERE YOU CAN ASK FOR A STORE IN YOUR TOWN.",
+    subheadline: "Your city doesn't have one, and you've been told to just keep waiting. But the chain has a page where anyone can recommend a location. The company says it reads the requests. It also says there are no guarantees.",
+    site: {
+      name: "Request a Trader Joe's",
+      url: "https://www.traderjoes.com/home/contact-us/request-a-store",
+      screenshot: "/assets/issues/request-a-trader-joes.png",
+      category: "Food / Shopping",
+      vibe: "A suggestion box for an entire supermarket chain",
+    },
+    body: `If you live somewhere without a Trader Joe's, you know the feeling. Friends post pictures of the cookie butter. A road trip somehow includes a detour to a parking lot in the next county. You wonder who decides where these stores go, and whether you can say anything about it.
+
+You can. There's a page for it.
+
+**It's called "Request a Trader Joe's in My City," and it sits inside the Contact Us section of the company's website.** You give your city and state, add any detail you like in the comments (a neighborhood, an address, even a particular shopping center), and send it in. One write-up notes a 700-character limit on the comments.
+
+**Here's what the company says about it.** The form itself says there are no guarantees, "but being wanted matters to us." Trader Joe's has also said it reads the submissions. In a past podcast episode, the company's head of real estate and construction said she gets hundreds of calls and emails every day about possible locations.
+
+**Here's what it doesn't say.** According to a spokesperson quoted in an older interview, the company doesn't track which locations get requested most, and it doesn't open stores based on requests alone. The location also has to be a good fit, the timing has to be right, and there has to be a great team to run it. More recently, company staff have described the other factors on an official podcast: population density, traffic patterns, parking, accessibility, visibility, and square footage. They've also said Trader Joe's grows deliberately and may avoid spaces that used to be other grocery stores, because they wouldn't feel like a Trader Joe's.
+
+**Does anyone get their store?** The evidence is thin. One food site says a Reddit user reported success after multiple requests, and another commenter said they'd been submitting requests for nine years without luck. Meanwhile, the company has been expanding: in 2025, news outlets reported 30 new stores announced across 18 states, with announced stores typically opening three to six months later. Whether any of those came from a form is unknown, and the company hasn't said.
+
+**A few honest notes:** this is a US feature, a request is a nudge and not a promise, and the chain, according to one article, doesn't offer online shopping or delivery, so a request is the only way to ask for a store near you.
+
+It takes about a minute. The worst outcome is that nothing happens.
+
+Tell them where you live. Tell your friends to tell them too.`,
+    affiliate_links: [],
+    tags: ["grocery", "trader-joes", "shopping", "food", "hidden-pages", "free"],
+    meta_description: "Trader Joe's has a Request a Trader Joe's in My City form where anyone can recommend a store location. The company says there are no guarantees, but being wanted matters.",
+    editors_note: "⚠️ Weaker fit than most picks — this is a contact form on a big chain's site, not a standalone site, so the hook is the 'wait, you can do that?' angle only. Added at your request. No affiliate; not a product link. The form page loads with JavaScript, so I read only its title and rely on search-result snippets of the page ('There are no guarantees, but being wanted matters to us'; city and state, plus comments). Other facts: 700-character comment limit (a 2024 write-up from The FW), 'hundreds of calls and emails every day' and 'doesn't open stores on requests alone' (a 2019 Apartment Therapy piece, so about seven years old), site-selection factors (Trader Joe's own podcast, as reported by Nexstar and others), 2025 expansion of 30 stores in 18 states with 3 to 6 months to open (Yahoo and Nexstar), the Reddit success story and the nine-years comment (Food Republic, about 13 months old), and 'no online shopping or delivery' (one Yahoo article, not verified on traderjoes.com). Date is Halloween (Saturday); nothing about it is Halloween-themed. Screenshot tip: the form page (city, state, comments fields).",
+  },
+
   "2026-10-30": {
     id: 194,
     date: "2026-10-30",
