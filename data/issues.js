@@ -1,3 +1,4 @@
+// Rubberneck issues.js — updated through 2026-11-05 (199 entries)
 // RUBBERNECK.AI — Issue Data
 // ─────────────────────────────────────────────────────────────────
 // Add new issues here. Key = YYYY-MM-DD (Eastern Time).
