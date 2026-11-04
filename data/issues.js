@@ -3789,6 +3789,118 @@ Next time you need a header and have nothing, start here.`,
     editors_note: "⚠️ No affiliate checked, and the page states no pricing or licensing terms, so the copy never calls it 'free' and tells readers to check each tool's terms and Unsplash's license for commercial use. Everything in the copy comes from the site's own pages: the five tools, the color pages, the origin story, the colophon credits, the use cases, the side-project family, and the languages. The site's share text credits its design to @moeamaya, and its footer calls it 'a Visual project, a generative design tool'; I did not name a person in the copy. It is an older site (© 2017–2026). I did not try the tools. Screenshot tip: the homepage hero or a Trianglify or Gradient Topography result. A creative, visual change of pace after the helps-people run.",
   },
 
+  "2026-11-05": {
+    id: 200,
+    date: "2026-11-05",
+    slug: "seafood-watch",
+    headline: "TRAFFIC LIGHTS FOR SEAFOOD: GREEN MEANS GO, RED MEANS PICK SOMETHING ELSE.",
+    subheadline: "Seafood Watch, from the Monterey Bay Aquarium, rates fish and shellfish by how they were caught or farmed, so you can check a menu or the grocery counter in seconds. It's free, and it has covered the seafood market for more than 25 years.",
+    site: {
+      name: "Seafood Watch",
+      url: "https://www.seafoodwatch.org/",
+      screenshot: "/assets/issues/seafood-watch.png",
+      category: "Food / Do-Good",
+      vibe: "A marine biologist in your pocket at the fish counter",
+    },
+    body: `You're staring at a menu, or a counter of fish on ice. Salmon, swordfish, shrimp, cod. One of them might have been fished sustainably. Another might have come from a farm that's damaging a coastline. There's no way to tell by looking, and the person behind the counter may not know either.
+
+Seafood Watch exists for that moment.
+
+**It works like a traffic light.** The program uses science-based standards to assess the environmental sustainability of fisheries and fish farms around the world, then turns the results into a simple rating:
+
+- **Green, Best Choice:** caught or farmed responsibly and well managed.
+- **Yellow, Good Alternative:** a decent choice, but with concerns about how it's fished, farmed, or managed.
+- **Red, Avoid:** it's better to pick something else for now.
+
+There's also a "Super Green" list: Best Choice items that are low in environmental contaminants and good sources of omega-3s, according to the program.
+
+**Here's how people use it.** The site has regional seafood guides for the US, a sushi guide that lists fish by their Japanese names as well as the common market name, and a free app. The app can use your phone's location to load the right regional guide, lets you search by name, sorts seafood by rating, and suggests alternatives to anything on the "Avoid" list. A "Find this Nearby" button helps you locate restaurants and stores serving Best Choice and Good Alternative items.
+
+**It started in a cafeteria.** The program grew out of a Monterey Bay Aquarium exhibit called Fishing for Solutions, which ran from 1997 to 1999 and produced a menu of sustainable seafood options for the aquarium's own cafeteria. People loved it, and the public Seafood Watch campaign launched in October 1999.
+
+**The reach today is big.** According to the Aquarium, as of December 2025, Seafood Watch has recommendations covering **76 percent of the seafood on the US market and 42 percent of global seafood production**. Its published ratings cover **300+ species across 55+ countries**. It works with 14 major companies that have committed to serving seafood responsibly, and it runs a Best Choice Restaurant Program.
+
+**The idea behind it is simple.** The program says that when you ask for sustainable seafood, businesses start to source it. Your order is a small vote.
+
+**A few honest notes:** the recommendations focus on the North American market, so they're most useful for US and Canadian shoppers. Ratings change as fisheries change, so use the current guide, not an old pocket card. The traffic light measures environmental impact, not taste or your personal health needs. And not every item is rated, since the 76 percent coverage means about a quarter of the US market isn't covered.
+
+The next time you're at the fish counter, take ten seconds, open the app, and see what color your dinner is.`,
+    affiliate_links: [],
+    tags: ["seafood", "sustainability", "oceans", "food", "free", "app", "environment"],
+    meta_description: "Seafood Watch from the Monterey Bay Aquarium rates fish and shellfish as Best Choice, Good Alternative, or Avoid, with a free app and regional guides. Covers 76% of the US seafood market.",
+    editors_note: "❌ No affiliate — a program of the Monterey Bay Aquarium; the app and guides are free. No product pick issue. The seafoodwatch.org home page rendered blank in my fetch (it loads with JavaScript), so the copy comes from the Aquarium's own Seafood Watch page (about two months old: 76% of the US market and 42% of global production as of December 2025, 300+ species across 55+ countries, 14 major companies, the Best Choice Restaurant Program, the traffic-light ratings), an Amazon Appstore listing of the app (GPS regional guide, sort by rating, alternatives to Avoid items, Find This Nearby, the sushi guide with Japanese names, Super Green), Wikipedia (1999 formation, the Fishing for Solutions exhibit from 1997 to 1999, the October 1999 launch, the North American focus), and the Smithsonian Ocean site (regional guides, based on scientific research and fishery experts). Older figures such as 63 million printed guides and 2 million app downloads (a 2022 article) are left out. I did not use the app myself. Wikipedia also lists a blue 'Certified' category, which I left out because the Aquarium's current page describes only green, yellow, and red. Screenshot tip: the home page or a regional guide page.",
+  },
+
+  "2026-11-03": {
+    id: 199,
+    date: "2026-11-03",
+    slug: "petco-love-lost",
+    headline: "LOST YOUR DOG? UPLOAD ONE PHOTO AND LET AI SCAN THE COUNTRY FOR HIS FACE.",
+    subheadline: "Petco Love Lost is a free national database of lost and found pets that uses facial recognition to match photos. Anyone can search it, shelters feed into it, and it can be set up before your pet ever goes missing.",
+    site: {
+      name: "Petco Love Lost",
+      url: "https://petcolove.org/lost/",
+      screenshot: "/assets/issues/petco-love-lost.png",
+      category: "Nonprofits / Do-Good",
+      vibe: "Google for lost and found pets, and it's free",
+    },
+    body: `The worst phone call, or the worst missing flyer, is the one about your own pet. Most people react the same way: post in a neighborhood group, call a few shelters, and start walking the streets. The trouble is that lost pets and the people looking for them are scattered across dozens of places, and nobody can check them all every day.
+
+Petco Love Lost tries to put it all in one.
+
+**Here's how it works.** If you've lost a pet, you upload a clear photo and the location where the animal was last seen. If you've found one, you do the same. The site uses **facial recognition for pets**, and it scans the photo against its national database of lost reports, found reports, and animals at participating shelters and rescues. One local animal-services official described it as "Google for lost and found pets." When it finds a possible match, it sends alerts to the owner, the finder, and the shelter. The current page says you can search **300,000+ lost and found pets** for free.
+
+**It's built for regular people, not just shelters.** Anyone can use it. A finder can search by uploading a photo, and the site has a feature to message pet parents once you create an account. There's also a phone app, and the site is mobile-friendly. It can work together with microchips, too: if a found dog is scanned at a vet and the finder enters the chip number, the record can link up with an owner's report.
+
+**It's meant to be set up ahead of time.** The site has an "Always On" sign-up for pet owners to register their pet before anything goes wrong, so a clear, recent photo is already waiting if they ever go missing. Petco advises uploading the clearest recent photo the moment a pet disappears, and adding new photos if the animal's appearance changes.
+
+**It's run by a nonprofit.** Petco Love, formerly the Petco Foundation, launched Petco Love Lost in April 2021, and AVMA reported that more than 1,800 shelters and rescues joined in its first months. By AAHA's count, it has passed **100,000 confirmed reunions**, and the organization only counts a reunion when the person who posted the pet comes back and clicks to confirm it. The site invites donations, such as $25 to help a pet get home.
+
+**A few honest notes:** it's for the US, and it works best alongside the old-fashioned methods, not instead of them: calling local shelters and animal control, visiting in person, checking the microchip registry, and posting flyers. If you read our Aug 28 piece on the microchip lookup, this is the other half of the same toolkit. And a match is only as good as the photos, so keep a clear, recent one of your pet's face.
+
+Upload a photo today, even if your pet is asleep on your couch. You'll be glad it's there.`,
+    affiliate_links: [],
+    tags: ["pets", "lost-pets", "dogs", "cats", "ai", "nonprofit", "free", "reunion"],
+    meta_description: "Petco Love Lost is a free national database of lost and found pets that uses facial recognition to match photos. Search 300,000+ pets, or register your pet before they go missing.",
+    editors_note: "❌ No affiliate — free service of the nonprofit Petco Love (formerly the Petco Foundation); the site has a donation prompt. No product pick issue even though Petco is a retailer: the tool is free and not a Petco sales page. US-only. The petcolove.org/lost page I fetched gave: the '300K+ lost and found pets' figure, the 'Always On' sign-up, searching by state, creating an account to message pet parents, and the $25 donation. Other facts come from press and partner pages: AI facial recognition and national database (several shelter pages, a Petco guide), April 2021 launch and 1,800+ shelters and rescues (AVMA, Charleston Animal Society), 100,000 confirmed reunions and the confirmed-reunion counting rule and the microchip tie-in (AAHA, about 17 months old), alerts to owners, finders, and shelters and the phone app (Humane Society of Forsyth County), and the 'Google for lost and found pets' quote (a Pinellas County Animal Services official, FOX 13). I did not use the site or test the matching, and the accuracy of the facial recognition is not independently verified. Callback to the Aug 28 microchip lookup issue. Also a strong addition to your dog-owner social post as a 'lost or found a dog?' link. Dated Nov 3, the earliest open date. Screenshot tip: the home page ('We're here to help you find your pet').",
+  },
+
+  "2026-11-04": {
+    id: 198,
+    date: "2026-11-04",
+    slug: "parkrun",
+    headline: "A FREE 5K EVERY SATURDAY IN 2,800+ PLACES AROUND THE WORLD. WALKING COUNTS.",
+    subheadline: "parkrun is a free, volunteer-run, weekly 5k and 2k community event in parks and open spaces worldwide. It started with 13 people in a London park in 2004, and in June 2026 it held its one millionth event.",
+    site: {
+      name: "parkrun",
+      url: "https://www.parkrun.com/",
+      screenshot: "/assets/issues/parkrun.png",
+      category: "Fitness / Community",
+      vibe: "The least intimidating race in the world, and it's every Saturday",
+    },
+    body: `Running events usually come with an entry fee, a start line full of people who look faster than you, and a quiet worry that you'll finish last.
+
+parkrun has none of that.
+
+**Here's what it is.** Every Saturday morning, communities gather in parks, forests, beaches, and promenades (even a few prisons, according to one write-up) for a **free, timed 5k**. On Sundays, there are 2k junior parkruns for kids. You register once, online, for free, and print a personal barcode. At any event, anywhere, someone scans it as you finish, and your result is published online within hours.
+
+**It isn't really a race.** Walkers are welcome, and so are joggers, runners, people pushing strollers, and people who've never run before. Plenty of people treat it as a race, and plenty treat it as a walk with strangers who turn into friends. Every event is run by volunteers, who handle the timing, marshaling, and barcode scanning, and it's funded by sponsors and the goodwill of the people involved. There's no entry fee, and a source describing the not-for-profit says it's free forever.
+
+**The origin story is tiny.** On 2 October 2004, a runner named Paul Sinton-Hewitt, who was injured and couldn't train, organized a 5k at Bushy Park in London so he could still see his running friends. Thirteen people showed up. It was called the Bushy Park Time Trial, and it took the name parkrun in 2008.
+
+**Then it didn't stop growing.** On 13 June 2026, parkrun held its **one millionth event**, back at Bushy Park, with Sinton-Hewitt and Olympic champion Dame Kelly Holmes there. According to coverage of that milestone, parkrun now has more than 2,800 event locations in 23 countries, and its leadership has said it wants to reach 30 countries by 2030. More than 10 million people have registered. The King even went to the Sandringham parkrun as a spectator in January 2026.
+
+**How to try it:** go to the site and click "find your event," then register in your country. Show up on a Saturday morning. If you'd rather not run, the site invites you to volunteer instead, which is how every event stays free.
+
+**A few honest notes:** parkrun operates in 23 countries, so you need to be in one of them. Events can be canceled for weather or safety. Some small extras cost money, like milestone T-shirts that you can buy after a certain number of runs, but taking part never does. Sources vary slightly on the exact numbers of countries, events, and registrations, so check the site for the latest.
+
+A free 5k, a few hundred new friends, and the knowledge that you don't have to be fast. Find the one nearest you.`,
+    affiliate_links: [],
+    tags: ["fitness", "running", "community", "free", "volunteering", "walking", "global", "not-for-profit"],
+    meta_description: "parkrun is a free, volunteer-run weekly 5k and 2k community event at 2,800+ locations in 23 countries. Walkers welcome. Register once for free and show up on a Saturday morning.",
+    editors_note: "❌ No affiliate — free, volunteer-run, not-for-profit. No product pick issue. UK-founded (Bushy Park, London, 2 October 2004), global. The hero line on the site ('a free, weekly, 5k and 2k community event in open spaces around the world') comes from your screenshot, which shows the home page, the 'volunteer' section, and the 'find your event' and 'register in your country' buttons; I did not open the site myself. Numbers come from BBC/PA coverage of the one-millionth event (13 June 2026): 2,800+ locations in 23 countries and the 30-by-2030 target from CEO Elizabeth Duggan. Other recent write-ups say 25 countries and 3,000+ events, and one says 12 million registrations, so the copy says 'more than 10 million' registered and tells readers to check the site. First-event volunteer counts differ between sources (three or five), so the copy gives only '13 people.' 'Prisons,' 'results published within hours,' and 'free forever' are from write-ups (StepTo5K, Live for the Outdoors), not from parkrun's own page. Milestone T-shirts for purchase are from Wikipedia. The King attending Sandringham parkrun in January 2026 is from the PA story. Screenshot tip: your hero screenshot works well; consider cropping out the small accessibility icon at the lower left. Dated Nov 4 (today); Nov 3 is still open.",
+  },
+
   "2026-11-02": {
     id: 197,
     date: "2026-11-02",
