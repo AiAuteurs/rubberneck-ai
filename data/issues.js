@@ -1,4 +1,4 @@
-// Rubberneck issues.js — updated through 2026-11-05 (199 entries)
+// Rubberneck issues.js — updated through 2026-11-07 (201 entries)
 // RUBBERNECK.AI — Issue Data
 // ─────────────────────────────────────────────────────────────────
 // Add new issues here. Key = YYYY-MM-DD (Eastern Time).
@@ -3788,6 +3788,98 @@ Next time you need a header and have nothing, start here.`,
     tags: ["design", "backgrounds", "wallpapers", "tools", "creative", "web", "blogging"],
     meta_description: "Cool Backgrounds is a collection of tools for generating backgrounds from triangles, particles, gradients, topography, and photos, for blog headers, social banners, and wallpapers.",
     editors_note: "⚠️ No affiliate checked, and the page states no pricing or licensing terms, so the copy never calls it 'free' and tells readers to check each tool's terms and Unsplash's license for commercial use. Everything in the copy comes from the site's own pages: the five tools, the color pages, the origin story, the colophon credits, the use cases, the side-project family, and the languages. The site's share text credits its design to @moeamaya, and its footer calls it 'a Visual project, a generative design tool'; I did not name a person in the copy. It is an older site (© 2017–2026). I did not try the tools. Screenshot tip: the homepage hero or a Trianglify or Gradient Topography result. A creative, visual change of pace after the helps-people run.",
+  },
+
+  "2026-11-07": {
+    id: 202,
+    date: "2026-11-07",
+    slug: "nhtsa-recalls",
+    headline: "TYPE IN YOUR VIN. FIND OUT IF YOUR CAR HAS AN OPEN SAFETY RECALL. THE FIX IS FREE.",
+    subheadline: "The US government's recall lookup checks your car by VIN or license plate in seconds. It also covers car seats, tires, and equipment, and can alert you on your phone when a new recall hits something you own.",
+    site: {
+      name: "NHTSA Recalls",
+      url: "https://www.nhtsa.gov/recalls",
+      screenshot: "/assets/issues/nhtsa-recalls.png",
+      category: "Auto / Safety",
+      vibe: "The notice that should have come in the mail, available in thirty seconds",
+    },
+    body: `A safety recall is supposed to reach you by mail. But if you bought your car used, moved since you registered it, or tossed an envelope that looked like junk, you might never have heard about one. The car in your driveway could have an open recall and a free fix, and nobody would have told you.
+
+The National Highway Traffic Safety Administration runs a tool that does tell you.
+
+**Here's how it works.** On the NHTSA recalls page, pick what you want to check: a vehicle, a car seat, a tire, or other equipment. For a car, enter its **VIN** (vehicle identification number) or its **license plate**. A VIN is a 17-character code you'll find on the lower left of your windshield, on your registration card, and sometimes on your insurance card. The result tells you whether your specific vehicle has a recall that hasn't been repaired, or it says: **"0 unrepaired recalls associated with this VIN."**
+
+**It does more than one car.** You can search up to **100 VINs at once**, which is handy if you're comparing used cars or managing a family's or business's vehicles. You can also search by year, make, and model for general recalls, investigations, complaints, and manufacturer communications, or look up a recall by its NHTSA ID.
+
+**You can get alerts.** NHTSA offers a free SaferCar app for iOS and Android. If a safety recall turns up for a vehicle or piece of equipment you've entered, it sends an alert to your phone. You can also sign up for general recall alerts by email.
+
+**What a recall actually means.** A recall is issued when a manufacturer or NHTSA decides that a vehicle, car seat, tire, or piece of equipment creates an unreasonable safety risk or fails to meet minimum safety standards. By law, the manufacturer must fix the problem by repairing or replacing the part, offering a refund, or in rare cases buying the vehicle back. For a car, that means a free repair at a dealership. NHTSA also suggests registering your vehicle, tires, car seats, and equipment and checking for recalls twice a year.
+
+**And it goes both ways.** If you think something on your car is defective, you can report a safety problem to NHTSA. Your complaint goes into a public database with your personal information removed, and when similar reports pile up, they can prompt an investigation, and possibly a recall.
+
+**What the VIN and plate search won't show, according to NHTSA:**
+
+- A recall that was already repaired.
+- Some very recent recalls, because VINs are added continuously.
+- Recalls more than 15 years old, unless the manufacturer offers more coverage.
+- Recalls by small manufacturers, including some ultra-luxury brands.
+- Manufacturer service campaigns that aren't safety recalls.
+- A recall involving an international vehicle.
+
+**One more catch:** a license plate search uses state DMV records, so if it shows a car you used to own, your state DMV can update it, and meanwhile you can search by VIN.
+
+If you read our piece on CarCareKiosk, that was how to fix the small stuff yourself. This is how to find out about the big stuff you can't see.
+
+Check your car, your kids' car seats, and the used car you're about to buy. It's free, and so is the repair.`,
+    affiliate_links: [],
+    tags: ["cars", "safety", "recalls", "government", "free", "car-seats", "us"],
+    meta_description: "NHTSA's free recall lookup checks a vehicle by VIN or license plate for unrepaired safety recalls, and covers car seats, tires, and equipment. Recall repairs are free.",
+    editors_note: "❌ No affiliate — a US government (NHTSA, part of the US Department of Transportation) tool; US only. All facts come directly from the NHTSA recalls page I fetched: the vehicle, car seat, tire, and equipment search; VIN and license-plate lookup with the '0 unrepaired recalls associated with this VIN' message; where to find the VIN; searching up to 100 VINs; search by NHTSA ID and complaints by keyword; the SaferCar app and email alerts; the complaint-to-investigation-to-recall process; the remedies manufacturers must offer; the advice to check twice a year; the list of what the search won't show; and the license-plate/DMV note. I did not run the search itself, and I did not add statistics because the page gives none. Callback to the CarCareKiosk issue (Oct 4). The page also has a 'Takata air bag' spotlight (tens of millions of vehicles under recall) that I left out. Screenshot tip: the search area; do not show a real VIN or plate. Dated Nov 7, the earliest open date.",
+  },
+
+  "2026-11-06": {
+    id: 201,
+    date: "2026-11-06",
+    slug: "opensecrets",
+    headline: "FOLLOW THE MONEY: SEE WHO FUNDED YOUR REPRESENTATIVE'S CAMPAIGN. FREE AND NONPARTISAN.",
+    subheadline: "OpenSecrets is a nonprofit that turns the dense paperwork of American political money into something you can search: campaign donations, lobbying, outside spending, and what members of Congress own. It was founded in 1983 by two retired senators, one from each party.",
+    site: {
+      name: "OpenSecrets",
+      url: "https://www.opensecrets.org",
+      screenshot: "/assets/issues/opensecrets.png",
+      category: "Civics / Resources",
+      vibe: "The receipts for American politics, filed in one place",
+    },
+    body: `Elections cost a staggering amount of money. Who gave it, and who they gave it to, is a matter of public record. The trouble is that the record lives in thousands of government filings that almost nobody has the time or training to read.
+
+OpenSecrets exists to make that paperwork readable.
+
+**It's a nonprofit, and it calls itself nonpartisan.** OpenSecrets is a 501(c)(3) organization based in Washington, D.C. It began in 1983 as the Center for Responsive Politics, founded by two retired US senators, Democrat Frank Church of Idaho and Republican Hugh Scott of Pennsylvania. The website went online in 1996. In 2021, the group merged with the National Institute on Money in Politics, which tracked political money at the state level, and took the OpenSecrets name.
+
+**Here's what you can look up.** You can search by politician, organization, industry, donor, or election cycle, and see:
+
+- **Campaign contributions:** who gave to a candidate or committee, and how much.
+- **Donors by industry:** which sectors fund which campaigns.
+- **Outside spending:** money spent by PACs and other groups, separate from the candidates' own campaigns.
+- **Lobbying:** which organizations and firms lobby, how much they report spending, and which bills they report lobbying on.
+- **Personal finances of members of Congress,** drawn from their disclosures.
+- **The "revolving door":** people who have moved between government jobs and lobbying firms, which can point to potential conflicts of interest.
+
+**It's built to be used.** OpenSecrets says its staff help hundreds of news organizations every year with money-in-politics investigations. A 2025 investigation by New York's Times Union into potentially illegal political donations by nonprofits matched OpenSecrets contribution records against IRS nonprofit records, according to a tool directory that cited the case. And the group says its data is free to download and use for non-commercial purposes, as long as it's credited.
+
+**It's a good time to try it.** Election Day was just this week, which makes it a natural moment to look up the people who are about to represent you, or the ones you've been hearing about.
+
+**A few honest notes before you draw conclusions:**
+
+- **The data is only as complete as the filings.** It depends on what the law requires to be reported, and on when it's reported.
+- **Not every dollar is traceable.** Small donations are not itemized, and some political spending flows through groups that don't disclose their donors, so the trail can end.
+- **A donation isn't proof of influence.** The tool shows connections and amounts. What they mean is for you to decide.
+
+Look up your own representative. It takes about a minute, and it's all public record.`,
+    affiliate_links: [],
+    tags: ["politics", "campaign-finance", "lobbying", "transparency", "civics", "nonprofit", "free", "us"],
+    meta_description: "OpenSecrets is a nonpartisan nonprofit that tracks money in US politics: campaign donations, lobbying, outside spending, and members of Congress's personal finances. Free to search.",
+    editors_note: "❌ No affiliate — 501(c)(3) nonprofit; US only. Political topic, so the copy is kept neutral: it describes what the tool shows and states plainly what it can't show, and takes no position on campaign finance policy. I could not fetch opensecrets.org (my tool was blocked), so everything comes from outside sources: Wikipedia and Ballotpedia (501(c)(3), nonpartisan, 1983 founding by retired senators Frank Church (D-ID) and Hugh Scott (R-PA), website launched 1996, 2021 merger with the National Institute on Money in Politics, revolving-door database, free non-commercial data with credit), a GuideStar profile (about 2.4 years old: 'hundreds of news organizations' each year), and a tool directory (searching by politician, organization, industry, donor, or election cycle; the 2025 Times Union example). The copy attributes the Times Union claim to that directory. Wikipedia notes that both predecessor groups advocated stricter regulation and disclosure of political donations; the copy says only 'nonpartisan' as the organization describes itself. 'Small donations are not itemized' and 'some groups don't disclose donors' are general facts, not from the sources I read. 'Election Day was just this week' follows from the calendar (Tuesday, Nov 3, 2026). I did not use the site. Screenshot tip: the home page or a neutral overview page; avoid a screenshot of one specific politician's profile.",
   },
 
   "2026-11-05": {
