@@ -1,4 +1,4 @@
-// Rubberneck issues.js — updated through 2026-11-07 (201 entries)
+// Rubberneck issues.js — updated through 2026-11-11 (205 entries)
 // RUBBERNECK.AI — Issue Data
 // ─────────────────────────────────────────────────────────────────
 // Add new issues here. Key = YYYY-MM-DD (Eastern Time).
@@ -3788,6 +3788,163 @@ Next time you need a header and have nothing, start here.`,
     tags: ["design", "backgrounds", "wallpapers", "tools", "creative", "web", "blogging"],
     meta_description: "Cool Backgrounds is a collection of tools for generating backgrounds from triangles, particles, gradients, topography, and photos, for blog headers, social banners, and wallpapers.",
     editors_note: "⚠️ No affiliate checked, and the page states no pricing or licensing terms, so the copy never calls it 'free' and tells readers to check each tool's terms and Unsplash's license for commercial use. Everything in the copy comes from the site's own pages: the five tools, the color pages, the origin story, the colophon credits, the use cases, the side-project family, and the languages. The site's share text credits its design to @moeamaya, and its footer calls it 'a Visual project, a generative design tool'; I did not name a person in the copy. It is an older site (© 2017–2026). I did not try the tools. Screenshot tip: the homepage hero or a Trianglify or Gradient Topography result. A creative, visual change of pace after the helps-people run.",
+  },
+
+  "2026-11-11": {
+    id: 206,
+    date: "2026-11-11",
+    slug: "free-music-archive",
+    headline: "100,000+ SONGS YOU CAN LEGALLY DOWNLOAD FOR FREE. STARTED BY A RADIO STATION. ALMOST SHUT DOWN. RESCUED BY A DUTCH MUSIC COMPANY.",
+    subheadline: "The Free Music Archive is a library of original music from independent artists around the world, free to listen to and download. The catch is the license on each track, and the site is upfront about it.",
+    site: {
+      name: "Free Music Archive",
+      url: "https://freemusicarchive.org/",
+      screenshot: "/assets/issues/free-music-archive.png",
+      category: "Music / Free",
+      vibe: "A record shop where every record is free, with a fine-print rule on each sleeve",
+    },
+    body: `Most "free music" online is either pirated or locked behind an ad-filled app. The Free Music Archive is neither. It's a library of original music, from independent artists, that you can listen to and download for free, and the music is there because the artists chose to share it.
+
+**Here's what it is.** The site describes itself as offering free access to open-licensed, original music by independent artists around the world. You can browse by genre, check the charts, press "artist shuffle" to land on someone new, or follow curators and netlabels, the small labels and tastemakers that have long put out free music online. Recent guides put the catalog at more than 100,000 tracks, and you don't need an account to listen or download.
+
+**It started with a radio station.** The Free Music Archive was founded in 2009 by WFMU, the freeform radio station in Jersey City, New Jersey, as a continuation of what radio has always done: giving the public free access to new music. Its initial funding came from the New York State Music Fund, a program of Rockefeller Philanthropy Advisors, with later support from the MacArthur Foundation, the National Endowment for the Arts, and donations from users. In 2013, according to the press links on its own About page, it even ran a contest to find a copyright-free replacement for the "Happy Birthday" song.
+
+**Then it nearly disappeared.** In late 2018, a headline in The Verge said the archive was closing. In 2019, the Dutch company Tribe of Noise acquired it, and the site says it continues alongside Tribe of Noise today. Tribe of Noise describes itself as a musician-centric community and music-for-business company, founded in 2008, with more than 34,000 independent artists in 190+ countries. The FMA team is based in the Netherlands.
+
+**The artists can get paid, too.** The site says visitors can compensate artists directly where the artist has turned on one of the available monetization options.
+
+**Now the part you need to read.** Free to listen and download doesn't mean free to use however you like. The site is plain about this: all songs are free, but not all of them can be used in videos, podcasts, short films, or commercial projects. Almost all of the songs are still protected by copyright, and each one carries its own license, mostly Creative Commons, that says what you can do with it. You need to read and follow that license, usually by crediting the artist and sometimes by keeping the use non-commercial. The site warns that Creative Commons licenses are enforceable in court. It also offers a paid option, Tribe of Noise PRO, with licenses starting around €45 (about $50), for creators who want music they can use without worrying.
+
+**A few honest notes:** the site is run by a company whose business includes licensing music, so the free library sits next to a paid one. The quality of tracks varies, because it's an open library. And I haven't heard the whole catalog. Nobody has.
+
+Press artist shuffle, and give a stranger three minutes.`,
+    affiliate_links: [],
+    tags: ["music", "free-music", "creative-commons", "independent-artists", "download", "wfmu", "netherlands"],
+    meta_description: "The Free Music Archive offers 100,000+ original tracks from independent artists to listen to and download free, each with its own Creative Commons license. Founded by WFMU in 2009.",
+    editors_note: "⚠️ Affiliate not checked; the site also promotes the paid Tribe of Noise PRO licensing, so a partnership may be possible, but I did not look. Facts from the Free Music Archive's own About page and Royalty-free music page, both fetched: free access to open-licensed original music by independent artists, genres, charts, artist shuffle, curators and netlabels, founded in 2009 by WFMU in Jersey City, initial funding from the New York State Music Fund (Rockefeller Philanthropy Advisors), later support from MacArthur, NEA, and users, the 2019 acquisition by Tribe of Noise, Tribe of Noise's own description (founded 2008, 34,000+ artists, 190+ countries, Netherlands-based team), artist monetization, the license warnings, and Tribe of Noise PRO at about €45 (~$50). The 2013 Happy Birthday contest is inferred from press-link titles on the About page (Slate, Laughing Squid, Techdirt, Creative Commons), so the copy attributes it to those links. The 2018 'closing' headline is from The Verge as cited on Wikipedia, which I did not open. Catalog size (100,000+; another guide says 106,574) and 'no account needed to download' come from third-party guides (HP and Sidify, about three and a half months old), not the site, so the copy says 'recent guides.' I did not listen to or download anything. Dated Nov 11 (Veterans Day), nothing themed. Screenshot tip: the home page or the genres page. This is a music pick in a run that already has Last.fm, MusicWander, VocalCut, and the Museum of Canadian Music.",
+  },
+
+  "2026-11-10": {
+    id: 205,
+    date: "2026-11-10",
+    slug: "stilltasty",
+    headline: "KEEP IT OR TOSS IT? SEARCH ANY FOOD AND FIND OUT HOW LONG IT LASTS.",
+    subheadline: "StillTasty is a shelf-life guide for thousands of foods and beverages. Type in the thing at the back of your fridge and learn whether it's still good and the best way to store it. With Thanksgiving two weeks away, it's also where to check the turkey math.",
+    site: {
+      name: "StillTasty",
+      url: "https://stilltasty.com/",
+      screenshot: "/assets/issues/stilltasty.png",
+      category: "Food / Tools",
+      vibe: "The answer to the question you ask at 9 p.m. with the fridge door open",
+    },
+    body: `You're standing at the open fridge. There's a half-used jar of something, a carton of eggs with yesterday's date on it, and leftovers from a meal you can't quite remember. The same question comes up every time: is this still good?
+
+Most people answer it with a sniff, a guess, or the date printed on the label. StillTasty gives you a better option.
+
+**Here's how it works.** The site's main page is a search box titled "Keep It or Toss It?" Type in a food or drink and you get an answer for how long it stays safe and tasty, plus the best way to store it. The site covers **thousands of items**, and you can also browse by category: fruits, vegetables, dairy and eggs, meat and poultry, fish and shellfish, nuts, grains and pasta, condiments and oils, snacks and baked goods, herbs and spices, and beverages.
+
+**Where the answers come from.** StillTasty's "Our Sources" page says its storage information is drawn from multiple sources, with a primary one being food safety research from US government agencies, including the USDA, the FDA, and the CDC. It also draws on research from state agencies and several nonprofit organizations, and says it has contacted food and beverage manufacturers directly about optimal storage and storage times. Its articles and tips, by contrast, are described as StillTasty's own opinion, drawing on that research.
+
+**It also takes on the label.** One of its articles argues that the dates printed on food packaging are confusing and often have little to do with food safety. Another, "9 Foods That Last Forever," says that when stored properly, some everyday items stay at top quality for years, sometimes decades, even after they've been opened.
+
+**And it's well timed.** Thanksgiving is two weeks from Thursday, and the home page is already full of turkey questions: how long a frozen turkey can stay in the freezer, how long a thawed one can stay in the fridge, and an article on how to thaw one, and how not to. There's also an answer to a question that comes up at every holiday: is it safe to put hot food in the fridge?
+
+**Read the fine print before you trust a number.** StillTasty's shelf-life times assume specific home storage conditions unless it says otherwise: a pantry at 60° to 70°F, a refrigerator at 35° to 40°F, and a freezer at 0°F or lower. If your kitchen is warmer than that, the times shrink.
+
+**A few honest notes:** it's a commercial site (StillTasty LLC), and its guidance is advice, not a substitute for the government's own food safety guidance. And for anything that smells, looks, or feels wrong, the old rule applies: when in doubt, throw it out.
+
+It pairs well with our piece on Supercook, which tells you what to cook with what you have. This tells you how long you have to cook it.
+
+Bookmark it before Thanksgiving. The turkey is the easy part. It's the leftovers that get you.`,
+    affiliate_links: [],
+    tags: ["food", "food-safety", "shelf-life", "leftovers", "thanksgiving", "kitchen", "free"],
+    meta_description: "StillTasty is a shelf-life guide for thousands of foods and drinks: search to find out how long something lasts and how to store it. Sources include USDA, FDA, and CDC research.",
+    editors_note: "❌ No affiliate checked — a commercial site (© StillTasty LLC); I did not confirm whether it runs ads or affiliate links. No product pick issue. All facts come from the StillTasty home page and its 'Our Sources' page, both fetched: the 'Keep It or Toss It?' search, thousands of items, the ten categories, the sources (USDA, FDA, CDC research plus state agencies, nonprofits, and manufacturer inquiries), the statement that its tips and articles are its opinion, the storage assumptions (pantry 60 to 70°F, fridge 35 to 40°F, freezer 0°F or lower), and the article and question titles. The point that label dates often have little to do with food safety paraphrases the article's own teaser. The '9 Foods That Last Forever' summary paraphrases the teaser; I did not name any foods. 'When in doubt, throw it out' and 'it's advice, not a substitute for government guidance' are general food-safety practice, not statements from the site. Thanksgiving is Nov 26, 2026 by the calendar. I did not use the search or check any specific shelf-life answers. Callback to Supercook (Aug 27). Screenshot tip: the home page ('Keep It or Toss It?' search).",
+  },
+
+  "2026-11-09": {
+    id: 204,
+    date: "2026-11-09",
+    slug: "recreation-gov",
+    headline: "BOOK A CAMPSITE, GRAB A NATIONAL PARKS PASS, OR BUY A PERMIT TO CUT YOUR OWN CHRISTMAS TREE. ALL ON ONE SITE.",
+    subheadline: "Recreation.gov is the one-stop reservation site for America's public lands: more than 103,000 individual sites, from campgrounds and cabins to tours and permits. It's also where you can get an annual pass to over 2,000 federal recreation areas.",
+    site: {
+      name: "Recreation.gov",
+      url: "https://www.recreation.gov/",
+      screenshot: "/assets/issues/recreation-gov.png",
+      category: "Travel / Places",
+      vibe: "The booking site for places that belong to everyone",
+    },
+    body: `Millions of acres of American public land are open to anyone. Getting a spot on them, though, is a different story. Which campground? Which website? Do you need a permit? A pass? A reservation six months ago?
+
+Recreation.gov answers most of those questions in one place.
+
+**Here's what it is.** The site calls itself a gateway to America's outdoor and cultural destinations, and it lets you reserve experiences at **over 3,600 facilities and 103,000 individual sites** across the country. You can search by state or browse popular locations, a list that runs from Yosemite, Zion, and the Grand Canyon to national forests and Army Corps of Engineers lakes you may never have heard of.
+
+**What you can book and buy:**
+
+- **Camping and day use:** campsites, cabins, and RV sites.
+- **Passes:** annual and lifetime interagency passes that cover admission and amenity fees at more than 2,000 federal recreation locations, plus site passes for places you visit repeatedly.
+- **Tours and tickets:** reservations for special events, monument tours, and ranger-led experiences.
+- **Permits and lotteries:** the site has an "Enter a Lottery" page for hard-to-get permits, and it lists the Paria Canyon-Vermilion Cliffs Wilderness (home of The Wave) among its popular locations.
+- **Rentals:** an RV or trailer for the road, or tents, packs, and sleeping bags for the trail.
+
+**And right now, there's a seasonal one.** National Forests across the country are offering **permits to cut down your own Christmas tree**, which you can buy through Recreation.gov before you arrive. It's a surprisingly good family tradition, and the site's pitch is that it creates memories.
+
+**It helps you plan, too.** A "Build a Trip" tool lets you organize a trip, and a free mobile app keeps your plans with you. A library of guides covers tips and visitor stories. One article, on shoulder-season travel, makes a useful point: visiting public lands in the off-peak months takes extra planning but can mean fewer crowds and a better chance of securing a reservation where one is required.
+
+**If you liked our piece on Make My Drive Fun,** this is the other half of a road trip: where to sleep when you get there.
+
+**A few honest notes:** the places people want most can sell out far in advance, so check each listing's booking window and rules. Look at the fees and the cancellation policy before you pay. It covers federal lands and partner facilities, so it isn't every campground in the country, and rules differ from place to place. It's for US destinations.
+
+Pick a state, pick a date, and look at what's still open. You might be surprised.`,
+    affiliate_links: [],
+    tags: ["travel", "camping", "national-parks", "public-lands", "passes", "outdoors", "us"],
+    meta_description: "Recreation.gov is the US reservation site for campsites, cabins, permits, tours, and passes at 3,600+ facilities and 103,000+ sites on public lands, including Christmas tree permits.",
+    editors_note: "❌ No affiliate — a federal-lands reservation site; US only. No product pick issue. Travel / Places category per house rule. All site facts come from the Recreation.gov home page I fetched: over 3,600 facilities and 103,000 individual sites; camping, cabins, RVs, permits, passes; interagency passes for 2,000+ federal recreation locations; tours and tickets; the 'Enter a Lottery' link; The Wave listed among popular locations (the page does not say it is a lottery permit, so the copy lists the lottery page and The Wave separately); Christmas tree permits from National Forests; RV, trailer, and gear rentals; Build a Trip; the mobile app; and the shoulder-season article's point about fewer crowds and better odds of a reservation. 'Look at fees and the cancellation policy,' 'places can sell out far in advance,' 'not every campground is on it,' and 'rules differ from place to place' are general knowledge, not statements from the page. I did not make a reservation or use the site. Seasonal hook: the Christmas tree permits, so the date suits the holiday run-up; which forests offer them varies, so check the permits page. Callback to Make My Drive Fun (Aug 31). Screenshot tip: the home page ('Find Your Next Adventure').",
+  },
+
+  "2026-11-08": {
+    id: 203,
+    date: "2026-11-08",
+    slug: "lawhelp",
+    headline: "CAN'T AFFORD A LAWYER? THIS FREE SITE POINTS YOU TO LEGAL AID, FORMS, AND GUIDES IN EVERY STATE.",
+    subheadline: "LawHelp.org connects people to free legal information, court forms, and nonprofit legal aid in every state and territory. It's the answer to \"I got an eviction notice and I don't know what to do,\" and it's been online since 2001.",
+    site: {
+      name: "LawHelp.org",
+      url: "https://www.lawhelp.org/",
+      screenshot: "/assets/issues/lawhelp.png",
+      category: "Law / Resources",
+      vibe: "The front door to free legal help most people never knew existed",
+    },
+    body: `An eviction notice. A debt collector's letter. A court date with your name on it. Legal problems tend to arrive all at once, and most of us have no idea where to turn when we can't afford a lawyer.
+
+Most people don't know there's a front door built for exactly this moment.
+
+**It's called LawHelp.org.** The site provides free legal rights resources, court forms, self-advocacy tools, and referrals to nonprofit legal aid organizations **in every state and territory**. It's maintained by Pro Bono Net in partnership with dozens of nonprofit legal aid programs, pro bono programs, courts, and libraries, and it says its online tools, legal information, and referral directories are always free to use. The footer dates it back to 2001.
+
+**Here's how it works.** Pick your state or territory from the list. It covers the 50 states, the District of Columbia, Puerto Rico, Guam, American Samoa, the US Virgin Islands, and Micronesia. LawHelp then sends you to your own state's legal help website, run by a nonprofit legal services provider there, where you'll find legal information about your rights and referrals to local legal aid.
+
+**It starts with a plain-English guide for people who aren't sure where to begin.** The main one covers finding legal aid and other low-cost legal help: how to find trustworthy services, self-help resources, and other options that might work for you. Others cover:
+
+- **Court fees and getting them paid or waived**
+- **The differences between criminal court and civil court**
+- **The differences between federal, state, and local laws**
+- **Your right to assistance in your language**
+
+**You can create your own legal documents, for free.** A related tool called LawHelp Interactive walks you through a set of questions and builds documents to protect your rights in housing, family law, debt collection, and other kinds of problems.
+
+**And there are special sections for specific moments.** The immigration page points to a tool called immi, which helps immigrants in the US understand their legal options, and to Citizenshipworks. The disaster legal help page is for people affected by a weather or climate disaster, with information on assistance, legal help in your area, and how to appeal a decision from the Federal Emergency Management Agency (FEMA).
+
+**A few honest notes:** LawHelp is a directory and a library, not a law firm, and the information on it is general, not legal advice about your case. Each state's site is different. Legal aid programs often have eligibility rules and limited capacity, so you may be pointed to other options. And legal problems usually come with deadlines, so the best time to look is right away. It's for US residents.
+
+If you read our pieces on 211 and on Dollar For, think of LawHelp as the one for when your problem has a court date.
+
+Bookmark it now. If you ever need it, you'll already know where to go.`,
+    affiliate_links: [],
+    tags: ["legal-aid", "legal-help", "tenants", "court-forms", "free", "civics", "us"],
+    meta_description: "LawHelp.org offers free legal information, court forms, and referrals to nonprofit legal aid in every US state and territory. Find help by state, or build your own legal documents free.",
+    editors_note: "❌ No affiliate — free service maintained by Pro Bono Net with nonprofit legal aid, pro bono, court-based programs, and libraries; US only. No product pick issue. Every fact comes from the LawHelp.org home page I fetched: what it provides (free legal rights resources, court forms, self-advocacy tools, referrals to nonprofit legal aid in every state and territory), the state and territory list, the hand-off to each state's own site, the guides (low-cost legal help, court fees, criminal vs. civil court, federal vs. state vs. local law, right to language assistance), LawHelp Interactive, immi and Citizenshipworks, the Disaster Legal Help page and the FEMA appeals mention, the 'always free to use' statement, and the 2001 copyright date. I left out the Reproductive Health Care Rights and Access guide to keep the copy simple and neutral, though it is on the page. The page does not call Pro Bono Net a nonprofit, so the copy does not either. The honest notes (not legal advice; legal aid programs often have eligibility rules and limited capacity; legal problems often have deadlines) are general knowledge, not from the page. I did not use the tools. Callback to 211 (Aug 25) and Dollar For (Oct 29). Screenshot tip: the home page 'Find Legal Help Near You' state picker.",
   },
 
   "2026-11-07": {
