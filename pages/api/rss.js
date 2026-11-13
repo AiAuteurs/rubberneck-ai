@@ -2,7 +2,7 @@ import { getAllPastIssues } from '../../data/issues'
 
 export default function handler(req, res) {
   const issues = getAllPastIssues()
-  const latest = issues[issues.length - 1]
+  const latest = issues[0] // getAllPastIssues() is newest-first
   
   if (!latest) {
     res.status(404).end()

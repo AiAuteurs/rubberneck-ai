@@ -304,6 +304,7 @@ export default function Home({ initialIssue, initialIsLatest }) {
         <span>© {new Date().getFullYear()} Rubberneck.ai</span>
         <span>Made with unhinged energy.</span>
         <a href="/archive">Archive</a>
+        <a href="/help">Get Help</a>
         <a href="/faq">FAQ</a>
         <a href="/privacy">Privacy</a>
         <a href="/unsubscribe">Unsubscribe</a>

@@ -3805,11 +3805,11 @@ Next time you need a header and have nothing, start here.`,
     },
     body: `If you're behind on your mortgage, or your home is worth less than you owe, you may have been told about a "short sale." You may also have been told a lot of other things by people who want your money.
 
-Here's the place to start instead, and it costs nothing.
+Here's the place to start instead. For foreclosure prevention, the counseling is free.
 
 **What a short sale is.** According to the Consumer Financial Protection Bureau (CFPB), a short sale is when you sell your home for less than you owe, with your mortgage servicer's approval, and the servicer forgives the difference. You're responsible for finding a buyer. If you have other mortgages on the home, you need approval, and forgiveness of what you owe, from those servicers too.
 
-**The tool.** The CFPB's Find a Housing Counselor page lets you enter your ZIP code and see HUD-approved housing counseling agencies near you. HUD is the US Department of Housing and Urban Development. The list is powered by HUD's own official list of counselors, and the agencies are nonprofit or government organizations. The CFPB says HUD-approved agencies provide foreclosure-prevention counseling free of charge. Not every counselor offers every service, so check the services listed for each agency. You can also call (800) 569-4287 and enter your ZIP code, or call the CFPB at (855) 411-2372. To double-check that an agency is really HUD-approved, HUD says to look it up at hud.gov/findacounselor.
+**The tool.** The CFPB's Find a Housing Counselor page lets you enter your ZIP code and see HUD-approved housing counseling agencies near you. HUD is the US Department of Housing and Urban Development. The list is powered by HUD's own official list of counselors, and the agencies are nonprofit or government organizations. The CFPB says HUD-approved agencies provide foreclosure-prevention counseling free of charge. Not every counselor offers every service, so check the services listed for each agency. The tool's own page describes the advice as available "often at little or no cost to you," so ask about fees up front. You can also call (800) 569-4287 and enter your ZIP code, or call the CFPB at (855) 411-2372. To double-check that an agency is really HUD-approved, HUD says to look it up at hud.gov/findacounselor.
 
 **What a counselor does.** A HUD-approved counselor can help you assess your finances, understand your options, talk with your servicer, and put together a plan. Those options can include a loan modification, a repayment plan, a short sale, or giving the home back to your lender in a "deed in lieu of foreclosure." When you call, expect to be asked about your loan (the amount you owe and the date of your last payment) and for papers like pay stubs, tax returns, recent bank statements, and other monthly bills. The CFPB is also blunt about one thing: a counselor can't promise you'll keep your home.
 
@@ -3821,11 +3821,11 @@ Here's the place to start instead, and it costs nothing.
 
 **Honest notes:** this is general information, not legal or tax advice. Forgiven debt can have tax effects, and tax rules on this have changed over the years, so talk to a tax professional before you close. State laws differ on what a lender can pursue afterward, so make sure any approval spells out what happens to the leftover balance, and consider a real estate attorney. This is for US homeowners.
 
-If you're in this spot, or you know someone who is, the call costs nothing. Make it before you sign anything.`,
+If you're in this spot, or you know someone who is, the counseling is free. Make the call before you sign anything.`,
     affiliate_links: [],
     tags: ["housing", "mortgage", "short-sale", "foreclosure", "free", "consumer-protection", "us"],
     meta_description: "The CFPB's Find a Housing Counselor tool lists free HUD-approved counselors who can explain short sales and other options for homeowners behind on their mortgage. US only.",
-    editors_note: "❌ No affiliate — a free US government tool (CFPB, powered by HUD's official counselor list); US only. Sensitive financial-hardship topic, so the tone is plain and supportive, and the copy says it is not legal or tax advice. Sources: CFPB pages found by search — 'Avoid foreclosure' (about six weeks old: the short-sale description, the need for other servicers' approval, the loss mitigation application steps, the tax-implications reminder), 'How to avoid foreclosure' (the (800) 569-4287 line, the 120-day rule, the early-application protection, the scam warnings), Ask CFPB (HUD-approved agencies counsel free; what a counselor asks for; a counselor can't promise you'll keep your home; the (855) 411-CFPB line), a CFPB archived consumer advisory (mortgage relief companies can't collect fees until a written offer is accepted — this is an older page, so confirm the rule is current), the Find a Housing Counselor page itself (powered by HUD's list; check each agency's services), and a HUD flyer (check hud.gov/findacounselor). I could not load the live tool, and the Find a Housing Counselor page in my results is old, so please open it and confirm the page and both phone numbers work before publishing. The HOPE Hotline (888-995-HOPE) is mentioned on a CFPB page but the number was cut off in my results and I only saw it in a non-official guide, so it is left out. I did not give a view on current federal tax treatment of forgiven mortgage debt, because sources I read conflict on whether the exclusion lapsed after 2025. The deed-in-lieu, loan modification, and repayment-plan options are named on CFPB pages. Dated Nov 12. Screenshot tip: the counselor search page (ZIP box); do not include a real address.",
+    editors_note: "❌ No affiliate — a free US government tool (CFPB, powered by HUD's official counselor list); US only. Sensitive financial-hardship topic, so the tone is plain and supportive, and the copy says it is not legal or tax advice. Sources: CFPB pages found by search — 'Avoid foreclosure' (about six weeks old: the short-sale description, the need for other servicers' approval, the loss mitigation application steps, the tax-implications reminder), 'How to avoid foreclosure' (the (800) 569-4287 line, the 120-day rule, the early-application protection, the scam warnings), Ask CFPB (HUD-approved agencies counsel free; what a counselor asks for; a counselor can't promise you'll keep your home; the (855) 411-CFPB line), a CFPB archived consumer advisory (mortgage relief companies can't collect fees until a written offer is accepted — this is an older page, so confirm the rule is current), the Find a Housing Counselor page itself (powered by HUD's list; check each agency's services), and a HUD flyer (check hud.gov/findacounselor). I could not load the live tool myself. The editor's Nov 13 screenshot of the live CFPB page confirms the tool loads with a ZIP code search, shows (855) 411-2372 in its header, says it is powered by HUD's official list of housing counselors, and describes advice as 'often at little or no cost to you' (so the copy now says that). The (800) 569-4287 number still comes only from CFPB articles and is not visible in that screenshot, so confirm it works before relying on it. The HOPE Hotline (888-995-HOPE) is mentioned on a CFPB page but the number was cut off in my results and I only saw it in a non-official guide, so it is left out. I did not give a view on current federal tax treatment of forgiven mortgage debt, because sources I read conflict on whether the exclusion lapsed after 2025. The deed-in-lieu, loan modification, and repayment-plan options are named on CFPB pages. Dated Nov 12. Screenshot tip: the counselor search page (ZIP box); do not include a real address.",
   },
 
   "2026-11-11": {
@@ -7114,15 +7114,28 @@ Go pick your next wall color.`,
 // HELPERS
 // ─────────────────────────────────────────────────────────────────
 
-// Issues go live at 6am EST every morning
+// Issues go live at 6am Eastern Time every morning (correct in summer AND winter,
+// and independent of the server's own time zone). Takes "now" so it can be tested.
+export function adjustedDateStrFor(now) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    hourCycle: "h23",
+    year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit", second: "2-digit",
+  }).formatToParts(now);
+  const get = (type) => Number(parts.find((p) => p.type === type).value);
+  // Eastern wall-clock time, treated as a plain UTC timestamp
+  const easternAsUtc = Date.UTC(get("year"), get("month") - 1, get("day"), get("hour"), get("minute"), get("second"));
+  // Subtract 6 hours so 6:00am Eastern is the start of "today"
+  const shifted = new Date(easternAsUtc - 6 * 60 * 60 * 1000);
+  const y = shifted.getUTCFullYear();
+  const m = String(shifted.getUTCMonth() + 1).padStart(2, "0");
+  const d = String(shifted.getUTCDate()).padStart(2, "0");
+  return `${y}-${m}-${d}`;
+}
+
 function getAdjustedDateStr() {
-  const now = new Date();
-  const utcMs = now.getTime() + now.getTimezoneOffset() * 60000;
-  const estOffsetMs = -4 * 60 * 60000; // EST = UTC-5
-  const estTime = new Date(utcMs + estOffsetMs);
-  // Subtract 6 hours so 6am EST = start of "today"
-  const adjustedTime = new Date(estTime.getTime() - 6 * 60 * 60000);
-  return adjustedTime.toISOString().split("T")[0];
+  return adjustedDateStrFor(new Date());
 }
 
 
