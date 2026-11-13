@@ -164,7 +164,6 @@ export default function Navbar({ onSqueak }) {
 
   return (
     <>
-      <style>{`@media (max-width: 520px) { .nb-help { display: none !important; } }`}</style>
       <header style={{
         background: '#0d0d0d',
         borderBottom: '3px solid var(--yellow)',
@@ -204,20 +203,6 @@ export default function Navbar({ onSqueak }) {
             cursor: 'pointer',
             whiteSpace: 'nowrap',
           }}>{muted ? '\ud83d\udd07 UNMUTE' : '\ud83d\udd0a MUTE'}</button>
-
-          <Link href='/help' className='nb-help' style={{
-            fontFamily: 'var(--font-cond)',
-            fontWeight: 700,
-            fontSize: '0.85rem',
-            letterSpacing: '0.1em',
-            color: 'var(--black)',
-            background: 'var(--yellow)',
-            textDecoration: 'none',
-            border: '1px solid var(--yellow)',
-            padding: '0.3rem 0.75rem',
-            borderRadius: '2px',
-            whiteSpace: 'nowrap',
-          }}>GET HELP</Link>
 
           <Link href='/archive' style={{
             fontFamily: 'var(--font-cond)',
