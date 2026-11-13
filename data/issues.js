@@ -1,4 +1,4 @@
-// Rubberneck issues.js — updated through 2026-11-11 (205 entries)
+// Rubberneck issues.js — updated through 2026-11-12 (206 entries)
 // RUBBERNECK.AI — Issue Data
 // ─────────────────────────────────────────────────────────────────
 // Add new issues here. Key = YYYY-MM-DD (Eastern Time).
@@ -3788,6 +3788,44 @@ Next time you need a header and have nothing, start here.`,
     tags: ["design", "backgrounds", "wallpapers", "tools", "creative", "web", "blogging"],
     meta_description: "Cool Backgrounds is a collection of tools for generating backgrounds from triangles, particles, gradients, topography, and photos, for blog headers, social banners, and wallpapers.",
     editors_note: "⚠️ No affiliate checked, and the page states no pricing or licensing terms, so the copy never calls it 'free' and tells readers to check each tool's terms and Unsplash's license for commercial use. Everything in the copy comes from the site's own pages: the five tools, the color pages, the origin story, the colophon credits, the use cases, the side-project family, and the languages. The site's share text credits its design to @moeamaya, and its footer calls it 'a Visual project, a generative design tool'; I did not name a person in the copy. It is an older site (© 2017–2026). I did not try the tools. Screenshot tip: the homepage hero or a Trianglify or Gradient Topography result. A creative, visual change of pace after the helps-people run.",
+  },
+
+  "2026-11-12": {
+    id: 207,
+    date: "2026-11-12",
+    slug: "housing-counselor-short-sale",
+    headline: "THINKING ABOUT A SHORT SALE? CALL A FREE, GOVERNMENT-APPROVED COUNSELOR BEFORE YOU SIGN ANYTHING.",
+    subheadline: "Selling your home for less than you owe is one of the hardest decisions a homeowner can face. The CFPB's Find a Housing Counselor tool points you to HUD-approved counselors who can walk you through a short sale and your other options for free, and nobody should charge you for that first conversation.",
+    site: {
+      name: "CFPB Find a Housing Counselor",
+      url: "https://www.consumerfinance.gov/find-a-housing-counselor/",
+      screenshot: "/assets/issues/housing-counselor-short-sale.png",
+      category: "Money / Housing",
+      vibe: "The first call to make, and it's free",
+    },
+    body: `If you're behind on your mortgage, or your home is worth less than you owe, you may have been told about a "short sale." You may also have been told a lot of other things by people who want your money.
+
+Here's the place to start instead, and it costs nothing.
+
+**What a short sale is.** According to the Consumer Financial Protection Bureau (CFPB), a short sale is when you sell your home for less than you owe, with your mortgage servicer's approval, and the servicer forgives the difference. You're responsible for finding a buyer. If you have other mortgages on the home, you need approval, and forgiveness of what you owe, from those servicers too.
+
+**The tool.** The CFPB's Find a Housing Counselor page lets you enter your ZIP code and see HUD-approved housing counseling agencies near you. HUD is the US Department of Housing and Urban Development. The list is powered by HUD's own official list of counselors, and the agencies are nonprofit or government organizations. The CFPB says HUD-approved agencies provide foreclosure-prevention counseling free of charge. Not every counselor offers every service, so check the services listed for each agency. You can also call (800) 569-4287 and enter your ZIP code, or call the CFPB at (855) 411-2372. To double-check that an agency is really HUD-approved, HUD says to look it up at hud.gov/findacounselor.
+
+**What a counselor does.** A HUD-approved counselor can help you assess your finances, understand your options, talk with your servicer, and put together a plan. Those options can include a loan modification, a repayment plan, a short sale, or giving the home back to your lender in a "deed in lieu of foreclosure." When you call, expect to be asked about your loan (the amount you owe and the date of your last payment) and for papers like pay stubs, tax returns, recent bank statements, and other monthly bills. The CFPB is also blunt about one thing: a counselor can't promise you'll keep your home.
+
+**How a short sale actually happens, per the CFPB.** You request a loss mitigation application from your servicer, send in a complete application with supporting documents, and get approval from both your servicer and the owner of your loan. Make sure you understand the terms of your specific short sale, including the tax effects.
+
+**Timing matters.** The CFPB says your servicer generally can't make a first notice or filing for foreclosure until you're more than 120 days behind. It also says that if you submit a complete application for mortgage help early enough, the servicer can't start foreclosure while it evaluates you.
+
+**The warning that goes with all of this.** Scammers target homeowners in trouble, sometimes charging thousands of dollars for false promises. The CFPB's signs of a foreclosure scam include a company that guarantees it will get your loan changed and someone telling you to stop paying your mortgage. Its advice is that you shouldn't have to pay anyone to help you avoid foreclosure, because the help is available at no cost from your servicer or a HUD-approved counselor. By its account, mortgage relief companies aren't allowed to collect fees until they give you a written offer from your servicer that you decide is acceptable.
+
+**Honest notes:** this is general information, not legal or tax advice. Forgiven debt can have tax effects, and tax rules on this have changed over the years, so talk to a tax professional before you close. State laws differ on what a lender can pursue afterward, so make sure any approval spells out what happens to the leftover balance, and consider a real estate attorney. This is for US homeowners.
+
+If you're in this spot, or you know someone who is, the call costs nothing. Make it before you sign anything.`,
+    affiliate_links: [],
+    tags: ["housing", "mortgage", "short-sale", "foreclosure", "free", "consumer-protection", "us"],
+    meta_description: "The CFPB's Find a Housing Counselor tool lists free HUD-approved counselors who can explain short sales and other options for homeowners behind on their mortgage. US only.",
+    editors_note: "❌ No affiliate — a free US government tool (CFPB, powered by HUD's official counselor list); US only. Sensitive financial-hardship topic, so the tone is plain and supportive, and the copy says it is not legal or tax advice. Sources: CFPB pages found by search — 'Avoid foreclosure' (about six weeks old: the short-sale description, the need for other servicers' approval, the loss mitigation application steps, the tax-implications reminder), 'How to avoid foreclosure' (the (800) 569-4287 line, the 120-day rule, the early-application protection, the scam warnings), Ask CFPB (HUD-approved agencies counsel free; what a counselor asks for; a counselor can't promise you'll keep your home; the (855) 411-CFPB line), a CFPB archived consumer advisory (mortgage relief companies can't collect fees until a written offer is accepted — this is an older page, so confirm the rule is current), the Find a Housing Counselor page itself (powered by HUD's list; check each agency's services), and a HUD flyer (check hud.gov/findacounselor). I could not load the live tool, and the Find a Housing Counselor page in my results is old, so please open it and confirm the page and both phone numbers work before publishing. The HOPE Hotline (888-995-HOPE) is mentioned on a CFPB page but the number was cut off in my results and I only saw it in a non-official guide, so it is left out. I did not give a view on current federal tax treatment of forgiven mortgage debt, because sources I read conflict on whether the exclusion lapsed after 2025. The deed-in-lieu, loan modification, and repayment-plan options are named on CFPB pages. Dated Nov 12. Screenshot tip: the counselor search page (ZIP box); do not include a real address.",
   },
 
   "2026-11-11": {
