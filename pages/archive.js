@@ -319,7 +319,7 @@ export default function ArchivePage({ issues }) {
             {TOPICS.map((t) => (
               <button key={t} className="arc-chip" onClick={() => setQuery(t)}>{t}</button>
             ))}
-            <Link href="/help" className="arc-chip arc-chip--help">GET HELP →</Link>
+            <Link href="/help" className="arc-chip arc-chip--help">FREE HELP GUIDE →</Link>
           </div>
           {query.trim() && (
             <p className="arc-search__count">
@@ -335,7 +335,7 @@ export default function ArchivePage({ issues }) {
         ) : visible.length === 0 ? (
           <p className="arc-empty">
             Nothing matches &ldquo;{query.trim()}&rdquo;. Try a shorter or broader word, or head to the{' '}
-            <Link href="/help">Get Help page</Link> for the issues that help people in a tough spot.
+            <Link href="/help">Free Help Guide</Link> for the issues that help people in a tough spot.
           </p>
         ) : (
           <div className="archive-grid">
@@ -430,7 +430,7 @@ export default function ArchivePage({ issues }) {
       <footer className="footer">
         <span>© {new Date().getFullYear()} Rubberneck.ai</span>
         <span>Made with unhinged energy.</span>
-        <Link href="/help">Get Help</Link>
+        <Link href="/help">Free Help Guide</Link>
         <Link href="/faq">FAQ</Link>
         <Link href="/privacy">Privacy</Link>
         <Link href="/unsubscribe">Unsubscribe</Link>

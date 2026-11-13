@@ -23,10 +23,10 @@ export default function HelpPage({ groups }) {
   return (
     <>
       <Head>
-        <title>Get Help — Free Resources for When You&apos;re Stuck | Rubberneck.ai</title>
+        <title>Free Help Guide — Resources for When You&apos;re Stuck | Rubberneck.ai</title>
         <meta name="description" content="Free help with bills, medical debt, short sales, legal aid, pets, prescriptions, and more. The Rubberneck.ai issues that help people in a tough spot." />
         <link rel="canonical" href={`${SITE_URL}/help`} />
-        <meta property="og:title" content="Get Help — Free Resources for When You're Stuck" />
+        <meta property="og:title" content="Free Help Guide — Resources for When You're Stuck" />
         <meta property="og:description" content="Free help with bills, medical debt, short sales, legal aid, pets, prescriptions, and more." />
         <meta property="og:url" content={`${SITE_URL}/help`} />
         <meta property="og:image" content={`${SITE_URL}/assets/og-image.jpg`} />
@@ -56,7 +56,7 @@ export default function HelpPage({ groups }) {
       <div style={{ background: 'var(--yellow)', padding: '3rem var(--pad)' }}>
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
           <div style={{ fontFamily: 'var(--font-cond)', fontWeight: 700, fontSize: '0.85rem', color: '#444', letterSpacing: '0.15em', marginBottom: '0.75rem' }}>
-            FREE. TRUSTWORTHY. NO CATCH.
+            RUBBERNECK&apos;S FREE HELP GUIDE
           </div>
           <h1 style={{ fontFamily: 'var(--font-headline)', fontSize: 'clamp(2.5rem, 6vw, 5rem)', color: 'var(--black)', lineHeight: 0.95, margin: '0 0 1rem', letterSpacing: '0.02em' }}>
             STUCK? START HERE.
@@ -69,8 +69,11 @@ export default function HelpPage({ groups }) {
 
       <main style={{ background: 'var(--navy)', padding: '3rem var(--pad) 4rem' }}>
         <div style={{ maxWidth: 'var(--max-w)', margin: '0 auto' }}>
+          <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.95rem', color: 'rgba(245,240,232,0.7)', lineHeight: 1.6, margin: '0 0 0.75rem', maxWidth: '720px' }}>
+            Looking for something specific? <Link href="/archive" style={{ color: 'var(--yellow)' }}>Search every issue</Link> with the box at the top of the page.
+          </p>
           <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.9rem', color: 'rgba(245,240,232,0.55)', lineHeight: 1.6, margin: '0 0 2.5rem', maxWidth: '720px' }}>
-            These are guides to resources, not legal, medical, or financial advice. If you or someone else is in immediate danger, contact your local emergency services.
+            This is a guide to outside resources, not legal, medical, or financial advice, and it is not support for Rubberneck.ai (for that, see the <Link href="/faq" style={{ color: 'var(--yellow)' }}>FAQ</Link>). If you or someone else is in immediate danger, contact your local emergency services.
           </p>
 
           {groups.map((g) => (
@@ -104,7 +107,7 @@ export default function HelpPage({ groups }) {
       <footer className="footer">
         <span>© {new Date().getFullYear()} Rubberneck.ai</span>
         <Link href="/archive">Archive</Link>
-        <Link href="/help">Get Help</Link>
+        <Link href="/help">Free Help Guide</Link>
         <Link href="/faq">FAQ</Link>
         <Link href="/privacy">Privacy</Link>
         <Link href="/unsubscribe">Unsubscribe</Link>

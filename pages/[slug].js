@@ -260,7 +260,7 @@ export default function SlugIssuePage({ issue, prev, next, related }) {
       <footer className="footer">
         <span>© {new Date().getFullYear()} Rubberneck.ai</span>
         <Link href="/archive">Archive</Link>
-        <Link href="/help">Get Help</Link>
+        <Link href="/help">Free Help Guide</Link>
         <Link href="/faq">FAQ</Link>
         <Link href="/privacy">Privacy</Link>
         <Link href="/unsubscribe">Unsubscribe</Link>

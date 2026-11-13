@@ -1,5 +1,6 @@
 // components/Navbar.js
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { useEffect, useRef, useState, useCallback } from 'react'
 
 function SignupStrip({ onSqueak, muted }) {
@@ -137,6 +138,21 @@ function SignupStrip({ onSqueak, muted }) {
 export default function Navbar({ onSqueak }) {
   const squeakRef = useRef(null)
   const [muted, setMuted] = useState(false)
+  const router = useRouter()
+  const [q, setQ] = useState('')
+
+  // When you land on the archive from a search or a tag, show that term in the box.
+  useEffect(() => {
+    if (router.isReady && router.pathname === '/archive' && typeof router.query.q === 'string') {
+      setQ(router.query.q.replace(/-/g, ' '))
+    }
+  }, [router.isReady, router.pathname, router.query.q])
+
+  const submitSearch = (e) => {
+    e.preventDefault()
+    const term = q.trim()
+    router.push(term ? `/archive?q=${encodeURIComponent(term)}` : '/archive')
+  }
 
   useEffect(() => {
     squeakRef.current = new Audio('/assets/squeak.wav')
@@ -164,7 +180,24 @@ export default function Navbar({ onSqueak }) {
 
   return (
     <>
-      <style>{`@media (max-width: 520px) { .nb-help { display: none !important; } }`}</style>
+      <style>{`
+        .nb-search { display: flex; }
+        .nb-search__input {
+          width: 250px; padding: 0.35rem 0.75rem; background: #1a1d2e; color: #fff;
+          border: 1px solid rgba(255,255,255,0.25); border-right: none; border-radius: 2px 0 0 2px;
+          font-family: var(--font-body); font-size: 0.85rem; outline: none;
+        }
+        .nb-search__input:focus { border-color: var(--yellow); }
+        .nb-search__input::placeholder { color: rgba(255,255,255,0.5); }
+        .nb-search__btn {
+          background: var(--yellow); color: var(--black); border: 1px solid var(--yellow);
+          font-family: var(--font-cond); font-weight: 700; letter-spacing: 0.1em; font-size: 0.75rem;
+          padding: 0 0.85rem; border-radius: 0 2px 2px 0; cursor: pointer;
+        }
+        .nb-search-icon { display: none; text-decoration: none; font-size: 1.15rem; }
+        @media (max-width: 900px) { .nb-search__input { width: 150px; } }
+        @media (max-width: 640px) { .nb-search { display: none; } .nb-search-icon { display: inline; } }
+      `}</style>
       <header style={{
         background: '#0d0d0d',
         borderBottom: '3px solid var(--yellow)',
@@ -205,19 +238,18 @@ export default function Navbar({ onSqueak }) {
             whiteSpace: 'nowrap',
           }}>{muted ? '\ud83d\udd07 UNMUTE' : '\ud83d\udd0a MUTE'}</button>
 
-          <Link href='/help' className='nb-help' style={{
-            fontFamily: 'var(--font-cond)',
-            fontWeight: 700,
-            fontSize: '0.85rem',
-            letterSpacing: '0.1em',
-            color: 'var(--black)',
-            background: 'var(--yellow)',
-            textDecoration: 'none',
-            border: '1px solid var(--yellow)',
-            padding: '0.3rem 0.75rem',
-            borderRadius: '2px',
-            whiteSpace: 'nowrap',
-          }}>GET HELP</Link>
+          <form onSubmit={submitSearch} className='nb-search' role='search'>
+            <input
+              className='nb-search__input'
+              type='search'
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              placeholder='Search all issues: short sale, dog, legal...'
+              aria-label='Search all issues'
+            />
+            <button className='nb-search__btn' type='submit' aria-label='Search'>SEARCH</button>
+          </form>
+          <Link href='/archive' className='nb-search-icon' aria-label='Search all issues'>&#128269;</Link>
 
           <Link href='/archive' style={{
             fontFamily: 'var(--font-cond)',

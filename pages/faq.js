@@ -232,7 +232,7 @@ export default function FAQ() {
       {/* FOOTER */}
       <footer className="footer">
         <span>© {new Date().getFullYear()} Rubberneck.ai</span>
-        <a href="/help">Get Help</a>
+        <a href="/help">Free Help Guide</a>
         <a href="/faq">FAQ</a>
         <a href="/privacy">Privacy</a>
         <a href="/unsubscribe">Unsubscribe</a>
