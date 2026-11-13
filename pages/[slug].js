@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useRef, useState, useCallback } from 'react'
 import { getIssueBySlug, getAllIssues } from '../data/issues'
+import { getNeighbors, getRelatedIssues, SITE_URL } from '../data/helpers'
 import Navbar from '../Components/Navbar'
 
 export async function getStaticPaths() {
@@ -16,9 +17,10 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const issue = getIssueBySlug(params.slug)
   if (!issue) return { notFound: true }
-  const all = getAllIssues()
-  const maxId = all.length > 0 ? Math.max(...all.map(i => i.id)) : issue.id
-  return { props: { issue, maxId }, revalidate: 3600 }
+  // Previous / next follow the DATE order of published issues (not issue numbers).
+  const { prev, next } = getNeighbors(issue)
+  const related = getRelatedIssues(issue, 3)
+  return { props: { issue, prev, next, related }, revalidate: 3600 }
 }
 
 function renderBody(bodyText) {
@@ -44,7 +46,7 @@ function renderBody(bodyText) {
   })
 }
 
-export default function SlugIssuePage({ issue, maxId }) {
+export default function SlugIssuePage({ issue, prev, next, related }) {
   const audioRef = useRef(null)
   const [squeaked, setSqueaked] = useState(false)
   const [muted, setMuted] = useState(false)
@@ -73,11 +75,10 @@ export default function SlugIssuePage({ issue, maxId }) {
     setTimeout(() => setSqueaked(false), 600)
   }, [muted])
 
-  const hasPrev = issue.id > 1
-  const hasNext = issue.id < maxId
   const ogImage = issue.site.screenshot
-    ? `https://rubberneck.ai${issue.site.screenshot}`
-    : 'https://rubberneck.ai/assets/og-image.jpg'
+    ? `${SITE_URL}${issue.site.screenshot}`
+    : `${SITE_URL}/assets/og-image.jpg`
+  const pageUrl = `${SITE_URL}/${issue.slug}`
 
   const formattedDate = new Date(issue.date + 'T00:00:00').toLocaleDateString(
     'en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
@@ -91,7 +92,8 @@ export default function SlugIssuePage({ issue, maxId }) {
         <meta property="og:title" content={`${issue.headline} — Rubberneck.ai`} />
         <meta property="og:description" content={issue.meta_description || `${issue.subheadline} — Rubberneck.ai: Websites that grab you by the eyeballs. You won't look away.`} />
         <meta property="og:image" content={ogImage} />
-        <meta property="og:url" content={`https://rubberneck.ai/${issue.slug}`} />
+        <meta property="og:url" content={pageUrl} />
+        <link rel="canonical" href={pageUrl} />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImage} />
@@ -167,6 +169,18 @@ export default function SlugIssuePage({ issue, maxId }) {
             <p className="pick__disclaimer" style={{ color: 'rgba(245,240,232,0.4)' }}>
               <em>If you click and buy something, we may earn a small cut. If it&apos;s boring, we don&apos;t feature it.</em>
             </p>
+            {issue.tags && issue.tags.length > 0 && (
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', marginTop: '1rem' }}>
+                {issue.tags.map((tag) => (
+                  <Link key={tag} href={`/archive?q=${encodeURIComponent(tag)}`} style={{
+                    background: 'rgba(255,255,255,0.06)', color: 'rgba(245,240,232,0.6)',
+                    fontFamily: 'var(--font-cond)', fontSize: '0.72rem', letterSpacing: '0.08em',
+                    padding: '0.25rem 0.7rem', borderRadius: '999px', textDecoration: 'none',
+                    border: '1px solid rgba(255,255,255,0.12)', textTransform: 'uppercase',
+                  }}>{tag}</Link>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </section>
@@ -192,18 +206,45 @@ export default function SlugIssuePage({ issue, maxId }) {
         </div>
       </section>
 
-      {/* PREV / NEXT */}
+      {/* PREV / NEXT — by date, published issues only */}
       <div style={{ background: '#0d0d0d', borderTop: '1px solid #1a1a1a' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '1.5rem', display: 'flex', justifyContent: 'space-between' }}>
-          {hasPrev ? (
-            <Link href={`/issue/${issue.id - 1}`} style={{ fontFamily: 'var(--font-cond)', color: 'var(--yellow)', letterSpacing: '0.1em', textDecoration: 'none' }}>← ISSUE #{issue.id - 1}</Link>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '1rem' }}>
+          {prev ? (
+            <Link href={`/${prev.slug}`} style={{ textDecoration: 'none', display: 'flex', flexDirection: 'column', gap: '0.15rem', maxWidth: '40%' }}>
+              <span style={{ fontFamily: 'var(--font-cond)', color: 'var(--yellow)', letterSpacing: '0.1em', fontSize: '0.8rem' }}>← PREVIOUS</span>
+              <span style={{ fontFamily: 'var(--font-body)', color: 'rgba(245,240,232,0.7)', fontSize: '0.9rem' }}>{prev.site.name}</span>
+            </Link>
           ) : <span />}
           <Link href="/archive" style={{ fontFamily: 'var(--font-body)', color: '#555', textDecoration: 'underline', fontSize: '0.9rem' }}>All Issues</Link>
-          {hasNext ? (
-            <Link href={`/issue/${issue.id + 1}`} style={{ fontFamily: 'var(--font-cond)', color: 'var(--yellow)', letterSpacing: '0.1em', textDecoration: 'none' }}>ISSUE #{issue.id + 1} →</Link>
+          {next ? (
+            <Link href={`/${next.slug}`} style={{ textDecoration: 'none', display: 'flex', flexDirection: 'column', gap: '0.15rem', alignItems: 'flex-end', textAlign: 'right', maxWidth: '40%' }}>
+              <span style={{ fontFamily: 'var(--font-cond)', color: 'var(--yellow)', letterSpacing: '0.1em', fontSize: '0.8rem' }}>NEXT →</span>
+              <span style={{ fontFamily: 'var(--font-body)', color: 'rgba(245,240,232,0.7)', fontSize: '0.9rem' }}>{next.site.name}</span>
+            </Link>
           ) : <span />}
         </div>
       </div>
+
+      {/* MORE LIKE THIS */}
+      {related && related.length > 0 && (
+        <section style={{ background: '#0d0d0d', borderTop: '1px solid #1a1a1a', padding: '2.5rem 1.5rem' }}>
+          <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+            <p style={{ fontFamily: 'var(--font-cond)', fontSize: '0.8rem', letterSpacing: '0.18em', color: 'var(--yellow)', marginBottom: '1rem' }}>MORE LIKE THIS</p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem' }}>
+              {related.map((r) => (
+                <Link key={r.slug} href={`/${r.slug}`} style={{
+                  background: '#12152a', border: '1px solid rgba(255,255,255,0.07)', borderRadius: '4px',
+                  padding: '1rem 1.2rem', textDecoration: 'none', display: 'block',
+                }}>
+                  <div style={{ fontFamily: 'var(--font-cond)', fontSize: '0.65rem', letterSpacing: '0.15em', color: 'rgba(245,197,24,0.6)' }}>{(r.site.category || '').toUpperCase()}</div>
+                  <div style={{ fontFamily: 'var(--font-headline)', fontSize: '1.15rem', color: '#F5F0E8', lineHeight: 1.1, margin: '0.3rem 0' }}>{r.headline}</div>
+                  <div style={{ fontFamily: 'var(--font-body)', fontSize: '0.85rem', color: 'rgba(245,240,232,0.5)' }}>{r.site.name}</div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ARCHIVE CTA */}
       <section style={{ background: 'var(--navy)', borderTop: '3px solid var(--yellow)', padding: '3rem 2rem', textAlign: 'center' }}>
@@ -219,6 +260,7 @@ export default function SlugIssuePage({ issue, maxId }) {
       <footer className="footer">
         <span>© {new Date().getFullYear()} Rubberneck.ai</span>
         <Link href="/archive">Archive</Link>
+        <Link href="/help">Get Help</Link>
         <Link href="/faq">FAQ</Link>
         <Link href="/privacy">Privacy</Link>
         <Link href="/unsubscribe">Unsubscribe</Link>

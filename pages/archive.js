@@ -1,13 +1,21 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
+import { useRouter } from 'next/router'
 import { getAllPastIssues } from '../data/issues'
+import { slimIssue } from '../data/helpers'
 import Navbar from '../Components/Navbar'
 
 export async function getStaticProps() {
-  const issues = getAllPastIssues()
+  // Slim issues (no full article text) keep this page fast.
+  const issues = getAllPastIssues().map(slimIssue)
   return { props: { issues }, revalidate: 3600 }
 }
+
+// Quick-search buttons shown under the search box.
+const TOPICS = ['money', 'health', 'pets', 'food', 'legal', 'privacy', 'travel', 'music', 'science', 'games']
+
+const normalize = (str) => (str || '').toLowerCase().replace(/[-_]+/g, ' ')
 
 export default function ArchivePage({ issues }) {
   const squeakRef = useRef(null)
@@ -15,6 +23,25 @@ export default function ArchivePage({ issues }) {
   const [chickPos, setChickPos] = useState(null)
   const [chickActive, setChickActive] = useState(false)
   const timerRef = useRef(null)
+  const router = useRouter()
+  const [query, setQuery] = useState('')
+
+  // Arriving from a tag link (/archive?q=short-sale) pre-fills the search box.
+  useEffect(() => {
+    if (router.isReady && typeof router.query.q === 'string') setQuery(normalize(router.query.q))
+  }, [router.isReady, router.query.q])
+
+  const visible = useMemo(() => {
+    const terms = normalize(query).split(/\s+/).filter(Boolean)
+    if (terms.length === 0) return issues
+    return issues.filter((issue) => {
+      // Search the headline, summary, site name, category, tagline, and tags.
+      const hay = normalize(
+        [issue.headline, issue.subheadline, issue.site.name, issue.site.category, issue.site.vibe, (issue.tags || []).join(' ')].join(' ')
+      )
+      return terms.every((t) => hay.includes(t))
+    })
+  }, [query, issues])
 
   useEffect(() => {
     squeakRef.current = new Audio('/assets/squeak.wav')
@@ -186,6 +213,33 @@ export default function ArchivePage({ issues }) {
         }
         .arc-card:hover .arc-card__cta { color: var(--yellow); }
 
+        .arc-search { max-width: var(--max-w); margin: 0 auto; padding: 2rem var(--pad) 0; }
+        .arc-search__row { display: flex; gap: 0.5rem; }
+        .arc-search__input {
+          flex: 1; padding: 0.9rem 1.1rem; font-family: var(--font-body); font-size: 1.05rem;
+          background: #0d1024; color: #F5F0E8; border: 2px solid rgba(245,197,24,0.45);
+          border-radius: 3px; outline: none;
+        }
+        .arc-search__input:focus { border-color: var(--yellow); }
+        .arc-search__input::placeholder { color: rgba(245,240,232,0.4); }
+        .arc-search__clear {
+          background: transparent; color: var(--yellow); border: 1px solid rgba(245,197,24,0.4);
+          font-family: var(--font-cond); font-weight: 700; letter-spacing: 0.12em; font-size: 0.8rem;
+          padding: 0 1rem; border-radius: 3px; cursor: pointer;
+        }
+        .arc-search__chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.9rem; }
+        .arc-chip {
+          background: rgba(255,255,255,0.06); color: rgba(245,240,232,0.75); border: 1px solid rgba(255,255,255,0.14);
+          font-family: var(--font-cond); letter-spacing: 0.1em; font-size: 0.75rem; text-transform: uppercase;
+          padding: 0.35rem 0.85rem; border-radius: 999px; cursor: pointer; text-decoration: none;
+        }
+        .arc-chip:hover { border-color: var(--yellow); color: var(--yellow); }
+        .arc-chip--help { background: var(--yellow); color: #0d0d0d; border-color: var(--yellow); font-weight: 700; }
+        .arc-chip--help:hover { color: #0d0d0d; filter: brightness(1.08); }
+        .arc-search__count { font-family: var(--font-cond); letter-spacing: 0.12em; font-size: 0.8rem; color: rgba(245,240,232,0.55); margin: 1rem 0 0; }
+        .arc-empty { font-family: var(--font-body); color: rgba(245,240,232,0.6); padding: 3rem var(--pad) 5rem; text-align: center; max-width: 560px; margin: 0 auto; line-height: 1.6; }
+        .arc-empty a { color: var(--yellow); }
+
         @media (max-width: 600px) {
           .archive-grid {
             grid-template-columns: 1fr;
@@ -247,13 +301,45 @@ export default function ArchivePage({ issues }) {
 
       {/* CARD GRID */}
       <main style={{ background: 'var(--navy)', minHeight: '60vh' }}>
+        <div className="arc-search">
+          <div className="arc-search__row">
+            <input
+              className="arc-search__input"
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search every issue... try “short sale”, “dog”, or “free legal help”"
+              aria-label="Search the archive"
+            />
+            {query && (
+              <button className="arc-search__clear" onClick={() => setQuery('')}>CLEAR</button>
+            )}
+          </div>
+          <div className="arc-search__chips">
+            {TOPICS.map((t) => (
+              <button key={t} className="arc-chip" onClick={() => setQuery(t)}>{t}</button>
+            ))}
+            <Link href="/help" className="arc-chip arc-chip--help">GET HELP →</Link>
+          </div>
+          {query.trim() && (
+            <p className="arc-search__count">
+              {visible.length} {visible.length === 1 ? 'ISSUE' : 'ISSUES'} MATCH &ldquo;{query.trim().toUpperCase()}&rdquo;
+            </p>
+          )}
+        </div>
+
         {issues.length === 0 ? (
           <p style={{ fontFamily: 'var(--font-body)', color: '#555', padding: '4rem var(--pad)', textAlign: 'center' }}>
             Just launched. Check back tomorrow.
           </p>
+        ) : visible.length === 0 ? (
+          <p className="arc-empty">
+            Nothing matches &ldquo;{query.trim()}&rdquo;. Try a shorter or broader word, or head to the{' '}
+            <Link href="/help">Get Help page</Link> for the issues that help people in a tough spot.
+          </p>
         ) : (
           <div className="archive-grid">
-            {issues.map((issue) => {
+            {visible.map((issue) => {
               const formattedDate = new Date(issue.date + 'T00:00:00').toLocaleDateString(
                 'en-US', { weekday: 'short', month: 'short', day: 'numeric' }
               )
@@ -262,7 +348,7 @@ export default function ArchivePage({ issues }) {
               const displayUrl = issue.site.url?.replace(/^https?:\/\//, '') ?? issue.site.name
 
               return (
-                <Link key={issue.id} href={`/issue/${issue.id}`} className="arc-card">
+                <Link key={issue.id} href={issue.slug ? `/${issue.slug}` : `/issue/${issue.id}`} className="arc-card">
                   {/* Browser chrome */}
                   <div className="arc-card__chrome">
                     <div className="arc-card__dots">
@@ -344,6 +430,7 @@ export default function ArchivePage({ issues }) {
       <footer className="footer">
         <span>© {new Date().getFullYear()} Rubberneck.ai</span>
         <span>Made with unhinged energy.</span>
+        <Link href="/help">Get Help</Link>
         <Link href="/faq">FAQ</Link>
         <Link href="/privacy">Privacy</Link>
         <Link href="/unsubscribe">Unsubscribe</Link>
