@@ -1,4 +1,4 @@
-// Rubberneck issues.js — updated through 2026-11-12 (206 entries)
+// Rubberneck issues.js — updated through 2026-11-13 (207 entries)
 // RUBBERNECK.AI — Issue Data
 // ─────────────────────────────────────────────────────────────────
 // Add new issues here. Key = YYYY-MM-DD (Eastern Time).
@@ -3788,6 +3788,36 @@ Next time you need a header and have nothing, start here.`,
     tags: ["design", "backgrounds", "wallpapers", "tools", "creative", "web", "blogging"],
     meta_description: "Cool Backgrounds is a collection of tools for generating backgrounds from triangles, particles, gradients, topography, and photos, for blog headers, social banners, and wallpapers.",
     editors_note: "⚠️ No affiliate checked, and the page states no pricing or licensing terms, so the copy never calls it 'free' and tells readers to check each tool's terms and Unsplash's license for commercial use. Everything in the copy comes from the site's own pages: the five tools, the color pages, the origin story, the colophon credits, the use cases, the side-project family, and the languages. The site's share text credits its design to @moeamaya, and its footer calls it 'a Visual project, a generative design tool'; I did not name a person in the copy. It is an older site (© 2017–2026). I did not try the tools. Screenshot tip: the homepage hero or a Trianglify or Gradient Topography result. A creative, visual change of pace after the helps-people run.",
+  },
+
+  "2026-11-13": {
+    id: 208,
+    date: "2026-11-13",
+    slug: "flighty",
+    headline: "YOUR AIRLINE'S APP WILL TELL YOU YOUR FLIGHT IS DELAYED WHEN IT'S READY. THIS ONE TRIES TO TELL YOU FIRST.",
+    subheadline: "Flighty is a flight tracker for Apple devices that watches the plane that will actually fly your trip, not just your flight number, and says it can warn you about delays hours before the airline does.",
+    site: {
+      name: "Flighty",
+      url: "https://flighty.com/",
+      screenshot: "/assets/issues/flighty.png",
+      category: "Travel / Tools",
+      vibe: "The delay alert you get before the gate agent does",
+    },
+    body: `Most of us find out about a delay the same way: a gate change on a screen, a vague announcement, or a text from the airline long after everyone else already knew. Flighty is built around a simple idea: don't wait for that.
+
+**The trick.** Planes fly more than one trip a day. If the aircraft meant for your flight is running late on its earlier leg, your flight is probably going to be late too. Flighty says it tracks that inbound aircraft starting about 25 hours before your departure, and that it can predict delays up to 6 hours before the airline announces anything. That's the company's own claim, so treat it as a promise to test on your next trip rather than a guarantee.
+
+**What you get.** Live flight status, alerts for delays, gate changes and cancellations, and a way to add flights by importing from your calendar, email or TripIt. There's a "Friends" feature so people waiting for you can follow your flight, a "Passport" that tallies your lifetime travel stats, and an airport guide covering more than 14,000 airports with live conditions. Flighty won an Apple Design Award in 2023 and says it has several million users.
+
+**What it costs.** There's a free tier, and Flighty says your first flight is free to try. Flighty Pro was listed at $4.99 a month or $59.99 billed annually when I looked, and there are also weekly, lifetime and family plans. Prices can change and may vary by country, so check the pricing page. One thing worth knowing before you get attached: Flighty's pricing page says the earliest alerts, the ones that beat the airline by an hour or two, are a Pro feature.
+
+**Honest notes:** Flighty only runs on Apple devices (iPhone, iPad, Mac and Apple Watch), so Android users are out of luck. Predictions are predictions; flights still get delayed with no warning, and no app can fix a cancelled flight. If you just want to watch planes move on a map, free tools like Flightradar24 (featured earlier in Rubberneck) do that well. Flighty is the one for people who want to know what's coming next.
+
+If you have a trip coming up and an iPhone in your pocket, add your flight and see whether it warns you before the airline does.`,
+    affiliate_links: [],
+    tags: ["flights", "travel", "airlines", "delays", "iphone", "apple", "app", "airport"],
+    meta_description: "Flighty is an Apple-only flight tracker that follows your plane's inbound aircraft and says it can warn you about delays before the airline does. Free tier, paid Pro plans.",
+    editors_note: "❌ No affiliate — I searched for a Flighty affiliate program and found none (unconfirmed; worth asking Flighty directly). Apple-only (iPhone, iPad, Mac, Apple Watch), stated plainly in the copy. Facts come from flighty.com and flighty.com/pricing as read on Nov 14: inbound-aircraft tracking from about 25 hours out, delay predictions up to 6 hours before the airline (the company's own claim, labelled as such), Apple Design Award 2023, user count (the site says '4+ million' in one place and '3 million' in another, so the copy just says 'several million'), Friends, Passport, Airports (14,000+), calendar/TripIt/email import, free first flight, Pro $4.99/month or $59.99/year plus weekly, lifetime and family plans, and earliest alerts being Pro-only. Prices are as listed then and may differ by region. I did not install or test the app. Similar earlier pick: Flightradar24 (Jul 28); not back-to-back, and the copy points out the difference. Dated Nov 13 because it was the earliest open date. Screenshot tip: the flighty.com homepage hero.",
   },
 
   "2026-11-12": {
