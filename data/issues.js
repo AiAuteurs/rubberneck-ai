@@ -1,4 +1,4 @@
-// Rubberneck issues.js — updated through 2026-11-13 (207 entries)
+// Rubberneck issues.js — updated through 2026-11-17 (211 entries)
 // RUBBERNECK.AI — Issue Data
 // ─────────────────────────────────────────────────────────────────
 // Add new issues here. Key = YYYY-MM-DD (Eastern Time).
@@ -3788,6 +3788,126 @@ Next time you need a header and have nothing, start here.`,
     tags: ["design", "backgrounds", "wallpapers", "tools", "creative", "web", "blogging"],
     meta_description: "Cool Backgrounds is a collection of tools for generating backgrounds from triangles, particles, gradients, topography, and photos, for blog headers, social banners, and wallpapers.",
     editors_note: "⚠️ No affiliate checked, and the page states no pricing or licensing terms, so the copy never calls it 'free' and tells readers to check each tool's terms and Unsplash's license for commercial use. Everything in the copy comes from the site's own pages: the five tools, the color pages, the origin story, the colophon credits, the use cases, the side-project family, and the languages. The site's share text credits its design to @moeamaya, and its footer calls it 'a Visual project, a generative design tool'; I did not name a person in the copy. It is an older site (© 2017–2026). I did not try the tools. Screenshot tip: the homepage hero or a Trianglify or Gradient Topography result. A creative, visual change of pace after the helps-people run.",
+  },
+
+  "2026-11-17": {
+    id: 212,
+    date: "2026-11-17",
+    slug: "justwatch",
+    headline: "YOU PAY FOR FIVE STREAMING SERVICES AND STILL CAN'T FIND THE MOVIE. THIS IS WHERE IT IS.",
+    subheadline: "JustWatch is a streaming guide for movies, TV and live sports. Search a title and it tells you which services have it, then lets you keep one watchlist across all of them.",
+    site: {
+      name: "JustWatch",
+      url: "https://www.justwatch.com/",
+      screenshot: "/assets/issues/justwatch.png",
+      category: "Entertainment / Tools",
+      vibe: "The answer to 'what app is that on?'",
+    },
+    body: `Streaming was supposed to simplify things. Instead you've got a handful of subscriptions, a movie everyone is talking about, and no idea which app has it this month.
+
+JustWatch is built for exactly that question. Its tagline is "All your streaming services in one app," and the idea is simple: look up a movie, show or sports event, and see where you can watch it.
+
+**What's on the site.** The homepage lists weekly Top 10s for movies and TV (with categories like Comedy, Drama and Horror), new releases, upcoming titles and a free-to-watch section. It also covers live sports, with events marked "Watch soon" or "Watch live now." You can create a single watchlist with every movie and TV show you want to watch, and ask to be notified when an upcoming title or event becomes available.
+
+**What it tracks.** The services named on the page include Netflix, Amazon Prime Video, Apple TV, Disney Plus, Hulu, HBO Max, fuboTV, Peacock, Paramount Plus, YouTube TV, Pluto TV and Tubi. The site lists local versions for regions across North America, South America, Europe, Asia, Africa, the Pacific and the Middle East, though what you can watch depends on where you are.
+
+**Honest notes:** the homepage doesn't say how JustWatch makes money. Its "Watch now" links go through JustWatch's own redirect links and the page includes an ad-serving image, so assume it's supported by ads and referrals, and read the privacy policy if that matters to you. I read the page as text, so I can't vouch for how accurate the listings are; availability changes constantly, and I spotted a couple of placeholder-looking entries on the homepage. Rubberneck featured Reelgood, a similar streaming guide, in May. It's worth trying both and seeing which one you like better.
+
+Next time you can't remember where a movie is, search it here before you open five apps.`,
+    affiliate_links: [],
+    tags: ["streaming", "movies", "tv", "sports", "watchlist", "netflix", "entertainment", "free"],
+    meta_description: "JustWatch tells you which streaming services have a movie, show or live sport, and keeps one watchlist across all of them. Free to use.",
+    editors_note: "❌ No affiliate link — I did not look for a JustWatch program, so status is unknown; ask if you want me to check. Facts are from the justwatch.com homepage as read on Nov 16 (text only): tagline, weekly Top 10s, free-to-watch section, sports events, single watchlist, notify-me alerts, named services, regional versions, ad-serving image and redirect links, and the placeholder entries. I could not see pricing for JustWatch itself, its revenue model, or ownership, and the copy says so. I did not test accuracy of any listing or the app. Similar earlier pick: Reelgood (May 15); not back-to-back and the copy mentions it. Dated Nov 17 because it was the earliest open date. Screenshot tip: a title page showing where to watch.",
+  },
+
+  "2026-11-16": {
+    id: 211,
+    date: "2026-11-16",
+    slug: "scream-into-the-void",
+    headline: "HAVE A BAD DAY? TYPE IT OUT, HIT THE BUTTON, AND SCREAM INTO THE VOID.",
+    subheadline: "A tiny website with one job: let you vent at nothing, loudly, without hurting anyone. It's been around for years, and it still works as well as a primal scream in the car.",
+    site: {
+      name: "Scream Into the Void",
+      url: "https://screamintothevoid.com/",
+      screenshot: "/assets/issues/scream-into-the-void.png",
+      category: "Fun / Interactive",
+      vibe: "A free, silent therapist with a very loud button",
+    },
+    body: `Some days you don't need advice. You don't need a pep talk. You need to yell at something that won't yell back.
+
+That's Scream Into the Void. The page is almost empty: a box, a prompt to scream, and a button. When you're done, you hit the button. The site's own text invites you to "click/tap here to scream again," and when you're finished, to "hit the button."
+
+**Where it came from.** According to Mental Floss's 2023 write-up, it was created in 2015 by the team behind HBO's *Last Week Tonight with John Oliver* as a satirical answer to an app for rating people. The site itself doesn't say so on its page, but its footer links to HBO's terms of use and privacy policy, which fits.
+
+**How it works.** Per that article, you type your frustration into a black hole, press a button, and the words vanish with the sound of a scream. The homepage doesn't explain what happens to your text after that.
+
+**Honest notes:** the page doesn't say whether what you type is stored, and it makes no privacy promise of its own. Its footer links to HBO's privacy policy, which, per Mental Floss, mentions using data for "detecting, preventing or investigating criminal activities," so don't type anything you wouldn't want anyone to read. Venting at a website won't fix anything, but it can take the edge off, and if you're really struggling, talking to a real person is a better idea than a void. The site also has four audio files on it that the page doesn't explain, so I can't tell you exactly what they are.
+
+Next time the email, the commute, or the news gets to you, give it thirty seconds.`,
+    affiliate_links: [],
+    tags: ["stress", "venting", "fun", "interactive", "mental-health", "humor", "free", "hbo"],
+    meta_description: "Scream Into the Void lets you type out your frustration, hit a button, and scream at nothing. A free, one-button site reportedly made by HBO's Last Week Tonight.",
+    editors_note: "❌ No affiliate — a free site tied to HBO as far as I can tell; no program. Facts: the homepage text (scream prompt, 'hit the button', four audio files VOID_1–VOID_4 it doesn't explain, a footer link to HBO terms and privacy) plus Mental Floss (Aug 21, 2023) for the origin (2015, Last Week Tonight team) and for how it works (type, press, text disappears with a scream). The site itself doesn't say who made it, so the copy attributes that to Mental Floss. I could not tell from the page whether text is stored, and the copy says so. I did not test it in a browser. The mental-health line is a light mention, not advice. Dated Nov 16 because it was the earliest open date. Screenshot tip: the homepage with some text typed in.",
+  },
+
+  "2026-11-15": {
+    id: 210,
+    date: "2026-11-15",
+    slug: "mapcrunch",
+    headline: "ONE CLICK DROPS YOU IN A RANDOM PLACE ON EARTH. NO GAME, NO SCORE, JUST THE VIEW.",
+    subheadline: "MapCrunch sends you to a random Google Street View location, anywhere from a Patagonian highway to a side street in Hong Kong. Click again, and you're somewhere else.",
+    site: {
+      name: "MapCrunch",
+      url: "https://www.mapcrunch.com/",
+      screenshot: "/assets/issues/mapcrunch.png",
+      category: "Travel / Interactive",
+      vibe: "A teleporter with one button",
+    },
+    body: `You've probably been stuck in a room on a rainy afternoon wishing you were somewhere else. MapCrunch is a way to be somewhere else, for free, in about one second.
+
+**How it works.** Click the button and the site loads a random Google Street View location. You can leave it fully random or narrow it down: pick a region (North America, South America, Europe, Asia), choose specific countries from a list, or select an area on the map. The country list is long and includes places like Macau, Hong Kong and even Antarctica.
+
+**What's on the page.** Beyond the main button there's an options panel (with settings like Urban, Indoor, Stealth, Tour and Auto, plus a seconds timer; the page doesn't explain them, so you'll be experimenting), a Map and List view, and a Share option for submitting views to a gallery of "the best views," updated daily. When I looked, the featured view was Hercules Point on South Georgia island.
+
+**Who's behind it.** The About section is written by someone named Nick, and the site also promotes his other projects, including word and music games and a few other Street View sites.
+
+**Honest notes:** the About section says the imagery covers 50 countries, so "a random place in the world" really means a random place Google's cameras have been. Results depend on Google Street View, so you'll sometimes land on an empty road, and the gallery includes user submissions. I didn't see any ads on the page, but I read it as text, not in a browser, so I can't say what a visitor sees. If you want the competitive version, with scoring and guessing, that's GeoGuessr, which Rubberneck has featured before. MapCrunch is the slower, quieter one, for wandering.
+
+Try it with a country you've never thought about. Then click again.`,
+    affiliate_links: [],
+    tags: ["maps", "street-view", "random", "geography", "travel", "explore", "free", "interactive"],
+    meta_description: "MapCrunch drops you into a random Google Street View location. Filter by region or country, browse a daily gallery of the best views. Free.",
+    editors_note: "❌ No affiliate — a free site; I know of no program. Facts are from the mapcrunch.com homepage as read on Nov 16 (text only, not rendered in a browser): random Street View, region and country filters, the options buttons (the page doesn't explain them, and the copy says so), Map/List views, Share and daily gallery, the featured Hercules Point view, the author named Nick, his related projects, and imagery from '50 countries'. I did not test it, so I can't say how well the filters work, whether ads show, or how current the imagery is. Similar earlier pick: GeoGuessr; it's the game version and the copy points that out. Dated Nov 15 because it was the earliest open date. Screenshot tip: a good random view with the page controls visible.",
+  },
+
+  "2026-11-14": {
+    id: 209,
+    date: "2026-11-14",
+    slug: "time-is",
+    headline: "WHAT TIME IS IT IN TOKYO? NOT SURE? THIS SITE SAYS IT KNOWS TO THE SECOND.",
+    subheadline: "Time.is shows the current time for more than seven million places around the world, says it's synced to atomic clock time, and has a pile of handy tools tucked behind the clock, from a time zone comparison chart to a Unix time converter.",
+    site: {
+      name: "Time.is",
+      url: "https://time.is/",
+      screenshot: "/assets/issues/time-is.png",
+      category: "Tools / Utilities",
+      vibe: "A big clock that's trying very hard to be right",
+    },
+    body: `Everyone has done this: you're about to message someone on the other side of the planet and you're not sure whether it's lunchtime or 3 a.m. for them. Or you're running a countdown, a meeting, or a server and you want to know what time it really is, not what your laptop thinks it is.
+
+That's the whole point of Time.is. Open it and you get a big clock for your location, with the date and sunrise and sunset times, plus the times in other major cities and zones like UTC.
+
+**The big claim.** The site says it shows "exact, official atomic clock time" and that it's synchronized with atomic clock time. The homepage doesn't explain how it does that or how accuracy is measured, so take it as the site's own claim. For a wall clock it's plenty. If you need provable timekeeping for something technical, check how your own device syncs too.
+
+**More than a clock.** Behind the main display there's a time comparison tool for working out meeting times across zones, a directory of time zones, Daylight Saving Time information for 2026, a "this day in history" page, a countdown and timer, calendars, a week-number tool, a Unix time clock and converter, and UTC time. You can pick a default location and save favorites. The site says it covers more than 7 million locations and is available in about 58 or 59 languages (it says both in different places).
+
+**Honest notes:** the site is ad-supported, with an ad-free option and an advertising page, and the homepage includes a tracking pixel. It also uses your location to pick a default clock, and the homepage doesn't explain how, so read its privacy policy if that matters to you. I couldn't find who runs it from the homepage. None of this makes it a bad tool, but it's worth knowing.
+
+Bookmark it for the next time you're scheduling a call across three time zones. It's the kind of tool you don't think about until you need it.`,
+    affiliate_links: [],
+    tags: ["time", "time-zones", "clock", "tools", "utility", "travel", "remote-work", "free"],
+    meta_description: "Time.is shows the exact current time for over 7 million places worldwide, with a time zone comparison tool, countdowns, Unix time and more. Free, ad-supported.",
+    editors_note: "❌ No affiliate — a free, ad-supported tool; I know of no affiliate program. Facts are from the time.is homepage as read on Nov 16: atomic-clock sync claim (not explained or verified on the page, and labelled as the site's own claim), 7 million+ locations, 58 vs 59 languages (the page says both, so the copy says 'about 58 or 59'), the tool list, ad-free and advertise links, a Quantcast tracking pixel, and no named operator on the homepage. I did not read its About, Terms or privacy pages, and I did not test accuracy against another clock. Dated Nov 14 because it was the earliest open date. Screenshot tip: the homepage clock.",
   },
 
   "2026-11-13": {
