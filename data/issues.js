@@ -1,4 +1,4 @@
-// Rubberneck issues.js — updated through 2026-11-17 (211 entries)
+// Rubberneck issues.js — updated through 2026-12-01 (225 entries)
 // RUBBERNECK.AI — Issue Data
 // ─────────────────────────────────────────────────────────────────
 // Add new issues here. Key = YYYY-MM-DD (Eastern Time).
@@ -3788,6 +3788,416 @@ Next time you need a header and have nothing, start here.`,
     tags: ["design", "backgrounds", "wallpapers", "tools", "creative", "web", "blogging"],
     meta_description: "Cool Backgrounds is a collection of tools for generating backgrounds from triangles, particles, gradients, topography, and photos, for blog headers, social banners, and wallpapers.",
     editors_note: "⚠️ No affiliate checked, and the page states no pricing or licensing terms, so the copy never calls it 'free' and tells readers to check each tool's terms and Unsplash's license for commercial use. Everything in the copy comes from the site's own pages: the five tools, the color pages, the origin story, the colophon credits, the use cases, the side-project family, and the languages. The site's share text credits its design to @moeamaya, and its footer calls it 'a Visual project, a generative design tool'; I did not name a person in the copy. It is an older site (© 2017–2026). I did not try the tools. Screenshot tip: the homepage hero or a Trianglify or Gradient Topography result. A creative, visual change of pace after the helps-people run.",
+  },
+
+  "2026-12-01": {
+    id: 226,
+    date: "2026-12-01",
+    slug: "the-pudding",
+    headline: "SOME STORIES ARE BETTER AS VISUAL ESSAYS. THIS SMALL TEAM BUILDS THEM WITH DATA AND CODE.",
+    subheadline: "The Pudding is an independent digital publication that explains culture with data and visuals, from small teams who code and research their own stories.",
+    site: {
+      name: "The Pudding",
+      url: "https://pudding.cool/",
+      screenshot: "/assets/issues/the-pudding.png",
+      category: "Culture / Data",
+      vibe: "Visual essays that make culture make sense",
+    },
+    body: `Some stories are better when you can see them. The Pudding builds those.
+
+It describes itself as a digital publication that explains culture-related debates through visual essays, and says it chooses topics "where visuals inform and entertain." It has operated since 2017. The site says it's "not chasing current events or clickbait," and that there are no deadlines because stories aren't tied to news events.
+
+**Who runs it.** A small collective, not a traditional newsroom. Its team page lists ten members, and members often handle every step of a story, from research to code.
+
+**How it stays afloat.** The site says it has no ads or subscription paywall. It says its sister studio, Polygraph, which produces custom content for brands, is the main way the publication stays afloat. There are occasional sponsored posts, which it says don't control editorial decisions, and a Patreon where readers can chip in.
+
+**Awards.** The About page lists many, including a 2017 Peabody for Digital Journalism and a 2019 Data Journalism Awards Website of the Year. They are the site's own list, and some award links point to its homepage rather than the specific work.
+
+**Honest notes:** almost everything above is self-reported on the site's About page. It doesn't say how often it publishes, so there's no regular schedule; the page also says many ideas are killed during production. The hiring information on that page may be out of date. I didn't read any individual story, so I can't recommend a specific one.
+
+Open one, scroll to the end, and see if you didn't learn something.`,
+    affiliate_links: [],
+    tags: ["data","journalism","visual-essays","storytelling","culture","interactive","design","free"],
+    meta_description: "The Pudding is an independent publication that explains culture through data and visual essays, with no ads or paywall.",
+    editors_note: "❌ No affiliate — independent publication; no ads or paywall, funded by its sister studio Polygraph, occasional sponsored posts and Patreon, per its About page. Facts are from pudding.cool/about as read on Nov 19: since 2017, ten-member team, funding, the Peabody and Data Journalism Awards mentions (self-reported), no stated publishing frequency. I did not read any story and the copy names none. Recommend picking a story and screenshotting that, not the homepage, and I can add a story-specific line if you tell me which. Dated Dec 1 (the 13th and last of this batch).",
+  },
+
+  "2026-11-30": {
+    id: 225,
+    date: "2026-11-30",
+    slug: "seatmaps",
+    headline: "BEFORE YOU PICK A SEAT ON YOUR NEXT FLIGHT, LOOK AT THE ACTUAL PLANE.",
+    subheadline: "SeatMaps shows airline seat maps, cabin layouts, photos and traveler reviews, so you can see legroom, recline and the seats to avoid before you fly.",
+    site: {
+      name: "SeatMaps",
+      url: "https://www.seatmaps.com/",
+      screenshot: "/assets/issues/seatmaps.png",
+      category: "Travel / Tools",
+      vibe: "Pick a better seat before you book",
+    },
+    body: `The difference between a good seat and a bad one can be a few inches of legroom, a missing window, or a seat that doesn't recline. SeatMaps wants you to find out before you board.
+
+The site says it helps you "find the actual seat map for your flight and choose a better seat before you fly." You can search by airline, date and flight number or by route, compare flights and browse airline fleets. It shows cabin layouts, legroom, recline and cabin features, passenger and travel-blogger reviews and photos, plus 360-degree views of some cabins. It's available in about 22 languages.
+
+**How big is it?** The page gives two sets of figures: its description says 740 airlines and 3,303 aircraft, while the page body says more than 800 airlines. Either way, it covers a lot of carriers worldwide, from Ryanair and Southwest to Lufthansa and Air New Zealand.
+
+**Who's behind it.** The footer names Quicket GmbH and SeatMaps Ltd. The page says it was inspired by the travel experience of co-founder Fred Finn, who wrote a book about his Concorde flights.
+
+**Honest notes:** the page doesn't explain how reviews are collected or verified, or how often each seat map is checked against what airlines actually fly. Airlines swap aircraft and change cabins, so a seat map is a good guide, not a guarantee. It also doesn't say how the site makes money, and it promotes Finn's book. I read the page as text and didn't use the tool.
+
+Check it before you pay for a seat selection.`,
+    affiliate_links: [],
+    tags: ["flights","airlines","seats","travel","reviews","cabin","planning","free"],
+    meta_description: "SeatMaps shows airline seat maps, legroom, cabin features, photos and reviews for hundreds of airlines, so you can pick a better seat.",
+    editors_note: "❌ No affiliate known — the page doesn't say how the site earns money; I did not look for a program. Facts are from the seatmaps.com homepage as read on Nov 19 (text only): search by airline, date, flight or route; layouts, legroom, recline, reviews, photos and 360 views; 740 airlines and 3,303 aircraft in the description vs 800+ in the body (copy shows both); about 22 languages; Quicket GmbH | SeatMaps Ltd; co-founder Fred Finn. I did not use the tool. Similar earlier picks: SeatLink (Jul 10) is also a seat-map and review site, so this is close to a repeat; consider skipping or moving it; and Flighty (Nov 13) is nearby. Dated Nov 30.",
+  },
+
+  "2026-11-29": {
+    id: 224,
+    date: "2026-11-29",
+    slug: "explorable-explanations",
+    headline: "WHAT IF AN ESSAY LET YOU CHANGE THE ASSUMPTIONS AND WATCH THE ANSWER MOVE?",
+    subheadline: "Explorable explanations are interactive essays that let you play with the idea as you read it. The concept comes from designer Bret Victor, and explorabl.es collects examples.",
+    site: {
+      name: "Explorable Explanations",
+      url: "https://explorabl.es/",
+      screenshot: "/assets/issues/explorable-explanations.png",
+      category: "Education / Interactive",
+      vibe: "Explanations you can poke at",
+    },
+    body: `Most explanations tell you the answer. An explorable explanation lets you test it.
+
+The idea was laid out by designer Bret Victor in a March 2011 essay (with a postscript added in 2024). His pitch: "I want text to be used as an environment to think in." He described three techniques. Reactive documents let readers change an author's assumptions and see the consequences update, "like a spreadsheet without the spreadsheet." Explorable examples let readers manipulate a system to build intuition. Contextual information lets readers look things up in place while reading.
+
+He also argued that most interactive widgets "dump the user in a sandbox," and "those are not explanations." The author has to guide the reader through what to try.
+
+**Where to find them.** explorabl.es is the hub the infographic pointed us to, aimed at finding interactive explanations of complex ideas. In his postscript, Victor recommends work by Distill, Nicky Case, Amit Patel and Jack Schaedler as good places to start.
+
+**Honest notes:** I couldn't open explorabl.es itself, so I can't tell you what's on it today or how it's curated; the description here comes from Victor's own essay. In that postscript, Victor also complains that the term is now used for any article with interactive pictures, and says that's not what he meant. Quality will vary.
+
+Pick one, move a slider, and see what changes.`,
+    affiliate_links: [],
+    tags: ["interactive","learning","bret-victor","education","essays","explainers","science","free"],
+    meta_description: "Explorable explanations are interactive essays you can play with as you read. The idea comes from Bret Victor; explorabl.es collects examples.",
+    editors_note: "⚠️ Weakest-verified issue of the batch: I could not open explorabl.es. Facts about the concept are from Bret Victor's original essay (worrydream.com, dated March 10, 2011 with a 2024 postscript) and the copy says so. The statement that explorabl.es is a hub of examples comes from your infographic's description plus search results (an 'awesome explorables' list), not from the site. Please look at the site and tell me if you want a different angle, or I can swap this pick for Nicky Case's own work, which I'd need to check. No affiliate; free. Dated Nov 29. Screenshot tip: the explorabl.es homepage.",
+  },
+
+  "2026-11-28": {
+    id: 223,
+    date: "2026-11-28",
+    slug: "wikiloc",
+    headline: "FIND A TRAIL ANYWHERE IN THE WORLD, FROM PEOPLE WHO ALREADY WALKED, RODE OR SAILED IT.",
+    subheadline: "Wikiloc is a global library of GPS routes uploaded by its members: hiking, cycling and other outdoor trails you can browse on a map and download.",
+    site: {
+      name: "Wikiloc",
+      url: "https://www.wikiloc.com/",
+      screenshot: "/assets/issues/wikiloc.png",
+      category: "Travel / Outdoors",
+      vibe: "Trails from people who've actually walked them",
+    },
+    body: `Planning a hike in a country you don't know is hard. Wikiloc's answer is to let people who've done it share their route.
+
+According to Wikipedia, Wikiloc launched in 2006 as a site that hosts GPS trails and waypoints uploaded by members. You can see the trails on map layers, in Google Earth, and through Android and iPhone apps. The activities include hiking, cycling, sailing and paragliding. Wikipedia reports more than 11 million members and more than 37.9 million tracks, though it flags the track count as needing clarification.
+
+**What it costs.** Downloading GPX files, the standard GPS route format, is free according to Wikipedia. Sending trails or waypoints straight to a Garmin or mobile device costs money. The contributors aren't paid, and bulk downloads and re-hosting of the data are prohibited.
+
+**Honest notes:** I couldn't load Wikiloc itself, so the facts come from its Wikipedia article and an app-store listing's search result. Prices, features and counts may have changed, so check the site. Because the routes are uploaded by members, quality, difficulty and trail conditions vary. Check recent comments and the weather, tell someone where you're going, and carry a real map or offline backup before you head into remote country. A route that someone else walked last year might be closed, overgrown or unsafe now.
+
+Search for a trail near your next trip, or near home, where you haven't looked before.`,
+    affiliate_links: [],
+    tags: ["hiking","cycling","trails","outdoors","gps","maps","travel","global"],
+    meta_description: "Wikiloc is a global library of member-uploaded GPS trails for hiking, cycling and more. Browse on a map, with free GPX downloads and paid extras.",
+    editors_note: "⚠️ Freemium (some paid features) — no affiliate confirmed; I did not look for a program. I could not load wikiloc.com, so the facts come from Wikipedia (2006 launch, member-uploaded trails, map layers, Google Earth, Android and iPhone apps, activities, 11M+ members, 37.9M+ tracks flagged 'clarification needed', free GPX downloads, paid direct-to-device sending, contributors unpaid, bulk download prohibited). Counts are Wikipedia's, not the site's, and the copy says so. Please open the site before publishing to check pricing and look. Safety lines are my own. Global pick. Dated Nov 28.",
+  },
+
+  "2026-11-27": {
+    id: 222,
+    date: "2026-11-27",
+    slug: "fix-my-speakers",
+    headline: "DROPPED YOUR PHONE IN WATER AND THE SPEAKER SOUNDS MUFFLED? THIS WEBSITE PLAYS A TONE THAT SAYS IT PUSHES THE WATER OUT.",
+    subheadline: "Fix My Speakers is a free web tool that plays a special sound through your phone's speaker to help clear out trapped water. It's worth a try before you panic.",
+    site: {
+      name: "Fix My Speakers",
+      url: "https://fixmyspeakers.com/",
+      screenshot: "/assets/issues/fix-my-speakers.png",
+      category: "Tools / Phones",
+      vibe: "A sound that shakes the water out of your phone",
+    },
+    body: `You drop your phone in the sink, or get caught in the rain, and now the speaker sounds muffled and crackly. Fix My Speakers is a free website that says it can help.
+
+**How it works.** You open the page and press a button. It plays what the site calls "a carefully calibrated tone" that it says "will resonate within the speaker chamber" and push the water out. The site compares it to the water-eject feature on Apple Watch. Its FAQ says to prop the phone with the speaker facing down, turn the volume up to maximum, and play it for 10 to 30 seconds, repeating a few times if the sound is still muffled. There's nothing to download, and it runs in your browser.
+
+**Who's behind it.** According to its FAQ, the site was created by Joseph Maxim, a software developer based in Toronto, Canada. The FAQ says it's free and funded by advertising.
+
+**Honest notes:** the site says it works on "most" smartphones with external speakers, including iPhones and Android phones, and doesn't define "most." It gives no frequency and cites no independent testing for the claim, so treat it as worth a try, not a guaranteed fix. It also says results may vary on smartwatches, earbuds and laptops, that saltwater can cause corrosion even if the water comes out, and that it doesn't address dust. And it's no substitute for the basics: a Yahoo Tech article on the topic says to turn the phone off, not to charge it while there's water in the port, to skip the hair dryer, and notes that Apple recommends against putting a phone in rice. If the speaker is still crackly or muffled afterwards, take it to a repair shop. I haven't tried the tool myself.
+
+Bookmark it now, so you aren't searching for it with a wet phone.`,
+    affiliate_links: [],
+    tags: ["phone","water","speaker","repair","tools","iphone","android","free"],
+    meta_description: "Fix My Speakers is a free web tool that plays a tone through your phone speaker to help push out trapped water. Works in your browser.",
+    editors_note: "❌ No affiliate — a free, ad-supported site by Joseph Maxim (Toronto) per its FAQ. Replaces The Library of Babel, which you found too abstract (it's still a fine site, just hard to explain). Facts are from fixmyspeakers.com and its FAQ as read Nov 20 (text only): calibrated tone, 10 to 30 seconds, speaker facing down at full volume, works on 'most' smartphones, no hertz given, no independent testing cited, smartwatches/earbuds/laptops 'results may vary', saltwater corrosion warning, dust not addressed, free and funded by advertising, created by Joseph Maxim. The drying advice (power off, don't charge, no hair dryer, Apple advises against rice) is from a Yahoo Tech article and is attributed to it in the copy. I did not try the tool. The infographic you sent listed it at number 49. Dated Nov 27. Screenshot tip: the homepage with the button.",
+  },
+
+  "2026-11-26": {
+    id: 221,
+    date: "2026-11-26",
+    slug: "isthereanydeal",
+    headline: "BEFORE YOU PAY FULL PRICE FOR A PC GAME, CHECK IF IT'S EVER BEEN CHEAPER.",
+    subheadline: "IsThereAnyDeal compares prices for PC games across stores, keeps price history, and can alert you when a game on your wish list drops to a price you choose.",
+    site: {
+      name: "IsThereAnyDeal",
+      url: "https://isthereanydeal.com/",
+      screenshot: "/assets/issues/isthereanydeal.png",
+      category: "Money / Games",
+      vibe: "Don't buy it until you've checked the price history",
+    },
+    body: `PC games go on sale constantly. The hard part is knowing whether this week's "sale" is actually a good price.
+
+IsThereAnyDeal (ITAD) is built to answer that. A 2026 roundup of Steam wishlist price trackers named it the best overall choice for cross-store offers and custom alerts. According to that article, you can import a whole Steam wishlist into ITAD's Waitlist, keep it under watch, and set rules, such as a target price, a minimum discount or the stores you'll accept. The alerts go out by email or RSS. It also compares prices across several stores and keeps price history, so you can see what a game cost before.
+
+**What the homepage shows.** Game deals ranked by discount, each with the store, the percent off and the price, plus a Waitlist, a Collected list, and menus for Games, Heat, Other and About. It also lists what's new in subscription services like Prime Gaming and Game Pass.
+
+**Honest notes:** the features above come from a 2026 roundup article, not from my using the tool. Look at the store next to each price. The homepage lists big names like Epic Game Store alongside smaller key resellers such as GameBillet and AllYouPlay, so check that you're comfortable with the seller before you buy. The article says ITAD has more settings to configure than Steam's own wishlist, that you need to check that a listed store, currency and key work where you live, and that loose alert rules can bury you in notifications or surface offers you can't redeem. It doesn't say how ITAD makes money, and neither does anything I read. Many price-comparison sites earn commissions from store links, so ask yourself whether you're comfortable with that. It's also only about PC games. It won't help with consoles.
+
+If you have a wishlist full of games you're "waiting for a sale" on, set up a waitlist and let the price come to you.`,
+    affiliate_links: [],
+    tags: ["gaming","pc-games","steam","deals","price-tracker","savings","wishlist","money"],
+    meta_description: "IsThereAnyDeal compares PC game prices across stores, tracks price history and alerts you when wishlist games hit your target price.",
+    editors_note: "⚠️ Affiliate status unknown and unconfirmed — I could not load isthereanydeal.com ('client error') and found nothing saying how it earns money; many deal sites use store affiliate links, so it's worth checking before you feature or link it. Per your rule (apply for affiliates before featuring paid products), this isn't a paid product, but confirm. Facts are from a single 2026 third-party roundup (itechguides: Waitlist, Steam wishlist import, multi-store comparison, price history, rule-based alerts by email or RSS, plus its caveats), not the site. The article did not confirm 'historical low' tracking or bundles, so the copy leaves them out. Updated Nov 20 after you sent a homepage screenshot: it shows deals with store, discount and price, Waitlisted/Collected counters, menus (Games, Heat, Other, About), a blog, and subscription listings (Prime Gaming, Game Pass), with stores including Epic Game Store, Fanatical, GameBillet and AllYouPlay. I still have not used the tool, and the screenshot does not show how the site makes money. Dated Nov 26 (Thanksgiving week in the US; a timely money pick).",
+  },
+
+  "2026-11-25": {
+    id: 220,
+    date: "2026-11-25",
+    slug: "smithsonian-open-access",
+    headline: "MILLIONS OF SMITHSONIAN IMAGES ARE FREE TO DOWNLOAD AND USE FOR ANY PURPOSE.",
+    subheadline: "Smithsonian Open Access gave up copyright on millions of images and data from its collections, so anyone can download, remix and share them, for free, without asking permission.",
+    site: {
+      name: "Smithsonian Open Access",
+      url: "https://www.si.edu/openaccess",
+      screenshot: "/assets/issues/smithsonian-open-access.png",
+      category: "Culture / Free Resources",
+      vibe: "Millions of museum images, free to use",
+    },
+    body: `Museums are full of amazing things you're usually not allowed to use. The Smithsonian decided to change that.
+
+According to its press release, the Smithsonian's Open Access initiative removed copyright restrictions from about 2.8 million digital collection images and related data. It said it expected more than 3 million images to be designated open access by late 2020, and that it would keep adding more. Nearly 3 million carry a Creative Commons Zero (CC0) designation, which waives the Institution's copyright.
+
+**What you can do.** The release says you can "download, transform and share this open access content for any purpose, for free," for both commercial and non-commercial uses. That covers high-resolution 2D and 3D images, research datasets and metadata, which can be downloaded in bulk. Start at si.edu/openaccess. The release also says the content is available through Creative Commons, Google Arts & Culture and Wikipedia.
+
+**Honest notes:** those figures come from the original release, which dates from 2020, so today's totals are probably different. The release says nearly 3 million of the 4.7 million collection images then online were CC0, and doesn't say what applies to the rest, so check the rights information on any item before you use it, especially for anything commercial. I didn't search the collection myself.
+
+Print something odd for your wall, use it in a project, or just browse. It's yours to use.`,
+    affiliate_links: [],
+    tags: ["museum","images","public-domain","cc0","art","history","design","free"],
+    meta_description: "Smithsonian Open Access released millions of collection images and data under CC0, free to download and reuse for any purpose.",
+    editors_note: "❌ No affiliate — a free public resource. Facts are from the Smithsonian's original press release (about 2.8 million images and data; more than 3 million expected by late 2020; nearly 3 million CC0; commercial and non-commercial use; bulk download; also via Creative Commons, Google Arts & Culture and Wikipedia). It is a 2020 release, so the copy says current totals are probably higher and doesn't state a number. I did not open si.edu/openaccess or download anything. The copy tells readers to check the rights on each item. Dated Nov 25. Screenshot tip: the Open Access search page.",
+  },
+
+  "2026-11-24": {
+    id: 219,
+    date: "2026-11-24",
+    slug: "light-pollution-map",
+    headline: "WANT TO SEE THE MILKY WAY? FIND THE NEAREST PLACE THAT'S ACTUALLY DARK.",
+    subheadline: "Light Pollution Map shows how bright the night sky is anywhere on Earth, using NASA satellite data, and can point you to the closest dark spot for stargazing.",
+    site: {
+      name: "Light Pollution Map",
+      url: "https://www.lightpollutionmap.info/",
+      screenshot: "/assets/issues/light-pollution-map.png",
+      category: "Science / Travel",
+      vibe: "Where the stars are still out",
+    },
+    body: `Most of us have forgotten what a truly dark sky looks like. Light Pollution Map shows you where one still exists.
+
+It's an interactive world map run by Jurij Stare. According to its help page, its main purpose is to display NASA's VIIRS satellite night-light data in a "friendly" way. It also has modelled sky brightness, measurements submitted by users, observatories, clouds, and an aurora forecast from NOAA.
+
+**Using it to find dark skies.** Switch on the sky brightness overlay to see modelled darkness overhead. There's a "Find closest dark site" tool that finds the nearest dark spot above a chosen threshold. The help page says that tool isn't available on phones. You can also click for values at a point and measure areas, and see trends in night light over 2016 to 2025.
+
+**Honest notes:** the help page says the model "will not be 100% accurate everywhere" and should be treated as "a general guide, not as an absolute truth." The satellite is much less sensitive to blue and white light, such as many LEDs, so the real sky can be brighter than predicted. Measurements are taken around 1:30 a.m. local time, and clouds, snow and aurora can distort data. Before driving anywhere, check the weather, the road and whether you're allowed to be there at night. The site has been funded by advertisements since July 2019. Donors can hide ads for three years, and there's a paid, ad-free mobile app.
+
+Pick a clear night, find a dark pixel, and bring a blanket.`,
+    affiliate_links: [],
+    tags: ["astronomy","stargazing","night-sky","light-pollution","maps","science","travel","free"],
+    meta_description: "Light Pollution Map shows night-sky brightness worldwide from NASA satellite data and helps you find dark skies for stargazing. Free, ad-supported.",
+    editors_note: "❌ No affiliate — a one-person, ad-supported site with a paid ad-free app. Facts are from the site's help page as read on Nov 19: run by Jurij Stare, VIIRS purpose, modelled sky brightness, user measurements, aurora forecast, 'Find closest dark site' (not on phones), the accuracy limits quoted in the copy, ads since July 2019, passkey donations, paid ad-free app. The help page's data years are inconsistent (the download list runs through 2025; page metadata says 2012 to 2023); the copy only says trends over 2016 to 2025, as stated there. I did not use the map. Global pick. Dated Nov 24. Screenshot tip: the sky brightness overlay over a region.",
+  },
+
+  "2026-11-23": {
+    id: 218,
+    date: "2026-11-23",
+    slug: "etymonline",
+    headline: "WHY DO WE SAY IT THAT WAY? THIS ONE-MAN DICTIONARY TRACES WHERE WORDS CAME FROM.",
+    subheadline: "The Online Etymology Dictionary, created by Douglas Harper, tells the history of English words: where they came from, how they changed, and when they first showed up.",
+    site: {
+      name: "Online Etymology Dictionary",
+      url: "https://www.etymonline.com/",
+      screenshot: "/assets/issues/etymonline.png",
+      category: "Education / Words",
+      vibe: "Where did that word come from?",
+    },
+    body: `Every word has a past. The Online Etymology Dictionary is a place to look it up.
+
+It was created by Douglas Harper, who said in a 2015 interview that he began it around 2000 or 2001, probably 2001, while trying to learn the history of English words. Typing up what he learned helped him remember it, and the site became a place to store notes he would otherwise forget. He also said the name matches the Oxford English Dictionary's acronym, which he called "an amusing coincidence."
+
+**How it's made.** In that interview he described reading dictionaries and linguistics books early on, then using digital archives to check modern words and usages from after 1700. He said he edits entries against sources and goes back over them when he adds new books. He also said visitors send in theories and corrections every day, though many are easily disproved. At the time, he said the dictionary had "almost 50,000 entries," and that the work is "never-ending."
+
+**Honest notes:** that interview is from 2015, so I can't tell you today's entry count or how the site is run now. He was also candid that he can't "improve on anyone's Proto-Indo-European theory," meaning the oldest reconstructed origins are educated guesses; word histories can be disputed. I couldn't confirm how the site is funded or whether it carries ads, and I haven't tested its search. In 2015 he said the search engine had needed repairs for about ten years, which may no longer be true.
+
+Look up a word you use every day. Then follow the trail.`,
+    affiliate_links: [],
+    tags: ["words","etymology","language","english","dictionary","history","education","free"],
+    meta_description: "The Online Etymology Dictionary traces the history and origins of English words. Created by Douglas Harper around 2001.",
+    editors_note: "❌ No affiliate — I don't know of one; funding and ads not confirmed. The etymonline.com homepage could not be fetched, so facts come from a 2015 IMSE Journal Q&A with creator Douglas Harper (started about 2000-2001, probably 2001; 'almost 50,000 entries' as of 2015; sources; daily reader corrections; his own candor about Proto-Indo-European) and search snippets. The copy dates everything to 2015 and says so. I did not look up any word or check how the site looks today. Recommend screenshotting a word entry. Dated Nov 23.",
+  },
+
+  "2026-11-22": {
+    id: 217,
+    date: "2026-11-22",
+    slug: "bitdefender-link-checker",
+    headline: "THAT SHORT LINK IN YOUR TEXT MESSAGE COULD GO ANYWHERE. PASTE IT HERE BEFORE YOU CLICK.",
+    subheadline: "Bitdefender's free Link Checker expands shortened links to show where they lead, then scans the destination for scams, phishing and malware, so you can decide before you open it.",
+    site: {
+      name: "Bitdefender Link Checker",
+      url: "https://www.bitdefender.com/en-us/consumer/link-checker",
+      screenshot: "/assets/issues/bitdefender-link-checker.png",
+      category: "Tools / Safety",
+      vibe: "Look before you click",
+    },
+    body: `Shortened links hide where they lead. That's fine when a friend shares a recipe. It's less fine for an unexpected text about a package, a bank or a prize.
+
+Bitdefender Link Checker is a free tool from the security company Bitdefender. The page describes it as "a free tool designed to verify URLs" to help you avoid malware, phishing and counterfeit sites. You paste in a link and get a verdict within seconds.
+
+**How it works.** The page says "AI-powered 'small engines' scan the URL for potential threats," cross-check it against security databases, and analyze the site's behavior. Its FAQ lists scam signs such as suspicious domain names, recently created sites and known phishing patterns. It also says the tool expands shortened links to show their destination before scanning them, which is the part that matters most for a mystery link in a text message.
+
+**Honest notes:** Bitdefender's own FAQ says "no scanner is 100% foolproof," and that malicious links can look legitimate, so a clean result isn't a guarantee. The page doesn't clearly say whether you need an account, and using the tool means agreeing to Bitdefender's terms and privacy policy, which I didn't read. Bitdefender is a company that sells security software, and the page promotes a 30-day free trial of its product alongside other free tools, including one for checking suspicious emails and texts. I read the page as text and didn't test the tool.
+
+If a message you didn't expect asks you to log in, pay or "verify" something, skip the link entirely and go to the company's real website yourself. When you do want to check a link first, paste it here before you click.`,
+    affiliate_links: [],
+    tags: ["scams","phishing","links","safety","security","url","tools","free"],
+    meta_description: "Bitdefender's free Link Checker expands shortened links and scans the destination for scams, phishing and malware before you click.",
+    editors_note: "⚠️ Replaces CheckShortURL, which you showed me is suspended (OVHcloud 'Website unavailable' page on Nov 20). Bitdefender is a commercial security company, not a one-off tool; I don't know whether it has an affiliate program and did not look, so no affiliate link is included. Facts are from the Link Checker page as read on Nov 20 (text only): free tool, AI 'small engines', security-database cross-check, behavior analysis, verdict in seconds, scam signs listed in the FAQ, expands shortened URLs, 'no scanner is 100% foolproof', the free-trial promotion, and the terms and privacy agreement. The page doesn't clearly say whether an account is needed. I did not test it. Alternatives I found: urlscan.io (a free community tier that records what a page does, more technical). Dated Nov 22. Screenshot tip: the paste box.",
+  },
+
+  "2026-11-21": {
+    id: 216,
+    date: "2026-11-21",
+    slug: "marginalia-search",
+    headline: "SEARCH \"SOURDOUGH\" ON GOOGLE AND YOU GET ADS. SEARCH IT HERE AND YOU GET PEOPLE WHO ACTUALLY BAKE.",
+    subheadline: "Marginalia Search is a free search engine that leans toward personal blogs, hobby sites and forums instead of big commercial pages. It's a way to find what real people wrote about something they love.",
+    site: {
+      name: "Marginalia Search",
+      url: "https://marginalia-search.com/",
+      screenshot: "/assets/issues/marginalia-search.png",
+      category: "Tools / Web",
+      vibe: "A search engine for the web Google forgot",
+    },
+    body: `Type a topic into Google and you usually get the same thing: big companies, recipe sites with pop-ups, and ads. Marginalia Search is built to show you something different.
+
+**Try it with "sourdough."** A search for it returns a Wikipedia article first. Below that come a baker's personal blog post about starting a sourdough with the same formula as their basic bread, a hobbyist's home site explaining that sourdough is "two organisms, wild yeast and bacteria, in symbiosis," and a Lemmy community post from someone who says they "don't maintain my sourdough very strong." That's the pattern: ordinary people writing about what they care about, instead of a brand trying to sell you something.
+
+**What you can do on the page.** There are filter buttons for Blogs, Academia, Vintage, Small Web, Wikis, Forums and Recipes, so you can narrow the results to the kind of source you want. The settings include options to search in titles only, show recent results, remove JavaScript, reduce adtech and reduce NSFW results.
+
+**Who's behind it.** One person runs it, and the software is open source. Its about page says it's "designed to help you find some things you didn't even know you were looking for," and that it indexes hundreds of millions of documents. It says it collects no personal information, keeps access logs with IP addresses for up to 24 hours, and sometimes keeps anonymized logs longer to fix bugs.
+
+**Honest notes:** it isn't a Google replacement, and its own about page says that if you want facts you can trust, "this is almost certainly the wrong tool." The first result in our test was Wikipedia, so it isn't only small sites. Results can include unusual or offensive content. The page doesn't describe how the project is funded and doesn't mention ads.
+
+Try a hobby you love, a weird question, or the name of something you remember from years ago, and see who's still writing about it.`,
+    affiliate_links: [],
+    tags: ["search","small-web","independent-web","discovery","open-source","privacy","tools","free"],
+    meta_description: "Marginalia Search is a one-person, open-source search engine that surfaces small personal websites and long-form text instead of big commercial pages.",
+    editors_note: "❌ No affiliate — a one-person, open-source project. Rewritten Nov 20 after you sent a screenshot of a 'Sourdough' search, so the example, the result types (Wikipedia, a baker's blog, a personal home site, a Lemmy community post) and the filter and settings names now come from that screenshot. Other facts are from about.marginalia-search.com as read Nov 19: purpose, hundreds of millions of documents, single operator, open source, 24-hour IP logs, and the creator's own warning about trusting facts. The page doesn't describe funding or ads. I haven't run searches myself. Confirm that marginalia-search.com loads; an older address, search.marginalia.nu, also appeared. Your screenshot file is named marginalia-search.png, which matches the slug. Dated Nov 21.",
+  },
+
+  "2026-11-20": {
+    id: 215,
+    date: "2026-11-20",
+    slug: "sleeping-in-airports",
+    headline: "STUCK AT THE AIRPORT OVERNIGHT? SOMEONE HAS ALREADY REVIEWED WHERE TO SLEEP.",
+    subheadline: "Sleeping in Airports collects traveler guides, reviews and tips for airports around the world, so you know before you land whether there's a quiet corner, a lounge or a better idea nearby.",
+    site: {
+      name: "Sleeping in Airports",
+      url: "https://www.sleepinginairports.net/",
+      screenshot: "/assets/issues/sleeping-in-airports.png",
+      category: "Travel / Tools",
+      vibe: "A survival guide for the 3 a.m. layover",
+    },
+    body: `Every traveler has been there: a cancelled connection, a 5 a.m. flight, or a layover long enough to be miserable. Then you're sitting on a hard chair, wondering if the next terminal is any better.
+
+Sleeping in Airports says it began in 1994-95 when Donna McSherry slept in airports while travelling through Europe. In 1996 she put up a single page, "The Budget Traveller's Guide to Sleeping in Airports," with reviews of Dublin, Frankfurt and Geneva airports. According to the site, it grew through contributions from other travelers.
+
+**What you'll find.** Airport guides, sleep tips, hotel information, traveler reviews and photos for airports worldwide. The site says it covers "hundreds of airports," though it doesn't give an exact number, and that it now serves business travelers, families, digital nomads and stranded passengers, not only backpackers. The page was last modified in September 2026, which suggests it's still maintained.
+
+**Honest notes:** the site describes itself as "the world's leading guide," which is its own claim, not an independent ranking. The page doesn't explain how reviews are collected, checked or scored, or how often each airport guide is updated, so treat an individual guide as a starting point. Airports change their rules and layouts, and some restrict overnight stays. Check the airport's own website, or ask staff, if it matters. The page links to an affiliate disclosure, so the site probably earns money from some links; I didn't read it.
+
+Keep it on your phone for the next time a flight goes sideways.`,
+    affiliate_links: [],
+    tags: ["airports","travel","layover","sleep","budget-travel","tips","global","free"],
+    meta_description: "Sleeping in Airports offers traveler guides, reviews and tips on where to rest overnight at airports worldwide. Free to read.",
+    editors_note: "❌ No affiliate link added — the site links to its own 'Affiliate Disclosure' page, which I did not open, so it likely has affiliate arrangements; irrelevant to our copy. Facts are from the site's About page as read on Nov 19 (text only): founding story (1994-95, Donna McSherry, 1996 page with Dublin, Frankfurt and Geneva), 'hundreds of airports' (no exact count), audience, last modified 2026-09-17, and 'the world's leading guide' (labelled as its own claim). The page doesn't explain how reviews work or how often guides are updated, and the copy says so. I did not read any individual airport guide. Dated Nov 20.",
+  },
+
+  "2026-11-19": {
+    id: 214,
+    date: "2026-11-19",
+    slug: "zoom-earth",
+    headline: "A STORM IS COMING. HERE'S A LIVE MAP OF IT, WITH SATELLITE IMAGES, RAIN AND WIND.",
+    subheadline: "Zoom Earth is a free interactive map that tracks hurricanes, cyclones and storms, and layers on live satellite images, rain radar, and wind and temperature forecasts for anywhere on Earth.",
+    site: {
+      name: "Zoom Earth",
+      url: "https://zoom.earth/",
+      screenshot: "/assets/issues/zoom-earth.png",
+      category: "Science / Weather",
+      vibe: "The planet's weather, live, on one map",
+    },
+    body: `When a storm is heading your way, or a relative's, you want to see it, not read about it.
+
+Zoom Earth is built for that. Its page describes it as a way to "track hurricanes, cyclones, storms" and see live satellite images, rain maps, and forecast maps of wind and temperature for your location.
+
+**What's on the map.** Storm tracks for tropical systems, live satellite imagery from weather satellites run by the US, Europe and Japan, rain radar processed from sources around the world, wind and temperature forecasts from two weather models, and a layer of active fire incidents. You can search for a place or let it show your location, measure distances and areas, and loop the satellite view from 3 to 24 hours. There's also a mobile app for iPhone, iPad and Android.
+
+**Where the data comes from.** The site names its sources: NOAA, EUMETSAT and Japan's JMA for satellites, several official agencies for tropical storm tracks, and government fire agencies for incidents. It's run by a company called Neave Interactive Ltd.
+
+**Honest notes:** the site itself says "Do not use for the preservation of life or property!" and points users to their local authorities for current information. Take that seriously: if there's a storm warning where you live, follow your local emergency services first. The "heat spots" fire layer comes from NASA and is not live; the site warns that detections can be delayed by many hours and can come from things other than fires, such as agriculture. The page doesn't mention ads or pricing, and I read it as text rather than using it.
+
+Bookmark it before storm season, not during.`,
+    affiliate_links: [],
+    tags: ["weather","storms","hurricanes","satellite","radar","maps","safety","free"],
+    meta_description: "Zoom Earth is an interactive weather map with live satellite images, rain radar, storm tracks and forecasts for anywhere on Earth. Free, with mobile apps.",
+    editors_note: "❌ No affiliate — a free weather map run by Neave Interactive Ltd; no program that I know of. Facts are from the zoom.earth page as read on Nov 19 (text only): live satellite and radar, storm tracks, ICON and GFS forecasts, fire layer, 3–24 hour loops, mobile apps, and the page's own warnings ('Do not use for the preservation of life or property!' and 'Heat spots are not live!'). The page doesn't mention ads or pricing, and the copy says so. I did not use the site or test the apps. Global pick. Dated Nov 19 (earliest open date). Screenshot tip: a storm or satellite view.",
+  },
+
+  "2026-11-18": {
+    id: 213,
+    date: "2026-11-18",
+    slug: "beyond-blue",
+    headline: "FEELING LOW, ANXIOUS OR OVERWHELMED? AUSTRALIA'S BEYOND BLUE HAS SOMEONE TO TALK TO AT ANY HOUR.",
+    subheadline: "Beyond Blue is an Australian mental health organisation offering free, confidential phone and online chat counselling around the clock, anonymous peer forums, and a free coaching program for small business owners.",
+    site: {
+      name: "Beyond Blue",
+      url: "https://www.beyondblue.org.au/",
+      screenshot: "/assets/issues/beyond-blue.png",
+      category: "Health / Mental Health",
+      vibe: "A kind voice at 3 a.m., if you're in Australia",
+    },
+    body: `Plenty of people struggle quietly for a long time before they tell anyone. Beyond Blue is built for that first step.
+
+The site says it provides "information about anxiety, depression and suicide to the Australian community," with the aim that "all people in Australia achieve their best possible mental health."
+
+**Talk to someone.** The homepage says its support service is available 24/7 for brief counselling. You can call 1300 22 4636 or use the online chat. The page describes the service as free and confidential. "Brief counselling" means short-term support and a way to work out your next step, not ongoing therapy.
+
+**Read what other people say.** There are forums where you can read posts from other people anonymously, and if you sign up or log in, you can share your own experience.
+
+**For small business owners.** NewAccess for Small Business is described as a free coaching program of up to 8 sessions, by phone or video, for small business owners and sole traders who are dealing with stress and overwhelm.
+
+**For everyone else.** The page has dedicated links for First Nations people and the LGBTIQ+ community, a link marked "Urgent help," and a campaign with Australia Post called Connection Postcards, which encourages people to send handwritten notes to people they care about, including to rural and regional households.
+
+**Honest notes:** this is an Australian service, so the phone number and the support are for people in Australia. If you're elsewhere, your own country will have a similar line, such as 988 in the US. The site says it is not a substitute for professional medical advice and that you shouldn't delay seeking it because of what you read there. Beyond Blue isn't an emergency service. If you or someone else is in immediate danger in Australia, call 000.
+
+If a bad stretch is dragging on, or you're worried about someone, make the call or open the chat. Reaching out is a good first step, not an overreaction.`,
+    affiliate_links: [],
+    tags: ["mental-health", "anxiety", "depression", "support", "counselling", "free", "australia", "helpline"],
+    meta_description: "Beyond Blue offers free, confidential phone and online chat support 24/7, anonymous forums and free coaching for small business owners. Australia only.",
+    editors_note: "❌ No affiliate — a nonprofit with donation and volunteer links; nothing to affiliate. Australia only; the copy says so and points non-Australians to their own line (988 for the US). Sensitive topic, so the tone is plain and it says the site is not an emergency service. Facts are from the beyondblue.org.au homepage as read on Nov 18 (text only): the 1300 22 4636 number, 24/7 brief counselling by phone and chat, free and confidential, anonymous forums, NewAccess for Small Business (free, up to 8 sessions), the Australia Post Connection Postcards campaign, First Nations and LGBTIQ+ links, and the medical-advice disclaimer. The page text did not show Lifeline or 000. The 000 emergency line in the copy is Australia's standard emergency number, from my own knowledge, not from the page. I did not test the line or the chat, and the page doesn't say who funds or runs the organisation. Please confirm the 1300 22 4636 number works before publishing. Dated Nov 18 because it was the earliest open date. Screenshot tip: the homepage top section; avoid any forum posts.",
   },
 
   "2026-11-17": {
